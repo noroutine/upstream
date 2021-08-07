@@ -4,9 +4,17 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+registries:
+  dockerhub: # Define access for a private registry 
+    type: docker-registry
+    url: registry.hub.docker.com
+    username: noroutine
+    password: ${{secrets.DOCKERHUB_PASSWORD}}
 updates:
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries:
+      - dockerhub
     schedule:
       interval: "daily"
     open-pull-requests-limit: 100
