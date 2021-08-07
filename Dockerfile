@@ -58,7 +58,7 @@ FROM jupyterhub/k8s-secret-sync:1.0.1
 FROM jupyterhub/k8s-network-tools:1.1.2
 FROM jupyterhub/k8s-image-awaiter:1.0.1
 FROM jupyterhub/k8s-singleuser-sample:1.1.2
-FROM jupyterhub/configurable-http-proxy:4.4.0
+FROM jupyterhub/configurable-http-proxy:4.5.0
 FROM jupyter/repo2docker:2021.03.0-70.g43891a6
 FROM pihole/pihole:v5.8.1
 FROM yandex/clickhouse-server:21.7.6.39-alpine
