@@ -180,4 +180,4 @@ FROM quay.io/prometheus/node-exporter:v1.0.1
 FROM quay.io/prometheus/prometheus:v2.19.3
 FROM redis:5-alpine
 FROM summerwind/actions-runner-controller:v0.19.0
-FROM k8s.gcr.io/pause:3.4.1
+FROM k8s.gcr.io/pause:3.5
