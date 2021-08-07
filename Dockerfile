@@ -2,7 +2,7 @@ FROM debian:10.10-slim
 FROM ubuntu:focal-20210416
 FROM php:8.0.9-apache
 FROM golang:1.16.6-buster
-FROM alpine:3.14.0
+FROM alpine:3.14.1
 FROM golang:1.16.6-alpine3.14
 FROM traefik:v2.4.11
 FROM squidfunk/mkdocs-material:7.2.2
