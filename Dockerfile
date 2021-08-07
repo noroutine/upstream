@@ -138,7 +138,7 @@ FROM docker.io/bitnami/mysqld-exporter:0.13.0-debian-10-r56
 FROM docker.io/bitnami/node-exporter:1.1.2-debian-10-r90
 FROM docker.io/datawire/tel2:2.3.4
 FROM docker:dind
-FROM envoyproxy/envoy:v1.18.3
+FROM envoyproxy/envoy:v1.19.0
 FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.21.0
 FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.2.1
 FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.2.1
