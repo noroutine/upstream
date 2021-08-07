@@ -35,7 +35,7 @@ FROM docker.elastic.co/logstash/logstash:7.13.3
 FROM docker.elastic.co/kibana/kibana:7.13.3
 FROM alerta/alerta-web:8.5.0
 FROM mongo:4.4.6-bionic
-FROM wordpress:5.7.2-apache
+FROM wordpress:5.8.0-apache
 FROM dpage/pgadmin4:5.5
 FROM mysql:8.0.25
 FROM mariadb:10.6.3-focal
