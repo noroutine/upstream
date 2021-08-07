@@ -81,7 +81,7 @@ FROM jupyter/pyspark-notebook:hub-1.4.1
 FROM jupyter/all-spark-notebook:hub-1.4.1
 FROM rocker/shiny:4.1.0
 FROM caprover/caprover:1.9.0
-FROM sosedoff/pgweb:0.11.7
+FROM sosedoff/pgweb:0.11.8
 FROM ghcr.io/mikecao/umami:postgresql-6778772
 FROM bitnami/spark:3.1.2-debian-10-r31
 FROM bitnami/prometheus:2.28.1-debian-10-r11
