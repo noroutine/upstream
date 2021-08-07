@@ -125,7 +125,7 @@ FROM calico/cni:v3.8.4
 FROM calico/kube-controllers:v3.8.4
 FROM calico/node:v3.8.4
 FROM calico/pod2daemon-flexvol:v3.8.4
-FROM datawire/tel2:2.3.4
+FROM datawire/tel2:2.4.1-nightly-7062d502
 FROM docker.elastic.co/eck/eck-operator:1.7.0
 FROM docker.io/alpine:3.9
 FROM docker.io/bitnami/kube-state-metrics:2.1.0-debian-10-r0
@@ -136,7 +136,7 @@ FROM docker.io/bitnami/kubeapps-dashboard:2.3.3-debian-10-r2
 FROM docker.io/bitnami/kubeapps-kubeops:2.3.3-scratch-r0
 FROM docker.io/bitnami/mysqld-exporter:0.13.0-debian-10-r56
 FROM docker.io/bitnami/node-exporter:1.1.2-debian-10-r90
-FROM docker.io/datawire/tel2:2.3.4
+FROM docker.io/datawire/tel2:2.4.1-nightly-7062d502
 FROM docker:dind
 FROM envoyproxy/envoy:v1.18.3
 FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.21.0
