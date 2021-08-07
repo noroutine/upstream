@@ -1,5 +1,5 @@
 FROM debian:10.10-slim
-FROM ubuntu:focal-20210416
+FROM ubuntu:focal-20210723
 FROM php:8.0.9-apache
 FROM golang:1.16.7-buster
 FROM alpine:3.14.1
