@@ -165,7 +165,7 @@ FROM mailu/rspamd:1.8
 FROM mattermost/mattermost-team-edition:5.35
 FROM paulbouwer/hello-kubernetes:1.9
 FROM pravega/zookeeper-operator:0.2.12
-FROM pravega/zookeeper:0.2.8
+FROM pravega/zookeeper:0.2.12
 FROM quay.io/brancz/kube-rbac-proxy:v0.10.0
 FROM quay.io/coreos/kube-state-metrics:v1.9.7
 FROM quay.io/jetstack/cert-manager-cainjector:v1.4.3
