@@ -5,7 +5,7 @@ FROM golang:1.16.6-buster
 FROM alpine:3.14.0
 FROM golang:1.16.6-alpine3.14
 FROM traefik:v2.4.11
-FROM squidfunk/mkdocs-material:7.1.10
+FROM squidfunk/mkdocs-material:7.2.2
 FROM freeradius/freeradius-server:3.0.23-alpine
 FROM quay.io/keycloak/keycloak:15.0.1
 FROM postgres:13.3-buster
