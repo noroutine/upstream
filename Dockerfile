@@ -43,7 +43,7 @@ FROM mccutchen/go-httpbin:v2.2.0
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.1.3-amd64
 FROM heroku/heroku:20-build
 FROM heroku/heroku:20
-FROM heroku/procfile-cnb:0.6.2
+FROM heroku/procfile-cnb:0.7.1
 FROM paketobuildpacks/builder:full
 FROM paketobuildpacks/builder:base
 FROM paketobuildpacks/builder:tiny
