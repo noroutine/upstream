@@ -53,7 +53,7 @@ FROM gitlab/gitlab-runner:alpine-v14.1.0
 FROM gitlab/gitlab-ce:14.1.2-ce.0
 FROM jupyterhub/k8s-image-cleaner:0.2.0-n496.h988aca0
 FROM jupyterhub/k8s-binderhub:0.2.0-n609.h195837f
-FROM jupyterhub/k8s-hub:1.0.1
+FROM jupyterhub/k8s-hub:1.1.2
 FROM jupyterhub/k8s-secret-sync:1.0.1
 FROM jupyterhub/k8s-network-tools:1.1.2
 FROM jupyterhub/k8s-image-awaiter:1.0.1
