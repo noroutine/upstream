@@ -61,7 +61,7 @@ FROM jupyterhub/k8s-singleuser-sample:1.0.1
 FROM jupyterhub/configurable-http-proxy:4.4.0
 FROM jupyter/repo2docker:2021.03.0-70.g43891a6
 FROM pihole/pihole:v5.8.1
-FROM yandex/clickhouse-server:21.7.3.14-alpine
+FROM yandex/clickhouse-server:21.7.6.39-alpine
 FROM spoonest/clickhouse-tabix-web-client:stable
 FROM plausible/analytics:v1.3.0
 FROM verdaccio/verdaccio:5.1.2
