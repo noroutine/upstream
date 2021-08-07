@@ -100,7 +100,7 @@ FROM bitnami/bitnami-shell:10-debian-10-r133
 FROM bitnami/metallb-controller:0.10.2-debian-10-r28
 FROM bitnami/metallb-speaker:0.10.2-debian-10-r31
 FROM bitnami/grafana:8.1.0-debian-10-r1
-FROM minio/console:v0.7.5
+FROM minio/console:v0.8.3
 FROM kutt/kutt:2.7.2
 FROM drakkan/sftpgo:v2.1.0
 FROM hasura/graphql-engine:v2.0.5
