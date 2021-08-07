@@ -112,7 +112,7 @@ FROM redis:6.2.5-buster
 
 # unmanaged k8s images
 FROM alpine:3.9
-FROM bitnami/kube-state-metrics:2.1.0-debian-10-r0
+FROM bitnami/kube-state-metrics:2.1.1-debian-10-r0
 FROM bitnami/kubeapps-apprepository-controller:2.3.3-scratch-r0
 FROM bitnami/kubeapps-asset-syncer:2.3.3-scratch-r0
 FROM bitnami/kubeapps-assetsvc:2.3.3-scratch-r0
@@ -128,7 +128,7 @@ FROM calico/pod2daemon-flexvol:v3.8.4
 FROM datawire/tel2:2.3.4
 FROM docker.elastic.co/eck/eck-operator:1.7.0
 FROM docker.io/alpine:3.9
-FROM docker.io/bitnami/kube-state-metrics:2.1.0-debian-10-r0
+FROM docker.io/bitnami/kube-state-metrics:2.1.1-debian-10-r0
 FROM docker.io/bitnami/kubeapps-apprepository-controller:2.3.3-scratch-r0
 FROM docker.io/bitnami/kubeapps-asset-syncer:2.3.3-scratch-r0
 FROM docker.io/bitnami/kubeapps-assetsvc:2.3.3-scratch-r0
