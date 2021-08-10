@@ -38,7 +38,7 @@ FROM mongo:4.4.6-bionic
 FROM wordpress:5.8.0-apache
 FROM dpage/pgadmin4:5.5
 FROM mysql:8.0.26
-FROM mariadb:10.6.3-focal
+FROM mariadb:10.6.4-focal
 FROM mccutchen/go-httpbin:v2.2.2
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.1.3-amd64
 FROM heroku/heroku:20-build
