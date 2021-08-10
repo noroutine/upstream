@@ -72,7 +72,7 @@ FROM matomo:4.4.1-apache
 FROM nocodb/nocodb:0.11.11
 FROM docker:20.10.8-dind
 FROM jupyter/base-notebook:hub-1.4.2
-FROM jupyter/minimal-notebook:hub-1.4.1
+FROM jupyter/minimal-notebook:hub-1.4.2
 FROM jupyter/r-notebook:hub-1.4.1
 FROM jupyter/scipy-notebook:hub-1.4.2
 FROM jupyter/tensorflow-notebook:hub-1.4.1
