@@ -176,7 +176,7 @@ FROM quay.io/k8scsi/csi-node-driver-registrar:v2.1.0
 FROM quay.io/k8scsi/csi-provisioner:v2.1.0
 FROM quay.io/k8scsi/csi-resizer:v1.1.0
 FROM quay.io/k8scsi/livenessprobe:v2.2.0
-FROM quay.io/prometheus/node-exporter:v1.0.1
+FROM quay.io/prometheus/node-exporter:v1.2.2
 FROM quay.io/prometheus/prometheus:v2.19.3
 FROM redis:5-alpine
 FROM summerwind/actions-runner-controller:v0.19.0
