@@ -79,7 +79,7 @@ FROM jupyter/tensorflow-notebook:hub-1.4.2
 FROM jupyter/datascience-notebook:hub-1.4.2
 FROM jupyter/pyspark-notebook:hub-1.4.2
 FROM jupyter/all-spark-notebook:hub-1.4.2
-FROM rocker/shiny:4.1.0
+FROM rocker/shiny:4.1.1
 FROM caprover/caprover:1.9.0
 FROM ghcr.io/mikecao/umami:postgresql-6778772
 FROM bitnami/spark:3.1.2-debian-10-r53
