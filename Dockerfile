@@ -148,7 +148,7 @@ FROM ghcr.io/banzaicloud/jmx-javaagent:0.15.0
 FROM ghcr.io/banzaicloud/kafka-operator:v0.17.0
 FROM ghcr.io/banzaicloud/kafka:2.13-2.8.0
 FROM k8s.gcr.io/coredns/coredns:v1.8.4
-FROM k8s.gcr.io/etcd:3.4.13-0
+FROM k8s.gcr.io/etcd:3.4.13-3
 FROM k8s.gcr.io/kube-apiserver:v1.22.0
 FROM k8s.gcr.io/kube-controller-manager:v1.21.3
 FROM k8s.gcr.io/kube-proxy:v1.22.0
