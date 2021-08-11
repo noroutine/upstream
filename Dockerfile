@@ -143,7 +143,7 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.21.0
 FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.2.1
 FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.2.1
 FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
-FROM ghcr.io/banzaicloud/cruise-control:2.5.37
+FROM ghcr.io/banzaicloud/cruise-control:2.5.53
 FROM ghcr.io/banzaicloud/jmx-javaagent:0.15.0
 FROM ghcr.io/banzaicloud/kafka-operator:v0.17.0
 FROM ghcr.io/banzaicloud/kafka:2.13-2.8.0
