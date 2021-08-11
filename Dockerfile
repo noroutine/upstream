@@ -102,7 +102,7 @@ FROM bitnami/grafana:8.1.1-debian-10-r1
 FROM minio/console:v0.8.3
 FROM kutt/kutt:2.7.2
 FROM drakkan/sftpgo:v2.1.0
-FROM hasura/graphql-engine:v2.0.5
+FROM hasura/graphql-engine:v2.0.6
 FROM paulbouwer/hello-kubernetes:1.10.0
 FROM stakater/reloader:v0.0.99
 FROM registry:2.7.1
