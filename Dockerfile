@@ -98,7 +98,7 @@ FROM bitnami/minio-client:2021.7.27-debian-10-r11
 FROM bitnami/bitnami-shell:10-debian-10-r154
 FROM bitnami/metallb-controller:0.10.2-debian-10-r46
 FROM bitnami/metallb-speaker:0.10.2-debian-10-r50
-FROM bitnami/grafana:8.1.0-debian-10-r1
+FROM bitnami/grafana:8.1.1-debian-10-r1
 FROM minio/console:v0.8.3
 FROM kutt/kutt:2.7.2
 FROM drakkan/sftpgo:v2.1.0
