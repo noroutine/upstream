@@ -152,9 +152,9 @@ FROM k8s.gcr.io/etcd:3.4.13-3
 FROM k8s.gcr.io/kube-apiserver:v1.22.0
 FROM k8s.gcr.io/kube-controller-manager:v1.22.0
 FROM k8s.gcr.io/kube-proxy:v1.22.0
-FROM k8s.gcr.io/kube-scheduler:v1.16.15
-FROM k8s.gcr.io/kube-scheduler:v1.19.10
-FROM k8s.gcr.io/kube-scheduler:v1.21.3
+FROM k8s.gcr.io/kube-scheduler:v1.22.0
+FROM k8s.gcr.io/kube-scheduler:v1.22.0
+FROM k8s.gcr.io/kube-scheduler:v1.22.0
 FROM mailu/admin:1.8
 FROM mailu/clamav:1.8
 FROM mailu/dovecot:1.8
