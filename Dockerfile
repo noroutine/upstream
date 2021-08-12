@@ -124,7 +124,7 @@ FROM busybox:1.31.0
 FROM calico/cni:v3.8.4
 FROM calico/kube-controllers:v3.8.4
 FROM calico/node:v3.8.4
-FROM calico/pod2daemon-flexvol:v3.8.4
+FROM calico/pod2daemon-flexvol:v3.20.0
 FROM datawire/tel2:2.3.4
 FROM docker.elastic.co/eck/eck-operator:1.7.0
 FROM docker.io/alpine:3.9
