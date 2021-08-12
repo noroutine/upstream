@@ -99,6 +99,12 @@ FROM bitnami/bitnami-shell:10-debian-10-r154
 FROM bitnami/metallb-controller:0.10.2-debian-10-r46
 FROM bitnami/metallb-speaker:0.10.2-debian-10-r50
 FROM bitnami/grafana:8.1.1-debian-10-r1
+FROM bitnami/kubeapps-dashboard:2.3.3-debian-10-r31
+FROM bitnami/kubeapps-apprepository-controller:2.3.3-scratch-r0
+FROM bitnami/kubeapps-asset-syncer:2.3.3-scratch-r0
+FROM bitnami/kubeapps-kubeops:2.3.3-scratch-r0
+FROM bitnami/kubeapps-assetsvc:2.3.3-scratch-r0
+FROM bitnami/kubeapps-pinniped-proxy:2.3.3-debian-10-r32
 FROM minio/console:v0.8.3
 FROM kutt/kutt:2.7.2
 FROM drakkan/sftpgo:v2.1.0
@@ -109,6 +115,7 @@ FROM registry:2.7.1
 FROM ghcr.io/dexidp/dex:v2.30.0
 FROM quay.io/argoproj/argocd:v2.1.0-rc2
 FROM redis:6.2.5-buster
+FROM listmonk/listmonk:v1.1.0
 
 # unmanaged k8s images
 FROM alpine:3.9
