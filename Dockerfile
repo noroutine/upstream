@@ -121,7 +121,7 @@ FROM bitnami/kubeapps-kubeops:2.3.3-scratch-r0
 FROM bitnami/mysqld-exporter:0.13.0-debian-10-r56
 FROM bitnami/node-exporter:1.1.2-debian-10-r90
 FROM busybox:1.31.0
-FROM calico/cni:v3.8.4
+FROM calico/cni:v3.20.0
 FROM calico/kube-controllers:v3.20.0
 FROM calico/node:v3.8.4
 FROM calico/pod2daemon-flexvol:v3.20.0
