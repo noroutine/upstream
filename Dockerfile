@@ -188,3 +188,5 @@ FROM quay.io/prometheus/prometheus:v2.19.3
 FROM redis:5-alpine
 FROM summerwind/actions-runner-controller:v0.19.0
 FROM k8s.gcr.io/pause:3.5
+
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.0.0
