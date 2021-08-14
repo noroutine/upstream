@@ -190,4 +190,4 @@ FROM summerwind/actions-runner-controller:v0.19.0
 FROM k8s.gcr.io/pause:3.5
 
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.3.1
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.6.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.12.0
