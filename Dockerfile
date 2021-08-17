@@ -143,7 +143,7 @@ FROM mailu/nginx:1.8
 FROM mailu/postfix:1.8
 FROM mailu/roundcube:1.8
 FROM mailu/rspamd:1.8
-FROM mattermost/mattermost-team-edition:5.35
+FROM mattermost/mattermost-team-edition:5.37.1
 FROM quay.io/brancz/kube-rbac-proxy:v0.10.0
 FROM quay.io/coreos/kube-state-metrics:v1.9.7
 FROM quay.io/jetstack/cert-manager-cainjector:v1.4.3
