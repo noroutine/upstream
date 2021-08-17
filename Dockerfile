@@ -1,5 +1,5 @@
 # Managed dependencies
-FROM debian:10.10-slim
+FROM debian:11.0-slim
 FROM ubuntu:focal-20210723
 FROM php:8.0.9-apache
 FROM alpine:3.14.1
