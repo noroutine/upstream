@@ -3,7 +3,7 @@ FROM debian:10.10-slim
 FROM ubuntu:focal-20210723
 FROM php:8.0.9-apache
 FROM alpine:3.14.1
-FROM golang:1.16.7-buster
+FROM golang:1.17.0-buster
 FROM traefik:v2.4.14
 FROM squidfunk/mkdocs-material:7.2.4
 FROM freeradius/freeradius-server:3.0.23-alpine
