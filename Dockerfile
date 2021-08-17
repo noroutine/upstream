@@ -151,7 +151,7 @@ FROM quay.io/jetstack/cert-manager-controller:v1.4.3
 FROM quay.io/jetstack/cert-manager-webhook:v1.4.3
 FROM quay.io/k8scsi/csi-attacher:v3.1.0
 FROM quay.io/k8scsi/csi-node-driver-registrar:v2.1.0
-FROM quay.io/k8scsi/csi-provisioner:v2.1.0
+FROM quay.io/k8scsi/csi-provisioner:v2.1.1
 FROM quay.io/k8scsi/csi-resizer:v1.1.0
 FROM quay.io/k8scsi/livenessprobe:v2.2.0
 FROM summerwind/actions-runner-controller:v0.19.0
