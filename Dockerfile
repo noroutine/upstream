@@ -134,8 +134,6 @@ FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
 FROM k8s.gcr.io/coredns/coredns:v1.8.4
 FROM k8s.gcr.io/etcd:3.4.13-3
 FROM k8s.gcr.io/kube-apiserver:v1.22.0
-FROM k8s.gcr.io/kube-controller-manager:v1.22.0
-FROM k8s.gcr.io/kube-proxy:v1.22.0
 FROM mailu/admin:1.8
 FROM mailu/clamav:1.8
 FROM mailu/dovecot:1.8
@@ -143,16 +141,5 @@ FROM mailu/nginx:1.8
 FROM mailu/postfix:1.8
 FROM mailu/roundcube:1.8
 FROM mailu/rspamd:1.8
-FROM mattermost/mattermost-team-edition:5.35
-FROM quay.io/brancz/kube-rbac-proxy:v0.10.0
-FROM quay.io/coreos/kube-state-metrics:v1.9.7
-FROM quay.io/jetstack/cert-manager-cainjector:v1.4.3
-FROM quay.io/jetstack/cert-manager-controller:v1.4.3
-FROM quay.io/jetstack/cert-manager-webhook:v1.4.3
-FROM quay.io/k8scsi/csi-attacher:v3.1.0
-FROM quay.io/k8scsi/csi-node-driver-registrar:v2.1.0
-FROM quay.io/k8scsi/csi-provisioner:v2.1.0
-FROM quay.io/k8scsi/csi-resizer:v1.1.0
-FROM quay.io/k8scsi/livenessprobe:v2.2.0
 FROM summerwind/actions-runner-controller:v0.19.0
 FROM k8s.gcr.io/pause:3.5
