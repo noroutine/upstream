@@ -10,7 +10,7 @@ FROM golang:1.17.0-buster
 FROM traefik:v2.5.1
 FROM squidfunk/mkdocs-material:7.2.4
 FROM freeradius/freeradius-server:3.0.23-alpine
-FROM quay.io/keycloak/keycloak:15.0.1
+FROM quay.io/keycloak/keycloak:15.0.2
 FROM postgres:13.4-buster
 FROM atlassian/jira-software:8.18.1
 FROM tvial/docker-mailserver:release-v7.2.0
