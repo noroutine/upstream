@@ -105,7 +105,7 @@ FROM bitnami/grafana:8.1.1-debian-10-r7
 FROM bitnami/kube-state-metrics:2.1.1-debian-10-r18
 FROM bitnami/metrics-server:0.5.0-debian-10-r75
 FROM bitnami/kubeapps-dashboard:2.3.3-debian-10-r36
-FROM bitnami/kubeapps-apprepository-controller:2.3.3-scratch-r0
+FROM bitnami/kubeapps-apprepository-controller:2.3.4-scratch-r0
 FROM bitnami/kubeapps-asset-syncer:2.3.4-scratch-r0
 FROM bitnami/kubeapps-kubeops:2.3.3-scratch-r0
 FROM bitnami/kubeapps-assetsvc:2.3.3-scratch-r0
