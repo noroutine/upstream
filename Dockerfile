@@ -129,7 +129,7 @@ FROM bitnami/mysqld-exporter:0.13.0-debian-10-r56
 FROM bitnami/node-exporter:1.1.2-debian-10-r90
 FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.21.0
 FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.2.1
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.2.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.3.0
 FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
 FROM k8s.gcr.io/coredns/coredns:v1.8.4
 FROM k8s.gcr.io/etcd:3.4.13-3
