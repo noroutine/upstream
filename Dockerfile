@@ -59,7 +59,7 @@ FROM jupyterhub/k8s-binderhub:0.2.0-n609.h195837f
 FROM jupyterhub/k8s-hub:1.1.3
 FROM jupyterhub/k8s-secret-sync:1.1.2
 FROM jupyterhub/k8s-network-tools:1.1.2
-FROM jupyterhub/k8s-image-awaiter:1.1.2
+FROM jupyterhub/k8s-image-awaiter:1.1.3
 FROM jupyterhub/k8s-singleuser-sample:1.1.3
 FROM jupyterhub/configurable-http-proxy:4.5.0
 FROM jupyter/repo2docker:2021.03.0-70.g43891a6
