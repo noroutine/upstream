@@ -18,7 +18,7 @@ FROM nextcloud:22.1.0-apache
 FROM haproxytech/haproxy-debian:2.4.3
 FROM minio/minio:RELEASE.2021-07-12T02-44-53Z
 FROM quay.io/coreos/etcd:v3.5.0
-FROM prom/prometheus:v2.29.1
+FROM prom/prometheus:v2.29.2
 FROM prom/alertmanager:v0.23.0
 FROM prom/node-exporter:v1.2.2
 FROM prom/consul-exporter:v0.7.1
