@@ -5,7 +5,7 @@ FROM debian:10.10-slim
 FROM debian:11.0-slim
 FROM ubuntu:focal-20210723
 FROM alpine:3.14.1
-FROM php:8.0.9-apache
+FROM php:8.1.0beta3-apache
 FROM golang:1.17.0-buster
 FROM traefik:v2.5.1
 FROM squidfunk/mkdocs-material:7.2.5
