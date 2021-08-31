@@ -1,9 +1,9 @@
 # Managed dependencies
-FROM ubuntu:focal-20210723
-FROM ubuntu:focal
+FROM ubuntu:focal-20210827
+FROM ubuntu:focal-20210827
 FROM debian:10.10-slim
 FROM debian:11.0-slim
-FROM ubuntu:focal-20210723
+FROM ubuntu:focal-20210827
 FROM alpine:3.14.2
 FROM php:8.0.10-apache
 FROM golang:1.17.0-buster
