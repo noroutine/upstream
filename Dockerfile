@@ -142,4 +142,4 @@ FROM mailu/postfix:1.8
 FROM mailu/roundcube:1.8
 FROM mailu/rspamd:1.8
 FROM summerwind/actions-runner-controller:v0.19.0
-FROM k8s.gcr.io/pause:3.5
+FROM k8s.gcr.io/pause:3.6
