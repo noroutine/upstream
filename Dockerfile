@@ -108,7 +108,7 @@ FROM bitnami/kubeapps-dashboard:2.3.3-debian-10-r36
 FROM bitnami/kubeapps-apprepository-controller:2.3.4-scratch-r0
 FROM bitnami/kubeapps-asset-syncer:2.3.4-scratch-r0
 FROM bitnami/kubeapps-kubeops:2.3.4-scratch-r0
-FROM bitnami/kubeapps-assetsvc:2.3.4-scratch-r0
+FROM bitnami/kubeapps-assetsvc:2.4.0-scratch-r0
 FROM bitnami/kubeapps-pinniped-proxy:2.3.3-debian-10-r37
 FROM minio/console:v0.9.5
 FROM kutt/kutt:2.7.2
