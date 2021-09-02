@@ -34,7 +34,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.40.0
 FROM lmierzwa/karma:v0.90
 FROM quay.io/cortexproject/cortex:v1.9.0
 FROM docker.elastic.co/elasticsearch/elasticsearch:7.14.0
-FROM docker.elastic.co/logstash/logstash:7.14.0
+FROM docker.elastic.co/logstash/logstash:7.14.1
 FROM docker.elastic.co/kibana/kibana:7.14.0
 FROM alerta/alerta-web:8.5.0
 FROM mongo:4.4.6-bionic
