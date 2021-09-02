@@ -8,7 +8,7 @@ FROM alpine:3.14.2
 FROM php:8.0.10-apache
 FROM golang:1.17.0-buster
 FROM traefik:v2.5.1
-FROM squidfunk/mkdocs-material:7.2.5
+FROM squidfunk/mkdocs-material:7.2.6
 FROM freeradius/freeradius-server:3.0.23-alpine
 FROM quay.io/keycloak/keycloak:15.0.2
 FROM postgres:13.4-buster
