@@ -3,7 +3,7 @@ FROM debian:11.0-slim
 FROM ubuntu:focal-20210827
 FROM alpine:3.14.2
 FROM golang:1.17.0-buster
-FROM traefik:v2.5.1
+FROM traefik:v2.5.2
 FROM squidfunk/mkdocs-material:7.2.6
 FROM freeradius/freeradius-server:3.0.23-alpine
 FROM quay.io/keycloak/keycloak:15.0.2
