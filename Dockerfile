@@ -129,7 +129,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.3.0
 FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
 FROM k8s.gcr.io/coredns/coredns:v1.8.4
 FROM k8s.gcr.io/etcd:3.4.13-3
-FROM k8s.gcr.io/kube-apiserver:v1.22.0
+FROM k8s.gcr.io/kube-apiserver:v1.22.2
 FROM mailu/admin:1.8
 FROM mailu/clamav:1.8
 FROM mailu/dovecot:1.8
