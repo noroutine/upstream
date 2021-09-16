@@ -97,7 +97,7 @@ FROM bitnami/minio-client:2021.7.27-debian-10-r20
 FROM bitnami/bitnami-shell:10-debian-10-r164
 FROM bitnami/metallb-controller:0.10.2-debian-10-r56
 FROM bitnami/metallb-speaker:0.10.2-debian-10-r60
-FROM bitnami/grafana:8.1.2-debian-10-r7
+FROM bitnami/grafana:8.1.3-debian-10-r7
 FROM bitnami/kube-state-metrics:2.1.1-debian-10-r18
 FROM bitnami/metrics-server:0.5.0-debian-10-r75
 FROM bitnami/kubeapps-dashboard:2.3.3-debian-10-r36
