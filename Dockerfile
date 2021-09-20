@@ -68,7 +68,7 @@ FROM strapi/strapi:3.6.8-alpine
 FROM ghost:4.12.1
 FROM bitnami/ghost:4.12.1-debian-10-r2
 FROM matomo:4.4.1-apache
-FROM nocodb/nocodb:0.11.29
+FROM nocodb/nocodb:0.11.32
 FROM docker:20.10.8-dind
 FROM jupyter/base-notebook:hub-1.4.2
 FROM jupyter/minimal-notebook:hub-1.4.2
