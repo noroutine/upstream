@@ -116,7 +116,7 @@ FROM registry:2.7.1
 FROM ghcr.io/dexidp/dex:v2.30.0
 FROM quay.io/argoproj/argocd:v2.1.0-rc3
 FROM redis:6.2.5-buster
-FROM listmonk/listmonk:v1.1.0
+FROM listmonk/listmonk:v2.0.0
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.4.0
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.13.0
 
