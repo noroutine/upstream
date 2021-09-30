@@ -48,7 +48,7 @@ FROM paketobuildpacks/builder:base
 FROM paketobuildpacks/builder:tiny
 FROM paketobuildpacks/run:full-cnb
 FROM buildpacksio/lifecycle:0.11.4
-FROM gitlab/gitlab-runner:alpine-v14.3.0
+FROM gitlab/gitlab-runner:alpine-v14.3.1
 FROM gitlab/gitlab-ce:14.3.0-ce.0
 FROM jupyterhub/k8s-image-cleaner:0.2.0-n496.h988aca0
 FROM jupyterhub/k8s-binderhub:0.2.0-n609.h195837f
