@@ -10,7 +10,7 @@ FROM quay.io/keycloak/keycloak:15.0.2
 FROM postgres:13.4-buster
 FROM atlassian/jira-software:8.19.1
 FROM tvial/docker-mailserver:release-v7.2.0
-FROM nextcloud:22.1.1-apache
+FROM nextcloud:22.2.0-apache
 FROM haproxytech/haproxy-debian:2.4.4
 FROM minio/minio:RELEASE.2021-07-12T02-44-53Z
 FROM quay.io/coreos/etcd:v3.5.0
