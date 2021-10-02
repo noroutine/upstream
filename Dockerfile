@@ -111,7 +111,7 @@ FROM kutt/kutt:v2.7.3
 FROM drakkan/sftpgo:v2.1.2
 FROM hasura/graphql-engine:v2.0.9
 FROM paulbouwer/hello-kubernetes:1.10.0
-FROM stakater/reloader:v0.0.99
+FROM stakater/reloader:v0.0.100
 FROM registry:2.7.1
 FROM ghcr.io/dexidp/dex:v2.30.0
 FROM quay.io/argoproj/argocd:v2.1.0-rc3
