@@ -88,7 +88,7 @@ FROM bitnami/redis:6.2.5-debian-10-r24
 FROM bitnami/postgresql:11.13.0-debian-10-r4
 FROM bitnami/postgresql:13.4.0-debian-10-r4
 FROM bitnami/keycloak:14.0.0-debian-10-r36
-FROM bitnami/mariadb:10.5.12-debian-10-r10
+FROM bitnami/mariadb:10.6.4-debian-10-r10
 FROM bitnami/mongodb:4.4.8-debian-10-r15
 FROM bitnami/nginx-ingress-controller:0.48.1-debian-10-r30
 FROM bitnami/nginx:1.21.1-debian-10-r38
