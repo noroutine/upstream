@@ -26,7 +26,7 @@ FROM quay.io/m3db/m3coordinator:v1.1.0
 FROM quay.io/m3db/m3dbnode:v1.1.0
 FROM braedon/prometheus-es-exporter:0.14.0
 FROM ribbybibby/ssl-exporter:v2.3.1
-FROM gcr.io/cadvisor/cadvisor:v0.40.0
+FROM gcr.io/cadvisor/cadvisor:v0.42.0
 FROM lmierzwa/karma:v0.92
 FROM quay.io/cortexproject/cortex:v1.9.0
 FROM docker.elastic.co/elasticsearch/elasticsearch:7.15.0
