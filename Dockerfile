@@ -36,7 +36,7 @@ FROM alerta/alerta-web:8.5.0
 FROM mongo:4.4.6-bionic
 FROM wordpress:5.8.1-apache
 FROM dpage/pgadmin4:5.7
-FROM mysql:8.0.26
+FROM mysql:8.0.27
 FROM mariadb:10.6.4-focal
 FROM mccutchen/go-httpbin:v2.2.2
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.1.3-amd64
