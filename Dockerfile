@@ -102,7 +102,7 @@ FROM bitnami/kube-state-metrics:2.2.0-debian-10-r18
 FROM bitnami/metrics-server:0.5.0-debian-10-r75
 FROM bitnami/kubeapps-dashboard:2.3.3-debian-10-r36
 FROM bitnami/kubeapps-apprepository-controller:2.4.0-scratch-r0
-FROM bitnami/kubeapps-asset-syncer:2.4.0-scratch-r0
+FROM bitnami/kubeapps-asset-syncer:2.4.1-scratch-r0
 FROM bitnami/kubeapps-kubeops:2.4.0-scratch-r0
 FROM bitnami/kubeapps-assetsvc:2.4.0-scratch-r0
 FROM bitnami/kubeapps-pinniped-proxy:2.3.3-debian-10-r37
