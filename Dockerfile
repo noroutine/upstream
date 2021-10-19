@@ -20,7 +20,7 @@ FROM prom/node-exporter:v1.2.2
 FROM prom/consul-exporter:v0.7.1
 FROM prom/blackbox-exporter:v0.19.0
 FROM prom/snmp-exporter:v0.20.0
-FROM prom/pushgateway:v1.4.1
+FROM prom/pushgateway:v1.4.2
 FROM grafana/grafana:8.2.1
 FROM quay.io/m3db/m3coordinator:v1.1.0
 FROM quay.io/m3db/m3dbnode:v1.1.0
