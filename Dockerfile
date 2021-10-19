@@ -110,7 +110,7 @@ FROM minio/console:v0.10.4
 FROM kutt/kutt:v2.7.3
 FROM drakkan/sftpgo:v2.1.2
 FROM hasura/graphql-engine:v2.0.9
-FROM paulbouwer/hello-kubernetes:1.10.0
+FROM paulbouwer/hello-kubernetes:1.10.1
 FROM stakater/reloader:v0.0.102
 FROM registry:2.7.1
 FROM ghcr.io/dexidp/dex:v2.30.0
