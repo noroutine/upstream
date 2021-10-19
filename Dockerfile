@@ -67,7 +67,7 @@ FROM verdaccio/verdaccio:5.1.6
 FROM strapi/strapi:3.6.8-alpine
 FROM ghost:4.19.1
 FROM bitnami/ghost:4.19.0-debian-10-r2
-FROM matomo:4.4.1-apache
+FROM matomo:4.5.0-apache
 FROM nocodb/nocodb:0.11.46
 FROM docker:20.10.9-dind
 FROM jupyter/base-notebook:hub-1.4.2
