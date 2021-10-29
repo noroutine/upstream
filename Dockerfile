@@ -93,7 +93,7 @@ FROM bitnami/mongodb:4.4.10-debian-10-r15
 FROM bitnami/nginx-ingress-controller:0.48.1-debian-10-r30
 FROM bitnami/nginx:1.21.3-debian-10-r38
 FROM bitnami/minio:2021.6.17-debian-10-r50
-FROM bitnami/minio-client:2021.9.2-debian-10-r20
+FROM bitnami/minio-client:2021.10.7-debian-10-r20
 FROM bitnami/bitnami-shell:10-debian-10-r164
 FROM bitnami/metallb-controller:0.10.2-debian-10-r56
 FROM bitnami/metallb-speaker:0.10.2-debian-10-r60
