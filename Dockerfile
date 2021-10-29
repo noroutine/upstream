@@ -69,7 +69,7 @@ FROM ghost:4.20.4
 FROM bitnami/ghost:4.19.1-debian-10-r2
 FROM matomo:4.5.0-apache
 FROM nocodb/nocodb:0.11.46
-FROM docker:20.10.9-dind
+FROM docker:20.10.10-dind
 FROM jupyter/base-notebook:hub-1.4.2
 FROM jupyter/minimal-notebook:hub-1.4.2
 FROM jupyter/r-notebook:hub-1.4.2
