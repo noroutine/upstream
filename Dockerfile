@@ -62,7 +62,7 @@ FROM jupyter/repo2docker:2021.03.0-70.g43891a6
 FROM pihole/pihole:v5.8.1
 FROM yandex/clickhouse-server:21.10.2.15-alpine
 FROM spoonest/clickhouse-tabix-web-client:stable
-FROM plausible/analytics:v1.3.0
+FROM plausible/analytics:v1.4.0
 FROM verdaccio/verdaccio:5.2.0
 FROM strapi/strapi:3.6.8-alpine
 FROM ghost:4.20.4
