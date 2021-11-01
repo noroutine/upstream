@@ -98,7 +98,7 @@ FROM bitnami/bitnami-shell:10-debian-10-r164
 FROM bitnami/metallb-controller:0.10.2-debian-10-r56
 FROM bitnami/metallb-speaker:0.10.2-debian-10-r60
 FROM bitnami/grafana:8.2.2-debian-10-r7
-FROM bitnami/kube-state-metrics:2.2.0-debian-10-r18
+FROM bitnami/kube-state-metrics:2.2.3-debian-10-r18
 FROM bitnami/metrics-server:0.5.0-debian-10-r75
 FROM bitnami/kubeapps-dashboard:2.3.3-debian-10-r36
 FROM bitnami/kubeapps-apprepository-controller:2.4.1-scratch-r0
