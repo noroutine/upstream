@@ -2,7 +2,7 @@
 FROM debian:11.1-slim
 FROM ubuntu:focal-20211006
 FROM alpine:3.14.2
-FROM golang:1.17.2-buster
+FROM golang:1.17.3-buster
 FROM traefik:v2.5.3
 FROM squidfunk/mkdocs-material:7.3.6
 FROM freeradius/freeradius-server:3.0.25-alpine
