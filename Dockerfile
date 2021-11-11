@@ -70,7 +70,7 @@ FROM plausible/analytics:v1.4.0
 FROM verdaccio/verdaccio:5.2.0
 FROM strapi/strapi:3.6.8-alpine
 FROM ghost:4.21.0
-FROM bitnami/ghost:4.22.0-debian-10-r0
+FROM bitnami/ghost:4.22.1-debian-10-r0
 FROM matomo:4.5.0-apache
 FROM nocodb/nocodb:0.81.1
 FROM docker:20.10.10-dind
