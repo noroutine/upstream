@@ -117,7 +117,7 @@ FROM hasura/graphql-engine:v2.0.10
 FROM paulbouwer/hello-kubernetes:1.10.1
 FROM stakater/reloader:v0.0.102
 FROM registry:2.7.1
-FROM ghcr.io/dexidp/dex:v2.30.0
+FROM ghcr.io/dexidp/dex:v2.30.2
 FROM quay.io/argoproj/argocd:v2.1.6
 FROM redis:6.2.6-bullseye
 FROM listmonk/listmonk:v2.0.0
