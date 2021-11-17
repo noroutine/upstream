@@ -75,7 +75,7 @@ FROM nocodb/nocodb:0.82.0
 FROM docker:20.10.10-dind
 FROM jupyter/base-notebook:hub-1.5.0
 FROM jupyter/minimal-notebook:hub-1.4.2
-FROM jupyter/r-notebook:hub-1.4.2
+FROM jupyter/r-notebook:hub-1.5.0
 FROM jupyter/scipy-notebook:hub-1.5.0
 FROM jupyter/tensorflow-notebook:hub-1.5.0
 FROM jupyter/datascience-notebook:hub-1.5.0
