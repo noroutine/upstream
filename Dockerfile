@@ -25,7 +25,7 @@ FROM prom/consul-exporter:v0.7.1
 FROM prom/blackbox-exporter:v0.19.0
 FROM prom/snmp-exporter:v0.20.0
 FROM prom/pushgateway:v1.4.2
-FROM grafana/grafana:8.2.3
+FROM grafana/grafana:8.2.4
 FROM quay.io/m3db/m3coordinator:v1.3.0
 FROM quay.io/m3db/m3dbnode:v1.3.0
 FROM braedon/prometheus-es-exporter:0.14.0
