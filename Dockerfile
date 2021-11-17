@@ -4,7 +4,7 @@ FROM ubuntu:focal
 FROM debian:10.10-slim
 FROM debian:11.1-slim
 FROM ubuntu:focal-20211006
-FROM alpine:3.14.2
+FROM alpine:3.14.3
 FROM php:8.0.9-apache
 FROM golang:1.17.3-bullseye
 FROM traefik:v2.5.3
