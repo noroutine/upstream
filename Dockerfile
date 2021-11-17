@@ -77,7 +77,7 @@ FROM jupyter/base-notebook:hub-1.4.2
 FROM jupyter/minimal-notebook:hub-1.4.2
 FROM jupyter/r-notebook:hub-1.4.2
 FROM jupyter/scipy-notebook:hub-1.4.2
-FROM jupyter/tensorflow-notebook:hub-1.4.2
+FROM jupyter/tensorflow-notebook:hub-1.5.0
 FROM jupyter/datascience-notebook:hub-1.4.2
 FROM jupyter/pyspark-notebook:hub-1.5.0
 FROM jupyter/all-spark-notebook:hub-1.4.2
