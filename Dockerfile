@@ -86,7 +86,7 @@ FROM caprover/caprover:1.10.1
 FROM ghcr.io/mikecao/umami:postgresql-2575cbf
 FROM bitnami/spark:3.2.0-debian-10-r12
 FROM bitnami/prometheus:2.31.1-debian-10-r0
-FROM bitnami/prometheus-operator:0.52.0-debian-10-r1
+FROM bitnami/prometheus-operator:0.52.1-debian-10-r1
 FROM bitnami/redis:6.2.6-debian-10-r32
 FROM bitnami/postgresql:11.13.0-debian-10-r85
 FROM bitnami/postgresql:13.4.0-debian-10-r85
