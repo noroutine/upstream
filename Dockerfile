@@ -109,7 +109,7 @@ FROM bitnami/kubeapps-asset-syncer:2.4.1-scratch-r1
 FROM bitnami/kubeapps-kubeops:2.4.1-scratch-r1
 FROM bitnami/kubeapps-assetsvc:2.4.1-scratch-r1
 FROM bitnami/kubeapps-pinniped-proxy:2.4.1-debian-10-r30
-FROM minio/console:v0.12.3
+FROM minio/console:v0.12.4
 FROM kutt/kutt:v2.7.3
 FROM drakkan/sftpgo:v2.1.2
 FROM hasura/graphql-engine:v2.0.10
