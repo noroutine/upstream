@@ -95,7 +95,7 @@ FROM bitnami/mariadb:10.6.4-debian-10-r46
 FROM bitnami/mongodb:4.4.10-debian-10-r24
 FROM bitnami/nginx-ingress-controller:1.0.4-debian-10-r23
 FROM bitnami/nginx:1.21.4-debian-10-r3
-FROM bitnami/minio:2021.10.27-debian-10-r8
+FROM bitnami/minio:2021.11.9-debian-10-r8
 FROM bitnami/minio-client:2021.11.16-debian-10-r0
 FROM bitnami/bitnami-shell:10-debian-10-r243
 FROM bitnami/metallb-controller:0.11.0-debian-10-r7
