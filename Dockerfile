@@ -38,7 +38,7 @@ FROM docker.elastic.co/kibana/kibana:7.15.2
 FROM alerta/alerta-web:8.6.3
 FROM mongo:4.4.6-bionic
 FROM wordpress:5.8.2-apache
-FROM dpage/pgadmin4:6.1
+FROM dpage/pgadmin4:6.2
 FROM mysql:8.0.27
 FROM mariadb:10.6.5-focal
 FROM mccutchen/go-httpbin:v2.2.2
