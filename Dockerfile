@@ -34,7 +34,7 @@ FROM lmierzwa/karma:v0.93
 FROM quay.io/cortexproject/cortex:v1.9.0
 FROM docker.elastic.co/elasticsearch/elasticsearch:7.16.0
 FROM docker.elastic.co/logstash/logstash:7.16.0
-FROM docker.elastic.co/kibana/kibana:7.15.2
+FROM docker.elastic.co/kibana/kibana:7.16.0
 FROM alerta/alerta-web:8.6.3
 FROM mongo:4.4.6-bionic
 FROM wordpress:5.8.2-apache
