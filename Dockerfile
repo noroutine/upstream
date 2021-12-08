@@ -32,7 +32,7 @@ FROM ribbybibby/ssl-exporter:v2.3.1
 FROM gcr.io/cadvisor/cadvisor:v0.43.0
 FROM lmierzwa/karma:v0.93
 FROM quay.io/cortexproject/cortex:v1.9.0
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.15.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.16.0
 FROM docker.elastic.co/logstash/logstash:7.15.2
 FROM docker.elastic.co/kibana/kibana:7.15.2
 FROM alerta/alerta-web:8.6.3
