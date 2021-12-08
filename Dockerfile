@@ -41,7 +41,7 @@ FROM wordpress:5.8.2-apache
 FROM dpage/pgadmin4:6.2
 FROM mysql:8.0.27
 FROM mariadb:10.6.5-focal
-FROM mccutchen/go-httpbin:v2.2.2
+FROM mccutchen/go-httpbin:v2.3.0
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.2.0-amd64
 FROM heroku/heroku:20-build
 FROM heroku/heroku:20
