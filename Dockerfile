@@ -68,7 +68,7 @@ FROM spoonest/clickhouse-tabix-web-client:stable
 FROM plausible/analytics:v1.4.1
 FROM verdaccio/verdaccio:5.2.2
 FROM strapi/strapi:3.6.8-alpine
-FROM ghost:4.22.4
+FROM ghost:4.26.1
 FROM bitnami/ghost:4.23.0-debian-10-r0
 FROM matomo:4.5.0-apache
 FROM nocodb/nocodb:0.83.3
