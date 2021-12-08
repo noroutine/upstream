@@ -7,7 +7,7 @@ FROM ubuntu:focal-20211006
 FROM alpine:3.15.0
 FROM golang:1.17.3-bullseye
 FROM traefik:v2.5.4
-FROM squidfunk/mkdocs-material:7.3.6
+FROM squidfunk/mkdocs-material:8.0.5
 FROM freeradius/freeradius-server:3.0.25-alpine
 FROM quay.io/keycloak/keycloak:15.0.2
 FROM postgres:13.4-buster
