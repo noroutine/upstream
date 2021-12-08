@@ -35,7 +35,7 @@ FROM quay.io/cortexproject/cortex:v1.9.0
 FROM docker.elastic.co/elasticsearch/elasticsearch:7.16.0
 FROM docker.elastic.co/logstash/logstash:7.16.0
 FROM docker.elastic.co/kibana/kibana:7.16.0
-FROM alerta/alerta-web:8.6.3
+FROM alerta/alerta-web:8.7.0
 FROM mongo:4.4.6-bionic
 FROM wordpress:5.8.2-apache
 FROM dpage/pgadmin4:6.2
