@@ -126,7 +126,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.17.
 # unmanaged k8s images
 FROM bitnami/mysqld-exporter:0.13.0-debian-10-r56
 FROM bitnami/node-exporter:1.2.2-debian-10-r90
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.22.3
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.22.4
 FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.4.0
 FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.4.0
 FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
