@@ -121,7 +121,7 @@ FROM quay.io/argoproj/argocd:v2.1.6
 FROM redis:6.2.6-bullseye
 FROM listmonk/listmonk:v2.0.0
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.5.0
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.17.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.18.0
 
 # unmanaged k8s images
 FROM bitnami/mysqld-exporter:0.13.0-debian-10-r56
