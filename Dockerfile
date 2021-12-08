@@ -19,7 +19,7 @@ FROM minio/minio:RELEASE.2021-07-12T02-44-53Z
 FROM quay.io/coreos/etcd:v3.5.1
 FROM prom/prometheus:v2.31.1
 FROM prom/alertmanager:v0.23.0
-FROM prom/node-exporter:v1.3.0
+FROM prom/node-exporter:v1.3.1
 FROM prom/consul-exporter:v0.7.1
 FROM prom/blackbox-exporter:v0.19.0
 FROM prom/snmp-exporter:v0.20.0
