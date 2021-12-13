@@ -11,7 +11,7 @@ FROM squidfunk/mkdocs-material:8.1.0
 FROM freeradius/freeradius-server:3.0.25-alpine
 FROM quay.io/keycloak/keycloak:15.1.0
 FROM postgres:13.4-buster
-FROM atlassian/jira-software:8.20.2
+FROM atlassian/jira-software:8.21.0
 FROM tvial/docker-mailserver:release-v7.2.0
 FROM nextcloud:23.0.0-apache
 FROM haproxytech/haproxy-debian:2.5.0
