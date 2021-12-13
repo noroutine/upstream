@@ -6,7 +6,7 @@ FROM debian:11.1-slim
 FROM ubuntu:focal-20211006
 FROM alpine:3.15.0
 FROM golang:1.17.4-bullseye
-FROM traefik:v2.5.4
+FROM traefik:v2.5.5
 FROM squidfunk/mkdocs-material:8.0.5
 FROM freeradius/freeradius-server:3.0.25-alpine
 FROM quay.io/keycloak/keycloak:15.1.0
