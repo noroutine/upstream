@@ -66,7 +66,7 @@ FROM pihole/pihole:v5.8.1
 FROM yandex/clickhouse-server:21.11.6.7-alpine
 FROM spoonest/clickhouse-tabix-web-client:stable
 FROM plausible/analytics:v1.4.2
-FROM verdaccio/verdaccio:5.2.2
+FROM verdaccio/verdaccio:5.3.1
 FROM strapi/strapi:3.6.8-alpine
 FROM ghost:4.27.2
 FROM bitnami/ghost:4.24.0-debian-10-r0
