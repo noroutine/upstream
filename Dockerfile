@@ -112,7 +112,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.4.1-debian-10-r30
 FROM minio/console:v0.12.8
 FROM kutt/kutt:v2.7.3
 FROM drakkan/sftpgo:v2.2.0
-FROM hasura/graphql-engine:v2.0.10
+FROM hasura/graphql-engine:v2.1.0
 FROM paulbouwer/hello-kubernetes:1.10.1
 FROM stakater/reloader:v0.0.103
 FROM registry:2.7.1
