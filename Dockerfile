@@ -198,7 +198,7 @@ FROM jupyter/repo2docker:2021.08.0
 FROM pihole/pihole:v5.8.1
 # pihole/pihole
 # yandex/clickhouse-server
-FROM yandex/clickhouse-server:21.11.6.7-alpine
+FROM yandex/clickhouse-server:21.11.7.9-alpine
 # yandex/clickhouse-server
 # spoonest/clickhouse-tabix-web-client
 FROM spoonest/clickhouse-tabix-web-client:stable
