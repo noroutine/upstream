@@ -162,7 +162,7 @@ FROM paketobuildpacks/run:full-cnb
 FROM buildpacksio/lifecycle:0.11.4
 # buildpacksio/lifecycle
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v14.5.2
+FROM gitlab/gitlab-runner:alpine-v14.6.0
 # gitlab/gitlab-runner
 # gitlab/gitlab-ce
 FROM gitlab/gitlab-ce:14.5.2-ce.0
