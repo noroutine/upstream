@@ -276,7 +276,7 @@ FROM bitnami/postgresql:11.14.0-debian-10-r17
 FROM bitnami/postgresql:13.5.0-debian-10-r29
 # bitnami/postgresql
 # bitnami/keycloak
-FROM bitnami/keycloak:15.1.0-debian-10-r2
+FROM bitnami/keycloak:15.1.1-debian-10-r2
 # bitnami/keycloak
 # bitnami/mariadb
 FROM bitnami/mariadb:10.6.5-debian-10-r30
