@@ -60,7 +60,7 @@ FROM minio/minio:RELEASE.2021-07-12T02-44-53Z
 FROM quay.io/coreos/etcd:v3.5.1
 # coreos/etcd
 # prom/prometheus
-FROM prom/prometheus:v2.32.0
+FROM prom/prometheus:v2.32.1
 # prom/prometheus
 # prom/alertmanager
 FROM prom/alertmanager:v0.23.0
