@@ -30,7 +30,7 @@ FROM golang:1.17.5-alpine3.15
 FROM traefik:v2.5.5
 # traefik
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.1.2
+FROM squidfunk/mkdocs-material:8.1.3
 # squidfunk/mkdocs-material
 # freeradius/freeradius-server
 FROM freeradius/freeradius-server:3.0.25-alpine
