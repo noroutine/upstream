@@ -36,7 +36,7 @@ FROM squidfunk/mkdocs-material:8.1.3
 FROM freeradius/freeradius-server:3.0.25-alpine
 # freeradius/freeradius-server
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:16.0.0
+FROM quay.io/keycloak/keycloak:16.1.0
 # keycloak/keycloak
 # postgres
 FROM postgres:13.4-buster
