@@ -294,7 +294,7 @@ FROM bitnami/nginx:1.21.4-debian-10-r37
 FROM bitnami/minio:2021.12.10-debian-10-r1
 # bitnami/minio
 # bitnami/minio-client
-FROM bitnami/minio-client:2021.12.16-debian-10-r3
+FROM bitnami/minio-client:2021.12.20-debian-10-r3
 # bitnami/minio-client
 # bitnami/bitnami-shell
 FROM bitnami/bitnami-shell:10-debian-10-r277
