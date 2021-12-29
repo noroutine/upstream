@@ -228,7 +228,7 @@ FROM nocodb/nocodb:0.83.8
 FROM docker:20.10.12-dind
 # docker
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-2.0.0
+FROM jupyter/base-notebook:hub-2.0.1
 # jupyter/base-notebook
 # jupyter/minimal-notebook
 FROM jupyter/minimal-notebook:hub-2.0.1
