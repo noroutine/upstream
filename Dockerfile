@@ -291,7 +291,7 @@ FROM bitnami/nginx-ingress-controller:1.1.0-debian-10-r17
 FROM bitnami/nginx:1.21.4-debian-10-r37
 # bitnami/nginx
 # bitnami/minio
-FROM bitnami/minio:2021.12.27-debian-10-r1
+FROM bitnami/minio:2021.12.29-debian-10-r1
 # bitnami/minio
 # bitnami/minio-client
 FROM bitnami/minio-client:2021.12.20-debian-10-r3
