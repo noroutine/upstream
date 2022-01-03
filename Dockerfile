@@ -339,7 +339,7 @@ FROM minio/console:v0.13.1
 FROM kutt/kutt:v2.7.3
 # kutt/kutt
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.2.0
+FROM drakkan/sftpgo:v2.2.1
 # drakkan/sftpgo
 # hasura/graphql-engine
 FROM hasura/graphql-engine:v2.1.1
