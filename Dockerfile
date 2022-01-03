@@ -386,7 +386,7 @@ FROM mailu/admin:1.8
 FROM mailu/clamav:1.8
 FROM mailu/dovecot:1.8
 FROM mailu/nginx:1.8
-FROM mailu/postfix:1.8
+FROM mailu/postfix:1.9.2
 FROM mailu/roundcube:1.8
 FROM mailu/rspamd:1.8
 FROM summerwind/actions-runner-controller:v0.20.4-898ad3c
