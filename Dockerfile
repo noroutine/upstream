@@ -51,7 +51,7 @@ FROM tvial/docker-mailserver:release-v7.2.0
 FROM nextcloud:23.0.0-apache
 # nextcloud
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.5.0
+FROM haproxytech/haproxy-debian:2.5.1
 # haproxytech/haproxy-debian
 # minio/minio
 FROM minio/minio:RELEASE.2021-07-12T02-44-53Z
