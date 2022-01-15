@@ -243,7 +243,7 @@ FROM jupyter/scipy-notebook:hub-2.0.2
 FROM jupyter/tensorflow-notebook:hub-2.0.2
 # jupyter/tensorflow-notebook
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-2.0.1
+FROM jupyter/datascience-notebook:hub-2.0.2
 # jupyter/datascience-notebook
 # rocker/shiny
 FROM rocker/shiny:4.1.2
