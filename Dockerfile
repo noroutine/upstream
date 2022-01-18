@@ -369,7 +369,7 @@ FROM listmonk/listmonk:v2.0.0
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.6.0
 # gitlab-org/cluster-integration/auto-build-image
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.18.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.18.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # unmanaged k8s images
