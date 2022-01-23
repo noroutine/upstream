@@ -234,7 +234,7 @@ FROM jupyter/base-notebook:hub-2.1.0
 FROM jupyter/minimal-notebook:hub-2.1.0
 # jupyter/minimal-notebook
 # jupyter/r-notebook
-FROM jupyter/r-notebook:hub-2.0.2
+FROM jupyter/r-notebook:hub-2.1.0
 # jupyter/r-notebook
 # jupyter/scipy-notebook
 FROM jupyter/scipy-notebook:hub-2.0.2
