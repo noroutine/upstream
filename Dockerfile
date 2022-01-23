@@ -386,7 +386,7 @@ FROM k8s.gcr.io/kube-apiserver:v1.23.1
 FROM mailu/admin:1.9.9
 # mailu/admin
 # mailu/clamav
-FROM mailu/clamav:1.9.9
+FROM mailu/clamav:1.9.10
 # mailu/clamav
 # mailu/dovecot
 FROM mailu/dovecot:1.9.10
