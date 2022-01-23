@@ -204,7 +204,7 @@ FROM yandex/clickhouse-server:21.12.3.32-alpine
 FROM spoonest/clickhouse-tabix-web-client:stable
 # spoonest/clickhouse-tabix-web-client
 # plausible/analytics
-FROM plausible/analytics:v1.4.3
+FROM plausible/analytics:v1.4.4
 # plausible/analytics
 # verdaccio/verdaccio
 FROM verdaccio/verdaccio:5.5.0
