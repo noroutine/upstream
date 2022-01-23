@@ -383,7 +383,7 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 FROM k8s.gcr.io/etcd:3.4.13-3
 FROM k8s.gcr.io/kube-apiserver:v1.23.1
 # mailu/admin
-FROM mailu/admin:1.9.9
+FROM mailu/admin:1.9.10
 # mailu/admin
 # mailu/clamav
 FROM mailu/clamav:1.9.10
