@@ -395,7 +395,7 @@ FROM mailu/dovecot:1.9.10
 FROM mailu/nginx:1.9.9
 # mailu/nginx
 # mailu/postfix
-FROM mailu/postfix:1.9.9
+FROM mailu/postfix:1.9.10
 # mailu/postfix
 # mailu/roundcube
 FROM mailu/roundcube:1.9.9
