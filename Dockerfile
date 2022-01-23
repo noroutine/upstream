@@ -392,7 +392,7 @@ FROM mailu/clamav:1.9.10
 FROM mailu/dovecot:1.9.10
 # mailu/dovecot
 # mailu/nginx
-FROM mailu/nginx:1.9.9
+FROM mailu/nginx:1.9.10
 # mailu/nginx
 # mailu/postfix
 FROM mailu/postfix:1.9.10
