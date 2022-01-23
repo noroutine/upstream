@@ -401,7 +401,7 @@ FROM mailu/postfix:1.9.9
 FROM mailu/roundcube:1.9.9
 # mailu/roundcube
 # mailu/rspamd
-FROM mailu/rspamd:1.9.9
+FROM mailu/rspamd:1.9.10
 # mailu/rspamd
 FROM summerwind/actions-runner-controller:v0.20.4-898ad3c
 FROM k8s.gcr.io/pause:3.6
