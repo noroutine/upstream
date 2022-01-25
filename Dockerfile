@@ -27,7 +27,7 @@ FROM golang:1.17.6-bullseye
 FROM golang:1.17.6-bullseye
 # golang
 # traefik
-FROM traefik:v2.5.7
+FROM traefik:v2.6.0
 # traefik
 # squidfunk/mkdocs-material
 FROM squidfunk/mkdocs-material:8.1.8
