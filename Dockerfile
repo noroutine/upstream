@@ -120,7 +120,7 @@ FROM alerta/alerta-web:8.7.0
 FROM mongo:4.4.6-bionic
 # mongo
 # wordpress
-FROM wordpress:5.8.3-apache
+FROM wordpress:5.9.0-apache
 # wordpress
 # dpage/pgadmin4
 FROM dpage/pgadmin4:6.4
