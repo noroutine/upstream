@@ -42,7 +42,7 @@ FROM quay.io/keycloak/keycloak:16.1.0
 FROM postgres:13.4-buster
 # postgres
 # atlassian/jira-software
-FROM atlassian/jira-software:8.21.0
+FROM atlassian/jira-software:8.21.1
 # atlassian/jira-software
 # tvial/docker-mailserver
 FROM tvial/docker-mailserver:release-v7.2.0
