@@ -213,7 +213,7 @@ FROM verdaccio/verdaccio:5.5.0
 FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 # ghost
-FROM ghost:4.32.3
+FROM ghost:4.34.0
 # ghost
 # bitnami/ghost
 FROM bitnami/ghost:4.32.3-debian-10-r9
@@ -333,7 +333,7 @@ FROM bitnami/kubeapps-assetsvc:2.4.2-scratch-r0
 FROM bitnami/kubeapps-pinniped-proxy:2.4.2-debian-10-r7
 # bitnami/kubeapps-pinniped-proxy
 # minio/console
-FROM minio/console:v0.13.3
+FROM minio/console:v0.14.1
 # minio/console
 # kutt/kutt
 FROM kutt/kutt:v2.7.3
