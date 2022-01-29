@@ -294,7 +294,7 @@ FROM bitnami/nginx:1.21.4-debian-10-r37
 FROM bitnami/minio:2022.1.8-debian-10-r1
 # bitnami/minio
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.1.7-debian-10-r3
+FROM bitnami/minio-client:2022.1.25-debian-10-r3
 # bitnami/minio-client
 # bitnami/bitnami-shell
 FROM bitnami/bitnami-shell:10-debian-10-r277
@@ -333,7 +333,7 @@ FROM bitnami/kubeapps-assetsvc:2.4.2-scratch-r0
 FROM bitnami/kubeapps-pinniped-proxy:2.4.2-debian-10-r7
 # bitnami/kubeapps-pinniped-proxy
 # minio/console
-FROM minio/console:v0.13.3
+FROM minio/console:v0.14.1
 # minio/console
 # kutt/kutt
 FROM kutt/kutt:v2.7.3
