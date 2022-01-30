@@ -30,7 +30,7 @@ FROM golang:1.17.5-alpine3.15
 FROM traefik:v2.6.0
 # traefik
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.1.8
+FROM squidfunk/mkdocs-material:8.1.9
 # squidfunk/mkdocs-material
 # freeradius/freeradius-server
 FROM freeradius/freeradius-server:3.0.25-alpine
@@ -159,7 +159,7 @@ FROM paketobuildpacks/builder:tiny
 FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.13.2
+FROM buildpacksio/lifecycle:0.13.3
 # buildpacksio/lifecycle
 # gitlab/gitlab-runner
 FROM gitlab/gitlab-runner:alpine-v14.7.0
