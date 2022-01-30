@@ -60,7 +60,7 @@ FROM minio/minio:RELEASE.2022-01-08T03-11-54Z
 FROM quay.io/coreos/etcd:v3.5.1
 # coreos/etcd
 # prom/prometheus
-FROM prom/prometheus:v2.32.1
+FROM prom/prometheus:v2.33.0
 # prom/prometheus
 # prom/alertmanager
 FROM prom/alertmanager:v0.23.0
@@ -159,7 +159,7 @@ FROM paketobuildpacks/builder:tiny
 FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.13.2
+FROM buildpacksio/lifecycle:0.13.3
 # buildpacksio/lifecycle
 # gitlab/gitlab-runner
 FROM gitlab/gitlab-runner:alpine-v14.7.0
