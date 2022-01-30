@@ -159,7 +159,7 @@ FROM paketobuildpacks/builder:tiny
 FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.13.2
+FROM buildpacksio/lifecycle:0.13.3
 # buildpacksio/lifecycle
 # gitlab/gitlab-runner
 FROM gitlab/gitlab-runner:alpine-v14.7.0
