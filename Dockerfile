@@ -387,7 +387,7 @@ FROM mailu/dovecot:1.9.10
 FROM mailu/rspamd:1.9.10
 # mailu/rspamd
 # mailu/admin
-FROM mailu/admin:1.9.10
+FROM mailu/admin:1.9.11
 # mailu/admin
 # mailu/nginx
 FROM mailu/nginx:1.9.10
@@ -413,7 +413,7 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 FROM k8s.gcr.io/etcd:3.4.13-3
 FROM k8s.gcr.io/kube-apiserver:v1.23.3
 # mailu/admin
-FROM mailu/admin:1.9.10
+FROM mailu/admin:1.9.11
 # mailu/admin
 # mailu/clamav
 FROM mailu/clamav:1.9.10
