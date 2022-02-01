@@ -111,7 +111,7 @@ FROM docker.elastic.co/elasticsearch/elasticsearch:7.17.0
 FROM docker.elastic.co/logstash/logstash:7.16.3
 # logstash/logstash
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:7.16.3
+FROM docker.elastic.co/kibana/kibana:7.17.0
 # kibana/kibana
 # alerta/alerta-web
 FROM alerta/alerta-web:8.7.0
