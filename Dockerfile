@@ -249,7 +249,7 @@ FROM jupyter/datascience-notebook:hub-2.1.0
 FROM jupyter/pyspark-notebook:hub-2.1.0
 # jupyter/pyspark-notebook
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-2.1.0
+FROM jupyter/all-spark-notebook:hub-2.1.1
 # jupyter/all-spark-notebook
 # rocker/shiny
 FROM rocker/shiny:4.1.2
