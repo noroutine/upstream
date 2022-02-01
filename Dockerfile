@@ -393,7 +393,7 @@ FROM mailu/admin:1.9.12
 FROM mailu/nginx:1.9.12
 # mailu/nginx
 # mailu/clamav
-FROM mailu/clamav:1.9.10
+FROM mailu/clamav:1.9.12
 # mailu/clamav
 # mailu/postfix
 FROM mailu/postfix:1.9.12
@@ -416,7 +416,7 @@ FROM k8s.gcr.io/kube-apiserver:v1.23.3
 FROM mailu/admin:1.9.12
 # mailu/admin
 # mailu/clamav
-FROM mailu/clamav:1.9.10
+FROM mailu/clamav:1.9.12
 # mailu/clamav
 # mailu/dovecot
 FROM mailu/dovecot:1.9.12
