@@ -243,7 +243,7 @@ FROM jupyter/scipy-notebook:hub-2.1.0
 FROM jupyter/tensorflow-notebook:hub-2.1.1
 # jupyter/tensorflow-notebook
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-2.1.0
+FROM jupyter/datascience-notebook:hub-2.1.1
 # jupyter/datascience-notebook
 # jupyter/pyspark-notebook
 FROM jupyter/pyspark-notebook:hub-2.1.0
