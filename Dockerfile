@@ -378,7 +378,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.6.0
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.18.1
 # gitlab-org/cluster-integration/auto-deploy-image
 # vaultwarden/server
-FROM vaultwarden/server:1.23.1
+FROM vaultwarden/server:1.24.0
 # vaultwarden/server
 # mailu/dovecot
 FROM mailu/dovecot:1.9.12
