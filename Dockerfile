@@ -1,9 +1,9 @@
 # Managed dependencies
 # ubuntu
-FROM ubuntu:focal-20220105
+FROM ubuntu:focal-20220113
 # ubuntu
 # ubuntu
-FROM ubuntu:focal
+FROM ubuntu:focal-20220113
 # ubuntu
 # debian
 FROM debian:10.10-slim
@@ -12,7 +12,7 @@ FROM debian:10.10-slim
 FROM debian:11.2-slim
 # debian
 # ubuntu
-FROM ubuntu:focal-20220105
+FROM ubuntu:focal-20220113
 # ubuntu
 # alpine
 FROM alpine:3.15.0
