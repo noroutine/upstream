@@ -360,7 +360,7 @@ FROM stakater/reloader:v0.0.104
 FROM registry:2.7.1
 # registry
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.30.2
+FROM ghcr.io/dexidp/dex:v2.30.3
 # dexidp/dex
 # argoproj/argocd
 FROM quay.io/argoproj/argocd:v2.2.3
