@@ -189,7 +189,7 @@ FROM jupyterhub/k8s-image-awaiter:1.2.0
 FROM jupyterhub/k8s-singleuser-sample:1.2.0
 # jupyterhub/k8s-singleuser-sample
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.0
+FROM jupyterhub/configurable-http-proxy:4.5.1
 # jupyterhub/configurable-http-proxy
 # jupyter/repo2docker
 FROM jupyter/repo2docker:2021.08.0
