@@ -276,10 +276,10 @@ FROM bitnami/node-exporter:1.3.1-debian-10-r52
 FROM bitnami/redis:6.2.6-debian-10-r114
 # bitnami/redis
 # bitnami/postgresql
-FROM bitnami/postgresql:11.14.0-debian-10-r44
+FROM bitnami/postgresql:14.1.0-debian-10-r44
 # bitnami/postgresql
 # bitnami/postgresql
-FROM bitnami/postgresql:13.5.0-debian-10-r74
+FROM bitnami/postgresql:14.1.0-debian-10-r44
 # bitnami/postgresql
 # bitnami/keycloak
 FROM bitnami/keycloak:16.1.1-debian-10-r3
