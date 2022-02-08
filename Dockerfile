@@ -300,7 +300,7 @@ FROM bitnami/nginx:1.21.6-debian-10-r2
 FROM bitnami/minio:2022.1.28-debian-10-r0
 # bitnami/minio
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.2.2-debian-10-r0
+FROM bitnami/minio-client:2022.2.7-debian-10-r0
 # bitnami/minio-client
 # bitnami/bitnami-shell
 FROM bitnami/bitnami-shell:10-debian-10-r323
