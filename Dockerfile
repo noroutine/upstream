@@ -165,7 +165,7 @@ FROM buildpacksio/lifecycle:0.13.3
 FROM gitlab/gitlab-runner:alpine-v14.7.0
 # gitlab/gitlab-runner
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:14.7.1-ce.0
+FROM gitlab/gitlab-ce:14.7.2-ce.0
 # gitlab/gitlab-ce
 # jupyterhub/k8s-image-cleaner
 FROM jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab
