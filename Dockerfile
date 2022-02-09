@@ -339,7 +339,7 @@ FROM bitnami/kubeapps-assetsvc:2.4.2-scratch-r1
 FROM bitnami/kubeapps-pinniped-proxy:2.4.2-debian-10-r58
 # bitnami/kubeapps-pinniped-proxy
 # minio/console
-FROM minio/console:v0.14.2
+FROM minio/console:v0.14.3
 # minio/console
 # kutt/kutt
 FROM kutt/kutt:v2.7.3
