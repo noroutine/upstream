@@ -81,7 +81,7 @@ FROM prom/snmp-exporter:v0.20.0
 FROM prom/pushgateway:v1.4.2
 # prom/pushgateway
 # grafana/grafana
-FROM grafana/grafana:8.3.4
+FROM grafana/grafana:8.3.5
 # grafana/grafana
 # m3db/m3coordinator
 FROM quay.io/m3db/m3coordinator:v1.3.0
