@@ -69,7 +69,7 @@ FROM prom/alertmanager:v0.23.0
 FROM prom/node-exporter:v1.3.1
 # prom/node-exporter
 # prom/consul-exporter
-FROM prom/consul-exporter:v0.7.1
+FROM prom/consul-exporter:v0.8.0
 # prom/consul-exporter
 # prom/blackbox-exporter
 FROM prom/blackbox-exporter:v0.19.0
