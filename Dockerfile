@@ -123,7 +123,7 @@ FROM mongo:4.4.6-bionic
 FROM wordpress:5.9.0-apache
 # wordpress
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.4
+FROM dpage/pgadmin4:6.5
 # dpage/pgadmin4
 # mysql
 FROM mysql:8.0.28
