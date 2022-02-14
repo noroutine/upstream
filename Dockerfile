@@ -318,7 +318,7 @@ FROM bitnami/grafana:8.3.4-debian-10-r11
 FROM bitnami/kube-state-metrics:2.3.0-debian-10-r49
 # bitnami/kube-state-metrics
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.0-debian-10-r4
+FROM bitnami/metrics-server:0.6.1-debian-10-r4
 # bitnami/metrics-server
 # bitnami/kubeapps-dashboard
 FROM bitnami/kubeapps-dashboard:2.4.2-debian-10-r54
