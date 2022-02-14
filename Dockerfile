@@ -372,7 +372,7 @@ FROM redis:6.2.6-bullseye
 FROM listmonk/listmonk:v2.0.0
 # listmonk/listmonk
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.9.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.9.1
 # gitlab-org/cluster-integration/auto-build-image
 # gitlab-org/cluster-integration/auto-deploy-image
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.21.0
