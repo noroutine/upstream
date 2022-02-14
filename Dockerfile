@@ -369,7 +369,7 @@ FROM quay.io/argoproj/argocd:v2.2.3
 FROM redis:6.2.6-bullseye
 # redis
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.0.0
+FROM listmonk/listmonk:v2.1.0
 # listmonk/listmonk
 # gitlab-org/cluster-integration/auto-build-image
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.9.1
