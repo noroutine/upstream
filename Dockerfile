@@ -381,7 +381,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.21.
 FROM vaultwarden/server:1.24.0
 # vaultwarden/server
 # mailu/dovecot
-FROM mailu/dovecot:1.9.12
+FROM mailu/dovecot:1.9.14
 # mailu/dovecot
 # mailu/rspamd
 FROM mailu/rspamd:1.9.12
@@ -419,7 +419,7 @@ FROM mailu/admin:1.9.14
 FROM mailu/clamav:1.9.14
 # mailu/clamav
 # mailu/dovecot
-FROM mailu/dovecot:1.9.12
+FROM mailu/dovecot:1.9.14
 # mailu/dovecot
 # mailu/nginx
 FROM mailu/nginx:1.9.14
