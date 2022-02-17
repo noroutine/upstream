@@ -324,7 +324,7 @@ FROM bitnami/metrics-server:0.6.1-debian-10-r4
 FROM bitnami/kubeapps-dashboard:2.4.2-debian-10-r54
 # bitnami/kubeapps-dashboard
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.4.2-scratch-r1
+FROM bitnami/kubeapps-apprepository-controller:2.4.3-scratch-r1
 # bitnami/kubeapps-apprepository-controller
 # bitnami/kubeapps-asset-syncer
 FROM bitnami/kubeapps-asset-syncer:2.4.2-scratch-r1
