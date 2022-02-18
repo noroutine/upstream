@@ -396,7 +396,7 @@ FROM mailu/nginx:1.9.17
 FROM mailu/clamav:1.9.15
 # mailu/clamav
 # mailu/postfix
-FROM mailu/postfix:1.9.15
+FROM mailu/postfix:1.9.17
 # mailu/postfix
 # mailu/roundcube
 FROM mailu/roundcube:1.9.15
@@ -425,7 +425,7 @@ FROM mailu/dovecot:1.9.17
 FROM mailu/nginx:1.9.17
 # mailu/nginx
 # mailu/postfix
-FROM mailu/postfix:1.9.15
+FROM mailu/postfix:1.9.17
 # mailu/postfix
 # mailu/roundcube
 FROM mailu/roundcube:1.9.15
