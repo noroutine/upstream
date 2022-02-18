@@ -222,7 +222,7 @@ FROM bitnami/ghost:4.36.0-debian-10-r0
 FROM matomo:4.7.1-apache
 # matomo
 # nocodb/nocodb
-FROM nocodb/nocodb:0.84.10
+FROM nocodb/nocodb:0.84.12
 # nocodb/nocodb
 # docker
 FROM docker:20.10.12-dind
