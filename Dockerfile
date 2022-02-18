@@ -333,7 +333,7 @@ FROM bitnami/kubeapps-asset-syncer:2.4.3-scratch-r1
 FROM bitnami/kubeapps-kubeops:2.4.3-scratch-r1
 # bitnami/kubeapps-kubeops
 # bitnami/kubeapps-assetsvc
-FROM bitnami/kubeapps-assetsvc:2.4.2-scratch-r1
+FROM bitnami/kubeapps-assetsvc:2.4.3-scratch-r1
 # bitnami/kubeapps-assetsvc
 # bitnami/kubeapps-pinniped-proxy
 FROM bitnami/kubeapps-pinniped-proxy:2.4.2-debian-10-r58
