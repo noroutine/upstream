@@ -330,7 +330,7 @@ FROM bitnami/kubeapps-apprepository-controller:2.4.3-scratch-r1
 FROM bitnami/kubeapps-asset-syncer:2.4.3-scratch-r1
 # bitnami/kubeapps-asset-syncer
 # bitnami/kubeapps-kubeops
-FROM bitnami/kubeapps-kubeops:2.4.2-scratch-r1
+FROM bitnami/kubeapps-kubeops:2.4.3-scratch-r1
 # bitnami/kubeapps-kubeops
 # bitnami/kubeapps-assetsvc
 FROM bitnami/kubeapps-assetsvc:2.4.2-scratch-r1
