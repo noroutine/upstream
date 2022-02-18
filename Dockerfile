@@ -384,7 +384,7 @@ FROM vaultwarden/server:1.24.0
 FROM mailu/dovecot:1.9.14
 # mailu/dovecot
 # mailu/rspamd
-FROM mailu/rspamd:1.9.14
+FROM mailu/rspamd:1.9.15
 # mailu/rspamd
 # mailu/admin
 FROM mailu/admin:1.9.14
@@ -431,7 +431,7 @@ FROM mailu/postfix:1.9.14
 FROM mailu/roundcube:1.9.14
 # mailu/roundcube
 # mailu/rspamd
-FROM mailu/rspamd:1.9.14
+FROM mailu/rspamd:1.9.15
 # mailu/rspamd
 FROM summerwind/actions-runner-controller:v0.20.4-898ad3c
 FROM k8s.gcr.io/pause:3.6
