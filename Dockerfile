@@ -399,7 +399,7 @@ FROM mailu/clamav:1.9.14
 FROM mailu/postfix:1.9.14
 # mailu/postfix
 # mailu/roundcube
-FROM mailu/roundcube:1.9.14
+FROM mailu/roundcube:1.9.15
 # mailu/roundcube
 
 # unmanaged k8s images
@@ -428,7 +428,7 @@ FROM mailu/nginx:1.9.15
 FROM mailu/postfix:1.9.14
 # mailu/postfix
 # mailu/roundcube
-FROM mailu/roundcube:1.9.14
+FROM mailu/roundcube:1.9.15
 # mailu/roundcube
 # mailu/rspamd
 FROM mailu/rspamd:1.9.14
