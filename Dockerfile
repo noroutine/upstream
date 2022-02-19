@@ -380,27 +380,6 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.21.
 # vaultwarden/server
 FROM vaultwarden/server:1.24.0
 # vaultwarden/server
-# mailu/dovecot
-FROM mailu/dovecot:1.9.17
-# mailu/dovecot
-# mailu/rspamd
-FROM mailu/rspamd:1.9.17
-# mailu/rspamd
-# mailu/admin
-FROM mailu/admin:1.9.17
-# mailu/admin
-# mailu/nginx
-FROM mailu/nginx:1.9.17
-# mailu/nginx
-# mailu/clamav
-FROM mailu/clamav:1.9.17
-# mailu/clamav
-# mailu/postfix
-FROM mailu/postfix:1.9.17
-# mailu/postfix
-# mailu/roundcube
-FROM mailu/roundcube:1.9.17
-# mailu/roundcube
 
 # unmanaged k8s images
 FROM bitnami/mysqld-exporter:0.13.0-debian-10-r56
