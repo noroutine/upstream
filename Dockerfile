@@ -387,7 +387,7 @@ FROM mailu/dovecot:1.9.17
 FROM mailu/rspamd:1.9.17
 # mailu/rspamd
 # mailu/admin
-FROM mailu/admin:1.9.17
+FROM mailu/admin:1.9.18
 # mailu/admin
 # mailu/nginx
 FROM mailu/nginx:1.9.17
