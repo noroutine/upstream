@@ -384,7 +384,7 @@ FROM vaultwarden/server:1.24.0
 FROM mailu/dovecot:1.9.17
 # mailu/dovecot
 # mailu/rspamd
-FROM mailu/rspamd:1.9.17
+FROM mailu/rspamd:1.9.18
 # mailu/rspamd
 # mailu/admin
 FROM mailu/admin:1.9.17
