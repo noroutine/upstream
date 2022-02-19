@@ -48,7 +48,7 @@ FROM atlassian/jira-software:8.22.0
 FROM tvial/docker-mailserver:release-v7.2.0
 # tvial/docker-mailserver
 # nextcloud
-FROM nextcloud:23.0.1-apache
+FROM nextcloud:23.0.2-apache
 # nextcloud
 # haproxytech/haproxy-debian
 FROM haproxytech/haproxy-debian:2.5.3
