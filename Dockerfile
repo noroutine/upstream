@@ -44,9 +44,6 @@ FROM postgres:13.4-buster
 # atlassian/jira-software
 FROM atlassian/jira-software:8.22.0
 # atlassian/jira-software
-# tvial/docker-mailserver
-FROM tvial/docker-mailserver:release-v7.2.0
-# tvial/docker-mailserver
 # nextcloud
 FROM nextcloud:23.0.2-apache
 # nextcloud
