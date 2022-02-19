@@ -411,7 +411,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.4.1
 FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
 FROM k8s.gcr.io/coredns/coredns:v1.8.6
 FROM k8s.gcr.io/etcd:3.4.13-3
-FROM k8s.gcr.io/kube-apiserver:v1.23.3
+FROM k8s.gcr.io/kube-apiserver:v1.23.4
 # mailu/admin
 FROM mailu/admin:1.9.17
 # mailu/admin
