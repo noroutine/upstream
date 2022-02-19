@@ -390,7 +390,7 @@ FROM mailu/rspamd:1.9.17
 FROM mailu/admin:1.9.17
 # mailu/admin
 # mailu/nginx
-FROM mailu/nginx:1.9.17
+FROM mailu/nginx:1.9.18
 # mailu/nginx
 # mailu/clamav
 FROM mailu/clamav:1.9.17
