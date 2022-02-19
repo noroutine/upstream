@@ -393,7 +393,7 @@ FROM mailu/admin:1.9.17
 FROM mailu/nginx:1.9.17
 # mailu/nginx
 # mailu/clamav
-FROM mailu/clamav:1.9.17
+FROM mailu/clamav:1.9.18
 # mailu/clamav
 # mailu/postfix
 FROM mailu/postfix:1.9.17
