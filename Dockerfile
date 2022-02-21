@@ -96,7 +96,7 @@ FROM ribbybibby/ssl-exporter:2.4.0
 FROM gcr.io/cadvisor/cadvisor:v0.43.0
 # cadvisor/cadvisor
 # lmierzwa/karma
-FROM lmierzwa/karma:v0.98
+FROM lmierzwa/karma:v0.99
 # lmierzwa/karma
 # cortexproject/cortex
 FROM quay.io/cortexproject/cortex:v1.9.0
