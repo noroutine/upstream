@@ -339,7 +339,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.4.2-debian-10-r58
 FROM minio/console:v0.14.7
 # minio/console
 # kutt/kutt
-FROM kutt/kutt:v2.7.3
+FROM kutt/kutt:v2.7.4
 # kutt/kutt
 # drakkan/sftpgo
 FROM drakkan/sftpgo:v2.2.2
