@@ -48,7 +48,7 @@ FROM atlassian/jira-software:8.22.0
 FROM nextcloud:23.0.2-apache
 # nextcloud
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.5.3
+FROM haproxytech/haproxy-debian:2.5.4
 # haproxytech/haproxy-debian
 # minio/minio
 FROM minio/minio:RELEASE.2022-01-08T03-11-54Z
