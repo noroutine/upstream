@@ -351,7 +351,7 @@ FROM hasura/graphql-engine:v2.2.1
 FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 # stakater/reloader
-FROM stakater/reloader:v0.0.105
+FROM stakater/reloader:v0.0.108
 # stakater/reloader
 # registry
 FROM registry:2.8.0
