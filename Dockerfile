@@ -102,7 +102,7 @@ FROM lmierzwa/karma:v0.99
 FROM quay.io/cortexproject/cortex:v1.9.0
 # cortexproject/cortex
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.0.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.0.1
 # elasticsearch/elasticsearch
 # logstash/logstash
 FROM docker.elastic.co/logstash/logstash:8.0.0
