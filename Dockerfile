@@ -105,7 +105,7 @@ FROM quay.io/cortexproject/cortex:v1.9.0
 FROM docker.elastic.co/elasticsearch/elasticsearch:8.0.0
 # elasticsearch/elasticsearch
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.0.0
+FROM docker.elastic.co/logstash/logstash:8.0.1
 # logstash/logstash
 # kibana/kibana
 FROM docker.elastic.co/kibana/kibana:8.0.0
