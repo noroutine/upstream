@@ -210,7 +210,7 @@ FROM verdaccio/verdaccio:5.7.0
 FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 # ghost
-FROM ghost:4.37.0
+FROM ghost:4.38.0
 # ghost
 # bitnami/ghost
 FROM bitnami/ghost:4.37.0-debian-10-r0
