@@ -354,7 +354,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 FROM stakater/reloader:v0.0.109
 # stakater/reloader
 # registry
-FROM registry:2.8.0
+FROM registry:2.8.1
 # registry
 # dexidp/dex
 FROM ghcr.io/dexidp/dex:v2.31.0
