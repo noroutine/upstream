@@ -285,7 +285,7 @@ FROM bitnami/keycloak:16.1.1-debian-10-r3
 FROM bitnami/mariadb:10.6.5-debian-10-r76
 # bitnami/mariadb
 # bitnami/mongodb
-FROM bitnami/mongodb:4.4.12-debian-10-r8
+FROM bitnami/mongodb:5.0.6-debian-10-r8
 # bitnami/mongodb
 # bitnami/nginx-ingress-controller
 FROM bitnami/nginx-ingress-controller:1.1.1-debian-10-r18
