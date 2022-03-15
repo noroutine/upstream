@@ -309,7 +309,7 @@ FROM bitnami/metallb-controller:0.11.0-debian-10-r85
 FROM bitnami/metallb-speaker:0.11.0-debian-10-r87
 # bitnami/metallb-speaker
 # bitnami/grafana
-FROM bitnami/grafana:8.3.4-debian-10-r11
+FROM bitnami/grafana:8.4.3-debian-10-r11
 # bitnami/grafana
 # bitnami/kube-state-metrics
 FROM bitnami/kube-state-metrics:2.3.0-debian-10-r49
