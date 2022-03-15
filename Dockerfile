@@ -264,7 +264,7 @@ FROM bitnami/spark:3.2.1-debian-10-r0
 FROM bitnami/prometheus:2.32.1-debian-10-r41
 # bitnami/prometheus
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.54.1-debian-10-r1
+FROM bitnami/prometheus-operator:0.55.0-debian-10-r1
 # bitnami/prometheus-operator
 # bitnami/node-exporter
 FROM bitnami/node-exporter:1.3.1-debian-10-r52
