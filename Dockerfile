@@ -237,7 +237,7 @@ FROM jupyter/r-notebook:hub-2.2.1
 FROM jupyter/scipy-notebook:hub-2.2.1
 # jupyter/scipy-notebook
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-2.2.1
+FROM jupyter/tensorflow-notebook:hub-2.2.2
 # jupyter/tensorflow-notebook
 # jupyter/datascience-notebook
 FROM jupyter/datascience-notebook:hub-2.2.1
