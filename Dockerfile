@@ -21,10 +21,10 @@ FROM alpine:3.15.0
 FROM php:8.1.3-apache
 # php
 # golang
-FROM golang:1.17.8-bullseye
+FROM golang:1.18.0-bullseye
 # golang
 # golang
-FROM golang:1.17.8-bullseye
+FROM golang:1.18.0-bullseye
 # golang
 # traefik
 FROM traefik:v2.6.1
