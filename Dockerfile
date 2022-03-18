@@ -15,7 +15,7 @@ FROM debian:11.2-slim
 FROM ubuntu:focal-20220302
 # ubuntu
 # alpine
-FROM alpine:3.15.0
+FROM alpine:3.15.1
 # alpine
 # php
 FROM php:8.1.4-apache
