@@ -18,7 +18,7 @@ FROM ubuntu:focal-20220302
 FROM alpine:3.15.0
 # alpine
 # php
-FROM php:8.1.3-apache
+FROM php:8.1.4-apache
 # php
 # golang
 FROM golang:1.18.0-bullseye
