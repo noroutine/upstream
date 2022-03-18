@@ -42,7 +42,7 @@ FROM quay.io/keycloak/keycloak:17.0.0
 FROM postgres:13.4-buster
 # postgres
 # atlassian/jira-software
-FROM atlassian/jira-software:8.22.0
+FROM atlassian/jira-software:8.22.1
 # atlassian/jira-software
 # nextcloud
 FROM nextcloud:23.0.2-apache
