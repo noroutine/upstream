@@ -372,7 +372,7 @@ FROM listmonk/listmonk:v2.1.0
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.10.0
 # gitlab-org/cluster-integration/auto-build-image
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.22.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.23.0
 # gitlab-org/cluster-integration/auto-deploy-image
 # vaultwarden/server
 FROM vaultwarden/server:1.24.0
