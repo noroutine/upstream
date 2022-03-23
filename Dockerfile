@@ -135,10 +135,10 @@ FROM mccutchen/go-httpbin:v2.3.0
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.2.0-amd64
 # oauth2-proxy/oauth2-proxy
 # heroku/heroku
-FROM heroku/heroku:20-build
+FROM heroku/heroku:22-build
 # heroku/heroku
 # heroku/heroku
-FROM heroku/heroku:20
+FROM heroku/heroku:22-build
 # heroku/heroku
 # heroku/procfile-cnb
 FROM heroku/procfile-cnb:0.6.2
