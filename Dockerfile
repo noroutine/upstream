@@ -357,7 +357,7 @@ FROM stakater/reloader:v0.0.109
 FROM registry:2.8.1
 # registry
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.31.0
+FROM ghcr.io/dexidp/dex:v2.31.1
 # dexidp/dex
 # argoproj/argocd
 FROM quay.io/argoproj/argocd:v2.2.3
