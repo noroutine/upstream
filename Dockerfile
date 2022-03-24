@@ -222,7 +222,7 @@ FROM matomo:4.8.0-apache
 FROM nocodb/nocodb:0.84.15
 # nocodb/nocodb
 # docker
-FROM docker:20.10.13-dind
+FROM docker:20.10.14-dind
 # docker
 # jupyter/base-notebook
 FROM jupyter/base-notebook:hub-2.2.2
