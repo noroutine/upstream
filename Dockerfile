@@ -45,7 +45,7 @@ FROM postgres:13.4-buster
 FROM atlassian/jira-software:8.22.1
 # atlassian/jira-software
 # nextcloud
-FROM nextcloud:23.0.2-apache
+FROM nextcloud:23.0.3-apache
 # nextcloud
 # haproxytech/haproxy-debian
 FROM haproxytech/haproxy-debian:2.5.5
