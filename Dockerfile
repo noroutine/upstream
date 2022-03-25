@@ -288,7 +288,7 @@ FROM bitnami/mariadb:10.6.5-debian-10-r76
 FROM bitnami/mongodb:5.0.6-debian-10-r8
 # bitnami/mongodb
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.1.1-debian-10-r18
+FROM bitnami/nginx-ingress-controller:1.1.2-debian-10-r18
 # bitnami/nginx-ingress-controller
 # bitnami/nginx
 FROM bitnami/nginx:1.21.6-debian-10-r2
