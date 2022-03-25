@@ -45,7 +45,7 @@ FROM freeradius/freeradius-server:3.0.25-alpine
 FROM quay.io/keycloak/keycloak:17.0.1
 # keycloak/keycloak
 # postgres
-FROM postgres:14.1-bullseye
+FROM postgres:14.2-bullseye
 # postgres
 # atlassian/jira-software
 FROM atlassian/jira-software:8.22.1
