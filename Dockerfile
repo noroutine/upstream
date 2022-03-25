@@ -60,7 +60,7 @@ FROM quay.io/coreos/etcd:v3.5.1
 FROM prom/prometheus:v2.34.0
 # prom/prometheus
 # prom/alertmanager
-FROM prom/alertmanager:v0.23.0
+FROM prom/alertmanager:v0.24.0
 # prom/alertmanager
 # prom/node-exporter
 FROM prom/node-exporter:v1.3.1
