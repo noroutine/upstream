@@ -1,6 +1,6 @@
 # Managed dependencies
 # debian
-FROM debian:bullseye-20220228-slim
+FROM debian:bullseye-20220328-slim
 # debian
 # ubuntu
 FROM ubuntu:jammy-20220315
