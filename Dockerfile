@@ -6,9 +6,6 @@ FROM ubuntu:focal
 FROM ubuntu:focal
 # ubuntu
 # debian
-FROM debian:10.10-slim
-# debian
-# debian
 FROM debian:bullseye-20220228-slim
 # debian
 # ubuntu
