@@ -18,7 +18,7 @@ FROM ubuntu:jammy-20220315
 FROM ubuntu:focal-20220316
 # ubuntu
 # alpine
-FROM alpine:3.15.2
+FROM alpine:3.15.3
 # alpine
 # php
 FROM php:8.1.4-apache-bullseye
