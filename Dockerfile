@@ -1,10 +1,4 @@
 # Managed dependencies
-# ubuntu
-FROM ubuntu:focal
-# ubuntu
-# ubuntu
-FROM ubuntu:focal
-# ubuntu
 # debian
 FROM debian:bullseye-20220228-slim
 # debian
