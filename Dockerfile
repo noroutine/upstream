@@ -393,7 +393,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.23.
 FROM vaultwarden/server:1.24.0
 # vaultwarden/server
 # boky/postfix
-FROM boky/postfix:v3.4.0
+FROM boky/postfix:v3.5.0
 # boky/postfix
 # cupcakearmy/cryptgeon
 FROM cupcakearmy/cryptgeon:1.4.1
