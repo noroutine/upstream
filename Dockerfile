@@ -6,10 +6,10 @@ FROM ubuntu:focal
 FROM ubuntu:focal
 # ubuntu
 # debian
-FROM debian:10.10-slim
+FROM debian:11.0-slim
 # debian
 # debian
-FROM debian:bullseye-20220228-slim
+FROM debian:11.0-slim
 # debian
 # ubuntu
 FROM ubuntu:jammy-20220315
