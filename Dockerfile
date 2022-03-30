@@ -21,7 +21,7 @@ FROM golang:1.18.0-bullseye
 FROM golang:1.18.0-alpine3.15
 # golang
 # traefik
-FROM traefik:v2.6.2
+FROM traefik:v2.7
 # traefik
 # sonatype/nexus3
 FROM sonatype/nexus3:3.38.0
