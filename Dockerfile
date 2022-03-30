@@ -398,4 +398,4 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.22.6
 FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.5.1
 FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.5.1
 FROM k8s.gcr.io/kube-apiserver:v1.23.5
-FROM k8s.gcr.io/pause:3.6
+FROM k8s.gcr.io/pause:3.7
