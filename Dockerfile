@@ -472,6 +472,9 @@ FROM longhornio/csi-provisioner:v2.1.2
 # longhornio/csi-attacher
 FROM longhornio/csi-attacher:v3.2.1
 # longhornio/csi-attacher
+# longhornio/longhorn-ui
+FROM longhornio/longhorn-ui:v1.2.4
+# longhornio/longhorn-ui
 # cloud-provider-vsphere/cpi/release/manager
 FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.22.6
 # cloud-provider-vsphere/cpi/release/manager
