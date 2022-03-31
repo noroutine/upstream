@@ -500,7 +500,7 @@ FROM k8s.gcr.io/sig-storage/csi-resizer:v1.4.0
 FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0
 # sig-storage/csi-provisioner
 # hashicorp/consul
-FROM hashicorp/consul:1.11.3
+FROM hashicorp/consul:1.11.4
 # hashicorp/consul
 # hashicorp/consul-k8s-control-plane
 FROM hashicorp/consul-k8s-control-plane:0.41.1
