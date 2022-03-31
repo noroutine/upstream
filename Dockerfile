@@ -508,3 +508,12 @@ FROM hashicorp/consul-k8s-control-plane:0.41.1
 # envoyproxy/envoy-alpine
 FROM envoyproxy/envoy-alpine:v1.21.1
 # envoyproxy/envoy-alpine
+# jimmidyson/configmap-reload
+FROM jimmidyson/configmap-reload:v0.5.0
+# jimmidyson/configmap-reload
+# vstadtmueller/cert-manager-webhook-powerdns
+FROM vstadtmueller/cert-manager-webhook-powerdns:main
+# vstadtmueller/cert-manager-webhook-powerdns
+# busybox
+FROM busybox:1.34.1
+# busybox
