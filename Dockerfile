@@ -395,7 +395,7 @@ FROM boky/postfix:v3.5.0
 FROM cupcakearmy/cryptgeon:1.4.1
 # cupcakearmy/cryptgeon
 # memcached
-FROM memcached:1.6.14-alpine3.15
+FROM memcached:1.6.15-alpine3.15
 # memcached
 # pause
 FROM k8s.gcr.io/pause:3.7
