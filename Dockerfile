@@ -104,7 +104,7 @@ FROM docker.elastic.co/elasticsearch/elasticsearch:8.1.1
 FROM docker.elastic.co/logstash/logstash:8.1.1
 # logstash/logstash
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.1.1
+FROM docker.elastic.co/kibana/kibana:8.1.2
 # kibana/kibana
 # alerta/alerta-web
 FROM alerta/alerta-web:8.7.0
