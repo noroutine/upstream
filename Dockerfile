@@ -410,7 +410,7 @@ FROM cupcakearmy/cryptgeon:1.4.1
 FROM memcached:1.6.15-alpine3.15
 # memcached
 # connecteverything/nats-operator
-FROM connecteverything/nats-operator:0.7.4
+FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 # nats
 FROM nats:2.7.4-alpine3.15
