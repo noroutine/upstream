@@ -325,6 +325,9 @@ FROM bitnami/grafana:8.4.5-debian-10-r0
 # bitnami/consul
 FROM bitnami/consul:1.11.4-debian-10-r30
 # bitnami/consul
+# bitnami/nats
+FROM bitnami/nats:2.7.4-debian-10-r17
+# bitnami/nats
 # bitnami/kube-state-metrics
 FROM bitnami/kube-state-metrics:2.4.2-debian-10-r7
 # bitnami/kube-state-metrics
@@ -406,6 +409,12 @@ FROM cupcakearmy/cryptgeon:1.4.1
 # memcached
 FROM memcached:1.6.15-alpine3.15
 # memcached
+# connecteverything/nats-operator
+FROM connecteverything/nats-operator:0.7.4
+# connecteverything/nats-operator
+# nats
+FROM nats:2.7.4-alpine3.15
+# nats
 # hashicorp/consul
 FROM hashicorp/consul:1.11.4
 # hashicorp/consul
