@@ -418,6 +418,12 @@ FROM envoyproxy/envoy-alpine:v1.21.1
 # hashicorp/vault
 FROM hashicorp/vault:1.10.0
 # hashicorp/vault
+# strimzi/operator
+FROM quay.io/strimzi/operator:0.28.0
+# strimzi/operator
+# strimzi/kafka
+FROM quay.io/strimzi/kafka:0.28.0-kafka-3.1.0
+# strimzi/kafka
 # pause
 FROM k8s.gcr.io/pause:3.7
 # pause
