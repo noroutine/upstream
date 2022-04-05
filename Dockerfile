@@ -419,7 +419,7 @@ FROM nats:2.7.4-alpine3.15
 FROM hashicorp/consul:1.11.4
 # hashicorp/consul
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.41.1
+FROM hashicorp/consul-k8s-control-plane:0.42.0
 # hashicorp/consul-k8s-control-plane
 # envoyproxy/envoy-alpine
 FROM envoyproxy/envoy-alpine:v1.21.1
