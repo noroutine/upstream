@@ -146,7 +146,7 @@ FROM heroku/heroku:22-build
 FROM heroku/heroku:22
 # heroku/heroku
 # heroku/procfile-cnb
-FROM heroku/procfile-cnb:1.0.0
+FROM heroku/procfile-cnb:1.0.1
 # heroku/procfile-cnb
 # paketobuildpacks/builder
 FROM paketobuildpacks/builder:full
