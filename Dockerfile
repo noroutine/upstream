@@ -2,10 +2,10 @@
 FROM debian:bullseye-20220328-slim
 # debian
 # ubuntu
-FROM ubuntu:jammy-20220315
+FROM ubuntu:jammy-20220404
 # ubuntu
 # ubuntu
-FROM ubuntu:focal-20220316
+FROM ubuntu:jammy-20220404
 # ubuntu
 # alpine
 FROM alpine:3.15.4
