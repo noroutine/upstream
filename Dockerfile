@@ -116,7 +116,7 @@ FROM alerta/alerta-web:8.7.0
 FROM mongo:5.0.6-focal
 # mongo
 # wordpress
-FROM wordpress:5.9.2-apache
+FROM wordpress:5.9.3-apache
 # wordpress
 # dpage/pgadmin4
 FROM dpage/pgadmin4:6.7
