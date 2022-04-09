@@ -424,6 +424,9 @@ FROM masipcat/wireguard-go:0.0.20220316
 # eclipse-mosquitto
 FROM eclipse-mosquitto:2.0.14-openssl
 # eclipse-mosquitto
+# sapcc/mosquitto-exporter
+FROM sapcc/mosquitto-exporter:0.8.0
+# sapcc/mosquitto-exporter
 # hashicorp/consul
 FROM hashicorp/consul:1.11.4
 # hashicorp/consul
