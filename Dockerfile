@@ -311,7 +311,7 @@ FROM bitnami/nginx:1.21.6-debian-10-r71
 FROM bitnami/minio:2022.4.9-debian-10-r0
 # bitnami/minio
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.4.7-debian-10-r1
+FROM bitnami/minio-client:2022.4.7-debian-10-r2
 # bitnami/minio-client
 # bitnami/bitnami-shell
 FROM bitnami/bitnami-shell:10-debian-10-r390
@@ -427,6 +427,18 @@ FROM eclipse-mosquitto:2.0.14-openssl
 # sapcc/mosquitto-exporter
 FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
+# jetstack/cert-manager-controller
+FROM quay.io/jetstack/cert-manager-controller:v1.8.0
+# jetstack/cert-manager-controller
+# jetstack/cert-manager-cainjector
+FROM quay.io/jetstack/cert-manager-cainjector:v1.8.0
+# jetstack/cert-manager-cainjector
+# jetstack/cert-manager-webhook
+FROM quay.io/jetstack/cert-manager-webhook:v1.8.0
+# jetstack/cert-manager-webhook
+# zachomedia/cert-manager-webhook-pdns
+FROM zachomedia/cert-manager-webhook-pdns:v2.0.1
+# zachomedia/cert-manager-webhook-pdns
 # hashicorp/consul
 FROM hashicorp/consul:1.11.4
 # hashicorp/consul
