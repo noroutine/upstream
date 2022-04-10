@@ -436,6 +436,9 @@ FROM quay.io/jetstack/cert-manager-cainjector:v1.8.0
 # jetstack/cert-manager-webhook
 FROM quay.io/jetstack/cert-manager-webhook:v1.8.0
 # jetstack/cert-manager-webhook
+# jetstack/cert-manager-ctl
+FROM quay.io/jetstack/cert-manager-ctl:v1.8.0
+# jetstack/cert-manager-ctl
 # zachomedia/cert-manager-webhook-pdns
 FROM zachomedia/cert-manager-webhook-pdns:v2.0.1
 # zachomedia/cert-manager-webhook-pdns
