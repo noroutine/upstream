@@ -17,10 +17,10 @@ FROM busybox:1.34.1
 FROM php:8.1.4-apache-bullseye
 # php
 # golang
-FROM golang:1.18.0-bullseye
+FROM golang:1.18.1-bullseye
 # golang
 # golang
-FROM golang:1.18.0-alpine3.15
+FROM golang:1.18.1-bullseye
 # golang
 # traefik
 FROM traefik:v2.7
