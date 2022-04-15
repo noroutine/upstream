@@ -482,7 +482,7 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 FROM quay.io/tigera/operator:v1.25.4
 # tigera/operator
 # calico/typha
-FROM calico/typha:v3.22.1
+FROM calico/typha:v3.22.2
 # calico/typha
 # calico/ctl
 FROM calico/ctl:v3.22.2
