@@ -503,7 +503,7 @@ FROM calico/kube-controllers:v3.22.1
 FROM calico/dikastes:v3.22.1
 # calico/dikastes
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.22.1
+FROM calico/pod2daemon-flexvol:v3.22.2
 # calico/pod2daemon-flexvol
 # longhornio/longhorn-manager
 FROM longhornio/longhorn-manager:v1.2.4
