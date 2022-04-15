@@ -488,7 +488,7 @@ FROM calico/typha:v3.22.1
 FROM calico/ctl:v3.22.1
 # calico/ctl
 # calico/node
-FROM calico/node:v3.22.1
+FROM calico/node:v3.22.2
 # calico/node
 # calico/cni
 FROM calico/cni:v3.22.1
