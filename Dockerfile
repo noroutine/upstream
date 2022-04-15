@@ -98,7 +98,7 @@ FROM ribbybibby/ssl-exporter:2.4.0
 FROM gcr.io/cadvisor/cadvisor:v0.44.0
 # cadvisor/cadvisor
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.101
+FROM ghcr.io/prymitive/karma:v0.103
 # prymitive/karma
 # cortexproject/cortex
 FROM quay.io/cortexproject/cortex:v1.11.1
