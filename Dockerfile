@@ -14,7 +14,7 @@ FROM alpine:3.15.4
 FROM busybox:1.34.1
 # busybox
 # php
-FROM php:8.1.4-apache-bullseye
+FROM php:8.1.5-apache-bullseye
 # php
 # golang
 FROM golang:1.18.1-bullseye
