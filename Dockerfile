@@ -467,7 +467,7 @@ FROM k8s.gcr.io/pause:3.7
 FROM k8s.gcr.io/kube-apiserver:v1.23.6
 # kube-apiserver
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.23.5
+FROM k8s.gcr.io/kube-proxy:v1.23.6
 # kube-proxy
 # kube-scheduler
 FROM k8s.gcr.io/kube-scheduler:v1.23.5
