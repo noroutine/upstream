@@ -464,7 +464,7 @@ FROM quay.io/strimzi/kafka:0.28.0-kafka-3.1.0
 FROM k8s.gcr.io/pause:3.7
 # pause
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.23.5
+FROM k8s.gcr.io/kube-apiserver:v1.23.6
 # kube-apiserver
 # kube-proxy
 FROM k8s.gcr.io/kube-proxy:v1.23.5
