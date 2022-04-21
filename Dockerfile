@@ -443,7 +443,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.8.0
 FROM zachomedia/cert-manager-webhook-pdns:v2.0.1
 # zachomedia/cert-manager-webhook-pdns
 # hashicorp/consul
-FROM hashicorp/consul:1.11.5
+FROM hashicorp/consul:1.12.0
 # hashicorp/consul
 # hashicorp/consul-k8s-control-plane
 FROM hashicorp/consul-k8s-control-plane:0.42.0
