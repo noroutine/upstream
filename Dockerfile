@@ -473,7 +473,7 @@ FROM k8s.gcr.io/kube-proxy:v1.23.5
 FROM k8s.gcr.io/kube-scheduler:v1.23.5
 # kube-scheduler
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.23.5
+FROM k8s.gcr.io/kube-controller-manager:v1.23.6
 # kube-controller-manager
 # coredns/coredns
 FROM k8s.gcr.io/coredns/coredns:v1.8.6
