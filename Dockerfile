@@ -452,7 +452,7 @@ FROM hashicorp/consul-k8s-control-plane:0.43.0
 FROM envoyproxy/envoy-alpine:v1.21.1
 # envoyproxy/envoy-alpine
 # hashicorp/vault
-FROM hashicorp/vault:1.10.0
+FROM hashicorp/vault:1.10.1
 # hashicorp/vault
 # strimzi/operator
 FROM quay.io/strimzi/operator:0.28.0
