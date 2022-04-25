@@ -269,7 +269,7 @@ FROM ghcr.io/mikecao/umami:postgresql-2575cbf
 FROM bitnami/spark:3.2.1-debian-10-r67
 # bitnami/spark
 # bitnami/prometheus
-FROM bitnami/prometheus:2.34.0-debian-10-r3
+FROM bitnami/prometheus:2.35.0-debian-10-r3
 # bitnami/prometheus
 # bitnami/prometheus-operator
 FROM bitnami/prometheus-operator:0.55.1-debian-10-r12
