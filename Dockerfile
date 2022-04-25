@@ -257,7 +257,7 @@ FROM jupyter/pyspark-notebook:hub-2.2.2
 FROM jupyter/all-spark-notebook:hub-2.2.2
 # jupyter/all-spark-notebook
 # rocker/shiny
-FROM rocker/shiny:4.1.3
+FROM rocker/shiny:4.2.0
 # rocker/shiny
 # caprover/caprover
 FROM caprover/caprover:1.10.1
