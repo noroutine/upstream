@@ -170,7 +170,7 @@ FROM buildpacksio/lifecycle:0.14.0
 FROM gitlab/gitlab-runner:alpine-v14.10.0
 # gitlab/gitlab-runner
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:14.9.3-ce.0
+FROM gitlab/gitlab-ce:14.10.0-ce.0
 # gitlab/gitlab-ce
 # jupyterhub/k8s-image-cleaner
 FROM jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab
@@ -221,13 +221,13 @@ FROM strapi/strapi:3.6.8-alpine
 FROM ghost:4.44.0
 # ghost
 # bitnami/ghost
-FROM bitnami/ghost:4.43.1-debian-10-r0
+FROM bitnami/ghost:4.45.0-debian-10-r0
 # bitnami/ghost
 # matomo
 FROM matomo:4.9.0-apache
 # matomo
 # nocodb/nocodb
-FROM nocodb/nocodb:0.90.5
+FROM nocodb/nocodb:0.90.7
 # nocodb/nocodb
 # docker
 FROM docker:20.10.14-dind
@@ -257,7 +257,7 @@ FROM jupyter/pyspark-notebook:hub-2.2.2
 FROM jupyter/all-spark-notebook:hub-2.2.2
 # jupyter/all-spark-notebook
 # rocker/shiny
-FROM rocker/shiny:4.1.3
+FROM rocker/shiny:4.2.0
 # rocker/shiny
 # caprover/caprover
 FROM caprover/caprover:1.10.1
@@ -269,7 +269,7 @@ FROM ghcr.io/mikecao/umami:postgresql-2575cbf
 FROM bitnami/spark:3.2.1-debian-10-r67
 # bitnami/spark
 # bitnami/prometheus
-FROM bitnami/prometheus:2.34.0-debian-10-r3
+FROM bitnami/prometheus:2.35.0-debian-10-r3
 # bitnami/prometheus
 # bitnami/prometheus-operator
 FROM bitnami/prometheus-operator:0.55.1-debian-10-r12
@@ -452,7 +452,7 @@ FROM hashicorp/consul-k8s-control-plane:0.43.0
 FROM envoyproxy/envoy-alpine:v1.21.1
 # envoyproxy/envoy-alpine
 # hashicorp/vault
-FROM hashicorp/vault:1.10.0
+FROM hashicorp/vault:1.10.1
 # hashicorp/vault
 # strimzi/operator
 FROM quay.io/strimzi/operator:0.28.0
