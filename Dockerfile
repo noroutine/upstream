@@ -359,7 +359,7 @@ FROM bitnami/kubeapps-apis:2.4.4-debian-10-r9
 FROM bitnami/kubeapps-pinniped-proxy:2.4.4-debian-10-r9
 # bitnami/kubeapps-pinniped-proxy
 # minio/console
-FROM minio/console:v0.15.14
+FROM minio/console:v0.16.0
 # minio/console
 # kutt/kutt
 FROM kutt/kutt:v2.7.4
