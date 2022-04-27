@@ -212,7 +212,7 @@ FROM spoonest/clickhouse-tabix-web-client:stable
 FROM plausible/analytics:v1.4.4
 # plausible/analytics
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.9.0
+FROM verdaccio/verdaccio:5.10.0
 # verdaccio/verdaccio
 # strapi/strapi
 FROM strapi/strapi:3.6.8-alpine
