@@ -389,7 +389,7 @@ FROM ghcr.io/dexidp/dex:v2.31.1
 FROM quay.io/argoproj/argocd:v2.3.3
 # argoproj/argocd
 # redis
-FROM redis:6.2.6-bullseye
+FROM redis:7.0.0-bullseye
 # redis
 # listmonk/listmonk
 FROM listmonk/listmonk:v2.1.0
