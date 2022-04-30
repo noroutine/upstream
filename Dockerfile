@@ -338,7 +338,7 @@ FROM bitnami/kube-state-metrics:2.4.2-debian-10-r31
 FROM bitnami/metrics-server:0.6.1-debian-10-r57
 # bitnami/metrics-server
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.4.4-debian-10-r1
+FROM bitnami/kubeapps-dashboard:2.4.5-debian-10-r1
 # bitnami/kubeapps-dashboard
 # bitnami/kubeapps-apprepository-controller
 FROM bitnami/kubeapps-apprepository-controller:2.4.4-scratch-r1
