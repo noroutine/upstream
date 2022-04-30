@@ -116,7 +116,7 @@ FROM docker.elastic.co/kibana/kibana:8.1.3
 FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 # mongo
-FROM mongo:5.0.7-focal
+FROM mongo:5.0.8-focal
 # mongo
 # wordpress
 FROM wordpress:5.9.3-apache
