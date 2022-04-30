@@ -131,7 +131,7 @@ FROM mysql:8.0.28
 FROM mariadb:10.7.3-focal
 # mariadb
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.3.0
+FROM mccutchen/go-httpbin:v2.4.0
 # mccutchen/go-httpbin
 # oauth2-proxy/oauth2-proxy
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.2.1-amd64
