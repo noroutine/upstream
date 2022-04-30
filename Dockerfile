@@ -125,7 +125,7 @@ FROM wordpress:5.9.3-apache
 FROM dpage/pgadmin4:6.8
 # dpage/pgadmin4
 # mysql
-FROM mysql:8.0.28
+FROM mysql:8.0.29
 # mysql
 # mariadb
 FROM mariadb:10.7.3-focal
