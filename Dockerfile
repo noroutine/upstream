@@ -110,7 +110,7 @@ FROM quay.io/cortexproject/cortex:v1.11.1
 FROM docker.elastic.co/elasticsearch/elasticsearch:8.2.0
 # elasticsearch/elasticsearch
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.1.3
+FROM docker.elastic.co/logstash/logstash:8.2.0
 # logstash/logstash
 # kibana/kibana
 FROM docker.elastic.co/kibana/kibana:8.2.0
