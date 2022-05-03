@@ -457,6 +457,12 @@ FROM envoyproxy/envoy-alpine:v1.21.2
 # hashicorp/vault
 FROM hashicorp/vault:1.10.2
 # hashicorp/vault
+# hashicorp/vault-k8s
+FROM hashicorp/vault-k8s:0.15.0
+# hashicorp/vault-k8s
+# hashicorp/vault-csi-provider
+FROM hashicorp/vault-csi-provider:1.1.0
+# hashicorp/vault-csi-provider
 # strimzi/operator
 FROM quay.io/strimzi/operator:0.28.0
 # strimzi/operator
