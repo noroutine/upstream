@@ -53,7 +53,7 @@ FROM haproxytech/haproxy-debian:2.5.6
 FROM minio/minio:RELEASE.2022-03-14T18-25-24Z
 # minio/minio
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.3
+FROM quay.io/coreos/etcd:v3.5.4
 # coreos/etcd
 # prom/prometheus
 FROM prom/prometheus:v2.35.0
@@ -199,9 +199,9 @@ FROM jupyterhub/k8s-singleuser-sample:1.2.0
 # jupyterhub/configurable-http-proxy
 FROM jupyterhub/configurable-http-proxy:4.5.1
 # jupyterhub/configurable-http-proxy
-# jupyter/repo2docker
-FROM jupyter/repo2docker:2021.08.0
-# jupyter/repo2docker
+# jupyterhub/repo2docker
+FROM quay.io/jupyterhub/repo2docker:2022.02.0
+# jupyterhub/repo2docker
 # pihole/pihole
 FROM pihole/pihole:v5.8.1
 # pihole/pihole
@@ -482,7 +482,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.23.6
 FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 # tigera/operator
-FROM quay.io/tigera/operator:v1.25.7
+FROM quay.io/tigera/operator:v1.25.8
 # tigera/operator
 # calico/typha
 FROM calico/typha:v3.22.2
