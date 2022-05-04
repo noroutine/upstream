@@ -419,7 +419,7 @@ FROM memcached:1.6.15-alpine3.15
 FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 # nats
-FROM nats:2.8.1-alpine3.15
+FROM nats:2.8.2-alpine3.15
 # nats
 # masipcat/wireguard-go
 FROM masipcat/wireguard-go:0.0.20220316
