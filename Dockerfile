@@ -44,7 +44,7 @@ FROM postgres:14.2-bullseye
 FROM atlassian/jira-software:8.22.2
 # atlassian/jira-software
 # nextcloud
-FROM nextcloud:23.0.4-apache
+FROM nextcloud:24.0.0-apache
 # nextcloud
 # haproxytech/haproxy-debian
 FROM haproxytech/haproxy-debian:2.5.6
