@@ -29,7 +29,7 @@ FROM traefik:v2.7
 FROM sonatype/nexus3:3.38.1
 # sonatype/nexus3
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.2.13
+FROM squidfunk/mkdocs-material:8.2.14
 # squidfunk/mkdocs-material
 # freeradius/freeradius-server
 FROM freeradius/freeradius-server:3.0.25-alpine
