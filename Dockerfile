@@ -332,7 +332,7 @@ FROM bitnami/grafana:8.5.2-debian-10-r0
 FROM bitnami/consul:1.11.4-debian-10-r38
 # bitnami/consul
 # bitnami/nats
-FROM bitnami/nats:2.8.1-debian-10-r3
+FROM bitnami/nats:2.8.2-debian-10-r3
 # bitnami/nats
 # bitnami/kube-state-metrics
 FROM bitnami/kube-state-metrics:2.4.2-debian-10-r31
