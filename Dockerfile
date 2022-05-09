@@ -296,7 +296,7 @@ FROM bitnami/postgresql:14.2.0-debian-10-r59
 FROM bitnami/keycloak:16.1.1-debian-10-r88
 # bitnami/keycloak
 # bitnami/mariadb
-FROM bitnami/mariadb:10.6.7-debian-10-r51
+FROM bitnami/mariadb:10.7.3-debian-10-r51
 # bitnami/mariadb
 # bitnami/mongodb
 FROM bitnami/mongodb:5.0.6-debian-10-r62
