@@ -95,7 +95,7 @@ FROM quay.io/m3db/m3dbnode:v1.5.0
 FROM braedon/prometheus-es-exporter:0.14.0
 # braedon/prometheus-es-exporter
 # ribbybibby/ssl-exporter
-FROM ribbybibby/ssl-exporter:2.4.0
+FROM ribbybibby/ssl-exporter:2.4.1
 # ribbybibby/ssl-exporter
 # cadvisor/cadvisor
 FROM gcr.io/cadvisor/cadvisor:v0.44.0
