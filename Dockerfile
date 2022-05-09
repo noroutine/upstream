@@ -479,7 +479,7 @@ FROM k8s.gcr.io/kube-apiserver:v1.24.0
 FROM k8s.gcr.io/kube-proxy:v1.24.0
 # kube-proxy
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.23.6
+FROM k8s.gcr.io/kube-scheduler:v1.24.0
 # kube-scheduler
 # kube-controller-manager
 FROM k8s.gcr.io/kube-controller-manager:v1.24.0
