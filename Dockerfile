@@ -515,7 +515,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.0
 FROM quay.io/tigera/operator:v1.25.8
 # tigera/operator
 # calico/typha
-FROM calico/typha:v3.22.2
+FROM calico/typha:v3.23.0
 # calico/typha
 # calico/ctl
 FROM calico/ctl:v3.22.2
