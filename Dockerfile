@@ -248,7 +248,7 @@ FROM jupyter/minimal-notebook:hub-2.2.2
 FROM jupyter/r-notebook:hub-2.3.0
 # jupyter/r-notebook
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-2.2.2
+FROM jupyter/scipy-notebook:hub-2.3.0
 # jupyter/scipy-notebook
 # jupyter/tensorflow-notebook
 FROM jupyter/tensorflow-notebook:hub-2.2.2
