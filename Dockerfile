@@ -254,7 +254,7 @@ FROM jupyter/scipy-notebook:hub-2.3.0
 FROM jupyter/tensorflow-notebook:hub-2.2.2
 # jupyter/tensorflow-notebook
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-2.2.2
+FROM jupyter/datascience-notebook:hub-2.3.0
 # jupyter/datascience-notebook
 # jupyter/pyspark-notebook
 FROM jupyter/pyspark-notebook:hub-2.3.0
