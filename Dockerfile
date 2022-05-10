@@ -242,7 +242,7 @@ FROM docker:20.10.15-dind
 FROM jupyter/base-notebook:hub-2.3.0
 # jupyter/base-notebook
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:hub-2.2.2
+FROM jupyter/minimal-notebook:hub-2.3.0
 # jupyter/minimal-notebook
 # jupyter/r-notebook
 FROM jupyter/r-notebook:hub-2.3.0
