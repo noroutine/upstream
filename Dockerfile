@@ -239,7 +239,7 @@ FROM metabase/metabase:v0.43.0
 FROM docker:20.10.15-dind
 # docker
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-2.2.2
+FROM jupyter/base-notebook:hub-2.3.0
 # jupyter/base-notebook
 # jupyter/minimal-notebook
 FROM jupyter/minimal-notebook:hub-2.2.2
