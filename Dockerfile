@@ -524,7 +524,7 @@ FROM calico/ctl:v3.22.2
 FROM calico/node:v3.23.0
 # calico/node
 # calico/cni
-FROM calico/cni:v3.22.2
+FROM calico/cni:v3.23.0
 # calico/cni
 # calico/apiserver
 FROM calico/apiserver:v3.22.2
