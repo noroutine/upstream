@@ -20,7 +20,7 @@ FROM php:8.1.5-apache-bullseye
 FROM golang:1.18.2-bullseye
 # golang
 # golang
-FROM golang:1.18.2-bullseye
+FROM golang:1.18.0-alpine3.15
 # golang
 # traefik
 FROM traefik:v2.7
@@ -439,6 +439,9 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # caddy
 FROM caddy:2.5.1-alpine
 # caddy
+# outline/shadowbox
+FROM quay.io/outline/shadowbox:server-v1.6.1
+# outline/shadowbox
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.8.0
 # jetstack/cert-manager-controller
