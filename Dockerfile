@@ -467,7 +467,7 @@ FROM envoyproxy/envoy-alpine:v1.21.2
 FROM hashicorp/vault:1.10.3
 # hashicorp/vault
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:0.15.0
+FROM hashicorp/vault-k8s:0.16.0
 # hashicorp/vault-k8s
 # hashicorp/vault-csi-provider
 FROM hashicorp/vault-csi-provider:1.1.0
