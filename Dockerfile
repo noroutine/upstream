@@ -308,7 +308,7 @@ FROM bitnami/mongodb:5.0.6-debian-10-r62
 FROM bitnami/memcached:1.6.15-debian-10-r9
 # bitnami/memcached
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.1.3-debian-10-r6
+FROM bitnami/nginx-ingress-controller:1.2.0-debian-10-r6
 # bitnami/nginx-ingress-controller
 # bitnami/nginx
 FROM bitnami/nginx:1.21.6-debian-10-r71
