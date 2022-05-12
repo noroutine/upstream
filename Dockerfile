@@ -125,7 +125,7 @@ FROM mongo:5.0.8-focal
 FROM wordpress:5.9.3-apache
 # wordpress
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.8
+FROM dpage/pgadmin4:6.9
 # dpage/pgadmin4
 # mysql
 FROM mysql:8.0.29
