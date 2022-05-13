@@ -377,7 +377,7 @@ FROM kutt/kutt:v2.7.4
 FROM drakkan/sftpgo:v2.2.3
 # drakkan/sftpgo
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.6.1
+FROM hasura/graphql-engine:v2.6.2
 # hasura/graphql-engine
 # paulbouwer/hello-kubernetes
 FROM paulbouwer/hello-kubernetes:1.10.1
