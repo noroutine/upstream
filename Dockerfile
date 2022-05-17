@@ -416,7 +416,7 @@ FROM vaultwarden/server:1.24.0
 FROM boky/postfix:v3.5.0
 # boky/postfix
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:1.4.1
+FROM cupcakearmy/cryptgeon:1.5.1
 # cupcakearmy/cryptgeon
 # memcached
 FROM memcached:1.6.15-alpine3.15
