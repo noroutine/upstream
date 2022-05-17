@@ -524,7 +524,7 @@ FROM calico/typha:v3.23.0
 FROM calico/ctl:v3.23.0
 # calico/ctl
 # calico/node
-FROM calico/node:v3.23.0
+FROM calico/node:v3.23.1
 # calico/node
 # calico/cni
 FROM calico/cni:v3.23.0
