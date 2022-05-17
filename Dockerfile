@@ -530,7 +530,7 @@ FROM calico/node:v3.23.0
 FROM calico/cni:v3.23.0
 # calico/cni
 # calico/apiserver
-FROM calico/apiserver:v3.23.0
+FROM calico/apiserver:v3.23.1
 # calico/apiserver
 # calico/kube-controllers
 FROM calico/kube-controllers:v3.23.0
