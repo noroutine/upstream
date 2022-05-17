@@ -233,7 +233,7 @@ FROM matomo:4.9.1-apache
 FROM nocodb/nocodb:0.90.11
 # nocodb/nocodb
 # metabase/metabase
-FROM metabase/metabase:v0.43.0
+FROM metabase/metabase:v0.43.1
 # metabase/metabase
 # docker
 FROM docker:20.10.15-dind
