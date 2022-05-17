@@ -236,7 +236,7 @@ FROM nocodb/nocodb:0.90.11
 FROM metabase/metabase:v0.43.1
 # metabase/metabase
 # docker
-FROM docker:20.10.15-dind
+FROM docker:20.10.16-dind
 # docker
 # jupyter/base-notebook
 FROM jupyter/base-notebook:hub-2.3.0
