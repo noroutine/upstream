@@ -536,7 +536,7 @@ FROM calico/apiserver:v3.23.0
 FROM calico/kube-controllers:v3.23.0
 # calico/kube-controllers
 # calico/dikastes
-FROM calico/dikastes:v3.23.0
+FROM calico/dikastes:v3.23.1
 # calico/dikastes
 # calico/pod2daemon-flexvol
 FROM calico/pod2daemon-flexvol:v3.23.0
