@@ -77,7 +77,7 @@ FROM prom/snmp-exporter:v0.20.0
 FROM prom/pushgateway:v1.4.2
 # prom/pushgateway
 # grafana/grafana
-FROM grafana/grafana:8.5.2
+FROM grafana/grafana:8.5.3
 # grafana/grafana
 # grafana/loki
 FROM grafana/loki:2.5.0
