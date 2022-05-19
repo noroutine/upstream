@@ -461,7 +461,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.0.1
 FROM hashicorp/consul:1.12.0
 # hashicorp/consul
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.43.0
+FROM hashicorp/consul-k8s-control-plane:0.44.0
 # hashicorp/consul-k8s-control-plane
 # envoyproxy/envoy-alpine
 FROM envoyproxy/envoy-alpine:v1.21.2
