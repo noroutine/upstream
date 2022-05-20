@@ -563,7 +563,7 @@ FROM longhornio/longhorn-instance-manager:v1_20220303
 FROM longhornio/csi-snapshotter:v3.0.3
 # longhornio/csi-snapshotter
 # longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.2.0
+FROM longhornio/csi-resizer:v1.3.0
 # longhornio/csi-resizer
 # longhornio/csi-provisioner
 FROM longhornio/csi-provisioner:v2.1.2
