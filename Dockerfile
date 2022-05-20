@@ -560,7 +560,7 @@ FROM longhornio/longhorn-engine:v1.2.4
 FROM longhornio/longhorn-instance-manager:v1_20220303
 # longhornio/longhorn-instance-manager
 # longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v3.0.3
+FROM longhornio/csi-snapshotter:v4.2.1
 # longhornio/csi-snapshotter
 # longhornio/csi-resizer
 FROM longhornio/csi-resizer:v1.2.0
