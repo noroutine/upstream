@@ -569,7 +569,7 @@ FROM longhornio/csi-resizer:v1.3.0
 FROM longhornio/csi-provisioner:v2.1.2
 # longhornio/csi-provisioner
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v3.2.1
+FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 # longhornio/longhorn-ui
 FROM longhornio/longhorn-ui:v1.2.4
