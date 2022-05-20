@@ -545,7 +545,7 @@ FROM calico/pod2daemon-flexvol:v3.23.1
 FROM longhornio/longhorn-manager:v1.2.4
 # longhornio/longhorn-manager
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.3.0
+FROM longhornio/csi-node-driver-registrar:v2.5.0
 # longhornio/csi-node-driver-registrar
 # longhornio/longhorn-engine
 FROM longhornio/longhorn-engine:v1.2.2
