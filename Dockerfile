@@ -332,7 +332,7 @@ FROM bitnami/metallb-controller:0.12.1-debian-10-r49
 FROM bitnami/metallb-speaker:0.12.1-debian-10-r49
 # bitnami/metallb-speaker
 # bitnami/grafana
-FROM bitnami/grafana:8.5.2-debian-10-r0
+FROM bitnami/grafana:8.5.3-debian-10-r0
 # bitnami/grafana
 # bitnami/grafana-image-renderer
 FROM bitnami/grafana-image-renderer:3.4.2-debian-10-r43
