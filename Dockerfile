@@ -224,7 +224,7 @@ FROM strapi/strapi:3.6.8-alpine
 FROM ghost:4.47.4
 # ghost
 # bitnami/ghost
-FROM bitnami/ghost:4.47.4-debian-10-r0
+FROM bitnami/ghost:4.48.0-debian-10-r0
 # bitnami/ghost
 # matomo
 FROM matomo:4.10.0-apache
