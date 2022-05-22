@@ -371,7 +371,7 @@ FROM bitnami/kubeapps-apis:2.4.5-debian-10-r1
 FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r1
 # bitnami/kubeapps-pinniped-proxy
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.17.2
+FROM bitnami/sealed-secrets-controller:v0.17.5
 # bitnami/sealed-secrets-controller
 # external-secrets/external-secrets
 FROM ghcr.io/external-secrets/external-secrets:v0.5.3
