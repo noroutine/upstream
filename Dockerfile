@@ -377,7 +377,7 @@ FROM bitnami/sealed-secrets-controller:v0.17.2
 FROM ghcr.io/external-secrets/external-secrets:v0.5.3
 # external-secrets/external-secrets
 # minio/console
-FROM minio/console:v0.17.0
+FROM minio/console:v0.17.1
 # minio/console
 # kutt/kutt
 FROM kutt/kutt:v2.7.4
