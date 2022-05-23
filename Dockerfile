@@ -251,7 +251,7 @@ FROM bitnami/ghost:4.48.0-debian-10-r0
 FROM matomo:4.10.0-apache
 # matomo
 # nocodb/nocodb
-FROM nocodb/nocodb:0.90.11
+FROM nocodb/nocodb:0.91.0
 # nocodb/nocodb
 # metabase/metabase
 FROM metabase/metabase:v0.43.1
