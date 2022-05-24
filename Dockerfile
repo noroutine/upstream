@@ -38,7 +38,7 @@ FROM php:8.1.6-apache-bullseye
 FROM golang:1.18.2-bullseye
 # golang
 # golang
-FROM golang:1.18.0-alpine3.15
+FROM golang:1.18.2-alpine3.15
 # golang
 # traefik
 FROM traefik:v2.7
