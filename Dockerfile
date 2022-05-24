@@ -754,21 +754,9 @@ FROM calico/pod2daemon-flexvol:v3.23.1
 FROM longhornio/longhorn-manager:v1.2.4
 # longhornio/longhorn-manager
 
-# longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.3.0
-# longhornio/csi-node-driver-registrar
-
-# longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.5.0
-# longhornio/csi-node-driver-registrar
-
-# longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.2.2
-# longhornio/longhorn-engine
-
-# longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.2.3
-# longhornio/longhorn-engine
+# longhornio/longhorn-ui
+FROM longhornio/longhorn-ui:v1.2.4
+# longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
 FROM longhornio/longhorn-engine:v1.2.4
@@ -777,6 +765,14 @@ FROM longhornio/longhorn-engine:v1.2.4
 # longhornio/longhorn-instance-manager
 FROM longhornio/longhorn-instance-manager:v1_20220303
 # longhornio/longhorn-instance-manager
+
+# longhornio/csi-node-driver-registrar
+FROM longhornio/csi-node-driver-registrar:v2.3.0
+# longhornio/csi-node-driver-registrar
+
+# longhornio/csi-node-driver-registrar
+FROM longhornio/csi-node-driver-registrar:v2.5.0
+# longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
 FROM longhornio/csi-snapshotter:v3.0.3
@@ -805,10 +801,6 @@ FROM longhornio/csi-attacher:v3.2.1
 # longhornio/csi-attacher
 FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
-
-# longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.2.4
-# longhornio/longhorn-ui
 
 # cloud-provider-vsphere/cpi/release/manager
 FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.23.0
