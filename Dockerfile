@@ -139,7 +139,7 @@ FROM grafana/promtail:2.5.0
 # grafana/promtail
 
 # m3db/m3coordinator
-FROM quay.io/m3db/m3coordinator:v1.3.0
+FROM quay.io/m3db/m3coordinator:v1.5.0
 # m3db/m3coordinator
 
 # m3db/m3dbnode
