@@ -68,7 +68,7 @@ FROM nextcloud:24.0.1-apache
 FROM haproxytech/haproxy-debian:2.5.7
 # haproxytech/haproxy-debian
 # minio/minio
-FROM minio/minio:RELEASE.2022-03-14T18-25-24Z
+FROM minio/minio:RELEASE.2022-05-23T18-45-11Z
 # minio/minio
 # coreos/etcd
 FROM quay.io/coreos/etcd:v3.5.4
@@ -196,6 +196,9 @@ FROM gitlab/gitlab-ce:15.0.0-ce.0
 # summerwind/actions-runner-controller
 FROM summerwind/actions-runner-controller:v0.23.0
 # summerwind/actions-runner-controller
+# summerwind/actions-runner
+FROM summerwind/actions-runner:v2.291.1-ubuntu-20.04
+# summerwind/actions-runner
 # jupyterhub/k8s-image-cleaner
 FROM jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab
 # jupyterhub/k8s-image-cleaner
@@ -472,6 +475,9 @@ FROM caddy:2.5.1-alpine
 # outline/shadowbox
 FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
+# kaniko-project/executor
+FROM gcr.io/kaniko-project/executor:v1.8.1
+# kaniko-project/executor
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.8.0
 # jetstack/cert-manager-controller
