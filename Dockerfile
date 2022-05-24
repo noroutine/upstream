@@ -303,7 +303,7 @@ FROM quay.io/jupyterhub/repo2docker:2022.02.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:v5.8.1
+FROM pihole/pihole:2022.05
 # pihole/pihole
 
 # yandex/clickhouse-server
