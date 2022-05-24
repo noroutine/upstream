@@ -15,7 +15,7 @@ FROM alpine:3.16.0
 # alpine
 
 # busybox
-FROM busybox:1.34.1
+FROM busybox:1.35.0
 # busybox
 
 # distroless/static-debian11
@@ -67,7 +67,7 @@ FROM squidfunk/mkdocs-material:8.2.15
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.0.25-alpine
+FROM freeradius/freeradius-server:3.2.0-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
@@ -139,7 +139,7 @@ FROM grafana/promtail:2.5.0
 # grafana/promtail
 
 # m3db/m3coordinator
-FROM quay.io/m3db/m3coordinator:v1.3.0
+FROM quay.io/m3db/m3coordinator:v1.5.0
 # m3db/m3coordinator
 
 # m3db/m3dbnode
@@ -683,11 +683,11 @@ FROM hashicorp/vault-csi-provider:1.1.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.28.0
+FROM quay.io/strimzi/operator:0.29.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.28.0-kafka-3.1.0
+FROM quay.io/strimzi/kafka:0.29.0-kafka-3.1.0
 # strimzi/kafka
 
 # pause
@@ -715,7 +715,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.0
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.25.8
+FROM quay.io/tigera/operator:v1.27.1
 # tigera/operator
 
 # calico/typha
