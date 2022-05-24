@@ -715,7 +715,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.0
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.25.8
+FROM quay.io/tigera/operator:v1.27.1
 # tigera/operator
 
 # calico/typha
