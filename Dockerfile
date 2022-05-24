@@ -440,7 +440,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.14.0
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.27.0
 # gitlab-org/cluster-integration/auto-deploy-image
 # vaultwarden/server
-FROM vaultwarden/server:1.24.0
+FROM vaultwarden/server:1.25.0
 # vaultwarden/server
 # boky/postfix
 FROM boky/postfix:v3.5.0
