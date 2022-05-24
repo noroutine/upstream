@@ -149,7 +149,7 @@ FROM dpage/pgadmin4:6.9
 FROM mysql:8.0.29
 # mysql
 # mariadb
-FROM mariadb:10.7.3-focal
+FROM mariadb:10.8.2-focal
 # mariadb
 # mccutchen/go-httpbin
 FROM mccutchen/go-httpbin:v2.4.0
