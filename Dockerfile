@@ -783,7 +783,7 @@ FROM longhornio/csi-snapshotter:v4.2.1
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.2.0
+FROM longhornio/csi-resizer:v1.3.0
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
