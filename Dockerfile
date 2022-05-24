@@ -15,7 +15,7 @@ FROM alpine:3.16.0
 # alpine
 
 # busybox
-FROM busybox:1.34.1
+FROM busybox:1.35.0
 # busybox
 
 # distroless/static-debian11
