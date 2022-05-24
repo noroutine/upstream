@@ -8,7 +8,7 @@ FROM ubuntu:jammy-20220428
 FROM ubuntu:focal-20220316
 # ubuntu
 # alpine
-FROM alpine:3.15.4
+FROM alpine:3.16.0
 # alpine
 # busybox
 FROM busybox:1.34.1
