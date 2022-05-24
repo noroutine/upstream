@@ -763,11 +763,11 @@ FROM longhornio/csi-node-driver-registrar:v2.5.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.2.2
+FROM longhornio/longhorn-engine:v1.2.4
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.2.3
+FROM longhornio/longhorn-engine:v1.2.4
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-engine
