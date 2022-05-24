@@ -167,15 +167,15 @@ FROM quay.io/cortexproject/cortex:v1.11.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.2.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.2.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.2.0
+FROM docker.elastic.co/logstash/logstash:8.2.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.2.0
+FROM docker.elastic.co/kibana/kibana:8.2.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -783,7 +783,7 @@ FROM longhornio/csi-snapshotter:v4.2.1
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.2.0
+FROM longhornio/csi-resizer:v1.3.0
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
@@ -835,7 +835,7 @@ FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1
+FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.0.0
 # sig-storage/csi-snapshotter
 
 # vstadtmueller/cert-manager-webhook-powerdns
