@@ -763,7 +763,7 @@ FROM longhornio/longhorn-engine:v1.2.4
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1_20220303
+FROM longhornio/longhorn-instance-manager:v1_20220516
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
@@ -779,7 +779,7 @@ FROM longhornio/csi-node-driver-registrar:v2.5.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v3.0.3
+FROM longhornio/csi-snapshotter:v4.2.1
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
@@ -791,7 +791,7 @@ FROM longhornio/csi-provisioner:v2.1.2
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v3.2.1
+FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
