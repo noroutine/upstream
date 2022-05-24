@@ -766,28 +766,24 @@ FROM longhornio/longhorn-engine:v1.2.4
 FROM longhornio/longhorn-instance-manager:v1_20220303
 # longhornio/longhorn-instance-manager
 
-# longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.3.0
-# longhornio/csi-node-driver-registrar
+# longhornio/longhorn-share-manager
+FROM longhornio/longhorn-share-manager:v1_20211020
+# longhornio/longhorn-share-manager
+
+# longhornio/backing-image-manager
+FROM longhornio/backing-image-manager:v2_20210820
+# longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.5.0
+FROM longhornio/csi-node-driver-registrar:v2.3.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
 FROM longhornio/csi-snapshotter:v3.0.3
 # longhornio/csi-snapshotter
 
-# longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v4.2.1
-# longhornio/csi-snapshotter
-
 # longhornio/csi-resizer
 FROM longhornio/csi-resizer:v1.2.0
-# longhornio/csi-resizer
-
-# longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.3.0
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
@@ -796,10 +792,6 @@ FROM longhornio/csi-provisioner:v2.1.2
 
 # longhornio/csi-attacher
 FROM longhornio/csi-attacher:v3.2.1
-# longhornio/csi-attacher
-
-# longhornio/csi-attacher
-FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
