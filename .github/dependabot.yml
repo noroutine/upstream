@@ -12,7 +12,7 @@ registries:
     password: ${{secrets.DOCKERHUB_PASSWORD}}
   quayio:
     type: docker-registry
-    url: registry.hub.docker.com
+    url: quay.io
     username: noroutine+pull_account
     password: ${{secrets.QUAYIO_PASSWORD}}
 updates:
