@@ -5,16 +5,22 @@
 
 version: 2
 registries:
-  dockerhub: # Define access for a private registry 
+  dockerhub:
     type: docker-registry
     url: registry.hub.docker.com
     username: noroutine
     password: ${{secrets.DOCKERHUB_PASSWORD}}
+  quayio:
+    type: docker-registry
+    url: registry.hub.docker.com
+    username: noroutine+pull_account
+    password: ${{secrets.QUAYIO_PASSWORD}}
 updates:
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/" # Location of package manifests
     registries:
       - dockerhub
+      - quayio
     schedule:
       interval: "daily"
     open-pull-requests-limit: 100
