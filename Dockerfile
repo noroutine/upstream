@@ -266,6 +266,10 @@ FROM summerwind/actions-runner-controller:v0.23.0
 FROM summerwind/actions-runner:v2.291.1-ubuntu-20.04
 # summerwind/actions-runner
 
+# brancz/kube-rbac-proxy
+FROM quay.io/brancz/kube-rbac-proxy:v0.12.0
+# brancz/kube-rbac-proxy
+
 # jupyterhub/k8s-image-cleaner
 FROM jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab
 # jupyterhub/k8s-image-cleaner
@@ -525,6 +529,10 @@ FROM bitnami/kubeapps-apis:2.4.5-debian-10-r1
 # bitnami/kubeapps-pinniped-proxy
 FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r1
 # bitnami/kubeapps-pinniped-proxy
+
+# bitnami/kube-rbac-proxy
+FROM bitnami/kube-rbac-proxy:0.12.0-scratch-r2
+# bitnami/kube-rbac-proxy
 
 # bitnami/sealed-secrets-controller
 FROM bitnami/sealed-secrets-controller:v0.17.5
