@@ -187,7 +187,7 @@ FROM mongo:5.0.8-focal
 # mongo
 
 # wordpress
-FROM wordpress:5.9.3-apache
+FROM wordpress:6.0.0-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -331,7 +331,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.0.0
+FROM ghost:5.0.1
 # ghost
 
 # bitnami/ghost
