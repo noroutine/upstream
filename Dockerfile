@@ -683,7 +683,7 @@ FROM hashicorp/vault:1.10.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:0.16.0
+FROM hashicorp/vault-k8s:0.16.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
