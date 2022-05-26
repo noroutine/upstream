@@ -258,6 +258,18 @@ FROM gitlab/gitlab-runner:alpine-v15.0.0
 FROM gitlab/gitlab-ce:15.0.0-ce.0
 # gitlab/gitlab-ce
 
+# gitlab-org/cluster-integration/auto-build-image
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.14.0
+# gitlab-org/cluster-integration/auto-build-image
+
+# gitlab-org/cluster-integration/auto-deploy-image
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.27.0
+# gitlab-org/cluster-integration/auto-deploy-image
+
+# gitlab-org/cluster-integration/gitlab-agent/agentk
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.0.0
+# gitlab-org/cluster-integration/gitlab-agent/agentk
+
 # summerwind/actions-runner-controller
 FROM summerwind/actions-runner-controller:v0.23.0
 # summerwind/actions-runner-controller
@@ -594,14 +606,6 @@ FROM redis:7.0.0-bullseye
 FROM listmonk/listmonk:v2.1.0
 # listmonk/listmonk
 
-# gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.14.0
-# gitlab-org/cluster-integration/auto-build-image
-
-# gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.27.0
-# gitlab-org/cluster-integration/auto-deploy-image
-
 # vaultwarden/server
 FROM vaultwarden/server:1.25.0
 # vaultwarden/server
@@ -699,7 +703,7 @@ FROM quay.io/strimzi/operator:0.29.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.29.0-kafka-3.1.0
+FROM quay.io/strimzi/kafka:0.29.0-kafka-3.2.0
 # strimzi/kafka
 
 # pause
