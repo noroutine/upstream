@@ -270,6 +270,10 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.27.
 FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.0.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
+# gitlab-org/cluster-integration/cluster-applications
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.1.0
+# gitlab-org/cluster-integration/cluster-applications
+
 # summerwind/actions-runner-controller
 FROM summerwind/actions-runner-controller:v0.23.0
 # summerwind/actions-runner-controller
