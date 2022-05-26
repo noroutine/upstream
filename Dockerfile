@@ -211,11 +211,11 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.2.1-amd64
 # oauth2-proxy/oauth2-proxy
 
 # heroku/heroku
-FROM heroku/heroku:20-build
+FROM heroku/heroku:22-build
 # heroku/heroku
 
 # heroku/heroku
-FROM heroku/heroku:20
+FROM heroku/heroku:22
 # heroku/heroku
 
 # heroku/heroku
