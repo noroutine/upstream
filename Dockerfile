@@ -423,6 +423,10 @@ FROM bitnami/postgresql:11.16.0-debian-10-r12
 # bitnami/postgresql
 
 # bitnami/postgresql
+FROM bitnami/postgresql:12.11.0-debian-10-r12
+# bitnami/postgresql
+
+# bitnami/postgresql
 FROM bitnami/postgresql:13.7.0-debian-10-r12
 # bitnami/postgresql
 
@@ -723,7 +727,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.1
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.1
+FROM quay.io/tigera/operator:v1.27.2
 # tigera/operator
 
 # calico/typha
