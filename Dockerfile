@@ -167,15 +167,15 @@ FROM quay.io/cortexproject/cortex:v1.11.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.2.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.2.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.2.1
+FROM docker.elastic.co/logstash/logstash:8.2.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.2.1
+FROM docker.elastic.co/kibana/kibana:8.2.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -579,7 +579,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.110
+FROM stakater/reloader:v0.0.111
 # stakater/reloader
 
 # jimmidyson/configmap-reload
