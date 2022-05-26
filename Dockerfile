@@ -335,7 +335,7 @@ FROM ghost:5.0.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:4.48.0-debian-10-r0
+FROM bitnami/ghost:4.48.0-debian-10-r5
 # bitnami/ghost
 
 # matomo
@@ -399,39 +399,39 @@ FROM ghcr.io/mikecao/umami:postgresql-2575cbf
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.2.1-debian-10-r67
+FROM bitnami/spark:3.2.1-debian-10-r111
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.35.0-debian-10-r3
+FROM bitnami/prometheus:2.35.0-debian-10-r32
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.56.2-debian-10-r12
+FROM bitnami/prometheus-operator:0.56.3-debian-10-r1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.3.1-debian-10-r119
+FROM bitnami/node-exporter:1.3.1-debian-10-r164
 # bitnami/node-exporter
 
 # bitnami/redis
-FROM bitnami/redis:6.2.6-debian-10-r181
+FROM bitnami/redis:6.2.7-debian-10-r26
 # bitnami/redis
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.15.0-debian-10-r58
+FROM bitnami/postgresql:11.16.0-debian-10-r12
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.6.0-debian-10-r57
+FROM bitnami/postgresql:13.7.0-debian-10-r12
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.2.0-debian-10-r59
+FROM bitnami/postgresql:14.3.0-debian-10-r13
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:18.0.0-debian-10-r2
+FROM bitnami/keycloak:18.0.0-debian-10-r6
 # bitnami/keycloak
 
 # bitnami/keycloak
@@ -439,71 +439,71 @@ FROM bitnami/keycloak:16.1.1-debian-10-r103
 # bitnami/keycloak
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.7.3-debian-10-r51
+FROM bitnami/mariadb:10.7.4-debian-10-r4
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:5.0.6-debian-10-r62
+FROM bitnami/mongodb:5.0.9-debian-10-r0
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.15-debian-10-r9
+FROM bitnami/memcached:1.6.15-debian-10-r54
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.2.0-debian-10-r6
+FROM bitnami/nginx-ingress-controller:1.2.0-debian-10-r8
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.21.6-debian-10-r71
+FROM bitnami/nginx:1.21.6-debian-10-r118
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.5.23-debian-10-r0
+FROM bitnami/minio:2022.5.23-debian-10-r2
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.5.9-debian-10-r0
+FROM bitnami/minio-client:2022.5.9-debian-10-r15
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
-FROM bitnami/bitnami-shell:10-debian-10-r390
+FROM bitnami/bitnami-shell:10-debian-10-r436
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.12.1-debian-10-r49
+FROM bitnami/metallb-controller:0.12.1-debian-10-r93
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.12.1-debian-10-r49
+FROM bitnami/metallb-speaker:0.12.1-debian-10-r95
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:8.5.3-debian-10-r0
+FROM bitnami/grafana:8.5.3-debian-10-r4
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.4.2-debian-10-r43
+FROM bitnami/grafana-image-renderer:3.4.2-debian-10-r59
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.11.4-debian-10-r38
+FROM bitnami/consul:1.12.1-debian-10-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.8.2-debian-10-r3
+FROM bitnami/nats:2.8.3-debian-10-r2
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.4.2-debian-10-r31
+FROM bitnami/kube-state-metrics:2.4.2-debian-10-r76
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.1-debian-10-r57
+FROM bitnami/metrics-server:0.6.1-debian-10-r102
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.4.5-debian-10-r1
+FROM bitnami/kubeapps-dashboard:2.4.5-debian-10-r27
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
@@ -523,11 +523,11 @@ FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r0
 # bitnami/kubeapps-assetsvc
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.4.5-debian-10-r1
+FROM bitnami/kubeapps-apis:2.4.5-debian-10-r26
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r1
+FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-10-r26
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
