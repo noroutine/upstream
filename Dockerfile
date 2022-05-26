@@ -187,7 +187,7 @@ FROM mongo:5.0.8-focal
 # mongo
 
 # wordpress
-FROM wordpress:5.9.3-apache
+FROM wordpress:6.0.0-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -339,7 +339,7 @@ FROM bitnami/ghost:4.48.0-debian-10-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.10.0-apache
+FROM matomo:4.10.1-apache
 # matomo
 
 # nocodb/nocodb
@@ -667,7 +667,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.0.1
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.12.0
+FROM hashicorp/consul:1.12.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -707,19 +707,19 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.24.0
+FROM k8s.gcr.io/kube-apiserver:v1.24.1
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.24.0
+FROM k8s.gcr.io/kube-proxy:v1.24.1
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.24.0
+FROM k8s.gcr.io/kube-scheduler:v1.24.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.24.0
+FROM k8s.gcr.io/kube-controller-manager:v1.24.1
 # kube-controller-manager
 
 # tigera/operator
