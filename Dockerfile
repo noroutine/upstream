@@ -279,7 +279,7 @@ FROM summerwind/actions-runner-controller:v0.23.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.291.1-ubuntu-20.04
+FROM summerwind/actions-runner:v2.292.0-ubuntu-20.04
 # summerwind/actions-runner
 
 # brancz/kube-rbac-proxy
@@ -347,7 +347,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.0.1
+FROM ghost:5.0.2
 # ghost
 
 # bitnami/ghost
@@ -511,7 +511,7 @@ FROM bitnami/consul:1.12.1-debian-10-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.8.3-debian-10-r2
+FROM bitnami/nats:2.8.4-debian-10-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -563,7 +563,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.3
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.17.2
+FROM minio/console:v0.17.3
 # minio/console
 
 # kutt/kutt
@@ -631,7 +631,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.8.3-alpine3.15
+FROM nats:2.8.4-alpine3.15
 # nats
 
 # masipcat/wireguard-go
