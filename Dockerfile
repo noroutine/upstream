@@ -282,6 +282,10 @@ FROM summerwind/actions-runner-controller:v0.23.0
 FROM summerwind/actions-runner:v2.292.0-ubuntu-20.04
 # summerwind/actions-runner
 
+# summerwind/actions-runner-dind
+FROM summerwind/actions-runner-dind:v2.292.0-ubuntu-20.04
+# summerwind/actions-runner-dind
+
 # brancz/kube-rbac-proxy
 FROM quay.io/brancz/kube-rbac-proxy:v0.12.0
 # brancz/kube-rbac-proxy
