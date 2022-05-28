@@ -606,6 +606,10 @@ FROM ghcr.io/dexidp/dex:v2.31.2
 FROM quay.io/argoproj/argocd:v2.3.4
 # argoproj/argocd
 
+# argoproj/argocd-applicationset
+FROM quay.io/argoproj/argocd-applicationset:v0.4.1
+# argoproj/argocd-applicationset
+
 # redis
 FROM redis:7.0.0-bullseye
 # redis
