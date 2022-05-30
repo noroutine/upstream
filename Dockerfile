@@ -791,7 +791,7 @@ FROM longhornio/longhorn-engine:v1.2.4
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1_20220516
+FROM longhornio/longhorn-instance-manager:v1_20220530
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
