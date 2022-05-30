@@ -123,7 +123,7 @@ FROM prom/snmp-exporter:v0.20.0
 # prom/snmp-exporter
 
 # prom/pushgateway
-FROM prom/pushgateway:v1.4.2
+FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
