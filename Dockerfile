@@ -99,7 +99,7 @@ FROM quay.io/coreos/etcd:v3.5.4
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.35.0
+FROM prom/prometheus:v2.36.0
 # prom/prometheus
 
 # prom/alertmanager
@@ -115,7 +115,7 @@ FROM prom/consul-exporter:v0.8.0
 # prom/consul-exporter
 
 # prom/blackbox-exporter
-FROM prom/blackbox-exporter:v0.20.0
+FROM prom/blackbox-exporter:v0.21.0
 # prom/blackbox-exporter
 
 # prom/snmp-exporter
