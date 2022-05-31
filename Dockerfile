@@ -123,7 +123,7 @@ FROM prom/snmp-exporter:v0.20.0
 # prom/snmp-exporter
 
 # prom/pushgateway
-FROM prom/pushgateway:v1.4.2
+FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
@@ -259,11 +259,11 @@ FROM gitlab/gitlab-ce:15.0.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.14.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.15.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.27.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.28.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.10.2
+FROM verdaccio/verdaccio:5.10.3
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -563,7 +563,7 @@ FROM bitnami/sealed-secrets-controller:v0.17.5
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.5.3
+FROM ghcr.io/external-secrets/external-secrets:v0.5.4
 # external-secrets/external-secrets
 
 # minio/console
@@ -795,7 +795,7 @@ FROM longhornio/longhorn-instance-manager:v1_20220530
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1_20220523
+FROM longhornio/longhorn-share-manager:v1_20220531
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
