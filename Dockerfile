@@ -795,7 +795,7 @@ FROM longhornio/longhorn-instance-manager:v1_20220530
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1_20220523
+FROM longhornio/longhorn-share-manager:v1_20220531
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
