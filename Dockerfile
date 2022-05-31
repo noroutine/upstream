@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:8.5.3
+FROM grafana/grafana:8.5.4
 # grafana/grafana
 
 # grafana/loki
@@ -563,7 +563,7 @@ FROM bitnami/sealed-secrets-controller:v0.17.5
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.5.4
+FROM ghcr.io/external-secrets/external-secrets:v0.5.5
 # external-secrets/external-secrets
 
 # minio/console
@@ -743,7 +743,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.1
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.2
+FROM quay.io/tigera/operator:v1.27.3
 # tigera/operator
 
 # calico/typha
