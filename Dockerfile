@@ -363,7 +363,7 @@ FROM matomo:4.10.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.91.1
+FROM nocodb/nocodb:0.91.6
 # nocodb/nocodb
 
 # metabase/metabase
@@ -563,7 +563,7 @@ FROM bitnami/sealed-secrets-controller:v0.17.5
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.5.5
+FROM ghcr.io/external-secrets/external-secrets:v0.5.6
 # external-secrets/external-secrets
 
 # minio/console
