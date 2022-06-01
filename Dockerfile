@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.0.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.0.0-ce.0
+FROM gitlab/gitlab-ce:15.0.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -563,7 +563,7 @@ FROM bitnami/sealed-secrets-controller:v0.17.5
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.5.6
+FROM ghcr.io/external-secrets/external-secrets:v0.5.4
 # external-secrets/external-secrets
 
 # minio/console
