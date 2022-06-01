@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.0.2
+FROM ghost:5.1.1
 # ghost
 
 # bitnami/ghost
@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.91.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.43.1
+FROM metabase/metabase:v0.43.2
 # metabase/metabase
 
 # docker
