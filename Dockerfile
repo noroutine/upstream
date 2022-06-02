@@ -47,11 +47,11 @@ FROM php:8.1.6-apache-bullseye
 # php
 
 # golang
-FROM golang:1.18.2-bullseye
+FROM golang:1.18.3-bullseye
 # golang
 
 # golang
-FROM golang:1.18.2-alpine3.15
+FROM golang:1.18.3-alpine3.15
 # golang
 
 # traefik
@@ -743,7 +743,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.1
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.3
+FROM quay.io/tigera/operator:v1.27.4
 # tigera/operator
 
 # calico/typha
