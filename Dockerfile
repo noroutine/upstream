@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.39.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.2.16
+FROM squidfunk/mkdocs-material:8.3.0
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.15.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.28.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.28.2
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
