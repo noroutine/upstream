@@ -183,7 +183,7 @@ FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:5.0.8-focal
+FROM mongo:5.0.9-focal
 # mongo
 
 # wordpress
@@ -247,7 +247,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.14.0
+FROM buildpacksio/lifecycle:0.14.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.10.3
+FROM verdaccio/verdaccio:5.11.0
 # verdaccio/verdaccio
 
 # strapi/strapi
