@@ -559,7 +559,7 @@ FROM bitnami/kube-rbac-proxy:0.12.0-scratch-r2
 # bitnami/kube-rbac-proxy
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.17.5
+FROM bitnami/sealed-secrets-controller:v0.18.0
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
@@ -791,7 +791,7 @@ FROM longhornio/longhorn-engine:v1.2.4
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1_20220530
+FROM longhornio/longhorn-instance-manager:v1_20220602
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
