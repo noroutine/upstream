@@ -275,7 +275,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.23.0
+FROM summerwind/actions-runner-controller:v0.24.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -567,7 +567,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.4
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.17.3
+FROM minio/console:v0.18.0
 # minio/console
 
 # kutt/kutt
@@ -683,7 +683,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.8.0
 # jetstack/cert-manager-ctl
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.0.1
+FROM zachomedia/cert-manager-webhook-pdns:v2.1.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
