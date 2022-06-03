@@ -567,7 +567,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.4
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.17.3
+FROM minio/console:v0.18.0
 # minio/console
 
 # kutt/kutt
