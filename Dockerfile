@@ -683,7 +683,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.8.0
 # jetstack/cert-manager-ctl
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.0.1
+FROM zachomedia/cert-manager-webhook-pdns:v2.1.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
