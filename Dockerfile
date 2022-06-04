@@ -434,6 +434,10 @@ FROM bitnami/prometheus-operator:0.56.3-debian-10-r1
 FROM bitnami/node-exporter:1.3.1-debian-10-r164
 # bitnami/node-exporter
 
+# bitnami/postgres-exporter
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r131
+# bitnami/postgres-exporter
+
 # bitnami/redis
 FROM bitnami/redis:6.2.7-debian-10-r26
 # bitnami/redis
