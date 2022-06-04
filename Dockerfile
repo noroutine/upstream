@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.39.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.3.0
+FROM squidfunk/mkdocs-material:8.3.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -515,7 +515,7 @@ FROM bitnami/grafana-image-renderer:3.4.2-debian-10-r59
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.12.1-debian-10-r0
+FROM bitnami/consul:1.12.2-debian-10-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -579,7 +579,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.2.3
+FROM drakkan/sftpgo:v2.3.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -691,7 +691,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.1.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.12.1
+FROM hashicorp/consul:1.12.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
