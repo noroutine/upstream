@@ -355,7 +355,7 @@ FROM ghost:5.2.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:4.48.0-debian-10-r5
+FROM bitnami/ghost:5.2.2-debian-10-r1
 # bitnami/ghost
 
 # matomo
@@ -507,7 +507,7 @@ FROM bitnami/metallb-speaker:0.12.1-debian-10-r95
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:8.5.3-debian-10-r4
+FROM bitnami/grafana:8.5.4-debian-10-r4
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
