@@ -3,11 +3,11 @@ FROM debian:bullseye-20220527-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20220428
+FROM ubuntu:jammy-20220531
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20220316
+FROM ubuntu:jammy-20220531
 # ubuntu
 
 # alpine
