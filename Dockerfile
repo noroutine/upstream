@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.0.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.0.1-ce.0
+FROM gitlab/gitlab-ce:15.0.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.2.1
+FROM ghost:5.2.2
 # ghost
 
 # bitnami/ghost
