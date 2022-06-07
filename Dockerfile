@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.39.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.3.2
+FROM squidfunk/mkdocs-material:8.3.3
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:8.5.4
+FROM grafana/grafana:8.5.5
 # grafana/grafana
 
 # grafana/loki
