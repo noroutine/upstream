@@ -371,7 +371,7 @@ FROM metabase/metabase:v0.43.2
 # metabase/metabase
 
 # docker
-FROM docker:20.10.16-dind
+FROM docker:20.10.17-dind
 # docker
 
 # jupyter/base-notebook
@@ -603,7 +603,7 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.31.2
+FROM ghcr.io/dexidp/dex:v2.32.0
 # dexidp/dex
 
 # argoproj/argocd
