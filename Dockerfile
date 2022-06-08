@@ -690,6 +690,10 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.8.0
 FROM quay.io/jetstack/cert-manager-ctl:v1.8.0
 # jetstack/cert-manager-ctl
 
+# jetstack/cert-manager-csi-driver
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.3.0
+# jetstack/cert-manager-csi-driver
+
 # zachomedia/cert-manager-webhook-pdns
 FROM zachomedia/cert-manager-webhook-pdns:v2.1.0
 # zachomedia/cert-manager-webhook-pdns
@@ -843,16 +847,8 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.5.1
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/csi-node-driver-registrar
-FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0
-# sig-storage/csi-node-driver-registrar
-
-# sig-storage/csi-node-driver-registrar
 FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.1
 # sig-storage/csi-node-driver-registrar
-
-# sig-storage/livenessprobe
-FROM k8s.gcr.io/sig-storage/livenessprobe:v2.6.0
-# sig-storage/livenessprobe
 
 # sig-storage/livenessprobe
 FROM k8s.gcr.io/sig-storage/livenessprobe:v2.7.0
