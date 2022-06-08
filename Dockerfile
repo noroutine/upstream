@@ -846,13 +846,13 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.5.1
 FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.5.1
 # cloud-provider-vsphere/csi/release/syncer
 
-# sig-storage/csi-node-driver-registrar
-FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.1
-# sig-storage/csi-node-driver-registrar
-
 # sig-storage/livenessprobe
 FROM k8s.gcr.io/sig-storage/livenessprobe:v2.7.0
 # sig-storage/livenessprobe
+
+# sig-storage/csi-node-driver-registrar
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.1
+# sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
 FROM k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
