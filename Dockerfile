@@ -670,6 +670,10 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 FROM gcr.io/kaniko-project/executor:v1.8.1
 # kaniko-project/executor
 
+# iovisor/bpftrace
+FROM quay.io/iovisor/bpftrace:v0.15.0
+# iovisor/bpftrace
+
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.8.0
 # jetstack/cert-manager-controller
