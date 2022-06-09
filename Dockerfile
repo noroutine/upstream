@@ -591,7 +591,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.113
+FROM stakater/reloader:v0.0.114
 # stakater/reloader
 
 # jimmidyson/configmap-reload
