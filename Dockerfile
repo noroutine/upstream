@@ -579,7 +579,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.3.0
+FROM drakkan/sftpgo:v2.1.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -855,7 +855,7 @@ FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.1
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM k8s.gcr.io/sig-storage/csi-attacher:v3.4.0
+FROM k8s.gcr.io/sig-storage/csi-attacher:v3.5.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
