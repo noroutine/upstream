@@ -99,7 +99,7 @@ FROM quay.io/coreos/etcd:v3.5.4
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.36.0
+FROM prom/prometheus:v2.36.1
 # prom/prometheus
 
 # prom/alertmanager
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.15.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.29.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.30.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -591,7 +591,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.113
+FROM stakater/reloader:v0.0.114
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -707,7 +707,7 @@ FROM hashicorp/consul-k8s-control-plane:0.44.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
-FROM envoyproxy/envoy-alpine:v1.21.2
+FROM envoyproxy/envoy-alpine:v1.21.3
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
