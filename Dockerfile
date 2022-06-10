@@ -147,7 +147,7 @@ FROM quay.io/m3db/m3dbnode:v1.5.0
 # m3db/m3dbnode
 
 # braedon/prometheus-es-exporter
-FROM braedon/prometheus-es-exporter:0.14.0
+FROM braedon/prometheus-es-exporter:0.14.1
 # braedon/prometheus-es-exporter
 
 # ribbybibby/ssl-exporter
