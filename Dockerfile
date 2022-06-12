@@ -674,6 +674,10 @@ FROM gcr.io/kaniko-project/executor:v1.8.1
 FROM quay.io/iovisor/bpftrace:v0.15.0
 # iovisor/bpftrace
 
+# pryorda/vmware_exporter
+FROM pryorda/vmware_exporter:v0.18.3
+# pryorda/vmware_exporter
+
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.8.0
 # jetstack/cert-manager-controller
