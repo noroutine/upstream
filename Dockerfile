@@ -399,7 +399,7 @@ FROM jupyter/datascience-notebook:hub-2.3.0
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:hub-2.3.0
+FROM jupyter/pyspark-notebook:hub-2.3.1
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
