@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.91.7
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.43.2
+FROM metabase/metabase:v0.43.3
 # metabase/metabase
 
 # docker
@@ -615,7 +615,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.1-bullseye
+FROM redis:7.0.2-bullseye
 # redis
 
 # listmonk/listmonk
