@@ -375,35 +375,35 @@ FROM docker:20.10.17-dind
 # docker
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-2.3.0
+FROM jupyter/base-notebook:hub-2.3.1
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:hub-2.3.0
+FROM jupyter/minimal-notebook:hub-2.3.1
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:hub-2.3.0
+FROM jupyter/r-notebook:hub-2.3.1
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-2.3.0
+FROM jupyter/scipy-notebook:hub-2.3.1
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-2.3.0
+FROM jupyter/tensorflow-notebook:hub-2.3.1
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-2.3.0
+FROM jupyter/datascience-notebook:hub-2.3.1
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:hub-2.3.0
+FROM jupyter/pyspark-notebook:hub-2.3.1
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-2.3.0
+FROM jupyter/all-spark-notebook:hub-2.3.1
 # jupyter/all-spark-notebook
 
 # rocker/shiny
