@@ -387,7 +387,7 @@ FROM jupyter/r-notebook:hub-2.3.0
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-2.3.0
+FROM jupyter/scipy-notebook:hub-2.3.1
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
