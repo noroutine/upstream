@@ -167,15 +167,15 @@ FROM quay.io/cortexproject/cortex:v1.11.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.2.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.2.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.2.2
+FROM docker.elastic.co/logstash/logstash:8.2.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.2.2
+FROM docker.elastic.co/kibana/kibana:8.2.3
 # kibana/kibana
 
 # alerta/alerta-web
@@ -363,7 +363,7 @@ FROM matomo:4.10.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.91.8
+FROM nocodb/nocodb:0.91.9
 # nocodb/nocodb
 
 # metabase/metabase
@@ -679,19 +679,19 @@ FROM pryorda/vmware_exporter:v0.18.3
 # pryorda/vmware_exporter
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.8.0
+FROM quay.io/jetstack/cert-manager-controller:v1.8.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.8.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.8.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.8.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.8.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.8.0
+FROM quay.io/jetstack/cert-manager-ctl:v1.8.1
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
