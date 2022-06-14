@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.39.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.3.4
+FROM squidfunk/mkdocs-material:8.3.5
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:8.5.5
+FROM grafana/grafana:8.5.6
 # grafana/grafana
 
 # grafana/loki
@@ -507,7 +507,7 @@ FROM bitnami/metallb-speaker:0.12.1-debian-10-r95
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:8.5.4-debian-10-r4
+FROM bitnami/grafana:8.5.5-debian-11-r3
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
