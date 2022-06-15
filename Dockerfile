@@ -583,7 +583,7 @@ FROM drakkan/sftpgo:v2.3.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.7.0
+FROM hasura/graphql-engine:v2.8.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -711,7 +711,7 @@ FROM hashicorp/consul-k8s-control-plane:0.44.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
-FROM envoyproxy/envoy-alpine:v1.21.3
+FROM envoyproxy/envoy-alpine:v1.21.4
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
@@ -795,15 +795,15 @@ FROM calico/pod2daemon-flexvol:v3.23.1
 # calico/pod2daemon-flexvol
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.2.4
+FROM longhornio/longhorn-manager:v1.3.0
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.2.4
+FROM longhornio/longhorn-ui:v1.3.0
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.2.4
+FROM longhornio/longhorn-engine:v1.3.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
