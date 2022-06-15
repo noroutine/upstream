@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.2.2
+FROM ghost:5.2.3
 # ghost
 
 # bitnami/ghost
@@ -363,7 +363,7 @@ FROM matomo:4.10.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.91.9
+FROM nocodb/nocodb:0.91.10
 # nocodb/nocodb
 
 # metabase/metabase
@@ -507,7 +507,7 @@ FROM bitnami/metallb-speaker:0.12.1-debian-10-r95
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:8.5.5-debian-11-r3
+FROM bitnami/grafana:8.5.6-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
