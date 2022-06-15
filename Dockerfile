@@ -803,7 +803,7 @@ FROM longhornio/longhorn-ui:v1.2.4
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.2.4
+FROM longhornio/longhorn-engine:v1.3.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
