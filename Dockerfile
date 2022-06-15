@@ -795,7 +795,7 @@ FROM calico/pod2daemon-flexvol:v3.23.1
 # calico/pod2daemon-flexvol
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.2.4
+FROM longhornio/longhorn-manager:v1.3.0
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
