@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.39.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.3.5
+FROM squidfunk/mkdocs-material:8.3.6
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -71,7 +71,7 @@ FROM freeradius/freeradius-server:3.2.0-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:18.0.0
+FROM quay.io/keycloak/keycloak:18.0.1
 # keycloak/keycloak
 
 # postgres
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.0.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.0.2-ce.0
+FROM gitlab/gitlab-ce:15.0.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -743,19 +743,19 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.24.1
+FROM k8s.gcr.io/kube-apiserver:v1.24.2
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.24.1
+FROM k8s.gcr.io/kube-proxy:v1.24.2
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.24.1
+FROM k8s.gcr.io/kube-scheduler:v1.24.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.24.1
+FROM k8s.gcr.io/kube-controller-manager:v1.24.2
 # kube-controller-manager
 
 # tigera/operator
