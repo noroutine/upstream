@@ -707,7 +707,7 @@ FROM hashicorp/consul:1.12.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.44.0
+FROM hashicorp/consul-k8s-control-plane:0.45.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
