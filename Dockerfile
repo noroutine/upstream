@@ -115,7 +115,7 @@ FROM prom/consul-exporter:v0.8.0
 # prom/consul-exporter
 
 # prom/blackbox-exporter
-FROM prom/blackbox-exporter:v0.21.0
+FROM prom/blackbox-exporter:v0.21.1
 # prom/blackbox-exporter
 
 # prom/snmp-exporter
@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.12.0
+FROM verdaccio/verdaccio:5.13.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -571,7 +571,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.6
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.18.1
+FROM minio/console:v0.19.0
 # minio/console
 
 # kutt/kutt
@@ -707,7 +707,7 @@ FROM hashicorp/consul:1.12.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.44.0
+FROM hashicorp/consul-k8s-control-plane:0.45.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -759,7 +759,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.2
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.4
+FROM quay.io/tigera/operator:v1.27.5
 # tigera/operator
 
 # calico/typha
@@ -863,15 +863,15 @@ FROM k8s.gcr.io/sig-storage/csi-attacher:v3.5.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM k8s.gcr.io/sig-storage/csi-resizer:v1.4.0
+FROM k8s.gcr.io/sig-storage/csi-resizer:v1.5.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0
+FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.2.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1
+FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.0.1
 # sig-storage/csi-snapshotter
 
 # vstadtmueller/cert-manager-webhook-powerdns
