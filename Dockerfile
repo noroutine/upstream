@@ -591,7 +591,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.114
+FROM stakater/reloader:v0.0.116
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -627,7 +627,7 @@ FROM vaultwarden/server:1.25.0
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v3.5.0
+FROM boky/postfix:v3.5.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
