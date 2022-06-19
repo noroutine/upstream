@@ -627,7 +627,7 @@ FROM vaultwarden/server:1.25.0
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v3.5.0
+FROM boky/postfix:v3.5.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
