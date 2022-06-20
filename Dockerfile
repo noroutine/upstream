@@ -99,7 +99,7 @@ FROM quay.io/coreos/etcd:v3.5.4
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.36.1
+FROM prom/prometheus:v2.36.2
 # prom/prometheus
 
 # prom/alertmanager
@@ -591,7 +591,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.116
+FROM stakater/reloader:v0.0.117
 # stakater/reloader
 
 # jimmidyson/configmap-reload
