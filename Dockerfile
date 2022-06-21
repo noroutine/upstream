@@ -434,6 +434,10 @@ FROM bitnami/prometheus-operator:0.57.0-debian-11-r6
 FROM bitnami/node-exporter:1.3.1-debian-11-r6
 # bitnami/node-exporter
 
+# bitnami/blackbox-exporter
+FROM bitnami/blackbox-exporter:0.21.0-debian-11-r7
+# bitnami/blackbox-exporter
+
 # bitnami/postgres-exporter
 FROM bitnami/postgres-exporter:0.10.1-debian-11-r7
 # bitnami/postgres-exporter
