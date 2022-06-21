@@ -79,7 +79,7 @@ FROM postgres:14.3-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:8.22.3
+FROM atlassian/jira-software:9.0.0
 # atlassian/jira-software
 
 # nextcloud
@@ -87,7 +87,7 @@ FROM nextcloud:24.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.6.0
+FROM haproxytech/haproxy-debian:2.6.1
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.0.0
+FROM grafana/grafana:9.0.1
 # grafana/grafana
 
 # grafana/loki
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.15.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.30.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.30.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -715,7 +715,7 @@ FROM envoyproxy/envoy-alpine:v1.21.4
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.10.4
+FROM hashicorp/vault:1.11.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
