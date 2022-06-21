@@ -851,7 +851,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.5.1
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.5.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.5.2
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
