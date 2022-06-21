@@ -611,7 +611,7 @@ FROM ghcr.io/dexidp/dex:v2.32.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.1
+FROM quay.io/argoproj/argocd:v2.4.2
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -763,7 +763,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.2
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.5
+FROM quay.io/tigera/operator:v1.27.6
 # tigera/operator
 
 # calico/typha
