@@ -159,7 +159,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.44.0
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.103
+FROM ghcr.io/prymitive/karma:v0.104
 # prymitive/karma
 
 # cortexproject/cortex
