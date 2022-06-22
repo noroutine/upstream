@@ -59,7 +59,7 @@ FROM traefik:v2.7.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.39.0
+FROM sonatype/nexus3:3.40.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -75,7 +75,7 @@ FROM quay.io/keycloak/keycloak:18.0.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:14.3-bullseye
+FROM postgres:14.4-bullseye
 # postgres
 
 # atlassian/jira-software
@@ -83,7 +83,7 @@ FROM atlassian/jira-software:9.0.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:24.0.1-apache
+FROM nextcloud:24.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
