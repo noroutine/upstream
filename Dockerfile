@@ -683,7 +683,7 @@ FROM pryorda/vmware_exporter:v0.18.3
 # pryorda/vmware_exporter
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.8.1
+FROM quay.io/jetstack/cert-manager-controller:v1.8.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
