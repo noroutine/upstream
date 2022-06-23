@@ -159,7 +159,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.44.0
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.103
+FROM ghcr.io/prymitive/karma:v0.104
 # prymitive/karma
 
 # cortexproject/cortex
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.1.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.0.3-ce.0
+FROM gitlab/gitlab-ce:15.1.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -279,11 +279,11 @@ FROM summerwind/actions-runner-controller:v0.24.1
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.293.0-ubuntu-20.04
+FROM summerwind/actions-runner:v2.294.0-ubuntu-20.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.293.0-ubuntu-20.04
+FROM summerwind/actions-runner-dind:v2.294.0-ubuntu-20.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -571,7 +571,7 @@ FROM bitnami/sealed-secrets-controller:v0.18.0
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.5.6
+FROM ghcr.io/external-secrets/external-secrets:v0.5.7
 # external-secrets/external-secrets
 
 # minio/console
