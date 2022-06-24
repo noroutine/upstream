@@ -407,7 +407,7 @@ FROM jupyter/all-spark-notebook:hub-2.3.1
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.2.0
+FROM rocker/shiny:4.2.1
 # rocker/shiny
 
 # caprover/caprover
@@ -683,19 +683,19 @@ FROM pryorda/vmware_exporter:v0.18.3
 # pryorda/vmware_exporter
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.8.1
+FROM quay.io/jetstack/cert-manager-controller:v1.8.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.8.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.8.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.8.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.8.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.8.1
+FROM quay.io/jetstack/cert-manager-ctl:v1.8.2
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
