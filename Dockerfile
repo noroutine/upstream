@@ -71,7 +71,7 @@ FROM freeradius/freeradius-server:3.2.0-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:18.0.1
+FROM quay.io/keycloak/keycloak:18.0.2
 # keycloak/keycloak
 
 # postgres
@@ -843,7 +843,7 @@ FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.23.1
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
