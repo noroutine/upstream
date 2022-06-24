@@ -779,7 +779,7 @@ FROM calico/node:v3.23.1
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.23.1
+FROM calico/cni:v3.23.2
 # calico/cni
 
 # calico/apiserver
