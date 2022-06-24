@@ -691,7 +691,7 @@ FROM quay.io/jetstack/cert-manager-cainjector:v1.8.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.8.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.8.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
