@@ -763,7 +763,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.2
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.6
+FROM quay.io/tigera/operator:v1.27.7
 # tigera/operator
 
 # calico/typha
@@ -883,11 +883,11 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # confluentinc/confluent-init-container
-FROM docker.io/confluentinc/confluent-init-container:7.1.1
+FROM docker.io/confluentinc/confluent-init-container:2.3.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM docker.io/confluentinc/confluent-operator:2.3.1
+FROM docker.io/confluentinc/confluent-operator:0.435.23
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
