@@ -883,42 +883,50 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # confluentinc/confluent-init-container
-FROM docker.io/confluentinc/confluent-init-container:2.3.1
+FROM confluentinc/confluent-init-container:2.3.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM docker.io/confluentinc/confluent-operator:0.435.23
+FROM confluentinc/confluent-operator:0.435.23
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM docker.io/confluentinc/cp-enterprise-control-center:7.1.1
+FROM confluentinc/cp-enterprise-control-center:7.1.1
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM docker.io/confluentinc/cp-enterprise-replicator:7.1.1
+FROM confluentinc/cp-enterprise-replicator:7.1.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM docker.io/confluentinc/cp-kafka-rest:7.1.1
+FROM confluentinc/cp-kafka-rest:7.1.1
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM docker.io/confluentinc/cp-ksqldb-server:7.1.1
+FROM confluentinc/cp-ksqldb-server:7.1.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-schema-registry
-FROM docker.io/confluentinc/cp-schema-registry:7.1.1
+FROM confluentinc/cp-schema-registry:7.1.1
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM docker.io/confluentinc/cp-server:7.1.1
+FROM confluentinc/cp-server:7.1.1
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM docker.io/confluentinc/cp-server-connect:7.1.1
+FROM confluentinc/cp-server-connect:7.1.1
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM docker.io/confluentinc/cp-zookeeper:7.1.1
+FROM confluentinc/cp-zookeeper:7.1.1
 # confluentinc/cp-zookeeper
+
+# obsidiandynamics/kafdrop
+FROM obsidiandynamics/kafdrop:3.30.0
+# obsidiandynamics/kafdrop
+
+# tchiotludo/akhq
+FROM tchiotludo/akhq:0.21.0
+# tchiotludo/akhq
 
