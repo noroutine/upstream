@@ -91,7 +91,7 @@ FROM haproxytech/haproxy-debian:2.6.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-06-20T23-13-45Z
+FROM minio/minio:RELEASE.2022-06-25T15-50-16Z
 # minio/minio
 
 # coreos/etcd
@@ -491,7 +491,7 @@ FROM bitnami/nginx:1.22.0-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.6.20-debian-11-r0
+FROM bitnami/minio:2022.6.25-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
