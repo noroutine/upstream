@@ -463,7 +463,7 @@ FROM bitnami/postgresql:14.4.0-debian-11-r1
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:18.0.1-debian-11-r1
+FROM bitnami/keycloak:18.0.2-debian-11-r1
 # bitnami/keycloak
 
 # bitnami/keycloak
