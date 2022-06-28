@@ -463,7 +463,7 @@ FROM bitnami/postgresql:14.4.0-debian-11-r1
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:18.0.1-debian-11-r1
+FROM bitnami/keycloak:18.0.2-debian-11-r1
 # bitnami/keycloak
 
 # bitnami/keycloak
@@ -611,7 +611,7 @@ FROM ghcr.io/dexidp/dex:v2.32.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.2
+FROM quay.io/argoproj/argocd:v2.4.3
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -681,6 +681,10 @@ FROM quay.io/iovisor/bpftrace:v0.15.0
 # pryorda/vmware_exporter
 FROM pryorda/vmware_exporter:v0.18.3
 # pryorda/vmware_exporter
+
+# azul/zulu-openjdk
+FROM azul/zulu-openjdk:18.0.1-18.30.11
+# azul/zulu-openjdk
 
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.8.2
