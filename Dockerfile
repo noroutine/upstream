@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.0.1
+FROM grafana/grafana:9.0.2
 # grafana/grafana
 
 # grafana/loki
@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.92.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.43.3
+FROM metabase/metabase:v0.43.4
 # metabase/metabase
 
 # docker
