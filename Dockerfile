@@ -686,6 +686,10 @@ FROM pryorda/vmware_exporter:v0.18.3
 FROM azul/zulu-openjdk:18.0.1-18.30.11
 # azul/zulu-openjdk
 
+# elastic/eck-operator
+FROM elastic/eck-operator:2.3.0
+# elastic/eck-operator
+
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.8.2
 # jetstack/cert-manager-controller
@@ -767,7 +771,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.2
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.7
+FROM quay.io/tigera/operator:v1.27.8
 # tigera/operator
 
 # calico/typha
