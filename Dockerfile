@@ -191,7 +191,7 @@ FROM wordpress:6.0.0-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.10
+FROM dpage/pgadmin4:6.11
 # dpage/pgadmin4
 
 # mysql
@@ -295,7 +295,7 @@ FROM jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab
 # jupyterhub/k8s-image-cleaner
 
 # noroutine/k8s-binderhub
-FROM noroutine/k8s-binderhub:0.2.0-n850.h8bc0157
+FROM noroutine/k8s-binderhub:0.2.0-n930.ha8b371d
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
@@ -771,7 +771,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.2
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.8
+FROM quay.io/tigera/operator:v1.27.10
 # tigera/operator
 
 # calico/typha
