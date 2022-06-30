@@ -55,7 +55,7 @@ FROM golang:1.18.3-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.7.2
+FROM traefik:v2.8.0
 # traefik
 
 # sonatype/nexus3
@@ -287,7 +287,7 @@ FROM summerwind/actions-runner-dind:v2.294.0-ubuntu-20.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.12.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.13.0
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -535,19 +535,19 @@ FROM bitnami/metrics-server:0.6.1-debian-11-r6
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.4.5-debian-11-r6
+FROM bitnami/kubeapps-dashboard:2.4.6-debian-11-r0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.4.5-scratch-r1
+FROM bitnami/kubeapps-apprepository-controller:2.4.6-scratch-r1
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.4.5-scratch-r1
+FROM bitnami/kubeapps-asset-syncer:2.4.6-scratch-r1
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-kubeops
-FROM bitnami/kubeapps-kubeops:2.4.5-scratch-r1
+FROM bitnami/kubeapps-kubeops:2.4.6-scratch-r1
 # bitnami/kubeapps-kubeops
 
 # bitnami/kubeapps-assetsvc
@@ -555,15 +555,15 @@ FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r1
 # bitnami/kubeapps-assetsvc
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.4.5-debian-11-r7
+FROM bitnami/kubeapps-apis:2.4.6-debian-11-r1
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.4.5-debian-11-r7
+FROM bitnami/kubeapps-pinniped-proxy:2.4.6-debian-11-r2
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.12.0-scratch-r3
+FROM bitnami/kube-rbac-proxy:0.13.0-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/sealed-secrets-controller
@@ -587,7 +587,7 @@ FROM drakkan/sftpgo:v2.3.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.8.1
+FROM hasura/graphql-engine:v2.8.2
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
