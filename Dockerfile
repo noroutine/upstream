@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.1.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.1.0-ce.0
+FROM gitlab/gitlab-ce:15.1.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -587,7 +587,7 @@ FROM drakkan/sftpgo:v2.3.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.8.2
+FROM hasura/graphql-engine:v2.8.3
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
