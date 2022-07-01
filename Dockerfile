@@ -363,7 +363,7 @@ FROM matomo:4.10.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.92.0
+FROM nocodb/nocodb:0.92.3
 # nocodb/nocodb
 
 # metabase/metabase
@@ -495,7 +495,7 @@ FROM bitnami/minio:2022.6.25-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.6.17-debian-11-r1
+FROM bitnami/minio-client:2022.6.26-debian-11-r1
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
