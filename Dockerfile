@@ -351,11 +351,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.2.3
+FROM ghost:5.2.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.2.3-debian-11-r2
+FROM bitnami/ghost:5.2.4-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -879,7 +879,7 @@ FROM k8s.gcr.io/sig-storage/csi-resizer:v1.5.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.2.0
+FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.2.1
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
