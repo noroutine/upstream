@@ -203,7 +203,7 @@ FROM mariadb:10.8.2-focal
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.4.0
+FROM mccutchen/go-httpbin:v2.4.1
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.1.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.1.1-ce.0
+FROM gitlab/gitlab-ce:15.1.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
