@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.40.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.3.8
+FROM squidfunk/mkdocs-material:8.3.9
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -275,7 +275,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.24.1
+FROM summerwind/actions-runner-controller:v0.25.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
