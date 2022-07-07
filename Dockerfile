@@ -891,7 +891,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.3.1
+FROM confluentinc/confluent-init-container:2.4.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
