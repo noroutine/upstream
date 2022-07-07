@@ -259,7 +259,7 @@ FROM gitlab/gitlab-ce:15.1.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.16.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -891,11 +891,11 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.3.1
+FROM confluentinc/confluent-init-container:2.4.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.435.23
+FROM confluentinc/confluent-operator:0.517.12
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
