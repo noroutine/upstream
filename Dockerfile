@@ -135,7 +135,7 @@ FROM grafana/loki:2.5.0
 # grafana/loki
 
 # grafana/promtail
-FROM grafana/promtail:2.5.0
+FROM grafana/promtail:2.6.0
 # grafana/promtail
 
 # m3db/m3coordinator
