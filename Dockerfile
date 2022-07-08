@@ -131,11 +131,11 @@ FROM grafana/grafana:9.0.2
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.5.0
+FROM grafana/loki:2.6.0
 # grafana/loki
 
 # grafana/promtail
-FROM grafana/promtail:2.5.0
+FROM grafana/promtail:2.6.0
 # grafana/promtail
 
 # m3db/m3coordinator
