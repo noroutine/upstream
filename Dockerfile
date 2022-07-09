@@ -275,7 +275,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.25.0
+FROM summerwind/actions-runner-controller:v0.25.1
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -491,11 +491,11 @@ FROM bitnami/nginx:1.22.0-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.7.4-debian-11-r0
+FROM bitnami/minio:2022.7.8-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.6.26-debian-11-r1
+FROM bitnami/minio-client:2022.7.6-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
