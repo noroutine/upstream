@@ -55,7 +55,7 @@ FROM golang:1.18.3-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.8.0
+FROM traefik:v2.8.1
 # traefik
 
 # sonatype/nexus3
@@ -419,7 +419,7 @@ FROM ghcr.io/mikecao/umami:postgresql-2575cbf
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.2.1-debian-11-r6
+FROM bitnami/spark:3.3.0-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
@@ -619,7 +619,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.2-bullseye
+FROM redis:7.0.3-bullseye
 # redis
 
 # listmonk/listmonk
