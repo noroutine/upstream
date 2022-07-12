@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.13.1
+FROM verdaccio/verdaccio:5.13.2
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -575,7 +575,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.8
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.19.0
+FROM minio/console:v0.19.1
 # minio/console
 
 # kutt/kutt
