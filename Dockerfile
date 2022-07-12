@@ -859,7 +859,7 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.5.2
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.6.0
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
