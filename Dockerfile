@@ -47,7 +47,7 @@ FROM php:8.1.8-apache-bullseye
 # php
 
 # golang
-FROM golang:1.18.3-bullseye
+FROM golang:1.18.4-bullseye
 # golang
 
 # golang
@@ -187,7 +187,7 @@ FROM mongo:5.0.9-focal
 # mongo
 
 # wordpress
-FROM wordpress:6.0.0-apache
+FROM wordpress:6.0.1-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -351,11 +351,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.2.4
+FROM ghost:5.3.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.2.4-debian-11-r0
+FROM bitnami/ghost:5.3.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -611,7 +611,7 @@ FROM ghcr.io/dexidp/dex:v2.32.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.5
+FROM quay.io/argoproj/argocd:v2.4.6
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -663,7 +663,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.5.1-alpine
+FROM caddy:2.5.2-alpine
 # caddy
 
 # outline/shadowbox
@@ -715,7 +715,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.3.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.1.0
+FROM zachomedia/cert-manager-webhook-pdns:v2.1.1
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
