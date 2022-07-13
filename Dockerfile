@@ -663,7 +663,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.5.1-alpine
+FROM caddy:2.5.2-alpine
 # caddy
 
 # outline/shadowbox
