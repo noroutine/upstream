@@ -91,7 +91,7 @@ FROM haproxytech/haproxy-debian:2.6.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-06-25T15-50-16Z
+FROM minio/minio:RELEASE.2022-07-13T23-29-44Z
 # minio/minio
 
 # coreos/etcd
@@ -491,7 +491,7 @@ FROM bitnami/nginx:1.22.0-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.7.8-debian-11-r0
+FROM bitnami/minio:2022.7.13-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -567,7 +567,7 @@ FROM bitnami/kube-rbac-proxy:0.13.0-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.18.0
+FROM bitnami/sealed-secrets-controller:v0.18.1
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
