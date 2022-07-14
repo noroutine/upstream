@@ -567,7 +567,7 @@ FROM bitnami/kube-rbac-proxy:0.13.0-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.18.0
+FROM bitnami/sealed-secrets-controller:v0.18.1
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
