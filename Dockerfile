@@ -151,7 +151,7 @@ FROM braedon/prometheus-es-exporter:0.14.1
 # braedon/prometheus-es-exporter
 
 # ribbybibby/ssl-exporter
-FROM ribbybibby/ssl-exporter:2.4.1
+FROM ribbybibby/ssl-exporter:2.4.2
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
@@ -435,7 +435,7 @@ FROM bitnami/node-exporter:1.3.1-debian-11-r6
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.21.0-debian-11-r7
+FROM bitnami/blackbox-exporter:0.21.1-debian-11-r7
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
