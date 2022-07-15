@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.0.2
+FROM grafana/grafana:9.0.3
 # grafana/grafana
 
 # grafana/loki
@@ -199,7 +199,7 @@ FROM mysql:8.0.29
 # mysql
 
 # mariadb
-FROM mariadb:10.8.2-focal
+FROM mariadb:10.8.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -275,7 +275,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.25.1
+FROM summerwind/actions-runner-controller:v0.25.2
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -423,7 +423,7 @@ FROM bitnami/spark:3.3.0-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.36.2-debian-11-r0
+FROM bitnami/prometheus:2.37.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -471,11 +471,11 @@ FROM bitnami/keycloak:16.1.1-debian-10-r103
 # bitnami/keycloak
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.7.4-debian-11-r7
+FROM bitnami/mariadb:10.8.3-debian-11-r7
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:5.0.9-debian-10-r17
+FROM bitnami/mongodb:5.0.9-debian-11-r5
 # bitnami/mongodb
 
 # bitnami/memcached
