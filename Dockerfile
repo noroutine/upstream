@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.31.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.32.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -595,7 +595,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.117
+FROM stakater/reloader:v0.0.118
 # stakater/reloader
 
 # jimmidyson/configmap-reload
