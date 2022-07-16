@@ -639,7 +639,7 @@ FROM boky/postfix:v3.5.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:1.5.1
+FROM cupcakearmy/cryptgeon:2.0.0
 # cupcakearmy/cryptgeon
 
 # memcached
