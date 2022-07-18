@@ -131,11 +131,11 @@ FROM grafana/grafana:9.0.3
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.6.0
+FROM grafana/loki:2.6.1
 # grafana/loki
 
 # grafana/promtail
-FROM grafana/promtail:2.6.0
+FROM grafana/promtail:2.6.1
 # grafana/promtail
 
 # m3db/m3coordinator
@@ -491,11 +491,11 @@ FROM bitnami/nginx:1.23.0-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.7.15-debian-11-r0
+FROM bitnami/minio:2022.7.17-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.7.11-debian-11-r0
+FROM bitnami/minio-client:2022.7.15-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
