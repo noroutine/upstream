@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.3.0
+FROM ghost:5.3.1
 # ghost
 
 # bitnami/ghost
@@ -623,7 +623,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.3-bullseye
+FROM redis:7.0.4-bullseye
 # redis
 
 # listmonk/listmonk
