@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.3.0
+FROM ghost:5.3.1
 # ghost
 
 # bitnami/ghost
