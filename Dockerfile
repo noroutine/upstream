@@ -83,7 +83,7 @@ FROM atlassian/jira-software:9.0.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:24.0.2-apache
+FROM nextcloud:24.0.3-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -443,7 +443,7 @@ FROM bitnami/postgres-exporter:0.10.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.2-debian-11-r2
+FROM bitnami/redis:7.0.4-debian-11-r2
 # bitnami/redis
 
 # bitnami/postgresql
@@ -615,7 +615,7 @@ FROM ghcr.io/dexidp/dex:v2.32.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.6
+FROM quay.io/argoproj/argocd:v2.4.7
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
