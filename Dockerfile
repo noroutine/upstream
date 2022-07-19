@@ -443,7 +443,7 @@ FROM bitnami/postgres-exporter:0.10.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.2-debian-11-r2
+FROM bitnami/redis:7.0.4-debian-11-r2
 # bitnami/redis
 
 # bitnami/postgresql
