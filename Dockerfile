@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.0.3
+FROM grafana/grafana:9.0.4
 # grafana/grafana
 
 # grafana/loki
@@ -355,7 +355,7 @@ FROM ghost:5.3.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.4.0-debian-11-r0
+FROM bitnami/ghost:5.4.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -639,7 +639,7 @@ FROM boky/postfix:v3.5.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.0.1
+FROM cupcakearmy/cryptgeon:2.0.2
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -747,11 +747,11 @@ FROM hashicorp/vault-csi-provider:1.1.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.29.0
+FROM quay.io/strimzi/operator:0.30.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.29.0-kafka-3.2.0
+FROM quay.io/strimzi/kafka:0.30.0-kafka-3.2.0
 # strimzi/kafka
 
 # pause
@@ -779,7 +779,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.3
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.11
+FROM quay.io/tigera/operator:v1.27.12
 # tigera/operator
 
 # calico/typha
