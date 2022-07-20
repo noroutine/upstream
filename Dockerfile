@@ -747,7 +747,7 @@ FROM hashicorp/vault-csi-provider:1.1.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.29.0
+FROM quay.io/strimzi/operator:0.30.0
 # strimzi/operator
 
 # strimzi/kafka
