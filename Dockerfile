@@ -931,7 +931,7 @@ FROM confluentinc/cp-server:7.2.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.2.0
+FROM confluentinc/cp-server-connect:7.2.1
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
