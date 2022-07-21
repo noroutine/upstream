@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.3.1
+FROM ghost:5.4.1
 # ghost
 
 # bitnami/ghost
@@ -727,7 +727,7 @@ FROM hashicorp/consul:1.12.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.45.0
+FROM hashicorp/consul-k8s-control-plane:0.46.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -907,35 +907,35 @@ FROM confluentinc/confluent-operator:0.517.12
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.2.0
+FROM confluentinc/cp-enterprise-control-center:7.2.1
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.2.0
+FROM confluentinc/cp-enterprise-replicator:7.2.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.2.0
+FROM confluentinc/cp-kafka-rest:7.2.1
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.2.0
+FROM confluentinc/cp-ksqldb-server:7.2.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.2.0
+FROM confluentinc/cp-schema-registry:7.2.1
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.2.0
+FROM confluentinc/cp-server:7.2.1
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.2.0
+FROM confluentinc/cp-server-connect:7.2.1
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.2.0
+FROM confluentinc/cp-zookeeper:7.2.1
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
