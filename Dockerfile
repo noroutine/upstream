@@ -927,7 +927,7 @@ FROM confluentinc/cp-schema-registry:7.2.0
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.2.0
+FROM confluentinc/cp-server:7.2.1
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
