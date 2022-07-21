@@ -79,7 +79,7 @@ FROM postgres:14.4-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.0.0
+FROM atlassian/jira-software:9.1.0
 # atlassian/jira-software
 
 # nextcloud
@@ -755,7 +755,7 @@ FROM quay.io/strimzi/kafka:0.30.0-kafka-3.2.0
 # strimzi/kafka
 
 # pause
-FROM k8s.gcr.io/pause:3.7
+FROM k8s.gcr.io/pause:3.8
 # pause
 
 # coredns/coredns
