@@ -699,7 +699,7 @@ FROM louislam/uptime-kuma:1.17.1-alpine
 # louislam/uptime-kuma
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.8.2
+FROM quay.io/jetstack/cert-manager-controller:v1.9.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
