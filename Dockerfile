@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.2.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.1.3-ce.0
+FROM gitlab/gitlab-ce:15.2.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -735,7 +735,7 @@ FROM envoyproxy/envoy-alpine:v1.21.4
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.11.0
+FROM hashicorp/vault:1.11.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -827,7 +827,7 @@ FROM longhornio/longhorn-engine:v1.3.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1_20220611
+FROM longhornio/longhorn-instance-manager:v1_20220722
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
