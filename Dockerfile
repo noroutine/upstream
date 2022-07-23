@@ -466,10 +466,6 @@ FROM bitnami/postgresql:14.4.0-debian-11-r1
 FROM bitnami/keycloak:18.0.2-debian-11-r1
 # bitnami/keycloak
 
-# bitnami/keycloak
-FROM bitnami/keycloak:16.1.1-debian-10-r103
-# bitnami/keycloak
-
 # bitnami/mariadb
 FROM bitnami/mariadb:10.8.3-debian-11-r7
 # bitnami/mariadb
@@ -511,11 +507,11 @@ FROM bitnami/metallb-speaker:0.12.1-debian-11-r7
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:8.5.6-debian-11-r2
+FROM bitnami/grafana:9.0.4-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.4.2-debian-11-r7
+FROM bitnami/grafana-image-renderer:3.5.0-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -579,7 +575,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.8
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.19.1
+FROM minio/console:v0.19.2
 # minio/console
 
 # kutt/kutt
