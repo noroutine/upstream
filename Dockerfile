@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.0.4
+FROM grafana/grafana:9.0.5
 # grafana/grafana
 
 # grafana/loki
@@ -695,19 +695,19 @@ FROM louislam/uptime-kuma:1.17.1-alpine
 # louislam/uptime-kuma
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.9.0
+FROM quay.io/jetstack/cert-manager-controller:v1.9.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.9.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.9.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.9.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.9.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.9.0
+FROM quay.io/jetstack/cert-manager-ctl:v1.9.1
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
