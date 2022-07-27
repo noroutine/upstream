@@ -159,7 +159,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.44.0
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.105
+FROM ghcr.io/prymitive/karma:v0.106
 # prymitive/karma
 
 # cortexproject/cortex
@@ -195,7 +195,7 @@ FROM dpage/pgadmin4:6.11
 # dpage/pgadmin4
 
 # mysql
-FROM mysql:8.0.29
+FROM mysql:8.0.30
 # mysql
 
 # mariadb
@@ -251,7 +251,7 @@ FROM buildpacksio/lifecycle:0.14.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.2.0
+FROM gitlab/gitlab-runner:alpine-v15.2.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.4.1
+FROM ghost:5.5.0
 # ghost
 
 # bitnami/ghost
@@ -507,7 +507,7 @@ FROM bitnami/metallb-speaker:0.12.1-debian-11-r7
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.0.4-debian-11-r0
+FROM bitnami/grafana:9.0.5-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -723,7 +723,7 @@ FROM hashicorp/consul:1.12.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.46.0
+FROM hashicorp/consul-k8s-control-plane:0.46.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
