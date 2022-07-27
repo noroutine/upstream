@@ -71,7 +71,7 @@ FROM freeradius/freeradius-server:3.2.0-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:18.0.2
+FROM quay.io/keycloak/keycloak:19.0.0
 # keycloak/keycloak
 
 # postgres
@@ -91,7 +91,7 @@ FROM haproxytech/haproxy-debian:2.6.2
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-07-13T23-29-44Z
+FROM minio/minio:RELEASE.2022-07-26T00-53-03Z
 # minio/minio
 
 # coreos/etcd
@@ -487,7 +487,7 @@ FROM bitnami/nginx:1.23.0-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.7.17-debian-11-r0
+FROM bitnami/minio:2022.7.26-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
