@@ -727,7 +727,7 @@ FROM hashicorp/consul-k8s-control-plane:0.46.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
-FROM envoyproxy/envoy-alpine:v1.21.4
+FROM envoyproxy/envoy-alpine:v1.21.5
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
