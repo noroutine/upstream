@@ -355,7 +355,7 @@ FROM ghost:5.5.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.4.1-debian-11-r0
+FROM bitnami/ghost:5.5.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -587,7 +587,7 @@ FROM drakkan/sftpgo:v2.3.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.8.4
+FROM hasura/graphql-engine:v2.9.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -727,7 +727,7 @@ FROM hashicorp/consul-k8s-control-plane:0.46.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
-FROM envoyproxy/envoy-alpine:v1.21.4
+FROM envoyproxy/envoy-alpine:v1.21.5
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
