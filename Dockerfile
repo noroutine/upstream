@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.2.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.2.0-ce.0
+FROM gitlab/gitlab-ce:15.2.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -607,7 +607,7 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.32.0
+FROM ghcr.io/dexidp/dex:v2.33.0
 # dexidp/dex
 
 # argoproj/argocd
