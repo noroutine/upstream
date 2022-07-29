@@ -583,7 +583,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.3.1
+FROM drakkan/sftpgo:v2.3.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -611,7 +611,7 @@ FROM ghcr.io/dexidp/dex:v2.33.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.7
+FROM quay.io/argoproj/argocd:v2.4.8
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
