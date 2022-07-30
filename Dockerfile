@@ -623,7 +623,7 @@ FROM redis:7.0.4-bullseye
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.1.0
+FROM listmonk/listmonk:v2.2.0
 # listmonk/listmonk
 
 # vaultwarden/server
