@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.92.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.43.4.1
+FROM metabase/metabase:v0.43.4.2
 # metabase/metabase
 
 # docker
@@ -491,7 +491,7 @@ FROM bitnami/minio:2022.7.26-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.7.24-debian-11-r0
+FROM bitnami/minio-client:2022.7.29-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -575,7 +575,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.8
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.19.3
+FROM minio/console:v0.19.4
 # minio/console
 
 # kutt/kutt
