@@ -623,7 +623,7 @@ FROM redis:7.0.4-bullseye
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.1.0
+FROM listmonk/listmonk:v2.2.0
 # listmonk/listmonk
 
 # vaultwarden/server
@@ -715,7 +715,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.3.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.1.1
+FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
