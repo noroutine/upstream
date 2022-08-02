@@ -731,7 +731,7 @@ FROM envoyproxy/envoy-alpine:v1.21.5
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.11.1
+FROM hashicorp/vault:1.11.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
