@@ -899,7 +899,7 @@ FROM confluentinc/confluent-init-container:2.4.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.517.12
+FROM confluentinc/confluent-operator:0.517.23
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
