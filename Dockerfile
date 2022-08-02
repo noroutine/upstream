@@ -115,7 +115,7 @@ FROM prom/consul-exporter:v0.8.0
 # prom/consul-exporter
 
 # prom/blackbox-exporter
-FROM prom/blackbox-exporter:v0.21.1
+FROM prom/blackbox-exporter:v0.22.0
 # prom/blackbox-exporter
 
 # prom/snmp-exporter
@@ -507,7 +507,7 @@ FROM bitnami/metallb-speaker:0.12.1-debian-11-r7
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.0.5-debian-11-r0
+FROM bitnami/grafana:9.0.6-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
