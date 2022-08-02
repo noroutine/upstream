@@ -1,13 +1,13 @@
 # debian
-FROM debian:bullseye-20220711-slim
+FROM debian:bullseye-20220801-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20220531
+FROM ubuntu:jammy-20220801
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20220531
+FROM ubuntu:focal-20220801
 # ubuntu
 
 # alpine
@@ -47,11 +47,11 @@ FROM php:8.1.8-apache-bullseye
 # php
 
 # golang
-FROM golang:1.18.4-bullseye
+FROM golang:1.18.5-bullseye
 # golang
 
 # golang
-FROM golang:1.18.4-alpine3.15
+FROM golang:1.18.5-alpine3.15
 # golang
 
 # traefik
@@ -183,7 +183,7 @@ FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:5.0.9-focal
+FROM mongo:5.0.10-focal
 # mongo
 
 # wordpress
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.2.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.2.1-ce.0
+FROM gitlab/gitlab-ce:15.2.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.32.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.33.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.5.0
+FROM ghost:5.7.0
 # ghost
 
 # bitnami/ghost
@@ -479,7 +479,7 @@ FROM bitnami/memcached:1.6.15-debian-11-r6
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.2.1-debian-11-r7
+FROM bitnami/nginx-ingress-controller:1.3.0-debian-11-r7
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
