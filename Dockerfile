@@ -47,11 +47,11 @@ FROM php:8.1.8-apache-bullseye
 # php
 
 # golang
-FROM golang:1.18.5-bullseye
+FROM golang:1.19.0-bullseye
 # golang
 
 # golang
-FROM golang:1.18.5-alpine3.15
+FROM golang:1.19.0-alpine3.15
 # golang
 
 # traefik
@@ -155,7 +155,7 @@ FROM ribbybibby/ssl-exporter:2.4.2
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.44.0
+FROM gcr.io/cadvisor/cadvisor:v0.45.0
 # cadvisor/cadvisor
 
 # prymitive/karma
@@ -487,7 +487,7 @@ FROM bitnami/nginx:1.23.0-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.7.26-debian-11-r0
+FROM bitnami/minio:2022.8.2-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -731,7 +731,7 @@ FROM envoyproxy/envoy-alpine:v1.21.5
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.11.1
+FROM hashicorp/vault:1.11.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
