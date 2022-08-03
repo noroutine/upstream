@@ -155,7 +155,7 @@ FROM ribbybibby/ssl-exporter:2.4.2
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.44.0
+FROM gcr.io/cadvisor/cadvisor:v0.45.0
 # cadvisor/cadvisor
 
 # prymitive/karma
