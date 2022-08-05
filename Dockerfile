@@ -43,7 +43,7 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # php
-FROM php:8.1.8-apache-bullseye
+FROM php:8.1.9-apache-bullseye
 # php
 
 # golang
@@ -271,7 +271,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.6.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.6.1
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.92.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.43.4.2
+FROM metabase/metabase:v0.44.0
 # metabase/metabase
 
 # docker
@@ -427,7 +427,7 @@ FROM bitnami/prometheus:2.37.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.57.0-debian-11-r6
+FROM bitnami/prometheus-operator:0.58.0-debian-11-r6
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -483,7 +483,7 @@ FROM bitnami/nginx-ingress-controller:1.3.0-debian-11-r7
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.23.0-debian-11-r6
+FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
@@ -499,11 +499,11 @@ FROM bitnami/bitnami-shell:11-debian-11-r6
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.12.1-debian-11-r6
+FROM bitnami/metallb-controller:0.13.4-debian-11-r1
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.12.1-debian-11-r7
+FROM bitnami/metallb-speaker:0.13.4-debian-11-r5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -571,7 +571,7 @@ FROM bitnami/sealed-secrets-controller:v0.18.1
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.5.8
+FROM ghcr.io/external-secrets/external-secrets:v0.5.9
 # external-secrets/external-secrets
 
 # minio/console
@@ -711,7 +711,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.9.1
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.3.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.4.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
