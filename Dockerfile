@@ -11,7 +11,7 @@ FROM ubuntu:focal-20220801
 # ubuntu
 
 # alpine
-FROM alpine:3.16.1
+FROM alpine:3.16.2
 # alpine
 
 # busybox
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.33.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.34.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.7.0
+FROM ghost:5.8.2
 # ghost
 
 # bitnami/ghost
@@ -359,7 +359,7 @@ FROM bitnami/ghost:5.7.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.10.1-apache
+FROM matomo:4.11.0-apache
 # matomo
 
 # nocodb/nocodb
@@ -719,7 +719,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.12.3
+FROM hashicorp/consul:1.13.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -739,7 +739,7 @@ FROM hashicorp/vault-k8s:0.17.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.1.0
+FROM hashicorp/vault-csi-provider:1.2.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
