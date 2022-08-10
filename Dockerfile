@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.0.6
+FROM grafana/grafana:9.0.7
 # grafana/grafana
 
 # grafana/loki
@@ -471,7 +471,7 @@ FROM bitnami/mariadb:10.8.3-debian-11-r7
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:5.0.9-debian-11-r5
+FROM bitnami/mongodb:5.0.10-debian-11-r6
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -487,7 +487,7 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.8.5-debian-11-r0
+FROM bitnami/minio:2022.8.8-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -671,7 +671,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.8.1
+FROM gcr.io/kaniko-project/executor:v1.9.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
