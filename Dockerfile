@@ -587,7 +587,7 @@ FROM drakkan/sftpgo:v2.3.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.9.0
+FROM hasura/graphql-engine:v2.10.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -823,11 +823,11 @@ FROM longhornio/longhorn-engine:v1.3.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1_20220722
+FROM longhornio/longhorn-instance-manager:v1_20220808
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1_20220531
+FROM longhornio/longhorn-share-manager:v1_20220808
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
