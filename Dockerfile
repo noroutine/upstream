@@ -447,15 +447,15 @@ FROM bitnami/redis:7.0.4-debian-11-r2
 # bitnami/redis
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.16.0-debian-11-r7
+FROM bitnami/postgresql:14.4.0-debian-11-r7
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.11.0-debian-11-r7
+FROM bitnami/postgresql:14.4.0-debian-11-r7
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.7.0-debian-11-r7
+FROM bitnami/postgresql:14.4.0-debian-11-r7
 # bitnami/postgresql
 
 # bitnami/postgresql
