@@ -507,7 +507,7 @@ FROM bitnami/metallb-speaker:0.13.4-debian-11-r5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.0.6-debian-11-r0
+FROM bitnami/grafana:9.0.7-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -575,7 +575,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.9
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.19.4
+FROM minio/console:v0.19.5
 # minio/console
 
 # kutt/kutt
@@ -811,15 +811,15 @@ FROM calico/pod2daemon-flexvol:v3.23.3
 # calico/pod2daemon-flexvol
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.3.0
+FROM longhornio/longhorn-manager:v1.3.1
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.3.0
+FROM longhornio/longhorn-ui:v1.3.1
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.3.0
+FROM longhornio/longhorn-engine:v1.3.1
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
