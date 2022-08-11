@@ -55,7 +55,7 @@ FROM golang:1.19.0-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.8.1
+FROM traefik:v2.8.2
 # traefik
 
 # sonatype/nexus3
@@ -279,11 +279,11 @@ FROM summerwind/actions-runner-controller:v0.25.2
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.294.0-ubuntu-20.04
+FROM summerwind/actions-runner:v2.295.0-ubuntu-20.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.294.0-ubuntu-20.04
+FROM summerwind/actions-runner-dind:v2.295.0-ubuntu-20.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -611,7 +611,7 @@ FROM ghcr.io/dexidp/dex:v2.33.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.8
+FROM quay.io/argoproj/argocd:v2.4.9
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
