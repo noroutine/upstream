@@ -75,7 +75,7 @@ FROM quay.io/keycloak/keycloak:19.0.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:14.4-bullseye
+FROM postgres:14.5-bullseye
 # postgres
 
 # atlassian/jira-software
@@ -267,7 +267,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.34.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.2.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.3.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -351,11 +351,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.8.2
+FROM ghost:5.8.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.7.1-debian-11-r0
+FROM bitnami/ghost:5.7.1-debian-11-r4
 # bitnami/ghost
 
 # matomo
@@ -447,19 +447,19 @@ FROM bitnami/redis:7.0.4-debian-11-r2
 # bitnami/redis
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.16.0-debian-11-r7
+FROM bitnami/postgresql:11.17.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.11.0-debian-11-r7
+FROM bitnami/postgresql:12.12.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.7.0-debian-11-r7
+FROM bitnami/postgresql:13.8.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.4.0-debian-11-r1
+FROM bitnami/postgresql:14.5.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
@@ -719,7 +719,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.13.0
+FROM hashicorp/consul:1.13.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
