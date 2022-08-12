@@ -259,7 +259,7 @@ FROM gitlab/gitlab-ce:15.2.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.1
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -491,7 +491,7 @@ FROM bitnami/minio:2022.8.11-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.8.5-debian-11-r0
+FROM bitnami/minio-client:2022.8.11-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -723,7 +723,7 @@ FROM hashicorp/consul:1.13.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.46.1
+FROM hashicorp/consul-k8s-control-plane:0.47.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
