@@ -55,7 +55,7 @@ FROM golang:1.19.0-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.8.2
+FROM traefik:v2.8.3
 # traefik
 
 # sonatype/nexus3
@@ -83,7 +83,7 @@ FROM atlassian/jira-software:9.1.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:24.0.3-apache
+FROM nextcloud:24.0.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
