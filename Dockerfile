@@ -446,6 +446,10 @@ FROM bitnami/postgres-exporter:0.10.1-debian-11-r7
 FROM bitnami/redis:7.0.4-debian-11-r2
 # bitnami/redis
 
+# bitnami/redis-exporter
+FROM bitnami/redis-exporter:1.43.1-debian-11-r0
+# bitnami/redis-exporter
+
 # bitnami/postgresql
 FROM bitnami/postgresql:11.17.0-debian-11-r0
 # bitnami/postgresql
