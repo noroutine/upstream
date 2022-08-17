@@ -535,7 +535,7 @@ FROM bitnami/metrics-server:0.6.1-debian-11-r6
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.4.6-debian-11-r0
+FROM bitnami/kubeapps-dashboard:2.5.0-debian-11-r0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
