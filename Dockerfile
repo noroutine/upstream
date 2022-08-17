@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.8.3
+FROM ghost:5.9.4
 # ghost
 
 # bitnami/ghost
@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.92.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.44.0
+FROM metabase/metabase:v0.44.1
 # metabase/metabase
 
 # docker
@@ -423,7 +423,7 @@ FROM bitnami/spark:3.3.0-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.37.0-debian-11-r0
+FROM bitnami/prometheus:2.38.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -511,7 +511,7 @@ FROM bitnami/metallb-speaker:0.13.4-debian-11-r5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.0.7-debian-11-r0
+FROM bitnami/grafana:9.1.0-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -591,7 +591,7 @@ FROM drakkan/sftpgo:v2.3.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.10.0
+FROM hasura/graphql-engine:v2.10.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -659,7 +659,7 @@ FROM masipcat/wireguard-go:0.0.20220316
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.14-openssl
+FROM eclipse-mosquitto:2.0.15-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
