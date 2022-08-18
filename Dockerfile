@@ -535,31 +535,31 @@ FROM bitnami/metrics-server:0.6.1-debian-11-r6
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.4.6-debian-11-r0
+FROM bitnami/kubeapps-dashboard:2.5.0-debian-11-r0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.4.6-scratch-r1
+FROM bitnami/kubeapps-apprepository-controller:2.5.0-scratch-r0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.4.6-scratch-r1
+FROM bitnami/kubeapps-asset-syncer:2.5.0-scratch-r0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-kubeops
-FROM bitnami/kubeapps-kubeops:2.4.6-scratch-r1
+FROM bitnami/kubeapps-kubeops:2.5.0-scratch-r0
 # bitnami/kubeapps-kubeops
 
 # bitnami/kubeapps-assetsvc
-FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r1
+FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r2
 # bitnami/kubeapps-assetsvc
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.4.6-debian-11-r1
+FROM bitnami/kubeapps-apis:2.5.0-debian-11-r0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.4.6-debian-11-r2
+FROM bitnami/kubeapps-pinniped-proxy:2.5.0-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
@@ -615,7 +615,7 @@ FROM ghcr.io/dexidp/dex:v2.33.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.9
+FROM quay.io/argoproj/argocd:v2.4.10
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -763,19 +763,19 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.24.3
+FROM k8s.gcr.io/kube-apiserver:v1.24.4
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.24.3
+FROM k8s.gcr.io/kube-proxy:v1.24.4
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.24.3
+FROM k8s.gcr.io/kube-scheduler:v1.24.4
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.24.3
+FROM k8s.gcr.io/kube-controller-manager:v1.24.4
 # kube-controller-manager
 
 # tigera/operator
