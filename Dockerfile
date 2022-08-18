@@ -791,7 +791,7 @@ FROM calico/ctl:v3.23.3
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.23.3
+FROM calico/node:v3.24.0
 # calico/node
 
 # calico/cni
