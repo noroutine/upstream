@@ -319,7 +319,7 @@ FROM jupyterhub/k8s-singleuser-sample:1.2.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.1
+FROM jupyterhub/configurable-http-proxy:4.5.2
 # jupyterhub/configurable-http-proxy
 
 # jupyterhub/repo2docker
