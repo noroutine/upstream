@@ -319,7 +319,7 @@ FROM jupyterhub/k8s-singleuser-sample:1.2.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.1
+FROM jupyterhub/configurable-http-proxy:4.5.2
 # jupyterhub/configurable-http-proxy
 
 # jupyterhub/repo2docker
@@ -779,39 +779,39 @@ FROM k8s.gcr.io/kube-controller-manager:v1.24.4
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.27.12
+FROM quay.io/tigera/operator:v1.28.0
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.23.3
+FROM calico/typha:v3.24.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.23.3
+FROM calico/ctl:v3.24.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.23.3
+FROM calico/node:v3.24.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.23.3
+FROM calico/cni:v3.24.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.23.3
+FROM calico/apiserver:v3.24.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.23.3
+FROM calico/kube-controllers:v3.24.0
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.23.3
+FROM calico/dikastes:v3.24.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.23.3
+FROM calico/pod2daemon-flexvol:v3.24.0
 # calico/pod2daemon-flexvol
 
 # longhornio/longhorn-manager
