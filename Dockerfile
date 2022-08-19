@@ -479,7 +479,7 @@ FROM bitnami/mongodb:5.0.10-debian-11-r6
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.15-debian-11-r6
+FROM bitnami/memcached:1.6.16-debian-11-r6
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
