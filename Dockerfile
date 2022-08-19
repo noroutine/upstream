@@ -803,7 +803,7 @@ FROM calico/apiserver:v3.23.3
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.23.3
+FROM calico/kube-controllers:v3.24.0
 # calico/kube-controllers
 
 # calico/dikastes
