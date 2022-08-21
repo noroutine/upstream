@@ -567,7 +567,7 @@ FROM bitnami/kube-rbac-proxy:0.13.0-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.2-debian-11-r14
+FROM bitnami/openldap:2.6.3-debian-11-r14
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
