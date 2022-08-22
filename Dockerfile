@@ -87,7 +87,7 @@ FROM nextcloud:24.0.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.6.3
+FROM haproxytech/haproxy-debian:2.6.4
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.2.2-ce.0
+FROM gitlab/gitlab-ce:15.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -615,7 +615,7 @@ FROM ghcr.io/dexidp/dex:v2.33.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.10
+FROM quay.io/argoproj/argocd:v2.4.11
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
