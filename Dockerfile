@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20220801-slim
+FROM debian:bullseye-20220822-slim
 # debian
 
 # ubuntu
@@ -579,7 +579,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.9
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.19.5
+FROM minio/console:v0.20.0
 # minio/console
 
 # kutt/kutt
