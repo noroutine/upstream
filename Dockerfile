@@ -79,7 +79,7 @@ FROM postgres:14.5-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.1.0
+FROM atlassian/jira-software:9.1.1
 # atlassian/jira-software
 
 # nextcloud
