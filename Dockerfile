@@ -491,11 +491,11 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.8.13-debian-11-r0
+FROM bitnami/minio:2022.8.22-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.8.11-debian-11-r0
+FROM bitnami/minio-client:2022.8.23-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -691,7 +691,7 @@ FROM azul/zulu-openjdk:18.0.1-18.30.11
 # azul/zulu-openjdk
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.3.0
+FROM elastic/eck-operator:2.4.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
