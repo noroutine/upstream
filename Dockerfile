@@ -79,7 +79,7 @@ FROM postgres:14.5-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.1.0
+FROM atlassian/jira-software:9.1.1
 # atlassian/jira-software
 
 # nextcloud
@@ -199,7 +199,7 @@ FROM mysql:8.0.30
 # mysql
 
 # mariadb
-FROM mariadb:10.8.3-jammy
+FROM mariadb:10.9.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -279,11 +279,11 @@ FROM summerwind/actions-runner-controller:v0.25.2
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.295.0-ubuntu-20.04
+FROM summerwind/actions-runner:v2.296.0-ubuntu-20.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.295.0-ubuntu-20.04
+FROM summerwind/actions-runner-dind:v2.296.0-ubuntu-20.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -511,7 +511,7 @@ FROM bitnami/metallb-speaker:0.13.4-debian-11-r5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.1.0-debian-11-r0
+FROM bitnami/grafana:9.1.1-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -763,19 +763,19 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.24.4
+FROM k8s.gcr.io/kube-apiserver:v1.25.0
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.24.4
+FROM k8s.gcr.io/kube-proxy:v1.25.0
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.24.4
+FROM k8s.gcr.io/kube-scheduler:v1.25.0
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.24.4
+FROM k8s.gcr.io/kube-controller-manager:v1.25.0
 # kube-controller-manager
 
 # tigera/operator
