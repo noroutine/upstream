@@ -167,15 +167,15 @@ FROM quay.io/cortexproject/cortex:v1.13.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.3.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.4.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.3.3
+FROM docker.elastic.co/logstash/logstash:8.4.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.3.3
+FROM docker.elastic.co/kibana/kibana:8.4.0
 # kibana/kibana
 
 # alerta/alerta-web
