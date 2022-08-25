@@ -183,7 +183,7 @@ FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:5.0.11-focal
+FROM mongo:6.0.1-focal
 # mongo
 
 # wordpress
