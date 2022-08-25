@@ -183,7 +183,7 @@ FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:5.0.11-focal
+FROM mongo:6.0.1-focal
 # mongo
 
 # wordpress
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.10.1
+FROM ghost:5.11.0
 # ghost
 
 # bitnami/ghost
@@ -831,7 +831,7 @@ FROM longhornio/longhorn-instance-manager:v1_20220808
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1_20220808
+FROM longhornio/longhorn-share-manager:v1_20220825
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
