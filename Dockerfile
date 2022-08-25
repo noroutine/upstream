@@ -831,7 +831,7 @@ FROM longhornio/longhorn-instance-manager:v1_20220808
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1_20220808
+FROM longhornio/longhorn-share-manager:v1_20220825
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
