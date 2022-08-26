@@ -811,7 +811,7 @@ FROM calico/dikastes:v3.24.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.24.0
+FROM calico/pod2daemon-flexvol:v3.24.1
 # calico/pod2daemon-flexvol
 
 # longhornio/longhorn-manager
