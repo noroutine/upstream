@@ -79,7 +79,7 @@ FROM postgres:14.5-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.1.1
+FROM atlassian/jira-software:9.2.0
 # atlassian/jira-software
 
 # nextcloud
@@ -191,7 +191,7 @@ FROM wordpress:6.0.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.12
+FROM dpage/pgadmin4:6.13
 # dpage/pgadmin4
 
 # mysql
@@ -327,7 +327,7 @@ FROM quay.io/jupyterhub/repo2docker:2022.02.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.08
+FROM pihole/pihole:2022.08.2
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -571,7 +571,7 @@ FROM bitnami/openldap:2.6.3-debian-11-r14
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.18.1
+FROM bitnami/sealed-secrets-controller:v0.18.2
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
