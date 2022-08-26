@@ -783,35 +783,35 @@ FROM quay.io/tigera/operator:v1.28.0
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.24.0
+FROM calico/typha:v3.24.1
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.24.0
+FROM calico/ctl:v3.24.1
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.24.0
+FROM calico/node:v3.24.1
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.24.0
+FROM calico/cni:v3.24.1
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.24.0
+FROM calico/apiserver:v3.24.1
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.24.0
+FROM calico/kube-controllers:v3.24.1
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.24.0
+FROM calico/dikastes:v3.24.1
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.24.0
+FROM calico/pod2daemon-flexvol:v3.24.1
 # calico/pod2daemon-flexvol
 
 # longhornio/longhorn-manager
