@@ -259,7 +259,7 @@ FROM gitlab/gitlab-ce:15.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.2
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
