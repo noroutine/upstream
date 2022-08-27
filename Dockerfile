@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.41.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.4.1
+FROM squidfunk/mkdocs-material:8.4.2
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -259,7 +259,7 @@ FROM gitlab/gitlab-ce:15.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.2
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.11.0
+FROM ghost:5.12.0
 # ghost
 
 # bitnami/ghost
@@ -779,7 +779,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.25.0
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.28.0
+FROM quay.io/tigera/operator:v1.28.1
 # tigera/operator
 
 # calico/typha
