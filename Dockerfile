@@ -698,6 +698,10 @@ FROM elastic/eck-operator:2.4.0
 FROM louislam/uptime-kuma:1.17.1-alpine
 # louislam/uptime-kuma
 
+# apache/airflow
+FROM apache/airflow:2.3.4-python3.10
+# apache/airflow
+
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.9.1
 # jetstack/cert-manager-controller
