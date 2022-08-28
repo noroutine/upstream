@@ -830,6 +830,14 @@ FROM calico/dikastes:v3.24.1
 FROM calico/pod2daemon-flexvol:v3.24.1
 # calico/pod2daemon-flexvol
 
+# calico/node-driver-registrar
+FROM calico/node-driver-registrar:v3.24.1
+# calico/node-driver-registrar
+
+# calico/csi
+FROM calico/csi:v3.24.1
+# calico/csi
+
 # longhornio/longhorn-manager
 FROM longhornio/longhorn-manager:v1.3.1
 # longhornio/longhorn-manager
