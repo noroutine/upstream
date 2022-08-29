@@ -267,7 +267,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.34.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.3.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.4.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -859,7 +859,7 @@ FROM longhornio/longhorn-share-manager:v1_20220825
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v2_20210820
+FROM longhornio/backing-image-manager:v3_20220808
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
@@ -883,7 +883,7 @@ FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.1
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
