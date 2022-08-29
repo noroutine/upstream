@@ -435,7 +435,7 @@ FROM bitnami/node-exporter:1.3.1-debian-11-r6
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.21.1-debian-11-r7
+FROM bitnami/blackbox-exporter:0.22.0-debian-11-r7
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
@@ -591,7 +591,7 @@ FROM drakkan/sftpgo:v2.3.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.10.1
+FROM hasura/graphql-engine:v2.11.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
