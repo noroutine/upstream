@@ -327,7 +327,7 @@ FROM quay.io/jupyterhub/repo2docker:2022.02.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.08.2
+FROM pihole/pihole:2022.08.3
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -447,7 +447,7 @@ FROM bitnami/redis:7.0.4-debian-11-r2
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.43.1-debian-11-r0
+FROM bitnami/redis-exporter:1.44.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -491,11 +491,11 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.8.22-debian-11-r0
+FROM bitnami/minio:2022.8.26-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.8.23-debian-11-r0
+FROM bitnami/minio-client:2022.8.28-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -519,7 +519,7 @@ FROM bitnami/grafana-image-renderer:3.5.0-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.12.3-debian-11-r6
+FROM bitnami/consul:1.13.1-debian-11-r6
 # bitnami/consul
 
 # bitnami/nats
