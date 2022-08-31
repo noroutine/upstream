@@ -511,7 +511,7 @@ FROM bitnami/metallb-speaker:0.13.4-debian-11-r5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.1.1-debian-11-r0
+FROM bitnami/grafana:9.1.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -679,7 +679,7 @@ FROM gcr.io/kaniko-project/executor:v1.9.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
-FROM quay.io/iovisor/bpftrace:v0.15.0
+FROM quay.io/iovisor/bpftrace:v0.16.0
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
