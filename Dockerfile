@@ -707,11 +707,11 @@ FROM k8s.gcr.io/git-sync/git-sync:v3.6.1
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.8.0
+FROM ghcr.io/kedacore/keda:2.8.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.8.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.8.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
