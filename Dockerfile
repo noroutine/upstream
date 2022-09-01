@@ -711,7 +711,7 @@ FROM ghcr.io/kedacore/keda:2.8.0
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.8.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.8.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
