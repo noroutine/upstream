@@ -547,7 +547,7 @@ FROM bitnami/kubeapps-asset-syncer:2.5.0-scratch-r0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-kubeops
-FROM bitnami/kubeapps-kubeops:2.5.0-scratch-r0
+FROM bitnami/kubeapps-kubeops:2.5.1-scratch-r0
 # bitnami/kubeapps-kubeops
 
 # bitnami/kubeapps-assetsvc
