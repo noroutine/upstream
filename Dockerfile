@@ -187,7 +187,7 @@ FROM mongo:6.0.1-focal
 # mongo
 
 # wordpress
-FROM wordpress:6.0.1-apache
+FROM wordpress:6.0.2-apache
 # wordpress
 
 # dpage/pgadmin4
