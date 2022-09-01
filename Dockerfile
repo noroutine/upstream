@@ -187,7 +187,7 @@ FROM mongo:6.0.1-focal
 # mongo
 
 # wordpress
-FROM wordpress:6.0.1-apache
+FROM wordpress:6.0.2-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.12.0
+FROM ghost:5.12.2
 # ghost
 
 # bitnami/ghost
@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.92.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.44.1
+FROM metabase/metabase:v0.44.2
 # metabase/metabase
 
 # docker
@@ -523,31 +523,31 @@ FROM bitnami/consul:1.13.1-debian-11-r6
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.8.4-debian-11-r6
+FROM bitnami/nats:2.8.4-debian-11-r33
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.5.0-debian-11-r6
+FROM bitnami/kube-state-metrics:2.6.0-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.1-debian-11-r6
+FROM bitnami/metrics-server:0.6.1-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.5.0-debian-11-r0
+FROM bitnami/kubeapps-dashboard:2.5.1-debian-11-r0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.5.0-scratch-r0
+FROM bitnami/kubeapps-apprepository-controller:2.5.1-scratch-r0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.5.0-scratch-r0
+FROM bitnami/kubeapps-asset-syncer:2.5.1-scratch-r0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-kubeops
-FROM bitnami/kubeapps-kubeops:2.5.0-scratch-r0
+FROM bitnami/kubeapps-kubeops:2.5.1-scratch-r0
 # bitnami/kubeapps-kubeops
 
 # bitnami/kubeapps-assetsvc
@@ -555,11 +555,11 @@ FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r2
 # bitnami/kubeapps-assetsvc
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.5.0-debian-11-r0
+FROM bitnami/kubeapps-apis:2.5.1-debian-11-r0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.5.0-debian-11-r0
+FROM bitnami/kubeapps-pinniped-proxy:2.5.1-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
@@ -591,7 +591,7 @@ FROM drakkan/sftpgo:v2.3.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.11.0
+FROM hasura/graphql-engine:v2.11.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -751,7 +751,7 @@ FROM envoyproxy/envoy-alpine:v1.21.5
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.11.2
+FROM hashicorp/vault:1.11.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
