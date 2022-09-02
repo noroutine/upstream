@@ -3,11 +3,11 @@ FROM debian:bullseye-20220822-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20220801
+FROM ubuntu:jammy-20220815
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20220801
+FROM ubuntu:focal-20220826
 # ubuntu
 
 # alpine
@@ -43,7 +43,7 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # php
-FROM php:8.1.9-apache-bullseye
+FROM php:8.1.10-apache-bullseye
 # php
 
 # golang
@@ -159,7 +159,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.45.0
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.107
+FROM ghcr.io/prymitive/karma:v0.108
 # prymitive/karma
 
 # cortexproject/cortex
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.12.2
+FROM ghost:5.12.3
 # ghost
 
 # bitnami/ghost
@@ -491,7 +491,7 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.8.26-debian-11-r0
+FROM bitnami/minio:2022.9.1-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -587,7 +587,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.3.3
+FROM drakkan/sftpgo:v2.3.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -743,7 +743,7 @@ FROM hashicorp/consul:1.13.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.47.1
+FROM hashicorp/consul-k8s-control-plane:0.48.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
