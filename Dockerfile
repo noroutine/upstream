@@ -55,7 +55,7 @@ FROM golang:1.19.0-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.8.3
+FROM traefik:v2.8.4
 # traefik
 
 # sonatype/nexus3
@@ -87,7 +87,7 @@ FROM nextcloud:24.0.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.6.4
+FROM haproxytech/haproxy-debian:2.6.5
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -327,7 +327,7 @@ FROM quay.io/jupyterhub/repo2docker:2022.02.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.08.3
+FROM pihole/pihole:2022.09.1
 # pihole/pihole
 
 # yandex/clickhouse-server
