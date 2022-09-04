@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.14.0
+FROM verdaccio/verdaccio:5.15.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -503,11 +503,11 @@ FROM bitnami/bitnami-shell:11-debian-11-r6
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.4-debian-11-r1
+FROM bitnami/metallb-controller:0.13.5-debian-11-r1
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.4-debian-11-r5
+FROM bitnami/metallb-speaker:0.13.5-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
