@@ -47,11 +47,11 @@ FROM php:8.1.10-apache-bullseye
 # php
 
 # golang
-FROM golang:1.19.0-bullseye
+FROM golang:1.19.1-bullseye
 # golang
 
 # golang
-FROM golang:1.19.0-alpine3.15
+FROM golang:1.19.1-alpine3.15
 # golang
 
 # traefik
