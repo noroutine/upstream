@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.1.2
+FROM grafana/grafana:9.1.3
 # grafana/grafana
 
 # grafana/loki
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.3.2-ce.0
+FROM gitlab/gitlab-ce:15.3.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -327,7 +327,7 @@ FROM quay.io/jupyterhub/repo2docker:2022.02.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.09.1
+FROM pihole/pihole:2022.09.2
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.15.1
+FROM verdaccio/verdaccio:5.15.2
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -695,7 +695,7 @@ FROM elastic/eck-operator:2.4.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.17.1-alpine
+FROM louislam/uptime-kuma:1.18.0-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
