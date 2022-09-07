@@ -515,7 +515,7 @@ FROM bitnami/grafana:9.1.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.5.0-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.6.1-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
