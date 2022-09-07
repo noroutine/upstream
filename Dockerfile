@@ -47,11 +47,11 @@ FROM php:8.1.10-apache-bullseye
 # php
 
 # golang
-FROM golang:1.19.0-bullseye
+FROM golang:1.19.1-bullseye
 # golang
 
 # golang
-FROM golang:1.19.0-alpine3.15
+FROM golang:1.19.1-alpine3.15
 # golang
 
 # traefik
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.2
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.34.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.36.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -363,7 +363,7 @@ FROM matomo:4.11.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.92.4
+FROM nocodb/nocodb:0.96.0
 # nocodb/nocodb
 
 # metabase/metabase
@@ -511,7 +511,7 @@ FROM bitnami/metallb-speaker:0.13.5-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.1.2-debian-11-r0
+FROM bitnami/grafana:9.1.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -579,7 +579,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.9
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.20.0
+FROM minio/console:v0.20.1
 # minio/console
 
 # kutt/kutt
@@ -755,7 +755,7 @@ FROM hashicorp/vault:1.11.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:0.17.0
+FROM hashicorp/vault-k8s:1.0.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
