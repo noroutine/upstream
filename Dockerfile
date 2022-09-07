@@ -579,7 +579,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.9
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.20.0
+FROM minio/console:v0.20.1
 # minio/console
 
 # kutt/kutt
