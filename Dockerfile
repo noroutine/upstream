@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.41.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.4.2
+FROM squidfunk/mkdocs-material:8.4.3
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.15.2
+FROM verdaccio/verdaccio:5.15.3
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -363,7 +363,7 @@ FROM matomo:4.11.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.96.0
+FROM nocodb/nocodb:0.96.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -515,7 +515,7 @@ FROM bitnami/grafana:9.1.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.5.0-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.6.1-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
