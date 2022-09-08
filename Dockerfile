@@ -471,7 +471,7 @@ FROM bitnami/keycloak:18.0.2-debian-11-r1
 # bitnami/keycloak
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.8.3-debian-11-r7
+FROM bitnami/mariadb:10.9.2-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -491,7 +491,7 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.9.1-debian-11-r0
+FROM bitnami/minio:2022.9.7-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -763,11 +763,11 @@ FROM hashicorp/vault-csi-provider:1.2.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.30.0
+FROM quay.io/strimzi/operator:0.31.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.30.0-kafka-3.2.0
+FROM quay.io/strimzi/kafka:0.31.0-kafka-3.2.0
 # strimzi/kafka
 
 # pause
