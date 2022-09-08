@@ -323,7 +323,7 @@ FROM jupyterhub/configurable-http-proxy:4.5.2
 # jupyterhub/configurable-http-proxy
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2022.02.0-88.g7580a30
+FROM quay.io/jupyterhub/repo2docker:2022.02.0-90.g0345a86
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -611,7 +611,7 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.33.0
+FROM ghcr.io/dexidp/dex:v2.33.1
 # dexidp/dex
 
 # argoproj/argocd
@@ -767,7 +767,7 @@ FROM quay.io/strimzi/operator:0.31.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.31.0-kafka-3.2.0
+FROM quay.io/strimzi/kafka:0.31.0-kafka-3.2.1
 # strimzi/kafka
 
 # pause
