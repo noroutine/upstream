@@ -471,7 +471,7 @@ FROM bitnami/keycloak:18.0.2-debian-11-r1
 # bitnami/keycloak
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.8.3-debian-11-r7
+FROM bitnami/mariadb:10.8.4-debian-11-r7
 # bitnami/mariadb
 
 # bitnami/mongodb
