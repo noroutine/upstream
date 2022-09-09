@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.1.3
+FROM grafana/grafana:9.1.4
 # grafana/grafana
 
 # grafana/loki
@@ -299,23 +299,23 @@ FROM noroutine/k8s-binderhub:0.2.0-n930.ha8b371d
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:1.2.0
+FROM jupyterhub/k8s-hub:2.0.0
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:1.2.0
+FROM jupyterhub/k8s-secret-sync:2.0.0
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:1.2.0
+FROM jupyterhub/k8s-network-tools:2.0.0
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:1.2.0
+FROM jupyterhub/k8s-image-awaiter:2.0.0
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:1.2.0
+FROM jupyterhub/k8s-singleuser-sample:2.0.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
