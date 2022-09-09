@@ -83,7 +83,7 @@ FROM atlassian/jira-software:9.2.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:24.0.4-apache
+FROM nextcloud:24.0.5-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.2
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.36.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.37.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -319,7 +319,7 @@ FROM jupyterhub/k8s-singleuser-sample:1.2.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.2
+FROM jupyterhub/configurable-http-proxy:4.5.3
 # jupyterhub/configurable-http-proxy
 
 # jupyterhub/repo2docker
