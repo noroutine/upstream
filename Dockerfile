@@ -467,7 +467,7 @@ FROM bitnami/postgresql:14.5.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:18.0.2-debian-11-r1
+FROM bitnami/keycloak:19.0.1-debian-11-r1
 # bitnami/keycloak
 
 # bitnami/mariadb
