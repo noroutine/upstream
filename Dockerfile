@@ -311,7 +311,7 @@ FROM jupyterhub/k8s-network-tools:1.2.0
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:1.2.0
+FROM jupyterhub/k8s-image-awaiter:2.0.0
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
