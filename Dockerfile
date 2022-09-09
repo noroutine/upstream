@@ -279,7 +279,7 @@ FROM summerwind/actions-runner-controller:v0.25.2
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.296.1-ubuntu-20.04
+FROM summerwind/actions-runner:v2.296.2-ubuntu-20.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
