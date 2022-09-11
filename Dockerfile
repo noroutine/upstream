@@ -439,7 +439,7 @@ FROM bitnami/blackbox-exporter:0.22.0-debian-11-r7
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.10.1-debian-11-r7
+FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
