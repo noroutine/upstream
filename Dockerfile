@@ -371,7 +371,7 @@ FROM metabase/metabase:v0.44.2
 # metabase/metabase
 
 # docker
-FROM docker:20.10.17-dind
+FROM docker:20.10.18-dind
 # docker
 
 # jupyter/base-notebook
