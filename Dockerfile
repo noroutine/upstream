@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.41.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.4.4
+FROM squidfunk/mkdocs-material:8.5.0
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -363,7 +363,7 @@ FROM matomo:4.11.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.96.3
+FROM nocodb/nocodb:0.96.4
 # nocodb/nocodb
 
 # metabase/metabase
@@ -907,7 +907,7 @@ FROM k8s.gcr.io/sig-storage/csi-attacher:v3.5.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM k8s.gcr.io/sig-storage/csi-resizer:v1.5.0
+FROM k8s.gcr.io/sig-storage/csi-resizer:v1.6.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
