@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20220822-slim
+FROM debian:bullseye-20220912-slim
 # debian
 
 # ubuntu
@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.41.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.4.3
+FROM squidfunk/mkdocs-material:8.4.4
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.1.4
+FROM grafana/grafana:9.1.5
 # grafana/grafana
 
 # grafana/loki
@@ -275,7 +275,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.25.2
+FROM summerwind/actions-runner-controller:v0.26.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.13.2
+FROM ghost:5.14.1
 # ghost
 
 # bitnami/ghost
@@ -363,7 +363,7 @@ FROM matomo:4.11.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.96.2
+FROM nocodb/nocodb:0.96.3
 # nocodb/nocodb
 
 # metabase/metabase
@@ -371,7 +371,7 @@ FROM metabase/metabase:v0.44.2
 # metabase/metabase
 
 # docker
-FROM docker:20.10.17-dind
+FROM docker:20.10.18-dind
 # docker
 
 # jupyter/base-notebook
@@ -479,7 +479,7 @@ FROM bitnami/mongodb:6.0.1-debian-11-r1
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.16-debian-11-r6
+FROM bitnami/memcached:1.6.17-debian-11-r6
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -511,7 +511,7 @@ FROM bitnami/metallb-speaker:0.13.5-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.1.4-debian-11-r0
+FROM bitnami/grafana:9.1.5-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -591,7 +591,7 @@ FROM drakkan/sftpgo:v2.3.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.11.1
+FROM hasura/graphql-engine:v2.11.2
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
