@@ -55,7 +55,7 @@ FROM golang:1.19.1-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.8.4
+FROM traefik:v2.8.5
 # traefik
 
 # sonatype/nexus3
