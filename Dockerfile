@@ -907,7 +907,7 @@ FROM k8s.gcr.io/sig-storage/csi-attacher:v3.5.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM k8s.gcr.io/sig-storage/csi-resizer:v1.5.0
+FROM k8s.gcr.io/sig-storage/csi-resizer:v1.6.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
