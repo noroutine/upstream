@@ -247,7 +247,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.14.1
+FROM buildpacksio/lifecycle:0.14.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
