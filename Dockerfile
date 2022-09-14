@@ -71,7 +71,7 @@ FROM freeradius/freeradius-server:3.2.0-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:19.0.1
+FROM quay.io/keycloak/keycloak:19.0.2
 # keycloak/keycloak
 
 # postgres
@@ -467,7 +467,7 @@ FROM bitnami/postgresql:14.5.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:19.0.1-debian-11-r1
+FROM bitnami/keycloak:19.0.2-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/mariadb
@@ -855,7 +855,7 @@ FROM longhornio/longhorn-instance-manager:v1_20220808
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1_20220825
+FROM longhornio/longhorn-share-manager:v1_20220914
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
