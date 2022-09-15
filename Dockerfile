@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.41.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.5.0
+FROM squidfunk/mkdocs-material:8.5.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.96.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.44.2
+FROM metabase/metabase:v0.44.3
 # metabase/metabase
 
 # docker
