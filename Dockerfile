@@ -95,7 +95,7 @@ FROM minio/minio:RELEASE.2022-08-11T04-37-28Z
 # minio/minio
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.4
+FROM quay.io/coreos/etcd:v3.5.5
 # coreos/etcd
 
 # prom/prometheus
