@@ -611,7 +611,7 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.33.1
+FROM ghcr.io/dexidp/dex:v2.34.0
 # dexidp/dex
 
 # argoproj/argocd
