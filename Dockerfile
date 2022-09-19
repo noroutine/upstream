@@ -699,7 +699,7 @@ FROM louislam/uptime-kuma:1.18.0-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
-FROM apache/airflow:2.3.4-python3.10
+FROM apache/airflow:2.4.0-python3.10
 # apache/airflow
 
 # git-sync/git-sync
