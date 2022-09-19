@@ -391,7 +391,7 @@ FROM jupyter/scipy-notebook:hub-2.3.1
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-2.3.1
+FROM jupyter/tensorflow-notebook:hub-3.0.0
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
