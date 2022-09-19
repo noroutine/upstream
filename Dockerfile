@@ -383,7 +383,7 @@ FROM jupyter/minimal-notebook:hub-2.3.1
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:hub-2.3.1
+FROM jupyter/r-notebook:hub-3.0.0
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
