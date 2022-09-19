@@ -327,7 +327,7 @@ FROM quay.io/jupyterhub/repo2docker:2022.02.0-90.g0345a86
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.09.3
+FROM pihole/pihole:2022.09.4
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -375,35 +375,35 @@ FROM docker:20.10.18-dind
 # docker
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-2.3.1
+FROM jupyter/base-notebook:hub-3.0.0
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:hub-2.3.1
+FROM jupyter/minimal-notebook:hub-3.0.0
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:hub-2.3.1
+FROM jupyter/r-notebook:hub-3.0.0
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-2.3.1
+FROM jupyter/scipy-notebook:hub-3.0.0
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-2.3.1
+FROM jupyter/tensorflow-notebook:hub-3.0.0
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-2.3.1
+FROM jupyter/datascience-notebook:hub-3.0.0
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:hub-2.3.1
+FROM jupyter/pyspark-notebook:hub-3.0.0
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-2.3.1
+FROM jupyter/all-spark-notebook:hub-3.0.0
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -699,7 +699,7 @@ FROM louislam/uptime-kuma:1.18.0-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
-FROM apache/airflow:2.3.4-python3.10
+FROM apache/airflow:2.4.0-python3.10
 # apache/airflow
 
 # git-sync/git-sync
