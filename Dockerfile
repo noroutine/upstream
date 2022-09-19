@@ -403,7 +403,7 @@ FROM jupyter/pyspark-notebook:hub-2.3.1
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-2.3.1
+FROM jupyter/all-spark-notebook:hub-3.0.0
 # jupyter/all-spark-notebook
 
 # rocker/shiny
