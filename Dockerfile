@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.14.1
+FROM ghost:5.14.2
 # ghost
 
 # bitnami/ghost
@@ -851,7 +851,7 @@ FROM longhornio/longhorn-engine:v1.3.1
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1_20220808
+FROM longhornio/longhorn-instance-manager:v1_20220920
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
