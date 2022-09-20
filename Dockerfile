@@ -167,15 +167,15 @@ FROM quay.io/cortexproject/cortex:v1.13.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.4.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.4.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.4.1
+FROM docker.elastic.co/logstash/logstash:8.4.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.4.1
+FROM docker.elastic.co/kibana/kibana:8.4.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -591,7 +591,7 @@ FROM drakkan/sftpgo:v2.3.5
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.11.2
+FROM hasura/graphql-engine:v2.12.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
