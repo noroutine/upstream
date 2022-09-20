@@ -471,7 +471,7 @@ FROM bitnami/keycloak:19.0.2-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.9.2-debian-11-r0
+FROM bitnami/mariadb:10.9.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -599,7 +599,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.118
+FROM stakater/reloader:v0.0.119
 # stakater/reloader
 
 # jimmidyson/configmap-reload
