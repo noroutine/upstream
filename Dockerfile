@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.41.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.5.2
+FROM squidfunk/mkdocs-material:8.5.3
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -91,7 +91,7 @@ FROM haproxytech/haproxy-debian:2.6.5
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-08-11T04-37-28Z
+FROM minio/minio:RELEASE.2022-09-17T00-09-45Z
 # minio/minio
 
 # coreos/etcd
@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.1.5
+FROM grafana/grafana:9.1.6
 # grafana/grafana
 
 # grafana/loki
@@ -491,7 +491,7 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.9.7-debian-11-r0
+FROM bitnami/minio:2022.9.17-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -511,7 +511,7 @@ FROM bitnami/metallb-speaker:0.13.5-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.1.5-debian-11-r0
+FROM bitnami/grafana:9.1.6-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
