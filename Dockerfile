@@ -175,7 +175,7 @@ FROM docker.elastic.co/logstash/logstash:8.4.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.4.1
+FROM docker.elastic.co/kibana/kibana:8.4.2
 # kibana/kibana
 
 # alerta/alerta-web
