@@ -251,7 +251,7 @@ FROM buildpacksio/lifecycle:0.14.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.3.0
+FROM gitlab/gitlab-runner:alpine-v15.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -767,7 +767,7 @@ FROM quay.io/strimzi/operator:0.31.1
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.31.1-kafka-3.2.1
+FROM quay.io/strimzi/kafka:0.31.1-kafka-3.2.3
 # strimzi/kafka
 
 # pause
