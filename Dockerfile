@@ -199,7 +199,7 @@ FROM mysql:8.0.30
 # mysql
 
 # mariadb
-FROM mariadb:10.9.2-jammy
+FROM mariadb:10.9.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
