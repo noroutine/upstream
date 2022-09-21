@@ -199,7 +199,7 @@ FROM mysql:8.0.30
 # mysql
 
 # mariadb
-FROM mariadb:10.9.2-jammy
+FROM mariadb:10.9.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -579,7 +579,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.9
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.20.2
+FROM minio/console:v0.20.3
 # minio/console
 
 # kutt/kutt
@@ -667,7 +667,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.5.2-alpine
+FROM caddy:2.6.0-alpine
 # caddy
 
 # outline/shadowbox
@@ -739,7 +739,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.13.1
+FROM hashicorp/consul:1.13.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -763,11 +763,11 @@ FROM hashicorp/vault-csi-provider:1.2.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.31.0
+FROM quay.io/strimzi/operator:0.31.1
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.31.0-kafka-3.2.1
+FROM quay.io/strimzi/kafka:0.31.1-kafka-3.2.1
 # strimzi/kafka
 
 # pause
