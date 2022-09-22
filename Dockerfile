@@ -791,7 +791,7 @@ FROM k8s.gcr.io/kube-scheduler:v1.25.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.25.1
+FROM k8s.gcr.io/kube-controller-manager:v1.25.2
 # kube-controller-manager
 
 # tigera/operator
