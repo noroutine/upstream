@@ -87,7 +87,7 @@ FROM nextcloud:24.0.5-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.6.5
+FROM haproxytech/haproxy-debian:2.6.6
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.3.3-ce.0
+FROM gitlab/gitlab-ce:15.4.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -571,7 +571,7 @@ FROM bitnami/openldap:2.6.3-debian-11-r14
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.18.2
+FROM bitnami/sealed-secrets-controller:v0.18.4
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
