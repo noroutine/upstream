@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.18.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.37.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.38.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -271,7 +271,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.6.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.7.0
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
@@ -571,7 +571,7 @@ FROM bitnami/openldap:2.6.3-debian-11-r14
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.18.4
+FROM bitnami/sealed-secrets-controller:v0.18.5
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
