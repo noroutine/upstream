@@ -259,7 +259,7 @@ FROM gitlab/gitlab-ce:15.4.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.17.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.18.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -623,7 +623,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.4-bullseye
+FROM redis:7.0.5-bullseye
 # redis
 
 # listmonk/listmonk
@@ -667,7 +667,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.6.0-alpine
+FROM caddy:2.6.1-alpine
 # caddy
 
 # outline/shadowbox
@@ -887,11 +887,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.1
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.6.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.6.1
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.6.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.6.1
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
