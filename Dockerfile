@@ -55,7 +55,7 @@ FROM golang:1.19.1-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.8.5
+FROM traefik:v2.8.7
 # traefik
 
 # sonatype/nexus3
@@ -883,7 +883,7 @@ FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.1
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.2
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
