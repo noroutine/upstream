@@ -107,7 +107,7 @@ FROM prom/alertmanager:v0.24.0
 # prom/alertmanager
 
 # prom/node-exporter
-FROM prom/node-exporter:v1.3.1
+FROM prom/node-exporter:v1.4.0
 # prom/node-exporter
 
 # prom/consul-exporter
