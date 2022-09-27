@@ -451,15 +451,15 @@ FROM bitnami/redis-exporter:1.44.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.17.0-debian-11-r0
+FROM bitnami/postgresql:14.5.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.12.0-debian-11-r0
+FROM bitnami/postgresql:14.5.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.8.0-debian-11-r0
+FROM bitnami/postgresql:14.5.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
