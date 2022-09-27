@@ -227,7 +227,7 @@ FROM heroku/heroku:22
 # heroku/heroku
 
 # heroku/procfile-cnb
-FROM heroku/procfile-cnb:1.0.2
+FROM heroku/procfile-cnb:2.0.0
 # heroku/procfile-cnb
 
 # paketobuildpacks/builder
