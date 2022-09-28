@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.14.2
+FROM ghost:5.16.2
 # ghost
 
 # bitnami/ghost
@@ -443,7 +443,7 @@ FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.4-debian-11-r2
+FROM bitnami/redis:7.0.5-debian-11-r2
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -491,7 +491,7 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.9.17-debian-11-r0
+FROM bitnami/minio:2022.9.25-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -579,7 +579,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.9
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.20.3
+FROM minio/console:v0.20.4
 # minio/console
 
 # kutt/kutt
@@ -599,7 +599,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.119
+FROM stakater/reloader:v0.0.120
 # stakater/reloader
 
 # jimmidyson/configmap-reload
