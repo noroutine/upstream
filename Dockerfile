@@ -259,7 +259,7 @@ FROM gitlab/gitlab-ce:15.4.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.18.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.19.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.97.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.44.3
+FROM metabase/metabase:v0.44.4
 # metabase/metabase
 
 # docker
