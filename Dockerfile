@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.15.3
+FROM verdaccio/verdaccio:5.15.4
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -851,7 +851,7 @@ FROM longhornio/longhorn-engine:v1.3.1
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1_20220920
+FROM longhornio/longhorn-instance-manager:v1_20220929
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
