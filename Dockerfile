@@ -475,7 +475,7 @@ FROM bitnami/mariadb:10.9.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:6.0.1-debian-11-r1
+FROM bitnami/mongodb:6.0.2-debian-11-r1
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -743,7 +743,7 @@ FROM hashicorp/consul:1.13.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.48.0
+FROM hashicorp/consul-k8s-control-plane:0.49.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
