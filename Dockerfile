@@ -43,7 +43,7 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # php
-FROM php:8.1.10-apache-bullseye
+FROM php:8.1.11-apache-bullseye
 # php
 
 # golang
@@ -79,7 +79,7 @@ FROM postgres:14.5-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.2.0
+FROM atlassian/jira-software:9.3.0
 # atlassian/jira-software
 
 # nextcloud
@@ -183,7 +183,7 @@ FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.1-focal
+FROM mongo:6.0.2-focal
 # mongo
 
 # wordpress
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.4.0-ce.0
+FROM gitlab/gitlab-ce:15.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -579,7 +579,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.5.9
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.20.4
+FROM minio/console:v0.20.5
 # minio/console
 
 # kutt/kutt
@@ -599,7 +599,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.120
+FROM stakater/reloader:v0.0.121
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -751,7 +751,7 @@ FROM envoyproxy/envoy-alpine:v1.21.5
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.11.3
+FROM hashicorp/vault:1.11.4
 # hashicorp/vault
 
 # hashicorp/vault-k8s
