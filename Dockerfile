@@ -55,7 +55,7 @@ FROM golang:1.19.1-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.8.7
+FROM traefik:v2.8.8
 # traefik
 
 # sonatype/nexus3
@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.42.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.5.3
+FROM squidfunk/mkdocs-material:8.5.4
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.16.2
+FROM ghost:5.17.0
 # ghost
 
 # bitnami/ghost
@@ -699,7 +699,7 @@ FROM louislam/uptime-kuma:1.18.0-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
-FROM apache/airflow:2.4.0-python3.10
+FROM apache/airflow:2.4.1-python3.10
 # apache/airflow
 
 # git-sync/git-sync
