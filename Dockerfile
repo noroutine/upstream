@@ -911,11 +911,11 @@ FROM k8s.gcr.io/sig-storage/csi-resizer:v1.6.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.2.1
+FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.3.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.0.1
+FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.1.0
 # sig-storage/csi-snapshotter
 
 # vstadtmueller/cert-manager-webhook-powerdns
