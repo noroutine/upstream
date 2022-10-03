@@ -859,7 +859,7 @@ FROM longhornio/longhorn-share-manager:v1_20220914
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v3_20220808
+FROM longhornio/backing-image-manager:v3_20221003
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
