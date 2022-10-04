@@ -91,7 +91,7 @@ FROM haproxytech/haproxy-debian:2.6.6
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-09-17T00-09-45Z
+FROM minio/minio:RELEASE.2022-10-02T19-29-29Z
 # minio/minio
 
 # coreos/etcd
