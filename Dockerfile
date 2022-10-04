@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.1.6
+FROM grafana/grafana:9.1.7
 # grafana/grafana
 
 # grafana/loki
@@ -611,7 +611,7 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.35.0
+FROM ghcr.io/dexidp/dex:v2.35.1
 # dexidp/dex
 
 # argoproj/argocd
@@ -695,7 +695,7 @@ FROM elastic/eck-operator:2.4.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.18.1-alpine
+FROM louislam/uptime-kuma:1.18.2-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
