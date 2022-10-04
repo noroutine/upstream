@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.4.1-ce.0
+FROM gitlab/gitlab-ce:15.4.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -511,7 +511,7 @@ FROM bitnami/metallb-speaker:0.13.5-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.1.6-debian-11-r0
+FROM bitnami/grafana:9.1.7-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -599,7 +599,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.121
+FROM stakater/reloader:v0.0.122
 # stakater/reloader
 
 # jimmidyson/configmap-reload
