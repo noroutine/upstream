@@ -47,7 +47,7 @@ FROM php:8.1.11-apache-bullseye
 # php
 
 # golang
-FROM golang:1.19.1-bullseye
+FROM golang:1.19.2-bullseye
 # golang
 
 # golang
