@@ -695,7 +695,7 @@ FROM elastic/eck-operator:2.4.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.18.0-alpine
+FROM louislam/uptime-kuma:1.18.1-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
