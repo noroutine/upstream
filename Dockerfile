@@ -55,7 +55,7 @@ FROM golang:1.19.1-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.8.8
+FROM traefik:v2.9.1
 # traefik
 
 # sonatype/nexus3
@@ -67,7 +67,7 @@ FROM squidfunk/mkdocs-material:8.5.6
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.0-alpine
+FROM freeradius/freeradius-server:3.2.1-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
@@ -163,7 +163,7 @@ FROM ghcr.io/prymitive/karma:v0.108
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.13.0
+FROM quay.io/cortexproject/cortex:v1.13.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.17.0
+FROM ghost:5.17.1
 # ghost
 
 # bitnami/ghost
@@ -611,11 +611,11 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.34.0
+FROM ghcr.io/dexidp/dex:v2.35.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.12
+FROM quay.io/argoproj/argocd:v2.4.13
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -695,7 +695,7 @@ FROM elastic/eck-operator:2.4.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.18.0-alpine
+FROM louislam/uptime-kuma:1.18.1-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
