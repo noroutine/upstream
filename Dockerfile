@@ -1,13 +1,13 @@
 # debian
-FROM debian:bullseye-20220912-slim
+FROM debian:bullseye-20221004-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20220815
+FROM ubuntu:jammy-20221003
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20220826
+FROM ubuntu:focal-20220922
 # ubuntu
 
 # alpine
@@ -51,7 +51,7 @@ FROM golang:1.19.2-bullseye
 # golang
 
 # golang
-FROM golang:1.19.1-alpine3.15
+FROM golang:1.19.2-alpine3.15
 # golang
 
 # traefik
@@ -99,7 +99,7 @@ FROM quay.io/coreos/etcd:v3.5.5
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.38.0
+FROM prom/prometheus:v2.39.0
 # prom/prometheus
 
 # prom/alertmanager
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.19.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.38.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.38.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -279,11 +279,11 @@ FROM summerwind/actions-runner-controller:v0.26.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.297.0-ubuntu-20.04
+FROM summerwind/actions-runner:v2.298.2-ubuntu-20.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.297.0-ubuntu-20.04
+FROM summerwind/actions-runner-dind:v2.298.2-ubuntu-20.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -423,7 +423,7 @@ FROM bitnami/spark:3.3.0-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.38.0-debian-11-r0
+FROM bitnami/prometheus:2.39.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
