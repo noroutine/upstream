@@ -71,7 +71,7 @@ FROM freeradius/freeradius-server:3.2.1-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:19.0.2
+FROM quay.io/keycloak/keycloak:19.0.3
 # keycloak/keycloak
 
 # postgres
@@ -227,7 +227,7 @@ FROM heroku/heroku:22
 # heroku/heroku
 
 # heroku/procfile-cnb
-FROM heroku/procfile-cnb:1.0.2
+FROM heroku/procfile-cnb:2.0.0
 # heroku/procfile-cnb
 
 # paketobuildpacks/builder
@@ -491,7 +491,7 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.9.25-debian-11-r0
+FROM bitnami/minio:2022.10.5-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -563,7 +563,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.6.0-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.13.0-scratch-r0
+FROM bitnami/kube-rbac-proxy:0.13.1-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -695,7 +695,7 @@ FROM elastic/eck-operator:2.4.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.18.2-alpine
+FROM louislam/uptime-kuma:1.18.3-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
