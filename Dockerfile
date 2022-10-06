@@ -563,7 +563,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.6.0-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.13.0-scratch-r0
+FROM bitnami/kube-rbac-proxy:0.13.1-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
