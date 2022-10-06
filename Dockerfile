@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.19.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.38.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.39.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -287,7 +287,7 @@ FROM summerwind/actions-runner-dind:v2.298.2-ubuntu-20.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.13.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.13.1
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.17.1
+FROM ghost:5.17.2
 # ghost
 
 # bitnami/ghost
@@ -359,7 +359,7 @@ FROM bitnami/ghost:5.7.1-debian-11-r4
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.11.0-apache
+FROM matomo:4.12.0-apache
 # matomo
 
 # nocodb/nocodb
@@ -495,7 +495,7 @@ FROM bitnami/minio:2022.9.25-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.10.1-debian-11-r0
+FROM bitnami/minio-client:2022.10.6-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -535,19 +535,19 @@ FROM bitnami/metrics-server:0.6.1-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.5.1-debian-11-r0
+FROM bitnami/kubeapps-dashboard:2.5.1-debian-11-r12
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.5.1-scratch-r0
+FROM bitnami/kubeapps-apprepository-controller:2.6.0-scratch-r0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.5.1-scratch-r0
+FROM bitnami/kubeapps-asset-syncer:2.6.0-scratch-r0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-kubeops
-FROM bitnami/kubeapps-kubeops:2.5.1-scratch-r0
+FROM bitnami/kubeapps-kubeops:2.5.1-scratch-r2
 # bitnami/kubeapps-kubeops
 
 # bitnami/kubeapps-assetsvc
@@ -555,11 +555,11 @@ FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r2
 # bitnami/kubeapps-assetsvc
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.5.1-debian-11-r0
+FROM bitnami/kubeapps-apis:2.6.0-debian-11-r0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.5.1-debian-11-r0
+FROM bitnami/kubeapps-pinniped-proxy:2.6.0-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
