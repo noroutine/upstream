@@ -83,7 +83,7 @@ FROM atlassian/jira-software:9.3.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:24.0.5-apache
+FROM nextcloud:24.0.6-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -99,7 +99,7 @@ FROM quay.io/coreos/etcd:v3.5.5
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.39.0
+FROM prom/prometheus:v2.39.1
 # prom/prometheus
 
 # prom/alertmanager
@@ -423,11 +423,11 @@ FROM bitnami/spark:3.3.0-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.39.0-debian-11-r0
+FROM bitnami/prometheus:2.39.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.58.0-debian-11-r6
+FROM bitnami/prometheus-operator:0.59.2-debian-11-r6
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -467,7 +467,7 @@ FROM bitnami/postgresql:14.5.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:19.0.2-debian-11-r0
+FROM bitnami/keycloak:19.0.3-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/mariadb
@@ -611,7 +611,7 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.35.1
+FROM ghcr.io/dexidp/dex:v2.35.2
 # dexidp/dex
 
 # argoproj/argocd
@@ -639,7 +639,7 @@ FROM boky/postfix:v3.5.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.0.2
+FROM cupcakearmy/cryptgeon:2.0.3
 # cupcakearmy/cryptgeon
 
 # memcached
