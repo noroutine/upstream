@@ -323,7 +323,7 @@ FROM jupyterhub/configurable-http-proxy:4.5.3
 # jupyterhub/configurable-http-proxy
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2022.02.0-112.gc981b3b
+FROM quay.io/jupyterhub/repo2docker:2022.02.0-114.g27fbab6
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -599,7 +599,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.122
+FROM stakater/reloader:v0.0.123
 # stakater/reloader
 
 # jimmidyson/configmap-reload
