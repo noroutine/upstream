@@ -599,7 +599,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.123
+FROM stakater/reloader:v0.0.124
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -887,11 +887,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.2
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.6.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.6.2
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.6.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.6.2
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
