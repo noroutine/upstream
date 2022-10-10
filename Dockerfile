@@ -575,7 +575,7 @@ FROM bitnami/sealed-secrets-controller:v0.18.5
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.5.9
+FROM ghcr.io/external-secrets/external-secrets:v0.6.0
 # external-secrets/external-secrets
 
 # minio/console
