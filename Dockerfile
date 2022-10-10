@@ -91,7 +91,7 @@ FROM haproxytech/haproxy-debian:2.6.6
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-10-05T14-58-27Z
+FROM minio/minio:RELEASE.2022-10-08T20-11-00Z
 # minio/minio
 
 # coreos/etcd
@@ -323,7 +323,7 @@ FROM jupyterhub/configurable-http-proxy:4.5.3
 # jupyterhub/configurable-http-proxy
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2022.02.0-92.gbdec455
+FROM quay.io/jupyterhub/repo2docker:2022.02.0-112.gc981b3b
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -431,7 +431,7 @@ FROM bitnami/prometheus-operator:0.59.2-debian-11-r6
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.3.1-debian-11-r6
+FROM bitnami/node-exporter:1.4.0-debian-11-r6
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
@@ -491,11 +491,11 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.10.5-debian-11-r0
+FROM bitnami/minio:2022.10.8-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.10.6-debian-11-r0
+FROM bitnami/minio-client:2022.10.9-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -575,7 +575,7 @@ FROM bitnami/sealed-secrets-controller:v0.18.5
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.5.9
+FROM ghcr.io/external-secrets/external-secrets:v0.6.0
 # external-secrets/external-secrets
 
 # minio/console
@@ -695,7 +695,7 @@ FROM elastic/eck-operator:2.4.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.18.3-alpine
+FROM louislam/uptime-kuma:1.18.4-alpine
 # louislam/uptime-kuma
 
 # apache/airflow
@@ -867,7 +867,7 @@ FROM longhornio/csi-node-driver-registrar:v2.5.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v4.2.1
+FROM longhornio/csi-snapshotter:v5.0.1
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
