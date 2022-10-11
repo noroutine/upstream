@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.1.8
+FROM grafana/grafana:9.2.0
 # grafana/grafana
 
 # grafana/loki
