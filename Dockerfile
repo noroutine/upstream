@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.1.7
+FROM grafana/grafana:9.1.8
 # grafana/grafana
 
 # grafana/loki
@@ -611,7 +611,7 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.35.2
+FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
@@ -683,7 +683,7 @@ FROM quay.io/iovisor/bpftrace:v0.16.0
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
-FROM pryorda/vmware_exporter:v0.18.3
+FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
