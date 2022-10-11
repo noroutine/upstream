@@ -603,7 +603,7 @@ FROM stakater/reloader:v0.0.124
 # stakater/reloader
 
 # jimmidyson/configmap-reload
-FROM jimmidyson/configmap-reload:v0.7.1
+FROM jimmidyson/configmap-reload:v0.8.0
 # jimmidyson/configmap-reload
 
 # registry
