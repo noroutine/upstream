@@ -683,7 +683,7 @@ FROM quay.io/iovisor/bpftrace:v0.16.0
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
-FROM pryorda/vmware_exporter:v0.18.3
+FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
