@@ -779,7 +779,7 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.25.2
+FROM k8s.gcr.io/kube-apiserver:v1.25.3
 # kube-apiserver
 
 # kube-proxy
