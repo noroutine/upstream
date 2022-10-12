@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.1.8
+FROM grafana/grafana:9.2.0
 # grafana/grafana
 
 # grafana/loki
@@ -195,7 +195,7 @@ FROM dpage/pgadmin4:6.14
 # dpage/pgadmin4
 
 # mysql
-FROM mysql:8.0.30
+FROM mysql:8.0.31
 # mysql
 
 # mariadb
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.17.2
+FROM ghost:5.18.0
 # ghost
 
 # bitnami/ghost
@@ -507,7 +507,7 @@ FROM bitnami/metallb-controller:0.13.5-debian-11-r1
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.5-debian-11-r0
+FROM bitnami/metallb-speaker:0.13.6-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
