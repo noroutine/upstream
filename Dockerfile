@@ -507,7 +507,7 @@ FROM bitnami/metallb-controller:0.13.5-debian-11-r1
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.5-debian-11-r0
+FROM bitnami/metallb-speaker:0.13.6-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
