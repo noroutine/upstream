@@ -267,7 +267,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.39.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.4.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.5.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -363,7 +363,7 @@ FROM matomo:4.12.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.97.0
+FROM nocodb/nocodb:0.98.0
 # nocodb/nocodb
 
 # metabase/metabase
@@ -371,7 +371,7 @@ FROM metabase/metabase:v0.44.4
 # metabase/metabase
 
 # docker
-FROM docker:20.10.18-dind
+FROM docker:20.10.19-dind
 # docker
 
 # jupyter/base-notebook
@@ -503,7 +503,7 @@ FROM bitnami/bitnami-shell:11-debian-11-r6
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.5-debian-11-r1
+FROM bitnami/metallb-controller:0.13.6-debian-11-r1
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
@@ -667,7 +667,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.6.1-alpine
+FROM caddy:2.6.2-alpine
 # caddy
 
 # outline/shadowbox
@@ -839,15 +839,15 @@ FROM calico/csi:v3.24.1
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.3.1
+FROM longhornio/longhorn-manager:v1.3.2
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.3.1
+FROM longhornio/longhorn-ui:v1.3.2
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.3.1
+FROM longhornio/longhorn-engine:v1.3.2
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
