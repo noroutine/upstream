@@ -839,7 +839,7 @@ FROM calico/csi:v3.24.1
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.3.1
+FROM longhornio/longhorn-manager:v1.3.2
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
