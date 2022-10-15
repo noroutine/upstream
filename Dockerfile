@@ -75,7 +75,7 @@ FROM quay.io/keycloak/keycloak:19.0.3
 # keycloak/keycloak
 
 # postgres
-FROM postgres:14.5-bullseye
+FROM postgres:15.0-bullseye
 # postgres
 
 # atlassian/jira-software
@@ -267,7 +267,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.39.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.5.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.5.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.18.0
+FROM ghost:5.19.0
 # ghost
 
 # bitnami/ghost
@@ -579,7 +579,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.6.0
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.20.5
+FROM minio/console:v0.21.0
 # minio/console
 
 # kutt/kutt
@@ -631,7 +631,7 @@ FROM listmonk/listmonk:v2.2.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.25.2
+FROM vaultwarden/server:1.26.0
 # vaultwarden/server
 
 # boky/postfix
