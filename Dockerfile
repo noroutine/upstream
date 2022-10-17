@@ -203,7 +203,7 @@ FROM mariadb:10.9.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.4.1
+FROM mccutchen/go-httpbin:v2.4.2
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
