@@ -727,7 +727,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.9.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.9.1
+FROM quay.io/jetstack/cert-manager-ctl:v1.10.0
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
