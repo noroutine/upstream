@@ -571,7 +571,7 @@ FROM bitnami/openldap:2.6.3-debian-11-r14
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.18.5
+FROM bitnami/sealed-secrets-controller:v0.19.1
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
