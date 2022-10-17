@@ -495,7 +495,7 @@ FROM bitnami/minio:2022.10.15-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.10.9-debian-11-r0
+FROM bitnami/minio-client:2022.10.12-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -571,7 +571,7 @@ FROM bitnami/openldap:2.6.3-debian-11-r14
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.18.5
+FROM bitnami/sealed-secrets-controller:v0.19.1
 # bitnami/sealed-secrets-controller
 
 # external-secrets/external-secrets
@@ -715,19 +715,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.8.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.9.1
+FROM quay.io/jetstack/cert-manager-controller:v1.10.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.9.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.10.0
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.9.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.10.0
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.9.1
+FROM quay.io/jetstack/cert-manager-ctl:v1.10.0
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
