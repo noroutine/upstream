@@ -495,7 +495,7 @@ FROM bitnami/minio:2022.10.15-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.10.9-debian-11-r0
+FROM bitnami/minio-client:2022.10.12-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
