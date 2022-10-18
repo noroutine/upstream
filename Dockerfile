@@ -203,7 +203,7 @@ FROM mariadb:10.9.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.4.1
+FROM mccutchen/go-httpbin:v2.4.2
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -503,11 +503,11 @@ FROM bitnami/bitnami-shell:11-debian-11-r6
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.6-debian-11-r1
+FROM bitnami/metallb-controller:0.13.7-debian-11-r0
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.6-debian-11-r0
+FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -615,7 +615,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.14
+FROM quay.io/argoproj/argocd:v2.4.15
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
