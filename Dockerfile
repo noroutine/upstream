@@ -799,7 +799,7 @@ FROM quay.io/tigera/operator:v1.28.1
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.24.1
+FROM calico/typha:v3.24.2
 # calico/typha
 
 # calico/ctl
