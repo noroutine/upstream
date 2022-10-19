@@ -803,7 +803,7 @@ FROM calico/typha:v3.24.1
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.24.1
+FROM calico/ctl:v3.24.2
 # calico/ctl
 
 # calico/node
