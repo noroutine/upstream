@@ -187,7 +187,7 @@ FROM mongo:6.0.2-focal
 # mongo
 
 # wordpress
-FROM wordpress:6.0.2-apache
+FROM wordpress:6.0.3-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.19.0
+FROM ghost:5.19.3
 # ghost
 
 # bitnami/ghost
@@ -367,11 +367,11 @@ FROM nocodb/nocodb:0.98.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.44.4
+FROM metabase/metabase:v0.44.5
 # metabase/metabase
 
 # docker
-FROM docker:20.10.19-dind
+FROM docker:20.10.20-dind
 # docker
 
 # jupyter/base-notebook
@@ -795,47 +795,47 @@ FROM k8s.gcr.io/kube-controller-manager:v1.25.3
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.28.1
+FROM quay.io/tigera/operator:v1.28.2
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.24.1
+FROM calico/typha:v3.24.2
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.24.1
+FROM calico/ctl:v3.24.2
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.24.1
+FROM calico/node:v3.24.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.24.1
+FROM calico/cni:v3.24.2
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.24.1
+FROM calico/apiserver:v3.24.2
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.24.1
+FROM calico/kube-controllers:v3.24.2
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.24.1
+FROM calico/dikastes:v3.24.2
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.24.1
+FROM calico/pod2daemon-flexvol:v3.24.2
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.24.1
+FROM calico/node-driver-registrar:v3.24.2
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.24.1
+FROM calico/csi:v3.24.2
 # calico/csi
 
 # longhornio/longhorn-manager
