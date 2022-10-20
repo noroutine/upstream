@@ -83,7 +83,7 @@ FROM atlassian/jira-software:9.3.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:24.0.6-apache
+FROM nextcloud:25.0.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.4.2-ce.0
+FROM gitlab/gitlab-ce:15.4.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.19.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.41.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.42.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -359,7 +359,7 @@ FROM bitnami/ghost:5.7.1-debian-11-r4
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.12.0-apache
+FROM matomo:4.3.1
 # matomo
 
 # nocodb/nocodb
@@ -883,7 +883,7 @@ FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.24.2
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.25.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
