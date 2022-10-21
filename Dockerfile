@@ -191,7 +191,7 @@ FROM wordpress:6.0.3-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.14
+FROM dpage/pgadmin4:6.15
 # dpage/pgadmin4
 
 # mysql
@@ -251,7 +251,7 @@ FROM buildpacksio/lifecycle:0.14.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.4.0
+FROM gitlab/gitlab-runner:alpine-v15.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -263,7 +263,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.19.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.42.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.42.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -359,7 +359,7 @@ FROM bitnami/ghost:5.7.1-debian-11-r4
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.3.1
+FROM matomo:4.12.1-apache
 # matomo
 
 # nocodb/nocodb
@@ -491,11 +491,11 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.10.15-debian-11-r0
+FROM bitnami/minio:2022.10.20-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.10.12-debian-11-r0
+FROM bitnami/minio-client:2022.10.20-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -511,7 +511,7 @@ FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.1.7-debian-11-r0
+FROM bitnami/grafana:9.2.1-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -739,7 +739,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.13.2
+FROM hashicorp/consul:1.13.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
