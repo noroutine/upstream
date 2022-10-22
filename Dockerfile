@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.42.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.5.6
+FROM squidfunk/mkdocs-material:8.5.7
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.4.3-ce.0
+FROM gitlab/gitlab-ce:15.5.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -491,7 +491,7 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.10.20-debian-11-r0
+FROM bitnami/minio:2022.10.21-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
