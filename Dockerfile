@@ -1,13 +1,13 @@
 # debian
-FROM debian:bullseye-20221004-slim
+FROM debian:bullseye-20221024-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20221003
+FROM ubuntu:jammy-20221020
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20220922
+FROM ubuntu:focal-20221019
 # ubuntu
 
 # alpine
@@ -79,7 +79,7 @@ FROM postgres:15.0-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.3.0
+FROM atlassian/jira-software:9.3.1
 # atlassian/jira-software
 
 # nextcloud
@@ -255,11 +255,11 @@ FROM gitlab/gitlab-runner:alpine-v15.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.5.0-ce.0
+FROM gitlab/gitlab-ce:15.5.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.19.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.21.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.19.3
+FROM ghost:5.20.0
 # ghost
 
 # bitnami/ghost
@@ -359,7 +359,7 @@ FROM bitnami/ghost:5.7.1-debian-11-r4
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.12.1-apache
+FROM matomo:4.12.2-apache
 # matomo
 
 # nocodb/nocodb
@@ -491,11 +491,11 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.10.21-debian-11-r0
+FROM bitnami/minio:2022.10.24-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.10.20-debian-11-r0
+FROM bitnami/minio-client:2022.10.22-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -615,7 +615,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.4.15
+FROM quay.io/argoproj/argocd:v2.5.0
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -755,7 +755,7 @@ FROM hashicorp/vault:1.12.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.0.0
+FROM hashicorp/vault-k8s:1.0.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
@@ -887,11 +887,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.25.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.6.2
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.7.0
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.6.2
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.7.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
