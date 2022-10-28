@@ -466,6 +466,10 @@ FROM bitnami/postgresql:13.8.0-debian-11-r35
 FROM bitnami/postgresql:14.5.0-debian-11-r35
 # bitnami/postgresql
 
+# bitnami/postgresql
+FROM bitnami/postgresql:15.0.0-debian-11-r1
+# bitnami/postgresql
+
 # bitnami/keycloak
 FROM bitnami/keycloak:19.0.3-debian-11-r0
 # bitnami/keycloak
