@@ -43,7 +43,7 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # php
-FROM php:8.1.11-apache-bullseye
+FROM php:8.1.12-apache-bullseye
 # php
 
 # golang
