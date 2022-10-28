@@ -363,7 +363,7 @@ FROM matomo:4.12.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.98.2
+FROM nocodb/nocodb:0.98.3
 # nocodb/nocodb
 
 # metabase/metabase
@@ -903,7 +903,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.7.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM k8s.gcr.io/sig-storage/livenessprobe:v2.7.0
+FROM k8s.gcr.io/sig-storage/livenessprobe:v2.8.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
