@@ -903,7 +903,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.7.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM k8s.gcr.io/sig-storage/livenessprobe:v2.7.0
+FROM k8s.gcr.io/sig-storage/livenessprobe:v2.8.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
