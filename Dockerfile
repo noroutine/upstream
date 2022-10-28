@@ -55,7 +55,7 @@ FROM golang:1.19.2-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.9.1
+FROM traefik:v2.9.4
 # traefik
 
 # sonatype/nexus3
@@ -359,11 +359,11 @@ FROM bitnami/ghost:5.7.1-debian-11-r4
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.12.2-apache
+FROM matomo:4.12.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.98.1
+FROM nocodb/nocodb:0.98.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -447,23 +447,23 @@ FROM bitnami/redis:7.0.5-debian-11-r2
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.44.0-debian-11-r0
+FROM bitnami/redis-exporter:1.45.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.17.0-debian-11-r0
+FROM bitnami/postgresql:11.17.0-debian-11-r35
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.12.0-debian-11-r0
+FROM bitnami/postgresql:12.12.0-debian-11-r36
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.8.0-debian-11-r0
+FROM bitnami/postgresql:13.8.0-debian-11-r35
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.5.0-debian-11-r0
+FROM bitnami/postgresql:14.5.0-debian-11-r35
 # bitnami/postgresql
 
 # bitnami/keycloak
@@ -574,8 +574,16 @@ FROM bitnami/openldap:2.6.3-debian-11-r14
 FROM bitnami/sealed-secrets-controller:v0.19.1
 # bitnami/sealed-secrets-controller
 
+# bitnami/trivy
+FROM bitnami/trivy:0.33.0-debian-11-r0
+# bitnami/trivy
+
+# aquasec/trivy
+FROM aquasec/trivy:0.33.0
+# aquasec/trivy
+
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.6.0
+FROM ghcr.io/external-secrets/external-secrets:v0.6.1
 # external-secrets/external-secrets
 
 # minio/console
@@ -591,7 +599,7 @@ FROM drakkan/sftpgo:v2.4.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.13.0
+FROM hasura/graphql-engine:v2.13.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -691,7 +699,7 @@ FROM azul/zulu-openjdk:18.0.1-18.30.11
 # azul/zulu-openjdk
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.4.0
+FROM elastic/eck-operator:2.5.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -899,7 +907,7 @@ FROM k8s.gcr.io/sig-storage/livenessprobe:v2.7.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.1
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
