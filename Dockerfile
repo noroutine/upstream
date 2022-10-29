@@ -207,7 +207,7 @@ FROM mccutchen/go-httpbin:v2.4.2
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.3.0-amd64
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.4.0-amd64
 # oauth2-proxy/oauth2-proxy
 
 # heroku/heroku
@@ -427,7 +427,7 @@ FROM bitnami/prometheus:2.39.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.59.2-debian-11-r6
+FROM bitnami/prometheus-operator:0.60.1-debian-11-r6
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -495,11 +495,11 @@ FROM bitnami/nginx:1.23.1-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.10.24-debian-11-r0
+FROM bitnami/minio:2022.10.29-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.10.22-debian-11-r0
+FROM bitnami/minio-client:2022.10.29-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
