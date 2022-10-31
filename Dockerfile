@@ -407,7 +407,7 @@ FROM jupyter/all-spark-notebook:hub-3.0.0
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.2.1
+FROM rocker/shiny:4.2.2
 # rocker/shiny
 
 # caprover/caprover
@@ -579,11 +579,11 @@ FROM bitnami/sealed-secrets-controller:v0.19.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.33.0-debian-11-r0
+FROM bitnami/trivy:0.34.0-debian-11-r0
 # bitnami/trivy
 
 # aquasec/trivy
-FROM aquasec/trivy:0.33.0
+FROM aquasec/trivy:0.34.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -603,7 +603,7 @@ FROM drakkan/sftpgo:v2.4.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.13.1
+FROM hasura/graphql-engine:v2.14.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
