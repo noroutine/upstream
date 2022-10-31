@@ -579,7 +579,7 @@ FROM bitnami/sealed-secrets-controller:v0.19.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.33.0-debian-11-r0
+FROM bitnami/trivy:0.34.0-debian-11-r0
 # bitnami/trivy
 
 # aquasec/trivy
