@@ -710,6 +710,14 @@ FROM elastic/eck-operator:2.5.0
 FROM louislam/uptime-kuma:1.18.5-alpine
 # louislam/uptime-kuma
 
+# hadolint/hadolint
+FROM hadolint/hadolint:v2.10.0-beta
+# hadolint/hadolint
+
+# outlinewiki/outline
+FROM outlinewiki/outline:0.66.2
+# outlinewiki/outline
+
 # apache/airflow
 FROM apache/airflow:2.4.2-python3.10
 # apache/airflow
