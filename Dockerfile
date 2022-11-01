@@ -71,7 +71,7 @@ FROM freeradius/freeradius-server:3.2.1-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:19.0.3
+FROM quay.io/keycloak/keycloak:20.0.0
 # keycloak/keycloak
 
 # postgres
@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.2.2
+FROM grafana/grafana:9.2.3
 # grafana/grafana
 
 # grafana/loki
@@ -167,15 +167,15 @@ FROM quay.io/cortexproject/cortex:v1.13.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.4.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.5.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.4.3
+FROM docker.elastic.co/logstash/logstash:8.5.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.4.3
+FROM docker.elastic.co/kibana/kibana:8.5.0
 # kibana/kibana
 
 # alerta/alerta-web
@@ -247,7 +247,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.14.3
+FROM buildpacksio/lifecycle:0.15.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.20.0
+FROM ghost:5.22.1
 # ghost
 
 # bitnami/ghost
@@ -515,7 +515,7 @@ FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.2.2-debian-11-r0
+FROM bitnami/grafana:9.2.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -943,11 +943,11 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.4.1
+FROM confluentinc/confluent-init-container:2.4.2
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.517.23
+FROM confluentinc/confluent-operator:0.517.43
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
