@@ -47,11 +47,11 @@ FROM php:8.1.12-apache-bullseye
 # php
 
 # golang
-FROM golang:1.19.2-bullseye
+FROM golang:1.19.3-bullseye
 # golang
 
 # golang
-FROM golang:1.19.2-alpine3.15
+FROM golang:1.19.3-alpine3.15
 # golang
 
 # traefik
@@ -367,7 +367,7 @@ FROM nocodb/nocodb:0.98.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.44.5
+FROM metabase/metabase:v0.44.6
 # metabase/metabase
 
 # docker
@@ -627,7 +627,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.0
+FROM quay.io/argoproj/argocd:v2.5.1
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
