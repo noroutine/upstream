@@ -819,7 +819,7 @@ FROM quay.io/tigera/operator:v1.28.3
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.24.3
+FROM calico/typha:v3.24.4
 # calico/typha
 
 # calico/ctl
