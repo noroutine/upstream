@@ -471,7 +471,7 @@ FROM bitnami/postgresql:15.0.0-debian-11-r1
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:19.0.3-debian-11-r0
+FROM bitnami/keycloak:20.0.0-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/mariadb
@@ -943,11 +943,11 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.4.2
+FROM confluentinc/confluent-init-container:2.5.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.517.43
+FROM confluentinc/confluent-operator:2.5.0
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
