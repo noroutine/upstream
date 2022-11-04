@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.42.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.5.7
+FROM squidfunk/mkdocs-material:8.5.8
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -83,7 +83,7 @@ FROM atlassian/jira-software:9.3.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:25.0.0-apache
+FROM nextcloud:25.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -539,15 +539,15 @@ FROM bitnami/metrics-server:0.6.1-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.5.1-debian-11-r12
+FROM bitnami/kubeapps-dashboard:2.6.1-debian-11-r0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.6.0-scratch-r0
+FROM bitnami/kubeapps-apprepository-controller:2.6.1-scratch-r0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.6.0-scratch-r0
+FROM bitnami/kubeapps-asset-syncer:2.6.1-scratch-r0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-kubeops
@@ -559,11 +559,11 @@ FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r2
 # bitnami/kubeapps-assetsvc
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.6.0-debian-11-r0
+FROM bitnami/kubeapps-apis:2.6.1-debian-11-r0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.6.0-debian-11-r0
+FROM bitnami/kubeapps-pinniped-proxy:2.6.1-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
@@ -783,11 +783,11 @@ FROM hashicorp/vault-csi-provider:1.2.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.31.1
+FROM quay.io/strimzi/operator:0.32.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.31.1-kafka-3.2.3
+FROM quay.io/strimzi/kafka:0.32.0-kafka-3.2.3
 # strimzi/kafka
 
 # pause
@@ -815,47 +815,47 @@ FROM k8s.gcr.io/kube-controller-manager:v1.25.3
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.28.3
+FROM quay.io/tigera/operator:v1.28.4
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.24.3
+FROM calico/typha:v3.24.4
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.24.3
+FROM calico/ctl:v3.24.4
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.24.3
+FROM calico/node:v3.24.4
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.24.3
+FROM calico/cni:v3.24.4
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.24.3
+FROM calico/apiserver:v3.24.4
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.24.3
+FROM calico/kube-controllers:v3.24.4
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.24.3
+FROM calico/dikastes:v3.24.4
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.24.3
+FROM calico/pod2daemon-flexvol:v3.24.4
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.24.3
+FROM calico/node-driver-registrar:v3.24.4
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.24.3
+FROM calico/csi:v3.24.4
 # calico/csi
 
 # longhornio/longhorn-manager
