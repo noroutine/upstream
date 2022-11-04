@@ -279,11 +279,11 @@ FROM summerwind/actions-runner-controller:v0.26.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.298.2-ubuntu-20.04
+FROM summerwind/actions-runner:v2.299.1-ubuntu-20.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.298.2-ubuntu-20.04
+FROM summerwind/actions-runner-dind:v2.299.1-ubuntu-20.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -787,7 +787,7 @@ FROM quay.io/strimzi/operator:0.32.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.32.0-kafka-3.2.3
+FROM quay.io/strimzi/kafka:0.32.0-kafka-3.3.1
 # strimzi/kafka
 
 # pause
