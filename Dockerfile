@@ -979,7 +979,7 @@ FROM confluentinc/cp-server-connect:7.2.2
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.2.2
+FROM confluentinc/cp-zookeeper:7.3.0
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
