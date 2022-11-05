@@ -963,7 +963,7 @@ FROM confluentinc/cp-kafka-rest:7.2.2
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.2.2
+FROM confluentinc/cp-ksqldb-server:7.3.0
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-schema-registry
