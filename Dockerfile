@@ -715,7 +715,7 @@ FROM hadolint/hadolint:v2.10.0-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.66.2
+FROM outlinewiki/outline:0.66.3
 # outlinewiki/outline
 
 # apache/airflow
