@@ -59,11 +59,11 @@ FROM traefik:v2.9.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.42.0
+FROM sonatype/nexus3:3.43.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.5.8
+FROM squidfunk/mkdocs-material:8.5.9
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -71,7 +71,7 @@ FROM freeradius/freeradius-server:3.2.1-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:20.0.0
+FROM quay.io/keycloak/keycloak:20.0.1
 # keycloak/keycloak
 
 # postgres
@@ -99,7 +99,7 @@ FROM quay.io/coreos/etcd:v3.5.5
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.39.1
+FROM prom/prometheus:v2.40.0
 # prom/prometheus
 
 # prom/alertmanager
@@ -127,7 +127,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.2.3
+FROM grafana/grafana:9.2.4
 # grafana/grafana
 
 # grafana/loki
@@ -255,7 +255,7 @@ FROM gitlab/gitlab-runner:alpine-v15.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.5.2-ce.0
+FROM gitlab/gitlab-ce:15.5.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -351,7 +351,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.22.4
+FROM ghost:5.22.8
 # ghost
 
 # bitnami/ghost
@@ -363,7 +363,7 @@ FROM matomo:4.12.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.98.3
+FROM nocodb/nocodb:0.98.4
 # nocodb/nocodb
 
 # metabase/metabase
@@ -471,7 +471,7 @@ FROM bitnami/postgresql:15.0.0-debian-11-r1
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:20.0.0-debian-11-r0
+FROM bitnami/keycloak:20.0.1-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/mariadb
@@ -523,7 +523,7 @@ FROM bitnami/grafana-image-renderer:3.6.1-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.13.2-debian-11-r6
+FROM bitnami/consul:1.13.3-debian-11-r6
 # bitnami/consul
 
 # bitnami/nats
@@ -591,7 +591,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.6.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.21.1
+FROM minio/console:v0.21.2
 # minio/console
 
 # kutt/kutt
@@ -603,7 +603,7 @@ FROM drakkan/sftpgo:v2.4.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.14.0
+FROM hasura/graphql-engine:v2.15.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -627,7 +627,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.1
+FROM quay.io/argoproj/argocd:v2.5.2
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -715,8 +715,12 @@ FROM hadolint/hadolint:v2.10.0-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.66.2
+FROM outlinewiki/outline:0.66.3
 # outlinewiki/outline
+
+# syncthing/syncthing
+FROM syncthing/syncthing:1.22.1
+# syncthing/syncthing
 
 # apache/airflow
 FROM apache/airflow:2.4.2-python3.10
@@ -819,43 +823,43 @@ FROM quay.io/tigera/operator:v1.28.4
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.24.4
+FROM calico/typha:v3.24.5
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.24.4
+FROM calico/ctl:v3.24.5
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.24.4
+FROM calico/node:v3.24.5
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.24.4
+FROM calico/cni:v3.24.5
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.24.4
+FROM calico/apiserver:v3.24.5
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.24.4
+FROM calico/kube-controllers:v3.24.5
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.24.4
+FROM calico/dikastes:v3.24.5
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.24.4
+FROM calico/pod2daemon-flexvol:v3.24.5
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.24.4
+FROM calico/node-driver-registrar:v3.24.5
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.24.4
+FROM calico/csi:v3.24.5
 # calico/csi
 
 # longhornio/longhorn-manager
