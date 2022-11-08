@@ -523,7 +523,7 @@ FROM bitnami/grafana-image-renderer:3.6.1-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.13.2-debian-11-r6
+FROM bitnami/consul:1.13.3-debian-11-r6
 # bitnami/consul
 
 # bitnami/nats
