@@ -807,7 +807,7 @@ FROM k8s.gcr.io/kube-apiserver:v1.25.3
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.25.3
+FROM k8s.gcr.io/kube-proxy:v1.25.4
 # kube-proxy
 
 # kube-scheduler
