@@ -811,7 +811,7 @@ FROM k8s.gcr.io/kube-proxy:v1.25.3
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.25.3
+FROM k8s.gcr.io/kube-scheduler:v1.25.4
 # kube-scheduler
 
 # kube-controller-manager
