@@ -991,6 +991,6 @@ FROM obsidiandynamics/kafdrop:3.30.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.22.0
+FROM tchiotludo/akhq:0.23.0
 # tchiotludo/akhq
 
