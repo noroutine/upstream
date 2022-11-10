@@ -99,7 +99,7 @@ FROM quay.io/coreos/etcd:v3.5.5
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.40.0
+FROM prom/prometheus:v2.40.1
 # prom/prometheus
 
 # prom/alertmanager
@@ -155,7 +155,7 @@ FROM ribbybibby/ssl-exporter:2.4.2
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.45.0
+FROM gcr.io/cadvisor/cadvisor:v0.46.0
 # cadvisor/cadvisor
 
 # prymitive/karma
@@ -247,7 +247,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.15.0
+FROM buildpacksio/lifecycle:0.15.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -259,7 +259,7 @@ FROM gitlab/gitlab-ce:15.5.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.21.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.22.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -343,7 +343,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.15.3
+FROM verdaccio/verdaccio:5.16.3
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -351,11 +351,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.22.8
+FROM ghost:5.22.9
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.7.1-debian-11-r4
+FROM bitnami/ghost:5.22.9-debian-11-r1
 # bitnami/ghost
 
 # matomo
@@ -423,7 +423,7 @@ FROM bitnami/spark:3.3.0-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.39.1-debian-11-r0
+FROM bitnami/prometheus:2.40.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -475,7 +475,7 @@ FROM bitnami/keycloak:20.0.1-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.9.3-debian-11-r0
+FROM bitnami/mariadb:10.9.4-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -495,11 +495,11 @@ FROM bitnami/nginx:1.23.2-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.10.29-debian-11-r0
+FROM bitnami/minio:2022.11.8-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.10.29-debian-11-r0
+FROM bitnami/minio-client:2022.11.7-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -515,7 +515,7 @@ FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.2.3-debian-11-r0
+FROM bitnami/grafana:9.2.4-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -803,23 +803,23 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.25.3
+FROM k8s.gcr.io/kube-apiserver:v1.25.4
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.25.3
+FROM k8s.gcr.io/kube-proxy:v1.25.4
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.25.3
+FROM k8s.gcr.io/kube-scheduler:v1.25.4
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.25.3
+FROM k8s.gcr.io/kube-controller-manager:v1.25.4
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.28.4
+FROM quay.io/tigera/operator:v1.28.5
 # tigera/operator
 
 # calico/typha
@@ -991,6 +991,6 @@ FROM obsidiandynamics/kafdrop:3.30.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.22.0
+FROM tchiotludo/akhq:0.23.0
 # tchiotludo/akhq
 
