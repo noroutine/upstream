@@ -131,11 +131,11 @@ FROM grafana/grafana:9.2.4
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.6.1
+FROM grafana/loki:2.7.0
 # grafana/loki
 
 # grafana/promtail
-FROM grafana/promtail:2.6.1
+FROM grafana/promtail:2.7.0
 # grafana/promtail
 
 # m3db/m3coordinator
@@ -199,11 +199,11 @@ FROM mysql:8.0.31
 # mysql
 
 # mariadb
-FROM mariadb:10.9.3-jammy
+FROM mariadb:10.9.4-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.4.2
+FROM mccutchen/go-httpbin:v2.5.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -451,23 +451,27 @@ FROM bitnami/redis-exporter:1.45.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.17.0-debian-11-r35
+FROM bitnami/postgresql:10.23.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.12.0-debian-11-r36
+FROM bitnami/postgresql:11.18.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.8.0-debian-11-r35
+FROM bitnami/postgresql:12.13.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.5.0-debian-11-r35
+FROM bitnami/postgresql:13.9.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.0.0-debian-11-r1
+FROM bitnami/postgresql:14.6.0-debian-11-r0
+# bitnami/postgresql
+
+# bitnami/postgresql
+FROM bitnami/postgresql:15.1.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
@@ -495,7 +499,7 @@ FROM bitnami/nginx:1.23.2-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.11.8-debian-11-r0
+FROM bitnami/minio:2022.11.10-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
