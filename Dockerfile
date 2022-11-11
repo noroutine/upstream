@@ -131,7 +131,7 @@ FROM grafana/grafana:9.2.4
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.6.1
+FROM grafana/loki:2.7.0
 # grafana/loki
 
 # grafana/promtail
