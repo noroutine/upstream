@@ -42,6 +42,10 @@ FROM gcr.io/distroless/cc-debian11
 FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
+# buildpack-deps
+FROM buildpack-deps:bionic@sha256:1ae2e168c8cc4408fdf7cb40244643b99d10757f36391eee844834347de3c15c
+# buildpack-deps
+
 # php
 FROM php:8.1.12-apache-bullseye
 # php
