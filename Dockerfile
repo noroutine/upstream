@@ -738,6 +738,10 @@ FROM outlinewiki/outline:0.66.3
 FROM syncthing/syncthing:1.22.1
 # syncthing/syncthing
 
+# jellyfin/jellyfin
+FROM jellyfin/jellyfin:10.8.7
+# jellyfin/jellyfin
+
 # apache/airflow
 FROM apache/airflow:2.4.2-python3.10
 # apache/airflow
