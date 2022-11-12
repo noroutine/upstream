@@ -326,9 +326,9 @@ FROM jupyterhub/k8s-singleuser-sample:2.0.0
 FROM jupyterhub/configurable-http-proxy:4.5.3
 # jupyterhub/configurable-http-proxy
 
-# jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2022.02.0-131.g380f817
-# jupyterhub/repo2docker
+# noroutine/repo2docker
+FROM quay.io/noroutine/repo2docker:2022.10.0-67.g30059d6
+# noroutine/repo2docker
 
 # pihole/pihole
 FROM pihole/pihole:2022.10
