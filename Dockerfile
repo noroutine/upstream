@@ -11,7 +11,7 @@ FROM ubuntu:focal-20221019
 # ubuntu
 
 # alpine
-FROM alpine:3.16.2
+FROM alpine:3.16.3
 # alpine
 
 # busybox
@@ -63,7 +63,7 @@ FROM sonatype/nexus3:3.43.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.5.9
+FROM squidfunk/mkdocs-material:8.5.10
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -75,7 +75,7 @@ FROM quay.io/keycloak/keycloak:20.0.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:15.0-bullseye
+FROM postgres:15.1-bullseye
 # postgres
 
 # atlassian/jira-software
@@ -203,7 +203,7 @@ FROM mariadb:10.9.4-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.5.0
+FROM mccutchen/go-httpbin:v2.5.1
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
