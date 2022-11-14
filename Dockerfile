@@ -827,7 +827,7 @@ FROM quay.io/strimzi/kafka:0.32.0-kafka-3.3.1
 # strimzi/kafka
 
 # pause
-FROM k8s.gcr.io/pause:3.8
+FROM k8s.gcr.io/pause:3.9
 # pause
 
 # coredns/coredns
