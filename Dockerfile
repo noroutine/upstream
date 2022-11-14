@@ -750,6 +750,10 @@ FROM gravitl/netmaker:v0.16.3
 FROM gravitl/netmaker-ui:v0.16.3
 # gravitl/netmaker-ui
 
+# kmb32123/youtube-dl-server
+FROM kmb32123/youtube-dl-server:2.0
+# kmb32123/youtube-dl-server
+
 # apache/airflow
 FROM apache/airflow:2.4.3-python3.10
 # apache/airflow
