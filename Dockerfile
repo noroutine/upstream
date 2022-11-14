@@ -727,7 +727,7 @@ FROM louislam/uptime-kuma:1.18.5-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
-FROM hadolint/hadolint:v2.10.0-beta
+FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
