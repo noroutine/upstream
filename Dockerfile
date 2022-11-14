@@ -742,6 +742,14 @@ FROM syncthing/syncthing:1.22.1
 FROM jellyfin/jellyfin:10.8.7
 # jellyfin/jellyfin
 
+# gravitl/netmaker
+FROM gravitl/netmaker:v0.16.3
+# gravitl/netmaker
+
+# gravitl/netmaker-ui
+FROM gravitl/netmaker-ui:v0.16.3
+# gravitl/netmaker-ui
+
 # apache/airflow
 FROM apache/airflow:2.4.2-python3.10
 # apache/airflow
