@@ -215,7 +215,7 @@ FROM mariadb:10.9.4-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.5.1
+FROM mccutchen/go-httpbin:v2.5.2
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -263,11 +263,11 @@ FROM buildpacksio/lifecycle:0.15.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.5.0
+FROM gitlab/gitlab-runner:alpine-v15.5.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.5.3-ce.0
+FROM gitlab/gitlab-ce:15.5.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -727,7 +727,7 @@ FROM louislam/uptime-kuma:1.18.5-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
-FROM hadolint/hadolint:v2.10.0-beta
+FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
@@ -751,7 +751,7 @@ FROM gravitl/netmaker-ui:v0.16.3
 # gravitl/netmaker-ui
 
 # apache/airflow
-FROM apache/airflow:2.4.2-python3.10
+FROM apache/airflow:2.4.3-python3.10
 # apache/airflow
 
 # git-sync/git-sync
