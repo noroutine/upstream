@@ -743,7 +743,7 @@ FROM jellyfin/jellyfin:10.8.7
 # jellyfin/jellyfin
 
 # apache/airflow
-FROM apache/airflow:2.4.2-python3.10
+FROM apache/airflow:2.4.3-python3.10
 # apache/airflow
 
 # git-sync/git-sync
