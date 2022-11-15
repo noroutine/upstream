@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20221024-slim
+FROM debian:bullseye-20221114-slim
 # debian
 
 # ubuntu
@@ -91,7 +91,7 @@ FROM postgres:15.1-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.3.1
+FROM atlassian/jira-software:9.4.0
 # atlassian/jira-software
 
 # nextcloud
@@ -339,7 +339,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-67.g30059d6
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.10
+FROM pihole/pihole:2022.11
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -363,11 +363,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.22.9
+FROM ghost:5.22.10
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.22.9-debian-11-r1
+FROM bitnami/ghost:5.22.10-debian-11-r1
 # bitnami/ghost
 
 # matomo
