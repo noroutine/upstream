@@ -179,15 +179,15 @@ FROM quay.io/cortexproject/cortex:v1.13.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.5.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.5.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.5.0
+FROM docker.elastic.co/logstash/logstash:8.5.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.5.0
+FROM docker.elastic.co/kibana/kibana:8.5.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -607,7 +607,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.6.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.21.2
+FROM minio/console:v0.21.3
 # minio/console
 
 # kutt/kutt
@@ -667,7 +667,7 @@ FROM boky/postfix:v3.5.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.0.5
+FROM cupcakearmy/cryptgeon:2.0.6
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -795,11 +795,11 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.13.3
+FROM hashicorp/consul:1.14.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.49.0
+FROM hashicorp/consul-k8s-control-plane:0.49.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -907,7 +907,7 @@ FROM longhornio/longhorn-engine:v1.3.2
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1_20221003
+FROM longhornio/longhorn-instance-manager:v2_20221115
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
@@ -955,7 +955,7 @@ FROM k8s.gcr.io/sig-storage/livenessprobe:v2.8.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.0
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.1
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
