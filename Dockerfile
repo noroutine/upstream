@@ -795,7 +795,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.13.3
+FROM hashicorp/consul:1.14.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
