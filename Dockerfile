@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.2.4
+FROM grafana/grafana:9.2.5
 # grafana/grafana
 
 # grafana/loki
@@ -195,11 +195,11 @@ FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.2-focal
+FROM mongo:6.0.3-focal
 # mongo
 
 # wordpress
-FROM wordpress:6.1.0-apache
+FROM wordpress:6.1.1-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -215,7 +215,7 @@ FROM mariadb:10.9.4-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.5.2
+FROM mccutchen/go-httpbin:v2.5.3
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -363,11 +363,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.22.10
+FROM ghost:5.22.11
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.22.10-debian-11-r1
+FROM bitnami/ghost:5.22.11-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -907,7 +907,7 @@ FROM longhornio/longhorn-engine:v1.3.2
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v2_20221115
+FROM longhornio/longhorn-instance-manager:v3_20221117
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
