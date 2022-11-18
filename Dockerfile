@@ -67,7 +67,7 @@ FROM golang:1.19.3-alpine3.15
 # golang
 
 # traefik
-FROM traefik:v2.9.4
+FROM traefik:v2.9.5
 # traefik
 
 # sonatype/nexus3
@@ -111,7 +111,7 @@ FROM quay.io/coreos/etcd:v3.5.5
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.40.1
+FROM prom/prometheus:v2.40.2
 # prom/prometheus
 
 # prom/alertmanager
@@ -203,7 +203,7 @@ FROM wordpress:6.1.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.15
+FROM dpage/pgadmin4:6.16
 # dpage/pgadmin4
 
 # mysql
@@ -211,7 +211,7 @@ FROM mysql:8.0.31
 # mysql
 
 # mariadb
-FROM mariadb:10.9.4-jammy
+FROM mariadb:10.10.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -339,7 +339,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-67.g30059d6
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.11
+FROM pihole/pihole:2022.11.1
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -435,7 +435,7 @@ FROM bitnami/spark:3.3.1-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.40.1-debian-11-r0
+FROM bitnami/prometheus:2.40.2-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -495,7 +495,7 @@ FROM bitnami/mariadb:10.9.4-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:6.0.2-debian-11-r1
+FROM bitnami/mongodb:6.0.3-debian-11-r1
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -515,7 +515,7 @@ FROM bitnami/minio:2022.11.11-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.11.7-debian-11-r0
+FROM bitnami/minio-client:2022.11.17-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -799,7 +799,7 @@ FROM hashicorp/consul:1.14.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:0.49.1
+FROM hashicorp/consul-k8s-control-plane:1.0.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -811,7 +811,7 @@ FROM hashicorp/vault:1.12.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.0.1
+FROM hashicorp/vault-k8s:1.1.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
