@@ -758,6 +758,22 @@ FROM kmb32123/youtube-dl-server:2.0
 FROM puppet/puppetserver:7.9.2
 # puppet/puppetserver
 
+# puppet/puppetdb
+FROM puppet/puppetdb:7.10.0
+# puppet/puppetdb
+
+# voxpupuli/puppetboard
+FROM ghcr.io/voxpupuli/puppetboard:4.2.0
+# voxpupuli/puppetboard
+
+# puppet/r10k
+FROM puppet/r10k:3.15.2
+# puppet/r10k
+
+# restic/restic
+FROM restic/restic:0.14.0
+# restic/restic
+
 # apache/airflow
 FROM apache/airflow:2.4.3-python3.10
 # apache/airflow
