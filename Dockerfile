@@ -754,6 +754,10 @@ FROM gravitl/netmaker-ui:v0.16.3
 FROM kmb32123/youtube-dl-server:2.0
 # kmb32123/youtube-dl-server
 
+# puppet/puppetserver
+FROM puppet/puppetserver:7.9.2
+# puppet/puppetserver
+
 # apache/airflow
 FROM apache/airflow:2.4.3-python3.10
 # apache/airflow
