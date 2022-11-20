@@ -355,7 +355,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.16.3
+FROM verdaccio/verdaccio:5.17.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -531,7 +531,7 @@ FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.2.4-debian-11-r1
+FROM bitnami/grafana:9.2.5-debian-11-r1
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
