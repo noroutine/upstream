@@ -131,7 +131,7 @@ FROM prom/blackbox-exporter:v0.22.0
 # prom/blackbox-exporter
 
 # prom/snmp-exporter
-FROM prom/snmp-exporter:v0.20.0
+FROM prom/snmp-exporter:v0.21.0
 # prom/snmp-exporter
 
 # prom/pushgateway
@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.4.3
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.2.5
+FROM grafana/grafana:9.2.6
 # grafana/grafana
 
 # grafana/loki
@@ -179,15 +179,15 @@ FROM quay.io/cortexproject/cortex:v1.13.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.5.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.5.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.5.1
+FROM docker.elastic.co/logstash/logstash:8.5.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.5.1
+FROM docker.elastic.co/kibana/kibana:8.5.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -715,7 +715,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:18.0.1-18.30.11
+FROM azul/zulu-openjdk:19.0.1-19.30.11
 # azul/zulu-openjdk
 
 # elastic/eck-operator
