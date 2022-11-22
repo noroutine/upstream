@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.6.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.5.4-ce.0
+FROM gitlab/gitlab-ce:15.6.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -375,7 +375,7 @@ FROM matomo:4.12.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.98.4
+FROM nocodb/nocodb:0.99.0
 # nocodb/nocodb
 
 # metabase/metabase
