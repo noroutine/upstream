@@ -807,7 +807,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.10.0
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.4.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.5.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
