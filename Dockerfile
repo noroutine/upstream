@@ -107,7 +107,7 @@ FROM minio/minio:RELEASE.2022-11-17T23-20-09Z
 # minio/minio
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.5
+FROM quay.io/coreos/etcd:v3.5.6
 # coreos/etcd
 
 # prom/prometheus
@@ -263,7 +263,7 @@ FROM buildpacksio/lifecycle:0.15.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.5.1
+FROM gitlab/gitlab-runner:alpine-v15.6.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -539,7 +539,7 @@ FROM bitnami/grafana-image-renderer:3.6.1-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.13.3-debian-11-r6
+FROM bitnami/consul:1.14.1-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -619,7 +619,7 @@ FROM drakkan/sftpgo:v2.4.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.15.1
+FROM hasura/graphql-engine:v2.15.2
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -791,23 +791,23 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.8.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.10.0
+FROM quay.io/jetstack/cert-manager-controller:v1.10.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.10.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.10.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.10.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.10.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.10.0
+FROM quay.io/jetstack/cert-manager-ctl:v1.10.1
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.4.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.5.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -815,11 +815,11 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.14.0
+FROM hashicorp/consul:1.14.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.0.0
+FROM hashicorp/consul-k8s-control-plane:1.0.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -835,7 +835,7 @@ FROM hashicorp/vault-k8s:1.1.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.2.0
+FROM hashicorp/vault-csi-provider:1.2.1
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
