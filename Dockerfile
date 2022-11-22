@@ -131,7 +131,7 @@ FROM prom/blackbox-exporter:v0.22.0
 # prom/blackbox-exporter
 
 # prom/snmp-exporter
-FROM prom/snmp-exporter:v0.20.0
+FROM prom/snmp-exporter:v0.21.0
 # prom/snmp-exporter
 
 # prom/pushgateway
