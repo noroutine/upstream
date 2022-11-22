@@ -819,7 +819,7 @@ FROM hashicorp/consul:1.14.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.0.0
+FROM hashicorp/consul-k8s-control-plane:1.0.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
