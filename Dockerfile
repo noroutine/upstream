@@ -779,7 +779,7 @@ FROM apache/airflow:2.4.3-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM k8s.gcr.io/git-sync/git-sync:v3.6.1
+FROM k8s.gcr.io/git-sync/git-sync:v3.6.2
 # git-sync/git-sync
 
 # kedacore/keda
