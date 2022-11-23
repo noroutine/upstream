@@ -355,7 +355,7 @@ FROM plausible/analytics:v1.4.4
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.17.0
+FROM verdaccio/verdaccio:5.18.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -671,7 +671,7 @@ FROM cupcakearmy/cryptgeon:2.0.6
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.15-alpine3.16
+FROM memcached:1.6.17-alpine3.16
 # memcached
 
 # connecteverything/nats-operator
