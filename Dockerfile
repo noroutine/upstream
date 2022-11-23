@@ -11,7 +11,7 @@ FROM ubuntu:focal-20221019
 # ubuntu
 
 # alpine
-FROM alpine:3.16.3
+FROM alpine:3.17.0
 # alpine
 
 # busybox
@@ -63,7 +63,7 @@ FROM golang:1.19.3-bullseye
 # golang
 
 # golang
-FROM golang:1.19.3-alpine3.15
+FROM golang:1.19.3-alpine3.16
 # golang
 
 # traefik
@@ -543,7 +543,7 @@ FROM bitnami/consul:1.14.1-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.8.4-debian-11-r33
+FROM bitnami/nats:2.9.8-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -671,7 +671,7 @@ FROM cupcakearmy/cryptgeon:2.0.6
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.15-alpine3.15
+FROM memcached:1.6.15-alpine3.16
 # memcached
 
 # connecteverything/nats-operator
@@ -679,7 +679,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.8.4-alpine3.15
+FROM nats:2.9.8-alpine3.16
 # nats
 
 # masipcat/wireguard-go
@@ -779,7 +779,7 @@ FROM apache/airflow:2.4.3-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM k8s.gcr.io/git-sync/git-sync:v3.6.1
+FROM k8s.gcr.io/git-sync/git-sync:v3.6.2
 # git-sync/git-sync
 
 # kedacore/keda
@@ -871,7 +871,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.25.4
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.28.5
+FROM quay.io/tigera/operator:v1.28.6
 # tigera/operator
 
 # calico/typha
