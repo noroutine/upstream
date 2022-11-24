@@ -263,7 +263,7 @@ FROM buildpacksio/lifecycle:0.15.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.6.0
+FROM gitlab/gitlab-runner:alpine-v15.6.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -439,7 +439,7 @@ FROM bitnami/prometheus:2.40.3-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.61.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.61.1-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
