@@ -263,7 +263,7 @@ FROM buildpacksio/lifecycle:0.15.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.6.0
+FROM gitlab/gitlab-runner:alpine-v15.6.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
