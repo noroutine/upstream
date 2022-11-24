@@ -111,7 +111,7 @@ FROM quay.io/coreos/etcd:v3.5.6
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.40.2
+FROM prom/prometheus:v2.40.3
 # prom/prometheus
 
 # prom/alertmanager
@@ -135,7 +135,7 @@ FROM prom/snmp-exporter:v0.21.0
 # prom/snmp-exporter
 
 # prom/pushgateway
-FROM prom/pushgateway:v1.4.3
+FROM prom/pushgateway:v1.5.0
 # prom/pushgateway
 
 # grafana/grafana
@@ -435,7 +435,7 @@ FROM bitnami/spark:3.3.1-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.40.2-debian-11-r0
+FROM bitnami/prometheus:2.40.3-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -491,7 +491,7 @@ FROM bitnami/keycloak:20.0.1-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.9.4-debian-11-r0
+FROM bitnami/mariadb:10.10.2-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -503,7 +503,7 @@ FROM bitnami/memcached:1.6.17-debian-11-r6
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.4.0-debian-11-r7
+FROM bitnami/nginx-ingress-controller:1.5.1-debian-11-r7
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
