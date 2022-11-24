@@ -111,7 +111,7 @@ FROM quay.io/coreos/etcd:v3.5.6
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.40.2
+FROM prom/prometheus:v2.40.3
 # prom/prometheus
 
 # prom/alertmanager
