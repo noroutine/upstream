@@ -814,6 +814,10 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.5.0
 FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
+# vstadtmueller/cert-manager-webhook-powerdns
+FROM vstadtmueller/cert-manager-webhook-powerdns:main@sha256:ab6cff80612b100ced1f9d4825b0b4ff07de386cc50e95a4350b8503751fdc06
+# vstadtmueller/cert-manager-webhook-powerdns
+
 # hashicorp/consul
 FROM hashicorp/consul:1.14.1
 # hashicorp/consul
@@ -993,10 +997,6 @@ FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.3.0
 # sig-storage/csi-snapshotter
 FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.1.0
 # sig-storage/csi-snapshotter
-
-# vstadtmueller/cert-manager-webhook-powerdns
-FROM vstadtmueller/cert-manager-webhook-powerdns:main
-# vstadtmueller/cert-manager-webhook-powerdns
 
 # confluentinc/confluent-init-container
 FROM confluentinc/confluent-init-container:2.5.0
