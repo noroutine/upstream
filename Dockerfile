@@ -367,7 +367,7 @@ FROM ghost:5.23.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.23.0-debian-11-r0
+FROM bitnami/ghost:5.24.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -615,7 +615,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.4.1
+FROM drakkan/sftpgo:v2.4.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
