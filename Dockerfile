@@ -815,7 +815,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
 # zachomedia/cert-manager-webhook-pdns
 
 # vstadtmueller/cert-manager-webhook-powerdns
-FROM vstadtmueller/cert-manager-webhook-powerdns:main@sha256:ab6cff80612b100ced1f9d4825b0b4ff07de386cc50e95a4350b8503751fdc06
+FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
