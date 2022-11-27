@@ -511,7 +511,7 @@ FROM bitnami/nginx:1.23.2-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.11.17-debian-11-r0
+FROM bitnami/minio:2022.11.26-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -531,11 +531,11 @@ FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.2.5-debian-11-r1
+FROM bitnami/grafana:9.2.6-debian-11-r1
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.6.1-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.6.2-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
