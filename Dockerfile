@@ -655,7 +655,7 @@ FROM redis:7.0.5-bullseye
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.2.0
+FROM listmonk/listmonk:v2.3.0
 # listmonk/listmonk
 
 # vaultwarden/server
