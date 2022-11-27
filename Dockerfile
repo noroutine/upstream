@@ -595,11 +595,11 @@ FROM bitnami/sealed-secrets-controller:v0.19.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.34.0-debian-11-r0
+FROM bitnami/trivy:0.35.0-debian-11-r0
 # bitnami/trivy
 
 # aquasec/trivy
-FROM aquasec/trivy:0.34.0
+FROM aquasec/trivy:0.35.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -655,7 +655,7 @@ FROM redis:7.0.5-bullseye
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.2.0
+FROM listmonk/listmonk:v2.3.0
 # listmonk/listmonk
 
 # vaultwarden/server
