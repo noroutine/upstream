@@ -123,7 +123,7 @@ FROM prom/node-exporter:v1.4.0
 # prom/node-exporter
 
 # prom/consul-exporter
-FROM prom/consul-exporter:v0.8.0
+FROM prom/consul-exporter:v0.9.0
 # prom/consul-exporter
 
 # prom/blackbox-exporter
@@ -135,7 +135,7 @@ FROM prom/snmp-exporter:v0.21.0
 # prom/snmp-exporter
 
 # prom/pushgateway
-FROM prom/pushgateway:v1.5.0
+FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
@@ -547,7 +547,7 @@ FROM bitnami/nats:2.9.8-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.6.0-debian-11-r0
+FROM bitnami/kube-state-metrics:2.7.0-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -739,15 +739,15 @@ FROM syncthing/syncthing:1.22.2
 # syncthing/syncthing
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.7
+FROM jellyfin/jellyfin:10.8.8
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.16.3
+FROM gravitl/netmaker:v0.17.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.16.3
+FROM gravitl/netmaker-ui:v0.17.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -827,7 +827,7 @@ FROM hashicorp/consul-k8s-control-plane:1.0.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
-FROM envoyproxy/envoy-alpine:v1.21.5
+FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
