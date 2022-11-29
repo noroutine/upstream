@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:e93e88c6e97ffb6a315182db7d606dcb161714db7b2961a
 # buildpack-deps
 
 # php
-FROM php:8.1.12-apache-bullseye
+FROM php:8.1.13-apache-bullseye
 # php
 
 # golang
@@ -259,7 +259,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.15.1
+FROM buildpacksio/lifecycle:0.15.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -367,7 +367,7 @@ FROM ghost:5.24.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.24.1-debian-11-r0
+FROM bitnami/ghost:5.24.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -643,7 +643,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.2
+FROM quay.io/argoproj/argocd:v2.5.3
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -735,7 +735,7 @@ FROM outlinewiki/outline:0.66.3
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.22.1
+FROM syncthing/syncthing:1.22.2
 # syncthing/syncthing
 
 # jellyfin/jellyfin
