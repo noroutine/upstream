@@ -743,7 +743,7 @@ FROM jellyfin/jellyfin:10.8.7
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.16.3
+FROM gravitl/netmaker:v0.17.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
