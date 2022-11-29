@@ -111,7 +111,7 @@ FROM quay.io/coreos/etcd:v3.5.6
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.40.3
+FROM prom/prometheus:v2.40.4
 # prom/prometheus
 
 # prom/alertmanager
@@ -435,7 +435,7 @@ FROM bitnami/spark:3.3.1-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.40.3-debian-11-r0
+FROM bitnami/prometheus:2.40.4-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
