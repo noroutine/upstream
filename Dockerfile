@@ -123,7 +123,7 @@ FROM prom/node-exporter:v1.4.0
 # prom/node-exporter
 
 # prom/consul-exporter
-FROM prom/consul-exporter:v0.8.0
+FROM prom/consul-exporter:v0.9.0
 # prom/consul-exporter
 
 # prom/blackbox-exporter
