@@ -739,7 +739,7 @@ FROM syncthing/syncthing:1.22.2
 # syncthing/syncthing
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.7
+FROM jellyfin/jellyfin:10.8.8
 # jellyfin/jellyfin
 
 # gravitl/netmaker
