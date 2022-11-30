@@ -119,7 +119,7 @@ FROM prom/alertmanager:v0.24.0
 # prom/alertmanager
 
 # prom/node-exporter
-FROM prom/node-exporter:v1.4.0
+FROM prom/node-exporter:v1.5.0
 # prom/node-exporter
 
 # prom/consul-exporter
@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.2.6
+FROM grafana/grafana:9.3.0
 # grafana/grafana
 
 # grafana/loki
