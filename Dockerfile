@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.3.0
+FROM grafana/grafana:9.3.1
 # grafana/grafana
 
 # grafana/loki
@@ -823,7 +823,7 @@ FROM hashicorp/consul:1.14.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.0.1
+FROM hashicorp/consul-k8s-control-plane:1.0.2
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
