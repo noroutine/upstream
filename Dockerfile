@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.6.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.6.0-ce.0
+FROM gitlab/gitlab-ce:15.6.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -363,7 +363,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.24.1
+FROM ghost:5.24.2
 # ghost
 
 # bitnami/ghost
@@ -531,7 +531,7 @@ FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.2.6-debian-11-r1
+FROM bitnami/grafana:9.3.0-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -819,7 +819,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.14.1
+FROM hashicorp/consul:1.14.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -831,7 +831,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.12.1
+FROM hashicorp/vault:1.12.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -875,7 +875,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.25.4
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.28.6
+FROM quay.io/tigera/operator:v1.28.7
 # tigera/operator
 
 # calico/typha
