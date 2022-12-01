@@ -823,7 +823,7 @@ FROM hashicorp/consul:1.14.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.0.1
+FROM hashicorp/consul-k8s-control-plane:1.0.2
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
