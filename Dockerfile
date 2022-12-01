@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.6.6
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-11-17T23-20-09Z
+FROM minio/minio:RELEASE.2022-11-29T23-40-49Z
 # minio/minio
 
 # coreos/etcd
@@ -511,7 +511,7 @@ FROM bitnami/nginx:1.23.2-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.11.26-debian-11-r0
+FROM bitnami/minio:2022.11.29-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -539,7 +539,7 @@ FROM bitnami/grafana-image-renderer:3.6.2-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.14.1-debian-11-r0
+FROM bitnami/consul:1.14.2-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -627,7 +627,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.124
+FROM stakater/reloader:v0.0.125
 # stakater/reloader
 
 # jimmidyson/configmap-reload
