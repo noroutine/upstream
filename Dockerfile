@@ -203,7 +203,7 @@ FROM wordpress:6.1.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.16
+FROM dpage/pgadmin4:6.17
 # dpage/pgadmin4
 
 # mysql
