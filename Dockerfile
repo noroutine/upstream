@@ -127,7 +127,7 @@ FROM prom/consul-exporter:v0.9.0
 # prom/consul-exporter
 
 # prom/blackbox-exporter
-FROM prom/blackbox-exporter:v0.22.0
+FROM prom/blackbox-exporter:v0.23.0
 # prom/blackbox-exporter
 
 # prom/snmp-exporter
