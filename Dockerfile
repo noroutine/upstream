@@ -979,7 +979,7 @@ FROM k8s.gcr.io/sig-storage/livenessprobe:v2.8.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.1
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.2
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
