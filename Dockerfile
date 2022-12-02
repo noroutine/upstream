@@ -775,7 +775,7 @@ FROM restic/restic:0.14.0
 # restic/restic
 
 # apache/airflow
-FROM apache/airflow:2.4.3-python3.10
+FROM apache/airflow:2.5.0-python3.10
 # apache/airflow
 
 # git-sync/git-sync
