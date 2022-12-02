@@ -203,7 +203,7 @@ FROM wordpress:6.1.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.16
+FROM dpage/pgadmin4:6.17
 # dpage/pgadmin4
 
 # mysql
@@ -375,7 +375,7 @@ FROM matomo:4.12.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.100.1
+FROM nocodb/nocodb:0.100.2
 # nocodb/nocodb
 
 # metabase/metabase
