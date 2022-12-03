@@ -127,7 +127,7 @@ FROM prom/consul-exporter:v0.9.0
 # prom/consul-exporter
 
 # prom/blackbox-exporter
-FROM prom/blackbox-exporter:v0.22.0
+FROM prom/blackbox-exporter:v0.23.0
 # prom/blackbox-exporter
 
 # prom/snmp-exporter
@@ -175,7 +175,7 @@ FROM ghcr.io/prymitive/karma:v0.110
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.13.1
+FROM quay.io/cortexproject/cortex:v1.14.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -351,7 +351,7 @@ FROM spoonest/clickhouse-tabix-web-client:stable
 # spoonest/clickhouse-tabix-web-client
 
 # plausible/analytics
-FROM plausible/analytics:v1.4.4
+FROM plausible/analytics:v1.5.0
 # plausible/analytics
 
 # verdaccio/verdaccio
@@ -363,11 +363,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.24.2
+FROM ghost:5.25.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.24.2-debian-11-r0
+FROM bitnami/ghost:5.25.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -511,11 +511,11 @@ FROM bitnami/nginx:1.23.2-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.11.29-debian-11-r0
+FROM bitnami/minio:2022.12.2-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.11.17-debian-11-r0
+FROM bitnami/minio-client:2022.12.2-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -607,7 +607,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.6.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.21.3
+FROM minio/console:v0.22.0
 # minio/console
 
 # kutt/kutt
@@ -775,7 +775,7 @@ FROM restic/restic:0.14.0
 # restic/restic
 
 # apache/airflow
-FROM apache/airflow:2.4.3-python3.10
+FROM apache/airflow:2.5.0-python3.10
 # apache/airflow
 
 # git-sync/git-sync
@@ -979,7 +979,7 @@ FROM k8s.gcr.io/sig-storage/livenessprobe:v2.8.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.1
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.2
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
