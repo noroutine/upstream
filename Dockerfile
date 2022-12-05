@@ -403,7 +403,7 @@ FROM jupyter/scipy-notebook:hub-3.0.0
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-3.0.0
+FROM jupyter/tensorflow-notebook:hub-3.1.0
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
