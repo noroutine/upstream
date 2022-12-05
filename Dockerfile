@@ -415,7 +415,7 @@ FROM jupyter/pyspark-notebook:hub-3.0.0
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-3.0.0
+FROM jupyter/all-spark-notebook:hub-3.1.0
 # jupyter/all-spark-notebook
 
 # rocker/shiny
