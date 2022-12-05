@@ -399,7 +399,7 @@ FROM jupyter/r-notebook:hub-3.0.0
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-3.0.0
+FROM jupyter/scipy-notebook:hub-3.1.0
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
