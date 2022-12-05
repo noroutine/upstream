@@ -407,7 +407,7 @@ FROM jupyter/tensorflow-notebook:hub-3.0.0
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-3.0.0
+FROM jupyter/datascience-notebook:hub-3.1.0
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
