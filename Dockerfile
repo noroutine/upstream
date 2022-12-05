@@ -387,7 +387,7 @@ FROM docker:20.10.21-dind
 # docker
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-3.0.0
+FROM jupyter/base-notebook:hub-3.1.0
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
