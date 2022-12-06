@@ -171,7 +171,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.46.0
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.110
+FROM ghcr.io/prymitive/karma:v0.111
 # prymitive/karma
 
 # cortexproject/cortex
@@ -773,6 +773,10 @@ FROM puppet/r10k:3.15.2
 # restic/restic
 FROM restic/restic:0.14.0
 # restic/restic
+
+# coredns/coredns
+FROM k8s.gcr.io/coredns/coredns:v1.10.0
+# coredns/coredns
 
 # apache/airflow
 FROM apache/airflow:2.5.0-python3.10
