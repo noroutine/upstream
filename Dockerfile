@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.6.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.6.1-ce.0
+FROM gitlab/gitlab-ce:15.6.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
