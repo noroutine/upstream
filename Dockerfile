@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20221114-slim
+FROM debian:bullseye-20221205-slim
 # debian
 
 # ubuntu
@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.6.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.6.1-ce.0
+FROM gitlab/gitlab-ce:15.6.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -331,7 +331,7 @@ FROM jupyterhub/k8s-singleuser-sample:2.0.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.3
+FROM jupyterhub/configurable-http-proxy:4.5.4
 # jupyterhub/configurable-http-proxy
 
 # noroutine/repo2docker
