@@ -855,7 +855,7 @@ FROM k8s.gcr.io/pause:3.9
 # pause
 
 # coredns/coredns
-FROM k8s.gcr.io/coredns/coredns:v1.8.6
+FROM k8s.gcr.io/coredns/coredns:v1.10.0
 # coredns/coredns
 
 # kube-apiserver
