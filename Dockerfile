@@ -59,15 +59,15 @@ FROM php:8.1.13-apache-bullseye
 # php
 
 # golang
-FROM golang:1.19.3-bullseye
+FROM golang:1.19.4-bullseye
 # golang
 
 # golang
-FROM golang:1.19.3-alpine3.16
+FROM golang:1.19.4-alpine3.16
 # golang
 
 # traefik
-FROM traefik:v2.9.5
+FROM traefik:v2.9.6
 # traefik
 
 # sonatype/nexus3
@@ -91,7 +91,7 @@ FROM postgres:15.1-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.4.0
+FROM atlassian/jira-software:9.5.0
 # atlassian/jira-software
 
 # nextcloud
@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-11-29T23-40-49Z
+FROM minio/minio:RELEASE.2022-12-07T00-56-37Z
 # minio/minio
 
 # coreos/etcd
@@ -291,11 +291,11 @@ FROM summerwind/actions-runner-controller:v0.26.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.299.1-ubuntu-20.04
+FROM summerwind/actions-runner:v2.299.1-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.299.1-ubuntu-20.04
+FROM summerwind/actions-runner-dind:v2.299.1-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -363,11 +363,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.25.0
+FROM ghost:5.25.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.25.0-debian-11-r0
+FROM bitnami/ghost:5.25.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -379,7 +379,7 @@ FROM nocodb/nocodb:0.100.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.45.0
+FROM metabase/metabase:v0.45.1
 # metabase/metabase
 
 # docker
@@ -511,7 +511,7 @@ FROM bitnami/nginx:1.23.2-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.12.2-debian-11-r0
+FROM bitnami/minio:2022.12.7-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -555,15 +555,15 @@ FROM bitnami/metrics-server:0.6.1-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.6.1-debian-11-r0
+FROM bitnami/kubeapps-dashboard:2.6.2-debian-11-r0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.6.1-scratch-r0
+FROM bitnami/kubeapps-apprepository-controller:2.6.2-scratch-r0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.6.1-scratch-r0
+FROM bitnami/kubeapps-asset-syncer:2.6.2-scratch-r0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-kubeops
@@ -575,11 +575,11 @@ FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r2
 # bitnami/kubeapps-assetsvc
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.6.1-debian-11-r0
+FROM bitnami/kubeapps-apis:2.6.2-debian-11-r0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.6.1-debian-11-r0
+FROM bitnami/kubeapps-pinniped-proxy:2.6.2-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
@@ -607,7 +607,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.6.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.22.0
+FROM minio/console:v0.22.1
 # minio/console
 
 # kutt/kutt
@@ -627,7 +627,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.125
+FROM stakater/reloader:v0.0.126
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -643,7 +643,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.3
+FROM quay.io/argoproj/argocd:v2.5.4
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
