@@ -863,19 +863,19 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.25.4
+FROM k8s.gcr.io/kube-apiserver:v1.25.5
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.25.4
+FROM k8s.gcr.io/kube-proxy:v1.25.5
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.25.4
+FROM k8s.gcr.io/kube-scheduler:v1.25.5
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.25.4
+FROM k8s.gcr.io/kube-controller-manager:v1.25.5
 # kube-controller-manager
 
 # tigera/operator
