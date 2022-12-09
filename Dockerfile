@@ -3,11 +3,11 @@ FROM debian:bullseye-20221205-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20221101
+FROM ubuntu:jammy-20221130
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20221019
+FROM ubuntu:focal-20221130
 # ubuntu
 
 # alpine
@@ -43,15 +43,15 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # buildpack-deps
-FROM buildpack-deps:bionic@sha256:1ae2e168c8cc4408fdf7cb40244643b99d10757f36391eee844834347de3c15c
+FROM buildpack-deps:bionic@sha256:5c5e151b3052160b28cb8ca3e0b21c5185234ecf4854b88b18dd1c2c6a021377
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:eecbd661c4983df91059018d67c0d7203c68c1eeac036e6a479c3df94483ffba
+FROM buildpack-deps:focal@sha256:470576e4ea90e617f4dc6b0aa82e4dbf7d67eb813dfe35b3ce68814f7bcd82d9
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:e93e88c6e97ffb6a315182db7d606dcb161714db7b2961a4efe727d39c165e1a
+FROM buildpack-deps:jammy@sha256:74131b94f4e7497307c0fbdcf2323020ce7b9aa30669ae8a77c60188b3096e56
 # buildpack-deps
 
 # php
@@ -95,7 +95,7 @@ FROM atlassian/jira-software:9.5.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:25.0.1-apache
+FROM nextcloud:25.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -863,6 +863,22 @@ FROM k8s.gcr.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
+FROM k8s.gcr.io/kube-apiserver:v1.26.0
+# kube-apiserver
+
+# kube-proxy
+FROM k8s.gcr.io/kube-proxy:v1.26.0
+# kube-proxy
+
+# kube-scheduler
+FROM k8s.gcr.io/kube-scheduler:v1.26.0
+# kube-scheduler
+
+# kube-controller-manager
+FROM k8s.gcr.io/kube-controller-manager:v1.26.0
+# kube-controller-manager
+
+# kube-apiserver
 FROM k8s.gcr.io/kube-apiserver:v1.25.5
 # kube-apiserver
 
@@ -876,6 +892,22 @@ FROM k8s.gcr.io/kube-scheduler:v1.25.5
 
 # kube-controller-manager
 FROM k8s.gcr.io/kube-controller-manager:v1.25.5
+# kube-controller-manager
+
+# kube-apiserver
+FROM k8s.gcr.io/kube-apiserver:v1.24.8
+# kube-apiserver
+
+# kube-proxy
+FROM k8s.gcr.io/kube-proxy:v1.24.8
+# kube-proxy
+
+# kube-scheduler
+FROM k8s.gcr.io/kube-scheduler:v1.24.8
+# kube-scheduler
+
+# kube-controller-manager
+FROM k8s.gcr.io/kube-controller-manager:v1.24.8
 # kube-controller-manager
 
 # tigera/operator
