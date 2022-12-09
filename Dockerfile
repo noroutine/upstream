@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:e93e88c6e97ffb6a315182db7d606dcb161714db7b2961a
 # buildpack-deps
 
 # php
-FROM php:8.1.13-apache-bullseye
+FROM php:8.2.0-apache-bullseye
 # php
 
 # golang
@@ -371,7 +371,7 @@ FROM bitnami/ghost:5.25.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.12.3-apache
+FROM matomo:4.13.0-apache
 # matomo
 
 # nocodb/nocodb
