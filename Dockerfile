@@ -111,7 +111,7 @@ FROM quay.io/coreos/etcd:v3.5.6
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.40.5
+FROM prom/prometheus:v2.40.6
 # prom/prometheus
 
 # prom/alertmanager
@@ -787,11 +787,11 @@ FROM k8s.gcr.io/git-sync/git-sync:v3.6.2
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.8.1
+FROM ghcr.io/kedacore/keda:2.9.0
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.8.1
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
