@@ -879,7 +879,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.26.0
 # kube-controller-manager
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.25.5
+FROM k8s.gcr.io/kube-apiserver:v1.26.0
 # kube-apiserver
 
 # kube-proxy
@@ -895,7 +895,7 @@ FROM k8s.gcr.io/kube-controller-manager:v1.25.5
 # kube-controller-manager
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.24.8
+FROM k8s.gcr.io/kube-apiserver:v1.26.0
 # kube-apiserver
 
 # kube-proxy
