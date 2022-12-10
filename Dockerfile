@@ -763,7 +763,7 @@ FROM puppet/puppetdb:7.10.0
 # puppet/puppetdb
 
 # voxpupuli/puppetboard
-FROM ghcr.io/voxpupuli/puppetboard:4.2.2
+FROM ghcr.io/voxpupuli/puppetboard:4.2.3
 # voxpupuli/puppetboard
 
 # puppet/r10k
