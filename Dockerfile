@@ -143,11 +143,11 @@ FROM grafana/grafana:9.3.1
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.7.0
+FROM grafana/loki:2.7.1
 # grafana/loki
 
 # grafana/promtail
-FROM grafana/promtail:2.7.0
+FROM grafana/promtail:2.7.1
 # grafana/promtail
 
 # m3db/m3coordinator
@@ -367,7 +367,7 @@ FROM ghost:5.25.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.25.2-debian-11-r0
+FROM bitnami/ghost:5.25.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -435,7 +435,7 @@ FROM bitnami/spark:3.3.1-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.40.5-debian-11-r0
+FROM bitnami/prometheus:2.40.6-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -607,7 +607,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.6.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.22.1
+FROM minio/console:v0.22.2
 # minio/console
 
 # kutt/kutt
