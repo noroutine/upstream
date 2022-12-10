@@ -63,7 +63,7 @@ FROM golang:1.19.4-bullseye
 # golang
 
 # golang
-FROM golang:1.19.4-alpine3.16
+FROM golang:1.19.4-alpine3.17
 # golang
 
 # traefik
@@ -543,7 +543,7 @@ FROM bitnami/consul:1.14.2-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.8-debian-11-r0
+FROM bitnami/nats:2.9.9-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -671,7 +671,7 @@ FROM cupcakearmy/cryptgeon:2.0.6
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.17-alpine3.16
+FROM memcached:1.6.17-alpine3.17
 # memcached
 
 # connecteverything/nats-operator
@@ -679,7 +679,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.8-alpine3.16
+FROM nats:2.9.9-alpine3.17
 # nats
 
 # masipcat/wireguard-go
@@ -763,7 +763,7 @@ FROM puppet/puppetdb:7.10.0
 # puppet/puppetdb
 
 # voxpupuli/puppetboard
-FROM ghcr.io/voxpupuli/puppetboard:4.2.1
+FROM ghcr.io/voxpupuli/puppetboard:4.2.2
 # voxpupuli/puppetboard
 
 # puppet/r10k
