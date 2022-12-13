@@ -651,7 +651,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.5-bullseye
+FROM redis:7.0.6-bullseye
 # redis
 
 # listmonk/listmonk
