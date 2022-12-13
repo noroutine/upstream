@@ -367,7 +367,7 @@ FROM ghost:5.25.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.25.3-debian-11-r0
+FROM bitnami/ghost:5.25.4-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -487,7 +487,7 @@ FROM bitnami/postgresql:15.1.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:20.0.1-debian-11-r0
+FROM bitnami/keycloak:20.0.2-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/mariadb
