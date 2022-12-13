@@ -778,6 +778,10 @@ FROM restic/restic:0.14.0
 FROM k8s.gcr.io/coredns/coredns:v1.10.0
 # coredns/coredns
 
+# yugabytedb/yugabyte
+FROM yugabytedb/yugabyte:2.15.3.2-b1
+# yugabytedb/yugabyte
+
 # apache/airflow
 FROM apache/airflow:2.5.0-python3.10
 # apache/airflow
