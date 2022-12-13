@@ -363,7 +363,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.25.2
+FROM ghost:5.25.3
 # ghost
 
 # bitnami/ghost
@@ -447,7 +447,7 @@ FROM bitnami/node-exporter:1.4.0-debian-11-r6
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.22.0-debian-11-r7
+FROM bitnami/blackbox-exporter:0.23.0-debian-11-r3
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
@@ -455,7 +455,7 @@ FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.5-debian-11-r2
+FROM bitnami/redis:7.0.6-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -511,11 +511,11 @@ FROM bitnami/nginx:1.23.2-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.12.7-debian-11-r0
+FROM bitnami/minio:2022.12.12-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.12.2-debian-11-r0
+FROM bitnami/minio-client:2022.12.13-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -651,7 +651,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.5-bullseye
+FROM redis:7.0.6-bullseye
 # redis
 
 # listmonk/listmonk
