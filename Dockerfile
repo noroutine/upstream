@@ -275,7 +275,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.22.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.43.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.44.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -363,11 +363,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.25.3
+FROM ghost:5.25.5
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.25.4-debian-11-r0
+FROM bitnami/ghost:5.25.5-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -539,7 +539,7 @@ FROM bitnami/grafana-image-renderer:3.6.2-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.14.2-debian-11-r0
+FROM bitnami/consul:1.14.3-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -591,7 +591,7 @@ FROM bitnami/openldap:2.6.3-debian-11-r14
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.19.2
+FROM bitnami/sealed-secrets-controller:v0.19.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -827,7 +827,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.14.2
+FROM hashicorp/consul:1.14.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
