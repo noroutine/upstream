@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.3.1
+FROM grafana/grafana:9.3.2
 # grafana/grafana
 
 # grafana/loki
@@ -531,7 +531,7 @@ FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.3.1-debian-11-r0
+FROM bitnami/grafana:9.3.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
