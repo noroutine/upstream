@@ -367,7 +367,7 @@ FROM ghost:5.25.5
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.25.5-debian-11-r0
+FROM bitnami/ghost:5.26.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -455,7 +455,7 @@ FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.6-debian-11-r0
+FROM bitnami/redis:7.0.7-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -791,11 +791,11 @@ FROM k8s.gcr.io/git-sync/git-sync:v3.6.2
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.9.0
+FROM ghcr.io/kedacore/keda:2.9.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
