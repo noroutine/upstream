@@ -363,7 +363,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.25.5
+FROM ghost:5.26.1
 # ghost
 
 # bitnami/ghost
@@ -383,7 +383,7 @@ FROM metabase/metabase:v0.45.1
 # metabase/metabase
 
 # docker
-FROM docker:20.10.21-dind
+FROM docker:20.10.22-dind
 # docker
 
 # jupyter/base-notebook
@@ -651,7 +651,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.6-bullseye
+FROM redis:7.0.7-bullseye
 # redis
 
 # listmonk/listmonk
