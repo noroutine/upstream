@@ -1051,7 +1051,7 @@ FROM confluentinc/confluent-operator:2.5.0
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.3.0
+FROM confluentinc/cp-enterprise-control-center:7.3.1
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
