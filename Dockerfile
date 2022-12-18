@@ -490,6 +490,10 @@ FROM bitnami/postgresql:15.1.0-debian-11-r0
 FROM bitnami/keycloak:20.0.2-debian-11-r0
 # bitnami/keycloak
 
+# bitnami/keycloak-config-cli
+FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r11
+# bitnami/keycloak-config-cli
+
 # bitnami/mariadb
 FROM bitnami/mariadb:10.10.2-debian-11-r0
 # bitnami/mariadb
