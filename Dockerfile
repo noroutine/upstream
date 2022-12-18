@@ -1043,7 +1043,7 @@ FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.1.0
 # sig-storage/csi-snapshotter
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.5.0
+FROM confluentinc/confluent-init-container:2.5.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
