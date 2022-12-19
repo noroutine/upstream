@@ -99,7 +99,7 @@ FROM nextcloud:25.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.7.0
+FROM haproxytech/haproxy-debian:2.7.1
 # haproxytech/haproxy-debian
 
 # minio/minio
