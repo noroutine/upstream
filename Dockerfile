@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20221205-slim
+FROM debian:bullseye-20221219-slim
 # debian
 
 # ubuntu
@@ -111,7 +111,7 @@ FROM quay.io/coreos/etcd:v3.5.6
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.40.7
+FROM prom/prometheus:v2.41.0
 # prom/prometheus
 
 # prom/alertmanager
@@ -203,7 +203,7 @@ FROM wordpress:6.1.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.17
+FROM dpage/pgadmin4:6.18
 # dpage/pgadmin4
 
 # mysql
@@ -339,7 +339,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-67.g30059d6
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.11.2
+FROM pihole/pihole:2022.12
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -363,11 +363,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.26.1
+FROM ghost:5.26.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.26.1-debian-11-r0
+FROM bitnami/ghost:5.26.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -435,7 +435,7 @@ FROM bitnami/spark:3.3.1-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.40.7-debian-11-r0
+FROM bitnami/prometheus:2.41.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -547,7 +547,7 @@ FROM bitnami/consul:1.14.3-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.9-debian-11-r0
+FROM bitnami/nats:2.9.10-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -587,7 +587,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.6.2-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.13.1-scratch-r0
+FROM bitnami/kube-rbac-proxy:0.14.0-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -683,7 +683,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.9-alpine3.17
+FROM nats:2.9.10-alpine3.17
 # nats
 
 # masipcat/wireguard-go
@@ -747,11 +747,11 @@ FROM jellyfin/jellyfin:10.8.8
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.17.0
+FROM gravitl/netmaker:v0.17.1
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.17.0
+FROM gravitl/netmaker-ui:v0.17.1
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
