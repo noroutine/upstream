@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.7.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.6.2-ce.0
+FROM gitlab/gitlab-ce:15.6.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -611,7 +611,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.7.0
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.22.2
+FROM minio/console:v0.22.3
 # minio/console
 
 # kutt/kutt
