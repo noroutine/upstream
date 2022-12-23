@@ -115,7 +115,7 @@ FROM prom/prometheus:v2.41.0
 # prom/prometheus
 
 # prom/alertmanager
-FROM prom/alertmanager:v0.24.0
+FROM prom/alertmanager:v0.25.0
 # prom/alertmanager
 
 # prom/node-exporter
@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.7.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.6.3-ce.0
+FROM gitlab/gitlab-ce:15.7.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
