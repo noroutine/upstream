@@ -115,7 +115,7 @@ FROM prom/prometheus:v2.41.0
 # prom/prometheus
 
 # prom/alertmanager
-FROM prom/alertmanager:v0.24.0
+FROM prom/alertmanager:v0.25.0
 # prom/alertmanager
 
 # prom/node-exporter
