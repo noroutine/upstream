@@ -663,7 +663,7 @@ FROM listmonk/listmonk:v2.3.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.26.0
+FROM vaultwarden/server:1.27.0
 # vaultwarden/server
 
 # boky/postfix
