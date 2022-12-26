@@ -355,7 +355,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.18.0
+FROM verdaccio/verdaccio:5.19.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -367,7 +367,7 @@ FROM ghost:5.26.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.26.2-debian-11-r0
+FROM bitnami/ghost:5.26.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -663,7 +663,7 @@ FROM listmonk/listmonk:v2.3.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.26.0
+FROM vaultwarden/server:1.27.0
 # vaultwarden/server
 
 # boky/postfix
