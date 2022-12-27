@@ -786,6 +786,10 @@ FROM k8s.gcr.io/coredns/coredns:v1.10.0
 FROM yugabytedb/yugabyte:2.15.3.2-b1
 # yugabytedb/yugabyte
 
+# antelle/keeweb
+FROM antelle/keeweb:1.18.7
+# antelle/keeweb
+
 # apache/airflow
 FROM apache/airflow:2.5.0-python3.10
 # apache/airflow
