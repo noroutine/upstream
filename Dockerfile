@@ -507,7 +507,7 @@ FROM bitnami/memcached:1.6.17-debian-11-r6
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.5.1-debian-11-r7
+FROM bitnami/nginx-ingress-controller:1.6.0-debian-11-r7
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
