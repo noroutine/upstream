@@ -1043,7 +1043,7 @@ FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.4.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.1.0
+FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.2.0
 # sig-storage/csi-snapshotter
 
 # confluentinc/confluent-init-container
