@@ -71,7 +71,7 @@ FROM traefik:v2.9.6
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.44.0
+FROM sonatype/nexus3:3.45.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -1035,7 +1035,7 @@ FROM k8s.gcr.io/sig-storage/csi-attacher:v4.1.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM k8s.gcr.io/sig-storage/csi-resizer:v1.6.0
+FROM k8s.gcr.io/sig-storage/csi-resizer:v1.7.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
@@ -1043,7 +1043,7 @@ FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.4.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.1.0
+FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.2.0
 # sig-storage/csi-snapshotter
 
 # confluentinc/confluent-init-container
