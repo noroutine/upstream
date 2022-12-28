@@ -507,7 +507,7 @@ FROM bitnami/memcached:1.6.17-debian-11-r6
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.5.1-debian-11-r7
+FROM bitnami/nginx-ingress-controller:1.6.0-debian-11-r7
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -1031,7 +1031,7 @@ FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.2
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM k8s.gcr.io/sig-storage/csi-attacher:v4.0.0
+FROM k8s.gcr.io/sig-storage/csi-attacher:v4.1.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
@@ -1039,7 +1039,7 @@ FROM k8s.gcr.io/sig-storage/csi-resizer:v1.6.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.3.0
+FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.4.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
