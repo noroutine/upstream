@@ -631,7 +631,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.126
+FROM stakater/reloader:v0.0.128
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -967,15 +967,15 @@ FROM calico/csi:v3.24.5
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.3.2
+FROM longhornio/longhorn-manager:v1.4.0
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.3.2
+FROM longhornio/longhorn-ui:v1.4.0
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.3.2
+FROM longhornio/longhorn-engine:v1.4.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
@@ -983,7 +983,7 @@ FROM longhornio/longhorn-instance-manager:v3_20221117
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1_20221003
+FROM longhornio/longhorn-share-manager:v1.4.0
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
@@ -1023,11 +1023,11 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.7.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM k8s.gcr.io/sig-storage/livenessprobe:v2.8.0
+FROM k8s.gcr.io/sig-storage/livenessprobe:v2.9.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.2
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.7.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
