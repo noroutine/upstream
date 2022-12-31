@@ -367,7 +367,7 @@ FROM ghost:5.26.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.26.3-debian-11-r0
+FROM bitnami/ghost:5.26.4-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -511,7 +511,7 @@ FROM bitnami/nginx-ingress-controller:1.6.0-debian-11-r7
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.23.2-debian-11-r6
+FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
