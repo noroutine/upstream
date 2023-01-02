@@ -335,7 +335,7 @@ FROM jupyterhub/configurable-http-proxy:4.5.4
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.5
+FROM registry.k8s.io/kube-scheduler:v1.23.10
 # kube-scheduler
 
 # pause
