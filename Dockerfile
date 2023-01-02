@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.45.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:8.5.11
+FROM squidfunk/mkdocs-material:9.0.0
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -915,19 +915,35 @@ FROM registry.k8s.io/kube-controller-manager:v1.25.5
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.24.8
+FROM registry.k8s.io/kube-apiserver:v1.24.9
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.24.8
+FROM registry.k8s.io/kube-proxy:v1.24.9
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.8
+FROM registry.k8s.io/kube-scheduler:v1.24.9
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.24.8
+FROM registry.k8s.io/kube-controller-manager:v1.24.9
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.23.15
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.23.15
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.23.15
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.23.15
 # kube-controller-manager
 
 # tigera/operator
