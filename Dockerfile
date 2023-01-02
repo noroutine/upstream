@@ -334,6 +334,14 @@ FROM jupyterhub/k8s-singleuser-sample:2.0.0
 FROM jupyterhub/configurable-http-proxy:4.5.4
 # jupyterhub/configurable-http-proxy
 
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.25.5
+# kube-scheduler
+
+# pause
+FROM registry.k8s.io/pause:3.9
+# pause
+
 # noroutine/repo2docker
 FROM quay.io/noroutine/repo2docker:2022.10.0-67.g30059d6
 # noroutine/repo2docker
@@ -867,59 +875,59 @@ FROM quay.io/strimzi/kafka:0.32.0-kafka-3.3.1
 # strimzi/kafka
 
 # pause
-FROM k8s.gcr.io/pause:3.9
+FROM registry.k8s.io/pause:3.9
 # pause
 
 # coredns/coredns
-FROM k8s.gcr.io/coredns/coredns:v1.8.6
+FROM registry.k8s.io/coredns/coredns:v1.8.6
 # coredns/coredns
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.26.0
+FROM registry.k8s.io/kube-apiserver:v1.26.0
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.26.0
+FROM registry.k8s.io/kube-proxy:v1.26.0
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.26.0
+FROM registry.k8s.io/kube-scheduler:v1.26.0
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.26.0
-# kube-controller-manager
-
-# kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.25.5
-# kube-apiserver
-
-# kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.25.5
-# kube-proxy
-
-# kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.25.5
-# kube-scheduler
-
-# kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.25.5
+FROM registry.k8s.io/kube-controller-manager:v1.26.0
 # kube-controller-manager
 
 # kube-apiserver
-FROM k8s.gcr.io/kube-apiserver:v1.24.8
+FROM registry.k8s.io/kube-apiserver:v1.25.5
 # kube-apiserver
 
 # kube-proxy
-FROM k8s.gcr.io/kube-proxy:v1.24.8
+FROM registry.k8s.io/kube-proxy:v1.25.5
 # kube-proxy
 
 # kube-scheduler
-FROM k8s.gcr.io/kube-scheduler:v1.24.8
+FROM registry.k8s.io/kube-scheduler:v1.25.5
 # kube-scheduler
 
 # kube-controller-manager
-FROM k8s.gcr.io/kube-controller-manager:v1.24.8
+FROM registry.k8s.io/kube-controller-manager:v1.25.5
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.24.8
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.24.8
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.24.8
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.24.8
 # kube-controller-manager
 
 # tigera/operator
