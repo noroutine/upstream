@@ -43,7 +43,7 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # buildpack-deps
-FROM buildpack-deps:bionic@sha256:5c5e151b3052160b28cb8ca3e0b21c5185234ecf4854b88b18dd1c2c6a021377
+FROM buildpack-deps:bionic@sha256:3116c18376d09e17112069b62b424b65b2e69e59c25935a0d0ce294b99b31be8
 # buildpack-deps
 
 # buildpack-deps
@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.45.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.0
+FROM squidfunk/mkdocs-material:9.0.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -371,7 +371,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.26.3
+FROM ghost:5.26.4
 # ghost
 
 # bitnami/ghost
@@ -735,7 +735,7 @@ FROM elastic/eck-operator:2.5.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.19.2-alpine
+FROM louislam/uptime-kuma:1.19.3-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
