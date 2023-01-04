@@ -15,7 +15,7 @@ FROM alpine:3.17.0
 # alpine
 
 # busybox
-FROM busybox:1.35.0
+FROM busybox:1.36.0
 # busybox
 
 # distroless/static-debian11
@@ -527,7 +527,7 @@ FROM bitnami/minio:2022.12.12-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.12.13-debian-11-r0
+FROM bitnami/minio-client:2022.12.24-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
