@@ -607,11 +607,11 @@ FROM bitnami/sealed-secrets-controller:v0.19.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.36.0-debian-11-r0
+FROM bitnami/trivy:0.36.1-debian-11-r0
 # bitnami/trivy
 
 # aquasec/trivy
-FROM aquasec/trivy:0.36.0
+FROM aquasec/trivy:0.36.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -679,7 +679,7 @@ FROM boky/postfix:v3.5.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.0.7
+FROM cupcakearmy/cryptgeon:2.1.0
 # cupcakearmy/cryptgeon
 
 # memcached
