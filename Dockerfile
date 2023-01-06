@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:74131b94f4e7497307c0fbdcf2323020ce7b9aa30669ae8
 # buildpack-deps
 
 # php
-FROM php:8.2.0-apache-bullseye
+FROM php:8.2.1-apache-bullseye
 # php
 
 # golang
@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.7.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.7.0-ce.0
+FROM gitlab/gitlab-ce:15.7.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -375,7 +375,7 @@ FROM ghost:5.26.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.26.4-debian-11-r0
+FROM bitnami/ghost:5.27.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM bitnami/prometheus:2.41.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.61.1-debian-11-r0
+FROM bitnami/prometheus-operator:0.62.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -619,7 +619,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.7.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.22.3
+FROM minio/console:v0.22.4
 # minio/console
 
 # kutt/kutt
@@ -639,7 +639,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.128
+FROM stakater/reloader:v0.0.129
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1067,7 +1067,7 @@ FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.4.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.2.0
+FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.2.1
 # sig-storage/csi-snapshotter
 
 # confluentinc/confluent-init-container
