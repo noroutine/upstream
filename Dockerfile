@@ -167,7 +167,7 @@ FROM ribbybibby/ssl-exporter:2.4.2
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.46.0
+FROM gcr.io/cadvisor/cadvisor:v0.47.0
 # cadvisor/cadvisor
 
 # prymitive/karma
@@ -371,11 +371,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.26.4
+FROM ghost:5.27.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.27.0-debian-11-r0
+FROM bitnami/ghost:5.28.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -555,7 +555,7 @@ FROM bitnami/consul:1.14.3-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.10-debian-11-r0
+FROM bitnami/nats:2.9.11-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -627,7 +627,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.4.2
+FROM drakkan/sftpgo:v2.4.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -691,7 +691,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.10-alpine3.17
+FROM nats:2.9.11-alpine3.17
 # nats
 
 # masipcat/wireguard-go
