@@ -11,7 +11,7 @@ FROM ubuntu:focal-20221130
 # ubuntu
 
 # alpine
-FROM alpine:3.17.0
+FROM alpine:3.17.1
 # alpine
 
 # busybox
