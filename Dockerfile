@@ -275,7 +275,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.22.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.44.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.45.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -731,7 +731,7 @@ FROM azul/zulu-openjdk:19.0.1-19.30.11
 # azul/zulu-openjdk
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.5.0
+FROM elastic/eck-operator:2.6.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
