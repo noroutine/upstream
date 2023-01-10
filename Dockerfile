@@ -11,7 +11,7 @@ FROM ubuntu:focal-20221130
 # ubuntu
 
 # alpine
-FROM alpine:3.17.0
+FROM alpine:3.17.1
 # alpine
 
 # busybox
@@ -259,7 +259,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.15.2
+FROM buildpacksio/lifecycle:0.15.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.7.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.7.1-ce.0
+FROM gitlab/gitlab-ce:15.7.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -371,7 +371,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.27.0
+FROM ghost:5.28.0
 # ghost
 
 # bitnami/ghost
@@ -735,7 +735,7 @@ FROM elastic/eck-operator:2.5.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.19.3-alpine
+FROM louislam/uptime-kuma:1.19.4-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -947,7 +947,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.15
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.28.7
+FROM quay.io/tigera/operator:v1.28.8
 # tigera/operator
 
 # calico/typha
