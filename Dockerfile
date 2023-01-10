@@ -735,7 +735,7 @@ FROM elastic/eck-operator:2.5.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.19.3-alpine
+FROM louislam/uptime-kuma:1.19.4-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
