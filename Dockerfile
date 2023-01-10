@@ -731,7 +731,7 @@ FROM azul/zulu-openjdk:19.0.1-19.30.11
 # azul/zulu-openjdk
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.5.0
+FROM elastic/eck-operator:2.6.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
