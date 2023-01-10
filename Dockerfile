@@ -343,7 +343,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # noroutine/repo2docker
-FROM quay.io/noroutine/repo2docker:2022.10.0-67.g30059d6
+FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
