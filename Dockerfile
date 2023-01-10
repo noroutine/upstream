@@ -655,7 +655,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.5
+FROM quay.io/argoproj/argocd:v2.5.6
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -815,19 +815,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.10.1
+FROM quay.io/jetstack/cert-manager-controller:v1.10.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.10.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.10.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.10.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.10.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.10.1
+FROM quay.io/jetstack/cert-manager-ctl:v1.10.2
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
