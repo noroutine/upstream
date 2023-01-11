@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.7.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.7.2-ce.0
+FROM gitlab/gitlab-ce:15.7.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -291,11 +291,11 @@ FROM summerwind/actions-runner-controller:v0.26.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.299.1-ubuntu-22.04
+FROM summerwind/actions-runner:v2.300.2-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.299.1-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.300.2-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -731,7 +731,7 @@ FROM azul/zulu-openjdk:19.0.1-19.30.11
 # azul/zulu-openjdk
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.6.0
+FROM elastic/eck-operator:2.6.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
