@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20221219-slim
+FROM debian:bullseye-20230109-slim
 # debian
 
 # ubuntu
