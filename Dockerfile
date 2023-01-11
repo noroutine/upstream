@@ -63,7 +63,7 @@ FROM golang:1.19.5-bullseye
 # golang
 
 # golang
-FROM golang:1.19.4-alpine3.17
+FROM golang:1.19.5-alpine3.17
 # golang
 
 # traefik
