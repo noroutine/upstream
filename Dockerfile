@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20221219-slim
+FROM debian:bullseye-20230109-slim
 # debian
 
 # ubuntu
@@ -59,7 +59,7 @@ FROM php:8.2.1-apache-bullseye
 # php
 
 # golang
-FROM golang:1.19.4-bullseye
+FROM golang:1.19.5-bullseye
 # golang
 
 # golang
@@ -743,7 +743,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.66.3
+FROM outlinewiki/outline:0.67.0
 # outlinewiki/outline
 
 # syncthing/syncthing
