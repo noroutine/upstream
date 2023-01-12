@@ -963,7 +963,7 @@ FROM calico/node:v3.24.5
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.24.5
+FROM calico/cni:v3.25.0
 # calico/cni
 
 # calico/apiserver
