@@ -639,7 +639,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v0.0.129
+FROM stakater/reloader:v1.0.1
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -783,7 +783,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # restic/restic
-FROM restic/restic:0.14.0
+FROM restic/restic:0.15.0
 # restic/restic
 
 # coredns/coredns
