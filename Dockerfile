@@ -167,7 +167,7 @@ FROM ribbybibby/ssl-exporter:2.4.2
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.47.0
+FROM gcr.io/cadvisor/cadvisor:v0.47.1
 # cadvisor/cadvisor
 
 # prymitive/karma
@@ -371,7 +371,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.28.0
+FROM ghost:5.29.0
 # ghost
 
 # bitnami/ghost
@@ -511,7 +511,7 @@ FROM bitnami/mongodb:6.0.3-debian-11-r1
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.17-debian-11-r6
+FROM bitnami/memcached:1.6.18-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -619,7 +619,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.7.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.22.4
+FROM minio/console:v0.22.5
 # minio/console
 
 # kutt/kutt
@@ -683,7 +683,7 @@ FROM cupcakearmy/cryptgeon:2.1.0
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.17-alpine3.17
+FROM memcached:1.6.18-alpine3.17
 # memcached
 
 # connecteverything/nats-operator
@@ -743,7 +743,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.67.0
+FROM outlinewiki/outline:0.67.1
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -951,43 +951,43 @@ FROM quay.io/tigera/operator:v1.28.8
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.24.5
+FROM calico/typha:v3.25.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.24.5
+FROM calico/ctl:v3.25.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.24.5
+FROM calico/node:v3.25.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.24.5
+FROM calico/cni:v3.25.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.24.5
+FROM calico/apiserver:v3.25.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.24.5
+FROM calico/kube-controllers:v3.25.0
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.24.5
+FROM calico/dikastes:v3.25.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.24.5
+FROM calico/pod2daemon-flexvol:v3.25.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.24.5
+FROM calico/node-driver-registrar:v3.25.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.24.5
+FROM calico/csi:v3.25.0
 # calico/csi
 
 # longhornio/longhorn-manager
