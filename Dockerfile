@@ -683,7 +683,7 @@ FROM cupcakearmy/cryptgeon:2.1.0
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.17-alpine3.17
+FROM memcached:1.6.18-alpine3.17
 # memcached
 
 # connecteverything/nats-operator
