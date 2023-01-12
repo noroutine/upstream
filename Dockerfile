@@ -495,7 +495,7 @@ FROM bitnami/postgresql:15.1.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:20.0.2-debian-11-r0
+FROM bitnami/keycloak:20.0.3-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
