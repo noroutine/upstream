@@ -83,7 +83,7 @@ FROM freeradius/freeradius-server:3.2.1-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:20.0.2
+FROM quay.io/keycloak/keycloak:20.0.3
 # keycloak/keycloak
 
 # postgres
@@ -495,11 +495,11 @@ FROM bitnami/postgresql:15.1.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:20.0.2-debian-11-r0
+FROM bitnami/keycloak:20.0.3-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r11
+FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r20
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
