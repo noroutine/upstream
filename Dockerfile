@@ -371,11 +371,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.29.0
+FROM ghost:5.30.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.29.0-debian-11-r0
+FROM bitnami/ghost:5.30.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -383,7 +383,7 @@ FROM matomo:4.13.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.101.0
+FROM nocodb/nocodb:0.101.2
 # nocodb/nocodb
 
 # metabase/metabase
