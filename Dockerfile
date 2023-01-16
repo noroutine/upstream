@@ -287,7 +287,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.26.0
+FROM summerwind/actions-runner-controller:v0.27.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -347,7 +347,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2022.12.1
+FROM pihole/pihole:2023.01
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -375,7 +375,7 @@ FROM ghost:5.30.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.30.0-debian-11-r0
+FROM bitnami/ghost:5.30.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -615,7 +615,7 @@ FROM aquasec/trivy:0.36.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.7.1
+FROM ghcr.io/external-secrets/external-secrets:v0.7.2
 # external-secrets/external-secrets
 
 # minio/console
