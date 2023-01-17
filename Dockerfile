@@ -279,7 +279,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.45.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.7.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.8.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -463,7 +463,7 @@ FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.7-debian-11-r0
+FROM bitnami/redis:7.0.8-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -547,7 +547,7 @@ FROM bitnami/grafana:9.3.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.6.2-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.6.3-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -743,7 +743,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.67.1
+FROM outlinewiki/outline:0.67.2
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -807,11 +807,11 @@ FROM k8s.gcr.io/git-sync/git-sync:v3.6.2
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.9.1
+FROM ghcr.io/kedacore/keda:2.9.2
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.1
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.2
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
