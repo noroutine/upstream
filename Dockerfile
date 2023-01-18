@@ -803,7 +803,7 @@ FROM apache/airflow:2.5.0-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM k8s.gcr.io/git-sync/git-sync:v3.6.2
+FROM k8s.gcr.io/git-sync/git-sync:v3.6.3
 # git-sync/git-sync
 
 # kedacore/keda
