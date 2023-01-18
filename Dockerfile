@@ -347,7 +347,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.01
+FROM pihole/pihole:2023.01.2
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -523,7 +523,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.1.12-debian-11-r0
+FROM bitnami/minio:2023.1.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -631,7 +631,7 @@ FROM drakkan/sftpgo:v2.4.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.16.1
+FROM hasura/graphql-engine:v2.17.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -727,7 +727,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:19.0.1-19.30.11
+FROM azul/zulu-openjdk:19.0.2-19.32.13
 # azul/zulu-openjdk
 
 # elastic/eck-operator
@@ -883,19 +883,19 @@ FROM registry.k8s.io/coredns/coredns:v1.9.3
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.0
+FROM registry.k8s.io/kube-apiserver:v1.26.1
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.0
+FROM registry.k8s.io/kube-proxy:v1.26.1
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.0
+FROM registry.k8s.io/kube-scheduler:v1.26.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.0
+FROM registry.k8s.io/kube-controller-manager:v1.26.1
 # kube-controller-manager
 
 # kube-apiserver
