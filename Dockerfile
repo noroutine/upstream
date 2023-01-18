@@ -727,7 +727,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:19.0.1-19.30.11
+FROM azul/zulu-openjdk:19.0.2-19.32.13
 # azul/zulu-openjdk
 
 # elastic/eck-operator
