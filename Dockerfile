@@ -71,7 +71,7 @@ FROM traefik:v2.9.6
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.45.0
+FROM sonatype/nexus3:3.45.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -95,7 +95,7 @@ FROM atlassian/jira-software:9.5.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:25.0.2-apache
+FROM nextcloud:25.0.3-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2022-12-07T00-56-37Z
+FROM minio/minio:RELEASE.2023-01-18T04-36-38Z
 # minio/minio
 
 # coreos/etcd
@@ -207,7 +207,7 @@ FROM dpage/pgadmin4:6.19
 # dpage/pgadmin4
 
 # mysql
-FROM mysql:8.0.31
+FROM mysql:8.0.32
 # mysql
 
 # mariadb
@@ -267,7 +267,7 @@ FROM gitlab/gitlab-runner:alpine-v15.7.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.7.3-ce.0
+FROM gitlab/gitlab-ce:15.7.5-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -371,7 +371,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.30.0
+FROM ghost:5.30.1
 # ghost
 
 # bitnami/ghost
@@ -379,7 +379,7 @@ FROM bitnami/ghost:5.30.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.13.0-apache
+FROM matomo:4.13.1-apache
 # matomo
 
 # nocodb/nocodb
@@ -387,7 +387,7 @@ FROM nocodb/nocodb:0.101.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.45.1
+FROM metabase/metabase:v0.45.2
 # metabase/metabase
 
 # docker
@@ -523,11 +523,11 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2022.12.12-debian-11-r0
+FROM bitnami/minio:2023.1.12-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2022.12.24-debian-11-r0
+FROM bitnami/minio-client:2023.1.11-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -639,7 +639,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.1
+FROM stakater/reloader:v1.0.2
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -655,7 +655,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.6
+FROM quay.io/argoproj/argocd:v2.5.7
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -663,7 +663,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.7-bullseye
+FROM redis:7.0.8-bullseye
 # redis
 
 # listmonk/listmonk
@@ -735,7 +735,7 @@ FROM elastic/eck-operator:2.6.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.19.5-alpine
+FROM louislam/uptime-kuma:1.19.6-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -803,7 +803,7 @@ FROM apache/airflow:2.5.0-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM k8s.gcr.io/git-sync/git-sync:v3.6.2
+FROM k8s.gcr.io/git-sync/git-sync:v3.6.3
 # git-sync/git-sync
 
 # kedacore/keda
