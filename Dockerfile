@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.45.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.5
+FROM squidfunk/mkdocs-material:9.0.6
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -271,7 +271,7 @@ FROM gitlab/gitlab-ce:15.7.5-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.22.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.25.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -283,7 +283,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.7.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.0
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
