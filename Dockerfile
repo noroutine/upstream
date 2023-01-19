@@ -291,11 +291,11 @@ FROM summerwind/actions-runner-controller:v0.27.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.300.2-ubuntu-22.04
+FROM summerwind/actions-runner:v2.301.1-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.300.2-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.301.1-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -347,7 +347,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.01.2
+FROM pihole/pihole:2023.01.3
 # pihole/pihole
 
 # yandex/clickhouse-server
