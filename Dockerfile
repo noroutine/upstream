@@ -347,7 +347,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.01.3
+FROM pihole/pihole:2023.01.4
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -523,7 +523,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.1.18-debian-11-r0
+FROM bitnami/minio:2023.1.20-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
