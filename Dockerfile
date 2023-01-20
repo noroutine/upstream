@@ -799,7 +799,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # apache/airflow
-FROM apache/airflow:2.5.0-python3.10
+FROM apache/airflow:2.5.1-python3.10
 # apache/airflow
 
 # git-sync/git-sync
