@@ -107,7 +107,7 @@ FROM minio/minio:RELEASE.2023-01-18T04-36-38Z
 # minio/minio
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.6
+FROM quay.io/coreos/etcd:v3.5.7
 # coreos/etcd
 
 # prom/prometheus
