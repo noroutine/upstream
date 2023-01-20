@@ -99,7 +99,7 @@ FROM nextcloud:25.0.3-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.7.1
+FROM haproxytech/haproxy-debian:2.7.2
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -107,7 +107,7 @@ FROM minio/minio:RELEASE.2023-01-18T04-36-38Z
 # minio/minio
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.6
+FROM quay.io/coreos/etcd:v3.5.7
 # coreos/etcd
 
 # prom/prometheus
