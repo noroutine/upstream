@@ -347,7 +347,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.01.4
+FROM pihole/pihole:2023.01.5
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -371,11 +371,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.30.1
+FROM ghost:5.31.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.30.1-debian-11-r0
+FROM bitnami/ghost:5.31.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -391,7 +391,7 @@ FROM metabase/metabase:v0.45.2
 # metabase/metabase
 
 # docker
-FROM docker:20.10.22-dind
+FROM docker:20.10.23-dind
 # docker
 
 # jupyter/base-notebook
@@ -799,7 +799,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # apache/airflow
-FROM apache/airflow:2.5.0-python3.10
+FROM apache/airflow:2.5.1-python3.10
 # apache/airflow
 
 # git-sync/git-sync
