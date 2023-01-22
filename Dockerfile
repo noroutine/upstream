@@ -347,7 +347,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.01.6
+FROM pihole/pihole:2023.01.8
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -751,7 +751,7 @@ FROM syncthing/syncthing:1.23.0
 # syncthing/syncthing
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.8
+FROM jellyfin/jellyfin:10.8.9
 # jellyfin/jellyfin
 
 # gravitl/netmaker
