@@ -802,6 +802,22 @@ FROM yugabytedb/yugabyte:2.15.3.2-b1
 FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
+# wiretrustee/dashboard
+FROM wiretrustee/dashboard:v1.6.0
+# wiretrustee/dashboard
+
+# netbirdio/signal
+FROM netbirdio/signal:0.12.0
+# netbirdio/signal
+
+# netbirdio/management
+FROM netbirdio/management:0.12.0
+# netbirdio/management
+
+# coturn/coturn
+FROM coturn/coturn:4.6.1
+# coturn/coturn
+
 # apache/airflow
 FROM apache/airflow:2.5.1-python3.10
 # apache/airflow
