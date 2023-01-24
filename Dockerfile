@@ -818,6 +818,10 @@ FROM netbirdio/management:0.12.0
 FROM coturn/coturn:4.6.1
 # coturn/coturn
 
+# firezone/firezone
+FROM firezone/firezone:0.7.6
+# firezone/firezone
+
 # apache/airflow
 FROM apache/airflow:2.5.1-python3.10
 # apache/airflow
