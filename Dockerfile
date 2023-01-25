@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.2
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-01-18T04-36-38Z
+FROM minio/minio:RELEASE.2023-01-25T00-19-54Z
 # minio/minio
 
 # coreos/etcd
@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.3.2
+FROM grafana/grafana:9.3.4
 # grafana/grafana
 
 # grafana/loki
@@ -527,7 +527,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.1.20-debian-11-r0
+FROM bitnami/minio:2023.1.25-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -623,7 +623,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.7.2
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.22.5
+FROM minio/console:v0.23.0
 # minio/console
 
 # kutt/kutt
@@ -891,11 +891,11 @@ FROM hashicorp/vault-csi-provider:1.2.1
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.32.0
+FROM quay.io/strimzi/operator:0.33.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.32.0-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.33.0-kafka-3.3.1
 # strimzi/kafka
 
 # pause
