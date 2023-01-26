@@ -199,7 +199,7 @@ FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.3-focal
+FROM mongo:6.0.4-focal
 # mongo
 
 # wordpress
