@@ -199,7 +199,7 @@ FROM alerta/alerta-web:8.7.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.3-focal
+FROM mongo:6.0.4-focal
 # mongo
 
 # wordpress
@@ -351,7 +351,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.01.9
+FROM pihole/pihole:2023.01.10
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -375,7 +375,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.31.0
+FROM ghost:5.32.0
 # ghost
 
 # bitnami/ghost
@@ -659,7 +659,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.7
+FROM quay.io/argoproj/argocd:v2.5.8
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
