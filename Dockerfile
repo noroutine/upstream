@@ -143,15 +143,15 @@ FROM grafana/grafana:9.3.6
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.7.1
+FROM grafana/loki:2.7.2
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.7.1
+FROM grafana/loki-canary:2.7.2
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.7.1
+FROM grafana/promtail:2.7.2
 # grafana/promtail
 
 # m3db/m3coordinator
@@ -187,11 +187,11 @@ FROM docker.elastic.co/elasticsearch/elasticsearch:8.6.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.6.0
+FROM docker.elastic.co/logstash/logstash:8.6.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.6.0
+FROM docker.elastic.co/kibana/kibana:8.6.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -387,7 +387,7 @@ FROM matomo:4.13.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.101.2
+FROM nocodb/nocodb:0.104.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -555,7 +555,7 @@ FROM bitnami/grafana-image-renderer:3.6.3-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.14.3-debian-11-r0
+FROM bitnami/consul:1.14.4-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -635,7 +635,7 @@ FROM drakkan/sftpgo:v2.4.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.17.0
+FROM hasura/graphql-engine:v2.17.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -819,7 +819,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.6
+FROM firezone/firezone:0.7.7
 # firezone/firezone
 
 # apache/airflow
@@ -867,7 +867,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.14.3
+FROM hashicorp/consul:1.14.4
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
