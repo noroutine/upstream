@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.3.4
+FROM grafana/grafana:9.3.6
 # grafana/grafana
 
 # grafana/loki
@@ -183,7 +183,7 @@ FROM quay.io/cortexproject/cortex:v1.14.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.6.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.6.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
@@ -379,7 +379,7 @@ FROM ghost:5.32.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.31.0-debian-11-r0
+FROM bitnami/ghost:5.32.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -547,7 +547,7 @@ FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.3.4-debian-11-r0
+FROM bitnami/grafana:9.3.6-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
