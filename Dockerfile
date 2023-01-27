@@ -275,7 +275,7 @@ FROM gitlab/gitlab-ce:15.8.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.25.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.26.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -387,7 +387,7 @@ FROM matomo:4.13.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.104.1
+FROM nocodb/nocodb:0.104.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -819,7 +819,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.7
+FROM firezone/firezone:0.7.8
 # firezone/firezone
 
 # apache/airflow
