@@ -819,7 +819,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.7
+FROM firezone/firezone:0.7.8
 # firezone/firezone
 
 # apache/airflow
