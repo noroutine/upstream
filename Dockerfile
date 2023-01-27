@@ -143,7 +143,7 @@ FROM grafana/grafana:9.3.6
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.7.1
+FROM grafana/loki:2.7.2
 # grafana/loki
 
 # grafana/loki-canary
