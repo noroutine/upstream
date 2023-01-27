@@ -867,7 +867,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.14.3
+FROM hashicorp/consul:1.14.4
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
