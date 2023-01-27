@@ -151,7 +151,7 @@ FROM grafana/loki-canary:2.7.1
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.7.1
+FROM grafana/promtail:2.7.2
 # grafana/promtail
 
 # m3db/m3coordinator
