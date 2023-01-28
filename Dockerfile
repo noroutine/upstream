@@ -379,7 +379,7 @@ FROM ghost:5.32.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.32.0-debian-11-r0
+FROM bitnami/ghost:5.33.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -659,7 +659,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.8
+FROM quay.io/argoproj/argocd:v2.5.9
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
