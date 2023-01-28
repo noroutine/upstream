@@ -659,7 +659,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.8
+FROM quay.io/argoproj/argocd:v2.5.9
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
