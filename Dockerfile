@@ -391,7 +391,7 @@ FROM nocodb/nocodb:0.104.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.45.2
+FROM metabase/metabase:v0.45.2.1
 # metabase/metabase
 
 # docker
@@ -659,7 +659,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.5.9
+FROM quay.io/argoproj/argocd:v2.6.0-rc6
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
