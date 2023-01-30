@@ -643,7 +643,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.2
+FROM stakater/reloader:v1.0.3
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -871,7 +871,7 @@ FROM hashicorp/consul:1.14.4
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.0.2
+FROM hashicorp/consul-k8s-control-plane:1.0.3
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
