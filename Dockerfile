@@ -787,7 +787,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # restic/restic
-FROM restic/restic:0.15.0
+FROM restic/restic:0.15.1
 # restic/restic
 
 # coredns/coredns
