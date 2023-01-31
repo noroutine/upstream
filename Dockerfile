@@ -531,7 +531,7 @@ FROM bitnami/minio:2023.1.25-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.1.11-debian-11-r0
+FROM bitnami/minio-client:2023.1.28-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
