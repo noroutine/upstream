@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.2
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-01-25T00-19-54Z
+FROM minio/minio:RELEASE.2023-01-31T02-24-19Z
 # minio/minio
 
 # coreos/etcd
@@ -275,7 +275,7 @@ FROM gitlab/gitlab-ce:15.8.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.26.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.27.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -527,11 +527,11 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.1.25-debian-11-r0
+FROM bitnami/minio:2023.1.31-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.1.11-debian-11-r0
+FROM bitnami/minio-client:2023.1.28-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -831,11 +831,11 @@ FROM k8s.gcr.io/git-sync/git-sync:v3.6.3
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.9.2
+FROM ghcr.io/kedacore/keda:2.9.3
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.2
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.3
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
