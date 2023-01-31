@@ -831,7 +831,7 @@ FROM k8s.gcr.io/git-sync/git-sync:v3.6.3
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.9.2
+FROM ghcr.io/kedacore/keda:2.9.3
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
