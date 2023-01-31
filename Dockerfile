@@ -43,7 +43,7 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # buildpack-deps
-FROM buildpack-deps:bionic@sha256:3116c18376d09e17112069b62b424b65b2e69e59c25935a0d0ce294b99b31be8
+FROM buildpack-deps:bionic@sha256:112ea54e20cdb539d74c1aea7d6ea6a943707a9ac2040c39de69943b7a436ee1
 # buildpack-deps
 
 # buildpack-deps
