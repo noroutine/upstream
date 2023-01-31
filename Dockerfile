@@ -803,7 +803,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.6.0
+FROM wiretrustee/dashboard:v1.6.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
