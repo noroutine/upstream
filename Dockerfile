@@ -71,11 +71,11 @@ FROM traefik:v2.9.6
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.45.1
+FROM sonatype/nexus3:3.46.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.8
+FROM squidfunk/mkdocs-material:9.0.9
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -379,11 +379,11 @@ FROM ghost:5.32.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.33.0-debian-11-r0
+FROM bitnami/ghost:5.33.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.13.1-apache
+FROM matomo:4.13.2-apache
 # matomo
 
 # nocodb/nocodb
@@ -399,35 +399,35 @@ FROM docker:20.10.23-dind
 # docker
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-3.1.0
+FROM jupyter/base-notebook:hub-3.1.1
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:hub-3.1.0
+FROM jupyter/minimal-notebook:hub-3.1.1
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:hub-3.1.0
+FROM jupyter/r-notebook:hub-3.1.1
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-3.1.0
+FROM jupyter/scipy-notebook:hub-3.1.1
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-3.1.0
+FROM jupyter/tensorflow-notebook:hub-3.1.1
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-3.1.0
+FROM jupyter/datascience-notebook:hub-3.1.1
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:hub-3.1.0
+FROM jupyter/pyspark-notebook:hub-3.1.1
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-3.1.0
+FROM jupyter/all-spark-notebook:hub-3.1.1
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -723,7 +723,7 @@ FROM gcr.io/kaniko-project/executor:v1.9.1
 # kaniko-project/executor
 
 # iovisor/bpftrace
-FROM quay.io/iovisor/bpftrace:v0.16.0
+FROM quay.io/iovisor/bpftrace:v0.17.0
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
@@ -787,7 +787,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # restic/restic
-FROM restic/restic:0.15.0
+FROM restic/restic:0.15.1
 # restic/restic
 
 # coredns/coredns
