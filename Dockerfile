@@ -3,7 +3,7 @@ FROM debian:bullseye-20230109-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20221130
+FROM ubuntu:jammy-20230126
 # ubuntu
 
 # ubuntu
@@ -219,7 +219,7 @@ FROM mariadb:10.10.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.5.4
+FROM mccutchen/go-httpbin:v2.5.5
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -271,7 +271,7 @@ FROM gitlab/gitlab-runner:alpine-v15.8.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.8.0-ce.0
+FROM gitlab/gitlab-ce:15.8.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -731,7 +731,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:19.0.2-19.32.13
+FROM azul/zulu-openjdk:19.0.2-19.32.15
 # azul/zulu-openjdk
 
 # elastic/eck-operator
@@ -803,7 +803,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.6.0
+FROM wiretrustee/dashboard:v1.6.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
