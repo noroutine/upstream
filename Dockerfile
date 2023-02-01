@@ -375,7 +375,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.32.0
+FROM ghost:5.33.2
 # ghost
 
 # bitnami/ghost
@@ -383,7 +383,7 @@ FROM bitnami/ghost:5.33.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.13.2-apache
+FROM matomo:4.13.3-apache
 # matomo
 
 # nocodb/nocodb
@@ -819,7 +819,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.8
+FROM firezone/firezone:0.7.9
 # firezone/firezone
 
 # apache/airflow
