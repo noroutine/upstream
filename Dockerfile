@@ -3,7 +3,7 @@ FROM debian:bullseye-20230109-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230126
+FROM ubuntu:jammy-20230126@sha256:eecba05a9ccbc219cb0f0dd280034c6ee1aab0b00b458e680f9c4efc6ca3feda
 # ubuntu
 
 # ubuntu
@@ -43,15 +43,15 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # buildpack-deps
-FROM buildpack-deps:bionic@sha256:3116c18376d09e17112069b62b424b65b2e69e59c25935a0d0ce294b99b31be8
+FROM buildpack-deps:bionic@sha256:112ea54e20cdb539d74c1aea7d6ea6a943707a9ac2040c39de69943b7a436ee1
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:470576e4ea90e617f4dc6b0aa82e4dbf7d67eb813dfe35b3ce68814f7bcd82d9
+FROM buildpack-deps:focal@sha256:3fb43db6b3de9d6d5c675f93abf2bfc0e7b0b7de9969f1d12511e80ec22cbd67
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:74131b94f4e7497307c0fbdcf2323020ce7b9aa30669ae8a77c60188b3096e56
+FROM buildpack-deps:jammy@sha256:e902a5ede3335b40edf720db97f0f318f2f014bf34395671c61dd7c554c38967
 # buildpack-deps
 
 # php
@@ -111,7 +111,7 @@ FROM quay.io/coreos/etcd:v3.5.7
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.41.0
+FROM prom/prometheus:v2.42.0
 # prom/prometheus
 
 # prom/alertmanager
