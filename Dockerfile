@@ -379,7 +379,7 @@ FROM ghost:5.33.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.33.2-debian-11-r0
+FROM bitnami/ghost:5.33.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM bitnami/spark:3.3.1-debian-11-r6
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.41.0-debian-11-r0
+FROM bitnami/prometheus:2.42.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -611,11 +611,11 @@ FROM bitnami/sealed-secrets-controller:v0.19.4
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.36.1-debian-11-r0
+FROM bitnami/trivy:0.37.1-debian-11-r0
 # bitnami/trivy
 
 # aquasec/trivy
-FROM aquasec/trivy:0.36.1
+FROM aquasec/trivy:0.37.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
