@@ -575,7 +575,7 @@ FROM bitnami/kubeapps-dashboard:2.6.2-debian-11-r0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.6.2-scratch-r0
+FROM bitnami/kubeapps-apprepository-controller:2.6.2-scratch-r2
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
