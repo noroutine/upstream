@@ -615,7 +615,7 @@ FROM bitnami/trivy:0.36.1-debian-11-r0
 # bitnami/trivy
 
 # aquasec/trivy
-FROM aquasec/trivy:0.36.1
+FROM aquasec/trivy:0.37.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
