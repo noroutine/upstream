@@ -3,11 +3,11 @@ FROM debian:bullseye-20230109-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230126@sha256:c985bc3f77946b8e92c9a3648c6f31751a7dd972e06604785e47303f4ad47c4c
+FROM ubuntu:jammy-20230126
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230126@sha256:bffb6799d706144f263f4b91e1226745ffb5643ea0ea89c2f709208e8d70c999
+FROM ubuntu:focal-20230126
 # ubuntu
 
 # alpine
