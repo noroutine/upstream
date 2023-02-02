@@ -1099,7 +1099,7 @@ FROM confluentinc/confluent-init-container:2.5.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:2.5.0
+FROM confluentinc/confluent-operator:0.517.56
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
