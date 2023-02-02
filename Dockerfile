@@ -59,11 +59,11 @@ FROM php:8.2.1-apache-bullseye
 # php
 
 # golang
-FROM golang:1.19.5-bullseye
+FROM golang:1.20.0-bullseye
 # golang
 
 # golang
-FROM golang:1.19.5-alpine3.17
+FROM golang:1.20.0-alpine3.17
 # golang
 
 # traefik
