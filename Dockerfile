@@ -3,11 +3,11 @@ FROM debian:bullseye-20230109-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230126
+FROM ubuntu:jammy-20230126@sha256:c985bc3f77946b8e92c9a3648c6f31751a7dd972e06604785e47303f4ad47c4c
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20221130
+FROM ubuntu:focal-20230126@sha256:bffb6799d706144f263f4b91e1226745ffb5643ea0ea89c2f709208e8d70c999
 # ubuntu
 
 # alpine
@@ -47,7 +47,7 @@ FROM buildpack-deps:bionic@sha256:112ea54e20cdb539d74c1aea7d6ea6a943707a9ac2040c
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:3fb43db6b3de9d6d5c675f93abf2bfc0e7b0b7de9969f1d12511e80ec22cbd67
+FROM buildpack-deps:focal@sha256:b6044fe0ea91b2cd36ee16c377c20c075edb706ba5be48540aa2fccf4169ff31
 # buildpack-deps
 
 # buildpack-deps
@@ -59,11 +59,11 @@ FROM php:8.2.1-apache-bullseye
 # php
 
 # golang
-FROM golang:1.19.5-bullseye
+FROM golang:1.20.0-bullseye
 # golang
 
 # golang
-FROM golang:1.19.5-alpine3.17
+FROM golang:1.20.0-alpine3.17
 # golang
 
 # traefik
@@ -375,7 +375,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.33.2
+FROM ghost:5.33.3
 # ghost
 
 # bitnami/ghost
