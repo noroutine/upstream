@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:e902a5ede3335b40edf720db97f0f318f2f014bf3439567
 # buildpack-deps
 
 # php
-FROM php:8.2.1-apache-bullseye
+FROM php:8.2.2-apache-bullseye
 # php
 
 # golang
@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.46.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.9
+FROM squidfunk/mkdocs-material:9.0.10
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -267,7 +267,7 @@ FROM buildpacksio/lifecycle:0.15.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.8.0
+FROM gitlab/gitlab-runner:alpine-v15.8.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -275,11 +275,11 @@ FROM gitlab/gitlab-ce:15.8.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.27.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.28.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.45.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.46.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -375,11 +375,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.33.3
+FROM ghost:5.33.5
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.33.3-debian-11-r0
+FROM bitnami/ghost:5.33.5-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -387,7 +387,7 @@ FROM matomo:4.13.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.104.2
+FROM nocodb/nocodb:0.104.3
 # nocodb/nocodb
 
 # metabase/metabase
@@ -395,7 +395,7 @@ FROM metabase/metabase:v0.45.2.1
 # metabase/metabase
 
 # docker
-FROM docker:20.10.23-dind
+FROM docker:23.0.0-dind
 # docker
 
 # jupyter/base-notebook
@@ -559,7 +559,7 @@ FROM bitnami/consul:1.14.4-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.11-debian-11-r0
+FROM bitnami/nats:2.9.12-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -695,7 +695,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.11-alpine3.17
+FROM nats:2.9.12-alpine3.17
 # nats
 
 # masipcat/wireguard-go
@@ -1099,7 +1099,7 @@ FROM confluentinc/confluent-init-container:2.5.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.517.56
+FROM confluentinc/confluent-operator:0.581.34
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
