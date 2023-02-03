@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:e902a5ede3335b40edf720db97f0f318f2f014bf3439567
 # buildpack-deps
 
 # php
-FROM php:8.2.1-apache-bullseye
+FROM php:8.2.2-apache-bullseye
 # php
 
 # golang
