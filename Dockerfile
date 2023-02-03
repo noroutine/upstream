@@ -1079,7 +1079,7 @@ FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.7.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM k8s.gcr.io/sig-storage/csi-attacher:v4.1.0
+FROM k8s.gcr.io/sig-storage/csi-attacher:v4.2.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
