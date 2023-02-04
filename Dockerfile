@@ -631,7 +631,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.4.3
+FROM drakkan/sftpgo:v2.4.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
