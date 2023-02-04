@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.46.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.10
+FROM squidfunk/mkdocs-material:9.0.11
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -375,11 +375,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.33.5
+FROM ghost:5.33.6
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.33.5-debian-11-r0
+FROM bitnami/ghost:5.33.6-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -439,7 +439,7 @@ FROM caprover/caprover:1.10.1
 # caprover/caprover
 
 # mikecao/umami
-FROM ghcr.io/mikecao/umami:postgresql-2575cbf
+FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
@@ -819,7 +819,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.10
+FROM firezone/firezone:0.7.11
 # firezone/firezone
 
 # apache/airflow
@@ -1079,7 +1079,7 @@ FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.7.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM k8s.gcr.io/sig-storage/csi-attacher:v4.1.0
+FROM k8s.gcr.io/sig-storage/csi-attacher:v4.2.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
