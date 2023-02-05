@@ -822,6 +822,10 @@ FROM coturn/coturn:4.6.1
 FROM firezone/firezone:0.7.11
 # firezone/firezone
 
+# jenkins/jenkins
+FROM jenkins/jenkins:2.389-jdk17
+# jenkins/jenkins
+
 # apache/airflow
 FROM apache/airflow:2.5.1-python3.10
 # apache/airflow
