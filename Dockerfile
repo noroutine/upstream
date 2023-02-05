@@ -826,6 +826,10 @@ FROM firezone/firezone:0.7.11
 FROM jenkins/jenkins:2.389-jdk17
 # jenkins/jenkins
 
+# jenkins/agent
+FROM jenkins/agent:3085.vc4c6977c075a-5-jdk17
+# jenkins/agent
+
 # apache/airflow
 FROM apache/airflow:2.5.1-python3.10
 # apache/airflow
