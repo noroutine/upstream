@@ -819,7 +819,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.11
+FROM firezone/firezone:0.7.12
 # firezone/firezone
 
 # jenkins/jenkins
@@ -887,11 +887,11 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.12.2
+FROM hashicorp/vault:1.12.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.1.0
+FROM hashicorp/vault-k8s:1.2.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
