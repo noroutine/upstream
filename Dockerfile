@@ -827,7 +827,7 @@ FROM jenkins/jenkins:2.389-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3085.vc4c6977c075a-5-jdk17
+FROM jenkins/agent:3107.v665000b_51092-1-jdk17
 # jenkins/agent
 
 # apache/airflow
