@@ -379,7 +379,7 @@ FROM ghost:5.33.6
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.33.6-debian-11-r0
+FROM bitnami/ghost:5.33.7-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -643,7 +643,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.4
+FROM stakater/reloader:v1.0.5
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -823,7 +823,7 @@ FROM firezone/firezone:0.7.12
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.389-jdk17
+FROM jenkins/jenkins:2.390-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
