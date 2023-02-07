@@ -71,7 +71,7 @@ FROM traefik:v2.9.6
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.46.0
+FROM sonatype/nexus3:3.47.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -835,7 +835,7 @@ FROM apache/airflow:2.5.1-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM k8s.gcr.io/git-sync/git-sync:v3.6.3
+FROM k8s.gcr.io/git-sync/git-sync:v3.6.4
 # git-sync/git-sync
 
 # kedacore/keda
@@ -899,11 +899,11 @@ FROM hashicorp/vault-csi-provider:1.2.1
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.33.0
+FROM quay.io/strimzi/operator:0.33.1
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.33.0-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.33.1-kafka-3.3.1
 # strimzi/kafka
 
 # pause
