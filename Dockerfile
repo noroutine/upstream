@@ -635,7 +635,7 @@ FROM drakkan/sftpgo:v2.4.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.17.1
+FROM hasura/graphql-engine:v2.18.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -751,7 +751,7 @@ FROM outlinewiki/outline:0.67.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.23.0
+FROM syncthing/syncthing:1.23.1
 # syncthing/syncthing
 
 # jellyfin/jellyfin
