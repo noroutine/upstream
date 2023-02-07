@@ -823,7 +823,7 @@ FROM firezone/firezone:0.7.12
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.389-jdk17
+FROM jenkins/jenkins:2.390-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
