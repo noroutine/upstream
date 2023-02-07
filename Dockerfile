@@ -215,7 +215,7 @@ FROM mysql:8.0.32
 # mysql
 
 # mariadb
-FROM mariadb:10.10.2-jammy
+FROM mariadb:10.10.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -507,7 +507,7 @@ FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r20
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.10.2-debian-11-r0
+FROM bitnami/mariadb:10.10.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -559,7 +559,7 @@ FROM bitnami/consul:1.14.4-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.12-debian-11-r0
+FROM bitnami/nats:2.9.14-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -643,7 +643,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.3
+FROM stakater/reloader:v1.0.4
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -695,7 +695,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.12-alpine3.17
+FROM nats:2.9.14-alpine3.17
 # nats
 
 # masipcat/wireguard-go
