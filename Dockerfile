@@ -695,7 +695,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.12-alpine3.17
+FROM nats:2.9.14-alpine3.17
 # nats
 
 # masipcat/wireguard-go
