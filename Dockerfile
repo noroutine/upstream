@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.2
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-01-31T02-24-19Z
+FROM minio/minio:RELEASE.2023-02-09T05-16-53Z
 # minio/minio
 
 # coreos/etcd
@@ -527,7 +527,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.1.31-debian-11-r0
+FROM bitnami/minio:2023.2.9-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -679,7 +679,7 @@ FROM vaultwarden/server:1.27.0
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v3.5.1
+FROM boky/postfix:v3.6.0
 # boky/postfix
 
 # cupcakearmy/cryptgeon
