@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20230202-slim
+FROM debian:bullseye-20230208-slim
 # debian
 
 # ubuntu
@@ -451,7 +451,7 @@ FROM bitnami/prometheus:2.42.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.62.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.63.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -623,7 +623,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.7.2
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.23.0
+FROM minio/console:v0.23.1
 # minio/console
 
 # kutt/kutt
@@ -711,7 +711,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.6.2-alpine
+FROM caddy:2.6.3-alpine
 # caddy
 
 # outline/shadowbox
@@ -819,7 +819,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.12
+FROM firezone/firezone:0.7.13
 # firezone/firezone
 
 # jenkins/jenkins
@@ -827,7 +827,7 @@ FROM jenkins/jenkins:2.390-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-1-jdk17
+FROM jenkins/agent:3107.v665000b_51092-2-jdk17
 # jenkins/agent
 
 # apache/airflow
