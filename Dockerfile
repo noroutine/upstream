@@ -819,7 +819,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.12
+FROM firezone/firezone:0.7.13
 # firezone/firezone
 
 # jenkins/jenkins
