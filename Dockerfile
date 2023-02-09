@@ -207,7 +207,7 @@ FROM wordpress:6.1.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.19
+FROM dpage/pgadmin4:6.20
 # dpage/pgadmin4
 
 # mysql
@@ -379,7 +379,7 @@ FROM ghost:5.33.7
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.33.7-debian-11-r0
+FROM bitnami/ghost:5.33.8-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -803,15 +803,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.6.1
+FROM wiretrustee/dashboard:v1.7.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.12.0
+FROM netbirdio/signal:0.13.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.12.0
+FROM netbirdio/management:0.13.0
 # netbirdio/management
 
 # coturn/coturn
