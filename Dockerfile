@@ -71,11 +71,11 @@ FROM traefik:v2.9.6
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.47.0
+FROM sonatype/nexus3:3.47.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.11
+FROM squidfunk/mkdocs-material:9.0.12
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -267,7 +267,7 @@ FROM buildpacksio/lifecycle:0.15.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.8.1
+FROM gitlab/gitlab-runner:alpine-v15.8.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -611,11 +611,11 @@ FROM bitnami/sealed-secrets-controller:v0.19.4
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.37.1-debian-11-r0
+FROM bitnami/trivy:0.37.2-debian-11-r0
 # bitnami/trivy
 
 # aquasec/trivy
-FROM aquasec/trivy:0.37.1
+FROM aquasec/trivy:0.37.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
