@@ -479,23 +479,23 @@ FROM bitnami/postgresql:10.23.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.18.0-debian-11-r0
+FROM bitnami/postgresql:11.19.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.13.0-debian-11-r0
+FROM bitnami/postgresql:12.14.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.9.0-debian-11-r0
+FROM bitnami/postgresql:13.10.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.6.0-debian-11-r0
+FROM bitnami/postgresql:14.7.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.1.0-debian-11-r0
+FROM bitnami/postgresql:15.2.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
@@ -679,7 +679,7 @@ FROM vaultwarden/server:1.27.0
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v3.6.0
+FROM boky/postfix:v3.6.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
@@ -791,7 +791,7 @@ FROM restic/restic:0.15.1
 # restic/restic
 
 # coredns/coredns
-FROM k8s.gcr.io/coredns/coredns:v1.10.0
+FROM k8s.gcr.io/coredns/coredns:v1.10.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
