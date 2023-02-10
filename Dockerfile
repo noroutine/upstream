@@ -791,7 +791,7 @@ FROM restic/restic:0.15.1
 # restic/restic
 
 # coredns/coredns
-FROM k8s.gcr.io/coredns/coredns:v1.10.0
+FROM k8s.gcr.io/coredns/coredns:v1.10.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
