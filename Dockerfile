@@ -11,7 +11,7 @@ FROM ubuntu:focal-20230126
 # ubuntu
 
 # alpine
-FROM alpine:3.17.1
+FROM alpine:3.17.2
 # alpine
 
 # busybox
@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.2
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-02-09T05-16-53Z
+FROM minio/minio:RELEASE.2023-02-10T18-48-39Z
 # minio/minio
 
 # coreos/etcd
@@ -375,7 +375,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.33.7
+FROM ghost:5.33.8
 # ghost
 
 # bitnami/ghost
@@ -395,7 +395,7 @@ FROM metabase/metabase:v0.45.2.1
 # metabase/metabase
 
 # docker
-FROM docker:23.0.0-dind
+FROM docker:23.0.1-dind
 # docker
 
 # jupyter/base-notebook
@@ -527,7 +527,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.2.9-debian-11-r0
+FROM bitnami/minio:2023.2.10-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -759,11 +759,11 @@ FROM jellyfin/jellyfin:10.8.9
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.17.1
+FROM gravitl/netmaker:v0.18.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.17.1
+FROM gravitl/netmaker-ui:v0.18.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -803,7 +803,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.7.0
+FROM wiretrustee/dashboard:v1.7.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -911,7 +911,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.9.3
+FROM registry.k8s.io/coredns/coredns:v1.9.4
 # coredns/coredns
 
 # kube-apiserver
@@ -931,51 +931,51 @@ FROM registry.k8s.io/kube-controller-manager:v1.26.1
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.5
+FROM registry.k8s.io/kube-apiserver:v1.25.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.5
+FROM registry.k8s.io/kube-proxy:v1.25.6
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.5
+FROM registry.k8s.io/kube-scheduler:v1.25.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.5
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.24.9
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.24.9
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.9
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.24.9
+FROM registry.k8s.io/kube-controller-manager:v1.25.6
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.23.15
+FROM registry.k8s.io/kube-apiserver:v1.24.10
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.23.15
+FROM registry.k8s.io/kube-proxy:v1.24.10
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.23.15
+FROM registry.k8s.io/kube-scheduler:v1.24.10
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.23.15
+FROM registry.k8s.io/kube-controller-manager:v1.24.10
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.23.16
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.23.16
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.23.16
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.23.16
 # kube-controller-manager
 
 # tigera/operator
