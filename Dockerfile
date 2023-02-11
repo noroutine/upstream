@@ -87,7 +87,7 @@ FROM quay.io/keycloak/keycloak:20.0.3
 # keycloak/keycloak
 
 # postgres
-FROM postgres:15.1-bullseye
+FROM postgres:15.2-bullseye
 # postgres
 
 # atlassian/jira-software
@@ -351,7 +351,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.01.10
+FROM pihole/pihole:2023.02.0
 # pihole/pihole
 
 # yandex/clickhouse-server
