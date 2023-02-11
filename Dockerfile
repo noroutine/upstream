@@ -911,7 +911,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.9.4
+FROM registry.k8s.io/coredns/coredns:v1.10.1
 # coredns/coredns
 
 # kube-apiserver
