@@ -1,5 +1,5 @@
 {
-  "version": "f008bfc7",
+  "version": "c12aa077",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -552,5 +552,1043 @@
     "CONFLUENTINC_CP_ZOOKEEPER_VERSION": "7.3.1",
     "OBSIDIANDYNAMICS_KAFDROP_VERSION": "3.30.0",
     "TCHIOTLUDO_AKHQ_VERSION": "0.23.0"
+  },
+  "component": {
+    "debian": {
+      "base": "debian",
+      "version": "debian"
+    },
+    "ubuntu": {
+      "base": "ubuntu",
+      "version": "ubuntu"
+    },
+    "alpine": {
+      "base": "alpine",
+      "version": "alpine"
+    },
+    "busybox": {
+      "base": "busybox",
+      "version": "busybox"
+    },
+    "distroless-static-debian11": {
+      "base": "distroless/static-debian11",
+      "version": "distroless/static-debian11"
+    },
+    "distroless-base-debian11": {
+      "base": "distroless/base-debian11",
+      "version": "distroless/base-debian11"
+    },
+    "distroless-java11-debian11": {
+      "base": "distroless/java11-debian11",
+      "version": "distroless/java11-debian11"
+    },
+    "distroless-java17-debian11": {
+      "base": "distroless/java17-debian11",
+      "version": "distroless/java17-debian11"
+    },
+    "distroless-cc-debian11": {
+      "base": "distroless/cc-debian11",
+      "version": "distroless/cc-debian11"
+    },
+    "distroless-nodejs-debian11": {
+      "base": "distroless/nodejs-debian11",
+      "version": "distroless/nodejs-debian11"
+    },
+    "buildpack-deps": {
+      "base": "buildpack-deps",
+      "version": "buildpack-deps"
+    },
+    "php": {
+      "base": "php",
+      "version": "php"
+    },
+    "golang": {
+      "base": "golang",
+      "version": "golang"
+    },
+    "traefik": {
+      "base": "traefik",
+      "version": "traefik"
+    },
+    "sonatype-nexus3": {
+      "base": "sonatype/nexus3",
+      "version": "sonatype/nexus3"
+    },
+    "squidfunk-mkdocs-material": {
+      "base": "squidfunk/mkdocs-material",
+      "version": "squidfunk/mkdocs-material"
+    },
+    "freeradius-freeradius-server": {
+      "base": "freeradius/freeradius-server",
+      "version": "freeradius/freeradius-server"
+    },
+    "keycloak-keycloak": {
+      "base": "keycloak/keycloak",
+      "version": "keycloak/keycloak"
+    },
+    "postgres": {
+      "base": "postgres",
+      "version": "postgres"
+    },
+    "atlassian-jira-software": {
+      "base": "atlassian/jira-software",
+      "version": "atlassian/jira-software"
+    },
+    "nextcloud": {
+      "base": "nextcloud",
+      "version": "nextcloud"
+    },
+    "haproxytech-haproxy-debian": {
+      "base": "haproxytech/haproxy-debian",
+      "version": "haproxytech/haproxy-debian"
+    },
+    "minio-minio": {
+      "base": "minio/minio",
+      "version": "minio/minio"
+    },
+    "coreos-etcd": {
+      "base": "coreos/etcd",
+      "version": "coreos/etcd"
+    },
+    "prom-prometheus": {
+      "base": "prom/prometheus",
+      "version": "prom/prometheus"
+    },
+    "prom-alertmanager": {
+      "base": "prom/alertmanager",
+      "version": "prom/alertmanager"
+    },
+    "prom-node-exporter": {
+      "base": "prom/node-exporter",
+      "version": "prom/node-exporter"
+    },
+    "prom-consul-exporter": {
+      "base": "prom/consul-exporter",
+      "version": "prom/consul-exporter"
+    },
+    "prom-blackbox-exporter": {
+      "base": "prom/blackbox-exporter",
+      "version": "prom/blackbox-exporter"
+    },
+    "prom-snmp-exporter": {
+      "base": "prom/snmp-exporter",
+      "version": "prom/snmp-exporter"
+    },
+    "prom-pushgateway": {
+      "base": "prom/pushgateway",
+      "version": "prom/pushgateway"
+    },
+    "grafana-grafana": {
+      "base": "grafana/grafana",
+      "version": "grafana/grafana"
+    },
+    "grafana-loki": {
+      "base": "grafana/loki",
+      "version": "grafana/loki"
+    },
+    "grafana-loki-canary": {
+      "base": "grafana/loki-canary",
+      "version": "grafana/loki-canary"
+    },
+    "grafana-promtail": {
+      "base": "grafana/promtail",
+      "version": "grafana/promtail"
+    },
+    "m3db-m3coordinator": {
+      "base": "m3db/m3coordinator",
+      "version": "m3db/m3coordinator"
+    },
+    "m3db-m3dbnode": {
+      "base": "m3db/m3dbnode",
+      "version": "m3db/m3dbnode"
+    },
+    "braedon-prometheus-es-exporter": {
+      "base": "braedon/prometheus-es-exporter",
+      "version": "braedon/prometheus-es-exporter"
+    },
+    "ribbybibby-ssl-exporter": {
+      "base": "ribbybibby/ssl-exporter",
+      "version": "ribbybibby/ssl-exporter"
+    },
+    "cadvisor-cadvisor": {
+      "base": "cadvisor/cadvisor",
+      "version": "cadvisor/cadvisor"
+    },
+    "prymitive-karma": {
+      "base": "prymitive/karma",
+      "version": "prymitive/karma"
+    },
+    "cortexproject-cortex": {
+      "base": "cortexproject/cortex",
+      "version": "cortexproject/cortex"
+    },
+    "elasticsearch-elasticsearch": {
+      "base": "elasticsearch/elasticsearch",
+      "version": "elasticsearch/elasticsearch"
+    },
+    "logstash-logstash": {
+      "base": "logstash/logstash",
+      "version": "logstash/logstash"
+    },
+    "kibana-kibana": {
+      "base": "kibana/kibana",
+      "version": "kibana/kibana"
+    },
+    "alerta-alerta-web": {
+      "base": "alerta/alerta-web",
+      "version": "alerta/alerta-web"
+    },
+    "mongo": {
+      "base": "mongo",
+      "version": "mongo"
+    },
+    "wordpress": {
+      "base": "wordpress",
+      "version": "wordpress"
+    },
+    "dpage-pgadmin4": {
+      "base": "dpage/pgadmin4",
+      "version": "dpage/pgadmin4"
+    },
+    "mysql": {
+      "base": "mysql",
+      "version": "mysql"
+    },
+    "mariadb": {
+      "base": "mariadb",
+      "version": "mariadb"
+    },
+    "mccutchen-go-httpbin": {
+      "base": "mccutchen/go-httpbin",
+      "version": "mccutchen/go-httpbin"
+    },
+    "oauth2-proxy-oauth2-proxy": {
+      "base": "oauth2-proxy/oauth2-proxy",
+      "version": "oauth2-proxy/oauth2-proxy"
+    },
+    "heroku-heroku": {
+      "base": "heroku/heroku",
+      "version": "heroku/heroku"
+    },
+    "heroku-procfile-cnb": {
+      "base": "heroku/procfile-cnb",
+      "version": "heroku/procfile-cnb"
+    },
+    "paketobuildpacks-builder": {
+      "base": "paketobuildpacks/builder",
+      "version": "paketobuildpacks/builder"
+    },
+    "paketobuildpacks-run": {
+      "base": "paketobuildpacks/run",
+      "version": "paketobuildpacks/run"
+    },
+    "buildpacksio-lifecycle": {
+      "base": "buildpacksio/lifecycle",
+      "version": "buildpacksio/lifecycle"
+    },
+    "gitlab-gitlab-runner": {
+      "base": "gitlab/gitlab-runner",
+      "version": "gitlab/gitlab-runner"
+    },
+    "gitlab-gitlab-ce": {
+      "base": "gitlab/gitlab-ce",
+      "version": "gitlab/gitlab-ce"
+    },
+    "gitlab-org-cluster-integration-auto-build-image": {
+      "base": "gitlab-org/cluster-integration/auto-build-image",
+      "version": "gitlab-org/cluster-integration/auto-build-image"
+    },
+    "gitlab-org-cluster-integration-auto-deploy-image": {
+      "base": "gitlab-org/cluster-integration/auto-deploy-image",
+      "version": "gitlab-org/cluster-integration/auto-deploy-image"
+    },
+    "gitlab-org-cluster-integration-gitlab-agent-agentk": {
+      "base": "gitlab-org/cluster-integration/gitlab-agent/agentk",
+      "version": "gitlab-org/cluster-integration/gitlab-agent/agentk"
+    },
+    "gitlab-org-cluster-integration-cluster-applications": {
+      "base": "gitlab-org/cluster-integration/cluster-applications",
+      "version": "gitlab-org/cluster-integration/cluster-applications"
+    },
+    "summerwind-actions-runner-controller": {
+      "base": "summerwind/actions-runner-controller",
+      "version": "summerwind/actions-runner-controller"
+    },
+    "summerwind-actions-runner": {
+      "base": "summerwind/actions-runner",
+      "version": "summerwind/actions-runner"
+    },
+    "summerwind-actions-runner-dind": {
+      "base": "summerwind/actions-runner-dind",
+      "version": "summerwind/actions-runner-dind"
+    },
+    "brancz-kube-rbac-proxy": {
+      "base": "brancz/kube-rbac-proxy",
+      "version": "brancz/kube-rbac-proxy"
+    },
+    "jupyterhub-k8s-image-cleaner": {
+      "base": "jupyterhub/k8s-image-cleaner",
+      "version": "jupyterhub/k8s-image-cleaner"
+    },
+    "noroutine-k8s-binderhub": {
+      "base": "noroutine/k8s-binderhub",
+      "version": "noroutine/k8s-binderhub"
+    },
+    "jupyterhub-k8s-hub": {
+      "base": "jupyterhub/k8s-hub",
+      "version": "jupyterhub/k8s-hub"
+    },
+    "jupyterhub-k8s-secret-sync": {
+      "base": "jupyterhub/k8s-secret-sync",
+      "version": "jupyterhub/k8s-secret-sync"
+    },
+    "jupyterhub-k8s-network-tools": {
+      "base": "jupyterhub/k8s-network-tools",
+      "version": "jupyterhub/k8s-network-tools"
+    },
+    "jupyterhub-k8s-image-awaiter": {
+      "base": "jupyterhub/k8s-image-awaiter",
+      "version": "jupyterhub/k8s-image-awaiter"
+    },
+    "jupyterhub-k8s-singleuser-sample": {
+      "base": "jupyterhub/k8s-singleuser-sample",
+      "version": "jupyterhub/k8s-singleuser-sample"
+    },
+    "jupyterhub-configurable-http-proxy": {
+      "base": "jupyterhub/configurable-http-proxy",
+      "version": "jupyterhub/configurable-http-proxy"
+    },
+    "kube-scheduler": {
+      "base": "kube-scheduler",
+      "version": "kube-scheduler"
+    },
+    "pause": {
+      "base": "pause",
+      "version": "pause"
+    },
+    "noroutine-repo2docker": {
+      "base": "noroutine/repo2docker",
+      "version": "noroutine/repo2docker"
+    },
+    "pihole-pihole": {
+      "base": "pihole/pihole",
+      "version": "pihole/pihole"
+    },
+    "yandex-clickhouse-server": {
+      "base": "yandex/clickhouse-server",
+      "version": "yandex/clickhouse-server"
+    },
+    "spoonest-clickhouse-tabix-web-client": {
+      "base": "spoonest/clickhouse-tabix-web-client",
+      "version": "spoonest/clickhouse-tabix-web-client"
+    },
+    "plausible-analytics": {
+      "base": "plausible/analytics",
+      "version": "plausible/analytics"
+    },
+    "verdaccio-verdaccio": {
+      "base": "verdaccio/verdaccio",
+      "version": "verdaccio/verdaccio"
+    },
+    "strapi-strapi": {
+      "base": "strapi/strapi",
+      "version": "strapi/strapi"
+    },
+    "ghost": {
+      "base": "ghost",
+      "version": "ghost"
+    },
+    "bitnami-ghost": {
+      "base": "bitnami/ghost",
+      "version": "bitnami/ghost"
+    },
+    "matomo": {
+      "base": "matomo",
+      "version": "matomo"
+    },
+    "nocodb-nocodb": {
+      "base": "nocodb/nocodb",
+      "version": "nocodb/nocodb"
+    },
+    "metabase-metabase": {
+      "base": "metabase/metabase",
+      "version": "metabase/metabase"
+    },
+    "docker": {
+      "base": "docker",
+      "version": "docker"
+    },
+    "jupyter-base-notebook": {
+      "base": "jupyter/base-notebook",
+      "version": "jupyter/base-notebook"
+    },
+    "jupyter-minimal-notebook": {
+      "base": "jupyter/minimal-notebook",
+      "version": "jupyter/minimal-notebook"
+    },
+    "jupyter-r-notebook": {
+      "base": "jupyter/r-notebook",
+      "version": "jupyter/r-notebook"
+    },
+    "jupyter-scipy-notebook": {
+      "base": "jupyter/scipy-notebook",
+      "version": "jupyter/scipy-notebook"
+    },
+    "jupyter-tensorflow-notebook": {
+      "base": "jupyter/tensorflow-notebook",
+      "version": "jupyter/tensorflow-notebook"
+    },
+    "jupyter-datascience-notebook": {
+      "base": "jupyter/datascience-notebook",
+      "version": "jupyter/datascience-notebook"
+    },
+    "jupyter-pyspark-notebook": {
+      "base": "jupyter/pyspark-notebook",
+      "version": "jupyter/pyspark-notebook"
+    },
+    "jupyter-all-spark-notebook": {
+      "base": "jupyter/all-spark-notebook",
+      "version": "jupyter/all-spark-notebook"
+    },
+    "rocker-shiny": {
+      "base": "rocker/shiny",
+      "version": "rocker/shiny"
+    },
+    "caprover-caprover": {
+      "base": "caprover/caprover",
+      "version": "caprover/caprover"
+    },
+    "mikecao-umami": {
+      "base": "mikecao/umami",
+      "version": "mikecao/umami"
+    },
+    "bitnami-spark": {
+      "base": "bitnami/spark",
+      "version": "bitnami/spark"
+    },
+    "bitnami-prometheus": {
+      "base": "bitnami/prometheus",
+      "version": "bitnami/prometheus"
+    },
+    "bitnami-prometheus-operator": {
+      "base": "bitnami/prometheus-operator",
+      "version": "bitnami/prometheus-operator"
+    },
+    "bitnami-node-exporter": {
+      "base": "bitnami/node-exporter",
+      "version": "bitnami/node-exporter"
+    },
+    "bitnami-blackbox-exporter": {
+      "base": "bitnami/blackbox-exporter",
+      "version": "bitnami/blackbox-exporter"
+    },
+    "bitnami-postgres-exporter": {
+      "base": "bitnami/postgres-exporter",
+      "version": "bitnami/postgres-exporter"
+    },
+    "bitnami-redis": {
+      "base": "bitnami/redis",
+      "version": "bitnami/redis"
+    },
+    "bitnami-redis-exporter": {
+      "base": "bitnami/redis-exporter",
+      "version": "bitnami/redis-exporter"
+    },
+    "bitnami-postgresql": {
+      "base": "bitnami/postgresql",
+      "version": "bitnami/postgresql"
+    },
+    "bitnami-keycloak": {
+      "base": "bitnami/keycloak",
+      "version": "bitnami/keycloak"
+    },
+    "bitnami-keycloak-config-cli": {
+      "base": "bitnami/keycloak-config-cli",
+      "version": "bitnami/keycloak-config-cli"
+    },
+    "bitnami-mariadb": {
+      "base": "bitnami/mariadb",
+      "version": "bitnami/mariadb"
+    },
+    "bitnami-mongodb": {
+      "base": "bitnami/mongodb",
+      "version": "bitnami/mongodb"
+    },
+    "bitnami-memcached": {
+      "base": "bitnami/memcached",
+      "version": "bitnami/memcached"
+    },
+    "bitnami-nginx-ingress-controller": {
+      "base": "bitnami/nginx-ingress-controller",
+      "version": "bitnami/nginx-ingress-controller"
+    },
+    "bitnami-nginx": {
+      "base": "bitnami/nginx",
+      "version": "bitnami/nginx"
+    },
+    "bitnami-minio": {
+      "base": "bitnami/minio",
+      "version": "bitnami/minio"
+    },
+    "bitnami-minio-client": {
+      "base": "bitnami/minio-client",
+      "version": "bitnami/minio-client"
+    },
+    "bitnami-bitnami-shell": {
+      "base": "bitnami/bitnami-shell",
+      "version": "bitnami/bitnami-shell"
+    },
+    "bitnami-metallb-controller": {
+      "base": "bitnami/metallb-controller",
+      "version": "bitnami/metallb-controller"
+    },
+    "bitnami-metallb-speaker": {
+      "base": "bitnami/metallb-speaker",
+      "version": "bitnami/metallb-speaker"
+    },
+    "bitnami-grafana": {
+      "base": "bitnami/grafana",
+      "version": "bitnami/grafana"
+    },
+    "bitnami-grafana-image-renderer": {
+      "base": "bitnami/grafana-image-renderer",
+      "version": "bitnami/grafana-image-renderer"
+    },
+    "bitnami-consul": {
+      "base": "bitnami/consul",
+      "version": "bitnami/consul"
+    },
+    "bitnami-nats": {
+      "base": "bitnami/nats",
+      "version": "bitnami/nats"
+    },
+    "bitnami-kube-state-metrics": {
+      "base": "bitnami/kube-state-metrics",
+      "version": "bitnami/kube-state-metrics"
+    },
+    "bitnami-metrics-server": {
+      "base": "bitnami/metrics-server",
+      "version": "bitnami/metrics-server"
+    },
+    "bitnami-kubeapps-dashboard": {
+      "base": "bitnami/kubeapps-dashboard",
+      "version": "bitnami/kubeapps-dashboard"
+    },
+    "bitnami-kubeapps-apprepository-controller": {
+      "base": "bitnami/kubeapps-apprepository-controller",
+      "version": "bitnami/kubeapps-apprepository-controller"
+    },
+    "bitnami-kubeapps-asset-syncer": {
+      "base": "bitnami/kubeapps-asset-syncer",
+      "version": "bitnami/kubeapps-asset-syncer"
+    },
+    "bitnami-kubeapps-kubeops": {
+      "base": "bitnami/kubeapps-kubeops",
+      "version": "bitnami/kubeapps-kubeops"
+    },
+    "bitnami-kubeapps-assetsvc": {
+      "base": "bitnami/kubeapps-assetsvc",
+      "version": "bitnami/kubeapps-assetsvc"
+    },
+    "bitnami-kubeapps-apis": {
+      "base": "bitnami/kubeapps-apis",
+      "version": "bitnami/kubeapps-apis"
+    },
+    "bitnami-kubeapps-pinniped-proxy": {
+      "base": "bitnami/kubeapps-pinniped-proxy",
+      "version": "bitnami/kubeapps-pinniped-proxy"
+    },
+    "bitnami-kube-rbac-proxy": {
+      "base": "bitnami/kube-rbac-proxy",
+      "version": "bitnami/kube-rbac-proxy"
+    },
+    "bitnami-openldap": {
+      "base": "bitnami/openldap",
+      "version": "bitnami/openldap"
+    },
+    "bitnami-sealed-secrets-controller": {
+      "base": "bitnami/sealed-secrets-controller",
+      "version": "bitnami/sealed-secrets-controller"
+    },
+    "bitnami-trivy": {
+      "base": "bitnami/trivy",
+      "version": "bitnami/trivy"
+    },
+    "aquasec-trivy": {
+      "base": "aquasec/trivy",
+      "version": "aquasec/trivy"
+    },
+    "external-secrets-external-secrets": {
+      "base": "external-secrets/external-secrets",
+      "version": "external-secrets/external-secrets"
+    },
+    "minio-console": {
+      "base": "minio/console",
+      "version": "minio/console"
+    },
+    "kutt-kutt": {
+      "base": "kutt/kutt",
+      "version": "kutt/kutt"
+    },
+    "drakkan-sftpgo": {
+      "base": "drakkan/sftpgo",
+      "version": "drakkan/sftpgo"
+    },
+    "hasura-graphql-engine": {
+      "base": "hasura/graphql-engine",
+      "version": "hasura/graphql-engine"
+    },
+    "paulbouwer-hello-kubernetes": {
+      "base": "paulbouwer/hello-kubernetes",
+      "version": "paulbouwer/hello-kubernetes"
+    },
+    "stakater-reloader": {
+      "base": "stakater/reloader",
+      "version": "stakater/reloader"
+    },
+    "jimmidyson-configmap-reload": {
+      "base": "jimmidyson/configmap-reload",
+      "version": "jimmidyson/configmap-reload"
+    },
+    "registry": {
+      "base": "registry",
+      "version": "registry"
+    },
+    "dexidp-dex": {
+      "base": "dexidp/dex",
+      "version": "dexidp/dex"
+    },
+    "argoproj-argocd": {
+      "base": "argoproj/argocd",
+      "version": "argoproj/argocd"
+    },
+    "argoproj-argocd-applicationset": {
+      "base": "argoproj/argocd-applicationset",
+      "version": "argoproj/argocd-applicationset"
+    },
+    "redis": {
+      "base": "redis",
+      "version": "redis"
+    },
+    "listmonk-listmonk": {
+      "base": "listmonk/listmonk",
+      "version": "listmonk/listmonk"
+    },
+    "vaultwarden-server": {
+      "base": "vaultwarden/server",
+      "version": "vaultwarden/server"
+    },
+    "boky-postfix": {
+      "base": "boky/postfix",
+      "version": "boky/postfix"
+    },
+    "cupcakearmy-cryptgeon": {
+      "base": "cupcakearmy/cryptgeon",
+      "version": "cupcakearmy/cryptgeon"
+    },
+    "memcached": {
+      "base": "memcached",
+      "version": "memcached"
+    },
+    "connecteverything-nats-operator": {
+      "base": "connecteverything/nats-operator",
+      "version": "connecteverything/nats-operator"
+    },
+    "nats": {
+      "base": "nats",
+      "version": "nats"
+    },
+    "masipcat-wireguard-go": {
+      "base": "masipcat/wireguard-go",
+      "version": "masipcat/wireguard-go"
+    },
+    "eclipse-mosquitto": {
+      "base": "eclipse-mosquitto",
+      "version": "eclipse-mosquitto"
+    },
+    "sapcc-mosquitto-exporter": {
+      "base": "sapcc/mosquitto-exporter",
+      "version": "sapcc/mosquitto-exporter"
+    },
+    "caddy": {
+      "base": "caddy",
+      "version": "caddy"
+    },
+    "outline-shadowbox": {
+      "base": "outline/shadowbox",
+      "version": "outline/shadowbox"
+    },
+    "kaniko-project-executor": {
+      "base": "kaniko-project/executor",
+      "version": "kaniko-project/executor"
+    },
+    "iovisor-bpftrace": {
+      "base": "iovisor/bpftrace",
+      "version": "iovisor/bpftrace"
+    },
+    "pryorda-vmware_exporter": {
+      "base": "pryorda/vmware_exporter",
+      "version": "pryorda/vmware_exporter"
+    },
+    "azul-zulu-openjdk": {
+      "base": "azul/zulu-openjdk",
+      "version": "azul/zulu-openjdk"
+    },
+    "elastic-eck-operator": {
+      "base": "elastic/eck-operator",
+      "version": "elastic/eck-operator"
+    },
+    "louislam-uptime-kuma": {
+      "base": "louislam/uptime-kuma",
+      "version": "louislam/uptime-kuma"
+    },
+    "hadolint-hadolint": {
+      "base": "hadolint/hadolint",
+      "version": "hadolint/hadolint"
+    },
+    "outlinewiki-outline": {
+      "base": "outlinewiki/outline",
+      "version": "outlinewiki/outline"
+    },
+    "syncthing-syncthing": {
+      "base": "syncthing/syncthing",
+      "version": "syncthing/syncthing"
+    },
+    "jellyfin-jellyfin": {
+      "base": "jellyfin/jellyfin",
+      "version": "jellyfin/jellyfin"
+    },
+    "gravitl-netmaker": {
+      "base": "gravitl/netmaker",
+      "version": "gravitl/netmaker"
+    },
+    "gravitl-netmaker-ui": {
+      "base": "gravitl/netmaker-ui",
+      "version": "gravitl/netmaker-ui"
+    },
+    "kmb32123-youtube-dl-server": {
+      "base": "kmb32123/youtube-dl-server",
+      "version": "kmb32123/youtube-dl-server"
+    },
+    "puppet-puppetserver": {
+      "base": "puppet/puppetserver",
+      "version": "puppet/puppetserver"
+    },
+    "puppet-puppetdb": {
+      "base": "puppet/puppetdb",
+      "version": "puppet/puppetdb"
+    },
+    "voxpupuli-puppetboard": {
+      "base": "voxpupuli/puppetboard",
+      "version": "voxpupuli/puppetboard"
+    },
+    "puppet-r10k": {
+      "base": "puppet/r10k",
+      "version": "puppet/r10k"
+    },
+    "restic-restic": {
+      "base": "restic/restic",
+      "version": "restic/restic"
+    },
+    "coredns-coredns": {
+      "base": "coredns/coredns",
+      "version": "coredns/coredns"
+    },
+    "yugabytedb-yugabyte": {
+      "base": "yugabytedb/yugabyte",
+      "version": "yugabytedb/yugabyte"
+    },
+    "antelle-keeweb": {
+      "base": "antelle/keeweb",
+      "version": "antelle/keeweb"
+    },
+    "wiretrustee-dashboard": {
+      "base": "wiretrustee/dashboard",
+      "version": "wiretrustee/dashboard"
+    },
+    "netbirdio-signal": {
+      "base": "netbirdio/signal",
+      "version": "netbirdio/signal"
+    },
+    "netbirdio-management": {
+      "base": "netbirdio/management",
+      "version": "netbirdio/management"
+    },
+    "coturn-coturn": {
+      "base": "coturn/coturn",
+      "version": "coturn/coturn"
+    },
+    "firezone-firezone": {
+      "base": "firezone/firezone",
+      "version": "firezone/firezone"
+    },
+    "jenkins-jenkins": {
+      "base": "jenkins/jenkins",
+      "version": "jenkins/jenkins"
+    },
+    "jenkins-agent": {
+      "base": "jenkins/agent",
+      "version": "jenkins/agent"
+    },
+    "apache-airflow": {
+      "base": "apache/airflow",
+      "version": "apache/airflow"
+    },
+    "git-sync-git-sync": {
+      "base": "git-sync/git-sync",
+      "version": "git-sync/git-sync"
+    },
+    "kedacore-keda": {
+      "base": "kedacore/keda",
+      "version": "kedacore/keda"
+    },
+    "kedacore-keda-metrics-apiserver": {
+      "base": "kedacore/keda-metrics-apiserver",
+      "version": "kedacore/keda-metrics-apiserver"
+    },
+    "jetstack-cert-manager-controller": {
+      "base": "jetstack/cert-manager-controller",
+      "version": "jetstack/cert-manager-controller"
+    },
+    "jetstack-cert-manager-cainjector": {
+      "base": "jetstack/cert-manager-cainjector",
+      "version": "jetstack/cert-manager-cainjector"
+    },
+    "jetstack-cert-manager-webhook": {
+      "base": "jetstack/cert-manager-webhook",
+      "version": "jetstack/cert-manager-webhook"
+    },
+    "jetstack-cert-manager-ctl": {
+      "base": "jetstack/cert-manager-ctl",
+      "version": "jetstack/cert-manager-ctl"
+    },
+    "jetstack-cert-manager-csi-driver": {
+      "base": "jetstack/cert-manager-csi-driver",
+      "version": "jetstack/cert-manager-csi-driver"
+    },
+    "zachomedia-cert-manager-webhook-pdns": {
+      "base": "zachomedia/cert-manager-webhook-pdns",
+      "version": "zachomedia/cert-manager-webhook-pdns"
+    },
+    "vstadtmueller-cert-manager-webhook-powerdns": {
+      "base": "vstadtmueller/cert-manager-webhook-powerdns",
+      "version": "vstadtmueller/cert-manager-webhook-powerdns"
+    },
+    "hashicorp-consul": {
+      "base": "hashicorp/consul",
+      "version": "hashicorp/consul"
+    },
+    "hashicorp-consul-k8s-control-plane": {
+      "base": "hashicorp/consul-k8s-control-plane",
+      "version": "hashicorp/consul-k8s-control-plane"
+    },
+    "envoyproxy-envoy-alpine": {
+      "base": "envoyproxy/envoy-alpine",
+      "version": "envoyproxy/envoy-alpine"
+    },
+    "hashicorp-vault": {
+      "base": "hashicorp/vault",
+      "version": "hashicorp/vault"
+    },
+    "hashicorp-vault-k8s": {
+      "base": "hashicorp/vault-k8s",
+      "version": "hashicorp/vault-k8s"
+    },
+    "hashicorp-vault-csi-provider": {
+      "base": "hashicorp/vault-csi-provider",
+      "version": "hashicorp/vault-csi-provider"
+    },
+    "strimzi-operator": {
+      "base": "strimzi/operator",
+      "version": "strimzi/operator"
+    },
+    "strimzi-kafka": {
+      "base": "strimzi/kafka",
+      "version": "strimzi/kafka"
+    },
+    "kube-apiserver": {
+      "base": "kube-apiserver",
+      "version": "kube-apiserver"
+    },
+    "kube-proxy": {
+      "base": "kube-proxy",
+      "version": "kube-proxy"
+    },
+    "kube-controller-manager": {
+      "base": "kube-controller-manager",
+      "version": "kube-controller-manager"
+    },
+    "tigera-operator": {
+      "base": "tigera/operator",
+      "version": "tigera/operator"
+    },
+    "calico-typha": {
+      "base": "calico/typha",
+      "version": "calico/typha"
+    },
+    "calico-ctl": {
+      "base": "calico/ctl",
+      "version": "calico/ctl"
+    },
+    "calico-node": {
+      "base": "calico/node",
+      "version": "calico/node"
+    },
+    "calico-cni": {
+      "base": "calico/cni",
+      "version": "calico/cni"
+    },
+    "calico-apiserver": {
+      "base": "calico/apiserver",
+      "version": "calico/apiserver"
+    },
+    "calico-kube-controllers": {
+      "base": "calico/kube-controllers",
+      "version": "calico/kube-controllers"
+    },
+    "calico-dikastes": {
+      "base": "calico/dikastes",
+      "version": "calico/dikastes"
+    },
+    "calico-pod2daemon-flexvol": {
+      "base": "calico/pod2daemon-flexvol",
+      "version": "calico/pod2daemon-flexvol"
+    },
+    "calico-node-driver-registrar": {
+      "base": "calico/node-driver-registrar",
+      "version": "calico/node-driver-registrar"
+    },
+    "calico-csi": {
+      "base": "calico/csi",
+      "version": "calico/csi"
+    },
+    "longhornio-longhorn-manager": {
+      "base": "longhornio/longhorn-manager",
+      "version": "longhornio/longhorn-manager"
+    },
+    "longhornio-longhorn-ui": {
+      "base": "longhornio/longhorn-ui",
+      "version": "longhornio/longhorn-ui"
+    },
+    "longhornio-longhorn-engine": {
+      "base": "longhornio/longhorn-engine",
+      "version": "longhornio/longhorn-engine"
+    },
+    "longhornio-longhorn-instance-manager": {
+      "base": "longhornio/longhorn-instance-manager",
+      "version": "longhornio/longhorn-instance-manager"
+    },
+    "longhornio-longhorn-share-manager": {
+      "base": "longhornio/longhorn-share-manager",
+      "version": "longhornio/longhorn-share-manager"
+    },
+    "longhornio-backing-image-manager": {
+      "base": "longhornio/backing-image-manager",
+      "version": "longhornio/backing-image-manager"
+    },
+    "longhornio-csi-node-driver-registrar": {
+      "base": "longhornio/csi-node-driver-registrar",
+      "version": "longhornio/csi-node-driver-registrar"
+    },
+    "longhornio-csi-snapshotter": {
+      "base": "longhornio/csi-snapshotter",
+      "version": "longhornio/csi-snapshotter"
+    },
+    "longhornio-csi-resizer": {
+      "base": "longhornio/csi-resizer",
+      "version": "longhornio/csi-resizer"
+    },
+    "longhornio-csi-provisioner": {
+      "base": "longhornio/csi-provisioner",
+      "version": "longhornio/csi-provisioner"
+    },
+    "longhornio-csi-attacher": {
+      "base": "longhornio/csi-attacher",
+      "version": "longhornio/csi-attacher"
+    },
+    "cloud-provider-vsphere-cpi-release-manager": {
+      "base": "cloud-provider-vsphere/cpi/release/manager",
+      "version": "cloud-provider-vsphere/cpi/release/manager"
+    },
+    "cloud-provider-vsphere-csi-release-driver": {
+      "base": "cloud-provider-vsphere/csi/release/driver",
+      "version": "cloud-provider-vsphere/csi/release/driver"
+    },
+    "cloud-provider-vsphere-csi-release-syncer": {
+      "base": "cloud-provider-vsphere/csi/release/syncer",
+      "version": "cloud-provider-vsphere/csi/release/syncer"
+    },
+    "sig-storage-livenessprobe": {
+      "base": "sig-storage/livenessprobe",
+      "version": "sig-storage/livenessprobe"
+    },
+    "sig-storage-csi-node-driver-registrar": {
+      "base": "sig-storage/csi-node-driver-registrar",
+      "version": "sig-storage/csi-node-driver-registrar"
+    },
+    "sig-storage-csi-attacher": {
+      "base": "sig-storage/csi-attacher",
+      "version": "sig-storage/csi-attacher"
+    },
+    "sig-storage-csi-resizer": {
+      "base": "sig-storage/csi-resizer",
+      "version": "sig-storage/csi-resizer"
+    },
+    "sig-storage-csi-provisioner": {
+      "base": "sig-storage/csi-provisioner",
+      "version": "sig-storage/csi-provisioner"
+    },
+    "sig-storage-csi-snapshotter": {
+      "base": "sig-storage/csi-snapshotter",
+      "version": "sig-storage/csi-snapshotter"
+    },
+    "confluentinc-confluent-init-container": {
+      "base": "confluentinc/confluent-init-container",
+      "version": "confluentinc/confluent-init-container"
+    },
+    "confluentinc-confluent-operator": {
+      "base": "confluentinc/confluent-operator",
+      "version": "confluentinc/confluent-operator"
+    },
+    "confluentinc-cp-enterprise-control-center": {
+      "base": "confluentinc/cp-enterprise-control-center",
+      "version": "confluentinc/cp-enterprise-control-center"
+    },
+    "confluentinc-cp-enterprise-replicator": {
+      "base": "confluentinc/cp-enterprise-replicator",
+      "version": "confluentinc/cp-enterprise-replicator"
+    },
+    "confluentinc-cp-kafka-rest": {
+      "base": "confluentinc/cp-kafka-rest",
+      "version": "confluentinc/cp-kafka-rest"
+    },
+    "confluentinc-cp-ksqldb-server": {
+      "base": "confluentinc/cp-ksqldb-server",
+      "version": "confluentinc/cp-ksqldb-server"
+    },
+    "confluentinc-cp-schema-registry": {
+      "base": "confluentinc/cp-schema-registry",
+      "version": "confluentinc/cp-schema-registry"
+    },
+    "confluentinc-cp-server": {
+      "base": "confluentinc/cp-server",
+      "version": "confluentinc/cp-server"
+    },
+    "confluentinc-cp-server-connect": {
+      "base": "confluentinc/cp-server-connect",
+      "version": "confluentinc/cp-server-connect"
+    },
+    "confluentinc-cp-zookeeper": {
+      "base": "confluentinc/cp-zookeeper",
+      "version": "confluentinc/cp-zookeeper"
+    },
+    "obsidiandynamics-kafdrop": {
+      "base": "obsidiandynamics/kafdrop",
+      "version": "obsidiandynamics/kafdrop"
+    },
+    "tchiotludo-akhq": {
+      "base": "tchiotludo/akhq",
+      "version": "tchiotludo/akhq"
+    }
   }
 }
