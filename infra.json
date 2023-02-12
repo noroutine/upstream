@@ -1,5 +1,5 @@
 {
-  "version": "c12aa077",
+  "version": "a365ee6f",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -556,1039 +556,1039 @@
   "component": {
     "debian": {
       "base": "debian",
-      "version": "debian"
+      "version": "bullseye-20230208-slim"
     },
     "ubuntu": {
       "base": "ubuntu",
-      "version": "ubuntu"
+      "version": "focal-20230126"
     },
     "alpine": {
       "base": "alpine",
-      "version": "alpine"
+      "version": "3.17.2"
     },
     "busybox": {
       "base": "busybox",
-      "version": "busybox"
+      "version": "1.36.0"
     },
     "distroless-static-debian11": {
       "base": "distroless/static-debian11",
-      "version": "distroless/static-debian11"
+      "version": "latest"
     },
     "distroless-base-debian11": {
       "base": "distroless/base-debian11",
-      "version": "distroless/base-debian11"
+      "version": "latest"
     },
     "distroless-java11-debian11": {
       "base": "distroless/java11-debian11",
-      "version": "distroless/java11-debian11"
+      "version": "latest"
     },
     "distroless-java17-debian11": {
       "base": "distroless/java17-debian11",
-      "version": "distroless/java17-debian11"
+      "version": "latest"
     },
     "distroless-cc-debian11": {
       "base": "distroless/cc-debian11",
-      "version": "distroless/cc-debian11"
+      "version": "latest"
     },
     "distroless-nodejs-debian11": {
       "base": "distroless/nodejs-debian11",
-      "version": "distroless/nodejs-debian11"
+      "version": "latest"
     },
     "buildpack-deps": {
       "base": "buildpack-deps",
-      "version": "buildpack-deps"
+      "version": "jammy"
     },
     "php": {
       "base": "php",
-      "version": "php"
+      "version": "8.2.2-apache-bullseye"
     },
     "golang": {
       "base": "golang",
-      "version": "golang"
+      "version": "1.20.0-alpine3.17"
     },
     "traefik": {
       "base": "traefik",
-      "version": "traefik"
+      "version": "v2.9.6"
     },
     "sonatype-nexus3": {
       "base": "sonatype/nexus3",
-      "version": "sonatype/nexus3"
+      "version": "3.47.1"
     },
     "squidfunk-mkdocs-material": {
       "base": "squidfunk/mkdocs-material",
-      "version": "squidfunk/mkdocs-material"
+      "version": "9.0.12"
     },
     "freeradius-freeradius-server": {
       "base": "freeradius/freeradius-server",
-      "version": "freeradius/freeradius-server"
+      "version": "3.2.1-alpine"
     },
     "keycloak-keycloak": {
       "base": "keycloak/keycloak",
-      "version": "keycloak/keycloak"
+      "version": "20.0.3"
     },
     "postgres": {
       "base": "postgres",
-      "version": "postgres"
+      "version": "15.2-bullseye"
     },
     "atlassian-jira-software": {
       "base": "atlassian/jira-software",
-      "version": "atlassian/jira-software"
+      "version": "9.6.0"
     },
     "nextcloud": {
       "base": "nextcloud",
-      "version": "nextcloud"
+      "version": "25.0.3-apache"
     },
     "haproxytech-haproxy-debian": {
       "base": "haproxytech/haproxy-debian",
-      "version": "haproxytech/haproxy-debian"
+      "version": "2.7.2"
     },
     "minio-minio": {
       "base": "minio/minio",
-      "version": "minio/minio"
+      "version": "RELEASE.2023-02-10T18-48-39Z"
     },
     "coreos-etcd": {
       "base": "coreos/etcd",
-      "version": "coreos/etcd"
+      "version": "v3.5.7"
     },
     "prom-prometheus": {
       "base": "prom/prometheus",
-      "version": "prom/prometheus"
+      "version": "v2.42.0"
     },
     "prom-alertmanager": {
       "base": "prom/alertmanager",
-      "version": "prom/alertmanager"
+      "version": "v0.25.0"
     },
     "prom-node-exporter": {
       "base": "prom/node-exporter",
-      "version": "prom/node-exporter"
+      "version": "v1.5.0"
     },
     "prom-consul-exporter": {
       "base": "prom/consul-exporter",
-      "version": "prom/consul-exporter"
+      "version": "v0.9.0"
     },
     "prom-blackbox-exporter": {
       "base": "prom/blackbox-exporter",
-      "version": "prom/blackbox-exporter"
+      "version": "v0.23.0"
     },
     "prom-snmp-exporter": {
       "base": "prom/snmp-exporter",
-      "version": "prom/snmp-exporter"
+      "version": "v0.21.0"
     },
     "prom-pushgateway": {
       "base": "prom/pushgateway",
-      "version": "prom/pushgateway"
+      "version": "v1.5.1"
     },
     "grafana-grafana": {
       "base": "grafana/grafana",
-      "version": "grafana/grafana"
+      "version": "9.3.6"
     },
     "grafana-loki": {
       "base": "grafana/loki",
-      "version": "grafana/loki"
+      "version": "2.7.3"
     },
     "grafana-loki-canary": {
       "base": "grafana/loki-canary",
-      "version": "grafana/loki-canary"
+      "version": "2.7.3"
     },
     "grafana-promtail": {
       "base": "grafana/promtail",
-      "version": "grafana/promtail"
+      "version": "2.7.3"
     },
     "m3db-m3coordinator": {
       "base": "m3db/m3coordinator",
-      "version": "m3db/m3coordinator"
+      "version": "v1.5.0"
     },
     "m3db-m3dbnode": {
       "base": "m3db/m3dbnode",
-      "version": "m3db/m3dbnode"
+      "version": "v1.5.0"
     },
     "braedon-prometheus-es-exporter": {
       "base": "braedon/prometheus-es-exporter",
-      "version": "braedon/prometheus-es-exporter"
+      "version": "0.14.1"
     },
     "ribbybibby-ssl-exporter": {
       "base": "ribbybibby/ssl-exporter",
-      "version": "ribbybibby/ssl-exporter"
+      "version": "2.4.2"
     },
     "cadvisor-cadvisor": {
       "base": "cadvisor/cadvisor",
-      "version": "cadvisor/cadvisor"
+      "version": "v0.47.1"
     },
     "prymitive-karma": {
       "base": "prymitive/karma",
-      "version": "prymitive/karma"
+      "version": "v0.111"
     },
     "cortexproject-cortex": {
       "base": "cortexproject/cortex",
-      "version": "cortexproject/cortex"
+      "version": "v1.14.1"
     },
     "elasticsearch-elasticsearch": {
       "base": "elasticsearch/elasticsearch",
-      "version": "elasticsearch/elasticsearch"
+      "version": "8.6.1"
     },
     "logstash-logstash": {
       "base": "logstash/logstash",
-      "version": "logstash/logstash"
+      "version": "8.6.1"
     },
     "kibana-kibana": {
       "base": "kibana/kibana",
-      "version": "kibana/kibana"
+      "version": "8.6.1"
     },
     "alerta-alerta-web": {
       "base": "alerta/alerta-web",
-      "version": "alerta/alerta-web"
+      "version": "8.7.0"
     },
     "mongo": {
       "base": "mongo",
-      "version": "mongo"
+      "version": "6.0.4-focal"
     },
     "wordpress": {
       "base": "wordpress",
-      "version": "wordpress"
+      "version": "6.1.1-apache"
     },
     "dpage-pgadmin4": {
       "base": "dpage/pgadmin4",
-      "version": "dpage/pgadmin4"
+      "version": "6.20"
     },
     "mysql": {
       "base": "mysql",
-      "version": "mysql"
+      "version": "8.0.32"
     },
     "mariadb": {
       "base": "mariadb",
-      "version": "mariadb"
+      "version": "10.10.3-jammy"
     },
     "mccutchen-go-httpbin": {
       "base": "mccutchen/go-httpbin",
-      "version": "mccutchen/go-httpbin"
+      "version": "v2.5.5"
     },
     "oauth2-proxy-oauth2-proxy": {
       "base": "oauth2-proxy/oauth2-proxy",
-      "version": "oauth2-proxy/oauth2-proxy"
+      "version": "v7.4.0-amd64"
     },
     "heroku-heroku": {
       "base": "heroku/heroku",
-      "version": "heroku/heroku"
+      "version": "22"
     },
     "heroku-procfile-cnb": {
       "base": "heroku/procfile-cnb",
-      "version": "heroku/procfile-cnb"
+      "version": "2.0.0"
     },
     "paketobuildpacks-builder": {
       "base": "paketobuildpacks/builder",
-      "version": "paketobuildpacks/builder"
+      "version": "tiny"
     },
     "paketobuildpacks-run": {
       "base": "paketobuildpacks/run",
-      "version": "paketobuildpacks/run"
+      "version": "full-cnb"
     },
     "buildpacksio-lifecycle": {
       "base": "buildpacksio/lifecycle",
-      "version": "buildpacksio/lifecycle"
+      "version": "0.15.3"
     },
     "gitlab-gitlab-runner": {
       "base": "gitlab/gitlab-runner",
-      "version": "gitlab/gitlab-runner"
+      "version": "alpine-v15.8.2"
     },
     "gitlab-gitlab-ce": {
       "base": "gitlab/gitlab-ce",
-      "version": "gitlab/gitlab-ce"
+      "version": "15.8.1-ce.0"
     },
     "gitlab-org-cluster-integration-auto-build-image": {
       "base": "gitlab-org/cluster-integration/auto-build-image",
-      "version": "gitlab-org/cluster-integration/auto-build-image"
+      "version": "v1.28.0"
     },
     "gitlab-org-cluster-integration-auto-deploy-image": {
       "base": "gitlab-org/cluster-integration/auto-deploy-image",
-      "version": "gitlab-org/cluster-integration/auto-deploy-image"
+      "version": "v2.46.0"
     },
     "gitlab-org-cluster-integration-gitlab-agent-agentk": {
       "base": "gitlab-org/cluster-integration/gitlab-agent/agentk",
-      "version": "gitlab-org/cluster-integration/gitlab-agent/agentk"
+      "version": "v15.8.0"
     },
     "gitlab-org-cluster-integration-cluster-applications": {
       "base": "gitlab-org/cluster-integration/cluster-applications",
-      "version": "gitlab-org/cluster-integration/cluster-applications"
+      "version": "v1.9.0"
     },
     "summerwind-actions-runner-controller": {
       "base": "summerwind/actions-runner-controller",
-      "version": "summerwind/actions-runner-controller"
+      "version": "v0.27.0"
     },
     "summerwind-actions-runner": {
       "base": "summerwind/actions-runner",
-      "version": "summerwind/actions-runner"
+      "version": "v2.301.1-ubuntu-22.04"
     },
     "summerwind-actions-runner-dind": {
       "base": "summerwind/actions-runner-dind",
-      "version": "summerwind/actions-runner-dind"
+      "version": "v2.301.1-ubuntu-22.04"
     },
     "brancz-kube-rbac-proxy": {
       "base": "brancz/kube-rbac-proxy",
-      "version": "brancz/kube-rbac-proxy"
+      "version": "v0.14.0"
     },
     "jupyterhub-k8s-image-cleaner": {
       "base": "jupyterhub/k8s-image-cleaner",
-      "version": "jupyterhub/k8s-image-cleaner"
+      "version": "0.2.0-n768.h13978ab"
     },
     "noroutine-k8s-binderhub": {
       "base": "noroutine/k8s-binderhub",
-      "version": "noroutine/k8s-binderhub"
+      "version": "0.2.0-n930.ha8b371d"
     },
     "jupyterhub-k8s-hub": {
       "base": "jupyterhub/k8s-hub",
-      "version": "jupyterhub/k8s-hub"
+      "version": "2.0.0"
     },
     "jupyterhub-k8s-secret-sync": {
       "base": "jupyterhub/k8s-secret-sync",
-      "version": "jupyterhub/k8s-secret-sync"
+      "version": "2.0.0"
     },
     "jupyterhub-k8s-network-tools": {
       "base": "jupyterhub/k8s-network-tools",
-      "version": "jupyterhub/k8s-network-tools"
+      "version": "2.0.0"
     },
     "jupyterhub-k8s-image-awaiter": {
       "base": "jupyterhub/k8s-image-awaiter",
-      "version": "jupyterhub/k8s-image-awaiter"
+      "version": "2.0.0"
     },
     "jupyterhub-k8s-singleuser-sample": {
       "base": "jupyterhub/k8s-singleuser-sample",
-      "version": "jupyterhub/k8s-singleuser-sample"
+      "version": "2.0.0"
     },
     "jupyterhub-configurable-http-proxy": {
       "base": "jupyterhub/configurable-http-proxy",
-      "version": "jupyterhub/configurable-http-proxy"
+      "version": "4.5.4"
     },
     "kube-scheduler": {
       "base": "kube-scheduler",
-      "version": "kube-scheduler"
+      "version": "v1.23.16"
     },
     "pause": {
       "base": "pause",
-      "version": "pause"
+      "version": "3.9"
     },
     "noroutine-repo2docker": {
       "base": "noroutine/repo2docker",
-      "version": "noroutine/repo2docker"
+      "version": "2022.10.0-92.g4cd300b"
     },
     "pihole-pihole": {
       "base": "pihole/pihole",
-      "version": "pihole/pihole"
+      "version": "2023.02.0"
     },
     "yandex-clickhouse-server": {
       "base": "yandex/clickhouse-server",
-      "version": "yandex/clickhouse-server"
+      "version": "22.1.3.7-alpine"
     },
     "spoonest-clickhouse-tabix-web-client": {
       "base": "spoonest/clickhouse-tabix-web-client",
-      "version": "spoonest/clickhouse-tabix-web-client"
+      "version": "stable"
     },
     "plausible-analytics": {
       "base": "plausible/analytics",
-      "version": "plausible/analytics"
+      "version": "v1.5.1"
     },
     "verdaccio-verdaccio": {
       "base": "verdaccio/verdaccio",
-      "version": "verdaccio/verdaccio"
+      "version": "5.20.1"
     },
     "strapi-strapi": {
       "base": "strapi/strapi",
-      "version": "strapi/strapi"
+      "version": "3.6.8-alpine"
     },
     "ghost": {
       "base": "ghost",
-      "version": "ghost"
+      "version": "5.33.8"
     },
     "bitnami-ghost": {
       "base": "bitnami/ghost",
-      "version": "bitnami/ghost"
+      "version": "5.33.8-debian-11-r0"
     },
     "matomo": {
       "base": "matomo",
-      "version": "matomo"
+      "version": "4.13.3-apache"
     },
     "nocodb-nocodb": {
       "base": "nocodb/nocodb",
-      "version": "nocodb/nocodb"
+      "version": "0.104.3"
     },
     "metabase-metabase": {
       "base": "metabase/metabase",
-      "version": "metabase/metabase"
+      "version": "v0.45.2.1"
     },
     "docker": {
       "base": "docker",
-      "version": "docker"
+      "version": "23.0.1-dind"
     },
     "jupyter-base-notebook": {
       "base": "jupyter/base-notebook",
-      "version": "jupyter/base-notebook"
+      "version": "hub-3.1.1"
     },
     "jupyter-minimal-notebook": {
       "base": "jupyter/minimal-notebook",
-      "version": "jupyter/minimal-notebook"
+      "version": "hub-3.1.1"
     },
     "jupyter-r-notebook": {
       "base": "jupyter/r-notebook",
-      "version": "jupyter/r-notebook"
+      "version": "hub-3.1.1"
     },
     "jupyter-scipy-notebook": {
       "base": "jupyter/scipy-notebook",
-      "version": "jupyter/scipy-notebook"
+      "version": "hub-3.1.1"
     },
     "jupyter-tensorflow-notebook": {
       "base": "jupyter/tensorflow-notebook",
-      "version": "jupyter/tensorflow-notebook"
+      "version": "hub-3.1.1"
     },
     "jupyter-datascience-notebook": {
       "base": "jupyter/datascience-notebook",
-      "version": "jupyter/datascience-notebook"
+      "version": "hub-3.1.1"
     },
     "jupyter-pyspark-notebook": {
       "base": "jupyter/pyspark-notebook",
-      "version": "jupyter/pyspark-notebook"
+      "version": "hub-3.1.1"
     },
     "jupyter-all-spark-notebook": {
       "base": "jupyter/all-spark-notebook",
-      "version": "jupyter/all-spark-notebook"
+      "version": "hub-3.1.1"
     },
     "rocker-shiny": {
       "base": "rocker/shiny",
-      "version": "rocker/shiny"
+      "version": "4.2.2"
     },
     "caprover-caprover": {
       "base": "caprover/caprover",
-      "version": "caprover/caprover"
+      "version": "1.10.1"
     },
     "mikecao-umami": {
       "base": "mikecao/umami",
-      "version": "mikecao/umami"
+      "version": "postgresql-v1.33.2"
     },
     "bitnami-spark": {
       "base": "bitnami/spark",
-      "version": "bitnami/spark"
+      "version": "3.3.1-debian-11-r6"
     },
     "bitnami-prometheus": {
       "base": "bitnami/prometheus",
-      "version": "bitnami/prometheus"
+      "version": "2.42.0-debian-11-r0"
     },
     "bitnami-prometheus-operator": {
       "base": "bitnami/prometheus-operator",
-      "version": "bitnami/prometheus-operator"
+      "version": "0.63.0-debian-11-r0"
     },
     "bitnami-node-exporter": {
       "base": "bitnami/node-exporter",
-      "version": "bitnami/node-exporter"
+      "version": "1.5.0-debian-11-r6"
     },
     "bitnami-blackbox-exporter": {
       "base": "bitnami/blackbox-exporter",
-      "version": "bitnami/blackbox-exporter"
+      "version": "0.23.0-debian-11-r3"
     },
     "bitnami-postgres-exporter": {
       "base": "bitnami/postgres-exporter",
-      "version": "bitnami/postgres-exporter"
+      "version": "0.11.1-debian-11-r7"
     },
     "bitnami-redis": {
       "base": "bitnami/redis",
-      "version": "bitnami/redis"
+      "version": "7.0.8-debian-11-r0"
     },
     "bitnami-redis-exporter": {
       "base": "bitnami/redis-exporter",
-      "version": "bitnami/redis-exporter"
+      "version": "1.46.0-debian-11-r0"
     },
     "bitnami-postgresql": {
       "base": "bitnami/postgresql",
-      "version": "bitnami/postgresql"
+      "version": "15.2.0-debian-11-r0"
     },
     "bitnami-keycloak": {
       "base": "bitnami/keycloak",
-      "version": "bitnami/keycloak"
+      "version": "20.0.3-debian-11-r0"
     },
     "bitnami-keycloak-config-cli": {
       "base": "bitnami/keycloak-config-cli",
-      "version": "bitnami/keycloak-config-cli"
+      "version": "5.5.0-debian-11-r20"
     },
     "bitnami-mariadb": {
       "base": "bitnami/mariadb",
-      "version": "bitnami/mariadb"
+      "version": "10.10.3-debian-11-r0"
     },
     "bitnami-mongodb": {
       "base": "bitnami/mongodb",
-      "version": "bitnami/mongodb"
+      "version": "6.0.4-debian-11-r1"
     },
     "bitnami-memcached": {
       "base": "bitnami/memcached",
-      "version": "bitnami/memcached"
+      "version": "1.6.18-debian-11-r0"
     },
     "bitnami-nginx-ingress-controller": {
       "base": "bitnami/nginx-ingress-controller",
-      "version": "bitnami/nginx-ingress-controller"
+      "version": "1.6.0-debian-11-r7"
     },
     "bitnami-nginx": {
       "base": "bitnami/nginx",
-      "version": "bitnami/nginx"
+      "version": "1.23.3-debian-11-r6"
     },
     "bitnami-minio": {
       "base": "bitnami/minio",
-      "version": "bitnami/minio"
+      "version": "2023.2.10-debian-11-r0"
     },
     "bitnami-minio-client": {
       "base": "bitnami/minio-client",
-      "version": "bitnami/minio-client"
+      "version": "2023.1.28-debian-11-r0"
     },
     "bitnami-bitnami-shell": {
       "base": "bitnami/bitnami-shell",
-      "version": "bitnami/bitnami-shell"
+      "version": "11-debian-11-r6"
     },
     "bitnami-metallb-controller": {
       "base": "bitnami/metallb-controller",
-      "version": "bitnami/metallb-controller"
+      "version": "0.13.7-debian-11-r0"
     },
     "bitnami-metallb-speaker": {
       "base": "bitnami/metallb-speaker",
-      "version": "bitnami/metallb-speaker"
+      "version": "0.13.7-debian-11-r0"
     },
     "bitnami-grafana": {
       "base": "bitnami/grafana",
-      "version": "bitnami/grafana"
+      "version": "9.3.6-debian-11-r0"
     },
     "bitnami-grafana-image-renderer": {
       "base": "bitnami/grafana-image-renderer",
-      "version": "bitnami/grafana-image-renderer"
+      "version": "3.6.3-debian-11-r2"
     },
     "bitnami-consul": {
       "base": "bitnami/consul",
-      "version": "bitnami/consul"
+      "version": "1.14.4-debian-11-r0"
     },
     "bitnami-nats": {
       "base": "bitnami/nats",
-      "version": "bitnami/nats"
+      "version": "2.9.14-debian-11-r0"
     },
     "bitnami-kube-state-metrics": {
       "base": "bitnami/kube-state-metrics",
-      "version": "bitnami/kube-state-metrics"
+      "version": "2.7.0-debian-11-r0"
     },
     "bitnami-metrics-server": {
       "base": "bitnami/metrics-server",
-      "version": "bitnami/metrics-server"
+      "version": "0.6.1-debian-11-r32"
     },
     "bitnami-kubeapps-dashboard": {
       "base": "bitnami/kubeapps-dashboard",
-      "version": "bitnami/kubeapps-dashboard"
+      "version": "2.6.3-debian-11-r0"
     },
     "bitnami-kubeapps-apprepository-controller": {
       "base": "bitnami/kubeapps-apprepository-controller",
-      "version": "bitnami/kubeapps-apprepository-controller"
+      "version": "2.6.3-scratch-r1"
     },
     "bitnami-kubeapps-asset-syncer": {
       "base": "bitnami/kubeapps-asset-syncer",
-      "version": "bitnami/kubeapps-asset-syncer"
+      "version": "2.6.3-scratch-r0"
     },
     "bitnami-kubeapps-kubeops": {
       "base": "bitnami/kubeapps-kubeops",
-      "version": "bitnami/kubeapps-kubeops"
+      "version": "2.5.1-scratch-r2"
     },
     "bitnami-kubeapps-assetsvc": {
       "base": "bitnami/kubeapps-assetsvc",
-      "version": "bitnami/kubeapps-assetsvc"
+      "version": "2.4.5-scratch-r2"
     },
     "bitnami-kubeapps-apis": {
       "base": "bitnami/kubeapps-apis",
-      "version": "bitnami/kubeapps-apis"
+      "version": "2.6.3-debian-11-r0"
     },
     "bitnami-kubeapps-pinniped-proxy": {
       "base": "bitnami/kubeapps-pinniped-proxy",
-      "version": "bitnami/kubeapps-pinniped-proxy"
+      "version": "2.6.3-debian-11-r0"
     },
     "bitnami-kube-rbac-proxy": {
       "base": "bitnami/kube-rbac-proxy",
-      "version": "bitnami/kube-rbac-proxy"
+      "version": "0.14.0-scratch-r0"
     },
     "bitnami-openldap": {
       "base": "bitnami/openldap",
-      "version": "bitnami/openldap"
+      "version": "2.6.3-debian-11-r14"
     },
     "bitnami-sealed-secrets-controller": {
       "base": "bitnami/sealed-secrets-controller",
-      "version": "bitnami/sealed-secrets-controller"
+      "version": "v0.19.4"
     },
     "bitnami-trivy": {
       "base": "bitnami/trivy",
-      "version": "bitnami/trivy"
+      "version": "0.37.2-debian-11-r0"
     },
     "aquasec-trivy": {
       "base": "aquasec/trivy",
-      "version": "aquasec/trivy"
+      "version": "0.37.2"
     },
     "external-secrets-external-secrets": {
       "base": "external-secrets/external-secrets",
-      "version": "external-secrets/external-secrets"
+      "version": "v0.7.2"
     },
     "minio-console": {
       "base": "minio/console",
-      "version": "minio/console"
+      "version": "v0.23.1"
     },
     "kutt-kutt": {
       "base": "kutt/kutt",
-      "version": "kutt/kutt"
+      "version": "v2.7.4"
     },
     "drakkan-sftpgo": {
       "base": "drakkan/sftpgo",
-      "version": "drakkan/sftpgo"
+      "version": "v2.4.4"
     },
     "hasura-graphql-engine": {
       "base": "hasura/graphql-engine",
-      "version": "hasura/graphql-engine"
+      "version": "v2.18.0"
     },
     "paulbouwer-hello-kubernetes": {
       "base": "paulbouwer/hello-kubernetes",
-      "version": "paulbouwer/hello-kubernetes"
+      "version": "1.10.1"
     },
     "stakater-reloader": {
       "base": "stakater/reloader",
-      "version": "stakater/reloader"
+      "version": "v1.0.5"
     },
     "jimmidyson-configmap-reload": {
       "base": "jimmidyson/configmap-reload",
-      "version": "jimmidyson/configmap-reload"
+      "version": "v0.8.0"
     },
     "registry": {
       "base": "registry",
-      "version": "registry"
+      "version": "2.8.1"
     },
     "dexidp-dex": {
       "base": "dexidp/dex",
-      "version": "dexidp/dex"
+      "version": "v2.35.3"
     },
     "argoproj-argocd": {
       "base": "argoproj/argocd",
-      "version": "argoproj/argocd"
+      "version": "v2.6.1"
     },
     "argoproj-argocd-applicationset": {
       "base": "argoproj/argocd-applicationset",
-      "version": "argoproj/argocd-applicationset"
+      "version": "v0.4.1"
     },
     "redis": {
       "base": "redis",
-      "version": "redis"
+      "version": "7.0.8-bullseye"
     },
     "listmonk-listmonk": {
       "base": "listmonk/listmonk",
-      "version": "listmonk/listmonk"
+      "version": "v2.3.0"
     },
     "vaultwarden-server": {
       "base": "vaultwarden/server",
-      "version": "vaultwarden/server"
+      "version": "1.27.0"
     },
     "boky-postfix": {
       "base": "boky/postfix",
-      "version": "boky/postfix"
+      "version": "v3.6.1"
     },
     "cupcakearmy-cryptgeon": {
       "base": "cupcakearmy/cryptgeon",
-      "version": "cupcakearmy/cryptgeon"
+      "version": "2.2.0"
     },
     "memcached": {
       "base": "memcached",
-      "version": "memcached"
+      "version": "1.6.18-alpine3.17"
     },
     "connecteverything-nats-operator": {
       "base": "connecteverything/nats-operator",
-      "version": "connecteverything/nats-operator"
+      "version": "0.8.0"
     },
     "nats": {
       "base": "nats",
-      "version": "nats"
+      "version": "2.9.14-alpine3.17"
     },
     "masipcat-wireguard-go": {
       "base": "masipcat/wireguard-go",
-      "version": "masipcat/wireguard-go"
+      "version": "0.0.20220316"
     },
     "eclipse-mosquitto": {
       "base": "eclipse-mosquitto",
-      "version": "eclipse-mosquitto"
+      "version": "2.0.15-openssl"
     },
     "sapcc-mosquitto-exporter": {
       "base": "sapcc/mosquitto-exporter",
-      "version": "sapcc/mosquitto-exporter"
+      "version": "0.8.0"
     },
     "caddy": {
       "base": "caddy",
-      "version": "caddy"
+      "version": "2.6.3-alpine"
     },
     "outline-shadowbox": {
       "base": "outline/shadowbox",
-      "version": "outline/shadowbox"
+      "version": "server-v1.6.1"
     },
     "kaniko-project-executor": {
       "base": "kaniko-project/executor",
-      "version": "kaniko-project/executor"
+      "version": "v1.9.1"
     },
     "iovisor-bpftrace": {
       "base": "iovisor/bpftrace",
-      "version": "iovisor/bpftrace"
+      "version": "v0.17.0"
     },
     "pryorda-vmware_exporter": {
       "base": "pryorda/vmware_exporter",
-      "version": "pryorda/vmware_exporter"
+      "version": "v0.18.4"
     },
     "azul-zulu-openjdk": {
       "base": "azul/zulu-openjdk",
-      "version": "azul/zulu-openjdk"
+      "version": "19.0.2-19.32.15"
     },
     "elastic-eck-operator": {
       "base": "elastic/eck-operator",
-      "version": "elastic/eck-operator"
+      "version": "2.6.1"
     },
     "louislam-uptime-kuma": {
       "base": "louislam/uptime-kuma",
-      "version": "louislam/uptime-kuma"
+      "version": "1.19.6-alpine"
     },
     "hadolint-hadolint": {
       "base": "hadolint/hadolint",
-      "version": "hadolint/hadolint"
+      "version": "v2.12.1-beta"
     },
     "outlinewiki-outline": {
       "base": "outlinewiki/outline",
-      "version": "outlinewiki/outline"
+      "version": "0.67.2"
     },
     "syncthing-syncthing": {
       "base": "syncthing/syncthing",
-      "version": "syncthing/syncthing"
+      "version": "1.23.1"
     },
     "jellyfin-jellyfin": {
       "base": "jellyfin/jellyfin",
-      "version": "jellyfin/jellyfin"
+      "version": "10.8.9"
     },
     "gravitl-netmaker": {
       "base": "gravitl/netmaker",
-      "version": "gravitl/netmaker"
+      "version": "v0.18.0"
     },
     "gravitl-netmaker-ui": {
       "base": "gravitl/netmaker-ui",
-      "version": "gravitl/netmaker-ui"
+      "version": "v0.18.0"
     },
     "kmb32123-youtube-dl-server": {
       "base": "kmb32123/youtube-dl-server",
-      "version": "kmb32123/youtube-dl-server"
+      "version": "2.0"
     },
     "puppet-puppetserver": {
       "base": "puppet/puppetserver",
-      "version": "puppet/puppetserver"
+      "version": "7.9.2"
     },
     "puppet-puppetdb": {
       "base": "puppet/puppetdb",
-      "version": "puppet/puppetdb"
+      "version": "7.10.0"
     },
     "voxpupuli-puppetboard": {
       "base": "voxpupuli/puppetboard",
-      "version": "voxpupuli/puppetboard"
+      "version": "4.2.6"
     },
     "puppet-r10k": {
       "base": "puppet/r10k",
-      "version": "puppet/r10k"
+      "version": "3.15.2"
     },
     "restic-restic": {
       "base": "restic/restic",
-      "version": "restic/restic"
+      "version": "0.15.1"
     },
     "coredns-coredns": {
       "base": "coredns/coredns",
-      "version": "coredns/coredns"
+      "version": "v1.9.4"
     },
     "yugabytedb-yugabyte": {
       "base": "yugabytedb/yugabyte",
-      "version": "yugabytedb/yugabyte"
+      "version": "2.15.3.2-b1"
     },
     "antelle-keeweb": {
       "base": "antelle/keeweb",
-      "version": "antelle/keeweb"
+      "version": "1.18.7"
     },
     "wiretrustee-dashboard": {
       "base": "wiretrustee/dashboard",
-      "version": "wiretrustee/dashboard"
+      "version": "v1.7.1"
     },
     "netbirdio-signal": {
       "base": "netbirdio/signal",
-      "version": "netbirdio/signal"
+      "version": "0.13.0"
     },
     "netbirdio-management": {
       "base": "netbirdio/management",
-      "version": "netbirdio/management"
+      "version": "0.13.0"
     },
     "coturn-coturn": {
       "base": "coturn/coturn",
-      "version": "coturn/coturn"
+      "version": "4.6.1"
     },
     "firezone-firezone": {
       "base": "firezone/firezone",
-      "version": "firezone/firezone"
+      "version": "0.7.13"
     },
     "jenkins-jenkins": {
       "base": "jenkins/jenkins",
-      "version": "jenkins/jenkins"
+      "version": "2.390-jdk17"
     },
     "jenkins-agent": {
       "base": "jenkins/agent",
-      "version": "jenkins/agent"
+      "version": "3107.v665000b_51092-2-jdk17"
     },
     "apache-airflow": {
       "base": "apache/airflow",
-      "version": "apache/airflow"
+      "version": "2.5.1-python3.10"
     },
     "git-sync-git-sync": {
       "base": "git-sync/git-sync",
-      "version": "git-sync/git-sync"
+      "version": "v3.6.4"
     },
     "kedacore-keda": {
       "base": "kedacore/keda",
-      "version": "kedacore/keda"
+      "version": "2.9.3"
     },
     "kedacore-keda-metrics-apiserver": {
       "base": "kedacore/keda-metrics-apiserver",
-      "version": "kedacore/keda-metrics-apiserver"
+      "version": "2.9.3"
     },
     "jetstack-cert-manager-controller": {
       "base": "jetstack/cert-manager-controller",
-      "version": "jetstack/cert-manager-controller"
+      "version": "v1.11.0"
     },
     "jetstack-cert-manager-cainjector": {
       "base": "jetstack/cert-manager-cainjector",
-      "version": "jetstack/cert-manager-cainjector"
+      "version": "v1.11.0"
     },
     "jetstack-cert-manager-webhook": {
       "base": "jetstack/cert-manager-webhook",
-      "version": "jetstack/cert-manager-webhook"
+      "version": "v1.11.0"
     },
     "jetstack-cert-manager-ctl": {
       "base": "jetstack/cert-manager-ctl",
-      "version": "jetstack/cert-manager-ctl"
+      "version": "v1.11.0"
     },
     "jetstack-cert-manager-csi-driver": {
       "base": "jetstack/cert-manager-csi-driver",
-      "version": "jetstack/cert-manager-csi-driver"
+      "version": "v0.5.0"
     },
     "zachomedia-cert-manager-webhook-pdns": {
       "base": "zachomedia/cert-manager-webhook-pdns",
-      "version": "zachomedia/cert-manager-webhook-pdns"
+      "version": "v2.2.0"
     },
     "vstadtmueller-cert-manager-webhook-powerdns": {
       "base": "vstadtmueller/cert-manager-webhook-powerdns",
-      "version": "vstadtmueller/cert-manager-webhook-powerdns"
+      "version": "main"
     },
     "hashicorp-consul": {
       "base": "hashicorp/consul",
-      "version": "hashicorp/consul"
+      "version": "1.14.4"
     },
     "hashicorp-consul-k8s-control-plane": {
       "base": "hashicorp/consul-k8s-control-plane",
-      "version": "hashicorp/consul-k8s-control-plane"
+      "version": "1.0.4"
     },
     "envoyproxy-envoy-alpine": {
       "base": "envoyproxy/envoy-alpine",
-      "version": "envoyproxy/envoy-alpine"
+      "version": "v1.21.6"
     },
     "hashicorp-vault": {
       "base": "hashicorp/vault",
-      "version": "hashicorp/vault"
+      "version": "1.12.3"
     },
     "hashicorp-vault-k8s": {
       "base": "hashicorp/vault-k8s",
-      "version": "hashicorp/vault-k8s"
+      "version": "1.2.0"
     },
     "hashicorp-vault-csi-provider": {
       "base": "hashicorp/vault-csi-provider",
-      "version": "hashicorp/vault-csi-provider"
+      "version": "1.2.1"
     },
     "strimzi-operator": {
       "base": "strimzi/operator",
-      "version": "strimzi/operator"
+      "version": "0.33.1"
     },
     "strimzi-kafka": {
       "base": "strimzi/kafka",
-      "version": "strimzi/kafka"
+      "version": "0.33.1-kafka-3.3.1"
     },
     "kube-apiserver": {
       "base": "kube-apiserver",
-      "version": "kube-apiserver"
+      "version": "v1.23.16"
     },
     "kube-proxy": {
       "base": "kube-proxy",
-      "version": "kube-proxy"
+      "version": "v1.23.16"
     },
     "kube-controller-manager": {
       "base": "kube-controller-manager",
-      "version": "kube-controller-manager"
+      "version": "v1.23.16"
     },
     "tigera-operator": {
       "base": "tigera/operator",
-      "version": "tigera/operator"
+      "version": "v1.29.0"
     },
     "calico-typha": {
       "base": "calico/typha",
-      "version": "calico/typha"
+      "version": "v3.25.0"
     },
     "calico-ctl": {
       "base": "calico/ctl",
-      "version": "calico/ctl"
+      "version": "v3.25.0"
     },
     "calico-node": {
       "base": "calico/node",
-      "version": "calico/node"
+      "version": "v3.25.0"
     },
     "calico-cni": {
       "base": "calico/cni",
-      "version": "calico/cni"
+      "version": "v3.25.0"
     },
     "calico-apiserver": {
       "base": "calico/apiserver",
-      "version": "calico/apiserver"
+      "version": "v3.25.0"
     },
     "calico-kube-controllers": {
       "base": "calico/kube-controllers",
-      "version": "calico/kube-controllers"
+      "version": "v3.25.0"
     },
     "calico-dikastes": {
       "base": "calico/dikastes",
-      "version": "calico/dikastes"
+      "version": "v3.25.0"
     },
     "calico-pod2daemon-flexvol": {
       "base": "calico/pod2daemon-flexvol",
-      "version": "calico/pod2daemon-flexvol"
+      "version": "v3.25.0"
     },
     "calico-node-driver-registrar": {
       "base": "calico/node-driver-registrar",
-      "version": "calico/node-driver-registrar"
+      "version": "v3.25.0"
     },
     "calico-csi": {
       "base": "calico/csi",
-      "version": "calico/csi"
+      "version": "v3.25.0"
     },
     "longhornio-longhorn-manager": {
       "base": "longhornio/longhorn-manager",
-      "version": "longhornio/longhorn-manager"
+      "version": "v1.4.0"
     },
     "longhornio-longhorn-ui": {
       "base": "longhornio/longhorn-ui",
-      "version": "longhornio/longhorn-ui"
+      "version": "v1.4.0"
     },
     "longhornio-longhorn-engine": {
       "base": "longhornio/longhorn-engine",
-      "version": "longhornio/longhorn-engine"
+      "version": "v1.4.0"
     },
     "longhornio-longhorn-instance-manager": {
       "base": "longhornio/longhorn-instance-manager",
-      "version": "longhornio/longhorn-instance-manager"
+      "version": "v3_20221117"
     },
     "longhornio-longhorn-share-manager": {
       "base": "longhornio/longhorn-share-manager",
-      "version": "longhornio/longhorn-share-manager"
+      "version": "v1.4.0"
     },
     "longhornio-backing-image-manager": {
       "base": "longhornio/backing-image-manager",
-      "version": "longhornio/backing-image-manager"
+      "version": "v3_20221003"
     },
     "longhornio-csi-node-driver-registrar": {
       "base": "longhornio/csi-node-driver-registrar",
-      "version": "longhornio/csi-node-driver-registrar"
+      "version": "v2.5.0"
     },
     "longhornio-csi-snapshotter": {
       "base": "longhornio/csi-snapshotter",
-      "version": "longhornio/csi-snapshotter"
+      "version": "v6.0.1"
     },
     "longhornio-csi-resizer": {
       "base": "longhornio/csi-resizer",
-      "version": "longhornio/csi-resizer"
+      "version": "v1.3.0"
     },
     "longhornio-csi-provisioner": {
       "base": "longhornio/csi-provisioner",
-      "version": "longhornio/csi-provisioner"
+      "version": "v2.1.2"
     },
     "longhornio-csi-attacher": {
       "base": "longhornio/csi-attacher",
-      "version": "longhornio/csi-attacher"
+      "version": "v3.4.0"
     },
     "cloud-provider-vsphere-cpi-release-manager": {
       "base": "cloud-provider-vsphere/cpi/release/manager",
-      "version": "cloud-provider-vsphere/cpi/release/manager"
+      "version": "v1.25.0"
     },
     "cloud-provider-vsphere-csi-release-driver": {
       "base": "cloud-provider-vsphere/csi/release/driver",
-      "version": "cloud-provider-vsphere/csi/release/driver"
+      "version": "v2.7.0"
     },
     "cloud-provider-vsphere-csi-release-syncer": {
       "base": "cloud-provider-vsphere/csi/release/syncer",
-      "version": "cloud-provider-vsphere/csi/release/syncer"
+      "version": "v2.7.0"
     },
     "sig-storage-livenessprobe": {
       "base": "sig-storage/livenessprobe",
-      "version": "sig-storage/livenessprobe"
+      "version": "v2.9.0"
     },
     "sig-storage-csi-node-driver-registrar": {
       "base": "sig-storage/csi-node-driver-registrar",
-      "version": "sig-storage/csi-node-driver-registrar"
+      "version": "v2.7.0"
     },
     "sig-storage-csi-attacher": {
       "base": "sig-storage/csi-attacher",
-      "version": "sig-storage/csi-attacher"
+      "version": "v4.2.0"
     },
     "sig-storage-csi-resizer": {
       "base": "sig-storage/csi-resizer",
-      "version": "sig-storage/csi-resizer"
+      "version": "v1.7.0"
     },
     "sig-storage-csi-provisioner": {
       "base": "sig-storage/csi-provisioner",
-      "version": "sig-storage/csi-provisioner"
+      "version": "v3.4.0"
     },
     "sig-storage-csi-snapshotter": {
       "base": "sig-storage/csi-snapshotter",
-      "version": "sig-storage/csi-snapshotter"
+      "version": "v6.2.1"
     },
     "confluentinc-confluent-init-container": {
       "base": "confluentinc/confluent-init-container",
-      "version": "confluentinc/confluent-init-container"
+      "version": "2.5.1"
     },
     "confluentinc-confluent-operator": {
       "base": "confluentinc/confluent-operator",
-      "version": "confluentinc/confluent-operator"
+      "version": "0.581.34"
     },
     "confluentinc-cp-enterprise-control-center": {
       "base": "confluentinc/cp-enterprise-control-center",
-      "version": "confluentinc/cp-enterprise-control-center"
+      "version": "7.3.1"
     },
     "confluentinc-cp-enterprise-replicator": {
       "base": "confluentinc/cp-enterprise-replicator",
-      "version": "confluentinc/cp-enterprise-replicator"
+      "version": "7.3.1"
     },
     "confluentinc-cp-kafka-rest": {
       "base": "confluentinc/cp-kafka-rest",
-      "version": "confluentinc/cp-kafka-rest"
+      "version": "7.3.1"
     },
     "confluentinc-cp-ksqldb-server": {
       "base": "confluentinc/cp-ksqldb-server",
-      "version": "confluentinc/cp-ksqldb-server"
+      "version": "7.3.1"
     },
     "confluentinc-cp-schema-registry": {
       "base": "confluentinc/cp-schema-registry",
-      "version": "confluentinc/cp-schema-registry"
+      "version": "7.3.1"
     },
     "confluentinc-cp-server": {
       "base": "confluentinc/cp-server",
-      "version": "confluentinc/cp-server"
+      "version": "7.3.1"
     },
     "confluentinc-cp-server-connect": {
       "base": "confluentinc/cp-server-connect",
-      "version": "confluentinc/cp-server-connect"
+      "version": "7.3.1"
     },
     "confluentinc-cp-zookeeper": {
       "base": "confluentinc/cp-zookeeper",
-      "version": "confluentinc/cp-zookeeper"
+      "version": "7.3.1"
     },
     "obsidiandynamics-kafdrop": {
       "base": "obsidiandynamics/kafdrop",
-      "version": "obsidiandynamics/kafdrop"
+      "version": "3.30.0"
     },
     "tchiotludo-akhq": {
       "base": "tchiotludo/akhq",
-      "version": "tchiotludo/akhq"
+      "version": "0.23.0"
     }
   }
 }
