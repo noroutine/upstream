@@ -1,5 +1,5 @@
 {
-  "version": "20e45772",
+  "version": "7f4c1bbc",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -292,9 +292,233 @@
       "tchiotludo/akhq:0.23.0"
     ]
   },
+  "variables": {
+    "INFRA_VERSION": "null",
+    "DEBIAN_VERSION": "bullseye-20230208-slim",
+    "HAPROXY_VERSION": "2.7.2",
+    "UBUNTU_JAMMY_VERSION": "jammy-20230126",
+    "UBUNTU_FOCAL_VERSION": "focal-20230126",
+    "ENVOY_VERSION": "v1.21.6",
+    "BUSYBOX_VERSION": "1.36.0",
+    "BUILDPACK_DEPS_JAMMY_VERSION": "jammy@sha256:e902a5ede3335b40edf720db97f0f318f2f014bf34395671c61dd7c554c38967",
+    "BUILDPACK_DEPS_FOCAL_VERSION": "focal@sha256:b6044fe0ea91b2cd36ee16c377c20c075edb706ba5be48540aa2fccf4169ff31",
+    "BUILDPACK_DEPS_BIONIC_VERSION": "bionic@sha256:112ea54e20cdb539d74c1aea7d6ea6a943707a9ac2040c39de69943b7a436ee1",
+    "GOLANG_VERSION": "1.20.0-bullseye",
+    "1.17.3-alpine3.14": "null",
+    "TRAEFIK_VERSION": "v2.9.6",
+    "NEXUS_VERSION": "3.47.1",
+    "MKDOCS_VERSION": "9.0.12",
+    "FREERADIUS_VERSION": "3.2.1-alpine",
+    "KEYCLOAK_VERSION": "20.0.3",
+    "BITNAMI_POSTGRESQL11_VERSION": "11.19.0-debian-11-r0",
+    "POSTGRES_VERSION": "15.2-bullseye",
+    "BITNAMI_POSTGRESQL13_VERSION": "13.10.0-debian-11-r0",
+    "BITNAMI_POSTGRESQL14_VERSION": "14.7.0-debian-11-r0",
+    "BITNAMI_POSTGRESQL10_VERSION": "10.23.0-debian-11-r0",
+    "BITNAMI_POSTGRES_EXPORTER_VERSION": "0.11.1-debian-11-r7",
+    "BITNAMI_POSTGRESQL15_VERSION": "15.2.0-debian-11-r0",
+    "BITNAMI_POSTGRESQL12_VERSION": "12.14.0-debian-11-r0",
+    "JIRA_VERSION": "9.6.0",
+    "NEXTCLOUD_VERSION": "25.0.3-apache",
+    "MINIO_VERSION": "RELEASE.2023-02-10T18-48-39Z",
+    "PROMETHEUS_VERSION": "v2.42.0",
+    "ALERTMANAGER_VERSION": "v0.25.0",
+    "NODE_EXPORTER_VERSION": "v1.5.0",
+    "CONSUL_EXPORTER_VERSION": "v0.9.0",
+    "BLACKBOX_EXPORTER_VERSION": "v0.23.0",
+    "SNMP_EXPORTER_VERSION": "v0.21.0",
+    "PUSHGATEWAY_VERSION": "v1.5.1",
+    "GRAFANA_VERSION": "9.3.6",
+    "LOKI_VERSION": "2.7.3",
+    "PROMTAIL_VERSION": "2.7.3",
+    "M3COORDINATOR_VERSION": "v1.5.0",
+    "M3DBNODE_VERSION": "v1.5.0",
+    "PROMETHEUS_ES_EXPORTER_VERSION": "0.14.1",
+    "SSL_EXPORTER_VERSION": "2.4.2",
+    "CADVISOR_VERSION": "v0.47.1",
+    "KARMA_VERSION": "v0.111",
+    "CORTEX_VERSION": "v1.14.1",
+    "ELASTICSEARCH_VERSION": "8.6.1",
+    "LOGSTASH_VERSION": "8.6.1",
+    "KIBANA_VERSION": "8.6.1",
+    "ALERTA_VERSION": "8.7.0",
+    "BITNAMI_MONGODB_VERSION": "6.0.4-debian-11-r1",
+    "MONGO_VERSION": "6.0.4-focal",
+    "WORDPRESS_VERSION": "6.1.1-apache",
+    "PGADMIN_VERSION": "6.20",
+    "MYSQL_VERSION": "8.0.32",
+    "BITNAMI_MARIADB_VERSION": "10.10.3-debian-11-r0",
+    "MARIADB_VERSION": "10.10.3-jammy",
+    "HTTPBIN_VERSION": "v2.5.5",
+    "OAUTH2_PROXY_VERSION": "v7.4.0-amd64",
+    "BUILDPACKSIO_LIFECYCLE_VERSION": "0.15.3",
+    "GITLAB_RUNNER_VERSION": "alpine-v15.8.2",
+    "GITLAB_VERSION": "15.8.1-ce.0",
+    "GITLAB_AUTO_BUILD_VERSION": "v1.28.0",
+    "GITLAB_AUTO_DEPLOY_VERSION": "v2.46.0",
+    "GITLAB_AGENTK_VERSION": "v15.8.0",
+    "GITLAB_CLUSTER_APPLICATIONS_VERSION": "v1.9.0",
+    "ACTIONS_RUNNER_CONTROLLER_VERSION": "v0.27.0",
+    "ACTIONS_RUNNER_IMAGE_VERSION": "v2.301.1-ubuntu-22.04",
+    "KUBE_RBAC_PROXY_VERSION": "v0.14.0",
+    "BINDERHUB_IMAGE_CLEANER_VERSION": "0.2.0-n768.h13978ab",
+    "BINDERHUB_VERSION": "0.2.0-n930.ha8b371d",
+    "JUPYTERHUB_VERSION": "2.0.0",
+    "JUPYTERHUB_SECRET_SYNC_VERSION": "2.0.0",
+    "JUPYTERHUB_NETWORK_TOOLS_VERSION": "2.0.0",
+    "JUPYTERHUB_IMAGE_AWAITER_VERSION": "2.0.0",
+    "JUPYTERHUB_SINGLEUSER_SAMPLE_VERSION": "2.0.0",
+    "JUPYTERHUB_HTTP_PROXY_VERSION": "4.5.4",
+    "JUPYTERHUB_SCHEDULER_VERSION": "v1.23.10",
+    "JUPYTERHUB_PAUSE_VERSION": "3.9",
+    "K8S_PAUSE_VERSION": "3.9",
+    "REPO2DOCKER_VERSION": "2022.10.0-92.g4cd300b",
+    "PIHOLE_VERSION": "2023.02.0",
+    "CLICKHOUSE_VERSION": "22.1.3.7-alpine",
+    "TABIX_VERSION": "stable",
+    "PLAUSIBLE_VERSION": "v1.5.1",
+    "VERDACCIO_VERSION": "5.20.1",
+    "STRAPI_VERSION": "3.6.8-alpine",
+    "GHOST_VERSION": "5.33.8",
+    "BITNAMI_GHOST_VERSION": "5.33.8-debian-11-r0",
+    "MATOMO_VERSION": "4.13.3-apache",
+    "NOCODB_VERSION": "0.104.3",
+    "METABASE_VERSION": "v0.45.2.1",
+    "DIND_VERSION": "23.0.1-dind",
+    "JUPYTER_VERSION": "hub-3.1.1",
+    "RSHINY_VERSION": "4.2.2",
+    "CAPROVER_VERSION": "1.10.1",
+    "UMAMI_VERSION": "postgresql-v1.33.2",
+    "BITNAMI_SPARK_VERSION": "3.3.1-debian-11-r6",
+    "BITNAMI_PROMETHEUS_VERSION": "2.42.0-debian-11-r0",
+    "BITNAMI_PROMETHEUS_OPERATOR_VERSION": "0.63.0-debian-11-r0",
+    "BITNAMI_NODE_EXPORTER_VERSION": "1.5.0-debian-11-r6",
+    "BITNAMI_BLACKBOX_EXPORTER_VERSION": "0.23.0-debian-11-r3",
+    "BITNAMI_REDIS_EXPORTER_VERSION": "1.46.0-debian-11-r0",
+    "BITNAMI_REDIS_VERSION": "7.0.8-debian-11-r0",
+    "BITNAMI_KEYCLOAK_CONFIG_CLI_VERSION": "5.5.0-debian-11-r20",
+    "BITNAMI_MEMCACHED_VERSION": "1.6.18-debian-11-r0",
+    "BITNAMI_NGINX_INGRESS_CONTROLLER_VERSION": "1.6.0-debian-11-r7",
+    "BITNAMI_NGINX_VERSION": "1.23.3-debian-11-r6",
+    "BITNAMI_MINIO_VERSION": "2023.2.10-debian-11-r0",
+    "BITNAMI_MINIO_CLIENT_VERSION": "2023.1.28-debian-11-r0",
+    "BITNAMI_SHELL_VERSION": "11-debian-11-r6",
+    "BITNAMI_METALLB_CONTROLLER_VERSION": "0.13.7-debian-11-r0",
+    "BITNAMI_METALLB_SPEAKER_VERSION": "0.13.7-debian-11-r0",
+    "BITNAMI_GRAFANA_IMAGE_RENDERER_VERSION": "3.6.3-debian-11-r2",
+    "BITNAMI_CONSUL_VERSION": "1.14.4-debian-11-r0",
+    "BITNAMI_NATS_VERSION": "2.9.14-debian-11-r0",
+    "BITNAMI_KUBE_STATE_METRICS_VERSION": "2.7.0-debian-11-r0",
+    "BITNAMI_METRICS_SERVER_VERSION": "0.6.1-debian-11-r32",
+    "BITNAMI_KUBEAPPS_DASHBOARD_VERSION": "2.6.3-debian-11-r0",
+    "BITNAMI_KUBEAPPS_APPREPOSITORY_CONTROLLER_VERSION": "2.6.3-scratch-r1",
+    "BITNAMI_KUBEAPPS_ASSET_SYNCER": "2.6.3-scratch-r0",
+    "BITNAMI_KUBEAPPS_KUBEOPS_VERSION": "2.5.1-scratch-r2",
+    "BITNAMI_KUBEAPPS_ASSETSVC_VERSION": "2.4.5-scratch-r2",
+    "BITNAMI_KUBEAPPS_APIS_VERSION": "2.6.3-debian-11-r0",
+    "BITNAMI_KUBEAPPS_PINNIPED_PROXY_VERSION": "2.6.3-debian-11-r0",
+    "BITNAMI_KUBE_RBAC_PROXY_VERSION": "0.14.0-scratch-r0",
+    "BITNAMI_OPENLDAP_VERSION": "2.6.3-debian-11-r14",
+    "BITNAMI_SEALED_SECRETS_CONTROLLER_VERSION": "v0.19.4",
+    "BITNAMI_TRIVY_VERSION": "0.37.2-debian-11-r0",
+    "TRIVY_VERSION": "0.37.2",
+    "MINIO_CONSOLE_VERSION": "v0.23.1",
+    "KUTT_VERSION": "v2.7.4",
+    "SFTPGO_VERSION": "v2.4.4",
+    "HASURA_GRAPHQL_VERSION": "v2.18.0",
+    "HELLO_VERSION": "1.10.1",
+    "RELOADER_VERSION": "v1.0.5",
+    "CONFIGMAP_RELOAD_VERSION": "v0.8.0",
+    "DOCKER_REGISTRY_VERSION": "2.8.1",
+    "DEX_VERSION": "v2.35.3",
+    "ARGOCD_APPLICATIONSET_VERSION": "v0.4.1",
+    "ARGOCD_VERSION": "v2.6.1",
+    "REDIS_VERSION": "7.0.8-bullseye",
+    "LISTMONK_VERSION": "v2.3.0",
+    "VAULTWARDEN_VERSION": "1.27.0",
+    "BOKY_POSTFIX_VERSION": "v3.6.1",
+    "CRYPTGEON_VERSION": "2.2.0",
+    "MEMCACHED_VERSION": "1.6.18-alpine3.17",
+    "NATS_OPERATOR_VERSION": "0.8.0",
+    "NATS_VERSION": "2.9.14-alpine3.17",
+    "WIREGUARD_VERSION": "0.0.20220316",
+    "MOSQUITTO_VERSION": "2.0.15-openssl",
+    "MOSQUITTO_EXPORTER_VERSION": "0.8.0",
+    "CADDY_VERSION": "2.6.3-alpine",
+    "SHADOWBOX_VERSION": "server-v1.6.1",
+    "KANIKO_VERSION": "v1.9.1",
+    "BPFTRACE_VERSION": "v0.17.0",
+    "VMWARE_EXPORTER_VERSION": "v0.18.4",
+    "JDK_ZULU_VERSION": "19.0.2-19.32.15",
+    "ECK_OPERATOR_VERSION": "2.6.1",
+    "UPTIME_KUMA_VERSION": "1.19.6-alpine",
+    "HADOLINT_VERSION": "v2.12.1-beta",
+    "OUTLINE_VERSION": "0.67.2",
+    "SYNCTHING_VERSION": "1.23.1",
+    "JELLYFIN_VERSION": "10.8.9",
+    "NETMAKER_VERSION": "v0.18.0",
+    "YOUTUBE_DL_SERVER_VERSION": "2.0",
+    "PUPPETSERVER_VERSION": "7.9.2",
+    "PUPPETDB_VERSION": "7.10.0",
+    "PUPPETBOARD_VERSION": "4.2.6",
+    "R10K_VERSION": "3.15.2",
+    "RESTIC_VERSION": "0.15.1",
+    "K8S_COREDNS_VERSION": "v1.9.4",
+    "COREDNS_VERSION": "v1.10.1",
+    "YUGABYTE_VERSION": "2.15.3.2-b1",
+    "KEEWEB_VERSION": "1.18.7",
+    "NETBIRD_DASHBOARD_VERSION": "v1.7.1",
+    "NETBIRD_SIGNAL_VERSION": "0.13.0",
+    "NETBIRD_MANAGEMENT_VERSION": "0.13.0",
+    "COTURN_VERSION": "4.6.1",
+    "FIREZONE_VERSION": "0.7.13",
+    "JENKINS_VERSION": "2.390-jdk17",
+    "JENKINS_AGENT_VERSION": "3107.v665000b_51092-2-jdk17",
+    "AIRFLOW_VERSION": "2.5.1-python3.10",
+    "GIT_SYNC_VERSION": "v3.6.4",
+    "KEDA_VERSION": "2.9.3",
+    "CERT_MANAGER_CONTROLLER_VERSION": "v1.11.0",
+    "CERT_MANAGER_CAINJECTOR_VERSION": "v1.11.0",
+    "CERT_MANAGER_WEBHOOK_VERSION": "v1.11.0",
+    "CERT_MANAGER_CTL_VERSION": "v1.11.0",
+    "CERT_MANAGER_CSI_DRIVER_VERSION": "v0.5.0",
+    "CERT_MANAGER_WEBHOOK_PDNS_VERSION": "v2.2.0",
+    "CERT_MANAGER_WEBHOOK_POWERDNS_VERSION": "main",
+    "CONSUL_K8S_CP_VERSION": "1.0.4",
+    "CONSUL_VERSION": "1.14.4",
+    "VAULT_CSI_PROVIDER_VERSION": "1.2.1",
+    "VAULT_VERSION": "1.12.3",
+    "VAULT_K8S_VERSION": "1.2.0",
+    "STRIMZI_OPERATOR_VERSION": "0.33.1",
+    "STRIMZI_OPERATOR_VERSION-kafka-${STRIMZI_KAFKA_VERSION}": "null",
+    "TIGERA_OPERATOR_VERSION": "v1.29.0",
+    "VSPHERE_CPI_MANAGER_VERSION": "v1.25.0",
+    "VSPHERE_CSI_DRIVER_VERSION": "v2.7.0",
+    "VSPHERE_CSI_SYNCER_VERSION": "v2.7.0",
+    "LIVENESSPROBE_VERSION": "v2.9.0",
+    "CSI_NODE_DRIVER_REGISTRAR_VERSION": "v2.7.0",
+    "CSI_ATTACHER_VERSION": "v4.2.0",
+    "CSI_RESIZER_VERSION": "v1.7.0",
+    "CSI_PROVISIONER_VERSION": "v3.4.0",
+    "CSI_SNAPSHOTTER_VERSION": "v6.2.1",
+    "CONFLUENTINC_INIT_CONTAINER_VERSION": "2.5.1",
+    "CONFLUENTINC_OPERATOR_VERSION": "0.581.34",
+    "KAFDROP_VERSION": "3.30.0",
+    "AKHQ_VERSION": "0.23.0"
+  },
   "components": {
+    "squid": {
+      "name": "squid",
+      "base": "debian",
+      "base-version": "null"
+    },
     "unbound": {
       "name": "unbound",
+      "base": "debian",
+      "base-version": "null"
+    },
+    "grafana-dashboards": {
+      "name": "grafana-dashboards",
       "base": "debian",
       "base-version": ""
     },
@@ -303,150 +527,180 @@
       "base": "docker",
       "base-version": ""
     },
-    "rsyslog": {
-      "name": "rsyslog",
-      "base": "debian",
-      "base-version": ""
-    },
-    "haproxy": {
-      "name": "haproxy",
-      "base": "haproxytech/haproxy-debian",
-      "base-version": ""
-    },
-    "debian": {
-      "name": "debian",
-      "base": "debian",
-      "base-version": ""
-    },
     "powerdns": {
       "name": "powerdns",
-      "base": "debian",
-      "base-version": ""
-    },
-    "squid": {
-      "name": "squid",
-      "base": "debian",
-      "base-version": ""
-    },
-    "ipmi-exporter": {
-      "name": "ipmi-exporter",
-      "base": "golang",
-      "base-version": ""
-    },
-    "powerdns-recursor": {
-      "name": "powerdns-recursor",
-      "base": "debian",
-      "base-version": ""
-    },
-    "grafana-dashboards": {
-      "name": "grafana-dashboards",
-      "base": "debian",
-      "base-version": ""
-    },
-    "shell": {
-      "name": "shell",
       "base": "debian",
       "base-version": ""
     },
     "ioping-exporter": {
       "name": "ioping-exporter",
       "base": "golang",
+      "base-version": "1.20.0-bullseye"
+    },
+    "powerdns-recursor": {
+      "name": "powerdns-recursor",
+      "base": "debian",
       "base-version": ""
+    },
+    "rsyslog": {
+      "name": "rsyslog",
+      "base": "debian",
+      "base-version": "null"
+    },
+    "debian": {
+      "name": "debian",
+      "base": "debian",
+      "base-version": "bullseye-20230208-slim"
+    },
+    "haproxy": {
+      "name": "haproxy",
+      "base": "haproxytech/haproxy-debian",
+      "base-version": "2.7.2"
+    },
+    "ipmi-exporter": {
+      "name": "ipmi-exporter",
+      "base": "golang",
+      "base-version": ""
+    },
+    "shell": {
+      "name": "shell",
+      "base": "debian",
+      "base-version": "null"
     },
     "heroku-22": {
       "name": "heroku-22",
       "base": "ubuntu",
-      "base-version": ""
+      "base-version": "null"
     },
     "ubuntu22": {
       "name": "ubuntu22",
       "base": "ubuntu",
-      "base-version": ""
-    },
-    "heroku-20": {
-      "name": "heroku-20",
-      "base": "ubuntu",
-      "base-version": ""
+      "base-version": "jammy-20230126"
     },
     "ubuntu20": {
       "name": "ubuntu20",
       "base": "ubuntu",
+      "base-version": "focal-20230126"
+    },
+    "heroku-20": {
+      "name": "heroku-20",
+      "base": "ubuntu",
+      "base-version": "null"
+    },
+    "alpine": {
+      "name": "alpine",
+      "base": "alpine",
       "base-version": ""
     },
-    "external-secrets": {
-      "name": "external-secrets",
-      "base": "external-secrets/external-secrets",
+    "cert-manager-webhook-pdns": {
+      "name": "cert-manager-webhook-pdns",
+      "base": "zachomedia/cert-manager-webhook-pdns",
+      "base-version": "v2.2.0"
+    },
+    "ocsp-responder": {
+      "name": "ocsp-responder",
+      "base": "docker",
       "base-version": ""
     },
     "trivy": {
       "name": "trivy",
       "base": "aquasec/trivy",
-      "base-version": ""
-    },
-    "restic": {
-      "name": "restic",
-      "base": "restic/restic",
-      "base-version": ""
-    },
-    "envoy": {
-      "name": "envoy",
-      "base": "envoyproxy/envoy-alpine",
-      "base-version": ""
-    },
-    "listmonk": {
-      "name": "listmonk",
-      "base": "listmonk/listmonk",
-      "base-version": ""
-    },
-    "gitlab": {
-      "name": "gitlab",
-      "base": "gitlab/gitlab-ce",
-      "base-version": ""
-    },
-    "puppetboard": {
-      "name": "puppetboard",
-      "base": "voxpupuli/puppetboard",
-      "base-version": ""
-    },
-    "oauth2-proxy": {
-      "name": "oauth2-proxy",
-      "base": "oauth2-proxy/oauth2-proxy",
-      "base-version": ""
+      "base-version": "0.37.2"
     },
     "wireguard": {
       "name": "wireguard",
       "base": "masipcat/wireguard-go",
-      "base-version": ""
+      "base-version": "0.0.20220316"
     },
-    "netmaker": {
-      "name": "netmaker",
-      "base": "gravitl/netmaker",
-      "base-version": ""
-    },
-    "strapi": {
-      "name": "strapi",
-      "base": "strapi/strapi",
-      "base-version": ""
-    },
-    "busybox": {
-      "name": "busybox",
-      "base": "busybox",
-      "base-version": ""
+    "puppetboard": {
+      "name": "puppetboard",
+      "base": "voxpupuli/puppetboard",
+      "base-version": "4.2.6"
     },
     "bitnami-grafana": {
       "name": "bitnami-grafana",
       "base": "bitnami/grafana",
       "base-version": ""
     },
+    "listmonk": {
+      "name": "listmonk",
+      "base": "listmonk/listmonk",
+      "base-version": "v2.3.0"
+    },
+    "cert-manager-webhook-powerdns": {
+      "name": "cert-manager-webhook-powerdns",
+      "base": "vstadtmueller/cert-manager-webhook-powerdns",
+      "base-version": "main"
+    },
+    "strapi": {
+      "name": "strapi",
+      "base": "strapi/strapi",
+      "base-version": "3.6.8-alpine"
+    },
+    "busybox": {
+      "name": "busybox",
+      "base": "busybox",
+      "base-version": "1.36.0"
+    },
+    "restic": {
+      "name": "restic",
+      "base": "restic/restic",
+      "base-version": "0.15.1"
+    },
+    "netmaker-ui": {
+      "name": "netmaker-ui",
+      "base": "gravitl/netmaker-ui",
+      "base-version": "v0.18.0"
+    },
     "syncthing": {
       "name": "syncthing",
       "base": "syncthing/syncthing",
+      "base-version": "1.23.1"
+    },
+    "repo2docker": {
+      "name": "repo2docker",
+      "base": "docker",
+      "base-version": "2022.10.0-92.g4cd300b"
+    },
+    "gitlab-runner": {
+      "name": "gitlab-runner",
+      "base": "gitlab/gitlab-runner",
+      "base-version": "alpine-v15.8.2"
+    },
+    "youtube-dl-server": {
+      "name": "youtube-dl-server",
+      "base": "kmb32123/youtube-dl-server",
+      "base-version": "2.0"
+    },
+    "netmaker": {
+      "name": "netmaker",
+      "base": "gravitl/netmaker",
+      "base-version": "v0.18.0"
+    },
+    "external-secrets": {
+      "name": "external-secrets",
+      "base": "external-secrets/external-secrets",
       "base-version": ""
+    },
+    "envoy": {
+      "name": "envoy",
+      "base": "envoyproxy/envoy-alpine",
+      "base-version": "v1.21.6"
+    },
+    "gitlab": {
+      "name": "gitlab",
+      "base": "gitlab/gitlab-ce",
+      "base-version": "15.8.1-ce.0"
+    },
+    "r10k": {
+      "name": "r10k",
+      "base": "puppet/r10k",
+      "base-version": "3.15.2"
     },
     "vmware-exporter": {
       "name": "vmware-exporter",
       "base": "pryorda/vmware_exporter",
-      "base-version": ""
+      "base-version": "v0.18.4"
     },
     "openvpn": {
       "name": "openvpn",
@@ -456,82 +710,42 @@
     "loki-canary": {
       "name": "loki-canary",
       "base": "grafana/loki-canary",
-      "base-version": ""
-    },
-    "loki": {
-      "name": "loki",
-      "base": "grafana/loki",
-      "base-version": ""
+      "base-version": "2.7.3"
     },
     "speedtest": {
       "name": "speedtest",
       "base": "golang",
-      "base-version": ""
+      "base-version": "null"
     },
-    "youtube-dl-server": {
-      "name": "youtube-dl-server",
-      "base": "kmb32123/youtube-dl-server",
-      "base-version": ""
+    "loki": {
+      "name": "loki",
+      "base": "grafana/loki",
+      "base-version": "2.7.3"
     },
-    "netmaker-ui": {
-      "name": "netmaker-ui",
-      "base": "gravitl/netmaker-ui",
-      "base-version": ""
-    },
-    "gitlab-runner": {
-      "name": "gitlab-runner",
-      "base": "gitlab/gitlab-runner",
-      "base-version": ""
-    },
-    "alpine": {
-      "name": "alpine",
-      "base": "alpine",
-      "base-version": ""
-    },
-    "cert-manager-webhook-powerdns": {
-      "name": "cert-manager-webhook-powerdns",
-      "base": "vstadtmueller/cert-manager-webhook-powerdns",
-      "base-version": ""
+    "oauth2-proxy": {
+      "name": "oauth2-proxy",
+      "base": "oauth2-proxy/oauth2-proxy",
+      "base-version": "v7.4.0-amd64"
     },
     "mosquitto": {
       "name": "mosquitto",
       "base": "eclipse-mosquitto",
-      "base-version": ""
-    },
-    "r10k": {
-      "name": "r10k",
-      "base": "puppet/r10k",
-      "base-version": ""
-    },
-    "repo2docker": {
-      "name": "repo2docker",
-      "base": "docker",
-      "base-version": ""
-    },
-    "ocsp-responder": {
-      "name": "ocsp-responder",
-      "base": "docker",
-      "base-version": ""
-    },
-    "cert-manager-webhook-pdns": {
-      "name": "cert-manager-webhook-pdns",
-      "base": "zachomedia/cert-manager-webhook-pdns",
-      "base-version": ""
-    },
-    "buildpack-deps-focal": {
-      "name": "buildpack-deps-focal",
-      "base": "buildpack-deps",
-      "base-version": ""
+      "base-version": "2.0.15-openssl"
     },
     "buildpack-deps-jammy": {
       "name": "buildpack-deps-jammy",
       "base": "buildpack-deps",
-      "base-version": ""
+      "base-version": "jammy@sha256:e902a5ede3335b40edf720db97f0f318f2f014bf34395671c61dd7c554c38967"
+    },
+    "buildpack-deps-focal": {
+      "name": "buildpack-deps-focal",
+      "base": "buildpack-deps",
+      "base-version": "focal@sha256:b6044fe0ea91b2cd36ee16c377c20c075edb706ba5be48540aa2fccf4169ff31"
     },
     "buildpack-deps-bionic": {
       "name": "buildpack-deps-bionic",
       "base": "buildpack-deps",
-      "base-version": ""
+      "base-version": "bionic@sha256:112ea54e20cdb539d74c1aea7d6ea6a943707a9ac2040c39de69943b7a436ee1"
     },
     "grav": {
       "name": "grav",
@@ -541,256 +755,261 @@
     "traefik": {
       "name": "traefik",
       "base": "traefik",
-      "base-version": ""
+      "base-version": "v2.9.6"
     },
     "nexus": {
       "name": "nexus",
       "base": "sonatype/nexus3",
-      "base-version": ""
+      "base-version": "3.47.1"
     },
     "mkdocs": {
       "name": "mkdocs",
       "base": "squidfunk/mkdocs-material",
-      "base-version": ""
+      "base-version": "9.0.12"
     },
     "radius": {
       "name": "radius",
       "base": "freeradius/freeradius-server",
-      "base-version": ""
+      "base-version": "3.2.1-alpine"
     },
     "keycloak": {
       "name": "keycloak",
       "base": "keycloak/keycloak",
-      "base-version": ""
-    },
-    "bitnami-postgres-exporter": {
-      "name": "bitnami-postgres-exporter",
-      "base": "bitnami/postgres-exporter",
-      "base-version": ""
-    },
-    "bitnami-postgresql14": {
-      "name": "bitnami-postgresql14",
-      "base": "bitnami/postgresql",
-      "base-version": ""
-    },
-    "bitnami-postgresql15": {
-      "name": "bitnami-postgresql15",
-      "base": "bitnami/postgresql",
-      "base-version": ""
-    },
-    "postgres": {
-      "name": "postgres",
-      "base": "postgres",
-      "base-version": ""
-    },
-    "bitnami-postgresql12": {
-      "name": "bitnami-postgresql12",
-      "base": "bitnami/postgresql",
-      "base-version": ""
+      "base-version": "20.0.3"
     },
     "bitnami-postgresql11": {
       "name": "bitnami-postgresql11",
       "base": "bitnami/postgresql",
-      "base-version": ""
+      "base-version": "11.19.0-debian-11-r0"
+    },
+    "postgres": {
+      "name": "postgres",
+      "base": "postgres",
+      "base-version": "15.2-bullseye"
     },
     "bitnami-postgresql13": {
       "name": "bitnami-postgresql13",
       "base": "bitnami/postgresql",
-      "base-version": ""
+      "base-version": "13.10.0-debian-11-r0"
+    },
+    "bitnami-postgresql14": {
+      "name": "bitnami-postgresql14",
+      "base": "bitnami/postgresql",
+      "base-version": "14.7.0-debian-11-r0"
     },
     "bitnami-postgresql10": {
       "name": "bitnami-postgresql10",
       "base": "bitnami/postgresql",
-      "base-version": ""
+      "base-version": "10.23.0-debian-11-r0"
     },
     "rstudio": {
       "name": "rstudio",
       "base": "jupyter/all-spark-notebook",
-      "base-version": ""
+      "base-version": "hub-3.1.1"
+    },
+    "bitnami-postgres-exporter": {
+      "name": "bitnami-postgres-exporter",
+      "base": "bitnami/postgres-exporter",
+      "base-version": "0.11.1-debian-11-r7"
+    },
+    "bitnami-postgresql15": {
+      "name": "bitnami-postgresql15",
+      "base": "bitnami/postgresql",
+      "base-version": "15.2.0-debian-11-r0"
+    },
+    "bitnami-postgresql12": {
+      "name": "bitnami-postgresql12",
+      "base": "bitnami/postgresql",
+      "base-version": "12.14.0-debian-11-r0"
     },
     "jira": {
       "name": "jira",
       "base": "atlassian/jira-software",
-      "base-version": ""
+      "base-version": "9.6.0"
     },
     "nextcloud": {
       "name": "nextcloud",
       "base": "nextcloud",
-      "base-version": ""
+      "base-version": "25.0.3-apache"
     },
     "minio": {
       "name": "minio",
       "base": "minio/minio",
-      "base-version": ""
+      "base-version": "RELEASE.2023-02-10T18-48-39Z"
     },
     "prometheus": {
       "name": "prometheus",
       "base": "prom/prometheus",
-      "base-version": ""
+      "base-version": "v2.42.0"
     },
     "alertmanager": {
       "name": "alertmanager",
       "base": "prom/alertmanager",
-      "base-version": ""
+      "base-version": "v0.25.0"
     },
     "node-exporter": {
       "name": "node-exporter",
       "base": "prom/node-exporter",
-      "base-version": ""
+      "base-version": "v1.5.0"
     },
     "consul-exporter": {
       "name": "consul-exporter",
       "base": "prom/consul-exporter",
-      "base-version": ""
+      "base-version": "v0.9.0"
     },
     "blackbox-exporter": {
       "name": "blackbox-exporter",
       "base": "prom/blackbox-exporter",
-      "base-version": ""
+      "base-version": "v0.23.0"
     },
     "snmp-exporter": {
       "name": "snmp-exporter",
       "base": "prom/snmp-exporter",
-      "base-version": ""
+      "base-version": "v0.21.0"
     },
     "pushgateway": {
       "name": "pushgateway",
       "base": "prom/pushgateway",
-      "base-version": ""
+      "base-version": "v1.5.1"
     },
     "grafana": {
       "name": "grafana",
       "base": "grafana/grafana",
-      "base-version": ""
+      "base-version": "9.3.6"
     },
     "promtail": {
       "name": "promtail",
       "base": "grafana/promtail",
-      "base-version": ""
+      "base-version": "2.7.3"
     },
     "m3coordinator": {
       "name": "m3coordinator",
       "base": "m3db/m3coordinator",
-      "base-version": ""
+      "base-version": "v1.5.0"
     },
     "m3dbnode": {
       "name": "m3dbnode",
       "base": "m3db/m3dbnode",
-      "base-version": ""
+      "base-version": "v1.5.0"
     },
     "prometheus-es-exporter": {
       "name": "prometheus-es-exporter",
       "base": "braedon/prometheus-es-exporter",
-      "base-version": ""
+      "base-version": "0.14.1"
     },
     "ssl-exporter": {
       "name": "ssl-exporter",
       "base": "ribbybibby/ssl-exporter",
-      "base-version": ""
+      "base-version": "2.4.2"
     },
     "cadvisor": {
       "name": "cadvisor",
       "base": "cadvisor/cadvisor",
-      "base-version": ""
+      "base-version": "v0.47.1"
     },
     "karma": {
       "name": "karma",
       "base": "prymitive/karma",
-      "base-version": ""
+      "base-version": "v0.111"
     },
     "cortex": {
       "name": "cortex",
       "base": "cortexproject/cortex",
-      "base-version": ""
+      "base-version": "v1.14.1"
     },
     "elasticsearch": {
       "name": "elasticsearch",
       "base": "elasticsearch/elasticsearch",
-      "base-version": ""
+      "base-version": "8.6.1"
     },
     "logstash": {
       "name": "logstash",
       "base": "logstash/logstash",
-      "base-version": ""
+      "base-version": "8.6.1"
     },
     "kibana": {
       "name": "kibana",
       "base": "kibana/kibana",
-      "base-version": ""
+      "base-version": "8.6.1"
     },
     "alerta": {
       "name": "alerta",
       "base": "alerta/alerta-web",
-      "base-version": ""
+      "base-version": "8.7.0"
     },
     "bitnami-mongodb": {
       "name": "bitnami-mongodb",
       "base": "bitnami/mongodb",
-      "base-version": ""
+      "base-version": "6.0.4-debian-11-r1"
     },
     "mongo": {
       "name": "mongo",
       "base": "mongo",
-      "base-version": ""
+      "base-version": "6.0.4-focal"
     },
     "wordpress": {
       "name": "wordpress",
       "base": "wordpress",
-      "base-version": ""
+      "base-version": "6.1.1-apache"
     },
     "pgadmin": {
       "name": "pgadmin",
       "base": "dpage/pgadmin4",
-      "base-version": ""
+      "base-version": "6.20"
     },
     "mysql": {
       "name": "mysql",
       "base": "mysql",
-      "base-version": ""
+      "base-version": "8.0.32"
     },
     "bitnami-mariadb": {
       "name": "bitnami-mariadb",
       "base": "bitnami/mariadb",
-      "base-version": ""
+      "base-version": "10.10.3-debian-11-r0"
     },
     "mariadb": {
       "name": "mariadb",
       "base": "mariadb",
-      "base-version": ""
+      "base-version": "10.10.3-jammy"
     },
     "httpbin": {
       "name": "httpbin",
       "base": "mccutchen/go-httpbin",
-      "base-version": ""
+      "base-version": "v2.5.5"
     },
     "buildpacksio-lifecycle": {
       "name": "buildpacksio-lifecycle",
       "base": "buildpacksio/lifecycle",
-      "base-version": ""
+      "base-version": "0.15.3"
     },
     "gitlab-auto-build": {
       "name": "gitlab-auto-build",
       "base": "gitlab-org/cluster-integration/auto-build-image",
-      "base-version": ""
+      "base-version": "v1.28.0"
     },
     "gitlab-auto-deploy": {
       "name": "gitlab-auto-deploy",
       "base": "gitlab-org/cluster-integration/auto-deploy-image",
-      "base-version": ""
+      "base-version": "v2.46.0"
     },
     "gitlab-agentk": {
       "name": "gitlab-agentk",
       "base": "gitlab-org/cluster-integration/gitlab-agent/agentk",
-      "base-version": ""
+      "base-version": "v15.8.0"
     },
     "gitlab-cluster-applications": {
       "name": "gitlab-cluster-applications",
       "base": "gitlab-org/cluster-integration/cluster-applications",
-      "base-version": ""
+      "base-version": "v1.9.0"
     },
     "actions-runner-controller": {
       "name": "actions-runner-controller",
       "base": "summerwind/actions-runner",
+      "base-version": "v0.27.0"
+    },
+    "actions-runner-dind": {
+      "name": "actions-runner-dind",
+      "base": "docker",
       "base-version": ""
     },
     "actions-runner": {
@@ -798,675 +1017,670 @@
       "base": "docker",
       "base-version": ""
     },
-    "actions-runner-dind": {
-      "name": "actions-runner-dind",
-      "base": "docker",
-      "base-version": ""
-    },
     "kube-rbac-proxy": {
       "name": "kube-rbac-proxy",
       "base": "brancz/kube-rbac-proxy",
-      "base-version": ""
+      "base-version": "v0.14.0"
     },
     "binderhub-image-cleaner": {
       "name": "binderhub-image-cleaner",
       "base": "jupyterhub/k8s-image-cleaner",
-      "base-version": ""
+      "base-version": "0.2.0-n768.h13978ab"
     },
     "binderhub": {
       "name": "binderhub",
       "base": "noroutine/k8s-binderhub",
-      "base-version": ""
+      "base-version": "0.2.0-n930.ha8b371d"
     },
     "jupyterhub": {
       "name": "jupyterhub",
       "base": "jupyterhub/k8s-hub",
-      "base-version": ""
+      "base-version": "2.0.0"
     },
     "jupyterhub-secret-sync": {
       "name": "jupyterhub-secret-sync",
       "base": "jupyterhub/k8s-secret-sync",
-      "base-version": ""
+      "base-version": "2.0.0"
     },
     "jupyterhub-network-tools": {
       "name": "jupyterhub-network-tools",
       "base": "jupyterhub/k8s-network-tools",
-      "base-version": ""
+      "base-version": "2.0.0"
     },
     "jupyterhub-image-awaiter": {
       "name": "jupyterhub-image-awaiter",
       "base": "jupyterhub/k8s-image-awaiter",
-      "base-version": ""
+      "base-version": "2.0.0"
     },
     "jupyterhub-singleuser-sample": {
       "name": "jupyterhub-singleuser-sample",
       "base": "jupyterhub/k8s-singleuser-sample",
-      "base-version": ""
+      "base-version": "2.0.0"
     },
     "jupyterhub-http-proxy": {
       "name": "jupyterhub-http-proxy",
       "base": "jupyterhub/configurable-http-proxy",
-      "base-version": ""
+      "base-version": "4.5.4"
     },
     "jupyterhub-scheduler": {
       "name": "jupyterhub-scheduler",
       "base": "kube-scheduler",
-      "base-version": ""
-    },
-    "k8s-pause": {
-      "name": "k8s-pause",
-      "base": "pause",
-      "base-version": ""
+      "base-version": "v1.23.10"
     },
     "jupyterhub-pause": {
       "name": "jupyterhub-pause",
       "base": "pause",
-      "base-version": ""
+      "base-version": "3.9"
+    },
+    "k8s-pause": {
+      "name": "k8s-pause",
+      "base": "pause",
+      "base-version": "3.9"
     },
     "pihole": {
       "name": "pihole",
       "base": "pihole/pihole",
-      "base-version": ""
+      "base-version": "2023.02.0"
     },
     "clickhouse-server": {
       "name": "clickhouse-server",
       "base": "yandex/clickhouse-server",
-      "base-version": ""
+      "base-version": "22.1.3.7-alpine"
     },
     "clickhouse-tabix-web-client": {
       "name": "clickhouse-tabix-web-client",
       "base": "spoonest/clickhouse-tabix-web-client",
-      "base-version": ""
+      "base-version": "stable"
     },
     "plausible-analytics": {
       "name": "plausible-analytics",
       "base": "plausible/analytics",
-      "base-version": ""
+      "base-version": "v1.5.1"
     },
     "verdaccio": {
       "name": "verdaccio",
       "base": "verdaccio/verdaccio",
-      "base-version": ""
+      "base-version": "5.20.1"
     },
     "ghost": {
       "name": "ghost",
       "base": "ghost",
-      "base-version": ""
+      "base-version": "5.33.8"
     },
     "bitnami-ghost": {
       "name": "bitnami-ghost",
       "base": "bitnami/ghost",
-      "base-version": ""
+      "base-version": "5.33.8-debian-11-r0"
     },
     "matomo": {
       "name": "matomo",
       "base": "matomo",
-      "base-version": ""
+      "base-version": "4.13.3-apache"
     },
     "nocodb": {
       "name": "nocodb",
       "base": "nocodb/nocodb",
-      "base-version": ""
+      "base-version": "0.104.3"
     },
     "metabase": {
       "name": "metabase",
       "base": "metabase/metabase",
-      "base-version": ""
+      "base-version": "v0.45.2.1"
     },
     "dind": {
       "name": "dind",
       "base": "docker",
-      "base-version": ""
+      "base-version": "23.0.1-dind"
     },
     "rshiny": {
       "name": "rshiny",
       "base": "rocker/shiny",
-      "base-version": ""
+      "base-version": "4.2.2"
     },
     "caprover": {
       "name": "caprover",
       "base": "caprover/caprover",
-      "base-version": ""
+      "base-version": "1.10.1"
     },
     "umami": {
       "name": "umami",
       "base": "mikecao/umami",
-      "base-version": ""
+      "base-version": "postgresql-v1.33.2"
     },
     "bitnami-spark": {
       "name": "bitnami-spark",
       "base": "bitnami/spark",
-      "base-version": ""
+      "base-version": "3.3.1-debian-11-r6"
     },
     "spark": {
       "name": "spark",
       "base": "bitnami/spark",
-      "base-version": ""
-    },
-    "bitnami-prometheus-operator": {
-      "name": "bitnami-prometheus-operator",
-      "base": "bitnami/prometheus-operator",
-      "base-version": ""
+      "base-version": "3.3.1-debian-11-r6"
     },
     "bitnami-prometheus": {
       "name": "bitnami-prometheus",
       "base": "bitnami/prometheus",
-      "base-version": ""
+      "base-version": "2.42.0-debian-11-r0"
+    },
+    "bitnami-prometheus-operator": {
+      "name": "bitnami-prometheus-operator",
+      "base": "bitnami/prometheus-operator",
+      "base-version": "0.63.0-debian-11-r0"
     },
     "bitnami-node-exporter": {
       "name": "bitnami-node-exporter",
       "base": "bitnami/node-exporter",
-      "base-version": ""
+      "base-version": "1.5.0-debian-11-r6"
     },
     "bitnami-blackbox-exporter": {
       "name": "bitnami-blackbox-exporter",
       "base": "bitnami/blackbox-exporter",
-      "base-version": ""
-    },
-    "bitnami-redis": {
-      "name": "bitnami-redis",
-      "base": "redis",
-      "base-version": ""
+      "base-version": "0.23.0-debian-11-r3"
     },
     "bitnami-redis-exporter": {
       "name": "bitnami-redis-exporter",
       "base": "redis",
-      "base-version": ""
+      "base-version": "1.46.0-debian-11-r0"
     },
-    "bitnami-keycloak-config-cli": {
-      "name": "bitnami-keycloak-config-cli",
-      "base": "bitnami/keycloak-config-cli",
-      "base-version": ""
+    "bitnami-redis": {
+      "name": "bitnami-redis",
+      "base": "redis",
+      "base-version": "7.0.8-debian-11-r0"
     },
     "bitnami-keycloak": {
       "name": "bitnami-keycloak",
       "base": "bitnami/keycloak",
       "base-version": ""
     },
+    "bitnami-keycloak-config-cli": {
+      "name": "bitnami-keycloak-config-cli",
+      "base": "bitnami/keycloak-config-cli",
+      "base-version": "5.5.0-debian-11-r20"
+    },
     "bitnami-memcached": {
       "name": "bitnami-memcached",
       "base": "memcached",
-      "base-version": ""
+      "base-version": "1.6.18-debian-11-r0"
     },
     "bitnami-nginx-ingress-controller": {
       "name": "bitnami-nginx-ingress-controller",
       "base": "bitnami/nginx",
-      "base-version": ""
+      "base-version": "1.6.0-debian-11-r7"
     },
     "bitnami-nginx": {
       "name": "bitnami-nginx",
       "base": "bitnami/nginx",
-      "base-version": ""
-    },
-    "bitnami-minio-client": {
-      "name": "bitnami-minio-client",
-      "base": "bitnami/minio-client",
-      "base-version": ""
+      "base-version": "1.23.3-debian-11-r6"
     },
     "bitnami-minio": {
       "name": "bitnami-minio",
       "base": "bitnami/minio",
-      "base-version": ""
+      "base-version": "2023.2.10-debian-11-r0"
+    },
+    "bitnami-minio-client": {
+      "name": "bitnami-minio-client",
+      "base": "bitnami/minio-client",
+      "base-version": "2023.1.28-debian-11-r0"
     },
     "bitnami-shell": {
       "name": "bitnami-shell",
       "base": "bitnami/bitnami-shell",
-      "base-version": ""
+      "base-version": "11-debian-11-r6"
     },
     "bitnami-metallb-controller": {
       "name": "bitnami-metallb-controller",
       "base": "bitnami/metallb-controller",
-      "base-version": ""
+      "base-version": "0.13.7-debian-11-r0"
     },
     "bitnami-metallb-speaker": {
       "name": "bitnami-metallb-speaker",
       "base": "bitnami/metallb-speaker",
-      "base-version": ""
+      "base-version": "0.13.7-debian-11-r0"
     },
     "bitnami-grafana-image-renderer": {
       "name": "bitnami-grafana-image-renderer",
       "base": "bitnami/grafana-image-renderer",
-      "base-version": ""
+      "base-version": "3.6.3-debian-11-r2"
     },
     "bitnami-consul": {
       "name": "bitnami-consul",
       "base": "bitnami/consul",
-      "base-version": ""
+      "base-version": "1.14.4-debian-11-r0"
     },
     "bitnami-nats": {
       "name": "bitnami-nats",
       "base": "nats",
-      "base-version": ""
+      "base-version": "2.9.14-debian-11-r0"
     },
     "bitnami-kube-state-metrics": {
       "name": "bitnami-kube-state-metrics",
       "base": "bitnami/kube-state-metrics",
-      "base-version": ""
+      "base-version": "2.7.0-debian-11-r0"
     },
     "bitnami-metrics-server": {
       "name": "bitnami-metrics-server",
       "base": "bitnami/metrics-server",
-      "base-version": ""
+      "base-version": "0.6.1-debian-11-r32"
     },
     "bitnami-kubeapps-dashboard": {
       "name": "bitnami-kubeapps-dashboard",
       "base": "bitnami/kubeapps-dashboard",
-      "base-version": ""
+      "base-version": "2.6.3-debian-11-r0"
     },
     "bitnami-kubeapps-apprepository-controller": {
       "name": "bitnami-kubeapps-apprepository-controller",
       "base": "bitnami/kubeapps-apprepository-controller",
-      "base-version": ""
+      "base-version": "2.6.3-scratch-r1"
     },
     "bitnami-kubeapps-asset-syncer": {
       "name": "bitnami-kubeapps-asset-syncer",
       "base": "bitnami/kubeapps-asset-syncer",
-      "base-version": ""
+      "base-version": "2.6.3-scratch-r0"
     },
     "bitnami-kubeapps-kubeops": {
       "name": "bitnami-kubeapps-kubeops",
       "base": "bitnami/kubeapps-kubeops",
-      "base-version": ""
+      "base-version": "2.5.1-scratch-r2"
     },
     "bitnami-kubeapps-assetsvc": {
       "name": "bitnami-kubeapps-assetsvc",
       "base": "bitnami/kubeapps-assetsvc",
-      "base-version": ""
+      "base-version": "2.4.5-scratch-r2"
     },
     "bitnami-kubeapps-apis": {
       "name": "bitnami-kubeapps-apis",
       "base": "bitnami/kubeapps-apis",
-      "base-version": ""
+      "base-version": "2.6.3-debian-11-r0"
     },
     "bitnami-kubeapps-pinniped-proxy": {
       "name": "bitnami-kubeapps-pinniped-proxy",
       "base": "bitnami/kubeapps-pinniped-proxy",
-      "base-version": ""
+      "base-version": "2.6.3-debian-11-r0"
     },
     "bitnami-kube-rbac-proxy": {
       "name": "bitnami-kube-rbac-proxy",
       "base": "bitnami/kube-rbac-proxy",
-      "base-version": ""
+      "base-version": "0.14.0-scratch-r0"
     },
     "bitnami-openldap": {
       "name": "bitnami-openldap",
       "base": "bitnami/openldap",
-      "base-version": ""
+      "base-version": "2.6.3-debian-11-r14"
     },
     "bitnami-sealed-secrets-controller": {
       "name": "bitnami-sealed-secrets-controller",
       "base": "bitnami/sealed-secrets-controller",
-      "base-version": ""
+      "base-version": "v0.19.4"
     },
     "bitnami-trivy": {
       "name": "bitnami-trivy",
       "base": "bitnami/trivy",
-      "base-version": ""
+      "base-version": "0.37.2-debian-11-r0"
     },
     "minio-console": {
       "name": "minio-console",
       "base": "minio/console",
-      "base-version": ""
+      "base-version": "v0.23.1"
     },
     "kutt": {
       "name": "kutt",
       "base": "kutt/kutt",
-      "base-version": ""
+      "base-version": "v2.7.4"
     },
     "sftpgo": {
       "name": "sftpgo",
       "base": "drakkan/sftpgo",
-      "base-version": ""
+      "base-version": "v2.4.4"
     },
     "hasura-graphql-engine": {
       "name": "hasura-graphql-engine",
       "base": "hasura/graphql-engine",
-      "base-version": ""
+      "base-version": "v2.18.0"
     },
     "hello": {
       "name": "hello",
       "base": "paulbouwer/hello-kubernetes",
-      "base-version": ""
+      "base-version": "1.10.1"
     },
     "reloader": {
       "name": "reloader",
       "base": "stakater/reloader",
-      "base-version": ""
+      "base-version": "v1.0.5"
     },
     "configmap-reload": {
       "name": "configmap-reload",
       "base": "jimmidyson/configmap-reload",
-      "base-version": ""
+      "base-version": "v0.8.0"
     },
     "docker-registry": {
       "name": "docker-registry",
       "base": "registry",
-      "base-version": ""
+      "base-version": "2.8.1"
     },
     "dex": {
       "name": "dex",
       "base": "dexidp/dex",
-      "base-version": ""
+      "base-version": "v2.35.3"
     },
     "argocd-applicationset": {
       "name": "argocd-applicationset",
       "base": "argoproj/argocd-applicationset",
-      "base-version": ""
+      "base-version": "v0.4.1"
     },
     "argocd": {
       "name": "argocd",
       "base": "argoproj/argocd",
-      "base-version": ""
+      "base-version": "v2.6.1"
     },
     "redis": {
       "name": "redis",
       "base": "redis",
-      "base-version": ""
+      "base-version": "7.0.8-bullseye"
     },
     "vaultwarden": {
       "name": "vaultwarden",
       "base": "vaultwarden/server",
-      "base-version": ""
+      "base-version": "1.27.0"
     },
     "boky-postfix": {
       "name": "boky-postfix",
       "base": "boky/postfix",
-      "base-version": ""
+      "base-version": "v3.6.1"
     },
     "cryptgeon": {
       "name": "cryptgeon",
       "base": "cupcakearmy/cryptgeon",
-      "base-version": ""
+      "base-version": "2.2.0"
     },
     "memcached": {
       "name": "memcached",
       "base": "memcached",
-      "base-version": ""
+      "base-version": "1.6.18-alpine3.17"
     },
     "nats-operator": {
       "name": "nats-operator",
       "base": "nats",
-      "base-version": ""
+      "base-version": "0.8.0"
     },
     "nats": {
       "name": "nats",
       "base": "nats",
-      "base-version": ""
+      "base-version": "2.9.14-alpine3.17"
     },
     "mosquitto-exporter": {
       "name": "mosquitto-exporter",
       "base": "sapcc/mosquitto-exporter",
-      "base-version": ""
-    },
-    "caddy": {
-      "name": "caddy",
-      "base": "caddy",
-      "base-version": ""
+      "base-version": "0.8.0"
     },
     "infra-docs": {
       "name": "infra-docs",
       "base": "caddy",
       "base-version": ""
     },
+    "caddy": {
+      "name": "caddy",
+      "base": "caddy",
+      "base-version": "2.6.3-alpine"
+    },
     "shadowbox": {
       "name": "shadowbox",
       "base": "outline/shadowbox",
-      "base-version": ""
+      "base-version": "server-v1.6.1"
     },
     "kaniko-executor": {
       "name": "kaniko-executor",
       "base": "kaniko-project/executor",
-      "base-version": ""
+      "base-version": "v1.9.1"
     },
     "bpftrace": {
       "name": "bpftrace",
       "base": "iovisor/bpftrace",
-      "base-version": ""
+      "base-version": "v0.17.0"
     },
     "jdk-zulu": {
       "name": "jdk-zulu",
       "base": "azul/zulu-openjdk",
-      "base-version": ""
+      "base-version": "19.0.2-19.32.15"
     },
     "eck-operator": {
       "name": "eck-operator",
       "base": "elastic/eck-operator",
-      "base-version": ""
+      "base-version": "2.6.1"
     },
     "uptime-kuma": {
       "name": "uptime-kuma",
       "base": "louislam/uptime-kuma",
-      "base-version": ""
+      "base-version": "1.19.6-alpine"
     },
     "hadolint": {
       "name": "hadolint",
       "base": "hadolint/hadolint",
-      "base-version": ""
+      "base-version": "v2.12.1-beta"
     },
     "outline": {
       "name": "outline",
       "base": "outlinewiki/outline",
-      "base-version": ""
+      "base-version": "0.67.2"
     },
     "jellyfin": {
       "name": "jellyfin",
       "base": "jellyfin/jellyfin",
-      "base-version": ""
+      "base-version": "10.8.9"
     },
     "puppetserver": {
       "name": "puppetserver",
       "base": "puppet/puppetserver",
-      "base-version": ""
+      "base-version": "7.9.2"
     },
     "puppetdb": {
       "name": "puppetdb",
       "base": "puppet/puppetdb",
-      "base-version": ""
-    },
-    "coredns": {
-      "name": "coredns",
-      "base": "coredns/coredns",
-      "base-version": ""
+      "base-version": "7.10.0"
     },
     "k8s-coredns": {
       "name": "k8s-coredns",
       "base": "coredns/coredns",
-      "base-version": ""
+      "base-version": "v1.9.4"
+    },
+    "coredns": {
+      "name": "coredns",
+      "base": "coredns/coredns",
+      "base-version": "v1.10.1"
     },
     "yugabyte": {
       "name": "yugabyte",
       "base": "yugabytedb/yugabyte",
-      "base-version": ""
+      "base-version": "2.15.3.2-b1"
     },
     "keeweb": {
       "name": "keeweb",
       "base": "antelle/keeweb",
-      "base-version": ""
+      "base-version": "1.18.7"
     },
     "netbird-dashboard": {
       "name": "netbird-dashboard",
       "base": "wiretrustee/dashboard",
-      "base-version": ""
+      "base-version": "v1.7.1"
     },
     "netbird-signal": {
       "name": "netbird-signal",
       "base": "netbirdio/signal",
-      "base-version": ""
+      "base-version": "0.13.0"
     },
     "netbird-management": {
       "name": "netbird-management",
       "base": "netbirdio/management",
-      "base-version": ""
+      "base-version": "0.13.0"
     },
     "coturn": {
       "name": "coturn",
       "base": "coturn/coturn",
-      "base-version": ""
+      "base-version": "4.6.1"
     },
     "firezone": {
       "name": "firezone",
       "base": "firezone/firezone",
-      "base-version": ""
+      "base-version": "0.7.13"
     },
     "jenkins": {
       "name": "jenkins",
       "base": "jenkins/jenkins",
-      "base-version": ""
+      "base-version": "2.390-jdk17"
     },
     "jenkins-agent": {
       "name": "jenkins-agent",
       "base": "jenkins/agent",
-      "base-version": ""
+      "base-version": "3107.v665000b_51092-2-jdk17"
     },
     "airflow": {
       "name": "airflow",
       "base": "apache/airflow",
-      "base-version": ""
+      "base-version": "2.5.1-python3.10"
     },
     "git-sync": {
       "name": "git-sync",
       "base": "git-sync/git-sync",
-      "base-version": ""
+      "base-version": "v3.6.4"
     },
     "keda": {
       "name": "keda",
       "base": "kedacore/keda",
-      "base-version": ""
+      "base-version": "2.9.3"
     },
     "keda-metrics-apiserver": {
       "name": "keda-metrics-apiserver",
       "base": "kedacore/keda-metrics-apiserver",
-      "base-version": ""
+      "base-version": "2.9.3"
     },
     "cert-manager-controller": {
       "name": "cert-manager-controller",
       "base": "jetstack/cert-manager-controller",
-      "base-version": ""
+      "base-version": "v1.11.0"
     },
     "cert-manager-cainjector": {
       "name": "cert-manager-cainjector",
       "base": "jetstack/cert-manager-cainjector",
-      "base-version": ""
+      "base-version": "v1.11.0"
     },
     "cert-manager-webhook": {
       "name": "cert-manager-webhook",
       "base": "jetstack/cert-manager-webhook",
-      "base-version": ""
+      "base-version": "v1.11.0"
     },
     "cert-manager-ctl": {
       "name": "cert-manager-ctl",
       "base": "jetstack/cert-manager-ctl",
-      "base-version": ""
+      "base-version": "v1.11.0"
     },
     "cert-manager-csi-driver": {
       "name": "cert-manager-csi-driver",
       "base": "jetstack/cert-manager-csi-driver",
-      "base-version": ""
+      "base-version": "v0.5.0"
     },
     "consul-k8s-control-plane": {
       "name": "consul-k8s-control-plane",
       "base": "hashicorp/consul-k8s-control-plane",
-      "base-version": ""
+      "base-version": "1.0.4"
     },
     "consul": {
       "name": "consul",
       "base": "hashicorp/consul",
-      "base-version": ""
-    },
-    "vault": {
-      "name": "vault",
-      "base": "hashicorp/vault",
-      "base-version": ""
+      "base-version": "1.14.4"
     },
     "vault-csi-provider": {
       "name": "vault-csi-provider",
       "base": "hashicorp/vault-csi-provider",
-      "base-version": ""
+      "base-version": "1.2.1"
+    },
+    "vault": {
+      "name": "vault",
+      "base": "hashicorp/vault",
+      "base-version": "1.12.3"
     },
     "vault-k8s": {
       "name": "vault-k8s",
       "base": "hashicorp/vault-k8s",
-      "base-version": ""
+      "base-version": "1.2.0"
     },
     "strimzi-operator": {
       "name": "strimzi-operator",
       "base": "strimzi/operator",
-      "base-version": ""
+      "base-version": "0.33.1"
     },
     "strimzi-kafka": {
       "name": "strimzi-kafka",
       "base": "strimzi/kafka",
-      "base-version": ""
+      "base-version": "null"
     },
     "tigera-operator": {
       "name": "tigera-operator",
       "base": "tigera/operator",
-      "base-version": ""
+      "base-version": "v1.29.0"
     },
     "vsphere-cpi-manager": {
       "name": "vsphere-cpi-manager",
       "base": "cloud-provider-vsphere/cpi/release/manager",
-      "base-version": ""
+      "base-version": "v1.25.0"
     },
     "vsphere-csi-driver": {
       "name": "vsphere-csi-driver",
       "base": "cloud-provider-vsphere/csi/release/driver",
-      "base-version": ""
+      "base-version": "v2.7.0"
     },
     "vsphere-csi-syncer": {
       "name": "vsphere-csi-syncer",
       "base": "cloud-provider-vsphere/csi/release/syncer",
-      "base-version": ""
+      "base-version": "v2.7.0"
     },
     "storage-livenessprobe": {
       "name": "storage-livenessprobe",
       "base": "sig-storage/livenessprobe",
-      "base-version": ""
+      "base-version": "v2.9.0"
     },
     "storage-csi-node-driver-registrar": {
       "name": "storage-csi-node-driver-registrar",
       "base": "sig-storage/csi-node-driver-registrar",
-      "base-version": ""
+      "base-version": "v2.7.0"
     },
     "storage-csi-attacher": {
       "name": "storage-csi-attacher",
       "base": "sig-storage/csi-attacher",
-      "base-version": ""
+      "base-version": "v4.2.0"
     },
     "storage-csi-resizer": {
       "name": "storage-csi-resizer",
       "base": "sig-storage/csi-resizer",
-      "base-version": ""
+      "base-version": "v1.7.0"
     },
     "storage-csi-provisioner": {
       "name": "storage-csi-provisioner",
       "base": "sig-storage/csi-provisioner",
-      "base-version": ""
+      "base-version": "v3.4.0"
     },
     "storage-csi-snapshotter": {
       "name": "storage-csi-snapshotter",
       "base": "sig-storage/csi-snapshotter",
-      "base-version": ""
+      "base-version": "v6.2.1"
     },
     "confluent-init-container": {
       "name": "confluent-init-container",
       "base": "confluentinc/confluent-init-container",
-      "base-version": ""
+      "base-version": "2.5.1"
     },
     "confluent-operator": {
       "name": "confluent-operator",
       "base": "confluentinc/confluent-operator",
-      "base-version": ""
+      "base-version": "0.581.34"
     },
     "kafdrop": {
       "name": "kafdrop",
       "base": "obsidiandynamics/kafdrop",
-      "base-version": ""
+      "base-version": "3.30.0"
     },
     "akhq": {
       "name": "akhq",
       "base": "tchiotludo/akhq",
-      "base-version": ""
+      "base-version": "0.23.0"
     }
   }
 }
