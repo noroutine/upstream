@@ -1,5 +1,5 @@
 {
-  "version": "83f695cb",
+  "version": "20e45772",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
