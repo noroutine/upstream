@@ -1,5 +1,5 @@
 {
-  "version": "f55424d8",
+  "version": "ec0e3aba",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -293,17 +293,13 @@
     ]
   },
   "variables": {
-    "INFRA_VERSION": "null",
-    "HAPROXY_VERSION": "2.7.2",
     "DEBIAN_VERSION": "bullseye-20230208-slim",
     "UBUNTU_JAMMY_VERSION": "jammy-20230126",
     "UBUNTU_FOCAL_VERSION": "focal-20230126",
-    "ENVOY_VERSION": "v1.21.6",
     "BUSYBOX_VERSION": "1.36.0",
     "BUILDPACK_DEPS_FOCAL_VERSION": "focal@sha256:b6044fe0ea91b2cd36ee16c377c20c075edb706ba5be48540aa2fccf4169ff31",
     "BUILDPACK_DEPS_JAMMY_VERSION": "jammy@sha256:e902a5ede3335b40edf720db97f0f318f2f014bf34395671c61dd7c554c38967",
     "BUILDPACK_DEPS_BIONIC_VERSION": "bionic@sha256:112ea54e20cdb539d74c1aea7d6ea6a943707a9ac2040c39de69943b7a436ee1",
-    "1.17.3-alpine3.14": "null",
     "GOLANG_VERSION": "1.20.0-bullseye",
     "TRAEFIK_VERSION": "v2.9.6",
     "NEXUS_VERSION": "3.47.1",
@@ -313,6 +309,7 @@
     "POSTGRES_VERSION": "15.2-bullseye",
     "JIRA_VERSION": "9.6.0",
     "NEXTCLOUD_VERSION": "25.0.3-apache",
+    "HAPROXY_VERSION": "2.7.2",
     "MINIO_VERSION": "RELEASE.2023-02-10T18-48-39Z",
     "PROMETHEUS_VERSION": "v2.42.0",
     "ALERTMANAGER_VERSION": "v0.25.0",
@@ -339,7 +336,6 @@
     "WORDPRESS_VERSION": "6.1.1-apache",
     "PGADMIN_VERSION": "6.20",
     "MYSQL_VERSION": "8.0.32",
-    "BITNAMI_MARIADB_VERSION": "10.10.3-debian-11-r0",
     "MARIADB_VERSION": "10.10.3-jammy",
     "HTTPBIN_VERSION": "v2.5.5",
     "OAUTH2_PROXY_VERSION": "v7.4.0-amd64",
@@ -396,6 +392,7 @@
     "BITNAMI_POSTGRESQL13_VERSION": "13.10.0-debian-11-r0",
     "BITNAMI_POSTGRESQL10_VERSION": "10.23.0-debian-11-r0",
     "BITNAMI_KEYCLOAK_CONFIG_CLI_VERSION": "5.5.0-debian-11-r20",
+    "BITNAMI_MARIADB_VERSION": "10.10.3-debian-11-r0",
     "BITNAMI_MONGODB_VERSION": "6.0.4-debian-11-r1",
     "BITNAMI_MEMCACHED_VERSION": "1.6.18-debian-11-r0",
     "BITNAMI_NGINX_INGRESS_CONTROLLER_VERSION": "1.6.0-debian-11-r7",
@@ -486,6 +483,7 @@
     "CERT_MANAGER_WEBHOOK_POWERDNS_VERSION": "main",
     "CONSUL_VERSION": "1.14.4",
     "CONSUL_K8S_CP_VERSION": "1.0.4",
+    "ENVOY_VERSION": "v1.21.6",
     "VAULT_VERSION": "1.12.3",
     "VAULT_K8S_VERSION": "1.2.0",
     "VAULT_CSI_PROVIDER_VERSION": "1.2.1",
@@ -507,65 +505,10 @@
     "AKHQ_VERSION": "0.23.0"
   },
   "components": {
-    "unbound": {
-      "name": "unbound",
-      "base": "debian",
-      "base-version": "null"
-    },
-    "builder": {
-      "name": "builder",
-      "base": "debian",
-      "base-version": ""
-    },
-    "rsyslog": {
-      "name": "rsyslog",
-      "base": "debian",
-      "base-version": "null"
-    },
-    "haproxy": {
-      "name": "haproxy",
-      "base": "haproxytech/haproxy-debian",
-      "base-version": "2.7.2"
-    },
     "debian": {
       "name": "debian",
       "base": "debian",
       "base-version": "bullseye-20230208-slim"
-    },
-    "powerdns": {
-      "name": "powerdns",
-      "base": "debian",
-      "base-version": ""
-    },
-    "squid": {
-      "name": "squid",
-      "base": "debian",
-      "base-version": "null"
-    },
-    "ipmi-exporter": {
-      "name": "ipmi-exporter",
-      "base": "golang",
-      "base-version": ""
-    },
-    "powerdns-recursor": {
-      "name": "powerdns-recursor",
-      "base": "debian",
-      "base-version": ""
-    },
-    "grafana-dashboards": {
-      "name": "grafana-dashboards",
-      "base": "debian",
-      "base-version": ""
-    },
-    "shell": {
-      "name": "shell",
-      "base": "debian",
-      "base-version": "null"
-    },
-    "ioping-exporter": {
-      "name": "ioping-exporter",
-      "base": "golang",
-      "base-version": "1.20.0-bullseye"
     },
     "ubuntu22": {
       "name": "ubuntu22",
@@ -577,38 +520,13 @@
       "base": "ubuntu",
       "base-version": "focal-20230126"
     },
-    "external-secrets": {
-      "name": "external-secrets",
-      "base": "external-secrets/external-secrets",
-      "base-version": ""
-    },
-    "envoy": {
-      "name": "envoy",
-      "base": "envoyproxy/envoy-alpine",
-      "base-version": "v1.21.6"
-    },
     "busybox": {
       "name": "busybox",
       "base": "busybox",
       "base-version": "1.36.0"
     },
-    "openvpn": {
-      "name": "openvpn",
-      "base": "alpine",
-      "base-version": ""
-    },
-    "speedtest": {
-      "name": "speedtest",
-      "base": "golang",
-      "base-version": "null"
-    },
     "alpine": {
       "name": "alpine",
-      "base": "alpine",
-      "base-version": ""
-    },
-    "ocsp-responder": {
-      "name": "ocsp-responder",
       "base": "alpine",
       "base-version": ""
     },
@@ -631,6 +549,16 @@
       "name": "grav",
       "base": "php",
       "base-version": ""
+    },
+    "ipmi-exporter": {
+      "name": "ipmi-exporter",
+      "base": "golang",
+      "base-version": ""
+    },
+    "ioping-exporter": {
+      "name": "ioping-exporter",
+      "base": "golang",
+      "base-version": "1.20.0-bullseye"
     },
     "traefik": {
       "name": "traefik",
@@ -671,6 +599,11 @@
       "name": "nextcloud",
       "base": "nextcloud",
       "base-version": "25.0.3-apache"
+    },
+    "haproxy": {
+      "name": "haproxy",
+      "base": "haproxytech/haproxy-debian",
+      "base-version": "2.7.2"
     },
     "minio": {
       "name": "minio",
@@ -807,11 +740,6 @@
       "base": "mysql",
       "base-version": "8.0.32"
     },
-    "bitnami-mariadb": {
-      "name": "bitnami-mariadb",
-      "base": "bitnami/mariadb",
-      "base-version": "10.10.3-debian-11-r0"
-    },
     "mariadb": {
       "name": "mariadb",
       "base": "mariadb",
@@ -939,7 +867,7 @@
     },
     "repo2docker": {
       "name": "repo2docker",
-      "base": "docker",
+      "base": "noroutine/repo2docker",
       "base-version": "2022.10.0-92.g4cd300b"
     },
     "pihole": {
@@ -1059,7 +987,7 @@
     },
     "bitnami-redis": {
       "name": "bitnami-redis",
-      "base": "redis",
+      "base": "bitnami/redis",
       "base-version": "7.0.8-debian-11-r0"
     },
     "bitnami-redis-exporter": {
@@ -1107,6 +1035,11 @@
       "base": "bitnami/keycloak-config-cli",
       "base-version": "5.5.0-debian-11-r20"
     },
+    "bitnami-mariadb": {
+      "name": "bitnami-mariadb",
+      "base": "bitnami/mariadb",
+      "base-version": "10.10.3-debian-11-r0"
+    },
     "bitnami-mongodb": {
       "name": "bitnami-mongodb",
       "base": "bitnami/mongodb",
@@ -1114,7 +1047,7 @@
     },
     "bitnami-memcached": {
       "name": "bitnami-memcached",
-      "base": "memcached",
+      "base": "bitnami/memcached",
       "base-version": "1.6.18-debian-11-r0"
     },
     "bitnami-nginx-ingress-controller": {
@@ -1169,7 +1102,7 @@
     },
     "bitnami-nats": {
       "name": "bitnami-nats",
-      "base": "nats",
+      "base": "bitnami/nats",
       "base-version": "2.9.14-debian-11-r0"
     },
     "bitnami-kube-state-metrics": {
@@ -1241,6 +1174,11 @@
       "name": "trivy",
       "base": "aquasec/trivy",
       "base-version": "0.37.2"
+    },
+    "external-secrets": {
+      "name": "external-secrets",
+      "base": "external-secrets/external-secrets",
+      "base-version": ""
     },
     "minio-console": {
       "name": "minio-console",
@@ -1356,11 +1294,6 @@
       "name": "caddy",
       "base": "caddy",
       "base-version": "2.6.3-alpine"
-    },
-    "infra-docs": {
-      "name": "infra-docs",
-      "base": "caddy",
-      "base-version": ""
     },
     "shadowbox": {
       "name": "shadowbox",
@@ -1576,6 +1509,11 @@
       "name": "consul-k8s-control-plane",
       "base": "hashicorp/consul-k8s-control-plane",
       "base-version": "1.0.4"
+    },
+    "envoy": {
+      "name": "envoy",
+      "base": "envoyproxy/envoy-alpine",
+      "base-version": "v1.21.6"
     },
     "vault": {
       "name": "vault",
