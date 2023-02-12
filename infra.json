@@ -1,5 +1,5 @@
 {
-  "version": "9f895ae3",
+  "version": "652a5cec",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -291,6 +291,9 @@
       "obsidiandynamics/kafdrop:3.30.0",
       "tchiotludo/akhq:0.23.0"
     ]
+  },
+  "variables": {
+    "": "0.23.0"
   },
   "components": {
     "unbound": {
