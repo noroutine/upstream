@@ -791,7 +791,7 @@ FROM restic/restic:0.15.1
 # restic/restic
 
 # coredns/coredns
-FROM k8s.gcr.io/coredns/coredns:v1.10.1
+FROM registry.k8s.io/coredns/coredns:v1.10.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
@@ -835,7 +835,7 @@ FROM apache/airflow:2.5.1-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM k8s.gcr.io/git-sync/git-sync:v3.6.4
+FROM registry.k8s.io/git-sync/git-sync:v3.6.4
 # git-sync/git-sync
 
 # kedacore/keda
@@ -1079,27 +1079,27 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.7.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM k8s.gcr.io/sig-storage/livenessprobe:v2.9.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.9.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.7.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.7.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM k8s.gcr.io/sig-storage/csi-attacher:v4.2.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.2.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM k8s.gcr.io/sig-storage/csi-resizer:v1.7.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.7.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM k8s.gcr.io/sig-storage/csi-provisioner:v3.4.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM k8s.gcr.io/sig-storage/csi-snapshotter:v6.2.1
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.2.1
 # sig-storage/csi-snapshotter
 
 # confluentinc/confluent-init-container
