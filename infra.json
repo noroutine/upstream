@@ -1,5 +1,5 @@
 {
-  "version": "7dba3db5",
+  "version": "8ea638b3",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -187,7 +187,7 @@
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:19.0.2-19.32.15",
       "elastic/eck-operator:2.6.1",
-      "louislam/uptime-kuma:1.19.6-alpine",
+      "louislam/uptime-kuma:1.20.0-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.67.2",
       "syncthing/syncthing:1.23.1",
