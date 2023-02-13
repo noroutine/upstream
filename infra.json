@@ -1,5 +1,5 @@
 {
-  "version": "2ec6b820",
+  "version": "f767dfeb",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -73,7 +73,7 @@
       "gitlab/gitlab-ce:15.8.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.28.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.46.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.8.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.9.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.0",
       "summerwind/actions-runner-controller:v0.27.0",
       "summerwind/actions-runner:v2.301.1-ubuntu-22.04",
