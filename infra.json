@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.228",
+  "version": "7dba3db5",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -90,7 +90,7 @@
       "registry.k8s.io/kube-scheduler:v1.23.10",
       "registry.k8s.io/pause:3.9",
       "quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b",
-      "pihole/pihole:2023.02.0",
+      "pihole/pihole:2023.02.1",
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v1.5.1",
