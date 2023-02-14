@@ -263,7 +263,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.15.3
+FROM buildpacksio/lifecycle:0.16.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -379,7 +379,7 @@ FROM ghost:5.33.8
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.33.8-debian-11-r0
+FROM bitnami/ghost:5.34.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -563,7 +563,7 @@ FROM bitnami/nats:2.9.14-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.7.0-debian-11-r0
+FROM bitnami/kube-state-metrics:2.8.0-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
