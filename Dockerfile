@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:e902a5ede3335b40edf720db97f0f318f2f014bf3439567
 # buildpack-deps
 
 # php
-FROM php:8.2.2-apache-bullseye
+FROM php:8.2.3-apache-bullseye
 # php
 
 # golang
@@ -99,7 +99,7 @@ FROM nextcloud:25.0.3-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.7.2
+FROM haproxytech/haproxy-debian:2.7.3
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -367,7 +367,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.20.1
+FROM verdaccio/verdaccio:5.21.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -827,7 +827,7 @@ FROM jenkins/jenkins:2.390-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-2-jdk17
+FROM jenkins/agent:3107.v665000b_51092-3-jdk17
 # jenkins/agent
 
 # apache/airflow
