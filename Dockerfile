@@ -59,11 +59,11 @@ FROM php:8.2.2-apache-bullseye
 # php
 
 # golang
-FROM golang:1.20.0-bullseye
+FROM golang:1.20.1-bullseye
 # golang
 
 # golang
-FROM golang:1.20.0-alpine3.17
+FROM golang:1.20.1-alpine3.17
 # golang
 
 # traefik
@@ -271,7 +271,7 @@ FROM gitlab/gitlab-runner:alpine-v15.8.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.8.1-ce.0
+FROM gitlab/gitlab-ce:15.8.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -611,11 +611,11 @@ FROM bitnami/sealed-secrets-controller:v0.19.4
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.37.2-debian-11-r0
+FROM bitnami/trivy:0.37.3-debian-11-r0
 # bitnami/trivy
 
 # aquasec/trivy
-FROM aquasec/trivy:0.37.2
+FROM aquasec/trivy:0.37.3
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -739,7 +739,7 @@ FROM elastic/eck-operator:2.6.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.20.0-alpine
+FROM louislam/uptime-kuma:1.20.1-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
