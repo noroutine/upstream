@@ -635,7 +635,7 @@ FROM drakkan/sftpgo:v2.4.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.18.0
+FROM hasura/graphql-engine:v2.19.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -711,7 +711,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.6.3-alpine
+FROM caddy:2.6.4-alpine
 # caddy
 
 # outline/shadowbox

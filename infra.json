@@ -1,5 +1,5 @@
 {
-  "version": "f155c35c",
+  "version": "0d2b7fbd",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -161,7 +161,7 @@
       "minio/console:v0.23.1",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.4.4",
-      "hasura/graphql-engine:v2.18.0",
+      "hasura/graphql-engine:v2.19.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.5",
       "jimmidyson/configmap-reload:v0.8.0",
@@ -180,7 +180,7 @@
       "masipcat/wireguard-go:0.0.20220316",
       "eclipse-mosquitto:2.0.15-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
-      "caddy:2.6.3-alpine",
+      "caddy:2.6.4-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
       "gcr.io/kaniko-project/executor:v1.9.1",
       "quay.io/iovisor/bpftrace:v0.17.0",
