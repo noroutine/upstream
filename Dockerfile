@@ -979,7 +979,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.16
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.29.0
+FROM quay.io/tigera/operator:v1.29.1
 # tigera/operator
 
 # calico/typha
