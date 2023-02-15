@@ -1,5 +1,5 @@
 {
-  "version": "263f9ab7",
+  "version": "f60bebbc",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -208,7 +208,7 @@
       "netbirdio/management:0.13.0",
       "coturn/coturn:4.6.1",
       "firezone/firezone:0.7.13",
-      "jenkins/jenkins:2.390-jdk17",
+      "jenkins/jenkins:2.391-jdk17",
       "jenkins/agent:3107.v665000b_51092-3-jdk17",
       "apache/airflow:2.5.1-python3.10",
       "registry.k8s.io/git-sync/git-sync:v3.6.4",
