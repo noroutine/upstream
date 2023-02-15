@@ -271,7 +271,7 @@ FROM gitlab/gitlab-runner:alpine-v15.8.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.8.2-ce.0
+FROM gitlab/gitlab-ce:15.8.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -607,7 +607,7 @@ FROM bitnami/openldap:2.6.3-debian-11-r14
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.19.4
+FROM bitnami/sealed-secrets-controller:v0.19.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
