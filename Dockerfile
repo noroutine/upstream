@@ -67,7 +67,7 @@ FROM golang:1.20.1-alpine3.17
 # golang
 
 # traefik
-FROM traefik:v2.9.6
+FROM traefik:v2.9.7
 # traefik
 
 # sonatype/nexus3
@@ -375,7 +375,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.33.8
+FROM ghost:5.34.0
 # ghost
 
 # bitnami/ghost
@@ -747,7 +747,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.67.2
+FROM outlinewiki/outline:0.68.0
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -979,7 +979,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.16
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.29.0
+FROM quay.io/tigera/operator:v1.29.1
 # tigera/operator
 
 # calico/typha
