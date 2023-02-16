@@ -614,6 +614,10 @@ FROM bitnami/sealed-secrets-controller:v0.19.5
 FROM bitnami/trivy:0.37.3-debian-11-r0
 # bitnami/trivy
 
+# bitnami/kubectl
+FROM bitnami/kubectl:1.26.1-debian-11-r9
+# bitnami/kubectl
+
 # aquasec/trivy
 FROM aquasec/trivy:0.37.3
 # aquasec/trivy
@@ -827,8 +831,36 @@ FROM jenkins/jenkins:2.391-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-3-jdk17
+FROM jenkins/agent:3107.v665000b_51092-4-jdk17
 # jenkins/agent
+
+# velero/velero
+FROM velero/velero:v1.10.1
+# velero/velero
+
+# velero/velero-plugin-for-csi
+FROM velero/velero-plugin-for-csi:v0.4.1
+# velero/velero-plugin-for-csi
+
+# velero/velero-plugin-for-aws
+FROM velero/velero-plugin-for-aws:v1.6.1
+# velero/velero-plugin-for-aws
+
+# velero/velero-plugin-for-gcp
+FROM velero/velero-plugin-for-gcp:v1.6.1
+# velero/velero-plugin-for-gcp
+
+# velero/velero-plugin-for-microsoft-azure
+FROM velero/velero-plugin-for-microsoft-azure:v1.6.1
+# velero/velero-plugin-for-microsoft-azure
+
+# velero/velero-restic-restore-helper
+FROM velero/velero-restic-restore-helper:v1.9.5
+# velero/velero-restic-restore-helper
+
+# bitnami/kubectl
+FROM bitnami/kubectl:1.26.1-debian-11-r9
+# bitnami/kubectl
 
 # apache/airflow
 FROM apache/airflow:2.5.1-python3.10

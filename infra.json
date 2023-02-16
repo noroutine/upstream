@@ -1,5 +1,5 @@
 {
-  "version": "081b4dfb",
+  "version": "91412a2f",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -156,6 +156,7 @@
       "bitnami/openldap:2.6.3-debian-11-r14",
       "bitnami/sealed-secrets-controller:v0.19.5",
       "bitnami/trivy:0.37.3-debian-11-r0",
+      "bitnami/kubectl:1.26.1-debian-11-r9",
       "aquasec/trivy:0.37.3",
       "ghcr.io/external-secrets/external-secrets:v0.7.2",
       "minio/console:v0.23.1",
@@ -209,7 +210,14 @@
       "coturn/coturn:4.6.1",
       "firezone/firezone:0.7.13",
       "jenkins/jenkins:2.391-jdk17",
-      "jenkins/agent:3107.v665000b_51092-3-jdk17",
+      "jenkins/agent:3107.v665000b_51092-4-jdk17",
+      "velero/velero:v1.10.1",
+      "velero/velero-plugin-for-csi:v0.4.1",
+      "velero/velero-plugin-for-aws:v1.6.1",
+      "velero/velero-plugin-for-gcp:v1.6.1",
+      "velero/velero-plugin-for-microsoft-azure:v1.6.1",
+      "velero/velero-restic-restore-helper:v1.9.5",
+      "bitnami/kubectl:1.26.1-debian-11-r9",
       "apache/airflow:2.5.1-python3.10",
       "registry.k8s.io/git-sync/git-sync:v3.6.4",
       "ghcr.io/kedacore/keda:2.9.3",
