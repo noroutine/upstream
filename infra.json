@@ -1,5 +1,5 @@
 {
-  "version": "cbf00442",
+  "version": "3515f665",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -99,7 +99,7 @@
       "ghost:5.34.0",
       "bitnami/ghost:5.34.0-debian-11-r0",
       "matomo:4.13.3-apache",
-      "nocodb/nocodb:0.104.3",
+      "nocodb/nocodb:0.105.0",
       "metabase/metabase:v0.45.2.1",
       "docker:23.0.1-dind",
       "jupyter/base-notebook:hub-3.1.1",
