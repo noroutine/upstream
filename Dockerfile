@@ -67,7 +67,7 @@ FROM golang:1.20.1-alpine3.17
 # golang
 
 # traefik
-FROM traefik:v2.9.7
+FROM traefik:v2.9.8
 # traefik
 
 # sonatype/nexus3
@@ -351,7 +351,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.02.1
+FROM pihole/pihole:2023.02.2
 # pihole/pihole
 
 # yandex/clickhouse-server
