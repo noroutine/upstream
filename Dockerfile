@@ -854,6 +854,10 @@ FROM velero/velero-plugin-for-gcp:v1.6.1
 FROM velero/velero-plugin-for-microsoft-azure:v1.6.1
 # velero/velero-plugin-for-microsoft-azure
 
+# vsphereveleroplugin/velero-plugin-for-vsphere
+FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.4.2
+# vsphereveleroplugin/velero-plugin-for-vsphere
+
 # velero/velero-restic-restore-helper
 FROM velero/velero-restic-restore-helper:v1.9.5
 # velero/velero-restic-restore-helper
