@@ -79,7 +79,7 @@ FROM squidfunk/mkdocs-material:9.0.12
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.1-alpine
+FROM freeradius/freeradius-server:3.2.2-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
@@ -175,7 +175,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.47.1
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.111
+FROM ghcr.io/prymitive/karma:v0.112
 # prymitive/karma
 
 # cortexproject/cortex
@@ -183,15 +183,15 @@ FROM quay.io/cortexproject/cortex:v1.14.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.6.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.6.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.6.1
+FROM docker.elastic.co/logstash/logstash:8.6.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.6.1
+FROM docker.elastic.co/kibana/kibana:8.6.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -663,7 +663,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.6.1
+FROM quay.io/argoproj/argocd:v2.6.2
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
