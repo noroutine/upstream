@@ -1,5 +1,5 @@
 {
-  "version": "778aff90",
+  "version": "9330d7ec",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -217,6 +217,8 @@
       "velero/velero-plugin-for-gcp:v1.6.1",
       "velero/velero-plugin-for-microsoft-azure:v1.6.1",
       "vsphereveleroplugin/velero-plugin-for-vsphere:v1.4.2",
+      "vsphereveleroplugin/backup-driver:v1.4.2",
+      "vsphereveleroplugin/data-manager-for-plugin:v1.4.2",
       "velero/velero-restic-restore-helper:v1.9.5",
       "bitnami/kubectl:1.26.1-debian-11-r9",
       "apache/airflow:2.5.1-python3.10",

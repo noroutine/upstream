@@ -858,6 +858,14 @@ FROM velero/velero-plugin-for-microsoft-azure:v1.6.1
 FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.4.2
 # vsphereveleroplugin/velero-plugin-for-vsphere
 
+# vsphereveleroplugin/backup-driver
+FROM vsphereveleroplugin/backup-driver:v1.4.2
+# vsphereveleroplugin/backup-driver
+
+# vsphereveleroplugin/data-manager-for-plugin
+FROM vsphereveleroplugin/data-manager-for-plugin:v1.4.2
+# vsphereveleroplugin/data-manager-for-plugin
+
 # velero/velero-restic-restore-helper
 FROM velero/velero-restic-restore-helper:v1.9.5
 # velero/velero-restic-restore-helper
