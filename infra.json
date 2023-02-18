@@ -1,5 +1,5 @@
 {
-  "version": "433b4a8f",
+  "version": "c8477c88",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -41,6 +41,9 @@
       "grafana/loki:2.7.3",
       "grafana/loki-canary:2.7.3",
       "grafana/promtail:2.7.3",
+      "nginxinc/nginx-unprivileged:1.23.3-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.23.3-alpine-slim",
+      "httpd:2.4.55-alpine",
       "quay.io/m3db/m3coordinator:v1.5.0",
       "quay.io/m3db/m3dbnode:v1.5.0",
       "braedon/prometheus-es-exporter:0.14.1",

@@ -154,6 +154,18 @@ FROM grafana/loki-canary:2.7.3
 FROM grafana/promtail:2.7.3
 # grafana/promtail
 
+# nginxinc/nginx-unprivileged
+FROM nginxinc/nginx-unprivileged:1.23.3-alpine-slim
+# nginxinc/nginx-unprivileged
+
+# nginxinc/nginx-unprivileged
+FROM nginxinc/nginx-unprivileged:1.23.3-alpine-slim
+# nginxinc/nginx-unprivileged
+
+# httpd
+FROM httpd:2.4.55-alpine
+# httpd
+
 # m3db/m3coordinator
 FROM quay.io/m3db/m3coordinator:v1.5.0
 # m3db/m3coordinator
