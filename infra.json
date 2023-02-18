@@ -1,5 +1,5 @@
 {
-  "version": "c8477c88",
+  "version": "f882d0cb",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -21,7 +21,7 @@
       "golang:1.20.1-alpine3.17",
       "traefik:v2.9.8",
       "sonatype/nexus3:3.47.1",
-      "squidfunk/mkdocs-material:9.0.12",
+      "squidfunk/mkdocs-material:9.0.13",
       "freeradius/freeradius-server:3.2.2-alpine",
       "quay.io/keycloak/keycloak:20.0.3",
       "postgres:15.2-bullseye",
