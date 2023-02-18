@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-02-10T18-48-39Z
+FROM minio/minio:RELEASE.2023-02-17T17-52-43Z
 # minio/minio
 
 # coreos/etcd
@@ -215,7 +215,7 @@ FROM mysql:8.0.32
 # mysql
 
 # mariadb
-FROM mariadb:10.10.3-jammy
+FROM mariadb:10.11.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -375,11 +375,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.34.0
+FROM ghost:5.35.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.34.0-debian-11-r0
+FROM bitnami/ghost:5.35.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -387,7 +387,7 @@ FROM matomo:4.13.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.105.0
+FROM nocodb/nocodb:0.105.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -527,11 +527,11 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.2.10-debian-11-r0
+FROM bitnami/minio:2023.2.17-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.1.28-debian-11-r0
+FROM bitnami/minio-client:2023.2.16-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -551,7 +551,7 @@ FROM bitnami/grafana:9.3.6-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.6.3-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.6.4-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -767,7 +767,7 @@ FROM gravitl/netmaker:v0.18.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.18.0
+FROM gravitl/netmaker-ui:v0.18.1
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -943,11 +943,11 @@ FROM hashicorp/vault-csi-provider:1.2.1
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.33.1
+FROM quay.io/strimzi/operator:0.33.2
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.33.1-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.33.2-kafka-3.3.1
 # strimzi/kafka
 
 # pause
