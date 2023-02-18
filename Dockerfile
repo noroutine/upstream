@@ -1158,6 +1158,14 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.0
 FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.2.1
 # sig-storage/csi-snapshotter
 
+# sig-storage/snapshot-controller
+FROM registry.k8s.io/sig-storage/snapshot-controller:v6.2.1
+# sig-storage/snapshot-controller
+
+# sig-storage/snapshot-validation-webhook
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.1
+# sig-storage/snapshot-validation-webhook
+
 # confluentinc/confluent-init-container
 FROM confluentinc/confluent-init-container:2.5.1
 # confluentinc/confluent-init-container
