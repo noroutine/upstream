@@ -1,5 +1,5 @@
 {
-  "version": "3257b6e6",
+  "version": "d8409f76",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -193,7 +193,7 @@
       "elastic/eck-operator:2.6.1",
       "louislam/uptime-kuma:1.20.1-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.68.0",
+      "outlinewiki/outline:0.68.1",
       "syncthing/syncthing:1.23.1",
       "jellyfin/jellyfin:10.8.9",
       "gravitl/netmaker:v0.18.0",
