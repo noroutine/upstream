@@ -763,7 +763,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.68.0
+FROM outlinewiki/outline:0.68.1
 # outlinewiki/outline
 
 # syncthing/syncthing
