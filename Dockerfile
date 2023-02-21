@@ -291,7 +291,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.28.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.46.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.47.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -403,7 +403,7 @@ FROM nocodb/nocodb:0.105.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.45.2.1
+FROM metabase/metabase:v0.45.3
 # metabase/metabase
 
 # docker
@@ -839,7 +839,7 @@ FROM firezone/firezone:0.7.13
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.391-jdk17
+FROM jenkins/jenkins:2.392-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
