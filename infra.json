@@ -1,5 +1,5 @@
 {
-  "version": "81577a85",
+  "version": "ee5bfa9c",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -140,8 +140,8 @@
       "bitnami/minio:2023.2.17-debian-11-r0",
       "bitnami/minio-client:2023.2.16-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r6",
-      "bitnami/metallb-controller:0.13.7-debian-11-r0",
-      "bitnami/metallb-speaker:0.13.7-debian-11-r0",
+      "bitnami/metallb-controller:0.13.9-debian-11-r0",
+      "bitnami/metallb-speaker:0.13.9-debian-11-r0",
       "bitnami/grafana:9.3.6-debian-11-r0",
       "bitnami/grafana-image-renderer:3.6.4-debian-11-r2",
       "bitnami/consul:1.14.4-debian-11-r0",

@@ -551,11 +551,11 @@ FROM bitnami/bitnami-shell:11-debian-11-r6
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.7-debian-11-r0
+FROM bitnami/metallb-controller:0.13.9-debian-11-r0
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.7-debian-11-r0
+FROM bitnami/metallb-speaker:0.13.9-debian-11-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
