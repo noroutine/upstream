@@ -1,5 +1,5 @@
 {
-  "version": "3624b00b",
+  "version": "81577a85",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -23,7 +23,7 @@
       "sonatype/nexus3:3.47.1",
       "squidfunk/mkdocs-material:9.0.13",
       "freeradius/freeradius-server:3.2.2-alpine",
-      "quay.io/keycloak/keycloak:20.0.3",
+      "quay.io/keycloak/keycloak:20.0.5",
       "postgres:15.2-bullseye",
       "atlassian/jira-software:9.6.0",
       "nextcloud:25.0.3-apache",
@@ -102,7 +102,7 @@
       "ghost:5.35.0",
       "bitnami/ghost:5.35.0-debian-11-r0",
       "matomo:4.13.3-apache",
-      "nocodb/nocodb:0.105.2",
+      "nocodb/nocodb:0.105.3",
       "metabase/metabase:v0.45.2.1",
       "docker:23.0.1-dind",
       "jupyter/base-notebook:hub-3.1.1",

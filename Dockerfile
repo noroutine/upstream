@@ -83,7 +83,7 @@ FROM freeradius/freeradius-server:3.2.2-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:20.0.3
+FROM quay.io/keycloak/keycloak:20.0.5
 # keycloak/keycloak
 
 # postgres
@@ -399,7 +399,7 @@ FROM matomo:4.13.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.105.2
+FROM nocodb/nocodb:0.105.3
 # nocodb/nocodb
 
 # metabase/metabase
