@@ -1,5 +1,5 @@
 {
-  "version": "34946fea",
+  "version": "f1d57b1a",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -73,7 +73,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.16.0",
       "gitlab/gitlab-runner:alpine-v15.9.1",
-      "gitlab/gitlab-ce:15.8.3-ce.0",
+      "gitlab/gitlab-ce:15.9.0-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.28.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.47.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.9.0",
@@ -146,7 +146,7 @@
       "bitnami/grafana-image-renderer:3.6.4-debian-11-r2",
       "bitnami/consul:1.14.4-debian-11-r0",
       "bitnami/nats:2.9.14-debian-11-r0",
-      "bitnami/kube-state-metrics:2.8.0-debian-11-r0",
+      "bitnami/kube-state-metrics:2.8.1-debian-11-r0",
       "bitnami/metrics-server:0.6.1-debian-11-r32",
       "bitnami/kubeapps-dashboard:2.6.3-debian-11-r0",
       "bitnami/kubeapps-apprepository-controller:2.6.3-scratch-r1",

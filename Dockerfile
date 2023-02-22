@@ -283,7 +283,7 @@ FROM gitlab/gitlab-runner:alpine-v15.9.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.8.3-ce.0
+FROM gitlab/gitlab-ce:15.9.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -575,7 +575,7 @@ FROM bitnami/nats:2.9.14-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.8.0-debian-11-r0
+FROM bitnami/kube-state-metrics:2.8.1-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
