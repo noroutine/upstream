@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-02-17T17-52-43Z
+FROM minio/minio:RELEASE.2023-02-22T18-23-45Z
 # minio/minio
 
 # coreos/etcd
@@ -539,7 +539,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.2.17-debian-11-r0
+FROM bitnami/minio:2023.2.22-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -835,7 +835,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.13
+FROM firezone/firezone:0.7.15
 # firezone/firezone
 
 # jenkins/jenkins
@@ -971,19 +971,19 @@ FROM registry.k8s.io/coredns/coredns:v1.9.4
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.1
+FROM registry.k8s.io/kube-apiserver:v1.26.2
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.1
+FROM registry.k8s.io/kube-proxy:v1.26.2
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.1
+FROM registry.k8s.io/kube-scheduler:v1.26.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.1
+FROM registry.k8s.io/kube-controller-manager:v1.26.2
 # kube-controller-manager
 
 # kube-apiserver
