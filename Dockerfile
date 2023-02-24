@@ -151,7 +151,7 @@ FROM grafana/loki-canary:2.7.4
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.7.3
+FROM grafana/promtail:2.7.4
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -391,7 +391,7 @@ FROM ghost:5.35.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.35.0-debian-11-r0
+FROM bitnami/ghost:5.36.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -567,7 +567,7 @@ FROM bitnami/grafana-image-renderer:3.6.4-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.14.4-debian-11-r0
+FROM bitnami/consul:1.15.0-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -931,7 +931,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.14.4
+FROM hashicorp/consul:1.15.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -1127,11 +1127,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.25.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.7.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.7.1
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.7.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.7.1
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
