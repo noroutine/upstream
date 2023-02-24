@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.47.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.13
+FROM squidfunk/mkdocs-material:9.0.14
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -83,7 +83,7 @@ FROM freeradius/freeradius-server:3.2.2-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:20.0.5
+FROM quay.io/keycloak/keycloak:21.0.0
 # keycloak/keycloak
 
 # postgres
@@ -95,7 +95,7 @@ FROM atlassian/jira-software:9.6.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:25.0.3-apache
+FROM nextcloud:25.0.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -283,11 +283,11 @@ FROM gitlab/gitlab-runner:alpine-v15.9.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.9.0-ce.0
+FROM gitlab/gitlab-ce:15.9.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.28.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.29.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -511,11 +511,11 @@ FROM bitnami/postgresql:15.2.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:20.0.3-debian-11-r0
+FROM bitnami/keycloak:20.0.5-debian-11-r2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r20
+FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r34
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
@@ -579,7 +579,7 @@ FROM bitnami/kube-state-metrics:2.8.1-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.1-debian-11-r32
+FROM bitnami/metrics-server:0.6.2-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
@@ -775,7 +775,7 @@ FROM jellyfin/jellyfin:10.8.9
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.18.0
+FROM gravitl/netmaker:v0.18.1
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
@@ -835,7 +835,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.15
+FROM firezone/firezone:0.7.17
 # firezone/firezone
 
 # jenkins/jenkins
@@ -879,7 +879,7 @@ FROM vsphereveleroplugin/data-manager-for-plugin:v1.4.2
 # vsphereveleroplugin/data-manager-for-plugin
 
 # velero/velero-restic-restore-helper
-FROM velero/velero-restic-restore-helper:v1.9.5
+FROM velero/velero-restic-restore-helper:v1.9.6
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
