@@ -1,5 +1,5 @@
 {
-  "version": "119ecc7b",
+  "version": "4e0b60d7",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -38,8 +38,8 @@
       "prom/snmp-exporter:v0.21.0",
       "prom/pushgateway:v1.5.1",
       "grafana/grafana:9.3.6",
-      "grafana/loki:2.7.3",
-      "grafana/loki-canary:2.7.3",
+      "grafana/loki:2.7.4",
+      "grafana/loki-canary:2.7.4",
       "grafana/promtail:2.7.3",
       "nginxinc/nginx-unprivileged:1.23.3-alpine-slim",
       "nginxinc/nginx-unprivileged:1.23.3-alpine-slim",
@@ -208,8 +208,8 @@
       "yugabytedb/yugabyte:2.15.3.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.7.1",
-      "netbirdio/signal:0.14.0",
-      "netbirdio/management:0.14.0",
+      "netbirdio/signal:0.14.1",
+      "netbirdio/management:0.14.1",
       "coturn/coturn:4.6.1",
       "firezone/firezone:0.7.17",
       "jenkins/jenkins:2.392-jdk17",

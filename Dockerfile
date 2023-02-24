@@ -143,11 +143,11 @@ FROM grafana/grafana:9.3.6
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.7.3
+FROM grafana/loki:2.7.4
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.7.3
+FROM grafana/loki-canary:2.7.4
 # grafana/loki-canary
 
 # grafana/promtail
@@ -823,11 +823,11 @@ FROM wiretrustee/dashboard:v1.7.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.0
+FROM netbirdio/signal:0.14.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.14.0
+FROM netbirdio/management:0.14.1
 # netbirdio/management
 
 # coturn/coturn
