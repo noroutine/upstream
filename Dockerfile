@@ -879,7 +879,7 @@ FROM vsphereveleroplugin/data-manager-for-plugin:v1.4.2
 # vsphereveleroplugin/data-manager-for-plugin
 
 # velero/velero-restic-restore-helper
-FROM velero/velero-restic-restore-helper:v1.9.5
+FROM velero/velero-restic-restore-helper:v1.9.6
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
