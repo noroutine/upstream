@@ -1175,7 +1175,7 @@ FROM confluentinc/confluent-operator:0.581.34
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.3.1
+FROM confluentinc/cp-enterprise-control-center:7.3.2
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
