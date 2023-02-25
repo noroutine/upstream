@@ -379,7 +379,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.21.1
+FROM verdaccio/verdaccio:5.21.2
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -483,7 +483,7 @@ FROM bitnami/redis:7.0.8-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.46.0-debian-11-r0
+FROM bitnami/redis-exporter:1.47.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql

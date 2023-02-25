@@ -1,5 +1,5 @@
 {
-  "version": "2a88714e",
+  "version": "9935f314",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -97,7 +97,7 @@
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v1.5.1",
-      "verdaccio/verdaccio:5.21.1",
+      "verdaccio/verdaccio:5.21.2",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.35.1",
       "bitnami/ghost:5.36.0-debian-11-r0",
@@ -123,7 +123,7 @@
       "bitnami/blackbox-exporter:0.23.0-debian-11-r3",
       "bitnami/postgres-exporter:0.11.1-debian-11-r7",
       "bitnami/redis:7.0.8-debian-11-r0",
-      "bitnami/redis-exporter:1.46.0-debian-11-r0",
+      "bitnami/redis-exporter:1.47.0-debian-11-r0",
       "bitnami/postgresql:10.23.0-debian-11-r0",
       "bitnami/postgresql:11.19.0-debian-11-r0",
       "bitnami/postgresql:12.14.0-debian-11-r0",
