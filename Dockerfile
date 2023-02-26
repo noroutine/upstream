@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.47.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.14
+FROM squidfunk/mkdocs-material:9.0.15
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -659,7 +659,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.5
+FROM stakater/reloader:v1.0.8
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -755,7 +755,7 @@ FROM elastic/eck-operator:2.6.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.20.1-alpine
+FROM louislam/uptime-kuma:1.20.2-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint

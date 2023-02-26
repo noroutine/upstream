@@ -1,5 +1,5 @@
 {
-  "version": "9935f314",
+  "version": "87af8b07",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -21,7 +21,7 @@
       "golang:1.20.1-alpine3.17",
       "traefik:v2.9.8",
       "sonatype/nexus3:3.47.1",
-      "squidfunk/mkdocs-material:9.0.14",
+      "squidfunk/mkdocs-material:9.0.15",
       "freeradius/freeradius-server:3.2.2-alpine",
       "quay.io/keycloak/keycloak:21.0.0",
       "postgres:15.2-bullseye",
@@ -167,7 +167,7 @@
       "drakkan/sftpgo:v2.4.4",
       "hasura/graphql-engine:v2.19.0",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.5",
+      "stakater/reloader:v1.0.8",
       "jimmidyson/configmap-reload:v0.8.0",
       "registry:2.8.1",
       "ghcr.io/dexidp/dex:v2.35.3",
@@ -191,7 +191,7 @@
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:19.0.2-19.32.15",
       "elastic/eck-operator:2.6.1",
-      "louislam/uptime-kuma:1.20.1-alpine",
+      "louislam/uptime-kuma:1.20.2-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.68.1",
       "syncthing/syncthing:1.23.1",
