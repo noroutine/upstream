@@ -1,5 +1,5 @@
 {
-  "version": "615f2eca",
+  "version": "957fa139",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -167,7 +167,7 @@
       "drakkan/sftpgo:v2.4.4",
       "hasura/graphql-engine:v2.19.0",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.8",
+      "stakater/reloader:v1.0.10",
       "jimmidyson/configmap-reload:v0.8.0",
       "registry:2.8.1",
       "ghcr.io/dexidp/dex:v2.35.3",
