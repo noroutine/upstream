@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.236",
+  "version": "45539883",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -171,7 +171,7 @@
       "jimmidyson/configmap-reload:v0.8.0",
       "registry:2.8.1",
       "ghcr.io/dexidp/dex:v2.35.3",
-      "quay.io/argoproj/argocd:v2.6.2",
+      "quay.io/argoproj/argocd:v2.6.3",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "redis:7.0.8-bullseye",
       "listmonk/listmonk:v2.3.0",
@@ -236,7 +236,7 @@
       "zachomedia/cert-manager-webhook-pdns:v2.2.0",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.15.0",
-      "hashicorp/consul-k8s-control-plane:1.0.4",
+      "hashicorp/consul-k8s-control-plane:1.1.0",
       "envoyproxy/envoy-alpine:v1.21.6",
       "hashicorp/vault:1.12.3",
       "hashicorp/vault-k8s:1.2.0",

@@ -675,7 +675,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.6.2
+FROM quay.io/argoproj/argocd:v2.6.3
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -935,7 +935,7 @@ FROM hashicorp/consul:1.15.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.0.4
+FROM hashicorp/consul-k8s-control-plane:1.1.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
