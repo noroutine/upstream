@@ -71,7 +71,7 @@ FROM traefik:v2.9.8
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.47.1
+FROM sonatype/nexus3:3.48.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -519,7 +519,7 @@ FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r34
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.10.3-debian-11-r0
+FROM bitnami/mariadb:10.11.2-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -835,7 +835,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.17
+FROM firezone/firezone:0.7.18
 # firezone/firezone
 
 # jenkins/jenkins

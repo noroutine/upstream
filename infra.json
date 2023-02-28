@@ -1,5 +1,5 @@
 {
-  "version": "45539883",
+  "version": "61152176",
   "upstream": {
     "images": [
       "debian:bullseye-20230208-slim",
@@ -20,7 +20,7 @@
       "golang:1.20.1-bullseye",
       "golang:1.20.1-alpine3.17",
       "traefik:v2.9.8",
-      "sonatype/nexus3:3.47.1",
+      "sonatype/nexus3:3.48.0",
       "squidfunk/mkdocs-material:9.0.15",
       "freeradius/freeradius-server:3.2.2-alpine",
       "quay.io/keycloak/keycloak:21.0.0",
@@ -132,7 +132,7 @@
       "bitnami/postgresql:15.2.0-debian-11-r0",
       "bitnami/keycloak:20.0.5-debian-11-r2",
       "bitnami/keycloak-config-cli:5.5.0-debian-11-r34",
-      "bitnami/mariadb:10.10.3-debian-11-r0",
+      "bitnami/mariadb:10.11.2-debian-11-r0",
       "bitnami/mongodb:6.0.4-debian-11-r1",
       "bitnami/memcached:1.6.18-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.6.0-debian-11-r7",
@@ -211,7 +211,7 @@
       "netbirdio/signal:0.14.1",
       "netbirdio/management:0.14.1",
       "coturn/coturn:4.6.1",
-      "firezone/firezone:0.7.17",
+      "firezone/firezone:0.7.18",
       "jenkins/jenkins:2.392-jdk17",
       "jenkins/agent:3107.v665000b_51092-4-jdk17",
       "velero/velero:v1.10.1",
