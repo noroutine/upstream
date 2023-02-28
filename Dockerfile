@@ -103,7 +103,7 @@ FROM haproxytech/haproxy-debian:2.7.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-02-22T18-23-45Z
+FROM minio/minio:RELEASE.2023-02-27T18-10-45Z
 # minio/minio
 
 # coreos/etcd
@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.3.6
+FROM grafana/grafana:9.4.1
 # grafana/grafana
 
 # grafana/loki
@@ -387,7 +387,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.35.1
+FROM ghost:5.36.0
 # ghost
 
 # bitnami/ghost
@@ -539,11 +539,11 @@ FROM bitnami/nginx:1.23.3-debian-11-r6
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.2.22-debian-11-r0
+FROM bitnami/minio:2023.2.27-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.2.16-debian-11-r0
+FROM bitnami/minio-client:2023.2.28-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
