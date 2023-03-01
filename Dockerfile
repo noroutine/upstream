@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20230208-slim
+FROM debian:bullseye-20230227-slim
 # debian
 
 # ubuntu
@@ -479,7 +479,7 @@ FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.8-debian-11-r0
+FROM bitnami/redis:7.0.9-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -639,7 +639,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.7.2
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.23.1
+FROM minio/console:v0.24.0
 # minio/console
 
 # kutt/kutt
@@ -683,7 +683,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # redis
-FROM redis:7.0.8-bullseye
+FROM redis:7.0.9-bullseye
 # redis
 
 # listmonk/listmonk
