@@ -943,7 +943,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.12.3
+FROM hashicorp/vault:1.13.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
