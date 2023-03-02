@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.4.2
+FROM grafana/grafana:9.4.3
 # grafana/grafana
 
 # grafana/loki
@@ -835,7 +835,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.19
+FROM firezone/firezone:0.7.20
 # firezone/firezone
 
 # jenkins/jenkins

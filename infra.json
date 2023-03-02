@@ -1,5 +1,5 @@
 {
-  "version": "a10efc53",
+  "version": "0a642fc8",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -37,7 +37,7 @@
       "prom/blackbox-exporter:v0.23.0",
       "prom/snmp-exporter:v0.21.0",
       "prom/pushgateway:v1.5.1",
-      "grafana/grafana:9.4.2",
+      "grafana/grafana:9.4.3",
       "grafana/loki:2.7.4",
       "grafana/loki-canary:2.7.4",
       "grafana/promtail:2.7.4",
@@ -211,7 +211,7 @@
       "netbirdio/signal:0.14.1",
       "netbirdio/management:0.14.1",
       "coturn/coturn:4.6.1",
-      "firezone/firezone:0.7.19",
+      "firezone/firezone:0.7.20",
       "jenkins/jenkins:2.393-jdk17",
       "jenkins/agent:3107.v665000b_51092-4-jdk17",
       "velero/velero:v1.10.1",
