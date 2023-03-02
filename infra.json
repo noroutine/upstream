@@ -1,5 +1,5 @@
 {
-  "version": "f52013d4",
+  "version": "75348c86",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -142,10 +142,10 @@
       "bitnami/bitnami-shell:11-debian-11-r92",
       "bitnami/metallb-controller:0.13.9-debian-11-r3",
       "bitnami/metallb-speaker:0.13.9-debian-11-r3",
-      "bitnami/grafana:9.3.6-debian-11-r0",
+      "bitnami/grafana:9.4.2-debian-11-r0",
       "bitnami/grafana-image-renderer:3.6.4-debian-11-r2",
       "bitnami/consul:1.15.0-debian-11-r0",
-      "bitnami/nats:2.9.14-debian-11-r0",
+      "bitnami/nats:2.9.15-debian-11-r0",
       "bitnami/kube-state-metrics:2.8.1-debian-11-r0",
       "bitnami/metrics-server:0.6.2-debian-11-r32",
       "bitnami/kubeapps-dashboard:2.6.4-debian-11-r0",
@@ -180,7 +180,7 @@
       "cupcakearmy/cryptgeon:2.2.0",
       "memcached:1.6.18-alpine3.17",
       "connecteverything/nats-operator:0.8.0",
-      "nats:2.9.14-alpine3.17",
+      "nats:2.9.15-alpine3.17",
       "masipcat/wireguard-go:0.0.20220316",
       "eclipse-mosquitto:2.0.15-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
