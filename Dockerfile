@@ -7,7 +7,7 @@ FROM ubuntu:jammy-20230301
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230126
+FROM ubuntu:focal-20230301
 # ubuntu
 
 # alpine
@@ -43,15 +43,15 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # buildpack-deps
-FROM buildpack-deps:bionic@sha256:112ea54e20cdb539d74c1aea7d6ea6a943707a9ac2040c39de69943b7a436ee1
+FROM buildpack-deps:bionic@sha256:bc6401af10396327da867114d7fa9e07ecc1fb018a0615961855e71cabd808f2
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:b6044fe0ea91b2cd36ee16c377c20c075edb706ba5be48540aa2fccf4169ff31
+FROM buildpack-deps:focal@sha256:595b2e444543064db2180320b4a521621630b3086acc881d4e1a7a5c6bfede96
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:e902a5ede3335b40edf720db97f0f318f2f014bf34395671c61dd7c554c38967
+FROM buildpack-deps:jammy@sha256:c6097317ab952d1afb8c1199bdf70c7d1bcacdc64a3319ca0228eef74c9532c1
 # buildpack-deps
 
 # php
@@ -1123,7 +1123,7 @@ FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.25.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
