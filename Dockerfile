@@ -83,7 +83,7 @@ FROM freeradius/freeradius-server:3.2.2-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:21.0.0
+FROM quay.io/keycloak/keycloak:21.0.1
 # keycloak/keycloak
 
 # postgres
@@ -547,7 +547,7 @@ FROM bitnami/minio-client:2023.2.28-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
-FROM bitnami/bitnami-shell:11-debian-11-r6
+FROM bitnami/bitnami-shell:11-debian-11-r92
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
@@ -623,7 +623,7 @@ FROM bitnami/sealed-secrets-controller:v0.19.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.37.3-debian-11-r0
+FROM bitnami/trivy:0.38.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -631,7 +631,7 @@ FROM bitnami/kubectl:1.26.1-debian-11-r9
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.37.3
+FROM aquasec/trivy:0.38.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -651,7 +651,7 @@ FROM drakkan/sftpgo:v2.4.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.19.0
+FROM hasura/graphql-engine:v2.20.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -835,7 +835,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.18
+FROM firezone/firezone:0.7.19
 # firezone/firezone
 
 # jenkins/jenkins
@@ -943,7 +943,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.12.3
+FROM hashicorp/vault:1.13.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
