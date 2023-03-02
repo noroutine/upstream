@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.48.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.0.15
+FROM squidfunk/mkdocs-material:9.1.0
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -455,7 +455,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.3.1-debian-11-r6
+FROM bitnami/spark:3.3.2-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
@@ -515,7 +515,7 @@ FROM bitnami/keycloak:20.0.5-debian-11-r2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r34
+FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r37
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
@@ -531,11 +531,11 @@ FROM bitnami/memcached:1.6.18-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.6.0-debian-11-r7
+FROM bitnami/nginx-ingress-controller:1.6.4-debian-11-r6
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.23.3-debian-11-r6
+FROM bitnami/nginx:1.23.3-debian-11-r31
 # bitnami/nginx
 
 # bitnami/minio
@@ -551,11 +551,11 @@ FROM bitnami/bitnami-shell:11-debian-11-r92
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.7-debian-11-r42
+FROM bitnami/metallb-controller:0.13.9-debian-11-r3
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.7-debian-11-r42
+FROM bitnami/metallb-speaker:0.13.9-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -583,15 +583,15 @@ FROM bitnami/metrics-server:0.6.2-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.6.3-debian-11-r0
+FROM bitnami/kubeapps-dashboard:2.6.4-debian-11-r0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.6.3-scratch-r1
+FROM bitnami/kubeapps-apprepository-controller:2.6.4-scratch-r0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.6.3-scratch-r0
+FROM bitnami/kubeapps-asset-syncer:2.6.4-scratch-r0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-kubeops
@@ -603,11 +603,11 @@ FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r2
 # bitnami/kubeapps-assetsvc
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.6.3-debian-11-r0
+FROM bitnami/kubeapps-apis:2.6.4-debian-11-r0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.6.3-debian-11-r0
+FROM bitnami/kubeapps-pinniped-proxy:2.6.4-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
@@ -615,7 +615,7 @@ FROM bitnami/kube-rbac-proxy:0.14.0-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.3-debian-11-r14
+FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
@@ -627,7 +627,7 @@ FROM bitnami/trivy:0.38.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.26.1-debian-11-r9
+FROM bitnami/kubectl:1.26.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
