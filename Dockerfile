@@ -3,7 +3,7 @@ FROM debian:bullseye-20230227-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230126
+FROM ubuntu:jammy-20230301
 # ubuntu
 
 # ubuntu
