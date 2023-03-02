@@ -1123,7 +1123,7 @@ FROM longhornio/csi-attacher:v3.4.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.25.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
