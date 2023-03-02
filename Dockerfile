@@ -7,7 +7,7 @@ FROM ubuntu:jammy-20230301
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230126
+FROM ubuntu:focal-20230301
 # ubuntu
 
 # alpine
