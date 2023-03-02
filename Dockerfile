@@ -607,7 +607,7 @@ FROM bitnami/kubeapps-apis:2.6.3-debian-11-r0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.6.3-debian-11-r0
+FROM bitnami/kubeapps-pinniped-proxy:2.6.4-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
