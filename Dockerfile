@@ -139,7 +139,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.4.1
+FROM grafana/grafana:9.4.2
 # grafana/grafana
 
 # grafana/loki

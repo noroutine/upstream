@@ -1,5 +1,5 @@
 {
-  "version": "8319c577",
+  "version": "5c3e5667",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -37,7 +37,7 @@
       "prom/blackbox-exporter:v0.23.0",
       "prom/snmp-exporter:v0.21.0",
       "prom/pushgateway:v1.5.1",
-      "grafana/grafana:9.4.1",
+      "grafana/grafana:9.4.2",
       "grafana/loki:2.7.4",
       "grafana/loki-canary:2.7.4",
       "grafana/promtail:2.7.4",
