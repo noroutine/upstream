@@ -283,7 +283,7 @@ FROM gitlab/gitlab-runner:alpine-v15.9.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.9.1-ce.0
+FROM gitlab/gitlab-ce:15.9.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -623,7 +623,7 @@ FROM bitnami/sealed-secrets-controller:v0.19.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.38.0-debian-11-r0
+FROM bitnami/trivy:0.38.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -631,7 +631,7 @@ FROM bitnami/kubectl:1.26.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.38.0
+FROM aquasec/trivy:0.38.1
 # aquasec/trivy
 
 # external-secrets/external-secrets

@@ -1,5 +1,5 @@
 {
-  "version": "5c3e5667",
+  "version": "f52013d4",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -73,7 +73,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.16.0",
       "gitlab/gitlab-runner:alpine-v15.9.1",
-      "gitlab/gitlab-ce:15.9.1-ce.0",
+      "gitlab/gitlab-ce:15.9.2-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.29.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.47.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.9.0",
@@ -158,9 +158,9 @@
       "bitnami/kube-rbac-proxy:0.14.0-scratch-r0",
       "bitnami/openldap:2.6.4-debian-11-r3",
       "bitnami/sealed-secrets-controller:v0.19.5",
-      "bitnami/trivy:0.38.0-debian-11-r0",
+      "bitnami/trivy:0.38.1-debian-11-r0",
       "bitnami/kubectl:1.26.2-debian-11-r0",
-      "aquasec/trivy:0.38.0",
+      "aquasec/trivy:0.38.1",
       "ghcr.io/external-secrets/external-secrets:v0.7.2",
       "minio/console:v0.24.0",
       "kutt/kutt:v2.7.4",
