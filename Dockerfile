@@ -483,7 +483,7 @@ FROM bitnami/redis:7.0.9-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.47.0-debian-11-r0
+FROM bitnami/redis-exporter:1.48.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
