@@ -307,11 +307,11 @@ FROM summerwind/actions-runner-controller:v0.27.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.301.1-ubuntu-22.04
+FROM summerwind/actions-runner:v2.302.1-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.301.1-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.302.1-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -483,7 +483,7 @@ FROM bitnami/redis:7.0.9-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.47.0-debian-11-r0
+FROM bitnami/redis-exporter:1.48.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -559,7 +559,7 @@ FROM bitnami/metallb-speaker:0.13.9-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.4.2-debian-11-r0
+FROM bitnami/grafana:9.4.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer

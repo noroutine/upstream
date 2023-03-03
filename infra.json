@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.237",
+  "version": "8c30e15d",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -79,8 +79,8 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.9.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.0",
       "summerwind/actions-runner-controller:v0.27.0",
-      "summerwind/actions-runner:v2.301.1-ubuntu-22.04",
-      "summerwind/actions-runner-dind:v2.301.1-ubuntu-22.04",
+      "summerwind/actions-runner:v2.302.1-ubuntu-22.04",
+      "summerwind/actions-runner-dind:v2.302.1-ubuntu-22.04",
       "quay.io/brancz/kube-rbac-proxy:v0.14.0",
       "jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab",
       "noroutine/k8s-binderhub:0.2.0-n930.ha8b371d",
@@ -123,7 +123,7 @@
       "bitnami/blackbox-exporter:0.23.0-debian-11-r3",
       "bitnami/postgres-exporter:0.11.1-debian-11-r7",
       "bitnami/redis:7.0.9-debian-11-r0",
-      "bitnami/redis-exporter:1.47.0-debian-11-r0",
+      "bitnami/redis-exporter:1.48.0-debian-11-r0",
       "bitnami/postgresql:10.23.0-debian-11-r0",
       "bitnami/postgresql:11.19.0-debian-11-r0",
       "bitnami/postgresql:12.14.0-debian-11-r0",
@@ -142,7 +142,7 @@
       "bitnami/bitnami-shell:11-debian-11-r92",
       "bitnami/metallb-controller:0.13.9-debian-11-r3",
       "bitnami/metallb-speaker:0.13.9-debian-11-r3",
-      "bitnami/grafana:9.4.2-debian-11-r0",
+      "bitnami/grafana:9.4.3-debian-11-r0",
       "bitnami/grafana-image-renderer:3.6.4-debian-11-r2",
       "bitnami/consul:1.15.0-debian-11-r0",
       "bitnami/nats:2.9.15-debian-11-r0",
