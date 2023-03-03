@@ -1,5 +1,5 @@
 {
-  "version": "0a642fc8",
+  "version": "07025b50",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -99,7 +99,7 @@
       "plausible/analytics:v1.5.1",
       "verdaccio/verdaccio:5.21.2",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.36.0",
+      "ghost:5.36.1",
       "bitnami/ghost:5.36.1-debian-11-r0",
       "matomo:4.13.3-apache",
       "nocodb/nocodb:0.105.3",
