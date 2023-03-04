@@ -387,11 +387,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.36.1
+FROM ghost:5.37.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.36.1-debian-11-r0
+FROM bitnami/ghost:5.37.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -659,7 +659,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.10
+FROM stakater/reloader:v1.0.11
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -775,11 +775,11 @@ FROM jellyfin/jellyfin:10.8.9
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.18.1
+FROM gravitl/netmaker:v0.18.2
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.18.1
+FROM gravitl/netmaker-ui:v0.18.2
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -819,15 +819,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.7.1
+FROM wiretrustee/dashboard:v1.8.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.1
+FROM netbirdio/signal:0.14.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.14.1
+FROM netbirdio/management:0.14.2
 # netbirdio/management
 
 # coturn/coturn
