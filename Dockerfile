@@ -75,7 +75,7 @@ FROM sonatype/nexus3:3.48.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.0
+FROM squidfunk/mkdocs-material:9.1.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -379,7 +379,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.21.2
+FROM verdaccio/verdaccio:5.22.0
 # verdaccio/verdaccio
 
 # strapi/strapi
