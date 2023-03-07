@@ -1,5 +1,5 @@
 {
-  "version": "2c28d71d",
+  "version": "1eb94433",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -20,7 +20,7 @@
       "golang:1.20.1-bullseye",
       "golang:1.20.1-alpine3.17",
       "traefik:v2.9.8",
-      "sonatype/nexus3:3.48.0",
+      "sonatype/nexus3:3.49.0",
       "squidfunk/mkdocs-material:9.1.1",
       "freeradius/freeradius-server:3.2.2-alpine",
       "quay.io/keycloak/keycloak:21.0.1",
@@ -167,7 +167,7 @@
       "drakkan/sftpgo:v2.4.4",
       "hasura/graphql-engine:v2.20.0",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.11",
+      "stakater/reloader:v1.0.12",
       "jimmidyson/configmap-reload:v0.8.0",
       "registry:2.8.1",
       "ghcr.io/dexidp/dex:v2.35.3",
@@ -213,7 +213,7 @@
       "coturn/coturn:4.6.1",
       "firezone/firezone:0.7.20",
       "jenkins/jenkins:2.393-jdk17",
-      "jenkins/agent:3107.v665000b_51092-4-jdk17",
+      "jenkins/agent:3107.v665000b_51092-5-jdk17",
       "velero/velero:v1.10.1",
       "velero/velero-plugin-for-csi:v0.4.1",
       "velero/velero-plugin-for-aws:v1.6.1",

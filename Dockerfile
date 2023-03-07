@@ -71,7 +71,7 @@ FROM traefik:v2.9.8
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.48.0
+FROM sonatype/nexus3:3.49.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -659,7 +659,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.11
+FROM stakater/reloader:v1.0.12
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -843,7 +843,7 @@ FROM jenkins/jenkins:2.393-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-4-jdk17
+FROM jenkins/agent:3107.v665000b_51092-5-jdk17
 # jenkins/agent
 
 # velero/velero
