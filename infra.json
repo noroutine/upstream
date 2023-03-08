@@ -1,5 +1,5 @@
 {
-  "version": "8f0a5d17",
+  "version": "28f593df",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -144,7 +144,7 @@
       "bitnami/metallb-speaker:0.13.9-debian-11-r3",
       "bitnami/grafana:9.4.3-debian-11-r0",
       "bitnami/grafana-image-renderer:3.6.4-debian-11-r2",
-      "bitnami/consul:1.15.0-debian-11-r0",
+      "bitnami/consul:1.15.1-debian-11-r0",
       "bitnami/nats:2.9.15-debian-11-r0",
       "bitnami/kube-state-metrics:2.8.1-debian-11-r0",
       "bitnami/metrics-server:0.6.2-debian-11-r32",
