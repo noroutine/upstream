@@ -58,6 +58,10 @@ FROM buildpack-deps:jammy@sha256:c6097317ab952d1afb8c1199bdf70c7d1bcacdc64a3319c
 FROM php:8.2.3-apache-bullseye
 # php
 
+# python
+FROM python:3.11.2
+# python
+
 # golang
 FROM golang:1.20.2-bullseye
 # golang
