@@ -1,5 +1,5 @@
 {
-  "version": "11cdacf5",
+  "version": "8f0a5d17",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -171,7 +171,7 @@
       "jimmidyson/configmap-reload:v0.8.0",
       "registry:2.8.1",
       "ghcr.io/dexidp/dex:v2.35.3",
-      "quay.io/argoproj/argocd:v2.6.3",
+      "quay.io/argoproj/argocd:v2.6.4",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "redis:7.0.9-bullseye",
       "listmonk/listmonk:v2.3.0",
