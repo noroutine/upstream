@@ -1,5 +1,5 @@
 {
-  "version": "28f593df",
+  "version": "839a10e4",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -214,6 +214,7 @@
       "firezone/firezone:0.7.20",
       "jenkins/jenkins:2.393-jdk17",
       "jenkins/agent:3107.v665000b_51092-5-jdk17",
+      "netboxcommunity/netbox:v3.4.5",
       "velero/velero:v1.10.1",
       "velero/velero-plugin-for-csi:v0.4.1",
       "velero/velero-plugin-for-aws:v1.6.1",

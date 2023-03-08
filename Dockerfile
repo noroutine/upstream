@@ -846,6 +846,10 @@ FROM jenkins/jenkins:2.393-jdk17
 FROM jenkins/agent:3107.v665000b_51092-5-jdk17
 # jenkins/agent
 
+# netboxcommunity/netbox
+FROM netboxcommunity/netbox:v3.4.5
+# netboxcommunity/netbox
+
 # velero/velero
 FROM velero/velero:v1.10.1
 # velero/velero
