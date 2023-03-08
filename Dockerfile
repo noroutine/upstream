@@ -59,11 +59,11 @@ FROM php:8.2.3-apache-bullseye
 # php
 
 # golang
-FROM golang:1.20.1-bullseye
+FROM golang:1.20.2-bullseye
 # golang
 
 # golang
-FROM golang:1.20.1-alpine3.17
+FROM golang:1.20.2-alpine3.17
 # golang
 
 # traefik
@@ -379,7 +379,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.22.0
+FROM verdaccio/verdaccio:5.22.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -931,7 +931,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.15.0
+FROM hashicorp/consul:1.15.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
