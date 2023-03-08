@@ -1,5 +1,5 @@
 {
-  "version": "cf5ebf80",
+  "version": "c7746ea3",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -50,7 +50,7 @@
       "braedon/prometheus-es-exporter:0.14.1",
       "ribbybibby/ssl-exporter:2.4.2",
       "gcr.io/cadvisor/cadvisor:v0.47.1",
-      "ghcr.io/prymitive/karma:v0.112",
+      "ghcr.io/prymitive/karma:v0.113",
       "quay.io/cortexproject/cortex:v1.14.1",
       "docker.elastic.co/elasticsearch/elasticsearch:8.6.2",
       "docker.elastic.co/logstash/logstash:8.6.2",
