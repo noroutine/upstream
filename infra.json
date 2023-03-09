@@ -1,5 +1,5 @@
 {
-  "version": "57b25716",
+  "version": "4910828d",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -58,7 +58,7 @@
       "alerta/alerta-web:8.7.0",
       "mongo:6.0.4-focal",
       "wordpress:6.1.1-apache",
-      "dpage/pgadmin4:6.20",
+      "dpage/pgadmin4:6.21",
       "mysql:8.0.32",
       "mariadb:10.11.2-jammy",
       "mccutchen/go-httpbin:v2.5.6",
@@ -209,8 +209,8 @@
       "yugabytedb/yugabyte:2.15.3.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.8.0",
-      "netbirdio/signal:0.14.2",
-      "netbirdio/management:0.14.2",
+      "netbirdio/signal:0.14.3",
+      "netbirdio/management:0.14.3",
       "coturn/coturn:4.6.1",
       "firezone/firezone:0.7.20",
       "jenkins/jenkins:2.394-jdk17",

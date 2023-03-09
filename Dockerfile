@@ -223,7 +223,7 @@ FROM wordpress:6.1.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.20
+FROM dpage/pgadmin4:6.21
 # dpage/pgadmin4
 
 # mysql
@@ -827,11 +827,11 @@ FROM wiretrustee/dashboard:v1.8.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.2
+FROM netbirdio/signal:0.14.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.14.2
+FROM netbirdio/management:0.14.3
 # netbirdio/management
 
 # coturn/coturn
