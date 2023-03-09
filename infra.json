@@ -1,5 +1,5 @@
 {
-  "version": "453dbd46",
+  "version": "ccc8b701",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -135,7 +135,7 @@
       "bitnami/keycloak-config-cli:5.5.0-debian-11-r37",
       "bitnami/mariadb:10.11.2-debian-11-r0",
       "bitnami/mongodb:6.0.4-debian-11-r1",
-      "bitnami/memcached:1.6.18-debian-11-r0",
+      "bitnami/memcached:1.6.19-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.6.4-debian-11-r6",
       "bitnami/nginx:1.23.3-debian-11-r31",
       "bitnami/minio:2023.2.27-debian-11-r0",
