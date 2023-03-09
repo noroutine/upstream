@@ -1,5 +1,5 @@
 {
-  "version": "247ab4ac",
+  "version": "453dbd46",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -159,11 +159,11 @@
       "bitnami/kube-rbac-proxy:0.14.0-scratch-r0",
       "bitnami/openldap:2.6.4-debian-11-r3",
       "bitnami/sealed-secrets-controller:v0.19.5",
-      "bitnami/trivy:0.38.1-debian-11-r0",
+      "bitnami/trivy:0.38.2-debian-11-r0",
       "bitnami/kubectl:1.26.2-debian-11-r0",
       "aquasec/trivy:0.38.2",
       "ghcr.io/external-secrets/external-secrets:v0.7.2",
-      "minio/console:v0.24.0",
+      "minio/console:v0.25.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.4.4",
       "hasura/graphql-engine:v2.20.0",

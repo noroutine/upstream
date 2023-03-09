@@ -627,7 +627,7 @@ FROM bitnami/sealed-secrets-controller:v0.19.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.38.1-debian-11-r0
+FROM bitnami/trivy:0.38.2-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -643,7 +643,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.7.2
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.24.0
+FROM minio/console:v0.25.0
 # minio/console
 
 # kutt/kutt
