@@ -855,7 +855,7 @@ FROM netboxcommunity/netbox:v3.4.5
 # netboxcommunity/netbox
 
 # velero/velero
-FROM velero/velero:v1.10.1
+FROM velero/velero:v1.10.2
 # velero/velero
 
 # velero/velero-plugin-for-csi
