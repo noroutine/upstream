@@ -79,7 +79,7 @@ FROM sonatype/nexus3:3.49.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.1
+FROM squidfunk/mkdocs-material:9.1.2
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -287,7 +287,7 @@ FROM gitlab/gitlab-runner:alpine-v15.9.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.9.2-ce.0
+FROM gitlab/gitlab-ce:15.9.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -707,7 +707,7 @@ FROM cupcakearmy/cryptgeon:2.2.0
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.18-alpine3.17
+FROM memcached:1.6.19-alpine3.17
 # memcached
 
 # connecteverything/nats-operator
@@ -903,11 +903,11 @@ FROM registry.k8s.io/git-sync/git-sync:v3.6.4
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.9.3
+FROM ghcr.io/kedacore/keda:2.10.0
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.9.3
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.10.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
