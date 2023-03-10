@@ -663,7 +663,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.12
+FROM stakater/reloader:v1.0.13
 # stakater/reloader
 
 # jimmidyson/configmap-reload
