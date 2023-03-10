@@ -107,7 +107,7 @@ FROM haproxytech/haproxy-debian:2.7.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-02-27T18-10-45Z
+FROM minio/minio:RELEASE.2023-03-09T23-16-13Z
 # minio/minio
 
 # coreos/etcd
@@ -543,7 +543,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r31
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.2.27-debian-11-r0
+FROM bitnami/minio:2023.3.9-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -855,11 +855,11 @@ FROM netboxcommunity/netbox:v3.4.5
 # netboxcommunity/netbox
 
 # velero/velero
-FROM velero/velero:v1.10.1
+FROM velero/velero:v1.10.2
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.4.1
+FROM velero/velero-plugin-for-csi:v0.4.2
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws

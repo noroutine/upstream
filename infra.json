@@ -1,5 +1,5 @@
 {
-  "version": "2e4cf2bb",
+  "version": "f6c93059",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -29,7 +29,7 @@
       "atlassian/jira-software:9.6.0",
       "nextcloud:25.0.4-apache",
       "haproxytech/haproxy-debian:2.7.3",
-      "minio/minio:RELEASE.2023-02-27T18-10-45Z",
+      "minio/minio:RELEASE.2023-03-09T23-16-13Z",
       "quay.io/coreos/etcd:v3.5.7",
       "prom/prometheus:v2.42.0",
       "prom/alertmanager:v0.25.0",
@@ -138,7 +138,7 @@
       "bitnami/memcached:1.6.19-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.6.4-debian-11-r6",
       "bitnami/nginx:1.23.3-debian-11-r31",
-      "bitnami/minio:2023.2.27-debian-11-r0",
+      "bitnami/minio:2023.3.9-debian-11-r0",
       "bitnami/minio-client:2023.2.28-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r92",
       "bitnami/metallb-controller:0.13.9-debian-11-r3",
@@ -216,8 +216,8 @@
       "jenkins/jenkins:2.394-jdk17",
       "jenkins/agent:3107.v665000b_51092-5-jdk17",
       "netboxcommunity/netbox:v3.4.5",
-      "velero/velero:v1.10.1",
-      "velero/velero-plugin-for-csi:v0.4.1",
+      "velero/velero:v1.10.2",
+      "velero/velero-plugin-for-csi:v0.4.2",
       "velero/velero-plugin-for-aws:v1.6.1",
       "velero/velero-plugin-for-gcp:v1.6.1",
       "velero/velero-plugin-for-microsoft-azure:v1.6.1",
