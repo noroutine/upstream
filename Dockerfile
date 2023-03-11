@@ -103,7 +103,7 @@ FROM nextcloud:25.0.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.7.3
+FROM haproxytech/haproxy-debian:2.7.4
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -395,7 +395,7 @@ FROM ghost:5.37.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.37.0-debian-11-r0
+FROM bitnami/ghost:5.38.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -663,7 +663,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.13
+FROM stakater/reloader:v1.0.14
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -685,6 +685,18 @@ FROM quay.io/argoproj/argocd:v2.6.4
 # argoproj/argocd-applicationset
 FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
+
+# argoproj/argo-events
+FROM quay.io/argoproj/argo-events:v1.7.6
+# argoproj/argo-events
+
+# argoproj/argocli
+FROM quay.io/argoproj/argocli:v3.4.5
+# argoproj/argocli
+
+# argoproj/workflow-controller
+FROM quay.io/argoproj/workflow-controller:v3.4.5
+# argoproj/workflow-controller
 
 # redis
 FROM redis:7.0.9-bullseye
@@ -779,11 +791,11 @@ FROM jellyfin/jellyfin:10.8.9
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.18.2
+FROM gravitl/netmaker:v0.18.3
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.18.2
+FROM gravitl/netmaker-ui:v0.18.3
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -827,11 +839,11 @@ FROM wiretrustee/dashboard:v1.8.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.3
+FROM netbirdio/signal:0.14.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.14.3
+FROM netbirdio/management:0.14.4
 # netbirdio/management
 
 # coturn/coturn
@@ -839,7 +851,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.20
+FROM firezone/firezone:0.7.21
 # firezone/firezone
 
 # jenkins/jenkins
