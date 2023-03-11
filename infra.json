@@ -1,5 +1,5 @@
 {
-  "version": "c5e56f97",
+  "version": "78e4e4a6",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -168,7 +168,7 @@
       "drakkan/sftpgo:v2.4.4",
       "hasura/graphql-engine:v2.20.1",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.14",
+      "stakater/reloader:v1.0.15",
       "jimmidyson/configmap-reload:v0.8.0",
       "registry:2.8.1",
       "ghcr.io/dexidp/dex:v2.35.3",
@@ -216,7 +216,7 @@
       "netbirdio/signal:0.14.4",
       "netbirdio/management:0.14.4",
       "coturn/coturn:4.6.1",
-      "firezone/firezone:0.7.21",
+      "firezone/firezone:0.7.22",
       "jenkins/jenkins:2.394-jdk17",
       "jenkins/agent:3107.v665000b_51092-5-jdk17",
       "netboxcommunity/netbox:v3.4.5",

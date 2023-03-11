@@ -663,7 +663,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.14
+FROM stakater/reloader:v1.0.15
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -855,7 +855,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.21
+FROM firezone/firezone:0.7.22
 # firezone/firezone
 
 # jenkins/jenkins
