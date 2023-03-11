@@ -1,5 +1,5 @@
 {
-  "version": "5823e812",
+  "version": "059acd8a",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -177,6 +177,7 @@
       "quay.io/argoproj/argo-events:v1.7.6",
       "quay.io/argoproj/argocli:v3.4.5",
       "quay.io/argoproj/workflow-controller:v3.4.5",
+      "quay.io/argoproj/argoexec:v3.4.5",
       "redis:7.0.9-bullseye",
       "listmonk/listmonk:v2.3.0",
       "vaultwarden/server:1.27.0",

@@ -698,6 +698,10 @@ FROM quay.io/argoproj/argocli:v3.4.5
 FROM quay.io/argoproj/workflow-controller:v3.4.5
 # argoproj/workflow-controller
 
+# argoproj/argoexec
+FROM quay.io/argoproj/argoexec:v3.4.5
+# argoproj/argoexec
+
 # redis
 FROM redis:7.0.9-bullseye
 # redis
