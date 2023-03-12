@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.242",
+  "version": "67f744d2",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -186,6 +186,8 @@
       "memcached:1.6.19-alpine3.17",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.9.15-alpine3.17",
+      "natsio/prometheus-nats-exporter:0.10.1",
+      "natsio/nats-server-config-reloader:0.10.1",
       "masipcat/wireguard-go:0.0.20220316",
       "eclipse-mosquitto:2.0.15-openssl",
       "sapcc/mosquitto-exporter:0.8.0",

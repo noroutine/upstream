@@ -734,6 +734,14 @@ FROM connecteverything/nats-operator:0.8.0
 FROM nats:2.9.15-alpine3.17
 # nats
 
+# natsio/prometheus-nats-exporter
+FROM natsio/prometheus-nats-exporter:0.10.1
+# natsio/prometheus-nats-exporter
+
+# natsio/nats-server-config-reloader
+FROM natsio/nats-server-config-reloader:0.10.1
+# natsio/nats-server-config-reloader
+
 # masipcat/wireguard-go
 FROM masipcat/wireguard-go:0.0.20220316
 # masipcat/wireguard-go
