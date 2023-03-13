@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.243",
+  "version": "3d9488ed",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -280,11 +280,11 @@
       "calico/pod2daemon-flexvol:v3.25.0",
       "calico/node-driver-registrar:v3.25.0",
       "calico/csi:v3.25.0",
-      "longhornio/longhorn-manager:v1.4.0",
-      "longhornio/longhorn-ui:v1.4.0",
-      "longhornio/longhorn-engine:v1.4.0",
+      "longhornio/longhorn-manager:v1.4.1",
+      "longhornio/longhorn-ui:v1.4.1",
+      "longhornio/longhorn-engine:v1.4.1",
       "longhornio/longhorn-instance-manager:v3_20221117",
-      "longhornio/longhorn-share-manager:v1.4.0",
+      "longhornio/longhorn-share-manager:v1.4.1",
       "longhornio/backing-image-manager:v3_20221003",
       "longhornio/csi-node-driver-registrar:v2.5.0",
       "longhornio/csi-snapshotter:v6.0.1",

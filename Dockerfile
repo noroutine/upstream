@@ -1111,15 +1111,15 @@ FROM calico/csi:v3.25.0
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.4.0
+FROM longhornio/longhorn-manager:v1.4.1
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.4.0
+FROM longhornio/longhorn-ui:v1.4.1
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.4.0
+FROM longhornio/longhorn-engine:v1.4.1
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
@@ -1127,7 +1127,7 @@ FROM longhornio/longhorn-instance-manager:v3_20221117
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.4.0
+FROM longhornio/longhorn-share-manager:v1.4.1
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
