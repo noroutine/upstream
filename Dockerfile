@@ -1111,7 +1111,7 @@ FROM calico/csi:v3.25.0
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.4.0
+FROM longhornio/longhorn-manager:v1.4.1
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
