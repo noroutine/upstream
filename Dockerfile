@@ -235,7 +235,7 @@ FROM mariadb:10.11.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.5.6
+FROM mccutchen/go-httpbin:v2.6.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -863,7 +863,7 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.22
+FROM firezone/firezone:0.7.23
 # firezone/firezone
 
 # jenkins/jenkins
