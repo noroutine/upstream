@@ -1,5 +1,5 @@
 {
-  "version": "33099647",
+  "version": "7c4cc073",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -22,7 +22,7 @@
       "golang:1.20.2-alpine3.17",
       "traefik:v2.9.8",
       "sonatype/nexus3:3.49.0",
-      "squidfunk/mkdocs-material:9.1.2",
+      "squidfunk/mkdocs-material:9.1.3",
       "freeradius/freeradius-server:3.2.2-alpine",
       "quay.io/keycloak/keycloak:21.0.1",
       "postgres:15.2-bullseye",
@@ -172,7 +172,7 @@
       "jimmidyson/configmap-reload:v0.8.0",
       "registry:2.8.1",
       "ghcr.io/dexidp/dex:v2.35.3",
-      "quay.io/argoproj/argocd:v2.6.4",
+      "quay.io/argoproj/argocd:v2.6.5",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.7.6",
       "quay.io/argoproj/argocli:v3.4.5",
@@ -218,8 +218,8 @@
       "netbirdio/signal:0.14.4",
       "netbirdio/management:0.14.4",
       "coturn/coturn:4.6.1",
-      "firezone/firezone:0.7.23",
-      "jenkins/jenkins:2.394-jdk17",
+      "firezone/firezone:0.7.24",
+      "jenkins/jenkins:2.395-jdk17",
       "jenkins/agent:3107.v665000b_51092-5-jdk17",
       "netboxcommunity/netbox:v3.4.6",
       "velero/velero:v1.10.2",

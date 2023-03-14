@@ -79,7 +79,7 @@ FROM sonatype/nexus3:3.49.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.2
+FROM squidfunk/mkdocs-material:9.1.3
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -679,7 +679,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.6.4
+FROM quay.io/argoproj/argocd:v2.6.5
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -863,11 +863,11 @@ FROM coturn/coturn:4.6.1
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.23
+FROM firezone/firezone:0.7.24
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.394-jdk17
+FROM jenkins/jenkins:2.395-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
