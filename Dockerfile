@@ -875,7 +875,7 @@ FROM jenkins/agent:3107.v665000b_51092-5-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.4.5
+FROM netboxcommunity/netbox:v3.4.6
 # netboxcommunity/netbox
 
 # velero/velero
