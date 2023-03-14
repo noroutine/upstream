@@ -107,7 +107,7 @@ FROM haproxytech/haproxy-debian:2.7.4
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-03-09T23-16-13Z
+FROM minio/minio:RELEASE.2023-03-13T19-46-17Z
 # minio/minio
 
 # coreos/etcd
@@ -543,7 +543,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r31
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.3.9-debian-11-r0
+FROM bitnami/minio:2023.3.13-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -627,7 +627,7 @@ FROM bitnami/sealed-secrets-controller:v0.19.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.38.2-debian-11-r0
+FROM bitnami/trivy:0.38.3-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -635,7 +635,7 @@ FROM bitnami/kubectl:1.26.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.38.2
+FROM aquasec/trivy:0.38.3
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -875,7 +875,7 @@ FROM jenkins/agent:3107.v665000b_51092-5-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.4.5
+FROM netboxcommunity/netbox:v3.4.6
 # netboxcommunity/netbox
 
 # velero/velero
