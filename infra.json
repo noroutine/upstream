@@ -1,5 +1,5 @@
 {
-  "version": "7c4cc073",
+  "version": "bd31cf7c",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -75,7 +75,7 @@
       "buildpacksio/lifecycle:0.16.0",
       "gitlab/gitlab-runner:alpine-v15.9.1",
       "gitlab/gitlab-ce:15.9.3-ce.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.29.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.30.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.47.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.9.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.0",
