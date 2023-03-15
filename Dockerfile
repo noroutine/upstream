@@ -447,7 +447,7 @@ FROM jupyter/all-spark-notebook:hub-3.1.1
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.2.2
+FROM rocker/shiny:4.2.3
 # rocker/shiny
 
 # caprover/caprover
@@ -655,7 +655,7 @@ FROM drakkan/sftpgo:v2.4.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.20.1
+FROM hasura/graphql-engine:v2.21.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes

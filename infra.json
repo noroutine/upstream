@@ -1,5 +1,5 @@
 {
-  "version": "053e0201",
+  "version": "54f08ae3",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -114,7 +114,7 @@
       "jupyter/datascience-notebook:hub-3.1.1",
       "jupyter/pyspark-notebook:hub-3.1.1",
       "jupyter/all-spark-notebook:hub-3.1.1",
-      "rocker/shiny:4.2.2",
+      "rocker/shiny:4.2.3",
       "caprover/caprover:1.10.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.3.2-debian-11-r4",
@@ -166,7 +166,7 @@
       "minio/console:v0.25.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.4.4",
-      "hasura/graphql-engine:v2.20.1",
+      "hasura/graphql-engine:v2.21.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.15",
       "jimmidyson/configmap-reload:v0.8.0",
