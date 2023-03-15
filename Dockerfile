@@ -311,11 +311,11 @@ FROM summerwind/actions-runner-controller:v0.27.0
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.302.1-ubuntu-22.04
+FROM summerwind/actions-runner:v2.303.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.302.1-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.303.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -919,7 +919,7 @@ FROM bitnami/kubectl:1.26.1-debian-11-r9
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.5.1-python3.10
+FROM apache/airflow:2.5.2-python3.10
 # apache/airflow
 
 # git-sync/git-sync
