@@ -1,5 +1,5 @@
 {
-  "version": "1cecc942",
+  "version": "c03c9509",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -13,7 +13,7 @@
       "gcr.io/distroless/java17-debian11",
       "gcr.io/distroless/cc-debian11",
       "gcr.io/distroless/nodejs-debian11",
-      "buildpack-deps:bionic@sha256:1f740f07a329775404244fd36ca65500a61ecd79c38851ee6ce6408443fa9779",
+      "buildpack-deps:bionic@sha256:b1da6a5f500b67fa28bbae2b90a8e9da4def283d1fb918b1d4db0c9cd86ec183",
       "buildpack-deps:focal@sha256:a499d7cf331a38e4daf02148cf1f4b908048eab65947d337c4954bf635d37592",
       "buildpack-deps:jammy@sha256:c7af89fe20e8b370fa3d84c23f5dbb048e01cfd38fbc12c1e02232c1a84af80f",
       "php:8.2.3-apache-bullseye",
