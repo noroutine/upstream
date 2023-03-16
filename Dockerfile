@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:c7af89fe20e8b370fa3d84c23f5dbb048e01cfd38fbc12c
 # buildpack-deps
 
 # php
-FROM php:8.2.3-apache-bullseye
+FROM php:8.2.4-apache-bullseye
 # php
 
 # python
@@ -639,7 +639,7 @@ FROM aquasec/trivy:0.38.3
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.7.2
+FROM ghcr.io/external-secrets/external-secrets:v0.8.0
 # external-secrets/external-secrets
 
 # minio/console
@@ -679,7 +679,7 @@ FROM ghcr.io/dexidp/dex:v2.35.3
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.6.5
+FROM quay.io/argoproj/argocd:v2.6.6
 # argoproj/argocd
 
 # argoproj/argocd-applicationset

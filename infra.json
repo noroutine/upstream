@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.244",
+  "version": "61ccf8e4",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -16,7 +16,7 @@
       "buildpack-deps:bionic@sha256:b1da6a5f500b67fa28bbae2b90a8e9da4def283d1fb918b1d4db0c9cd86ec183",
       "buildpack-deps:focal@sha256:a499d7cf331a38e4daf02148cf1f4b908048eab65947d337c4954bf635d37592",
       "buildpack-deps:jammy@sha256:c7af89fe20e8b370fa3d84c23f5dbb048e01cfd38fbc12c1e02232c1a84af80f",
-      "php:8.2.3-apache-bullseye",
+      "php:8.2.4-apache-bullseye",
       "python:3.11.2",
       "golang:1.20.2-bullseye",
       "golang:1.20.2-alpine3.17",
@@ -162,7 +162,7 @@
       "bitnami/trivy:0.38.3-debian-11-r0",
       "bitnami/kubectl:1.26.2-debian-11-r0",
       "aquasec/trivy:0.38.3",
-      "ghcr.io/external-secrets/external-secrets:v0.7.2",
+      "ghcr.io/external-secrets/external-secrets:v0.8.0",
       "minio/console:v0.25.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.4.4",
@@ -172,7 +172,7 @@
       "jimmidyson/configmap-reload:v0.8.0",
       "registry:2.8.1",
       "ghcr.io/dexidp/dex:v2.35.3",
-      "quay.io/argoproj/argocd:v2.6.5",
+      "quay.io/argoproj/argocd:v2.6.6",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.7.6",
       "quay.io/argoproj/argocli:v3.4.5",
