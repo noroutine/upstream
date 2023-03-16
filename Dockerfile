@@ -639,7 +639,7 @@ FROM aquasec/trivy:0.38.3
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.7.2
+FROM ghcr.io/external-secrets/external-secrets:v0.8.0
 # external-secrets/external-secrets
 
 # minio/console
