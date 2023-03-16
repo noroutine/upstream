@@ -878,6 +878,10 @@ FROM jenkins/agent:3107.v665000b_51092-5-jdk17
 FROM netboxcommunity/netbox:v3.4.6
 # netboxcommunity/netbox
 
+# kubernetesui/dashboard
+FROM kubernetesui/dashboard:v2.7.0
+# kubernetesui/dashboard
+
 # velero/velero
 FROM velero/velero:v1.10.2
 # velero/velero
