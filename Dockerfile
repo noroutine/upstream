@@ -47,7 +47,7 @@ FROM buildpack-deps:bionic@sha256:bc6401af10396327da867114d7fa9e07ecc1fb018a0615
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:595b2e444543064db2180320b4a521621630b3086acc881d4e1a7a5c6bfede96
+FROM buildpack-deps:focal@sha256:a499d7cf331a38e4daf02148cf1f4b908048eab65947d337c4954bf635d37592
 # buildpack-deps
 
 # buildpack-deps
