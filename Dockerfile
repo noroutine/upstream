@@ -959,7 +959,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.5.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
+FROM zachomedia/cert-manager-webhook-pdns:v2.3.0
 # zachomedia/cert-manager-webhook-pdns
 
 # vstadtmueller/cert-manager-webhook-powerdns
