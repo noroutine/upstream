@@ -959,7 +959,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.5.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.2.0
+FROM zachomedia/cert-manager-webhook-pdns:v2.3.0
 # zachomedia/cert-manager-webhook-pdns
 
 # vstadtmueller/cert-manager-webhook-powerdns
@@ -1071,7 +1071,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.29.1
+FROM quay.io/tigera/operator:v1.29.2
 # tigera/operator
 
 # calico/typha

@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.245",
+  "version": "855c4b96",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -242,7 +242,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.11.0",
       "quay.io/jetstack/cert-manager-ctl:v1.11.0",
       "quay.io/jetstack/cert-manager-csi-driver:v0.5.0",
-      "zachomedia/cert-manager-webhook-pdns:v2.2.0",
+      "zachomedia/cert-manager-webhook-pdns:v2.3.0",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.15.1",
       "hashicorp/consul-k8s-control-plane:1.1.0",
@@ -270,7 +270,7 @@
       "registry.k8s.io/kube-proxy:v1.23.17",
       "registry.k8s.io/kube-scheduler:v1.23.17",
       "registry.k8s.io/kube-controller-manager:v1.23.17",
-      "quay.io/tigera/operator:v1.29.1",
+      "quay.io/tigera/operator:v1.29.2",
       "calico/typha:v3.25.0",
       "calico/ctl:v3.25.0",
       "calico/node:v3.25.0",
