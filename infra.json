@@ -1,5 +1,5 @@
 {
-  "version": "855c4b96",
+  "version": "e88ef857",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -17,7 +17,8 @@
       "buildpack-deps:focal@sha256:a499d7cf331a38e4daf02148cf1f4b908048eab65947d337c4954bf635d37592",
       "buildpack-deps:jammy@sha256:c7af89fe20e8b370fa3d84c23f5dbb048e01cfd38fbc12c1e02232c1a84af80f",
       "php:8.2.4-apache-bullseye",
-      "python:3.11.2",
+      "python:3.11.2-bullseye",
+      "python:3.11.2-slim-bullseye",
       "golang:1.20.2-bullseye",
       "golang:1.20.2-alpine3.17",
       "traefik:v2.9.8",
@@ -223,6 +224,7 @@
       "jenkins/agent:3107.v665000b_51092-5-jdk17",
       "netboxcommunity/netbox:v3.4.6",
       "kubernetesui/dashboard:v2.7.0",
+      "locustio/locust:2.15.1",
       "velero/velero:v1.10.2",
       "velero/velero-plugin-for-csi:v0.4.2",
       "velero/velero-plugin-for-aws:v1.6.1",

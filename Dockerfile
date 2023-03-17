@@ -59,7 +59,11 @@ FROM php:8.2.4-apache-bullseye
 # php
 
 # python
-FROM python:3.11.2
+FROM python:3.11.2-bullseye
+# python
+
+# python
+FROM python:3.11.2-slim-bullseye
 # python
 
 # golang
@@ -881,6 +885,10 @@ FROM netboxcommunity/netbox:v3.4.6
 # kubernetesui/dashboard
 FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
+
+# locustio/locust
+FROM locustio/locust:2.15.1
+# locustio/locust
 
 # velero/velero
 FROM velero/velero:v1.10.2
