@@ -215,7 +215,7 @@ FROM docker.elastic.co/kibana/kibana:8.6.2
 # kibana/kibana
 
 # alerta/alerta-web
-FROM alerta/alerta-web:8.7.0
+FROM alerta/alerta-web:9.0.0
 # alerta/alerta-web
 
 # mongo
