@@ -643,7 +643,7 @@ FROM aquasec/trivy:0.38.3
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.8.0
+FROM ghcr.io/external-secrets/external-secrets:v0.8.1
 # external-secrets/external-secrets
 
 # minio/console
@@ -1171,11 +1171,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v2.7.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.0.0
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.7.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.0.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
