@@ -1,5 +1,5 @@
 {
-  "version": "ca10cd6f",
+  "version": "15dfeccb",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -56,7 +56,7 @@
       "docker.elastic.co/elasticsearch/elasticsearch:8.6.2",
       "docker.elastic.co/logstash/logstash:8.6.2",
       "docker.elastic.co/kibana/kibana:8.6.2",
-      "alerta/alerta-web:8.7.0",
+      "alerta/alerta-web:9.0.0",
       "mongo:6.0.4-focal",
       "wordpress:6.1.1-apache",
       "dpage/pgadmin4:6.21",
@@ -236,7 +236,7 @@
       "velero/velero-restic-restore-helper:v1.9.6",
       "bitnami/kubectl:1.26.1-debian-11-r9",
       "apache/airflow:2.5.2-python3.10",
-      "registry.k8s.io/git-sync/git-sync:v3.6.4",
+      "registry.k8s.io/git-sync/git-sync:v3.6.5",
       "ghcr.io/kedacore/keda:2.10.0",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.10.0",
       "quay.io/jetstack/cert-manager-controller:v1.11.0",

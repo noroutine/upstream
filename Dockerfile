@@ -215,7 +215,7 @@ FROM docker.elastic.co/kibana/kibana:8.6.2
 # kibana/kibana
 
 # alerta/alerta-web
-FROM alerta/alerta-web:8.7.0
+FROM alerta/alerta-web:9.0.0
 # alerta/alerta-web
 
 # mongo
@@ -935,7 +935,7 @@ FROM apache/airflow:2.5.2-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v3.6.4
+FROM registry.k8s.io/git-sync/git-sync:v3.6.5
 # git-sync/git-sync
 
 # kedacore/keda
