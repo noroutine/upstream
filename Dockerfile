@@ -219,7 +219,7 @@ FROM alerta/alerta-web:9.0.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.4-focal
+FROM mongo:6.0.5-jammy
 # mongo
 
 # wordpress
@@ -531,7 +531,7 @@ FROM bitnami/mariadb:10.11.2-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:6.0.4-debian-11-r1
+FROM bitnami/mongodb:6.0.5-debian-11-r1
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -999,11 +999,11 @@ FROM hashicorp/vault-csi-provider:1.2.1
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.33.2
+FROM quay.io/strimzi/operator:0.34.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.33.2-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.34.0-kafka-3.3.1
 # strimzi/kafka
 
 # pause

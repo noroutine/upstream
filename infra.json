@@ -1,5 +1,5 @@
 {
-  "version": "98144b3c",
+  "version": "45242e1e",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -57,7 +57,7 @@
       "docker.elastic.co/logstash/logstash:8.6.2",
       "docker.elastic.co/kibana/kibana:8.6.2",
       "alerta/alerta-web:9.0.0",
-      "mongo:6.0.4-focal",
+      "mongo:6.0.5-jammy",
       "wordpress:6.1.1-apache",
       "dpage/pgadmin4:6.21",
       "mysql:8.0.32",
@@ -135,7 +135,7 @@
       "bitnami/keycloak:20.0.5-debian-11-r2",
       "bitnami/keycloak-config-cli:5.5.0-debian-11-r37",
       "bitnami/mariadb:10.11.2-debian-11-r0",
-      "bitnami/mongodb:6.0.4-debian-11-r1",
+      "bitnami/mongodb:6.0.5-debian-11-r1",
       "bitnami/memcached:1.6.19-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.6.4-debian-11-r6",
       "bitnami/nginx:1.23.3-debian-11-r31",
@@ -252,8 +252,8 @@
       "hashicorp/vault:1.13.0",
       "hashicorp/vault-k8s:1.2.0",
       "hashicorp/vault-csi-provider:1.2.1",
-      "quay.io/strimzi/operator:0.33.2",
-      "quay.io/strimzi/kafka:0.33.2-kafka-3.3.1",
+      "quay.io/strimzi/operator:0.34.0",
+      "quay.io/strimzi/kafka:0.34.0-kafka-3.3.1",
       "registry.k8s.io/pause:3.9",
       "registry.k8s.io/coredns/coredns:v1.9.4",
       "registry.k8s.io/kube-apiserver:v1.26.3",
