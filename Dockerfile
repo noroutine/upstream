@@ -1003,7 +1003,7 @@ FROM quay.io/strimzi/operator:0.33.2
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.33.2-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.34.0-kafka-3.3.1
 # strimzi/kafka
 
 # pause
