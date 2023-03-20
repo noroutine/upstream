@@ -99,7 +99,7 @@ FROM postgres:15.2-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.6.0
+FROM atlassian/jira-software:9.7.0
 # atlassian/jira-software
 
 # nextcloud
@@ -195,7 +195,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.47.1
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.113
+FROM ghcr.io/prymitive/karma:v0.114
 # prymitive/karma
 
 # cortexproject/cortex
@@ -311,7 +311,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.0
+FROM summerwind/actions-runner-controller:v0.27.1
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -679,7 +679,7 @@ FROM registry:2.8.1
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.35.3
+FROM ghcr.io/dexidp/dex:v2.36.0
 # dexidp/dex
 
 # argoproj/argocd
@@ -711,7 +711,7 @@ FROM redis:7.0.9-bullseye
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.3.0
+FROM listmonk/listmonk:v2.4.0
 # listmonk/listmonk
 
 # vaultwarden/server
@@ -787,7 +787,7 @@ FROM elastic/eck-operator:2.6.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.20.2-alpine
+FROM louislam/uptime-kuma:1.21.0-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -1143,7 +1143,7 @@ FROM longhornio/longhorn-share-manager:v1.4.1
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v3_20221003
+FROM longhornio/backing-image-manager:v3_20230320
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
