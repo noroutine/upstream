@@ -1,5 +1,5 @@
 {
-  "version": "7db6473d",
+  "version": "003b2220",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -101,7 +101,7 @@
       "plausible/analytics:v1.5.1",
       "verdaccio/verdaccio:5.22.1",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.38.0",
+      "ghost:5.39.0",
       "bitnami/ghost:5.39.0-debian-11-r0",
       "matomo:4.13.3-apache",
       "nocodb/nocodb:0.105.3",
@@ -124,7 +124,7 @@
       "bitnami/node-exporter:1.5.0-debian-11-r6",
       "bitnami/blackbox-exporter:0.23.0-debian-11-r3",
       "bitnami/postgres-exporter:0.11.1-debian-11-r7",
-      "bitnami/redis:7.0.9-debian-11-r0",
+      "bitnami/redis:7.0.10-debian-11-r0",
       "bitnami/redis-exporter:1.48.0-debian-11-r0",
       "bitnami/postgresql:10.23.0-debian-11-r0",
       "bitnami/postgresql:11.19.0-debian-11-r0",
@@ -159,7 +159,7 @@
       "bitnami/kubeapps-pinniped-proxy:2.6.4-debian-11-r0",
       "bitnami/kube-rbac-proxy:0.14.0-scratch-r0",
       "bitnami/openldap:2.6.4-debian-11-r3",
-      "bitnami/sealed-secrets-controller:v0.20.1",
+      "bitnami/sealed-secrets-controller:v0.20.2",
       "bitnami/trivy:0.38.3-debian-11-r0",
       "bitnami/kubectl:1.26.2-debian-11-r0",
       "aquasec/trivy:0.38.3",
@@ -179,7 +179,7 @@
       "quay.io/argoproj/argocli:v3.4.5",
       "quay.io/argoproj/workflow-controller:v3.4.5",
       "quay.io/argoproj/argoexec:v3.4.5",
-      "redis:7.0.9-bullseye",
+      "redis:7.0.10-bullseye",
       "listmonk/listmonk:v2.4.0",
       "vaultwarden/server:1.27.0",
       "boky/postfix:v3.6.1",
@@ -315,7 +315,7 @@
       "confluentinc/cp-server:7.3.2",
       "confluentinc/cp-server-connect:7.3.2",
       "confluentinc/cp-zookeeper:7.3.2",
-      "obsidiandynamics/kafdrop:3.30.0",
+      "obsidiandynamics/kafdrop:3.31.0",
       "tchiotludo/akhq:0.23.0"
     ]
   }

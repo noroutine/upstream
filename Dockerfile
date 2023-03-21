@@ -395,7 +395,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.38.0
+FROM ghost:5.39.0
 # ghost
 
 # bitnami/ghost
@@ -487,7 +487,7 @@ FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.9-debian-11-r0
+FROM bitnami/redis:7.0.10-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -627,7 +627,7 @@ FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.20.1
+FROM bitnami/sealed-secrets-controller:v0.20.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -707,7 +707,7 @@ FROM quay.io/argoproj/argoexec:v3.4.5
 # argoproj/argoexec
 
 # redis
-FROM redis:7.0.9-bullseye
+FROM redis:7.0.10-bullseye
 # redis
 
 # listmonk/listmonk
@@ -1251,7 +1251,7 @@ FROM confluentinc/cp-zookeeper:7.3.2
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
-FROM obsidiandynamics/kafdrop:3.30.0
+FROM obsidiandynamics/kafdrop:3.31.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
