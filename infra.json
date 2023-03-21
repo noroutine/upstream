@@ -1,5 +1,5 @@
 {
-  "version": "d0deda33",
+  "version": "06564ae5",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -220,7 +220,7 @@
       "netbirdio/management:0.14.4",
       "coturn/coturn:4.6.1",
       "firezone/firezone:0.7.25",
-      "jenkins/jenkins:2.395-jdk17",
+      "jenkins/jenkins:2.396-jdk17",
       "jenkins/agent:3107.v665000b_51092-5-jdk17",
       "netboxcommunity/netbox:v3.4.6",
       "kubernetesui/dashboard:v2.7.0",
