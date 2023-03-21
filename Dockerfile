@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.7.5
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-03-13T19-46-17Z
+FROM minio/minio:RELEASE.2023-03-20T20-16-18Z
 # minio/minio
 
 # coreos/etcd
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.7
 # coreos/etcd
 
 # prom/prometheus
-FROM prom/prometheus:v2.42.0
+FROM prom/prometheus:v2.43.0
 # prom/prometheus
 
 # prom/alertmanager
@@ -547,11 +547,11 @@ FROM bitnami/nginx:1.23.3-debian-11-r31
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.3.13-debian-11-r0
+FROM bitnami/minio:2023.3.20-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.2.28-debian-11-r0
+FROM bitnami/minio-client:2023.3.20-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
