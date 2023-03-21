@@ -523,7 +523,7 @@ FROM bitnami/keycloak:20.0.5-debian-11-r2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.5.0-debian-11-r37
+FROM bitnami/keycloak-config-cli:5.6.1-debian-11-r3
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
