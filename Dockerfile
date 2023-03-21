@@ -75,7 +75,7 @@ FROM golang:1.20.2-alpine3.17
 # golang
 
 # traefik
-FROM traefik:v2.9.8
+FROM traefik:v2.9.9
 # traefik
 
 # sonatype/nexus3
@@ -467,7 +467,7 @@ FROM bitnami/spark:3.3.2-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.42.0-debian-11-r0
+FROM bitnami/prometheus:2.43.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator

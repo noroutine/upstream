@@ -1,5 +1,5 @@
 {
-  "version": "06564ae5",
+  "version": "536b11d7",
   "upstream": {
     "images": [
       "debian:bullseye-20230227-slim",
@@ -21,7 +21,7 @@
       "python:3.11.2-slim-bullseye",
       "golang:1.20.2-bullseye",
       "golang:1.20.2-alpine3.17",
-      "traefik:v2.9.8",
+      "traefik:v2.9.9",
       "sonatype/nexus3:3.49.0",
       "squidfunk/mkdocs-material:9.1.3",
       "freeradius/freeradius-server:3.2.2-alpine",
@@ -119,7 +119,7 @@
       "caprover/caprover:1.10.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.3.2-debian-11-r4",
-      "bitnami/prometheus:2.42.0-debian-11-r0",
+      "bitnami/prometheus:2.43.0-debian-11-r0",
       "bitnami/prometheus-operator:0.63.0-debian-11-r0",
       "bitnami/node-exporter:1.5.0-debian-11-r6",
       "bitnami/blackbox-exporter:0.23.0-debian-11-r3",
