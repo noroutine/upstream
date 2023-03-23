@@ -387,7 +387,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.22.1
+FROM verdaccio/verdaccio:5.23.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -683,7 +683,7 @@ FROM ghcr.io/dexidp/dex:v2.36.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.6.6
+FROM quay.io/argoproj/argocd:v2.6.7
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -851,7 +851,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.8.0
+FROM wiretrustee/dashboard:v1.9.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
