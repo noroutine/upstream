@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20230227-slim
+FROM debian:bullseye-20230320-slim
 # debian
 
 # ubuntu
@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.7.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:25.0.4-apache
+FROM nextcloud:26.0.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.7.5
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-03-20T20-16-18Z
+FROM minio/minio:RELEASE.2023-03-22T06-36-24Z
 # minio/minio
 
 # coreos/etcd
@@ -147,7 +147,7 @@ FROM prom/pushgateway:v1.5.1
 # prom/pushgateway
 
 # grafana/grafana
-FROM grafana/grafana:9.4.3
+FROM grafana/grafana:9.4.7
 # grafana/grafana
 
 # grafana/loki
@@ -291,7 +291,7 @@ FROM gitlab/gitlab-runner:alpine-v15.10.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.9.3-ce.0
+FROM gitlab/gitlab-ce:15.10.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -299,7 +299,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.30.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.47.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -371,7 +371,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.02.2
+FROM pihole/pihole:2023.03.0
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -547,7 +547,7 @@ FROM bitnami/nginx:1.23.3-debian-11-r31
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.3.20-debian-11-r0
+FROM bitnami/minio:2023.3.22-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -567,7 +567,7 @@ FROM bitnami/metallb-speaker:0.13.9-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.4.3-debian-11-r0
+FROM bitnami/grafana:9.4.7-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -583,7 +583,7 @@ FROM bitnami/nats:2.9.15-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.8.1-debian-11-r0
+FROM bitnami/kube-state-metrics:2.8.2-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -779,7 +779,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:19.0.2-19.32.15
+FROM azul/zulu-openjdk:20.0.0-20.28.85
 # azul/zulu-openjdk
 
 # elastic/eck-operator
