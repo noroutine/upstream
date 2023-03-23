@@ -583,7 +583,7 @@ FROM bitnami/nats:2.9.15-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.8.1-debian-11-r0
+FROM bitnami/kube-state-metrics:2.8.2-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
