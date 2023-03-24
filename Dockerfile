@@ -863,7 +863,7 @@ FROM wiretrustee/dashboard:v1.9.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.4
+FROM netbirdio/signal:0.14.5
 # netbirdio/signal
 
 # netbirdio/management
