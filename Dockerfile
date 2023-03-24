@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.49.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.3
+FROM squidfunk/mkdocs-material:9.1.4
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -863,11 +863,11 @@ FROM wiretrustee/dashboard:v1.9.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.4
+FROM netbirdio/signal:0.14.5
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.14.4
+FROM netbirdio/management:0.14.5
 # netbirdio/management
 
 # coturn/coturn
