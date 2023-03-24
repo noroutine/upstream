@@ -118,33 +118,41 @@ FROM minio/minio:RELEASE.2023-03-22T06-36-24Z
 FROM quay.io/coreos/etcd:v3.5.7
 # coreos/etcd
 
-# prom/prometheus
-FROM prom/prometheus:v2.43.0
-# prom/prometheus
+# prometheus/prometheus
+FROM quay.io/prometheus/prometheus:v2.43.0
+# prometheus/prometheus
 
-# prom/alertmanager
-FROM prom/alertmanager:v0.25.0
-# prom/alertmanager
+# prometheus/alertmanager
+FROM quay.io/prometheus/alertmanager:v0.25.0
+# prometheus/alertmanager
 
-# prom/node-exporter
-FROM prom/node-exporter:v1.5.0
-# prom/node-exporter
+# prometheus/node-exporter
+FROM quay.io/prometheus/node-exporter:v1.5.0
+# prometheus/node-exporter
 
-# prom/consul-exporter
-FROM prom/consul-exporter:v0.9.0
-# prom/consul-exporter
+# prometheus/consul-exporter
+FROM quay.io/prometheus/consul-exporter:v0.9.0
+# prometheus/consul-exporter
 
-# prom/blackbox-exporter
-FROM prom/blackbox-exporter:v0.23.0
-# prom/blackbox-exporter
+# prometheus/blackbox-exporter
+FROM quay.io/prometheus/blackbox-exporter:v0.23.0
+# prometheus/blackbox-exporter
 
-# prom/snmp-exporter
-FROM prom/snmp-exporter:v0.21.0
-# prom/snmp-exporter
+# prometheus/snmp-exporter
+FROM quay.io/prometheus/snmp-exporter:v0.21.0
+# prometheus/snmp-exporter
 
-# prom/pushgateway
-FROM prom/pushgateway:v1.5.1
-# prom/pushgateway
+# prometheus/pushgateway
+FROM quay.io/prometheus/pushgateway:v1.5.1
+# prometheus/pushgateway
+
+# prometheus-operator/prometheus-operator
+FROM quay.io/prometheus-operator/prometheus-operator:v0.63.0
+# prometheus-operator/prometheus-operator
+
+# prometheus-operator/prometheus-config-reloader
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.63.0
+# prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
 FROM grafana/grafana:9.4.7
