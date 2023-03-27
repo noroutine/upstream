@@ -379,7 +379,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.03.0
+FROM pihole/pihole:2023.03.1
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -403,7 +403,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.39.0
+FROM ghost:5.40.1
 # ghost
 
 # bitnami/ghost
@@ -723,7 +723,7 @@ FROM listmonk/listmonk:v2.4.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.27.0
+FROM vaultwarden/server:1.28.0
 # vaultwarden/server
 
 # boky/postfix

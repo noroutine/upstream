@@ -1,5 +1,5 @@
 {
-  "version": "560656c9",
+  "version": "8b31389a",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -97,13 +97,13 @@
       "registry.k8s.io/kube-scheduler:v1.23.10",
       "registry.k8s.io/pause:3.9",
       "quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b",
-      "pihole/pihole:2023.03.0",
+      "pihole/pihole:2023.03.1",
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v1.5.1",
       "verdaccio/verdaccio:5.23.1",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.39.0",
+      "ghost:5.40.1",
       "bitnami/ghost:5.39.0-debian-11-r0",
       "matomo:4.14.1-apache",
       "nocodb/nocodb:0.105.3",
@@ -183,7 +183,7 @@
       "quay.io/argoproj/argoexec:v3.4.5",
       "redis:7.0.10-bullseye",
       "listmonk/listmonk:v2.4.0",
-      "vaultwarden/server:1.27.0",
+      "vaultwarden/server:1.28.0",
       "boky/postfix:v3.6.1",
       "cupcakearmy/cryptgeon:2.2.0",
       "memcached:1.6.19-alpine3.17",
