@@ -643,7 +643,7 @@ FROM bitnami/trivy:0.38.3-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.26.2-debian-11-r0
+FROM bitnami/kubectl:1.26.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
