@@ -79,7 +79,7 @@ FROM traefik:v2.9.9
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.49.0
+FROM sonatype/nexus3:3.50.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.7.5
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-03-22T06-36-24Z
+FROM minio/minio:RELEASE.2023-03-24T21-41-23Z
 # minio/minio
 
 # coreos/etcd
@@ -303,7 +303,7 @@ FROM gitlab/gitlab-ce:15.10.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.30.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.31.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -555,11 +555,11 @@ FROM bitnami/nginx:1.23.3-debian-11-r31
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.3.22-debian-11-r0
+FROM bitnami/minio:2023.3.24-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.3.20-debian-11-r0
+FROM bitnami/minio-client:2023.3.23-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -643,7 +643,7 @@ FROM bitnami/trivy:0.38.3-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.26.2-debian-11-r0
+FROM bitnami/kubectl:1.26.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -655,7 +655,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.8.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.25.0
+FROM minio/console:v0.26.0
 # minio/console
 
 # kutt/kutt
@@ -675,7 +675,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.15
+FROM stakater/reloader:v1.0.16
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -775,7 +775,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.9.1
+FROM gcr.io/kaniko-project/executor:v1.9.2
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -795,7 +795,7 @@ FROM elastic/eck-operator:2.6.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.21.0-alpine
+FROM louislam/uptime-kuma:1.21.1-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -883,7 +883,7 @@ FROM jenkins/jenkins:2.396-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-5-jdk17
+FROM jenkins/agent:3107.v665000b_51092-6-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
@@ -935,7 +935,7 @@ FROM velero/velero-restic-restore-helper:v1.9.6
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.26.1-debian-11-r9
+FROM bitnami/kubectl:1.26.3-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
