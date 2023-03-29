@@ -1,5 +1,5 @@
 {
-  "version": "7939b701",
+  "version": "ff968854",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -42,9 +42,9 @@
       "quay.io/prometheus-operator/prometheus-operator:v0.63.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.63.0",
       "grafana/grafana:9.4.7",
-      "grafana/loki:2.7.4",
-      "grafana/loki-canary:2.7.4",
-      "grafana/promtail:2.7.4",
+      "grafana/loki:2.7.5",
+      "grafana/loki-canary:2.7.5",
+      "grafana/promtail:2.7.5",
       "nginxinc/nginx-unprivileged:1.23.3-alpine-slim",
       "nginxinc/nginx-unprivileged:1.23.3-alpine-slim",
       "httpd:2.4.56-alpine",
@@ -222,7 +222,7 @@
       "netbirdio/management:0.14.5",
       "coturn/coturn:4.6.1",
       "firezone/firezone:0.7.25",
-      "jenkins/jenkins:2.396-jdk17",
+      "jenkins/jenkins:2.397-jdk17",
       "jenkins/agent:3107.v665000b_51092-6-jdk17",
       "netboxcommunity/netbox:v3.4.6",
       "kubernetesui/dashboard:v2.7.0",

@@ -159,15 +159,15 @@ FROM grafana/grafana:9.4.7
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.7.4
+FROM grafana/loki:2.7.5
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.7.4
+FROM grafana/loki-canary:2.7.5
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.7.4
+FROM grafana/promtail:2.7.5
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -879,7 +879,7 @@ FROM firezone/firezone:0.7.25
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.396-jdk17
+FROM jenkins/jenkins:2.397-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
