@@ -1,5 +1,5 @@
 {
-  "version": "604729ba",
+  "version": "4737d07c",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -75,7 +75,7 @@
       "paketobuildpacks/builder:base",
       "paketobuildpacks/builder:tiny",
       "paketobuildpacks/run:full-cnb",
-      "buildpacksio/lifecycle:0.16.0",
+      "buildpacksio/lifecycle:0.16.1",
       "gitlab/gitlab-runner:alpine-v15.10.0",
       "gitlab/gitlab-ce:15.10.0-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.31.0",
