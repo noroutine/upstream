@@ -898,6 +898,10 @@ FROM kubernetesui/dashboard:v2.7.0
 FROM locustio/locust:2.15.1
 # locustio/locust
 
+# postgrest/postgrest
+FROM postgrest/postgrest:v10.2.0.20230209
+# postgrest/postgrest
+
 # velero/velero
 FROM velero/velero:v1.10.2
 # velero/velero

@@ -1,5 +1,5 @@
 {
-  "version": "ff968854",
+  "version": "1c832b9f",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -227,6 +227,7 @@
       "netboxcommunity/netbox:v3.4.6",
       "kubernetesui/dashboard:v2.7.0",
       "locustio/locust:2.15.1",
+      "postgrest/postgrest:v10.2.0.20230209",
       "velero/velero:v1.10.2",
       "velero/velero-plugin-for-csi:v0.4.2",
       "velero/velero-plugin-for-aws:v1.6.1",
