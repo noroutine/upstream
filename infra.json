@@ -1,5 +1,5 @@
 {
-  "version": "368b9319",
+  "version": "604729ba",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -122,7 +122,7 @@
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.3.2-debian-11-r4",
       "bitnami/prometheus:2.43.0-debian-11-r0",
-      "bitnami/prometheus-operator:0.63.0-debian-11-r0",
+      "bitnami/prometheus-operator:0.64.0-debian-11-r0",
       "bitnami/node-exporter:1.5.0-debian-11-r6",
       "bitnami/blackbox-exporter:0.23.0-debian-11-r3",
       "bitnami/postgres-exporter:0.11.1-debian-11-r7",
@@ -314,6 +314,7 @@
       "confluentinc/cp-enterprise-replicator:7.3.2",
       "confluentinc/cp-kafka-rest:7.3.2",
       "confluentinc/cp-ksqldb-server:7.3.2",
+      "confluentinc/cp-ksqldb-cli:7.3.2",
       "confluentinc/cp-schema-registry:7.3.2",
       "confluentinc/cp-server:7.3.2",
       "confluentinc/cp-server-connect:7.3.2",

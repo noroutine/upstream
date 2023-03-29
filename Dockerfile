@@ -479,7 +479,7 @@ FROM bitnami/prometheus:2.43.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.63.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.64.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -1245,6 +1245,10 @@ FROM confluentinc/cp-kafka-rest:7.3.2
 # confluentinc/cp-ksqldb-server
 FROM confluentinc/cp-ksqldb-server:7.3.2
 # confluentinc/cp-ksqldb-server
+
+# confluentinc/cp-ksqldb-cli
+FROM confluentinc/cp-ksqldb-cli:7.3.2
+# confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
 FROM confluentinc/cp-schema-registry:7.3.2
