@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.5.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.63.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.64.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.63.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.64.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -667,7 +667,7 @@ FROM drakkan/sftpgo:v2.4.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.21.0
+FROM hasura/graphql-engine:v2.22.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -887,7 +887,7 @@ FROM jenkins/agent:3107.v665000b_51092-6-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.4.6
+FROM netboxcommunity/netbox:v3.4.7
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard

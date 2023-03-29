@@ -1,5 +1,5 @@
 {
-  "version": "1c832b9f",
+  "version": "368b9319",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -39,8 +39,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.23.0",
       "quay.io/prometheus/snmp-exporter:v0.21.0",
       "quay.io/prometheus/pushgateway:v1.5.1",
-      "quay.io/prometheus-operator/prometheus-operator:v0.63.0",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.63.0",
+      "quay.io/prometheus-operator/prometheus-operator:v0.64.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.64.0",
       "grafana/grafana:9.4.7",
       "grafana/loki:2.7.5",
       "grafana/loki-canary:2.7.5",
@@ -169,7 +169,7 @@
       "minio/console:v0.26.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.4.4",
-      "hasura/graphql-engine:v2.21.0",
+      "hasura/graphql-engine:v2.22.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.16",
       "jimmidyson/configmap-reload:v0.8.0",
@@ -224,7 +224,7 @@
       "firezone/firezone:0.7.25",
       "jenkins/jenkins:2.397-jdk17",
       "jenkins/agent:3107.v665000b_51092-6-jdk17",
-      "netboxcommunity/netbox:v3.4.6",
+      "netboxcommunity/netbox:v3.4.7",
       "kubernetesui/dashboard:v2.7.0",
       "locustio/locust:2.15.1",
       "postgrest/postgrest:v10.2.0.20230209",
