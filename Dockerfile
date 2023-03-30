@@ -11,7 +11,7 @@ FROM ubuntu:focal-20230308
 # ubuntu
 
 # alpine
-FROM alpine:3.17.2
+FROM alpine:3.17.3
 # alpine
 
 # busybox
@@ -403,7 +403,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.40.1
+FROM ghost:5.40.2
 # ghost
 
 # bitnami/ghost
@@ -423,7 +423,7 @@ FROM metabase/metabase:v0.46.0
 # metabase/metabase
 
 # docker
-FROM docker:23.0.1-dind
+FROM docker:23.0.2-dind
 # docker
 
 # jupyter/base-notebook
@@ -999,7 +999,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.13.0
+FROM hashicorp/vault:1.13.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
