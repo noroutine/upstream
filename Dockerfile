@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.2-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:21.0.1
+FROM quay.io/keycloak/keycloak:21.0.2
 # keycloak/keycloak
 
 # postgres
@@ -211,15 +211,15 @@ FROM quay.io/cortexproject/cortex:v1.14.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.6.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.7.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.6.2
+FROM docker.elastic.co/logstash/logstash:8.7.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.6.2
+FROM docker.elastic.co/kibana/kibana:8.7.0
 # kibana/kibana
 
 # alerta/alerta-web
@@ -231,7 +231,7 @@ FROM mongo:6.0.5-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.1.1-apache
+FROM wordpress:6.2.0-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -295,11 +295,11 @@ FROM buildpacksio/lifecycle:0.16.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.10.0
+FROM gitlab/gitlab-runner:alpine-v15.10.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.10.0-ce.0
+FROM gitlab/gitlab-ce:15.10.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -675,7 +675,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.16
+FROM stakater/reloader:v1.0.17
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -791,7 +791,7 @@ FROM azul/zulu-openjdk:20.0.0-20.28.85
 # azul/zulu-openjdk
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.6.1
+FROM elastic/eck-operator:2.7.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -815,11 +815,11 @@ FROM jellyfin/jellyfin:10.8.9
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.18.4
+FROM gravitl/netmaker:v0.18.5
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.18.4
+FROM gravitl/netmaker-ui:v0.18.5
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -987,7 +987,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.15.1
+FROM hashicorp/consul:1.15.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -1095,43 +1095,43 @@ FROM quay.io/tigera/operator:v1.29.2
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.25.0
+FROM calico/typha:v3.25.1
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.25.0
+FROM calico/ctl:v3.25.1
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.25.0
+FROM calico/node:v3.25.1
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.25.0
+FROM calico/cni:v3.25.1
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.25.0
+FROM calico/apiserver:v3.25.1
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.25.0
+FROM calico/kube-controllers:v3.25.1
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.25.0
+FROM calico/dikastes:v3.25.1
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.25.0
+FROM calico/pod2daemon-flexvol:v3.25.1
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.25.0
+FROM calico/node-driver-registrar:v3.25.1
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.25.0
+FROM calico/csi:v3.25.1
 # calico/csi
 
 # longhornio/longhorn-manager
