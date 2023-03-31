@@ -1,5 +1,5 @@
 {
-  "version": "592a8121",
+  "version": "dedc967f",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -109,6 +109,7 @@
       "nocodb/nocodb:0.105.3",
       "metabase/metabase:v0.46.0",
       "docker:23.0.2-dind",
+      "quay.io/podman/stable:v4.4.2",
       "jupyter/base-notebook:hub-3.1.1",
       "jupyter/minimal-notebook:hub-3.1.1",
       "jupyter/r-notebook:hub-3.1.1",

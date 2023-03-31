@@ -426,6 +426,10 @@ FROM metabase/metabase:v0.46.0
 FROM docker:23.0.2-dind
 # docker
 
+# podman/stable
+FROM quay.io/podman/stable:v4.4.2
+# podman/stable
+
 # jupyter/base-notebook
 FROM jupyter/base-notebook:hub-3.1.1
 # jupyter/base-notebook
