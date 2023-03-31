@@ -1099,7 +1099,7 @@ FROM calico/typha:v3.25.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.25.0
+FROM calico/ctl:v3.25.1
 # calico/ctl
 
 # calico/node
