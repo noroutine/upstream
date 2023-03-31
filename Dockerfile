@@ -1111,7 +1111,7 @@ FROM calico/cni:v3.25.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.25.0
+FROM calico/apiserver:v3.25.1
 # calico/apiserver
 
 # calico/kube-controllers
