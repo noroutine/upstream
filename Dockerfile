@@ -339,7 +339,7 @@ FROM jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab
 # jupyterhub/k8s-image-cleaner
 
 # noroutine/k8s-binderhub
-FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
+FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3042.hd8a77e8
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
