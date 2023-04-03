@@ -947,7 +947,7 @@ FROM bitnami/kubectl:1.26.3-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.5.2-python3.10
+FROM apache/airflow:2.5.3-python3.10
 # apache/airflow
 
 # git-sync/git-sync
