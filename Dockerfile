@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.50.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.4
+FROM squidfunk/mkdocs-material:9.1.5
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -319,7 +319,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.1
+FROM summerwind/actions-runner-controller:v0.27.2
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -503,7 +503,7 @@ FROM bitnami/redis:7.0.10-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.48.0-debian-11-r0
+FROM bitnami/redis-exporter:1.49.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -587,7 +587,7 @@ FROM bitnami/grafana-image-renderer:3.6.4-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.15.1-debian-11-r0
+FROM bitnami/consul:1.15.2-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -651,7 +651,7 @@ FROM bitnami/kubectl:1.26.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.38.3
+FROM aquasec/trivy:0.39.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -707,15 +707,15 @@ FROM quay.io/argoproj/argo-events:v1.7.6
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.4.5
+FROM quay.io/argoproj/argocli:v3.4.6
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.4.5
+FROM quay.io/argoproj/workflow-controller:v3.4.6
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.4.5
+FROM quay.io/argoproj/argoexec:v3.4.6
 # argoproj/argoexec
 
 # redis
@@ -727,7 +727,7 @@ FROM listmonk/listmonk:v2.4.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.28.0
+FROM vaultwarden/server:1.28.1
 # vaultwarden/server
 
 # boky/postfix
@@ -867,11 +867,11 @@ FROM wiretrustee/dashboard:v1.9.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.5
+FROM netbirdio/signal:0.14.6
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.14.5
+FROM netbirdio/management:0.14.6
 # netbirdio/management
 
 # coturn/coturn
@@ -947,7 +947,7 @@ FROM bitnami/kubectl:1.26.3-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.5.2-python3.10
+FROM apache/airflow:2.5.3-python3.10
 # apache/airflow
 
 # git-sync/git-sync
@@ -995,7 +995,7 @@ FROM hashicorp/consul:1.15.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.1.0
+FROM hashicorp/consul-k8s-control-plane:1.1.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
