@@ -867,7 +867,7 @@ FROM wiretrustee/dashboard:v1.9.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.5
+FROM netbirdio/signal:0.14.6
 # netbirdio/signal
 
 # netbirdio/management
