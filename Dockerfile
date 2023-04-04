@@ -159,15 +159,15 @@ FROM grafana/grafana:9.4.7
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.7.5
+FROM grafana/loki:2.8.0
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.7.5
+FROM grafana/loki-canary:2.8.0
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.7.5
+FROM grafana/promtail:2.8.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -307,7 +307,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.31.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -363,7 +363,7 @@ FROM jupyterhub/k8s-singleuser-sample:2.0.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.4
+FROM jupyterhub/configurable-http-proxy:4.5.5
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
@@ -403,7 +403,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.40.2
+FROM ghost:5.41.0
 # ghost
 
 # bitnami/ghost
@@ -799,7 +799,7 @@ FROM elastic/eck-operator:2.7.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.21.1-alpine
+FROM louislam/uptime-kuma:1.21.2-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
