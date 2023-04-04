@@ -1,5 +1,5 @@
 {
-  "version": "9d94938d",
+  "version": "422224f2",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -19,8 +19,8 @@
       "php:8.2.4-apache-bullseye",
       "python:3.11.2-bullseye",
       "python:3.11.2-slim-bullseye",
-      "golang:1.20.2-bullseye",
-      "golang:1.20.2-alpine3.17",
+      "golang:1.20.3-bullseye",
+      "golang:1.20.3-alpine3.17",
       "traefik:v2.9.9",
       "sonatype/nexus3:3.50.0",
       "squidfunk/mkdocs-material:9.1.5",
