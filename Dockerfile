@@ -395,7 +395,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.23.1
+FROM verdaccio/verdaccio:5.23.2
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -811,7 +811,7 @@ FROM outlinewiki/outline:0.68.1
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.23.2
+FROM syncthing/syncthing:1.23.3
 # syncthing/syncthing
 
 # jellyfin/jellyfin
@@ -839,7 +839,7 @@ FROM puppet/puppetdb:7.10.0
 # puppet/puppetdb
 
 # voxpupuli/puppetboard
-FROM ghcr.io/voxpupuli/puppetboard:4.2.6
+FROM ghcr.io/voxpupuli/puppetboard:4.3.0
 # voxpupuli/puppetboard
 
 # puppet/r10k
@@ -863,15 +863,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.9.0
+FROM wiretrustee/dashboard:v1.10.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.14.6
+FROM netbirdio/signal:0.15.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.14.6
+FROM netbirdio/management:0.15.0
 # netbirdio/management
 
 # coturn/coturn
@@ -883,7 +883,7 @@ FROM firezone/firezone:0.7.25
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.397-jdk17
+FROM jenkins/jenkins:2.398-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1275,6 +1275,6 @@ FROM obsidiandynamics/kafdrop:3.31.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.23.0
+FROM tchiotludo/akhq:0.24.0
 # tchiotludo/akhq
 

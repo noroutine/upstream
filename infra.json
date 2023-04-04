@@ -1,5 +1,5 @@
 {
-  "version": "9b267569",
+  "version": "9d94938d",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -101,7 +101,7 @@
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v1.5.1",
-      "verdaccio/verdaccio:5.23.1",
+      "verdaccio/verdaccio:5.23.2",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.41.0",
       "bitnami/ghost:5.39.0-debian-11-r0",
@@ -205,25 +205,25 @@
       "louislam/uptime-kuma:1.21.2-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.68.1",
-      "syncthing/syncthing:1.23.2",
+      "syncthing/syncthing:1.23.3",
       "jellyfin/jellyfin:10.8.9",
       "gravitl/netmaker:v0.18.5",
       "gravitl/netmaker-ui:v0.18.5",
       "kmb32123/youtube-dl-server:2.0",
       "puppet/puppetserver:7.9.2",
       "puppet/puppetdb:7.10.0",
-      "ghcr.io/voxpupuli/puppetboard:4.2.6",
+      "ghcr.io/voxpupuli/puppetboard:4.3.0",
       "puppet/r10k:3.15.2",
       "restic/restic:0.15.1",
       "registry.k8s.io/coredns/coredns:v1.10.1",
       "yugabytedb/yugabyte:2.15.3.2-b1",
       "antelle/keeweb:1.18.7",
-      "wiretrustee/dashboard:v1.9.0",
-      "netbirdio/signal:0.14.6",
-      "netbirdio/management:0.14.6",
+      "wiretrustee/dashboard:v1.10.0",
+      "netbirdio/signal:0.15.0",
+      "netbirdio/management:0.15.0",
       "coturn/coturn:4.6.1",
       "firezone/firezone:0.7.25",
-      "jenkins/jenkins:2.397-jdk17",
+      "jenkins/jenkins:2.398-jdk17",
       "jenkins/agent:3107.v665000b_51092-6-jdk17",
       "netboxcommunity/netbox:v3.4.7",
       "kubernetesui/dashboard:v2.7.0",
@@ -321,7 +321,7 @@
       "confluentinc/cp-server-connect:7.3.2",
       "confluentinc/cp-zookeeper:7.3.2",
       "obsidiandynamics/kafdrop:3.31.0",
-      "tchiotludo/akhq:0.23.0"
+      "tchiotludo/akhq:0.24.0"
     ]
   }
 }
