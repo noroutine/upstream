@@ -1275,6 +1275,6 @@ FROM obsidiandynamics/kafdrop:3.31.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.23.0
+FROM tchiotludo/akhq:0.24.0
 # tchiotludo/akhq
 
