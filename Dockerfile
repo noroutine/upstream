@@ -423,7 +423,7 @@ FROM metabase/metabase:v0.46.0
 # metabase/metabase
 
 # docker
-FROM docker:23.0.2-dind
+FROM docker:23.0.3-dind
 # docker
 
 # podman/stable
@@ -531,7 +531,7 @@ FROM bitnami/postgresql:15.2.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:20.0.5-debian-11-r2
+FROM bitnami/keycloak:21.0.2-debian-11-r1
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -883,7 +883,7 @@ FROM firezone/firezone:0.7.25
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.398-jdk17
+FROM jenkins/jenkins:2.399-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
