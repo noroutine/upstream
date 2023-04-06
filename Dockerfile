@@ -1011,7 +1011,7 @@ FROM hashicorp/vault-k8s:1.2.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.2.1
+FROM hashicorp/vault-csi-provider:1.3.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
