@@ -1,5 +1,5 @@
 {
-  "version": "0b1eeb12",
+  "version": "8bae4b1d",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -17,8 +17,8 @@
       "buildpack-deps:focal@sha256:a499d7cf331a38e4daf02148cf1f4b908048eab65947d337c4954bf635d37592",
       "buildpack-deps:jammy@sha256:c7af89fe20e8b370fa3d84c23f5dbb048e01cfd38fbc12c1e02232c1a84af80f",
       "php:8.2.4-apache-bullseye",
-      "python:3.11.2-bullseye",
-      "python:3.11.2-slim-bullseye",
+      "python:3.11.3-bullseye",
+      "python:3.11.3-slim-bullseye",
       "golang:1.20.3-bullseye",
       "golang:1.20.3-alpine3.17",
       "traefik:v2.9.9",
