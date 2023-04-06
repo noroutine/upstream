@@ -299,7 +299,7 @@ FROM gitlab/gitlab-runner:alpine-v15.10.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.10.1-ce.0
+FROM gitlab/gitlab-ce:15.10.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -403,7 +403,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.41.0
+FROM ghost:5.42.0
 # ghost
 
 # bitnami/ghost
@@ -419,7 +419,7 @@ FROM nocodb/nocodb:0.105.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.0
+FROM metabase/metabase:v0.46.1
 # metabase/metabase
 
 # docker
@@ -659,7 +659,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.8.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.26.0
+FROM minio/console:v0.26.2
 # minio/console
 
 # kutt/kutt
@@ -811,7 +811,7 @@ FROM outlinewiki/outline:0.68.1
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.23.3
+FROM syncthing/syncthing:1.23.4
 # syncthing/syncthing
 
 # jellyfin/jellyfin
@@ -867,11 +867,11 @@ FROM wiretrustee/dashboard:v1.10.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.15.0
+FROM netbirdio/signal:0.15.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.15.0
+FROM netbirdio/management:0.15.1
 # netbirdio/management
 
 # coturn/coturn
@@ -1011,7 +1011,7 @@ FROM hashicorp/vault-k8s:1.2.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.2.1
+FROM hashicorp/vault-csi-provider:1.3.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
@@ -1211,7 +1211,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.7.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.1
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
@@ -1235,39 +1235,39 @@ FROM confluentinc/confluent-operator:0.581.34
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.3.2
+FROM confluentinc/cp-enterprise-control-center:7.3.3
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.3.2
+FROM confluentinc/cp-enterprise-replicator:7.3.3
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.3.2
+FROM confluentinc/cp-kafka-rest:7.3.3
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.3.2
+FROM confluentinc/cp-ksqldb-server:7.3.3
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.3.2
+FROM confluentinc/cp-ksqldb-cli:7.3.3
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.3.2
+FROM confluentinc/cp-schema-registry:7.3.3
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.3.2
+FROM confluentinc/cp-server:7.3.3
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.3.2
+FROM confluentinc/cp-server-connect:7.3.3
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.3.2
+FROM confluentinc/cp-zookeeper:7.3.3
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
