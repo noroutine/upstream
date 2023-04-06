@@ -811,7 +811,7 @@ FROM outlinewiki/outline:0.68.1
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.23.3
+FROM syncthing/syncthing:1.23.4
 # syncthing/syncthing
 
 # jellyfin/jellyfin
