@@ -871,7 +871,7 @@ FROM netbirdio/signal:0.15.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.15.0
+FROM netbirdio/management:0.15.1
 # netbirdio/management
 
 # coturn/coturn
