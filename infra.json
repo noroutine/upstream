@@ -1,5 +1,5 @@
 {
-  "version": "b4c2bca4",
+  "version": "eccb696c",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -143,7 +143,7 @@
       "bitnami/nginx-ingress-controller:1.6.4-debian-11-r6",
       "bitnami/nginx:1.23.3-debian-11-r31",
       "bitnami/minio:2023.3.24-debian-11-r0",
-      "bitnami/minio-client:2023.3.23-debian-11-r0",
+      "bitnami/minio-client:2023.4.6-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r92",
       "bitnami/metallb-controller:0.13.9-debian-11-r3",
       "bitnami/metallb-speaker:0.13.9-debian-11-r3",
@@ -170,7 +170,7 @@
       "minio/console:v0.26.3",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.4.4",
-      "hasura/graphql-engine:v2.22.0",
+      "hasura/graphql-engine:v2.22.1",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.22",
       "jimmidyson/configmap-reload:v0.8.0",

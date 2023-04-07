@@ -563,7 +563,7 @@ FROM bitnami/minio:2023.3.24-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.3.23-debian-11-r0
+FROM bitnami/minio-client:2023.4.6-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -671,7 +671,7 @@ FROM drakkan/sftpgo:v2.4.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.22.0
+FROM hasura/graphql-engine:v2.22.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
