@@ -179,7 +179,7 @@ FROM nginxinc/nginx-unprivileged:1.23.3-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.56-alpine
+FROM httpd:2.4.57-alpine
 # httpd
 
 # m3db/m3coordinator
