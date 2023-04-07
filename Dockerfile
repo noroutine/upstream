@@ -331,7 +331,7 @@ FROM summerwind/actions-runner-dind:v2.303.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.14.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.14.1
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
