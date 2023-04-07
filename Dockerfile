@@ -75,7 +75,7 @@ FROM golang:1.20.3-alpine3.17
 # golang
 
 # traefik
-FROM traefik:v2.9.9
+FROM traefik:v2.9.10
 # traefik
 
 # sonatype/nexus3
@@ -179,7 +179,7 @@ FROM nginxinc/nginx-unprivileged:1.23.3-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.56-alpine
+FROM httpd:2.4.57-alpine
 # httpd
 
 # m3db/m3coordinator
@@ -331,7 +331,7 @@ FROM summerwind/actions-runner-dind:v2.303.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.14.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.14.1
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -427,7 +427,7 @@ FROM docker:23.0.3-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.4.2
+FROM quay.io/podman/stable:v4.4.4
 # podman/stable
 
 # jupyter/base-notebook
@@ -631,7 +631,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.6.4-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.14.0-scratch-r0
+FROM bitnami/kube-rbac-proxy:0.14.1-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -659,7 +659,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.8.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.26.2
+FROM minio/console:v0.26.3
 # minio/console
 
 # kutt/kutt
@@ -867,11 +867,11 @@ FROM wiretrustee/dashboard:v1.10.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.15.1
+FROM netbirdio/signal:0.15.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.15.1
+FROM netbirdio/management:0.15.2
 # netbirdio/management
 
 # coturn/coturn
@@ -1007,7 +1007,7 @@ FROM hashicorp/vault:1.13.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.2.0
+FROM hashicorp/vault-k8s:1.2.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
