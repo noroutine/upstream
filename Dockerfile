@@ -903,7 +903,7 @@ FROM locustio/locust:2.15.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v10.2.0.20230209
+FROM postgrest/postgrest:v10.2.0.20230407
 # postgrest/postgrest
 
 # velero/velero
