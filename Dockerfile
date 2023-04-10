@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.51.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.5
+FROM squidfunk/mkdocs-material:9.1.6
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -503,7 +503,7 @@ FROM bitnami/redis:7.0.10-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.49.0-debian-11-r0
+FROM bitnami/redis-exporter:1.50.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -651,7 +651,7 @@ FROM bitnami/kubectl:1.26.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.39.0
+FROM aquasec/trivy:0.39.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -667,7 +667,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.4.4
+FROM drakkan/sftpgo:v2.4.5
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -903,7 +903,7 @@ FROM locustio/locust:2.15.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v10.2.0.20230209
+FROM postgrest/postgrest:v10.2.0.20230407
 # postgrest/postgrest
 
 # velero/velero
@@ -963,19 +963,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.10.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.11.0
+FROM quay.io/jetstack/cert-manager-controller:v1.8.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.11.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.8.0
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.11.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.8.0
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.11.0
+FROM quay.io/jetstack/cert-manager-ctl:v1.8.0
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
