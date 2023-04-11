@@ -171,11 +171,11 @@ FROM grafana/promtail:2.8.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.23.3-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.23.4-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.23.3-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.23.4-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -1227,11 +1227,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.5.1
+FROM confluentinc/confluent-init-container:2.5.2
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.581.34
+FROM confluentinc/confluent-operator:0.581.55
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
