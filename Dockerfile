@@ -171,11 +171,11 @@ FROM grafana/promtail:2.8.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.23.3-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.23.4-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.23.3-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.23.4-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
