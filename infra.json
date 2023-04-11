@@ -1,5 +1,5 @@
 {
-  "version": "8908ac66",
+  "version": "3f0a7344",
   "upstream": {
     "images": [
       "debian:bullseye-20230320-slim",
@@ -106,7 +106,7 @@
       "ghost:5.42.0",
       "bitnami/ghost:5.39.0-debian-11-r0",
       "matomo:4.14.1-apache",
-      "nocodb/nocodb:0.105.3",
+      "nocodb/nocodb:0.106.0",
       "metabase/metabase:v0.46.1",
       "docker:23.0.3-dind",
       "quay.io/podman/stable:v4.4.4",
