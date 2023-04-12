@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20230320-slim
+FROM debian:bullseye-20230411-slim
 # debian
 
 # ubuntu
@@ -403,7 +403,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.42.0
+FROM ghost:5.42.2
 # ghost
 
 # bitnami/ghost
@@ -707,15 +707,15 @@ FROM quay.io/argoproj/argo-events:v1.7.6
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.4.6
+FROM quay.io/argoproj/argocli:v3.4.7
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.4.6
+FROM quay.io/argoproj/workflow-controller:v3.4.7
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.4.6
+FROM quay.io/argoproj/argoexec:v3.4.7
 # argoproj/argoexec
 
 # redis
@@ -1029,6 +1029,22 @@ FROM registry.k8s.io/pause:3.9
 # coredns/coredns
 FROM registry.k8s.io/coredns/coredns:v1.9.4
 # coredns/coredns
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.27.0
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.27.0
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.27.0
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.27.0
+# kube-controller-manager
 
 # kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.26.3
