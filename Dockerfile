@@ -707,7 +707,7 @@ FROM quay.io/argoproj/argo-events:v1.7.6
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.4.6
+FROM quay.io/argoproj/argocli:v3.4.7
 # argoproj/argocli
 
 # argoproj/workflow-controller
