@@ -875,7 +875,7 @@ FROM netbirdio/management:0.15.2
 # netbirdio/management
 
 # coturn/coturn
-FROM coturn/coturn:4.6.1
+FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # firezone/firezone
