@@ -647,7 +647,7 @@ FROM bitnami/trivy:0.38.3-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.26.3-debian-11-r0
+FROM bitnami/kubectl:1.26.4-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -1047,51 +1047,51 @@ FROM registry.k8s.io/kube-controller-manager:v1.27.0
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.3
+FROM registry.k8s.io/kube-apiserver:v1.26.4
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.3
+FROM registry.k8s.io/kube-proxy:v1.26.4
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.3
+FROM registry.k8s.io/kube-scheduler:v1.26.4
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.3
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.8
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.8
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.8
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.8
+FROM registry.k8s.io/kube-controller-manager:v1.26.4
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.24.12
+FROM registry.k8s.io/kube-apiserver:v1.25.9
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.24.12
+FROM registry.k8s.io/kube-proxy:v1.25.9
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.12
+FROM registry.k8s.io/kube-scheduler:v1.25.9
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.24.12
+FROM registry.k8s.io/kube-controller-manager:v1.25.9
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.24.13
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.24.13
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.24.13
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.24.13
 # kube-controller-manager
 
 # kube-apiserver
