@@ -403,7 +403,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.42.2
+FROM ghost:5.43.0
 # ghost
 
 # bitnami/ghost
@@ -867,15 +867,15 @@ FROM wiretrustee/dashboard:v1.10.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.15.2
+FROM netbirdio/signal:0.15.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.15.2
+FROM netbirdio/management:0.15.3
 # netbirdio/management
 
 # coturn/coturn
-FROM coturn/coturn:4.6.1
+FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # firezone/firezone
@@ -927,15 +927,15 @@ FROM velero/velero-plugin-for-microsoft-azure:v1.6.1
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
-FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.4.2
+FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.0
 # vsphereveleroplugin/velero-plugin-for-vsphere
 
 # vsphereveleroplugin/backup-driver
-FROM vsphereveleroplugin/backup-driver:v1.4.2
+FROM vsphereveleroplugin/backup-driver:v1.5.0
 # vsphereveleroplugin/backup-driver
 
 # vsphereveleroplugin/data-manager-for-plugin
-FROM vsphereveleroplugin/data-manager-for-plugin:v1.4.2
+FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.0
 # vsphereveleroplugin/data-manager-for-plugin
 
 # velero/velero-restic-restore-helper
@@ -1179,23 +1179,23 @@ FROM longhornio/backing-image-manager:v3_20230320
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.5.0
+FROM longhornio/csi-node-driver-registrar:v2.7.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v6.0.1
+FROM longhornio/csi-snapshotter:v6.2.1
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.3.0
+FROM longhornio/csi-resizer:v1.7.0
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
-FROM longhornio/csi-provisioner:v2.1.2
+FROM longhornio/csi-provisioner:v3.4.1
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v3.4.0
+FROM longhornio/csi-attacher:v4.2.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
