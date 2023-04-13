@@ -931,7 +931,7 @@ FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.4.2
 # vsphereveleroplugin/velero-plugin-for-vsphere
 
 # vsphereveleroplugin/backup-driver
-FROM vsphereveleroplugin/backup-driver:v1.4.2
+FROM vsphereveleroplugin/backup-driver:v1.5.0
 # vsphereveleroplugin/backup-driver
 
 # vsphereveleroplugin/data-manager-for-plugin
