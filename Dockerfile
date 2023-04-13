@@ -182,6 +182,10 @@ FROM nginxinc/nginx-unprivileged:1.23.4-alpine-slim
 FROM httpd:2.4.57-alpine
 # httpd
 
+# tomcat
+FROM tomcat:10.1.7-jdk17-temurin-jammy
+# tomcat
+
 # m3db/m3coordinator
 FROM quay.io/m3db/m3coordinator:v1.5.0
 # m3db/m3coordinator
@@ -529,6 +533,10 @@ FROM bitnami/postgresql:14.7.0-debian-11-r0
 # bitnami/postgresql
 FROM bitnami/postgresql:15.2.0-debian-11-r0
 # bitnami/postgresql
+
+# bitnami/tomcat
+FROM bitnami/tomcat:10.1.7-debian-11-r8
+# bitnami/tomcat
 
 # bitnami/keycloak
 FROM bitnami/keycloak:21.0.2-debian-11-r1
