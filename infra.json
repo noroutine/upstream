@@ -1,5 +1,5 @@
 {
-  "version": "9aba8ea5",
+  "version": "9c3ac6be",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -172,7 +172,7 @@
       "minio/console:v0.26.3",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.4.5",
-      "hasura/graphql-engine:v2.22.1",
+      "hasura/graphql-engine:v2.23.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.22",
       "jimmidyson/configmap-reload:v0.8.0",
