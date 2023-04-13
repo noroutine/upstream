@@ -311,7 +311,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.31.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.2
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
