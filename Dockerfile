@@ -115,7 +115,7 @@ FROM minio/minio:RELEASE.2023-03-24T21-41-23Z
 # minio/minio
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.7
+FROM quay.io/coreos/etcd:v3.5.8
 # coreos/etcd
 
 # prometheus/prometheus
@@ -943,7 +943,7 @@ FROM velero/velero-restic-restore-helper:v1.9.6
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.26.3-debian-11-r0
+FROM bitnami/kubectl:1.26.4-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
@@ -955,11 +955,11 @@ FROM registry.k8s.io/git-sync/git-sync:v3.6.5
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.10.0
+FROM ghcr.io/kedacore/keda:2.10.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.10.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.10.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller

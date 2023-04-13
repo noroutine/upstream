@@ -1,5 +1,5 @@
 {
-  "version": "fba3cead",
+  "version": "66909eee",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -31,7 +31,7 @@
       "nextcloud:26.0.0-apache",
       "haproxytech/haproxy-debian:2.7.6",
       "minio/minio:RELEASE.2023-03-24T21-41-23Z",
-      "quay.io/coreos/etcd:v3.5.7",
+      "quay.io/coreos/etcd:v3.5.8",
       "quay.io/prometheus/prometheus:v2.43.0",
       "quay.io/prometheus/alertmanager:v0.25.0",
       "quay.io/prometheus/node-exporter:v1.5.0",
@@ -238,11 +238,11 @@
       "vsphereveleroplugin/backup-driver:v1.5.0",
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.0",
       "velero/velero-restic-restore-helper:v1.9.6",
-      "bitnami/kubectl:1.26.3-debian-11-r0",
+      "bitnami/kubectl:1.26.4-debian-11-r0",
       "apache/airflow:2.5.3-python3.10",
       "registry.k8s.io/git-sync/git-sync:v3.6.5",
-      "ghcr.io/kedacore/keda:2.10.0",
-      "ghcr.io/kedacore/keda-metrics-apiserver:2.10.0",
+      "ghcr.io/kedacore/keda:2.10.1",
+      "ghcr.io/kedacore/keda-metrics-apiserver:2.10.1",
       "quay.io/jetstack/cert-manager-controller:v1.11.1",
       "quay.io/jetstack/cert-manager-cainjector:v1.11.1",
       "quay.io/jetstack/cert-manager-webhook:v1.11.1",
