@@ -239,7 +239,7 @@ FROM wordpress:6.2.0-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:6.21
+FROM dpage/pgadmin4:7.0
 # dpage/pgadmin4
 
 # mysql
@@ -311,11 +311,11 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.31.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.2
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.10.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.11.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -571,7 +571,7 @@ FROM bitnami/minio:2023.3.24-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.4.6-debian-11-r0
+FROM bitnami/minio-client:2023.4.12-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell

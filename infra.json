@@ -1,5 +1,5 @@
 {
-  "version": "b388ffdd",
+  "version": "9aba8ea5",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -62,7 +62,7 @@
       "alerta/alerta-web:9.0.0",
       "mongo:6.0.5-jammy",
       "wordpress:6.2.0-apache",
-      "dpage/pgadmin4:6.21",
+      "dpage/pgadmin4:7.0",
       "mysql:8.0.32",
       "mariadb:10.11.2-jammy",
       "mccutchen/go-httpbin:v2.6.0",
@@ -80,8 +80,8 @@
       "gitlab/gitlab-runner:alpine-v15.10.1",
       "gitlab/gitlab-ce:15.10.2-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.31.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.1",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.10.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.2",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.11.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.0",
       "summerwind/actions-runner-controller:v0.27.2",
       "summerwind/actions-runner:v2.303.0-ubuntu-22.04",
@@ -145,7 +145,7 @@
       "bitnami/nginx-ingress-controller:1.6.4-debian-11-r6",
       "bitnami/nginx:1.23.3-debian-11-r31",
       "bitnami/minio:2023.3.24-debian-11-r0",
-      "bitnami/minio-client:2023.4.6-debian-11-r0",
+      "bitnami/minio-client:2023.4.12-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r92",
       "bitnami/metallb-controller:0.13.9-debian-11-r3",
       "bitnami/metallb-speaker:0.13.9-debian-11-r3",
