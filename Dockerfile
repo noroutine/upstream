@@ -1179,7 +1179,7 @@ FROM longhornio/backing-image-manager:v3_20230320
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.5.0
+FROM longhornio/csi-node-driver-registrar:v2.7.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
