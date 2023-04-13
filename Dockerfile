@@ -802,6 +802,10 @@ FROM pryorda/vmware_exporter:v0.18.4
 FROM azul/zulu-openjdk:20.0.0-20.28.85
 # azul/zulu-openjdk
 
+# eclipse-temurin
+FROM eclipse-temurin:20_36-jdk-jammy
+# eclipse-temurin
+
 # elastic/eck-operator
 FROM elastic/eck-operator:2.7.0
 # elastic/eck-operator
