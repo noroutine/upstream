@@ -1195,7 +1195,7 @@ FROM longhornio/csi-provisioner:v2.1.2
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v3.4.0
+FROM longhornio/csi-attacher:v4.2.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
