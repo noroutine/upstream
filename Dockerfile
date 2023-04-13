@@ -935,7 +935,7 @@ FROM vsphereveleroplugin/backup-driver:v1.4.2
 # vsphereveleroplugin/backup-driver
 
 # vsphereveleroplugin/data-manager-for-plugin
-FROM vsphereveleroplugin/data-manager-for-plugin:v1.4.2
+FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.0
 # vsphereveleroplugin/data-manager-for-plugin
 
 # velero/velero-restic-restore-helper
