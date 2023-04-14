@@ -538,6 +538,10 @@ FROM bitnami/postgresql:15.2.0-debian-11-r0
 FROM bitnami/tomcat:10.1.7-debian-11-r8
 # bitnami/tomcat
 
+# bitnami/jmx-exporter
+FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
+# bitnami/jmx-exporter
+
 # bitnami/keycloak
 FROM bitnami/keycloak:21.0.2-debian-11-r1
 # bitnami/keycloak

@@ -1,5 +1,5 @@
 {
-  "version": "f989f667",
+  "version": "cf296630",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -137,6 +137,7 @@
       "bitnami/postgresql:14.7.0-debian-11-r0",
       "bitnami/postgresql:15.2.0-debian-11-r0",
       "bitnami/tomcat:10.1.7-debian-11-r8",
+      "bitnami/jmx-exporter:0.18.0-debian-11-r10",
       "bitnami/keycloak:21.0.2-debian-11-r1",
       "bitnami/keycloak-config-cli:5.6.1-debian-11-r3",
       "bitnami/mariadb:10.11.2-debian-11-r0",
