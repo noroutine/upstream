@@ -99,7 +99,7 @@ FROM postgres:15.2-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.7.0
+FROM atlassian/jira-software:9.7.1
 # atlassian/jira-software
 
 # nextcloud
@@ -559,11 +559,11 @@ FROM bitnami/memcached:1.6.19-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.6.4-debian-11-r6
+FROM bitnami/nginx-ingress-controller:1.7.0-debian-11-r6
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.23.3-debian-11-r31
+FROM bitnami/nginx:1.23.4-debian-11-r5
 # bitnami/nginx
 
 # bitnami/minio

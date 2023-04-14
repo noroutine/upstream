@@ -1,5 +1,5 @@
 {
-  "version": "ed393b60",
+  "version": "e8415c8f",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -27,7 +27,7 @@
       "freeradius/freeradius-server:3.2.2-alpine",
       "quay.io/keycloak/keycloak:21.0.2",
       "postgres:15.2-bullseye",
-      "atlassian/jira-software:9.7.0",
+      "atlassian/jira-software:9.7.1",
       "nextcloud:26.0.0-apache",
       "haproxytech/haproxy-debian:2.7.6",
       "minio/minio:RELEASE.2023-03-24T21-41-23Z",
@@ -142,8 +142,8 @@
       "bitnami/mariadb:10.11.2-debian-11-r0",
       "bitnami/mongodb:6.0.5-debian-11-r1",
       "bitnami/memcached:1.6.19-debian-11-r0",
-      "bitnami/nginx-ingress-controller:1.6.4-debian-11-r6",
-      "bitnami/nginx:1.23.3-debian-11-r31",
+      "bitnami/nginx-ingress-controller:1.7.0-debian-11-r6",
+      "bitnami/nginx:1.23.4-debian-11-r5",
       "bitnami/minio:2023.3.24-debian-11-r0",
       "bitnami/minio-client:2023.4.12-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r92",
