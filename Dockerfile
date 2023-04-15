@@ -371,7 +371,7 @@ FROM jupyterhub/configurable-http-proxy:4.5.5
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.23.10
+FROM registry.k8s.io/kube-scheduler:v1.27.1
 # kube-scheduler
 
 # pause
@@ -1055,7 +1055,7 @@ FROM registry.k8s.io/kube-proxy:v1.27.0
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.0
+FROM registry.k8s.io/kube-scheduler:v1.27.1
 # kube-scheduler
 
 # kube-controller-manager
@@ -1071,7 +1071,7 @@ FROM registry.k8s.io/kube-proxy:v1.26.4
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.4
+FROM registry.k8s.io/kube-scheduler:v1.27.1
 # kube-scheduler
 
 # kube-controller-manager
@@ -1087,7 +1087,7 @@ FROM registry.k8s.io/kube-proxy:v1.25.9
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.9
+FROM registry.k8s.io/kube-scheduler:v1.27.1
 # kube-scheduler
 
 # kube-controller-manager
@@ -1103,7 +1103,7 @@ FROM registry.k8s.io/kube-proxy:v1.24.13
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.13
+FROM registry.k8s.io/kube-scheduler:v1.27.1
 # kube-scheduler
 
 # kube-controller-manager
@@ -1119,7 +1119,7 @@ FROM registry.k8s.io/kube-proxy:v1.23.17
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.23.17
+FROM registry.k8s.io/kube-scheduler:v1.27.1
 # kube-scheduler
 
 # kube-controller-manager
