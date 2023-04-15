@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v15.10.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.10.2-ce.0
+FROM gitlab/gitlab-ce:15.10.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -907,7 +907,7 @@ FROM jenkins/agent:3107.v665000b_51092-6-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.4.7
+FROM netboxcommunity/netbox:v3.4.8
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard

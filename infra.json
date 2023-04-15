@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.253",
+  "version": "069498f3",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -78,7 +78,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.16.1",
       "gitlab/gitlab-runner:alpine-v15.10.1",
-      "gitlab/gitlab-ce:15.10.2-ce.0",
+      "gitlab/gitlab-ce:15.10.3-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.31.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.2",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.11.0",
@@ -229,7 +229,7 @@
       "firezone/firezone:0.7.25",
       "jenkins/jenkins:2.400-jdk17",
       "jenkins/agent:3107.v665000b_51092-6-jdk17",
-      "netboxcommunity/netbox:v3.4.7",
+      "netboxcommunity/netbox:v3.4.8",
       "kubernetesui/dashboard:v2.7.0",
       "locustio/locust:2.15.1",
       "postgrest/postgrest:v10.2.0.20230407",
