@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:c7af89fe20e8b370fa3d84c23f5dbb048e01cfd38fbc12c
 # buildpack-deps
 
 # php
-FROM php:8.2.4-apache-bullseye
+FROM php:8.2.5-apache-bullseye
 # php
 
 # python
@@ -411,7 +411,7 @@ FROM ghost:5.43.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.39.0-debian-11-r0
+FROM bitnami/ghost:5.44.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -1047,19 +1047,19 @@ FROM registry.k8s.io/coredns/coredns:v1.9.4
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.0
+FROM registry.k8s.io/kube-apiserver:v1.27.1
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.0
+FROM registry.k8s.io/kube-proxy:v1.27.1
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.0
+FROM registry.k8s.io/kube-scheduler:v1.27.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.0
+FROM registry.k8s.io/kube-controller-manager:v1.27.1
 # kube-controller-manager
 
 # kube-apiserver
