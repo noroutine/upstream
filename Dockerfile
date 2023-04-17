@@ -651,7 +651,7 @@ FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.20.2
+FROM bitnami/sealed-secrets-controller:v0.20.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.10.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.15.3
+FROM netbirdio/signal:0.16.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.15.3
+FROM netbirdio/management:0.16.0
 # netbirdio/management
 
 # coturn/coturn

@@ -1,5 +1,5 @@
 {
-  "version": "0c250410",
+  "version": "7ab2d2dd",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -165,7 +165,7 @@
       "bitnami/kubeapps-pinniped-proxy:2.6.4-debian-11-r0",
       "bitnami/kube-rbac-proxy:0.14.1-scratch-r0",
       "bitnami/openldap:2.6.4-debian-11-r3",
-      "bitnami/sealed-secrets-controller:v0.20.2",
+      "bitnami/sealed-secrets-controller:v0.20.3",
       "bitnami/trivy:0.38.3-debian-11-r0",
       "bitnami/kubectl:1.26.4-debian-11-r0",
       "aquasec/trivy:0.40.0",
@@ -223,8 +223,8 @@
       "yugabytedb/yugabyte:2.15.3.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.10.0",
-      "netbirdio/signal:0.15.3",
-      "netbirdio/management:0.15.3",
+      "netbirdio/signal:0.16.0",
+      "netbirdio/management:0.16.0",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.25",
       "jenkins/jenkins:2.400-jdk17",
