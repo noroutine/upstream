@@ -1,5 +1,5 @@
 {
-  "version": "7ab2d2dd",
+  "version": "4bfe7248",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -228,7 +228,7 @@
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.25",
       "jenkins/jenkins:2.400-jdk17",
-      "jenkins/agent:3107.v665000b_51092-6-jdk17",
+      "jenkins/agent:3107.v665000b_51092-7-jdk17",
       "netboxcommunity/netbox:v3.4.8",
       "kubernetesui/dashboard:v2.7.0",
       "locustio/locust:2.15.1",
