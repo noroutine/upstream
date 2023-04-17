@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.26.4-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.39.1
+FROM aquasec/trivy:0.40.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -919,7 +919,7 @@ FROM locustio/locust:2.15.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v10.2.0.20230407
+FROM postgrest/postgrest:v11.0.0
 # postgrest/postgrest
 
 # velero/velero

@@ -1,5 +1,5 @@
 {
-  "version": "8611d927",
+  "version": "0c250410",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -168,7 +168,7 @@
       "bitnami/sealed-secrets-controller:v0.20.2",
       "bitnami/trivy:0.38.3-debian-11-r0",
       "bitnami/kubectl:1.26.4-debian-11-r0",
-      "aquasec/trivy:0.39.1",
+      "aquasec/trivy:0.40.0",
       "ghcr.io/external-secrets/external-secrets:v0.8.1",
       "minio/console:v0.26.3",
       "kutt/kutt:v2.7.4",
@@ -232,7 +232,7 @@
       "netboxcommunity/netbox:v3.4.8",
       "kubernetesui/dashboard:v2.7.0",
       "locustio/locust:2.15.1",
-      "postgrest/postgrest:v10.2.0.20230407",
+      "postgrest/postgrest:v11.0.0",
       "velero/velero:v1.10.2",
       "velero/velero-plugin-for-csi:v0.4.2",
       "velero/velero-plugin-for-aws:v1.6.1",
