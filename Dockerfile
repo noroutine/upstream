@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.7.6
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-03-24T21-41-23Z
+FROM minio/minio:RELEASE.2023-04-13T03-08-07Z
 # minio/minio
 
 # coreos/etcd
@@ -243,7 +243,7 @@ FROM dpage/pgadmin4:7.0
 # dpage/pgadmin4
 
 # mysql
-FROM mysql:8.0.32
+FROM mysql:8.0.33
 # mysql
 
 # mariadb
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.2
+FROM summerwind/actions-runner-controller:v0.27.3
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -407,7 +407,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.43.0
+FROM ghost:5.44.0
 # ghost
 
 # bitnami/ghost
@@ -427,7 +427,7 @@ FROM metabase/metabase:v0.46.1
 # metabase/metabase
 
 # docker
-FROM docker:23.0.3-dind
+FROM docker:23.0.4-dind
 # docker
 
 # podman/stable
@@ -503,7 +503,7 @@ FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.10-debian-11-r0
+FROM bitnami/redis:7.0.11-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -571,7 +571,7 @@ FROM bitnami/nginx:1.23.4-debian-11-r5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.3.24-debian-11-r0
+FROM bitnami/minio:2023.4.13-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -603,7 +603,7 @@ FROM bitnami/consul:1.15.2-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.15-debian-11-r0
+FROM bitnami/nats:2.9.16-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -651,7 +651,7 @@ FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.20.3
+FROM bitnami/sealed-secrets-controller:v0.20.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -659,7 +659,7 @@ FROM bitnami/trivy:0.38.3-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.26.4-debian-11-r0
+FROM bitnami/kubectl:1.27.1-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -759,7 +759,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.15-alpine3.17
+FROM nats:2.9.16-alpine3.17
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -903,7 +903,7 @@ FROM jenkins/jenkins:2.400-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-7-jdk17
+FROM jenkins/agent:3107.v665000b_51092-8-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
@@ -959,7 +959,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.26.4-debian-11-r0
+FROM bitnami/kubectl:1.27.1-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
