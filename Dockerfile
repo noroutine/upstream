@@ -731,7 +731,7 @@ FROM quay.io/argoproj/argoexec:v3.4.7
 # argoproj/argoexec
 
 # redis
-FROM redis:7.0.10-bullseye
+FROM redis:7.0.11-bullseye
 # redis
 
 # listmonk/listmonk
