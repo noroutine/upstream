@@ -47,7 +47,7 @@ FROM buildpack-deps:bionic@sha256:b1da6a5f500b67fa28bbae2b90a8e9da4def283d1fb918
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:a499d7cf331a38e4daf02148cf1f4b908048eab65947d337c4954bf635d37592
+FROM buildpack-deps:focal@sha256:dd5e6240f9fcbcbe0f6f1a3405b40d0ab6e82fbe91909deaa1212cc65b48f1da
 # buildpack-deps
 
 # buildpack-deps
@@ -171,11 +171,11 @@ FROM grafana/promtail:2.8.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.23.4-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.24.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.23.4-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.24.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -419,7 +419,7 @@ FROM matomo:4.14.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.106.0
+FROM nocodb/nocodb:0.106.1
 # nocodb/nocodb
 
 # metabase/metabase

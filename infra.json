@@ -1,5 +1,5 @@
 {
-  "version": "4b987242",
+  "version": "584aa137",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -14,7 +14,7 @@
       "gcr.io/distroless/cc-debian11",
       "gcr.io/distroless/nodejs-debian11",
       "buildpack-deps:bionic@sha256:b1da6a5f500b67fa28bbae2b90a8e9da4def283d1fb918b1d4db0c9cd86ec183",
-      "buildpack-deps:focal@sha256:a499d7cf331a38e4daf02148cf1f4b908048eab65947d337c4954bf635d37592",
+      "buildpack-deps:focal@sha256:dd5e6240f9fcbcbe0f6f1a3405b40d0ab6e82fbe91909deaa1212cc65b48f1da",
       "buildpack-deps:jammy@sha256:c7af89fe20e8b370fa3d84c23f5dbb048e01cfd38fbc12c1e02232c1a84af80f",
       "php:8.2.5-apache-bullseye",
       "python:3.11.3-bullseye",
@@ -45,8 +45,8 @@
       "grafana/loki:2.8.0",
       "grafana/loki-canary:2.8.0",
       "grafana/promtail:2.8.0",
-      "nginxinc/nginx-unprivileged:1.23.4-alpine-slim",
-      "nginxinc/nginx-unprivileged:1.23.4-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.24.0-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.24.0-alpine-slim",
       "httpd:2.4.57-alpine",
       "tomcat:10.1.7-jdk17-temurin-jammy",
       "quay.io/m3db/m3coordinator:v1.5.0",
@@ -107,7 +107,7 @@
       "ghost:5.44.0",
       "bitnami/ghost:5.44.0-debian-11-r0",
       "matomo:4.14.1-apache",
-      "nocodb/nocodb:0.106.0",
+      "nocodb/nocodb:0.106.1",
       "metabase/metabase:v0.46.1",
       "docker:23.0.4-dind",
       "quay.io/podman/stable:v4.4.4",
