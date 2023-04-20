@@ -79,7 +79,7 @@ FROM traefik:v2.9.10
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.51.0
+FROM sonatype/nexus3:3.52.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.2-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:21.0.2
+FROM quay.io/keycloak/keycloak:21.1.0
 # keycloak/keycloak
 
 # postgres
@@ -211,7 +211,7 @@ FROM ghcr.io/prymitive/karma:v0.114
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.14.1
+FROM quay.io/cortexproject/cortex:v1.15.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -431,7 +431,7 @@ FROM docker:23.0.4-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.4.4
+FROM quay.io/podman/stable:v4.5.0
 # podman/stable
 
 # jupyter/base-notebook
@@ -655,7 +655,7 @@ FROM bitnami/sealed-secrets-controller:v0.20.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.38.3-debian-11-r0
+FROM bitnami/trivy:0.40.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -895,11 +895,11 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.25
+FROM firezone/firezone:0.7.26
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.400-jdk17
+FROM jenkins/jenkins:2.401-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
