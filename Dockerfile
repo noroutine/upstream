@@ -467,7 +467,7 @@ FROM jupyter/all-spark-notebook:hub-3.1.1
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.2.3
+FROM rocker/shiny:4.3.0
 # rocker/shiny
 
 # caprover/caprover
