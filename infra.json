@@ -1,5 +1,5 @@
 {
-  "version": "42efd35f",
+  "version": "16289e84",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -48,7 +48,7 @@
       "nginxinc/nginx-unprivileged:1.24.0-alpine-slim",
       "nginxinc/nginx-unprivileged:1.24.0-alpine-slim",
       "httpd:2.4.57-alpine",
-      "tomcat:10.1.7-jdk17-temurin-jammy",
+      "tomcat:10.1.8-jdk17-temurin-jammy",
       "quay.io/m3db/m3coordinator:v1.5.0",
       "quay.io/m3db/m3dbnode:v1.5.0",
       "braedon/prometheus-es-exporter:0.14.1",
