@@ -1,5 +1,5 @@
 {
-  "version": "16289e84",
+  "version": "9e7728e9",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -119,7 +119,7 @@
       "jupyter/datascience-notebook:hub-3.1.1",
       "jupyter/pyspark-notebook:hub-3.1.1",
       "jupyter/all-spark-notebook:hub-3.1.1",
-      "rocker/shiny:4.2.3",
+      "rocker/shiny:4.3.0",
       "caprover/caprover:1.10.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.3.2-debian-11-r4",
@@ -145,7 +145,7 @@
       "bitnami/memcached:1.6.19-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.7.0-debian-11-r6",
       "bitnami/nginx:1.23.4-debian-11-r5",
-      "bitnami/minio:2023.4.13-debian-11-r0",
+      "bitnami/minio:2023.4.20-debian-11-r0",
       "bitnami/minio-client:2023.4.12-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r92",
       "bitnami/metallb-controller:0.13.9-debian-11-r3",
