@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.7.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:26.0.0-apache
+FROM nextcloud:26.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -415,7 +415,7 @@ FROM bitnami/ghost:5.44.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.14.1-apache
+FROM matomo:4.14.2-apache
 # matomo
 
 # nocodb/nocodb
@@ -795,7 +795,7 @@ FROM gcr.io/kaniko-project/executor:v1.9.2
 # kaniko-project/executor
 
 # iovisor/bpftrace
-FROM quay.io/iovisor/bpftrace:v0.17.0
+FROM quay.io/iovisor/bpftrace:v0.17.1
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
@@ -923,23 +923,23 @@ FROM postgrest/postgrest:v11.0.0
 # postgrest/postgrest
 
 # velero/velero
-FROM velero/velero:v1.10.2
+FROM velero/velero:v1.11.0
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.4.2
+FROM velero/velero-plugin-for-csi:v0.5.0
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.6.1
+FROM velero/velero-plugin-for-aws:v1.7.0
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.6.1
+FROM velero/velero-plugin-for-gcp:v1.7.0
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.6.1
+FROM velero/velero-plugin-for-microsoft-azure:v1.7.0
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
