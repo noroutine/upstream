@@ -795,7 +795,7 @@ FROM gcr.io/kaniko-project/executor:v1.9.2
 # kaniko-project/executor
 
 # iovisor/bpftrace
-FROM quay.io/iovisor/bpftrace:v0.17.0
+FROM quay.io/iovisor/bpftrace:v0.17.1
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
