@@ -923,7 +923,7 @@ FROM postgrest/postgrest:v11.0.0
 # postgrest/postgrest
 
 # velero/velero
-FROM velero/velero:v1.10.2
+FROM velero/velero:v1.11.0
 # velero/velero
 
 # velero/velero-plugin-for-csi
