@@ -455,7 +455,7 @@ FROM jupyter/tensorflow-notebook:hub-3.1.1
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-3.1.1
+FROM jupyter/datascience-notebook:hub-4.0.0
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
