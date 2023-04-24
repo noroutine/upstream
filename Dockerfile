@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.52.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.6
+FROM squidfunk/mkdocs-material:9.1.7
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -299,11 +299,11 @@ FROM buildpacksio/lifecycle:0.16.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.10.1
+FROM gitlab/gitlab-runner:alpine-v15.11.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.10.3-ce.0
+FROM gitlab/gitlab-ce:15.11.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -399,7 +399,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.23.2
+FROM verdaccio/verdaccio:5.24.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -595,7 +595,7 @@ FROM bitnami/grafana:9.4.7-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.6.4-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.7.0-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -823,7 +823,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.68.1
+FROM outlinewiki/outline:0.69.0
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -831,7 +831,7 @@ FROM syncthing/syncthing:1.23.4
 # syncthing/syncthing
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.9
+FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
