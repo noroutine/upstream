@@ -399,7 +399,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.24.0
+FROM verdaccio/verdaccio:5.24.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -435,35 +435,35 @@ FROM quay.io/podman/stable:v4.5.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-3.1.1
+FROM jupyter/base-notebook:hub-4.0.0
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:hub-3.1.1
+FROM jupyter/minimal-notebook:hub-4.0.0
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:hub-3.1.1
+FROM jupyter/r-notebook:hub-4.0.0
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-3.1.1
+FROM jupyter/scipy-notebook:hub-4.0.0
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-3.1.1
+FROM jupyter/tensorflow-notebook:hub-4.0.0
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-3.1.1
+FROM jupyter/datascience-notebook:hub-4.0.0
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:hub-3.1.1
+FROM jupyter/pyspark-notebook:hub-4.0.0
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-3.1.1
+FROM jupyter/all-spark-notebook:hub-4.0.0
 # jupyter/all-spark-notebook
 
 # rocker/shiny
