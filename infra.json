@@ -1,5 +1,5 @@
 {
-  "version": "1d187b58",
+  "version": "79205524",
   "upstream": {
     "images": [
       "debian:bullseye-20230411-slim",
@@ -39,8 +39,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.23.0",
       "quay.io/prometheus/snmp-exporter:v0.21.0",
       "quay.io/prometheus/pushgateway:v1.5.1",
-      "quay.io/prometheus-operator/prometheus-operator:v0.64.0",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.64.0",
+      "quay.io/prometheus-operator/prometheus-operator:v0.64.1",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.64.1",
       "grafana/grafana:9.4.7",
       "grafana/loki:2.8.1",
       "grafana/loki-canary:2.8.1",
