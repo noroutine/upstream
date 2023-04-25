@@ -75,7 +75,7 @@ FROM golang:1.20.3-alpine3.17
 # golang
 
 # traefik
-FROM traefik:v2.9.10
+FROM traefik:v2.10.0
 # traefik
 
 # sonatype/nexus3
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.52.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.7
+FROM squidfunk/mkdocs-material:9.1.8
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -159,15 +159,15 @@ FROM grafana/grafana:9.4.7
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.8.0
+FROM grafana/loki:2.8.1
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.8.0
+FROM grafana/loki-canary:2.8.1
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.8.0
+FROM grafana/promtail:2.8.1
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -763,7 +763,7 @@ FROM nats:2.9.16-alpine3.17
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.10.1
+FROM natsio/prometheus-nats-exporter:0.11.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
@@ -803,7 +803,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:20.0.0-20.28.85
+FROM azul/zulu-openjdk:20.0.1-20.30.11
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.18.6
+FROM gravitl/netmaker:v0.18.7
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.18.6
+FROM gravitl/netmaker-ui:v0.18.7
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -863,7 +863,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # restic/restic
-FROM restic/restic:0.15.1
+FROM restic/restic:0.15.2
 # restic/restic
 
 # coredns/coredns
