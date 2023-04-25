@@ -147,7 +147,7 @@ FROM quay.io/prometheus/pushgateway:v1.5.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.64.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.64.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
