@@ -107,7 +107,7 @@ FROM nextcloud:26.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.7.6
+FROM haproxytech/haproxy-debian:2.7.7
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.22
+FROM stakater/reloader:v1.0.24
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -879,7 +879,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.10.0
+FROM wiretrustee/dashboard:v1.11.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -907,7 +907,7 @@ FROM jenkins/agent:3107.v665000b_51092-8-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.4.8
+FROM netboxcommunity/netbox:v3.4.9
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1259,11 +1259,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.5.2
+FROM confluentinc/confluent-init-container:2.6.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.581.55
+FROM confluentinc/confluent-operator:0.771.13
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
