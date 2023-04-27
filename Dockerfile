@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.2-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:21.1.0
+FROM quay.io/keycloak/keycloak:21.1.1
 # keycloak/keycloak
 
 # postgres
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.64.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:9.4.7
+FROM grafana/grafana:9.5.1
 # grafana/grafana
 
 # grafana/loki
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.44.0
+FROM ghost:5.45.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.44.0-debian-11-r0
+FROM bitnami/ghost:5.45.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -427,7 +427,7 @@ FROM metabase/metabase:v0.46.1
 # metabase/metabase
 
 # docker
-FROM docker:23.0.4-dind
+FROM docker:23.0.5-dind
 # docker
 
 # podman/stable
@@ -487,7 +487,7 @@ FROM bitnami/prometheus:2.43.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.64.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.64.1-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -591,7 +591,7 @@ FROM bitnami/metallb-speaker:0.13.9-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.4.7-debian-11-r0
+FROM bitnami/grafana:9.5.1-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.4.5
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.23.0
+FROM hasura/graphql-engine:v2.24.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -807,7 +807,7 @@ FROM azul/zulu-openjdk:20.0.1-20.30.11
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:20_36-jdk-jammy
+FROM eclipse-temurin:20.0.1_9-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.10.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.16.0
+FROM netbirdio/signal:0.17.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.16.0
+FROM netbirdio/management:0.17.0
 # netbirdio/management
 
 # coturn/coturn
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.26
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.401-jdk17
+FROM jenkins/jenkins:2.402-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1019,7 +1019,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.13.1
+FROM hashicorp/vault:1.13.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
