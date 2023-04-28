@@ -919,7 +919,7 @@ FROM locustio/locust:2.15.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v11.0.0
+FROM postgrest/postgrest:v11.0.1
 # postgrest/postgrest
 
 # velero/velero
