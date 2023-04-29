@@ -1223,7 +1223,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.0.0
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.0.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.0.1
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
