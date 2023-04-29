@@ -75,7 +75,7 @@ FROM golang:1.20.3-alpine3.17
 # golang
 
 # traefik
-FROM traefik:v2.10.0
+FROM traefik:v2.10.1
 # traefik
 
 # sonatype/nexus3
@@ -211,7 +211,7 @@ FROM ghcr.io/prymitive/karma:v0.114
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.15.0
+FROM quay.io/cortexproject/cortex:v1.15.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -907,7 +907,7 @@ FROM jenkins/agent:3107.v665000b_51092-8-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.4.9
+FROM netboxcommunity/netbox:v3.4.10
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -919,7 +919,7 @@ FROM locustio/locust:2.15.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v11.0.0
+FROM postgrest/postgrest:v11.0.1
 # postgrest/postgrest
 
 # velero/velero
@@ -1231,19 +1231,19 @@ FROM registry.k8s.io/sig-storage/livenessprobe:v2.9.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.7.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.2.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.3.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.7.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.8.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v3.4.1
+FROM registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
