@@ -423,7 +423,7 @@ FROM nocodb/nocodb:0.106.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.1
+FROM metabase/metabase:v0.46.2
 # metabase/metabase
 
 # docker
@@ -655,7 +655,7 @@ FROM bitnami/sealed-secrets-controller:v0.20.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.40.0-debian-11-r0
+FROM bitnami/trivy:0.41.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.1-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.40.0
+FROM aquasec/trivy:0.41.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.4.5
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.24.0
+FROM hasura/graphql-engine:v2.24.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -907,7 +907,7 @@ FROM jenkins/agent:3107.v665000b_51092-8-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.4.10
+FROM netboxcommunity/netbox:v3.5.0
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1027,7 +1027,7 @@ FROM hashicorp/vault-k8s:1.2.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.3.0
+FROM hashicorp/vault-csi-provider:1.4.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
@@ -1219,15 +1219,15 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.0.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.0.1
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.0.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.0.1
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.9.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.10.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
