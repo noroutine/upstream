@@ -67,11 +67,11 @@ FROM python:3.11.3-slim-bullseye
 # python
 
 # golang
-FROM golang:1.20.3-bullseye
+FROM golang:1.20.4-bullseye
 # golang
 
 # golang
-FROM golang:1.20.3-alpine3.17
+FROM golang:1.20.4-alpine3.17
 # golang
 
 # traefik
