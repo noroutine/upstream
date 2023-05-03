@@ -219,7 +219,7 @@ FROM docker.elastic.co/elasticsearch/elasticsearch:8.7.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.7.0
+FROM docker.elastic.co/logstash/logstash:8.7.1
 # logstash/logstash
 
 # kibana/kibana
