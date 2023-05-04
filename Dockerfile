@@ -1283,7 +1283,7 @@ FROM confluentinc/cp-ksqldb-server:7.3.3
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.3.3
+FROM confluentinc/cp-ksqldb-cli:7.4.0
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
