@@ -1271,7 +1271,7 @@ FROM confluentinc/cp-enterprise-control-center:7.3.3
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.3.3
+FROM confluentinc/cp-enterprise-replicator:7.4.0
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
