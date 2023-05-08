@@ -483,7 +483,7 @@ FROM bitnami/spark:3.3.2-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.43.0-debian-11-r0
+FROM bitnami/prometheus:2.43.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
