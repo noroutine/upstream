@@ -715,7 +715,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # argoproj/argo-events
-FROM quay.io/argoproj/argo-events:v1.7.6
+FROM quay.io/argoproj/argo-events:v1.8.0
 # argoproj/argo-events
 
 # argoproj/argocli
