@@ -11,7 +11,7 @@ FROM ubuntu:focal-20230308
 # ubuntu
 
 # alpine
-FROM alpine:3.17.3
+FROM alpine:3.18.0
 # alpine
 
 # busybox
@@ -239,7 +239,7 @@ FROM wordpress:6.2.0-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.0
+FROM dpage/pgadmin4:7.1
 # dpage/pgadmin4
 
 # mysql
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.45.1
+FROM ghost:5.47.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.45.1-debian-11-r0
+FROM bitnami/ghost:5.47.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -427,7 +427,7 @@ FROM metabase/metabase:v0.46.2
 # metabase/metabase
 
 # docker
-FROM docker:23.0.5-dind
+FROM docker:23.0.6-dind
 # docker
 
 # podman/stable
@@ -543,7 +543,7 @@ FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:21.0.2-debian-11-r1
+FROM bitnami/keycloak:21.1.1-debian-11-r1
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -567,7 +567,7 @@ FROM bitnami/nginx-ingress-controller:1.7.0-debian-11-r6
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.23.4-debian-11-r5
+FROM bitnami/nginx:1.24.0-debian-11-r5
 # bitnami/nginx
 
 # bitnami/minio
@@ -823,7 +823,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.69.0
+FROM outlinewiki/outline:0.69.2
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.26
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.402-jdk17
+FROM jenkins/jenkins:2.404-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -979,19 +979,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.10.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.11.1
+FROM quay.io/jetstack/cert-manager-controller:v1.11.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.11.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.11.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.11.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.11.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.11.1
+FROM quay.io/jetstack/cert-manager-ctl:v1.11.2
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
