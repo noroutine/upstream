@@ -1,9 +1,9 @@
 # debian
-FROM debian:bullseye-20230411-slim
+FROM debian:bullseye-20230502-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230308
+FROM ubuntu:jammy-20230425
 # ubuntu
 
 # ubuntu
@@ -295,7 +295,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.16.1
+FROM buildpacksio/lifecycle:0.16.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -1215,7 +1215,7 @@ FROM longhornio/csi-attacher:v4.2.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.1
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
