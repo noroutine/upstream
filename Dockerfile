@@ -67,11 +67,11 @@ FROM python:3.11.3-slim-bullseye
 # python
 
 # golang
-FROM golang:1.20.3-bullseye
+FROM golang:1.20.4-bullseye
 # golang
 
 # golang
-FROM golang:1.20.3-alpine3.17
+FROM golang:1.20.4-alpine3.17
 # golang
 
 # traefik
@@ -79,11 +79,11 @@ FROM traefik:v2.10.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.52.0
+FROM sonatype/nexus3:3.53.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.8
+FROM squidfunk/mkdocs-material:9.1.11
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -159,11 +159,11 @@ FROM grafana/grafana:9.5.1
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.8.1
+FROM grafana/loki:2.8.2
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.8.1
+FROM grafana/loki-canary:2.8.2
 # grafana/loki-canary
 
 # grafana/promtail
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.7.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.7.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.7.0
+FROM docker.elastic.co/logstash/logstash:8.7.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.7.0
+FROM docker.elastic.co/kibana/kibana:8.7.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -307,7 +307,7 @@ FROM gitlab/gitlab-ce:15.11.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.31.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.32.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -315,7 +315,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v15.11.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.0.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -679,7 +679,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.4.5
+FROM drakkan/sftpgo:v2.5.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.36.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.6.7
+FROM quay.io/argoproj/argocd:v2.7.1
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -815,7 +815,7 @@ FROM elastic/eck-operator:2.7.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.21.2-alpine
+FROM louislam/uptime-kuma:1.21.3-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -879,15 +879,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.11.0
+FROM wiretrustee/dashboard:v1.11.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.17.0
+FROM netbirdio/signal:0.19.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.17.0
+FROM netbirdio/management:0.19.0
 # netbirdio/management
 
 # coturn/coturn
@@ -895,7 +895,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.26
+FROM firezone/firezone:0.7.29
 # firezone/firezone
 
 # jenkins/jenkins
@@ -903,11 +903,11 @@ FROM jenkins/jenkins:2.404-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-8-jdk17
+FROM jenkins/agent:3107.v665000b_51092-10-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.0
+FROM netboxcommunity/netbox:v3.5.1
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1267,39 +1267,39 @@ FROM confluentinc/confluent-operator:0.771.13
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.3.3
+FROM confluentinc/cp-enterprise-control-center:7.4.0
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.3.3
+FROM confluentinc/cp-enterprise-replicator:7.4.0
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.3.3
+FROM confluentinc/cp-kafka-rest:7.4.0
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.3.3
+FROM confluentinc/cp-ksqldb-server:7.4.0
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.3.3
+FROM confluentinc/cp-ksqldb-cli:7.4.0
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.3.3
+FROM confluentinc/cp-schema-registry:7.4.0
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.3.3
+FROM confluentinc/cp-server:7.4.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.3.3
+FROM confluentinc/cp-server-connect:7.4.0
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.3.3
+FROM confluentinc/cp-zookeeper:7.4.0
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
