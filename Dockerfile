@@ -107,7 +107,7 @@ FROM nextcloud:26.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.7.7
+FROM haproxytech/haproxy-debian:2.7.8
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.8
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.43.0
+FROM quay.io/prometheus/prometheus:v2.43.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.5.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.64.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.65.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.64.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.65.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -167,7 +167,7 @@ FROM grafana/loki-canary:2.8.2
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.8.1
+FROM grafana/promtail:2.8.2
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -251,7 +251,7 @@ FROM mariadb:10.11.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.6.0
+FROM mccutchen/go-httpbin:v2.8.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v15.11.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.11.0-ce.0
+FROM gitlab/gitlab-ce:15.11.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -483,11 +483,11 @@ FROM bitnami/spark:3.3.2-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.43.0-debian-11-r0
+FROM bitnami/prometheus:2.43.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.64.1-debian-11-r0
+FROM bitnami/prometheus-operator:0.65.1-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -571,11 +571,11 @@ FROM bitnami/nginx:1.24.0-debian-11-r5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.4.20-debian-11-r0
+FROM bitnami/minio:2023.5.4-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.4.12-debian-11-r0
+FROM bitnami/minio-client:2023.5.4-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -671,7 +671,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.8.1
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.26.3
+FROM minio/console:v0.26.4
 # minio/console
 
 # kutt/kutt
@@ -715,7 +715,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # argoproj/argo-events
-FROM quay.io/argoproj/argo-events:v1.7.6
+FROM quay.io/argoproj/argo-events:v1.8.0
 # argoproj/argo-events
 
 # argoproj/argocli
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.18.7
+FROM gravitl/netmaker:v0.19.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.18.7
+FROM gravitl/netmaker-ui:v0.19.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -963,11 +963,11 @@ FROM bitnami/kubectl:1.27.1-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.5.3-python3.10
+FROM apache/airflow:2.6.0-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v3.6.5
+FROM registry.k8s.io/git-sync/git-sync:v3.6.6
 # git-sync/git-sync
 
 # kedacore/keda
