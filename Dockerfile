@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.65.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:9.5.1
+FROM grafana/grafana:9.5.2
 # grafana/grafana
 
 # grafana/loki
@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v15.11.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.11.2-ce.0
+FROM gitlab/gitlab-ce:15.11.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -311,11 +311,11 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.32.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.3
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.0.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.0.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -551,7 +551,7 @@ FROM bitnami/keycloak-config-cli:5.6.1-debian-11-r3
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.11.2-debian-11-r0
+FROM bitnami/mariadb:10.11.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -591,7 +591,7 @@ FROM bitnami/metallb-speaker:0.13.9-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.5.1-debian-11-r0
+FROM bitnami/grafana:9.5.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
