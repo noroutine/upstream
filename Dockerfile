@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.3
+FROM summerwind/actions-runner-controller:v0.27.4
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -699,7 +699,7 @@ FROM jimmidyson/configmap-reload:v0.8.0
 # jimmidyson/configmap-reload
 
 # registry
-FROM registry:2.8.1
+FROM registry:2.8.2
 # registry
 
 # dexidp/dex

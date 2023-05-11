@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.254",
+  "version": "5a8b18fd",
   "upstream": {
     "images": [
       "debian:bullseye-20230502-slim",
@@ -83,7 +83,7 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.3",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.0.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.0",
-      "summerwind/actions-runner-controller:v0.27.3",
+      "summerwind/actions-runner-controller:v0.27.4",
       "summerwind/actions-runner:v2.303.0-ubuntu-22.04",
       "summerwind/actions-runner-dind:v2.303.0-ubuntu-22.04",
       "quay.io/brancz/kube-rbac-proxy:v0.14.1",
@@ -177,7 +177,7 @@
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.24",
       "jimmidyson/configmap-reload:v0.8.0",
-      "registry:2.8.1",
+      "registry:2.8.2",
       "ghcr.io/dexidp/dex:v2.36.0",
       "quay.io/argoproj/argocd:v2.7.1",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
