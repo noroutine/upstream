@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.3
+FROM summerwind/actions-runner-controller:v0.27.4
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
