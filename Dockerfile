@@ -699,7 +699,7 @@ FROM jimmidyson/configmap-reload:v0.8.0
 # jimmidyson/configmap-reload
 
 # registry
-FROM registry:2.8.1
+FROM registry:2.8.2
 # registry
 
 # dexidp/dex
