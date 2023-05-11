@@ -535,7 +535,7 @@ FROM bitnami/postgresql:15.2.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.7-debian-11-r8
+FROM bitnami/tomcat:10.1.8-debian-11-r8
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
