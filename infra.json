@@ -1,5 +1,5 @@
 {
-  "version": "149ed990",
+  "version": "7b0bfe69",
   "upstream": {
     "images": [
       "debian:bullseye-20230502-slim",
@@ -170,7 +170,7 @@
       "bitnami/kubectl:1.27.1-debian-11-r0",
       "aquasec/trivy:0.41.0",
       "ghcr.io/external-secrets/external-secrets:v0.8.1",
-      "minio/console:v0.26.4",
+      "minio/console:v0.27.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.0",
       "hasura/graphql-engine:v2.24.1",
