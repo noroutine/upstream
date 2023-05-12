@@ -95,7 +95,7 @@ FROM quay.io/keycloak/keycloak:21.1.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:15.2-bullseye
+FROM postgres:15.3-bullseye
 # postgres
 
 # atlassian/jira-software
