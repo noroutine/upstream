@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:5accbdf146c48356c55519034669d9f25207da4660919f2
 # buildpack-deps
 
 # php
-FROM php:8.2.5-apache-bullseye
+FROM php:8.2.6-apache-bullseye
 # php
 
 # python
@@ -95,7 +95,7 @@ FROM quay.io/keycloak/keycloak:21.1.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:15.2-bullseye
+FROM postgres:15.3-bullseye
 # postgres
 
 # atlassian/jira-software
@@ -311,7 +311,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.32.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.48.3
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.49.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -1171,15 +1171,15 @@ FROM calico/csi:v3.25.1
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.4.1
+FROM longhornio/longhorn-manager:v1.4.2
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.4.1
+FROM longhornio/longhorn-ui:v1.4.2
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.4.1
+FROM longhornio/longhorn-engine:v1.4.2
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
@@ -1187,7 +1187,7 @@ FROM longhornio/longhorn-instance-manager:v3_20221117
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.4.1
+FROM longhornio/longhorn-share-manager:v1.4.2
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
