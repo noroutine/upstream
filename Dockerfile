@@ -903,7 +903,7 @@ FROM jenkins/jenkins:2.404-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-10-jdk17
+FROM jenkins/agent:3107.v665000b_51092-11-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
