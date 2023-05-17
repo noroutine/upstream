@@ -695,7 +695,7 @@ FROM stakater/reloader:v1.0.24
 # stakater/reloader
 
 # jimmidyson/configmap-reload
-FROM jimmidyson/configmap-reload:v0.8.0
+FROM jimmidyson/configmap-reload:v0.9.0
 # jimmidyson/configmap-reload
 
 # registry
