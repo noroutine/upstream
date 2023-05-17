@@ -135,7 +135,7 @@ FROM quay.io/prometheus/consul-exporter:v0.9.0
 # prometheus/consul-exporter
 
 # prometheus/blackbox-exporter
-FROM quay.io/prometheus/blackbox-exporter:v0.23.0
+FROM quay.io/prometheus/blackbox-exporter:v0.24.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
