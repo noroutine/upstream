@@ -907,7 +907,7 @@ FROM jenkins/agent:3107.v665000b_51092-10-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.1
+FROM netboxcommunity/netbox:v3.5.2
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
