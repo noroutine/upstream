@@ -1159,7 +1159,7 @@ FROM calico/dikastes:v3.25.1
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.25.1
+FROM calico/pod2daemon-flexvol:v3.26.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
