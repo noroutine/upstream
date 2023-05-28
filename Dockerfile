@@ -43,7 +43,7 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # buildpack-deps
-FROM buildpack-deps:bionic@sha256:a54dcca253973163fdb7d867fab2b43564e5eb97c4c2ca4c1829321c72925655
+FROM buildpack-deps:bionic@sha256:114fb6039d901ad3fb792b626120d9cc1a0770f285d9d980d45282f73287b56f
 # buildpack-deps
 
 # buildpack-deps
@@ -671,7 +671,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.8.3
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.27.0
+FROM minio/console:v0.28.0
 # minio/console
 
 # kutt/kutt
