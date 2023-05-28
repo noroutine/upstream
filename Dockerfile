@@ -383,7 +383,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.03.1
+FROM pihole/pihole:2023.05.0
 # pihole/pihole
 
 # yandex/clickhouse-server
