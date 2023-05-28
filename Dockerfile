@@ -495,7 +495,7 @@ FROM bitnami/node-exporter:1.5.0-debian-11-r6
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.23.0-debian-11-r3
+FROM bitnami/blackbox-exporter:0.24.0-debian-11-r3
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
