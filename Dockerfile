@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20230502-slim
+FROM debian:bullseye-20230522-slim
 # debian
 
 # ubuntu
@@ -15,7 +15,7 @@ FROM alpine:3.18.0
 # alpine
 
 # busybox
-FROM busybox:1.36.0
+FROM busybox:1.36.1
 # busybox
 
 # distroless/static-debian11
@@ -71,7 +71,7 @@ FROM golang:1.20.4-bullseye
 # golang
 
 # golang
-FROM golang:1.20.4-alpine3.17
+FROM golang:1.20.4-alpine3.18
 # golang
 
 # traefik
@@ -79,11 +79,11 @@ FROM traefik:v2.10.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.53.0
+FROM sonatype/nexus3:3.54.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.11
+FROM squidfunk/mkdocs-material:9.1.14
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -99,7 +99,7 @@ FROM postgres:15.3-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.8.0
+FROM atlassian/jira-software:9.8.1
 # atlassian/jira-software
 
 # nextcloud
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.7.8
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-04-13T03-08-07Z
+FROM minio/minio:RELEASE.2023-05-27T05-56-19Z
 # minio/minio
 
 # coreos/etcd
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.9
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.43.1
+FROM quay.io/prometheus/prometheus:v2.44.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -135,7 +135,7 @@ FROM quay.io/prometheus/consul-exporter:v0.9.0
 # prometheus/consul-exporter
 
 # prometheus/blackbox-exporter
-FROM quay.io/prometheus/blackbox-exporter:v0.23.0
+FROM quay.io/prometheus/blackbox-exporter:v0.24.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
@@ -143,7 +143,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.21.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.5.1
+FROM quay.io/prometheus/pushgateway:v1.6.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -183,7 +183,7 @@ FROM httpd:2.4.57-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.8-jdk17-temurin-jammy
+FROM tomcat:10.1.9-jdk17-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.2
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.7.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.8.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.7.1
+FROM docker.elastic.co/logstash/logstash:8.8.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.7.1
+FROM docker.elastic.co/kibana/kibana:8.8.0
 # kibana/kibana
 
 # alerta/alerta-web
@@ -231,11 +231,11 @@ FROM alerta/alerta-web:9.0.0
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.5-jammy
+FROM mongo:6.0.6-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.2.0-apache
+FROM wordpress:6.2.2-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -299,15 +299,15 @@ FROM buildpacksio/lifecycle:0.16.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v15.11.0
+FROM gitlab/gitlab-runner:alpine-v16.0.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:15.11.3-ce.0
+FROM gitlab/gitlab-ce:16.0.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.32.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.33.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -319,7 +319,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.1
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.47.0
+FROM ghost:5.49.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.47.0-debian-11-r0
+FROM bitnami/ghost:5.49.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -419,15 +419,15 @@ FROM matomo:4.14.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.106.1
+FROM nocodb/nocodb:0.107.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.2
+FROM metabase/metabase:v0.46.4
 # metabase/metabase
 
 # docker
-FROM docker:23.0.6-dind
+FROM docker:24.0.1-dind
 # docker
 
 # podman/stable
@@ -483,7 +483,7 @@ FROM bitnami/spark:3.3.2-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.43.1-debian-11-r0
+FROM bitnami/prometheus:2.44.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -555,15 +555,15 @@ FROM bitnami/mariadb:10.11.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:6.0.5-debian-11-r1
+FROM bitnami/mongodb:6.0.6-debian-11-r1
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.19-debian-11-r0
+FROM bitnami/memcached:1.6.20-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.7.0-debian-11-r6
+FROM bitnami/nginx-ingress-controller:1.7.1-debian-11-r6
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -571,11 +571,11 @@ FROM bitnami/nginx:1.24.0-debian-11-r5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.5.4-debian-11-r0
+FROM bitnami/minio:2023.5.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.5.4-debian-11-r0
+FROM bitnami/minio-client:2023.5.18-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -595,7 +595,7 @@ FROM bitnami/grafana:9.5.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.7.0-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.7.1-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -603,7 +603,7 @@ FROM bitnami/consul:1.15.2-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.16-debian-11-r0
+FROM bitnami/nats:2.9.17-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -651,7 +651,7 @@ FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.20.5
+FROM bitnami/sealed-secrets-controller:v0.21.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -659,7 +659,7 @@ FROM bitnami/trivy:0.41.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.1-debian-11-r0
+FROM bitnami/kubectl:1.27.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -667,7 +667,7 @@ FROM aquasec/trivy:0.41.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.8.1
+FROM ghcr.io/external-secrets/external-secrets:v0.8.3
 # external-secrets/external-secrets
 
 # minio/console
@@ -679,11 +679,11 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.5.0
+FROM drakkan/sftpgo:v2.5.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.25.0
+FROM hasura/graphql-engine:v2.25.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -691,11 +691,11 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.24
+FROM stakater/reloader:v1.0.25
 # stakater/reloader
 
 # jimmidyson/configmap-reload
-FROM jimmidyson/configmap-reload:v0.8.0
+FROM jimmidyson/configmap-reload:v0.9.0
 # jimmidyson/configmap-reload
 
 # registry
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.36.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.1
+FROM quay.io/argoproj/argocd:v2.7.3
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -719,15 +719,15 @@ FROM quay.io/argoproj/argo-events:v1.8.0
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.4.7
+FROM quay.io/argoproj/argocli:v3.4.8
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.4.7
+FROM quay.io/argoproj/workflow-controller:v3.4.8
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.4.7
+FROM quay.io/argoproj/argoexec:v3.4.8
 # argoproj/argoexec
 
 # redis
@@ -759,7 +759,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.16-alpine3.17
+FROM nats:2.9.17-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -791,11 +791,11 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.9.2
+FROM gcr.io/kaniko-project/executor:v1.10.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
-FROM quay.io/iovisor/bpftrace:v0.17.1
+FROM quay.io/iovisor/bpftrace:v0.18.0
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
@@ -811,7 +811,7 @@ FROM eclipse-temurin:20.0.1_9-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.7.0
+FROM elastic/eck-operator:2.8.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.19.0
+FROM gravitl/netmaker:v0.20.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.19.0
+FROM gravitl/netmaker-ui:v0.20.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -879,15 +879,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.11.1
+FROM wiretrustee/dashboard:v1.12.4
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.19.0
+FROM netbirdio/signal:0.20.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.19.0
+FROM netbirdio/management:0.20.4
 # netbirdio/management
 
 # coturn/coturn
@@ -899,15 +899,15 @@ FROM firezone/firezone:0.7.29
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.404-jdk17
+FROM jenkins/jenkins:2.406-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-10-jdk17
+FROM jenkins/agent:3107.v665000b_51092-15-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.1
+FROM netboxcommunity/netbox:v3.5.2
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -943,15 +943,15 @@ FROM velero/velero-plugin-for-microsoft-azure:v1.7.0
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
-FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.0
+FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.1
 # vsphereveleroplugin/velero-plugin-for-vsphere
 
 # vsphereveleroplugin/backup-driver
-FROM vsphereveleroplugin/backup-driver:v1.5.0
+FROM vsphereveleroplugin/backup-driver:v1.5.1
 # vsphereveleroplugin/backup-driver
 
 # vsphereveleroplugin/data-manager-for-plugin
-FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.0
+FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.1
 # vsphereveleroplugin/data-manager-for-plugin
 
 # velero/velero-restic-restore-helper
@@ -959,11 +959,11 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.1-debian-11-r0
+FROM bitnami/kubectl:1.27.2-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.6.0-python3.10
+FROM apache/airflow:2.6.1-python3.10
 # apache/airflow
 
 # git-sync/git-sync
@@ -979,19 +979,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.10.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.11.2
+FROM quay.io/jetstack/cert-manager-controller:v1.12.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.11.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.12.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.11.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.12.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.11.2
+FROM quay.io/jetstack/cert-manager-ctl:v1.12.1
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
@@ -1031,11 +1031,11 @@ FROM hashicorp/vault-csi-provider:1.4.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.34.0
+FROM quay.io/strimzi/operator:0.35.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.34.0-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.35.0-kafka-3.3.1
 # strimzi/kafka
 
 # pause
@@ -1047,67 +1047,67 @@ FROM registry.k8s.io/coredns/coredns:v1.9.4
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.1
+FROM registry.k8s.io/kube-apiserver:v1.27.2
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.1
+FROM registry.k8s.io/kube-proxy:v1.27.2
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.1
+FROM registry.k8s.io/kube-scheduler:v1.27.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.1
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.4
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.4
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.4
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.4
+FROM registry.k8s.io/kube-controller-manager:v1.27.2
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.9
+FROM registry.k8s.io/kube-apiserver:v1.26.5
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.9
+FROM registry.k8s.io/kube-proxy:v1.26.5
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.9
+FROM registry.k8s.io/kube-scheduler:v1.26.5
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.9
+FROM registry.k8s.io/kube-controller-manager:v1.26.5
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.24.13
+FROM registry.k8s.io/kube-apiserver:v1.25.10
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.24.13
+FROM registry.k8s.io/kube-proxy:v1.25.10
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.13
+FROM registry.k8s.io/kube-scheduler:v1.25.10
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.24.13
+FROM registry.k8s.io/kube-controller-manager:v1.25.10
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.24.14
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.24.14
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.24.14
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.24.14
 # kube-controller-manager
 
 # kube-apiserver
