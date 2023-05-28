@@ -87,7 +87,7 @@ FROM squidfunk/mkdocs-material:9.1.14
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.2-alpine
+FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
@@ -127,7 +127,7 @@ FROM quay.io/prometheus/alertmanager:v0.25.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.5.0
+FROM quay.io/prometheus/node-exporter:v1.6.0
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
@@ -383,7 +383,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.03.1
+FROM pihole/pihole:2023.05.0
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.49.0
+FROM ghost:5.49.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.49.0-debian-11-r0
+FROM bitnami/ghost:5.49.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -419,7 +419,7 @@ FROM matomo:4.14.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.107.4
+FROM nocodb/nocodb:0.107.5
 # nocodb/nocodb
 
 # metabase/metabase
@@ -427,7 +427,7 @@ FROM metabase/metabase:v0.46.4
 # metabase/metabase
 
 # docker
-FROM docker:24.0.1-dind
+FROM docker:24.0.2-dind
 # docker
 
 # podman/stable
@@ -491,11 +491,11 @@ FROM bitnami/prometheus-operator:0.65.1-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.5.0-debian-11-r6
+FROM bitnami/node-exporter:1.6.0-debian-11-r0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.23.0-debian-11-r3
+FROM bitnami/blackbox-exporter:0.24.0-debian-11-r3
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
@@ -571,11 +571,11 @@ FROM bitnami/nginx:1.24.0-debian-11-r5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.5.18-debian-11-r0
+FROM bitnami/minio:2023.5.27-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.5.18-debian-11-r0
+FROM bitnami/minio-client:2023.5.26-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -607,7 +607,7 @@ FROM bitnami/nats:2.9.17-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.8.2-debian-11-r0
+FROM bitnami/kube-state-metrics:2.9.0-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.12.4
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.20.4
+FROM netbirdio/signal:0.20.5
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.20.4
+FROM netbirdio/management:0.20.5
 # netbirdio/management
 
 # coturn/coturn
@@ -895,7 +895,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.29
+FROM firezone/firezone:0.7.30
 # firezone/firezone
 
 # jenkins/jenkins
@@ -1131,43 +1131,43 @@ FROM quay.io/tigera/operator:v1.29.4
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.25.1
+FROM calico/typha:v3.26.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.25.1
+FROM calico/ctl:v3.26.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.25.1
+FROM calico/node:v3.26.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.25.1
+FROM calico/cni:v3.26.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.25.1
+FROM calico/apiserver:v3.26.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.25.1
+FROM calico/kube-controllers:v3.26.0
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.25.1
+FROM calico/dikastes:v3.26.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.25.1
+FROM calico/pod2daemon-flexvol:v3.26.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.25.1
+FROM calico/node-driver-registrar:v3.26.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.25.1
+FROM calico/csi:v3.26.0
 # calico/csi
 
 # longhornio/longhorn-manager
