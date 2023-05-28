@@ -1,5 +1,5 @@
 {
-  "version": "b138f8ed",
+  "version": "ff1a9e28",
   "upstream": {
     "images": [
       "debian:bullseye-20230522-slim",
@@ -284,7 +284,7 @@
       "registry.k8s.io/kube-proxy:v1.23.17",
       "registry.k8s.io/kube-scheduler:v1.23.17",
       "registry.k8s.io/kube-controller-manager:v1.23.17",
-      "quay.io/tigera/operator:v1.29.4",
+      "quay.io/tigera/operator:v1.30.0",
       "calico/typha:v3.26.0",
       "calico/ctl:v3.26.0",
       "calico/node:v3.26.0",
