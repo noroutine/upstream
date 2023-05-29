@@ -383,7 +383,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.05.0
+FROM pihole/pihole:2023.05.1
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -607,7 +607,7 @@ FROM bitnami/nats:2.9.17-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.9.0-debian-11-r0
+FROM bitnami/kube-state-metrics:2.9.1-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -1247,15 +1247,15 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.2.1
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v6.2.1
+FROM registry.k8s.io/sig-storage/snapshot-controller:v6.2.2
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.1
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.2
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
