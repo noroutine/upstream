@@ -1247,7 +1247,7 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.2.1
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
