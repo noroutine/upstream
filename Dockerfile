@@ -327,11 +327,11 @@ FROM summerwind/actions-runner-controller:v0.27.4
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.303.0-ubuntu-22.04
+FROM summerwind/actions-runner:v2.304.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.303.0-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.304.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
