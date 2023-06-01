@@ -487,7 +487,7 @@ FROM bitnami/prometheus:2.44.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.65.1-debian-11-r0
+FROM bitnami/prometheus-operator:0.65.2-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
