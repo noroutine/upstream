@@ -839,7 +839,7 @@ FROM gravitl/netmaker:v0.20.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.20.0
+FROM gravitl/netmaker-ui:v0.20.1
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
