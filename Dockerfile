@@ -171,7 +171,7 @@ FROM grafana/promtail:2.8.2
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.24.0-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
@@ -563,11 +563,11 @@ FROM bitnami/memcached:1.6.20-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.7.1-debian-11-r6
+FROM bitnami/nginx-ingress-controller:1.8.0-debian-11-r1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.24.0-debian-11-r5
+FROM bitnami/nginx:1.25.0-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio

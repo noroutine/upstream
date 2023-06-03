@@ -1,5 +1,5 @@
 {
-  "version": "59875ae3",
+  "version": "3c04735d",
   "upstream": {
     "images": [
       "debian:bullseye-20230522-slim",
@@ -45,7 +45,7 @@
       "grafana/loki:2.8.2",
       "grafana/loki-canary:2.8.2",
       "grafana/promtail:2.8.2",
-      "nginxinc/nginx-unprivileged:1.24.0-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.25.0-alpine-slim",
       "nginxinc/nginx-unprivileged:1.25.0-alpine-slim",
       "httpd:2.4.57-alpine",
       "tomcat:10.1.9-jdk17-temurin-jammy",
@@ -143,8 +143,8 @@
       "bitnami/mariadb:10.11.3-debian-11-r0",
       "bitnami/mongodb:6.0.6-debian-11-r1",
       "bitnami/memcached:1.6.20-debian-11-r0",
-      "bitnami/nginx-ingress-controller:1.7.1-debian-11-r6",
-      "bitnami/nginx:1.24.0-debian-11-r5",
+      "bitnami/nginx-ingress-controller:1.8.0-debian-11-r1",
+      "bitnami/nginx:1.25.0-debian-11-r3",
       "bitnami/minio:2023.6.2-debian-11-r0",
       "bitnami/minio-client:2023.5.30-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r92",
