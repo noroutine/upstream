@@ -107,11 +107,11 @@ FROM nextcloud:26.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.7.8
+FROM haproxytech/haproxy-debian:2.8.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-05-27T05-56-19Z
+FROM minio/minio:RELEASE.2023-06-02T23-17-26Z
 # minio/minio
 
 # coreos/etcd
@@ -399,7 +399,7 @@ FROM plausible/analytics:v1.5.1
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.24.1
+FROM verdaccio/verdaccio:5.25.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -411,7 +411,7 @@ FROM ghost:5.49.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.49.2-debian-11-r0
+FROM bitnami/ghost:5.49.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -571,11 +571,11 @@ FROM bitnami/nginx:1.24.0-debian-11-r5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.5.27-debian-11-r0
+FROM bitnami/minio:2023.6.2-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.5.26-debian-11-r0
+FROM bitnami/minio-client:2023.5.30-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.41.0
+FROM aquasec/trivy:0.42.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -671,7 +671,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.8.3
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.28.0
+FROM minio/console:v0.29.0
 # minio/console
 
 # kutt/kutt
@@ -907,7 +907,7 @@ FROM jenkins/agent:3107.v665000b_51092-15-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.2
+FROM netboxcommunity/netbox:v3.5.3
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
