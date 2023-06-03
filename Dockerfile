@@ -3,11 +3,11 @@ FROM debian:bullseye-20230522-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230425
+FROM ubuntu:jammy-20230522
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230308
+FROM ubuntu:focal-20230412
 # ubuntu
 
 # alpine
@@ -43,7 +43,7 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # buildpack-deps
-FROM buildpack-deps:bionic@sha256:114fb6039d901ad3fb792b626120d9cc1a0770f285d9d980d45282f73287b56f
+FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc
 # buildpack-deps
 
 # buildpack-deps
@@ -51,7 +51,7 @@ FROM buildpack-deps:focal@sha256:148b0e108e7eec979d9413779e3c178462bbe1cf62226c9
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:5accbdf146c48356c55519034669d9f25207da4660919f2440ef37670ed5c4cd
+FROM buildpack-deps:jammy@sha256:23803dbd4465222e0f4097d817e3f9fbfa8b24569b0e11dd9a1c92a8fb854144
 # buildpack-deps
 
 # php
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.54.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.14
+FROM squidfunk/mkdocs-material:9.1.15
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -99,11 +99,11 @@ FROM postgres:15.3-bullseye
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.8.1
+FROM atlassian/jira-software:9.9.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:26.0.1-apache
+FROM nextcloud:26.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.65.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.65.2
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.65.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.65.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -175,7 +175,7 @@ FROM nginxinc/nginx-unprivileged:1.24.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.24.0-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -239,7 +239,7 @@ FROM wordpress:6.2.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.1
+FROM dpage/pgadmin4:7.2
 # dpage/pgadmin4
 
 # mysql
@@ -311,11 +311,11 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.33.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.49.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.50.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.0.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.1.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -383,7 +383,7 @@ FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
 # noroutine/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.05.1
+FROM pihole/pihole:2023.05.2
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.49.1
+FROM ghost:5.49.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.49.1-debian-11-r0
+FROM bitnami/ghost:5.49.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -419,7 +419,7 @@ FROM matomo:4.14.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.107.5
+FROM nocodb/nocodb:0.108.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -487,7 +487,7 @@ FROM bitnami/prometheus:2.44.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.65.1-debian-11-r0
+FROM bitnami/prometheus-operator:0.65.2-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -599,7 +599,7 @@ FROM bitnami/grafana-image-renderer:3.7.1-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.15.2-debian-11-r0
+FROM bitnami/consul:1.15.3-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -607,7 +607,7 @@ FROM bitnami/nats:2.9.17-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.9.1-debian-11-r0
+FROM bitnami/kube-state-metrics:2.9.2-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.25.1
+FROM hasura/graphql-engine:v2.26.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.25
+FROM stakater/reloader:v1.0.26
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -747,7 +747,7 @@ FROM boky/postfix:v3.6.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.2.0
+FROM cupcakearmy/cryptgeon:2.3.0
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.20.0
+FROM gravitl/netmaker:v0.20.1
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.20.0
+FROM gravitl/netmaker-ui:v0.20.1
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.12.4
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.20.5
+FROM netbirdio/signal:0.20.8
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.20.5
+FROM netbirdio/management:0.20.8
 # netbirdio/management
 
 # coturn/coturn
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.30
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.406-jdk17
+FROM jenkins/jenkins:2.407-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1007,7 +1007,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.15.2
+FROM hashicorp/consul:1.15.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -1127,7 +1127,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.30.0
+FROM quay.io/tigera/operator:v1.30.2
 # tigera/operator
 
 # calico/typha
@@ -1215,7 +1215,7 @@ FROM longhornio/csi-attacher:v4.2.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.1
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.2
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
