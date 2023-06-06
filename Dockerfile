@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.36.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.3
+FROM quay.io/argoproj/argocd:v2.7.4
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
