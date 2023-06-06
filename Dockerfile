@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v16.0.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.0.1-ce.0
+FROM gitlab/gitlab-ce:16.0.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
