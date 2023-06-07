@@ -67,11 +67,11 @@ FROM python:3.11.3-slim-bullseye
 # python
 
 # golang
-FROM golang:1.20.4-bullseye
+FROM golang:1.20.5-bullseye
 # golang
 
 # golang
-FROM golang:1.20.4-alpine3.18
+FROM golang:1.20.5-alpine3.18
 # golang
 
 # traefik
@@ -79,7 +79,7 @@ FROM traefik:v2.10.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.54.1
+FROM sonatype/nexus3:3.55.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.65.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:9.5.2
+FROM grafana/grafana:9.5.3
 # grafana/grafana
 
 # grafana/loki
@@ -239,7 +239,7 @@ FROM wordpress:6.2.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.2
+FROM dpage/pgadmin4:7.3
 # dpage/pgadmin4
 
 # mysql
@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v16.0.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.0.1-ce.0
+FROM gitlab/gitlab-ce:16.0.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -315,7 +315,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.50.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.1.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.1.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -335,7 +335,7 @@ FROM summerwind/actions-runner-dind:v2.304.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.14.1
+FROM quay.io/brancz/kube-rbac-proxy:v0.14.2
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.49.2
+FROM ghost:5.49.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.49.3-debian-11-r0
+FROM bitnami/ghost:5.50.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -431,7 +431,7 @@ FROM docker:24.0.2-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.5.0
+FROM quay.io/podman/stable:v4.5.1
 # podman/stable
 
 # jupyter/base-notebook
@@ -591,7 +591,7 @@ FROM bitnami/metallb-speaker:0.13.9-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.5.2-debian-11-r0
+FROM bitnami/grafana:9.5.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -643,7 +643,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.7.0-debian-11-r0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.14.1-scratch-r0
+FROM bitnami/kube-rbac-proxy:0.14.2-scratch-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -827,7 +827,7 @@ FROM outlinewiki/outline:0.69.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.23.4
+FROM syncthing/syncthing:1.23.5
 # syncthing/syncthing
 
 # jellyfin/jellyfin
@@ -879,15 +879,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.12.4
+FROM wiretrustee/dashboard:v1.13.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.20.8
+FROM netbirdio/signal:0.21.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.20.8
+FROM netbirdio/management:0.21.0
 # netbirdio/management
 
 # coturn/coturn
@@ -899,11 +899,11 @@ FROM firezone/firezone:0.7.30
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.407-jdk17
+FROM jenkins/jenkins:2.409-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-15-jdk17
+FROM jenkins/agent:3107.v665000b_51092-16-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
@@ -1011,7 +1011,7 @@ FROM hashicorp/consul:1.15.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.1.1
+FROM hashicorp/consul-k8s-control-plane:1.1.2
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
