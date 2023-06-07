@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v16.0.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.0.2-ce.0
+FROM gitlab/gitlab-ce:16.0.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -551,7 +551,7 @@ FROM bitnami/keycloak-config-cli:5.6.1-debian-11-r3
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.11.3-debian-11-r0
+FROM bitnami/mariadb:10.11.4-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.36.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.3
+FROM quay.io/argoproj/argocd:v2.7.4
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -879,15 +879,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.13.0
+FROM wiretrustee/dashboard:v1.14.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.0
+FROM netbirdio/signal:0.21.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.0
+FROM netbirdio/management:0.21.1
 # netbirdio/management
 
 # coturn/coturn
@@ -1031,11 +1031,11 @@ FROM hashicorp/vault-csi-provider:1.4.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.35.0
+FROM quay.io/strimzi/operator:0.35.1
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.35.0-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.35.1-kafka-3.3.1
 # strimzi/kafka
 
 # pause
