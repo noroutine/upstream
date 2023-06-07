@@ -591,7 +591,7 @@ FROM bitnami/metallb-speaker:0.13.9-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.5.2-debian-11-r0
+FROM bitnami/grafana:9.5.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
