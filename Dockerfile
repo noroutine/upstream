@@ -551,7 +551,7 @@ FROM bitnami/keycloak-config-cli:5.6.1-debian-11-r3
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.11.3-debian-11-r0
+FROM bitnami/mariadb:10.11.4-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
