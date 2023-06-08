@@ -59,11 +59,11 @@ FROM php:8.2.6-apache-bullseye
 # php
 
 # python
-FROM python:3.11.3-bullseye
+FROM python:3.11.4-bullseye
 # python
 
 # python
-FROM python:3.11.3-slim-bullseye
+FROM python:3.11.4-slim-bullseye
 # python
 
 # golang
@@ -295,7 +295,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.16.3
+FROM buildpacksio/lifecycle:0.16.4
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -411,7 +411,7 @@ FROM ghost:5.49.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.50.2-debian-11-r0
+FROM bitnami/ghost:5.50.4-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -919,7 +919,7 @@ FROM locustio/locust:2.15.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v11.0.1
+FROM postgrest/postgrest:v11.1.0
 # postgrest/postgrest
 
 # velero/velero
@@ -1019,7 +1019,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.13.2
+FROM hashicorp/vault:1.13.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
