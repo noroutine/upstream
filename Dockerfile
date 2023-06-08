@@ -59,11 +59,11 @@ FROM php:8.2.6-apache-bullseye
 # php
 
 # python
-FROM python:3.11.3-bullseye
+FROM python:3.11.4-bullseye
 # python
 
 # python
-FROM python:3.11.3-slim-bullseye
+FROM python:3.11.4-slim-bullseye
 # python
 
 # golang
