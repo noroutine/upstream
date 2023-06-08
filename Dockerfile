@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.2
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.8.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.8.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.8.0
+FROM docker.elastic.co/logstash/logstash:8.8.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.8.0
+FROM docker.elastic.co/kibana/kibana:8.8.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -479,7 +479,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.3.2-debian-11-r4
+FROM bitnami/spark:3.4.0-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.26
+FROM stakater/reloader:v1.0.27
 # stakater/reloader
 
 # jimmidyson/configmap-reload
