@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:23803dbd4465222e0f4097d817e3f9fbfa8b24569b0e11d
 # buildpack-deps
 
 # php
-FROM php:8.2.6-apache-bullseye
+FROM php:8.2.7-apache-bullseye
 # php
 
 # python
