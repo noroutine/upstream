@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:23803dbd4465222e0f4097d817e3f9fbfa8b24569b0e11d
 # buildpack-deps
 
 # php
-FROM php:8.2.6-apache-bullseye
+FROM php:8.2.7-apache-bullseye
 # php
 
 # python
@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v16.0.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.0.3-ce.0
+FROM gitlab/gitlab-ce:16.0.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.42.0
+FROM aquasec/trivy:0.42.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.26.0
+FROM hasura/graphql-engine:v2.27.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -791,7 +791,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.10.0
+FROM gcr.io/kaniko-project/executor:v1.11.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
