@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-06-02T23-17-26Z
+FROM minio/minio:RELEASE.2023-06-09T07-32-12Z
 # minio/minio
 
 # coreos/etcd
@@ -411,7 +411,7 @@ FROM ghost:5.49.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.50.4-debian-11-r0
+FROM bitnami/ghost:5.51.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -571,11 +571,11 @@ FROM bitnami/nginx:1.25.0-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.6.2-debian-11-r0
+FROM bitnami/minio:2023.6.9-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.5.30-debian-11-r0
+FROM bitnami/minio-client:2023.6.6-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -583,11 +583,11 @@ FROM bitnami/bitnami-shell:11-debian-11-r92
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.9-debian-11-r3
+FROM bitnami/metallb-controller:0.13.10-debian-11-r3
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.9-debian-11-r3
+FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
