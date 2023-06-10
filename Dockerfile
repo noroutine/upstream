@@ -583,7 +583,7 @@ FROM bitnami/bitnami-shell:11-debian-11-r92
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.9-debian-11-r3
+FROM bitnami/metallb-controller:0.13.10-debian-11-r3
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
