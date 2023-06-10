@@ -1,5 +1,5 @@
 {
-  "version": "37dce7db",
+  "version": "9cc64ffd",
   "upstream": {
     "images": [
       "debian:bullseye-20230522-slim",
@@ -64,7 +64,7 @@
       "wordpress:6.2.2-apache",
       "dpage/pgadmin4:7.3",
       "mysql:8.0.33",
-      "mariadb:10.11.3-jammy",
+      "mariadb:10.11.4-jammy",
       "mccutchen/go-httpbin:v2.8.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.4.0-amd64",
       "heroku/heroku:20-build",
