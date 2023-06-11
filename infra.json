@@ -1,5 +1,5 @@
 {
-  "version": "2fd528ed",
+  "version": "4868a379",
   "upstream": {
     "images": [
       "debian:bullseye-20230522-slim",
@@ -233,6 +233,7 @@
       "kubernetesui/dashboard:v2.7.0",
       "locustio/locust:2.15.1",
       "postgrest/postgrest:v11.1.0",
+      "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0",
       "velero/velero:v1.11.0",
       "velero/velero-plugin-for-csi:v0.5.0",
       "velero/velero-plugin-for-aws:v1.7.0",

@@ -922,6 +922,10 @@ FROM locustio/locust:2.15.1
 FROM postgrest/postgrest:v11.1.0
 # postgrest/postgrest
 
+# oss/azure/workload-identity/webhook
+FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0
+# oss/azure/workload-identity/webhook
+
 # velero/velero
 FROM velero/velero:v1.11.0
 # velero/velero
