@@ -439,7 +439,7 @@ FROM jupyter/base-notebook:hub-4.0.0
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:hub-4.0.0
+FROM jupyter/minimal-notebook:hub-4.0.1
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
