@@ -419,7 +419,7 @@ FROM matomo:4.14.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.108.1
+FROM nocodb/nocodb:0.109.0
 # nocodb/nocodb
 
 # metabase/metabase
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.14.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.2
+FROM netbirdio/signal:0.21.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.2
+FROM netbirdio/management:0.21.3
 # netbirdio/management
 
 # coturn/coturn
