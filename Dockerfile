@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20230522-slim
+FROM debian:bullseye-20230612-slim
 # debian
 
 # ubuntu
@@ -183,7 +183,7 @@ FROM httpd:2.4.57-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.9-jdk17-temurin-jammy
+FROM tomcat:10.1.10-jdk17-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -407,7 +407,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.49.3
+FROM ghost:5.51.0
 # ghost
 
 # bitnami/ghost
@@ -435,35 +435,35 @@ FROM quay.io/podman/stable:v4.5.1
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-4.0.0
+FROM jupyter/base-notebook:hub-4.0.1
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:hub-4.0.0
+FROM jupyter/minimal-notebook:hub-4.0.1
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:hub-4.0.0
+FROM jupyter/r-notebook:hub-4.0.1
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-4.0.0
+FROM jupyter/scipy-notebook:hub-4.0.1
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-4.0.0
+FROM jupyter/tensorflow-notebook:hub-4.0.1
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-4.0.0
+FROM jupyter/datascience-notebook:hub-4.0.1
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:hub-4.0.0
+FROM jupyter/pyspark-notebook:hub-4.0.1
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-4.0.0
+FROM jupyter/all-spark-notebook:hub-4.0.1
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.27
+FROM stakater/reloader:v1.0.28
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.14.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.1
+FROM netbirdio/signal:0.21.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.1
+FROM netbirdio/management:0.21.2
 # netbirdio/management
 
 # coturn/coturn
