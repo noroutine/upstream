@@ -435,7 +435,7 @@ FROM quay.io/podman/stable:v4.5.1
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-4.0.0
+FROM jupyter/base-notebook:hub-4.0.1
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
