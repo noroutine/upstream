@@ -1,5 +1,5 @@
 {
-  "version": "634e7177",
+  "version": "6ea34d65",
   "upstream": {
     "images": [
       "debian:bullseye-20230612-slim",
@@ -105,7 +105,7 @@
       "verdaccio/verdaccio:5.25.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.51.0",
-      "bitnami/ghost:5.51.0-debian-11-r0",
+      "bitnami/ghost:5.51.1-debian-11-r0",
       "matomo:4.14.2-apache",
       "nocodb/nocodb:0.109.0",
       "metabase/metabase:v0.46.4",
