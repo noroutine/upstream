@@ -1,5 +1,5 @@
 {
-  "version": "34f9ced4",
+  "version": "319093e3",
   "upstream": {
     "images": [
       "debian:bullseye-20230612-slim",
@@ -101,7 +101,7 @@
       "pihole/pihole:2023.05.2",
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
-      "plausible/analytics:v1.5.1",
+      "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.25.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.51.1",
