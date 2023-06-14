@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.9.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:26.0.2-apache
+FROM nextcloud:27.0.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.65.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:9.5.3
+FROM grafana/grafana:10.0.0
 # grafana/grafana
 
 # grafana/loki
@@ -307,7 +307,7 @@ FROM gitlab/gitlab-ce:16.0.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.33.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.34.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -407,7 +407,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.51.0
+FROM ghost:5.51.1
 # ghost
 
 # bitnami/ghost
@@ -423,7 +423,7 @@ FROM nocodb/nocodb:0.109.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.4
+FROM metabase/metabase:v0.46.5
 # metabase/metabase
 
 # docker
@@ -603,7 +603,7 @@ FROM bitnami/consul:1.15.3-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.17-debian-11-r0
+FROM bitnami/nats:2.9.18-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -759,7 +759,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.17-alpine3.18
+FROM nats:2.9.18-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -879,7 +879,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.14.0
+FROM wiretrustee/dashboard:v1.15.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.30
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.409-jdk17
+FROM jenkins/jenkins:2.410-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
