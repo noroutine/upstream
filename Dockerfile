@@ -315,7 +315,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.50.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.1.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.1.3
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -419,7 +419,7 @@ FROM matomo:4.14.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.109.0
+FROM nocodb/nocodb:0.109.1
 # nocodb/nocodb
 
 # metabase/metabase
