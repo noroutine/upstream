@@ -1171,7 +1171,7 @@ FROM calico/node-driver-registrar:v3.26.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.26.0
+FROM calico/csi:v3.26.1
 # calico/csi
 
 # longhornio/longhorn-manager
