@@ -1139,7 +1139,7 @@ FROM calico/typha:v3.26.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.26.0
+FROM calico/ctl:v3.26.1
 # calico/ctl
 
 # calico/node
