@@ -487,7 +487,7 @@ FROM bitnami/prometheus:2.44.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.65.2-debian-11-r0
+FROM bitnami/prometheus-operator:0.66.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -559,7 +559,7 @@ FROM bitnami/mongodb:6.0.6-debian-11-r1
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.20-debian-11-r0
+FROM bitnami/memcached:1.6.21-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -575,7 +575,7 @@ FROM bitnami/minio:2023.6.9-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.6.6-debian-11-r0
+FROM bitnami/minio-client:2023.6.15-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -751,7 +751,7 @@ FROM cupcakearmy/cryptgeon:2.3.0
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.19-alpine3.17
+FROM memcached:1.6.20-alpine3.18
 # memcached
 
 # connecteverything/nats-operator
@@ -1131,7 +1131,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.30.2
+FROM quay.io/tigera/operator:v1.30.3
 # tigera/operator
 
 # calico/typha
