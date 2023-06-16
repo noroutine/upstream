@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v16.0.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.0.4-ce.0
+FROM gitlab/gitlab-ce:16.0.5-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -467,7 +467,7 @@ FROM jupyter/all-spark-notebook:hub-4.0.1
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.3.0
+FROM rocker/shiny:4.3.1
 # rocker/shiny
 
 # caprover/caprover
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.36.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.4
+FROM quay.io/argoproj/argocd:v2.7.5
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -983,19 +983,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.10.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.12.1
+FROM quay.io/jetstack/cert-manager-controller:v1.12.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.12.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.12.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.12.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.12.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.12.1
+FROM quay.io/jetstack/cert-manager-ctl:v1.12.2
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
