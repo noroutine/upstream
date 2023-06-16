@@ -3,7 +3,7 @@ FROM debian:bullseye-20230612-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230522
+FROM ubuntu:jammy-20230605
 # ubuntu
 
 # ubuntu
@@ -11,7 +11,7 @@ FROM ubuntu:focal-20230412
 # ubuntu
 
 # alpine
-FROM alpine:3.18.0
+FROM alpine:3.18.2
 # alpine
 
 # busybox
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.55.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.15
+FROM squidfunk/mkdocs-material:9.1.16
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -139,7 +139,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.24.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.21.0
+FROM quay.io/prometheus/snmp-exporter:v0.22.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.65.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.66.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.65.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.66.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -411,7 +411,7 @@ FROM ghost:5.51.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.51.1-debian-11-r0
+FROM bitnami/ghost:5.51.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -507,7 +507,7 @@ FROM bitnami/redis:7.0.11-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.50.0-debian-11-r0
+FROM bitnami/redis-exporter:1.51.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -651,15 +651,15 @@ FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.21.0
+FROM bitnami/sealed-secrets-controller:v0.22.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.41.0-debian-11-r0
+FROM bitnami/trivy:0.42.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.2-debian-11-r0
+FROM bitnami/kubectl:1.27.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -671,7 +671,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.8.3
 # external-secrets/external-secrets
 
 # minio/console
-FROM minio/console:v0.29.0
+FROM minio/console:v0.30.0
 # minio/console
 
 # kutt/kutt
@@ -879,7 +879,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.0
+FROM wiretrustee/dashboard:v1.15.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -963,7 +963,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.2-debian-11-r0
+FROM bitnami/kubectl:1.27.3-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
@@ -1051,67 +1051,67 @@ FROM registry.k8s.io/coredns/coredns:v1.9.4
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.2
+FROM registry.k8s.io/kube-apiserver:v1.27.3
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.2
+FROM registry.k8s.io/kube-proxy:v1.27.3
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.2
+FROM registry.k8s.io/kube-scheduler:v1.27.3
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.2
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.5
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.5
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.5
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.5
+FROM registry.k8s.io/kube-controller-manager:v1.27.3
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.10
+FROM registry.k8s.io/kube-apiserver:v1.26.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.10
+FROM registry.k8s.io/kube-proxy:v1.26.6
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.10
+FROM registry.k8s.io/kube-scheduler:v1.26.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.10
+FROM registry.k8s.io/kube-controller-manager:v1.26.6
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.24.14
+FROM registry.k8s.io/kube-apiserver:v1.25.11
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.24.14
+FROM registry.k8s.io/kube-proxy:v1.25.11
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.14
+FROM registry.k8s.io/kube-scheduler:v1.25.11
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.24.14
+FROM registry.k8s.io/kube-controller-manager:v1.25.11
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.24.15
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.24.15
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.24.15
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.24.15
 # kube-controller-manager
 
 # kube-apiserver
@@ -1135,43 +1135,43 @@ FROM quay.io/tigera/operator:v1.30.2
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.26.0
+FROM calico/typha:v3.26.1
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.26.0
+FROM calico/ctl:v3.26.1
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.26.0
+FROM calico/node:v3.26.1
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.26.0
+FROM calico/cni:v3.26.1
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.26.0
+FROM calico/apiserver:v3.26.1
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.26.0
+FROM calico/kube-controllers:v3.26.1
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.26.0
+FROM calico/dikastes:v3.26.1
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.26.0
+FROM calico/pod2daemon-flexvol:v3.26.1
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.26.0
+FROM calico/node-driver-registrar:v3.26.1
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.26.0
+FROM calico/csi:v3.26.1
 # calico/csi
 
 # longhornio/longhorn-manager
