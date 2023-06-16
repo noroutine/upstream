@@ -51,7 +51,7 @@ FROM buildpack-deps:focal@sha256:148b0e108e7eec979d9413779e3c178462bbe1cf62226c9
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:23803dbd4465222e0f4097d817e3f9fbfa8b24569b0e11dd9a1c92a8fb854144
+FROM buildpack-deps:jammy@sha256:3916ba2f60ead85ebfab102f7ea46241b17ab60a6395e28b82fef7c56b50ea5a
 # buildpack-deps
 
 # php
