@@ -7,7 +7,7 @@ FROM ubuntu:jammy-20230605
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230412
+FROM ubuntu:focal-20230605
 # ubuntu
 
 # alpine
@@ -47,11 +47,11 @@ FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:148b0e108e7eec979d9413779e3c178462bbe1cf62226c9fab39bd8370c1da55
+FROM buildpack-deps:focal@sha256:6e9fb64a483246cf051d98095e79ae77b1c41005141b2fbf7bdee1cf7573c784
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:23803dbd4465222e0f4097d817e3f9fbfa8b24569b0e11dd9a1c92a8fb854144
+FROM buildpack-deps:jammy@sha256:3916ba2f60ead85ebfab102f7ea46241b17ab60a6395e28b82fef7c56b50ea5a
 # buildpack-deps
 
 # php
