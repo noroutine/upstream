@@ -411,7 +411,7 @@ FROM ghost:5.51.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.51.2-debian-11-r0
+FROM bitnami/ghost:5.52.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -535,7 +535,7 @@ FROM bitnami/postgresql:15.3.0-debian-11-r6
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.8-debian-11-r8
+FROM bitnami/tomcat:10.1.10-debian-11-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
