@@ -679,7 +679,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.5.1
+FROM drakkan/sftpgo:v2.5.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.3
+FROM netbirdio/signal:0.21.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.3
+FROM netbirdio/management:0.21.4
 # netbirdio/management
 
 # coturn/coturn
@@ -967,7 +967,7 @@ FROM bitnami/kubectl:1.27.3-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.6.1-python3.10
+FROM apache/airflow:2.6.2-python3.10
 # apache/airflow
 
 # git-sync/git-sync
