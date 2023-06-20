@@ -835,7 +835,7 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.20.1
+FROM gravitl/netmaker:v0.20.2
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
