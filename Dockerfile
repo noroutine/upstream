@@ -79,7 +79,7 @@ FROM traefik:v2.10.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.55.0
+FROM sonatype/nexus3:3.56.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -171,11 +171,11 @@ FROM grafana/promtail:2.8.2
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.0-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.1-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.0-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.1-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -575,7 +575,7 @@ FROM bitnami/minio:2023.6.9-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.6.15-debian-11-r0
+FROM bitnami/minio-client:2023.6.19-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.20.1
+FROM gravitl/netmaker:v0.20.2
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.20.1
+FROM gravitl/netmaker-ui:v0.20.2
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -879,7 +879,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.1
+FROM wiretrustee/dashboard:v1.15.2
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -1131,7 +1131,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.30.3
+FROM quay.io/tigera/operator:v1.30.4
 # tigera/operator
 
 # calico/typha
