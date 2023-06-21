@@ -411,7 +411,7 @@ FROM ghost:5.52.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.52.1-debian-11-r0
+FROM bitnami/ghost:5.52.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.27.0
+FROM hasura/graphql-engine:v2.28.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -907,7 +907,7 @@ FROM jenkins/agent:3107.v665000b_51092-16-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.3
+FROM netboxcommunity/netbox:v3.5.4
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard

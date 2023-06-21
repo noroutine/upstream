@@ -1,5 +1,5 @@
 {
-  "version": "62df3c88",
+  "version": "730b87ee",
   "upstream": {
     "images": [
       "debian:bullseye-20230612-slim",
@@ -105,7 +105,7 @@
       "verdaccio/verdaccio:5.25.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.52.1",
-      "bitnami/ghost:5.52.1-debian-11-r0",
+      "bitnami/ghost:5.52.2-debian-11-r0",
       "matomo:4.14.2-apache",
       "nocodb/nocodb:0.109.1",
       "metabase/metabase:v0.46.5",
@@ -173,7 +173,7 @@
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.2",
-      "hasura/graphql-engine:v2.27.0",
+      "hasura/graphql-engine:v2.28.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.28",
       "jimmidyson/configmap-reload:v0.9.0",
@@ -229,7 +229,7 @@
       "firezone/firezone:0.7.30",
       "jenkins/jenkins:2.411-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
-      "netboxcommunity/netbox:v3.5.3",
+      "netboxcommunity/netbox:v3.5.4",
       "kubernetesui/dashboard:v2.7.0",
       "locustio/locust:2.15.1",
       "postgrest/postgrest:v11.1.0",
