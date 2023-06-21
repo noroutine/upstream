@@ -75,7 +75,7 @@ FROM golang:1.20.5-alpine3.18
 # golang
 
 # traefik
-FROM traefik:v2.10.1
+FROM traefik:v2.10.3
 # traefik
 
 # sonatype/nexus3
@@ -407,7 +407,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.51.1
+FROM ghost:5.52.1
 # ghost
 
 # bitnami/ghost
@@ -603,7 +603,7 @@ FROM bitnami/consul:1.15.3-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.18-debian-11-r0
+FROM bitnami/nats:2.9.19-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.36.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.5
+FROM quay.io/argoproj/argocd:v2.7.6
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -751,7 +751,7 @@ FROM cupcakearmy/cryptgeon:2.3.0
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.20-alpine3.18
+FROM memcached:1.6.21-alpine3.18
 # memcached
 
 # connecteverything/nats-operator
@@ -759,7 +759,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.18-alpine3.18
+FROM nats:2.9.19-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.2
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.4
+FROM netbirdio/signal:0.21.5
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.4
+FROM netbirdio/management:0.21.5
 # netbirdio/management
 
 # coturn/coturn
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.30
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.410-jdk17
+FROM jenkins/jenkins:2.411-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -971,7 +971,7 @@ FROM apache/airflow:2.6.2-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v3.6.6
+FROM registry.k8s.io/git-sync/git-sync:v3.6.7
 # git-sync/git-sync
 
 # kedacore/keda
@@ -1023,7 +1023,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.13.3
+FROM hashicorp/vault:1.14.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
