@@ -251,7 +251,7 @@ FROM mariadb:10.11.4-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.9.0
+FROM mccutchen/go-httpbin:v2.9.1
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.52.1
+FROM ghost:5.52.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.52.2-debian-11-r0
+FROM bitnami/ghost:5.52.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -419,7 +419,7 @@ FROM matomo:4.14.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.109.1
+FROM nocodb/nocodb:0.109.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -895,7 +895,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.30
+FROM firezone/firezone:0.7.31
 # firezone/firezone
 
 # jenkins/jenkins

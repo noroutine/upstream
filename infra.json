@@ -1,5 +1,5 @@
 {
-  "version": "730b87ee",
+  "version": "91f66878",
   "upstream": {
     "images": [
       "debian:bullseye-20230612-slim",
@@ -65,7 +65,7 @@
       "dpage/pgadmin4:7.3",
       "mysql:8.0.33",
       "mariadb:10.11.4-jammy",
-      "mccutchen/go-httpbin:v2.9.0",
+      "mccutchen/go-httpbin:v2.9.1",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.4.0-amd64",
       "heroku/heroku:20-build",
       "heroku/heroku:20",
@@ -104,10 +104,10 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.25.0",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.52.1",
-      "bitnami/ghost:5.52.2-debian-11-r0",
+      "ghost:5.52.3",
+      "bitnami/ghost:5.52.3-debian-11-r0",
       "matomo:4.14.2-apache",
-      "nocodb/nocodb:0.109.1",
+      "nocodb/nocodb:0.109.2",
       "metabase/metabase:v0.46.5",
       "docker:24.0.2-dind",
       "quay.io/podman/stable:v4.5.1",
@@ -226,7 +226,7 @@
       "netbirdio/signal:0.21.5",
       "netbirdio/management:0.21.5",
       "coturn/coturn:4.6.2",
-      "firezone/firezone:0.7.30",
+      "firezone/firezone:0.7.31",
       "jenkins/jenkins:2.411-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
       "netboxcommunity/netbox:v3.5.4",
