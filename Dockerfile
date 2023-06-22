@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.66.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.0.0
+FROM grafana/grafana:10.0.1
 # grafana/grafana
 
 # grafana/loki
@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine-v16.0.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.0.5-ce.0
+FROM gitlab/gitlab-ce:16.1.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -611,7 +611,7 @@ FROM bitnami/kube-state-metrics:2.9.2-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.2-debian-11-r32
+FROM bitnami/metrics-server:0.6.3-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.2
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.5
+FROM netbirdio/signal:0.21.6
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.5
+FROM netbirdio/management:0.21.6
 # netbirdio/management
 
 # coturn/coturn
