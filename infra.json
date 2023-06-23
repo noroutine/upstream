@@ -1,5 +1,5 @@
 {
-  "version": "e589abeb",
+  "version": "61b18121",
   "upstream": {
     "images": [
       "debian:bullseye-20230612-slim",
@@ -189,7 +189,7 @@
       "listmonk/listmonk:v2.4.0",
       "vaultwarden/server:1.28.1",
       "boky/postfix:v3.6.1",
-      "cupcakearmy/cryptgeon:2.3.0",
+      "cupcakearmy/cryptgeon:2.3.1",
       "memcached:1.6.21-alpine3.18",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.9.19-alpine3.18",
@@ -223,8 +223,8 @@
       "yugabytedb/yugabyte:2.15.3.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.15.2",
-      "netbirdio/signal:0.21.6",
-      "netbirdio/management:0.21.6",
+      "netbirdio/signal:0.21.7",
+      "netbirdio/management:0.21.7",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.31",
       "jenkins/jenkins:2.411-jdk17",

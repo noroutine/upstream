@@ -747,7 +747,7 @@ FROM boky/postfix:v3.6.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.3.0
+FROM cupcakearmy/cryptgeon:2.3.1
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.2
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.6
+FROM netbirdio/signal:0.21.7
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.6
+FROM netbirdio/management:0.21.7
 # netbirdio/management
 
 # coturn/coturn
