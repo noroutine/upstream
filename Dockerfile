@@ -567,7 +567,7 @@ FROM bitnami/nginx-ingress-controller:1.8.0-debian-11-r1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.0-debian-11-r3
+FROM bitnami/nginx:1.25.1-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
