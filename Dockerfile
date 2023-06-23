@@ -211,7 +211,7 @@ FROM ghcr.io/prymitive/karma:v0.114
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.15.2
+FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -227,7 +227,7 @@ FROM docker.elastic.co/kibana/kibana:8.8.1
 # kibana/kibana
 
 # alerta/alerta-web
-FROM alerta/alerta-web:9.0.0
+FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
@@ -567,7 +567,7 @@ FROM bitnami/nginx-ingress-controller:1.8.0-debian-11-r1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.0-debian-11-r3
+FROM bitnami/nginx:1.25.1-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
@@ -591,7 +591,7 @@ FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.5.3-debian-11-r0
+FROM bitnami/grafana:9.5.5-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -667,7 +667,7 @@ FROM aquasec/trivy:0.42.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.8.3
+FROM ghcr.io/external-secrets/external-secrets:v0.9.0
 # external-secrets/external-secrets
 
 # minio/console
@@ -975,11 +975,11 @@ FROM registry.k8s.io/git-sync/git-sync:v3.6.7
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.10.1
+FROM ghcr.io/kedacore/keda:2.11.0
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.10.1
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
