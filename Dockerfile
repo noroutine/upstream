@@ -211,7 +211,7 @@ FROM ghcr.io/prymitive/karma:v0.114
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.15.2
+FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
