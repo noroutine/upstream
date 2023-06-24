@@ -1,5 +1,5 @@
 {
-  "version": "edcd18ce",
+  "version": "fdc0a65e",
   "upstream": {
     "images": [
       "debian:bullseye-20230612-slim",
@@ -23,7 +23,7 @@
       "golang:1.20.5-alpine3.18",
       "traefik:v2.10.3",
       "sonatype/nexus3:3.56.0",
-      "squidfunk/mkdocs-material:9.1.16",
+      "squidfunk/mkdocs-material:9.1.17",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:21.1.1",
       "postgres:15.3-bullseye",
@@ -32,7 +32,7 @@
       "haproxytech/haproxy-debian:2.8.0",
       "minio/minio:RELEASE.2023-06-23T20-26-00Z",
       "quay.io/coreos/etcd:v3.5.9",
-      "quay.io/prometheus/prometheus:v2.44.0",
+      "quay.io/prometheus/prometheus:v2.45.0",
       "quay.io/prometheus/alertmanager:v0.25.0",
       "quay.io/prometheus/node-exporter:v1.6.0",
       "quay.io/prometheus/consul-exporter:v0.9.0",
@@ -145,7 +145,7 @@
       "bitnami/memcached:1.6.21-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.8.0-debian-11-r1",
       "bitnami/nginx:1.25.1-debian-11-r3",
-      "bitnami/minio:2023.6.19-debian-11-r0",
+      "bitnami/minio:2023.6.23-debian-11-r0",
       "bitnami/minio-client:2023.6.19-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r92",
       "bitnami/metallb-controller:0.13.10-debian-11-r3",
