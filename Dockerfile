@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-06-09T07-32-12Z
+FROM minio/minio:RELEASE.2023-06-23T20-26-00Z
 # minio/minio
 
 # coreos/etcd
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.52.3
+FROM ghost:5.53.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.52.3-debian-11-r0
+FROM bitnami/ghost:5.53.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -571,7 +571,7 @@ FROM bitnami/nginx:1.25.1-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.6.9-debian-11-r0
+FROM bitnami/minio:2023.6.19-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -895,7 +895,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.31
+FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
