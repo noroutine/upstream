@@ -571,7 +571,7 @@ FROM bitnami/nginx:1.25.1-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.6.19-debian-11-r0
+FROM bitnami/minio:2023.6.23-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
