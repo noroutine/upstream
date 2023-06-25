@@ -1,5 +1,5 @@
 # debian
-FROM debian:bullseye-20230612-slim
+FROM debian:bookworm-20230612-slim
 # debian
 
 # ubuntu
@@ -55,19 +55,19 @@ FROM buildpack-deps:jammy@sha256:3916ba2f60ead85ebfab102f7ea46241b17ab60a6395e28
 # buildpack-deps
 
 # php
-FROM php:8.2.7-apache-bullseye
+FROM php:8.2.7-apache-bookworm
 # php
 
 # python
-FROM python:3.11.4-bullseye
+FROM python:3.11.4-bookworm
 # python
 
 # python
-FROM python:3.11.4-slim-bullseye
+FROM python:3.11.4-slim-bookworm
 # python
 
 # golang
-FROM golang:1.20.5-bullseye
+FROM golang:1.20.5-bookworm
 # golang
 
 # golang
@@ -95,7 +95,7 @@ FROM quay.io/keycloak/keycloak:21.1.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:15.3-bullseye
+FROM postgres:15.3-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -731,7 +731,7 @@ FROM quay.io/argoproj/argoexec:v3.4.8
 # argoproj/argoexec
 
 # redis
-FROM redis:7.0.11-bullseye
+FROM redis:7.0.11-bookworm
 # redis
 
 # listmonk/listmonk
