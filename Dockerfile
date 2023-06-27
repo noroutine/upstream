@@ -203,7 +203,7 @@ FROM ribbybibby/ssl-exporter:2.4.2
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.47.1
+FROM gcr.io/cadvisor/cadvisor:v0.47.2
 # cadvisor/cadvisor
 
 # prymitive/karma
@@ -599,7 +599,7 @@ FROM bitnami/grafana-image-renderer:3.7.1-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.15.3-debian-11-r0
+FROM bitnami/consul:1.16.0-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -815,7 +815,7 @@ FROM elastic/eck-operator:2.8.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.21.3-alpine
+FROM louislam/uptime-kuma:1.22.0-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -971,7 +971,7 @@ FROM apache/airflow:2.6.2-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v3.6.7
+FROM registry.k8s.io/git-sync/git-sync:v3.6.8
 # git-sync/git-sync
 
 # kedacore/keda
@@ -1011,7 +1011,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.15.3
+FROM hashicorp/consul:1.16.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
