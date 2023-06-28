@@ -763,7 +763,7 @@ FROM nats:2.9.19-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.11.0
+FROM natsio/prometheus-nats-exporter:0.12.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
