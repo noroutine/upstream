@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:21.1.1
+FROM quay.io/keycloak/keycloak:21.1.2
 # keycloak/keycloak
 
 # postgres
