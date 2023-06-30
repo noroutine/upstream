@@ -975,7 +975,7 @@ FROM registry.k8s.io/git-sync/git-sync:v3.6.8
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.11.0
+FROM ghcr.io/kedacore/keda:2.11.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
