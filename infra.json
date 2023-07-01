@@ -1,5 +1,5 @@
 {
-  "version": "9732e81a",
+  "version": "a54e189c",
   "upstream": {
     "images": [
       "debian:bookworm-20230612-slim",
@@ -77,7 +77,7 @@
       "paketobuildpacks/builder:tiny",
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.16.4",
-      "gitlab/gitlab-runner:alpine-v16.0.2",
+      "gitlab/gitlab-runner:alpine3.18-v16.1.0",
       "gitlab/gitlab-ce:16.1.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.35.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.50.0",
