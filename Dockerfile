@@ -703,7 +703,7 @@ FROM registry:2.8.2
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.36.0
+FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
