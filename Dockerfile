@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:21.1.1
+FROM quay.io/keycloak/keycloak:21.1.2
 # keycloak/keycloak
 
 # postgres
@@ -99,7 +99,7 @@ FROM postgres:15.3-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.9.0
+FROM atlassian/jira-software:9.9.1
 # atlassian/jira-software
 
 # nextcloud
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.8.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.8.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.8.1
+FROM docker.elastic.co/logstash/logstash:8.8.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.8.1
+FROM docker.elastic.co/kibana/kibana:8.8.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -239,7 +239,7 @@ FROM wordpress:6.2.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.3
+FROM dpage/pgadmin4:7.4
 # dpage/pgadmin4
 
 # mysql
@@ -251,7 +251,7 @@ FROM mariadb:10.11.4-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.9.1
+FROM mccutchen/go-httpbin:v2.9.2
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -303,11 +303,11 @@ FROM gitlab/gitlab-runner:alpine-v16.0.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.1.0-ce.0
+FROM gitlab/gitlab-ce:16.1.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.34.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.35.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.53.1
+FROM ghost:5.53.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.53.1-debian-11-r0
+FROM bitnami/ghost:5.53.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -419,11 +419,11 @@ FROM matomo:4.14.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.109.2
+FROM nocodb/nocodb:0.109.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.5
+FROM metabase/metabase:v0.46.6
 # metabase/metabase
 
 # docker
@@ -543,7 +543,7 @@ FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:21.1.1-debian-11-r1
+FROM bitnami/keycloak:21.1.2-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -679,11 +679,11 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.5.2
+FROM drakkan/sftpgo:v2.5.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.28.0
+FROM hasura/graphql-engine:v2.28.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.28
+FROM stakater/reloader:v1.0.29
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -763,11 +763,11 @@ FROM nats:2.9.19-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.11.0
+FROM natsio/prometheus-nats-exporter:0.12.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.10.1
+FROM natsio/nats-server-config-reloader:0.11.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -791,7 +791,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.11.0
+FROM gcr.io/kaniko-project/executor:v1.12.1
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.2
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.7
+FROM netbirdio/signal:0.21.8
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.7
+FROM netbirdio/management:0.21.8
 # netbirdio/management
 
 # coturn/coturn
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.411-jdk17
+FROM jenkins/jenkins:2.412-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -975,11 +975,11 @@ FROM registry.k8s.io/git-sync/git-sync:v3.6.8
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.11.0
+FROM ghcr.io/kedacore/keda:2.11.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
@@ -1175,15 +1175,15 @@ FROM calico/csi:v3.26.1
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.4.2
+FROM longhornio/longhorn-manager:v1.5.0
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.4.2
+FROM longhornio/longhorn-ui:v1.5.0
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.4.2
+FROM longhornio/longhorn-engine:v1.5.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
@@ -1191,7 +1191,7 @@ FROM longhornio/longhorn-instance-manager:v3_20221117
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.4.2
+FROM longhornio/longhorn-share-manager:v1.5.0
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
