@@ -231,7 +231,7 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.6-jammy
+FROM mongo:6.0.7-jammy
 # mongo
 
 # wordpress
@@ -411,7 +411,7 @@ FROM ghost:5.53.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.53.2-debian-11-r0
+FROM bitnami/ghost:5.53.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -499,7 +499,7 @@ FROM bitnami/blackbox-exporter:0.24.0-debian-11-r3
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.11.1-debian-11-r7
+FROM bitnami/postgres-exporter:0.13.1-debian-11-r1
 # bitnami/postgres-exporter
 
 # bitnami/redis
@@ -555,7 +555,7 @@ FROM bitnami/mariadb:10.11.4-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:6.0.6-debian-11-r1
+FROM bitnami/mongodb:6.0.7-debian-11-r0
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -655,7 +655,7 @@ FROM bitnami/sealed-secrets-controller:v0.22.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.42.1-debian-11-r0
+FROM bitnami/trivy:0.43.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.42.1
+FROM aquasec/trivy:0.43.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -703,7 +703,7 @@ FROM registry:2.8.2
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.36.0
+FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
@@ -1015,7 +1015,7 @@ FROM hashicorp/consul:1.16.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.1.2
+FROM hashicorp/consul-k8s-control-plane:1.2.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
