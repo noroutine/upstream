@@ -615,31 +615,23 @@ FROM bitnami/metrics-server:0.6.3-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.7.0-debian-11-r0
+FROM bitnami/kubeapps-dashboard:2.7.0-debian-11-r25
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.7.0-scratch-r0
+FROM bitnami/kubeapps-apprepository-controller:2.7.0-scratch-r1
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.7.0-scratch-r0
+FROM bitnami/kubeapps-asset-syncer:2.7.0-scratch-r1
 # bitnami/kubeapps-asset-syncer
 
-# bitnami/kubeapps-kubeops
-FROM bitnami/kubeapps-kubeops:2.5.1-scratch-r2
-# bitnami/kubeapps-kubeops
-
-# bitnami/kubeapps-assetsvc
-FROM bitnami/kubeapps-assetsvc:2.4.5-scratch-r2
-# bitnami/kubeapps-assetsvc
-
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.7.0-debian-11-r0
+FROM bitnami/kubeapps-apis:2.7.0-debian-11-r20
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.7.0-debian-11-r0
+FROM bitnami/kubeapps-pinniped-proxy:2.7.0-debian-11-r23
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy

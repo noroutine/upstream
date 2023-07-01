@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.262",
+  "version": "3454811e",
   "upstream": {
     "images": [
       "debian:bookworm-20230612-slim",
@@ -156,13 +156,11 @@
       "bitnami/nats:2.9.19-debian-11-r0",
       "bitnami/kube-state-metrics:2.9.2-debian-11-r0",
       "bitnami/metrics-server:0.6.3-debian-11-r32",
-      "bitnami/kubeapps-dashboard:2.7.0-debian-11-r0",
-      "bitnami/kubeapps-apprepository-controller:2.7.0-scratch-r0",
-      "bitnami/kubeapps-asset-syncer:2.7.0-scratch-r0",
-      "bitnami/kubeapps-kubeops:2.5.1-scratch-r2",
-      "bitnami/kubeapps-assetsvc:2.4.5-scratch-r2",
-      "bitnami/kubeapps-apis:2.7.0-debian-11-r0",
-      "bitnami/kubeapps-pinniped-proxy:2.7.0-debian-11-r0",
+      "bitnami/kubeapps-dashboard:2.7.0-debian-11-r25",
+      "bitnami/kubeapps-apprepository-controller:2.7.0-scratch-r1",
+      "bitnami/kubeapps-asset-syncer:2.7.0-scratch-r1",
+      "bitnami/kubeapps-apis:2.7.0-debian-11-r20",
+      "bitnami/kubeapps-pinniped-proxy:2.7.0-debian-11-r23",
       "bitnami/kube-rbac-proxy:0.14.2-scratch-r0",
       "bitnami/openldap:2.6.4-debian-11-r3",
       "bitnami/sealed-secrets-controller:v0.22.0",
