@@ -1,5 +1,5 @@
 {
-  "version": "d7fa46e2",
+  "version": "8201f0e7",
   "upstream": {
     "images": [
       "debian:bookworm-20230612-slim",
@@ -206,7 +206,7 @@
       "elastic/eck-operator:2.8.0",
       "louislam/uptime-kuma:1.22.0-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.69.2",
+      "outlinewiki/outline:0.70.0",
       "syncthing/syncthing:1.23.5",
       "jellyfin/jellyfin:10.8.10",
       "gravitl/netmaker:v0.20.2",
