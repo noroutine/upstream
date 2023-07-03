@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.56.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.17
+FROM squidfunk/mkdocs-material:9.1.18
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -819,7 +819,7 @@ FROM outlinewiki/outline:0.70.0
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.23.5
+FROM syncthing/syncthing:1.23.6
 # syncthing/syncthing
 
 # jellyfin/jellyfin
