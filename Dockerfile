@@ -1,13 +1,13 @@
 # debian
-FROM debian:bookworm-20230612-slim
+FROM debian:bookworm-20230703-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230605
+FROM ubuntu:jammy-20230624
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230605
+FROM ubuntu:focal-20230624
 # ubuntu
 
 # alpine
@@ -107,7 +107,7 @@ FROM nextcloud:27.0.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.8.0
+FROM haproxytech/haproxy-debian:2.8.1
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -563,7 +563,7 @@ FROM bitnami/memcached:1.6.21-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.8.0-debian-11-r1
+FROM bitnami/nginx-ingress-controller:1.8.1-debian-11-r1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -827,11 +827,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.20.2
+FROM gravitl/netmaker:v0.20.3
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.20.2
+FROM gravitl/netmaker-ui:v0.20.3
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
