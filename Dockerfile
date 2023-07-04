@@ -47,11 +47,11 @@ FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:6e9fb64a483246cf051d98095e79ae77b1c41005141b2fbf7bdee1cf7573c784
+FROM buildpack-deps:focal@sha256:c7c9e01f525b7b71c896947f93c1886f61cf600947fe9c6f52bb89306e9d837c
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:3916ba2f60ead85ebfab102f7ea46241b17ab60a6395e28b82fef7c56b50ea5a
+FROM buildpack-deps:jammy@sha256:8f28bd087741849791b564aea220968c88f2cace4063336681cd238858e05a79
 # buildpack-deps
 
 # php
