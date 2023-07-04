@@ -3,11 +3,11 @@ FROM debian:bookworm-20230612-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230605
+FROM ubuntu:jammy-20230624
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230605
+FROM ubuntu:focal-20230624
 # ubuntu
 
 # alpine
