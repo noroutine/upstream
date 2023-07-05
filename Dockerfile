@@ -807,7 +807,7 @@ FROM elastic/eck-operator:2.8.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.22.0-alpine
+FROM louislam/uptime-kuma:1.22.1-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
