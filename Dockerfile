@@ -411,7 +411,7 @@ FROM ghost:5.53.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.53.3-debian-11-r0
+FROM bitnami/ghost:5.53.4-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -591,7 +591,7 @@ FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:9.5.5-debian-11-r0
+FROM bitnami/grafana:10.0.1-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -675,7 +675,7 @@ FROM drakkan/sftpgo:v2.5.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.28.1
+FROM hasura/graphql-engine:v2.28.2
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -807,7 +807,7 @@ FROM elastic/eck-operator:2.8.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.22.0-alpine
+FROM louislam/uptime-kuma:1.22.1-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -891,7 +891,7 @@ FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.412-jdk17
+FROM jenkins/jenkins:2.413-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
