@@ -79,7 +79,7 @@ FROM traefik:v2.10.3
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.56.0
+FROM sonatype/nexus3:3.57.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -303,7 +303,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.1.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.1.1-ce.0
+FROM gitlab/gitlab-ce:16.1.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -311,7 +311,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.35.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.50.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.51.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -675,7 +675,7 @@ FROM drakkan/sftpgo:v2.5.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.28.2
+FROM hasura/graphql-engine:v2.29.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -699,7 +699,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.6
+FROM quay.io/argoproj/argocd:v2.7.7
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
