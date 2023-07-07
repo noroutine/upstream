@@ -479,7 +479,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.4.0-debian-11-r4
+FROM bitnami/spark:3.4.1-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
