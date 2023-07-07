@@ -307,7 +307,7 @@ FROM gitlab/gitlab-ce:16.1.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.35.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.36.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -407,7 +407,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.53.3
+FROM ghost:5.53.4
 # ghost
 
 # bitnami/ghost
@@ -427,7 +427,7 @@ FROM metabase/metabase:v0.46.6
 # metabase/metabase
 
 # docker
-FROM docker:24.0.2-dind
+FROM docker:24.0.3-dind
 # docker
 
 # podman/stable
@@ -479,7 +479,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.4.0-debian-11-r4
+FROM bitnami/spark:3.4.1-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
@@ -571,11 +571,11 @@ FROM bitnami/nginx:1.25.1-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.6.23-debian-11-r0
+FROM bitnami/minio:2023.6.29-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.6.19-debian-11-r0
+FROM bitnami/minio-client:2023.6.28-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -815,7 +815,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.70.0
+FROM outlinewiki/outline:0.70.1
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -871,7 +871,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.2
+FROM wiretrustee/dashboard:v1.15.3
 # wiretrustee/dashboard
 
 # netbirdio/signal
