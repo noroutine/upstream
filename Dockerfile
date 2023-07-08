@@ -327,11 +327,11 @@ FROM summerwind/actions-runner-controller:v0.27.4
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.305.0-ubuntu-22.04
+FROM summerwind/actions-runner:v2.306.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.305.0-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.306.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -659,7 +659,7 @@ FROM aquasec/trivy:0.43.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.0
+FROM ghcr.io/external-secrets/external-secrets:v0.9.1
 # external-secrets/external-secrets
 
 # minio/console
@@ -995,7 +995,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.5.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.3.0
+FROM zachomedia/cert-manager-webhook-pdns:v2.4.0
 # zachomedia/cert-manager-webhook-pdns
 
 # vstadtmueller/cert-manager-webhook-powerdns

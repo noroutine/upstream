@@ -1,5 +1,5 @@
 {
-  "version": "c364e3fd",
+  "version": "5a231abd",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -84,8 +84,8 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.1.3",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.1",
       "summerwind/actions-runner-controller:v0.27.4",
-      "summerwind/actions-runner:v2.305.0-ubuntu-22.04",
-      "summerwind/actions-runner-dind:v2.305.0-ubuntu-22.04",
+      "summerwind/actions-runner:v2.306.0-ubuntu-22.04",
+      "summerwind/actions-runner-dind:v2.306.0-ubuntu-22.04",
       "quay.io/brancz/kube-rbac-proxy:v0.14.2",
       "jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab",
       "noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b",
@@ -167,7 +167,7 @@
       "bitnami/trivy:0.43.1-debian-11-r0",
       "bitnami/kubectl:1.27.3-debian-11-r0",
       "aquasec/trivy:0.43.1",
-      "ghcr.io/external-secrets/external-secrets:v0.9.0",
+      "ghcr.io/external-secrets/external-secrets:v0.9.1",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.3",
@@ -251,7 +251,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.12.2",
       "quay.io/jetstack/cert-manager-ctl:v1.12.2",
       "quay.io/jetstack/cert-manager-csi-driver:v0.5.0",
-      "zachomedia/cert-manager-webhook-pdns:v2.3.0",
+      "zachomedia/cert-manager-webhook-pdns:v2.4.0",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.16.0",
       "hashicorp/consul-k8s-control-plane:1.2.0",
