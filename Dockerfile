@@ -411,7 +411,7 @@ FROM ghost:5.53.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.53.4-debian-11-r0
+FROM bitnami/ghost:5.54.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -571,15 +571,15 @@ FROM bitnami/nginx:1.25.1-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.6.29-debian-11-r0
+FROM bitnami/minio:2023.7.7-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.6.28-debian-11-r0
+FROM bitnami/minio-client:2023.7.7-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
-FROM bitnami/bitnami-shell:11-debian-11-r92
+FROM bitnami/bitnami-shell:11-debian-11-r133
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
@@ -647,7 +647,7 @@ FROM bitnami/sealed-secrets-controller:v0.22.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.43.0-debian-11-r0
+FROM bitnami/trivy:0.43.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -655,7 +655,7 @@ FROM bitnami/kubectl:1.27.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.43.0
+FROM aquasec/trivy:0.43.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
