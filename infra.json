@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.263",
+  "version": "93e0b669",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -185,7 +185,7 @@
       "quay.io/argoproj/argoexec:v3.4.8",
       "redis:7.0.11-bookworm",
       "listmonk/listmonk:v2.4.0",
-      "vaultwarden/server:1.28.1",
+      "vaultwarden/server:1.29.0",
       "boky/postfix:v3.6.1",
       "cupcakearmy/cryptgeon:2.3.1",
       "memcached:1.6.21-alpine3.18",
