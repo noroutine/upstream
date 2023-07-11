@@ -899,7 +899,7 @@ FROM jenkins/agent:3107.v665000b_51092-16-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.4
+FROM netboxcommunity/netbox:v3.5.6
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard

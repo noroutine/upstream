@@ -1,5 +1,5 @@
 {
-  "version": "e13efd8a",
+  "version": "b9fed9e0",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -227,7 +227,7 @@
       "firezone/firezone:0.7.32",
       "jenkins/jenkins:2.413-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
-      "netboxcommunity/netbox:v3.5.4",
+      "netboxcommunity/netbox:v3.5.6",
       "kubernetesui/dashboard:v2.7.0",
       "locustio/locust:2.15.1",
       "postgrest/postgrest:v11.1.0",
