@@ -251,7 +251,7 @@ FROM mariadb:10.11.4-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.9.2
+FROM mccutchen/go-httpbin:v2.10.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -407,7 +407,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.53.4
+FROM ghost:5.54.0
 # ghost
 
 # bitnami/ghost
@@ -415,7 +415,7 @@ FROM bitnami/ghost:5.54.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.14.2-apache
+FROM matomo:4.15.0-apache
 # matomo
 
 # nocodb/nocodb
@@ -427,7 +427,7 @@ FROM metabase/metabase:v0.46.6
 # metabase/metabase
 
 # docker
-FROM docker:24.0.3-dind
+FROM docker:24.0.4-dind
 # docker
 
 # podman/stable
@@ -503,7 +503,7 @@ FROM bitnami/postgres-exporter:0.13.1-debian-11-r1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.11-debian-11-r0
+FROM bitnami/redis:7.0.12-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -723,7 +723,7 @@ FROM quay.io/argoproj/argoexec:v3.4.8
 # argoproj/argoexec
 
 # redis
-FROM redis:7.0.11-bookworm
+FROM redis:7.0.12-bookworm
 # redis
 
 # listmonk/listmonk
@@ -959,7 +959,7 @@ FROM bitnami/kubectl:1.27.3-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.6.2-python3.10
+FROM apache/airflow:2.6.3-python3.10
 # apache/airflow
 
 # git-sync/git-sync
@@ -1215,11 +1215,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.2
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.0.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.0.2
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.0.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.0.2
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
