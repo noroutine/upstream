@@ -723,7 +723,7 @@ FROM quay.io/argoproj/argoexec:v3.4.8
 # argoproj/argoexec
 
 # redis
-FROM redis:7.0.11-bookworm
+FROM redis:7.0.12-bookworm
 # redis
 
 # listmonk/listmonk
