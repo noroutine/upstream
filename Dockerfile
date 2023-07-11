@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:8f28bd087741849791b564aea220968c88f2cace4063336
 # buildpack-deps
 
 # php
-FROM php:8.2.7-apache-bookworm
+FROM php:8.2.8-apache-bookworm
 # php
 
 # python
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.66.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.0.1
+FROM grafana/grafana:10.0.2
 # grafana/grafana
 
 # grafana/loki
@@ -183,7 +183,7 @@ FROM httpd:2.4.57-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.10-jdk17-temurin-jammy
+FROM tomcat:10.1.11-jdk17-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -535,7 +535,7 @@ FROM bitnami/postgresql:15.3.0-debian-11-r6
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.10-debian-11-r0
+FROM bitnami/tomcat:10.1.11-debian-11-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
