@@ -67,11 +67,11 @@ FROM python:3.11.4-slim-bookworm
 # python
 
 # golang
-FROM golang:1.20.5-bookworm
+FROM golang:1.20.6-bookworm
 # golang
 
 # golang
-FROM golang:1.20.5-alpine3.18
+FROM golang:1.20.6-alpine3.18
 # golang
 
 # traefik
@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:21.1.2
+FROM quay.io/keycloak/keycloak:22.0.0
 # keycloak/keycloak
 
 # postgres
@@ -99,7 +99,7 @@ FROM postgres:15.3-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.9.1
+FROM atlassian/jira-software:9.10.0
 # atlassian/jira-software
 
 # nextcloud
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-06-23T20-26-00Z
+FROM minio/minio:RELEASE.2023-07-11T21-29-34Z
 # minio/minio
 
 # coreos/etcd
@@ -419,7 +419,7 @@ FROM matomo:4.15.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.109.3
+FROM nocodb/nocodb:0.109.4
 # nocodb/nocodb
 
 # metabase/metabase
@@ -571,11 +571,11 @@ FROM bitnami/nginx:1.25.1-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.7.7-debian-11-r0
+FROM bitnami/minio:2023.7.11-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.7.7-debian-11-r0
+FROM bitnami/minio-client:2023.7.11-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -675,7 +675,7 @@ FROM drakkan/sftpgo:v2.5.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.29.0
+FROM hasura/graphql-engine:v2.29.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -815,7 +815,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.70.1
+FROM outlinewiki/outline:0.70.2
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -891,7 +891,7 @@ FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.413-jdk17
+FROM jenkins/jenkins:2.414-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
