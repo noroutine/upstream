@@ -871,7 +871,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.3
+FROM wiretrustee/dashboard:v1.15.4
 # wiretrustee/dashboard
 
 # netbirdio/signal
