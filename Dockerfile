@@ -231,7 +231,7 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.7-jammy
+FROM mongo:6.0.8-jammy
 # mongo
 
 # wordpress
@@ -315,7 +315,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.51.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.1.3
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.2.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -555,7 +555,7 @@ FROM bitnami/mariadb:10.11.4-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:6.0.7-debian-11-r0
+FROM bitnami/mongodb:6.0.8-debian-11-r0
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -591,7 +591,7 @@ FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.0.1-debian-11-r0
+FROM bitnami/grafana:10.0.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -603,7 +603,7 @@ FROM bitnami/consul:1.16.0-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.19-debian-11-r0
+FROM bitnami/nats:2.9.20-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -615,23 +615,23 @@ FROM bitnami/metrics-server:0.6.3-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.7.0-debian-11-r25
+FROM bitnami/kubeapps-dashboard:2.8.0-debian-11-r4
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.7.0-scratch-r1
+FROM bitnami/kubeapps-apprepository-controller:2.8.0-scratch-r1
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.7.0-scratch-r1
+FROM bitnami/kubeapps-asset-syncer:2.8.0-scratch-r1
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.7.0-debian-11-r20
+FROM bitnami/kubeapps-apis:2.8.0-debian-11-r3
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.7.0-debian-11-r23
+FROM bitnami/kubeapps-pinniped-proxy:2.8.0-debian-11-r3
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
@@ -751,7 +751,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.19-alpine3.18
+FROM nats:2.9.20-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -871,7 +871,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.3
+FROM wiretrustee/dashboard:v1.15.5
 # wiretrustee/dashboard
 
 # netbirdio/signal
