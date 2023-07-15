@@ -1,5 +1,5 @@
 {
-  "version": "4bcd414e",
+  "version": "dad347d4",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -170,7 +170,7 @@
       "ghcr.io/external-secrets/external-secrets:v0.9.1",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
-      "drakkan/sftpgo:v2.5.3",
+      "drakkan/sftpgo:v2.5.4",
       "hasura/graphql-engine:v2.29.1",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.29",
@@ -316,8 +316,8 @@
       "registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2",
       "registry.k8s.io/sig-storage/snapshot-controller:v6.2.2",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.2",
-      "confluentinc/confluent-init-container:2.6.0",
-      "confluentinc/confluent-operator:0.771.13",
+      "confluentinc/confluent-init-container:2.6.1",
+      "confluentinc/confluent-operator:0.771.29",
       "confluentinc/cp-enterprise-control-center:7.4.1",
       "confluentinc/cp-enterprise-replicator:7.4.1",
       "confluentinc/cp-kafka-rest:7.4.1",

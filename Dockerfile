@@ -671,7 +671,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.5.3
+FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -1255,11 +1255,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.2
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.6.0
+FROM confluentinc/confluent-init-container:2.6.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.771.13
+FROM confluentinc/confluent-operator:0.771.29
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
