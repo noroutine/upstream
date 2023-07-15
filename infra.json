@@ -1,5 +1,5 @@
 {
-  "version": "f031daaf",
+  "version": "4bcd414e",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -76,7 +76,7 @@
       "paketobuildpacks/builder:base",
       "paketobuildpacks/builder:tiny",
       "paketobuildpacks/run:full-cnb",
-      "buildpacksio/lifecycle:0.16.4",
+      "buildpacksio/lifecycle:0.16.5",
       "gitlab/gitlab-runner:alpine3.18-v16.1.0",
       "gitlab/gitlab-ce:16.1.2-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.36.0",
@@ -105,7 +105,7 @@
       "verdaccio/verdaccio:5.25.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.54.0",
-      "bitnami/ghost:5.54.0-debian-11-r0",
+      "bitnami/ghost:5.54.2-debian-11-r0",
       "matomo:4.15.0-apache",
       "nocodb/nocodb:0.109.4",
       "metabase/metabase:v0.46.6",

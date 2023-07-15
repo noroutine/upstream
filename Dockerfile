@@ -295,7 +295,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.16.4
+FROM buildpacksio/lifecycle:0.16.5
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -411,7 +411,7 @@ FROM ghost:5.54.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.54.0-debian-11-r0
+FROM bitnami/ghost:5.54.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
