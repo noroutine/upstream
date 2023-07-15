@@ -1259,7 +1259,7 @@ FROM confluentinc/confluent-init-container:2.6.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.771.13
+FROM confluentinc/confluent-operator:0.771.29
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
