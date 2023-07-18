@@ -1,5 +1,5 @@
 {
-  "version": "9203275a",
+  "version": "6fecf26e",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -25,7 +25,7 @@
       "sonatype/nexus3:3.58.0",
       "squidfunk/mkdocs-material:9.1.18",
       "freeradius/freeradius-server:3.2.3-alpine",
-      "quay.io/keycloak/keycloak:22.0.0",
+      "quay.io/keycloak/keycloak:22.0.1",
       "postgres:15.3-bookworm",
       "atlassian/jira-software:9.10.0",
       "nextcloud:27.0.0-apache",
