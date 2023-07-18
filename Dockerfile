@@ -79,7 +79,7 @@ FROM traefik:v2.10.3
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.57.0
+FROM sonatype/nexus3:3.58.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -127,7 +127,7 @@ FROM quay.io/prometheus/alertmanager:v0.25.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.6.0
+FROM quay.io/prometheus/node-exporter:v1.6.1
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
@@ -407,11 +407,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.54.0
+FROM ghost:5.54.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.54.2-debian-11-r0
+FROM bitnami/ghost:5.54.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -491,7 +491,7 @@ FROM bitnami/prometheus-operator:0.66.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.6.0-debian-11-r0
+FROM bitnami/node-exporter:1.6.1-debian-11-r0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
@@ -643,7 +643,7 @@ FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.22.0
+FROM bitnami/sealed-secrets-controller:v0.23.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -683,7 +683,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.29
+FROM stakater/reloader:v1.0.30
 # stakater/reloader
 
 # jimmidyson/configmap-reload
