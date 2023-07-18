@@ -643,7 +643,7 @@ FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.22.0
+FROM bitnami/sealed-secrets-controller:v0.23.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
