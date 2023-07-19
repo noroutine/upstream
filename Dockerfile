@@ -1043,19 +1043,19 @@ FROM registry.k8s.io/coredns/coredns:v1.9.4
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.3
+FROM registry.k8s.io/kube-apiserver:v1.27.4
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.3
+FROM registry.k8s.io/kube-proxy:v1.27.4
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.3
+FROM registry.k8s.io/kube-scheduler:v1.27.4
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.3
+FROM registry.k8s.io/kube-controller-manager:v1.27.4
 # kube-controller-manager
 
 # kube-apiserver

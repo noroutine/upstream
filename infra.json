@@ -1,5 +1,5 @@
 {
-  "version": "6c8773f7",
+  "version": "3fe71e59",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -263,10 +263,10 @@
       "quay.io/strimzi/kafka:0.35.1-kafka-3.3.1",
       "registry.k8s.io/pause:3.9",
       "registry.k8s.io/coredns/coredns:v1.9.4",
-      "registry.k8s.io/kube-apiserver:v1.27.3",
-      "registry.k8s.io/kube-proxy:v1.27.3",
-      "registry.k8s.io/kube-scheduler:v1.27.3",
-      "registry.k8s.io/kube-controller-manager:v1.27.3",
+      "registry.k8s.io/kube-apiserver:v1.27.4",
+      "registry.k8s.io/kube-proxy:v1.27.4",
+      "registry.k8s.io/kube-scheduler:v1.27.4",
+      "registry.k8s.io/kube-controller-manager:v1.27.4",
       "registry.k8s.io/kube-apiserver:v1.26.6",
       "registry.k8s.io/kube-proxy:v1.26.6",
       "registry.k8s.io/kube-scheduler:v1.26.6",
