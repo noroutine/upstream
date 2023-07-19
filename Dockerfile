@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.58.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.18
+FROM squidfunk/mkdocs-material:9.1.19
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -307,7 +307,7 @@ FROM gitlab/gitlab-ce:16.1.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.36.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.37.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -575,7 +575,7 @@ FROM bitnami/minio:2023.7.11-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.7.11-debian-11-r0
+FROM bitnami/minio-client:2023.7.18-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -759,7 +759,7 @@ FROM natsio/prometheus-nats-exporter:0.12.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.11.0
+FROM natsio/nats-server-config-reloader:0.12.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -827,11 +827,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.20.3
+FROM gravitl/netmaker:v0.20.4
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.20.3
+FROM gravitl/netmaker-ui:v0.20.4
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -891,7 +891,7 @@ FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.414-jdk17
+FROM jenkins/jenkins:2.415-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1183,7 +1183,7 @@ FROM longhornio/longhorn-instance-manager:v3_20221117
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.5.0
+FROM longhornio/longhorn-share-manager:v1.5.1
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
