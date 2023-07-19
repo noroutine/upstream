@@ -1,5 +1,5 @@
 {
-  "version": "c3f1c8bf",
+  "version": "ded52597",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -271,10 +271,10 @@
       "registry.k8s.io/kube-proxy:v1.26.7",
       "registry.k8s.io/kube-scheduler:v1.26.7",
       "registry.k8s.io/kube-controller-manager:v1.26.7",
-      "registry.k8s.io/kube-apiserver:v1.25.11",
-      "registry.k8s.io/kube-proxy:v1.25.11",
-      "registry.k8s.io/kube-scheduler:v1.25.11",
-      "registry.k8s.io/kube-controller-manager:v1.25.11",
+      "registry.k8s.io/kube-apiserver:v1.25.12",
+      "registry.k8s.io/kube-proxy:v1.25.12",
+      "registry.k8s.io/kube-scheduler:v1.25.12",
+      "registry.k8s.io/kube-controller-manager:v1.25.12",
       "registry.k8s.io/kube-apiserver:v1.24.15",
       "registry.k8s.io/kube-proxy:v1.24.15",
       "registry.k8s.io/kube-scheduler:v1.24.15",
