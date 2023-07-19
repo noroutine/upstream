@@ -1027,11 +1027,11 @@ FROM hashicorp/vault-csi-provider:1.4.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.35.1
+FROM quay.io/strimzi/operator:0.35.1-1
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.35.1-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.35.1-1-kafka-3.3.1
 # strimzi/kafka
 
 # pause
@@ -1059,19 +1059,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.27.4
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.6
+FROM registry.k8s.io/kube-apiserver:v1.26.7
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.6
+FROM registry.k8s.io/kube-proxy:v1.26.7
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.6
+FROM registry.k8s.io/kube-scheduler:v1.26.7
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.6
+FROM registry.k8s.io/kube-controller-manager:v1.26.7
 # kube-controller-manager
 
 # kube-apiserver
