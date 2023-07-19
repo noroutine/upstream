@@ -1183,7 +1183,7 @@ FROM longhornio/longhorn-instance-manager:v3_20221117
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.5.0
+FROM longhornio/longhorn-share-manager:v1.5.1
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
