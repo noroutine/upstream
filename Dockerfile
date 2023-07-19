@@ -1167,7 +1167,7 @@ FROM calico/csi:v3.26.1
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.5.0
+FROM longhornio/longhorn-manager:v1.5.1
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
