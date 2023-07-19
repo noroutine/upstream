@@ -1167,19 +1167,19 @@ FROM calico/csi:v3.26.1
 # calico/csi
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.5.0
+FROM longhornio/longhorn-manager:v1.5.1
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.5.0
+FROM longhornio/longhorn-ui:v1.5.1
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.5.0
+FROM longhornio/longhorn-engine:v1.5.1
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v3_20221117
+FROM longhornio/longhorn-instance-manager:v1.5.1
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
@@ -1187,7 +1187,7 @@ FROM longhornio/longhorn-share-manager:v1.5.1
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v3_20230320
+FROM longhornio/backing-image-manager:v1.5.1
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
@@ -1209,6 +1209,14 @@ FROM longhornio/csi-provisioner:v3.4.1
 # longhornio/csi-attacher
 FROM longhornio/csi-attacher:v4.2.0
 # longhornio/csi-attacher
+
+# longhornio/livenessprobe
+FROM longhornio/livenessprobe:v2.9.0
+# longhornio/livenessprobe
+
+# longhornio/support-bundle-kit
+FROM longhornio/support-bundle-kit:v0.0.25
+# longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
 FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.27.0
