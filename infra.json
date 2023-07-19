@@ -1,5 +1,5 @@
 {
-  "version": "ded52597",
+  "version": "3c594220",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -104,7 +104,7 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.26.0",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.54.3",
+      "ghost:5.54.4",
       "bitnami/ghost:5.54.4-debian-11-r0",
       "matomo:4.15.0-apache",
       "nocodb/nocodb:0.109.4",
@@ -275,10 +275,10 @@
       "registry.k8s.io/kube-proxy:v1.25.12",
       "registry.k8s.io/kube-scheduler:v1.25.12",
       "registry.k8s.io/kube-controller-manager:v1.25.12",
-      "registry.k8s.io/kube-apiserver:v1.24.15",
-      "registry.k8s.io/kube-proxy:v1.24.15",
-      "registry.k8s.io/kube-scheduler:v1.24.15",
-      "registry.k8s.io/kube-controller-manager:v1.24.15",
+      "registry.k8s.io/kube-apiserver:v1.24.16",
+      "registry.k8s.io/kube-proxy:v1.24.16",
+      "registry.k8s.io/kube-scheduler:v1.24.16",
+      "registry.k8s.io/kube-controller-manager:v1.24.16",
       "registry.k8s.io/kube-apiserver:v1.23.17",
       "registry.k8s.io/kube-proxy:v1.23.17",
       "registry.k8s.io/kube-scheduler:v1.23.17",

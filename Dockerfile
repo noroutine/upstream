@@ -407,7 +407,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.54.3
+FROM ghost:5.54.4
 # ghost
 
 # bitnami/ghost
@@ -1091,19 +1091,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.25.12
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.24.15
+FROM registry.k8s.io/kube-apiserver:v1.24.16
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.24.15
+FROM registry.k8s.io/kube-proxy:v1.24.16
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.15
+FROM registry.k8s.io/kube-scheduler:v1.24.16
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.24.15
+FROM registry.k8s.io/kube-controller-manager:v1.24.16
 # kube-controller-manager
 
 # kube-apiserver
