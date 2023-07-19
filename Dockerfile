@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-07-11T21-29-34Z
+FROM minio/minio:RELEASE.2023-07-18T17-49-40Z
 # minio/minio
 
 # coreos/etcd
@@ -571,7 +571,7 @@ FROM bitnami/nginx:1.25.1-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.7.11-debian-11-r0
+FROM bitnami/minio:2023.7.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -675,7 +675,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.29.1
+FROM hasura/graphql-engine:v2.30.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -795,7 +795,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:20.0.1-20.30.11
+FROM azul/zulu-openjdk:20.0.2-20.32.11
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -1211,7 +1211,7 @@ FROM longhornio/csi-attacher:v4.2.0
 # longhornio/csi-attacher
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.26.2
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.27.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
