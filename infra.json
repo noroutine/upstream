@@ -1,5 +1,5 @@
 {
-  "version": "238ab447",
+  "version": "5978541d",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -173,11 +173,11 @@
       "drakkan/sftpgo:v2.5.4",
       "hasura/graphql-engine:v2.30.0",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.30",
+      "stakater/reloader:v1.0.31",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.2",
       "ghcr.io/dexidp/dex:v2.37.0",
-      "quay.io/argoproj/argocd:v2.7.7",
+      "quay.io/argoproj/argocd:v2.7.8",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.8.0",
       "quay.io/argoproj/argocli:v3.4.8",

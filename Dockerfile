@@ -683,7 +683,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.30
+FROM stakater/reloader:v1.0.31
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -699,7 +699,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.7
+FROM quay.io/argoproj/argocd:v2.7.8
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
