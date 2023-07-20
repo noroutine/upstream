@@ -1,5 +1,5 @@
 {
-  "version": "3c594220",
+  "version": "7189513d",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -165,7 +165,7 @@
       "bitnami/openldap:2.6.4-debian-11-r3",
       "bitnami/sealed-secrets-controller:v0.23.0",
       "bitnami/trivy:0.43.1-debian-11-r0",
-      "bitnami/kubectl:1.27.3-debian-11-r0",
+      "bitnami/kubectl:1.27.4-debian-11-r0",
       "aquasec/trivy:0.43.1",
       "ghcr.io/external-secrets/external-secrets:v0.9.1",
       "minio/console:v0.30.0",
@@ -241,7 +241,7 @@
       "vsphereveleroplugin/backup-driver:v1.5.1",
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.1",
       "velero/velero-restic-restore-helper:v1.9.7",
-      "bitnami/kubectl:1.27.3-debian-11-r0",
+      "bitnami/kubectl:1.27.4-debian-11-r0",
       "apache/airflow:2.6.3-python3.10",
       "registry.k8s.io/git-sync/git-sync:v3.6.8",
       "ghcr.io/kedacore/keda:2.11.1",
