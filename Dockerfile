@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.10.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:27.0.0-apache
+FROM nextcloud:27.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -423,7 +423,7 @@ FROM nocodb/nocodb:0.109.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.6
+FROM metabase/metabase:v0.46.6.1
 # metabase/metabase
 
 # docker
@@ -711,15 +711,15 @@ FROM quay.io/argoproj/argo-events:v1.8.0
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.4.8
+FROM quay.io/argoproj/argocli:v3.4.9
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.4.8
+FROM quay.io/argoproj/workflow-controller:v3.4.9
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.4.8
+FROM quay.io/argoproj/argoexec:v3.4.9
 # argoproj/argoexec
 
 # redis

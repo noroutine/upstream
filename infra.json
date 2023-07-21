@@ -1,5 +1,5 @@
 {
-  "version": "7189513d",
+  "version": "29cf12d9",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -28,7 +28,7 @@
       "quay.io/keycloak/keycloak:22.0.1",
       "postgres:15.3-bookworm",
       "atlassian/jira-software:9.10.0",
-      "nextcloud:27.0.0-apache",
+      "nextcloud:27.0.1-apache",
       "haproxytech/haproxy-debian:2.8.1",
       "minio/minio:RELEASE.2023-07-18T17-49-40Z",
       "quay.io/coreos/etcd:v3.5.9",
@@ -108,7 +108,7 @@
       "bitnami/ghost:5.54.4-debian-11-r0",
       "matomo:4.15.0-apache",
       "nocodb/nocodb:0.109.4",
-      "metabase/metabase:v0.46.6",
+      "metabase/metabase:v0.46.6.1",
       "docker:24.0.4-dind",
       "quay.io/podman/stable:v4.5.1",
       "jupyter/base-notebook:hub-4.0.1",
@@ -180,9 +180,9 @@
       "quay.io/argoproj/argocd:v2.7.8",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.8.0",
-      "quay.io/argoproj/argocli:v3.4.8",
-      "quay.io/argoproj/workflow-controller:v3.4.8",
-      "quay.io/argoproj/argoexec:v3.4.8",
+      "quay.io/argoproj/argocli:v3.4.9",
+      "quay.io/argoproj/workflow-controller:v3.4.9",
+      "quay.io/argoproj/argoexec:v3.4.9",
       "redis:7.0.12-bookworm",
       "listmonk/listmonk:v2.4.0",
       "vaultwarden/server:1.29.0",
