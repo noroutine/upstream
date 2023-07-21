@@ -159,11 +159,11 @@ FROM grafana/grafana:10.0.2
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.8.2
+FROM grafana/loki:2.8.3
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.8.2
+FROM grafana/loki-canary:2.8.3
 # grafana/loki-canary
 
 # grafana/promtail
@@ -411,7 +411,7 @@ FROM ghost:5.54.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.54.4-debian-11-r0
+FROM bitnami/ghost:5.55.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -875,11 +875,11 @@ FROM wiretrustee/dashboard:v1.15.6
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.9
+FROM netbirdio/signal:0.21.10
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.9
+FROM netbirdio/management:0.21.10
 # netbirdio/management
 
 # coturn/coturn
