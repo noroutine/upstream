@@ -1,5 +1,5 @@
 {
-  "version": "599e270a",
+  "version": "6bafb585",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -44,7 +44,7 @@
       "grafana/grafana:10.0.2",
       "grafana/loki:2.8.3",
       "grafana/loki-canary:2.8.3",
-      "grafana/promtail:2.8.2",
+      "grafana/promtail:2.8.3",
       "nginxinc/nginx-unprivileged:1.25.1-alpine-slim",
       "nginxinc/nginx-unprivileged:1.25.1-alpine-slim",
       "httpd:2.4.57-alpine",
@@ -171,7 +171,7 @@
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.4",
-      "hasura/graphql-engine:v2.30.0",
+      "hasura/graphql-engine:v2.30.1",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.32",
       "jimmidyson/configmap-reload:v0.9.0",
@@ -220,7 +220,7 @@
       "registry.k8s.io/coredns/coredns:v1.10.1",
       "yugabytedb/yugabyte:2.15.3.2-b1",
       "antelle/keeweb:1.18.7",
-      "wiretrustee/dashboard:v1.15.6",
+      "wiretrustee/dashboard:v1.15.7",
       "netbirdio/signal:0.21.10",
       "netbirdio/management:0.21.10",
       "coturn/coturn:4.6.2",

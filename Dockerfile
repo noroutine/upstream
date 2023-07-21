@@ -167,7 +167,7 @@ FROM grafana/loki-canary:2.8.3
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.8.2
+FROM grafana/promtail:2.8.3
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -675,7 +675,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.30.0
+FROM hasura/graphql-engine:v2.30.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -871,7 +871,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.6
+FROM wiretrustee/dashboard:v1.15.7
 # wiretrustee/dashboard
 
 # netbirdio/signal
