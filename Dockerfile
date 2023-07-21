@@ -411,7 +411,7 @@ FROM ghost:5.54.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.54.4-debian-11-r0
+FROM bitnami/ghost:5.55.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
