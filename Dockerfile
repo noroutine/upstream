@@ -399,7 +399,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.26.0
+FROM verdaccio/verdaccio:5.26.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -683,7 +683,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.31
+FROM stakater/reloader:v1.0.32
 # stakater/reloader
 
 # jimmidyson/configmap-reload
