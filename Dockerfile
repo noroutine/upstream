@@ -906,6 +906,18 @@ FROM netboxcommunity/netbox:v3.5.6
 FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
+# kubernetesui/dashboard-api
+FROM kubernetesui/dashboard-api:v1.0.0
+# kubernetesui/dashboard-api
+
+# kubernetesui/dashboard-web
+FROM kubernetesui/dashboard-web:v1.0.0
+# kubernetesui/dashboard-web
+
+# kubernetesui/metrics-scraper
+FROM kubernetesui/metrics-scraper:v1.0.9
+# kubernetesui/metrics-scraper
+
 # locustio/locust
 FROM locustio/locust:2.15.1
 # locustio/locust
