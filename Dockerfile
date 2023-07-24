@@ -274,6 +274,14 @@ FROM heroku/heroku:22-build
 FROM heroku/heroku:22
 # heroku/heroku
 
+# heroku/heroku
+FROM heroku/heroku:22-cnb-build
+# heroku/heroku
+
+# heroku/heroku
+FROM heroku/heroku:22-cnb
+# heroku/heroku
+
 # heroku/procfile-cnb
 FROM heroku/procfile-cnb:2.0.0
 # heroku/procfile-cnb

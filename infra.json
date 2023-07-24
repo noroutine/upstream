@@ -1,5 +1,5 @@
 {
-  "version": "16392047",
+  "version": "2f1a633b",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -71,6 +71,8 @@
       "heroku/heroku:20",
       "heroku/heroku:22-build",
       "heroku/heroku:22",
+      "heroku/heroku:22-cnb-build",
+      "heroku/heroku:22-cnb",
       "heroku/procfile-cnb:2.0.0",
       "paketobuildpacks/builder:full",
       "paketobuildpacks/builder:base",
