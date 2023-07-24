@@ -1039,11 +1039,11 @@ FROM hashicorp/vault-csi-provider:1.4.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.35.1-1
+FROM quay.io/strimzi/operator:0.36.0-0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.35.1-1-kafka-3.3.1
+FROM quay.io/strimzi/kafka:0.36.0-0-kafka-3.4.1
 # strimzi/kafka
 
 # pause
