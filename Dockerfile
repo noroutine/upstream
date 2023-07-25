@@ -807,7 +807,7 @@ FROM azul/zulu-openjdk:20.0.2-20.32.11
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:20.0.1_9-jdk-jammy
+FROM eclipse-temurin:20.0.2_9-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
