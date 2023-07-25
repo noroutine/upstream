@@ -1186,6 +1186,10 @@ FROM calico/node-driver-registrar:v3.26.1
 FROM calico/csi:v3.26.1
 # calico/csi
 
+# nfd/node-feature-discovery
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.13.3
+# nfd/node-feature-discovery
+
 # longhornio/longhorn-manager
 FROM longhornio/longhorn-manager:v1.5.1
 # longhornio/longhorn-manager
