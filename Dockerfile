@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.9
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.45.0
+FROM quay.io/prometheus/prometheus:v2.46.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.8.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.9.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.8.2
+FROM docker.elastic.co/logstash/logstash:8.9.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.8.2
+FROM docker.elastic.co/kibana/kibana:8.9.0
 # kibana/kibana
 
 # alerta/alerta-web
@@ -311,7 +311,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.2.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.2.0-ce.0
+FROM gitlab/gitlab-ce:16.2.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -419,7 +419,7 @@ FROM ghost:5.55.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.55.0-debian-11-r0
+FROM bitnami/ghost:5.55.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -939,23 +939,23 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0
 # oss/azure/workload-identity/webhook
 
 # velero/velero
-FROM velero/velero:v1.11.0
+FROM velero/velero:v1.11.1
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.5.0
+FROM velero/velero-plugin-for-csi:v0.5.1
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.7.0
+FROM velero/velero-plugin-for-aws:v1.7.1
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.7.0
+FROM velero/velero-plugin-for-gcp:v1.7.1
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.7.0
+FROM velero/velero-plugin-for-microsoft-azure:v1.7.1
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
