@@ -75,7 +75,7 @@ FROM golang:1.20.6-alpine3.18
 # golang
 
 # traefik
-FROM traefik:v2.10.3
+FROM traefik:v2.10.4
 # traefik
 
 # sonatype/nexus3
@@ -243,7 +243,7 @@ FROM dpage/pgadmin4:7.4
 # dpage/pgadmin4
 
 # mysql
-FROM mysql:8.0.33
+FROM mysql:8.0.34
 # mysql
 
 # mariadb
@@ -415,7 +415,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.54.4
+FROM ghost:5.55.0
 # ghost
 
 # bitnami/ghost
@@ -431,11 +431,11 @@ FROM nocodb/nocodb:0.109.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.6.1
+FROM metabase/metabase:v0.46.6.2
 # metabase/metabase
 
 # docker
-FROM docker:24.0.4-dind
+FROM docker:24.0.5-dind
 # docker
 
 # podman/stable
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.8
+FROM quay.io/argoproj/argocd:v2.7.9
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -807,7 +807,7 @@ FROM azul/zulu-openjdk:20.0.2-20.32.11
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:20.0.1_9-jdk-jammy
+FROM eclipse-temurin:20.0.2_9-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
@@ -879,15 +879,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.7
+FROM wiretrustee/dashboard:v1.15.8
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.10
+FROM netbirdio/signal:0.21.11
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.10
+FROM netbirdio/management:0.21.11
 # netbirdio/management
 
 # coturn/coturn
