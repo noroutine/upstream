@@ -243,7 +243,7 @@ FROM dpage/pgadmin4:7.4
 # dpage/pgadmin4
 
 # mysql
-FROM mysql:8.0.33
+FROM mysql:8.0.34
 # mysql
 
 # mariadb
