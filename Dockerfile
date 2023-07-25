@@ -947,7 +947,7 @@ FROM velero/velero-plugin-for-csi:v0.5.0
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.7.0
+FROM velero/velero-plugin-for-aws:v1.7.1
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
