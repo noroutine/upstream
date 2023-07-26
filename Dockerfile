@@ -491,7 +491,7 @@ FROM bitnami/spark:3.4.1-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.45.0-debian-11-r0
+FROM bitnami/prometheus:2.46.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -507,7 +507,7 @@ FROM bitnami/blackbox-exporter:0.24.0-debian-11-r3
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.13.1-debian-11-r1
+FROM bitnami/postgres-exporter:0.13.2-debian-11-r1
 # bitnami/postgres-exporter
 
 # bitnami/redis
@@ -811,7 +811,7 @@ FROM eclipse-temurin:20.0.2_9-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.8.0
+FROM elastic/eck-operator:2.9.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -1035,7 +1035,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.14.0
+FROM hashicorp/vault:1.14.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s

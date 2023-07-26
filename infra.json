@@ -1,5 +1,5 @@
 {
-  "version": "d67d7e71",
+  "version": "4e2d83fa",
   "upstream": {
     "images": [
       "debian:bookworm-20230703-slim",
@@ -125,11 +125,11 @@
       "caprover/caprover:1.10.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.4.1-debian-11-r4",
-      "bitnami/prometheus:2.45.0-debian-11-r0",
+      "bitnami/prometheus:2.46.0-debian-11-r0",
       "bitnami/prometheus-operator:0.66.0-debian-11-r0",
       "bitnami/node-exporter:1.6.1-debian-11-r0",
       "bitnami/blackbox-exporter:0.24.0-debian-11-r3",
-      "bitnami/postgres-exporter:0.13.1-debian-11-r1",
+      "bitnami/postgres-exporter:0.13.2-debian-11-r1",
       "bitnami/redis:7.0.12-debian-11-r0",
       "bitnami/redis-exporter:1.51.0-debian-11-r0",
       "bitnami/postgresql:10.23.0-debian-11-r0",
@@ -205,7 +205,7 @@
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:20.0.2-20.32.11",
       "eclipse-temurin:20.0.2_9-jdk-jammy",
-      "elastic/eck-operator:2.8.0",
+      "elastic/eck-operator:2.9.0",
       "louislam/uptime-kuma:1.22.1-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.70.2",
@@ -261,7 +261,7 @@
       "hashicorp/consul:1.16.0",
       "hashicorp/consul-k8s-control-plane:1.2.0",
       "envoyproxy/envoy-alpine:v1.21.6",
-      "hashicorp/vault:1.14.0",
+      "hashicorp/vault:1.14.1",
       "hashicorp/vault-k8s:1.2.1",
       "hashicorp/vault-csi-provider:1.4.0",
       "quay.io/strimzi/operator:0.36.0-0",
