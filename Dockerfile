@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.66.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.0.2
+FROM grafana/grafana:10.0.3
 # grafana/grafana
 
 # grafana/loki
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.32
+FROM stakater/reloader:v1.0.33
 # stakater/reloader
 
 # jimmidyson/configmap-reload
