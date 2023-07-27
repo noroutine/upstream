@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.58.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.19
+FROM squidfunk/mkdocs-material:9.1.20
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -239,7 +239,7 @@ FROM wordpress:6.2.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.4
+FROM dpage/pgadmin4:7.5
 # dpage/pgadmin4
 
 # mysql
@@ -855,7 +855,7 @@ FROM puppet/puppetdb:7.10.0
 # puppet/puppetdb
 
 # voxpupuli/puppetboard
-FROM ghcr.io/voxpupuli/puppetboard:4.3.0
+FROM ghcr.io/voxpupuli/puppetboard:5.0.0
 # voxpupuli/puppetboard
 
 # puppet/r10k
@@ -987,11 +987,11 @@ FROM registry.k8s.io/git-sync/git-sync:v3.6.8
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.11.1
+FROM ghcr.io/kedacore/keda:2.11.2
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.1
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.2
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
