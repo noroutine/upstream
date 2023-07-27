@@ -515,7 +515,7 @@ FROM bitnami/redis:7.0.12-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.51.0-debian-11-r0
+FROM bitnami/redis-exporter:1.52.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -599,7 +599,7 @@ FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.0.2-debian-11-r0
+FROM bitnami/grafana:10.0.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -739,7 +739,7 @@ FROM listmonk/listmonk:v2.4.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.29.0
+FROM vaultwarden/server:1.29.1
 # vaultwarden/server
 
 # boky/postfix
@@ -791,7 +791,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.12.1
+FROM gcr.io/kaniko-project/executor:v1.13.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.415-jdk17
+FROM jenkins/jenkins:2.416-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -995,19 +995,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.12.2
+FROM quay.io/jetstack/cert-manager-controller:v1.12.3
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.12.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.12.3
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.12.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.12.3
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.12.2
+FROM quay.io/jetstack/cert-manager-ctl:v1.12.3
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
