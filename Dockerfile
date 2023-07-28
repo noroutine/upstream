@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20230703-slim
+FROM debian:bookworm-20230725-slim
 # debian
 
 # ubuntu
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.58.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.20
+FROM squidfunk/mkdocs-material:9.1.21
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -327,7 +327,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.9.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.10.0
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.55.0
+FROM ghost:5.55.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.55.1-debian-11-r0
+FROM bitnami/ghost:5.55.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -551,7 +551,7 @@ FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:21.1.2-debian-11-r0
+FROM bitnami/keycloak:22.0.1-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -559,7 +559,7 @@ FROM bitnami/keycloak-config-cli:5.6.1-debian-11-r3
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:10.11.4-debian-11-r0
+FROM bitnami/mariadb:11.0.2-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
