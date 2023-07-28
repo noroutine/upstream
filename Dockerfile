@@ -319,7 +319,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.37.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.51.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.51.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -335,11 +335,11 @@ FROM summerwind/actions-runner-controller:v0.27.4
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.306.0-ubuntu-22.04
+FROM summerwind/actions-runner:v2.307.1-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.306.0-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.307.1-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy

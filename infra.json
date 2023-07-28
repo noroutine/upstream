@@ -1,5 +1,5 @@
 {
-  "version": "464d9b4a",
+  "version": "edccaa71",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -82,12 +82,12 @@
       "gitlab/gitlab-runner:alpine3.18-v16.2.0",
       "gitlab/gitlab-ce:16.2.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.37.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.51.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.51.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.2.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v1.10.0",
       "summerwind/actions-runner-controller:v0.27.4",
-      "summerwind/actions-runner:v2.306.0-ubuntu-22.04",
-      "summerwind/actions-runner-dind:v2.306.0-ubuntu-22.04",
+      "summerwind/actions-runner:v2.307.1-ubuntu-22.04",
+      "summerwind/actions-runner-dind:v2.307.1-ubuntu-22.04",
       "quay.io/brancz/kube-rbac-proxy:v0.14.2",
       "jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab",
       "noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b",
