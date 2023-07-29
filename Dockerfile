@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.66.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.67.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.66.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.67.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -207,7 +207,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.47.2
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.114
+FROM ghcr.io/prymitive/karma:v0.115
 # prymitive/karma
 
 # cortexproject/cortex
@@ -251,7 +251,7 @@ FROM mariadb:10.11.4-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.10.0
+FROM mccutchen/go-httpbin:v2.11.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -495,7 +495,7 @@ FROM bitnami/prometheus:2.46.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.66.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.67.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -907,7 +907,7 @@ FROM jenkins/agent:3107.v665000b_51092-16-jdk17
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.6
+FROM netboxcommunity/netbox:v3.5.7
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -983,7 +983,7 @@ FROM apache/airflow:2.6.3-python3.10
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v3.6.8
+FROM registry.k8s.io/git-sync/git-sync:v3.6.9
 # git-sync/git-sync
 
 # kedacore/keda
