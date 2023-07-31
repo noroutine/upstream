@@ -1,5 +1,5 @@
 {
-  "version": "6e26967d",
+  "version": "019ad0df",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -153,7 +153,7 @@
       "bitnami/metallb-controller:0.13.10-debian-11-r3",
       "bitnami/metallb-speaker:0.13.10-debian-11-r3",
       "bitnami/grafana:10.0.3-debian-11-r0",
-      "bitnami/grafana-image-renderer:3.7.1-debian-11-r2",
+      "bitnami/grafana-image-renderer:3.7.2-debian-11-r2",
       "bitnami/consul:1.16.0-debian-11-r0",
       "bitnami/nats:2.9.20-debian-11-r0",
       "bitnami/kube-state-metrics:2.9.2-debian-11-r0",
