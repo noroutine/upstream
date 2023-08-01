@@ -419,7 +419,7 @@ FROM ghost:5.55.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.55.2-debian-11-r0
+FROM bitnami/ghost:5.57.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.9
+FROM quay.io/argoproj/argocd:v2.7.10
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.20.4
+FROM gravitl/netmaker:v0.20.5
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.20.4
+FROM gravitl/netmaker-ui:v0.20.5
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -863,7 +863,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # restic/restic
-FROM restic/restic:0.15.2
+FROM restic/restic:0.16.0
 # restic/restic
 
 # coredns/coredns
@@ -879,7 +879,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.8
+FROM wiretrustee/dashboard:v1.15.10
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -1047,11 +1047,11 @@ FROM hashicorp/vault-csi-provider:1.4.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.36.0-0
+FROM quay.io/strimzi/operator:0.36.1-0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.36.0-0-kafka-3.4.1
+FROM quay.io/strimzi/kafka:0.36.1-0-kafka-3.4.1
 # strimzi/kafka
 
 # pause
