@@ -67,11 +67,11 @@ FROM python:3.11.4-slim-bookworm
 # python
 
 # golang
-FROM golang:1.20.6-bookworm
+FROM golang:1.20.7-bookworm
 # golang
 
 # golang
-FROM golang:1.20.6-alpine3.18
+FROM golang:1.20.7-alpine3.18
 # golang
 
 # traefik
@@ -311,7 +311,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.2.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.2.1-ce.0
+FROM gitlab/gitlab-ce:16.2.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -419,7 +419,7 @@ FROM ghost:5.55.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.57.0-debian-11-r0
+FROM bitnami/ghost:5.57.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -439,7 +439,7 @@ FROM docker:24.0.5-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.5.1
+FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
@@ -655,7 +655,7 @@ FROM bitnami/sealed-secrets-controller:v0.23.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.43.1-debian-11-r0
+FROM bitnami/trivy:0.44.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.4-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.43.1
+FROM aquasec/trivy:0.44.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.10
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.21.11
+FROM netbirdio/signal:0.22.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.21.11
+FROM netbirdio/management:0.22.0
 # netbirdio/management
 
 # coturn/coturn
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.416-jdk17
+FROM jenkins/jenkins:2.417-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
