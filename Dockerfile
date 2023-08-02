@@ -427,7 +427,7 @@ FROM matomo:4.15.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.109.5
+FROM nocodb/nocodb:0.109.6
 # nocodb/nocodb
 
 # metabase/metabase
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.30.1
+FROM hasura/graphql-engine:v2.31.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
