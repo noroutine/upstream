@@ -99,7 +99,7 @@ FROM postgres:15.3-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.10.0
+FROM atlassian/jira-software:9.10.1
 # atlassian/jira-software
 
 # nextcloud
@@ -243,7 +243,7 @@ FROM dpage/pgadmin4:7.5
 # dpage/pgadmin4
 
 # mysql
-FROM mysql:8.0.34
+FROM mysql:8.1.0
 # mysql
 
 # mariadb
@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.55.2
+FROM ghost:5.57.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.57.1-debian-11-r0
+FROM bitnami/ghost:5.57.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.10
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.22.0
+FROM netbirdio/signal:0.22.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.22.0
+FROM netbirdio/management:0.22.1
 # netbirdio/management
 
 # coturn/coturn
