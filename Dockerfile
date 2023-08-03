@@ -47,7 +47,7 @@ FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:c7c9e01f525b7b71c896947f93c1886f61cf600947fe9c6f52bb89306e9d837c
+FROM buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff8872826cf7776d8254e736
 # buildpack-deps
 
 # buildpack-deps
@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.67.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.67.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.67.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -319,7 +319,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.37.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.51.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.52.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk

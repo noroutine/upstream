@@ -1,5 +1,5 @@
 {
-  "version": "8cf3ce8a",
+  "version": "06a49c7d",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -14,7 +14,7 @@
       "gcr.io/distroless/cc-debian11",
       "gcr.io/distroless/nodejs-debian11",
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
-      "buildpack-deps:focal@sha256:c7c9e01f525b7b71c896947f93c1886f61cf600947fe9c6f52bb89306e9d837c",
+      "buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff8872826cf7776d8254e736",
       "buildpack-deps:jammy@sha256:8f28bd087741849791b564aea220968c88f2cace4063336681cd238858e05a79",
       "php:8.2.8-apache-bookworm",
       "python:3.11.4-bookworm",
@@ -39,8 +39,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.24.0",
       "quay.io/prometheus/snmp-exporter:v0.22.0",
       "quay.io/prometheus/pushgateway:v1.6.0",
-      "quay.io/prometheus-operator/prometheus-operator:v0.67.0",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.67.0",
+      "quay.io/prometheus-operator/prometheus-operator:v0.67.1",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1",
       "grafana/grafana:10.0.3",
       "grafana/loki:2.8.3",
       "grafana/loki-canary:2.8.3",
@@ -82,7 +82,7 @@
       "gitlab/gitlab-runner:alpine3.18-v16.2.0",
       "gitlab/gitlab-ce:16.2.2-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.37.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.51.1",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.52.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.2.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",
       "summerwind/actions-runner-controller:v0.27.4",
