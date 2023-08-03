@@ -883,7 +883,7 @@ FROM wiretrustee/dashboard:v1.15.10
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.22.0
+FROM netbirdio/signal:0.22.1
 # netbirdio/signal
 
 # netbirdio/management
