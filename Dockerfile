@@ -311,7 +311,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.2.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.2.2-ce.0
+FROM gitlab/gitlab-ce:16.2.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.57.2
+FROM ghost:5.57.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.57.2-debian-11-r0
+FROM bitnami/ghost:5.57.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -495,7 +495,7 @@ FROM bitnami/prometheus:2.46.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.67.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.67.1-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -667,7 +667,7 @@ FROM aquasec/trivy:0.44.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.1
+FROM ghcr.io/external-secrets/external-secrets:v0.9.2
 # external-secrets/external-secrets
 
 # minio/console
@@ -783,7 +783,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.6.4-alpine
+FROM caddy:2.7.2-alpine
 # caddy
 
 # outline/shadowbox
