@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.57.3
+FROM ghost:5.58.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.57.3-debian-11-r0
+FROM bitnami/ghost:5.58.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -611,7 +611,7 @@ FROM bitnami/consul:1.16.0-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.20-debian-11-r0
+FROM bitnami/nats:2.9.21-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.34
+FROM stakater/reloader:v1.0.35
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -747,7 +747,7 @@ FROM boky/postfix:v3.6.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.3.1
+FROM cupcakearmy/cryptgeon:2.3.2
 # cupcakearmy/cryptgeon
 
 # memcached
