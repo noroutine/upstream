@@ -315,7 +315,7 @@ FROM gitlab/gitlab-ce:16.2.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.37.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.38.1
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -583,7 +583,7 @@ FROM bitnami/minio:2023.7.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.7.21-debian-11-r0
+FROM bitnami/minio-client:2023.8.1-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -879,15 +879,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.10
+FROM wiretrustee/dashboard:v1.15.11
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.22.1
+FROM netbirdio/signal:0.22.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.22.1
+FROM netbirdio/management:0.22.2
 # netbirdio/management
 
 # coturn/coturn
@@ -927,7 +927,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.15.1
+FROM locustio/locust:2.16.1
 # locustio/locust
 
 # postgrest/postgrest
