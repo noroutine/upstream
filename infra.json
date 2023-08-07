@@ -1,5 +1,5 @@
 {
-  "version": "17b299b8",
+  "version": "065771b8",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -195,7 +195,7 @@
       "nats:2.9.20-alpine3.18",
       "natsio/prometheus-nats-exporter:0.12.0",
       "natsio/nats-server-config-reloader:0.12.0",
-      "masipcat/wireguard-go:0.0.20220316",
+      "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.15-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.7.2-alpine",

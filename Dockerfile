@@ -771,7 +771,7 @@ FROM natsio/nats-server-config-reloader:0.12.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
-FROM masipcat/wireguard-go:0.0.20220316
+FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
