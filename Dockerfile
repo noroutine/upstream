@@ -11,7 +11,7 @@ FROM ubuntu:focal-20230624
 # ubuntu
 
 # alpine
-FROM alpine:3.18.2
+FROM alpine:3.18.3
 # alpine
 
 # busybox
@@ -319,7 +319,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.38.1
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.52.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.53.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.7.10
+FROM quay.io/argoproj/argocd:v2.8.0
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -759,7 +759,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.20-alpine3.18
+FROM nats:2.9.21-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -871,7 +871,7 @@ FROM registry.k8s.io/coredns/coredns:v1.10.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.15.3.2-b1
+FROM yugabytedb/yugabyte:2.16.6.1-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
