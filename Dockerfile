@@ -423,7 +423,7 @@ FROM bitnami/ghost:5.58.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.15.0-apache
+FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
