@@ -1023,7 +1023,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.16.0
+FROM hashicorp/consul:1.16.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
