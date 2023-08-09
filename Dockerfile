@@ -67,11 +67,11 @@ FROM python:3.11.4-slim-bookworm
 # python
 
 # golang
-FROM golang:1.20.7-bookworm
+FROM golang:1.21.0-bookworm
 # golang
 
 # golang
-FROM golang:1.20.7-alpine3.18
+FROM golang:1.21.0-alpine3.18
 # golang
 
 # traefik
@@ -303,11 +303,11 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.16.5
+FROM buildpacksio/lifecycle:0.17.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.2.0
+FROM gitlab/gitlab-runner:alpine3.18-v16.2.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -431,7 +431,7 @@ FROM nocodb/nocodb:0.109.6
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.6.4
+FROM metabase/metabase:v0.46.7
 # metabase/metabase
 
 # docker
@@ -607,7 +607,7 @@ FROM bitnami/grafana-image-renderer:3.7.2-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.16.0-debian-11-r0
+FROM bitnami/consul:1.16.1-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.11
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.22.2
+FROM netbirdio/signal:0.22.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.22.2
+FROM netbirdio/management:0.22.3
 # netbirdio/management
 
 # coturn/coturn
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.417-jdk17
+FROM jenkins/jenkins:2.418-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1023,7 +1023,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.16.0
+FROM hashicorp/consul:1.16.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
