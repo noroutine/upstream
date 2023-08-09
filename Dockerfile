@@ -107,7 +107,7 @@ FROM nextcloud:27.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.8.1
+FROM haproxytech/haproxy-debian:2.8.2
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -423,7 +423,7 @@ FROM bitnami/ghost:5.58.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.15.0-apache
+FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
@@ -827,7 +827,7 @@ FROM outlinewiki/outline:0.70.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.23.6
+FROM syncthing/syncthing:1.23.7
 # syncthing/syncthing
 
 # jellyfin/jellyfin
