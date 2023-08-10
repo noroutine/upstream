@@ -1,5 +1,5 @@
 {
-  "version": "a1778ba5",
+  "version": "3d4c2414",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -148,7 +148,7 @@
       "bitnami/nginx-ingress-controller:1.8.1-debian-11-r1",
       "bitnami/nginx:1.25.1-debian-11-r3",
       "bitnami/minio:2023.7.18-debian-11-r0",
-      "bitnami/minio-client:2023.8.1-debian-11-r0",
+      "bitnami/minio-client:2023.8.8-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r133",
       "bitnami/metallb-controller:0.13.10-debian-11-r3",
       "bitnami/metallb-speaker:0.13.10-debian-11-r3",
@@ -166,9 +166,9 @@
       "bitnami/kube-rbac-proxy:0.14.2-scratch-r0",
       "bitnami/openldap:2.6.4-debian-11-r3",
       "bitnami/sealed-secrets-controller:v0.23.0",
-      "bitnami/trivy:0.44.0-debian-11-r0",
+      "bitnami/trivy:0.44.1-debian-11-r0",
       "bitnami/kubectl:1.27.4-debian-11-r0",
-      "aquasec/trivy:0.44.0",
+      "aquasec/trivy:0.44.1",
       "ghcr.io/external-secrets/external-secrets:v0.9.2",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",

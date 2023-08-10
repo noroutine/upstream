@@ -583,7 +583,7 @@ FROM bitnami/minio:2023.7.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.8.1-debian-11-r0
+FROM bitnami/minio-client:2023.8.8-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -655,7 +655,7 @@ FROM bitnami/sealed-secrets-controller:v0.23.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.44.0-debian-11-r0
+FROM bitnami/trivy:0.44.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.4-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.44.0
+FROM aquasec/trivy:0.44.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
