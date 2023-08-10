@@ -1,5 +1,5 @@
 {
-  "version": "ba28f002",
+  "version": "a1778ba5",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -61,7 +61,7 @@
       "docker.elastic.co/kibana/kibana:8.9.0",
       "alerta/alerta-web:9.0.1",
       "mongo:6.0.8-jammy",
-      "wordpress:6.2.2-apache",
+      "wordpress:6.3.0-apache",
       "dpage/pgadmin4:7.5",
       "mysql:8.1.0",
       "mariadb:10.11.4-jammy",
