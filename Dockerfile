@@ -319,7 +319,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.38.1
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.53.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.54.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -375,7 +375,7 @@ FROM jupyterhub/k8s-singleuser-sample:2.0.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.5
+FROM jupyterhub/configurable-http-proxy:4.5.6
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.35
+FROM stakater/reloader:v1.0.36
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -735,7 +735,7 @@ FROM redis:7.0.12-bookworm
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.4.0
+FROM listmonk/listmonk:v2.5.0
 # listmonk/listmonk
 
 # vaultwarden/server
@@ -931,7 +931,7 @@ FROM locustio/locust:2.16.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v11.1.0
+FROM postgrest/postgrest:v11.2.0
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
