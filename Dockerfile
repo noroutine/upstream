@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.10.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:27.0.1-apache
+FROM nextcloud:27.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
