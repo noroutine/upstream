@@ -167,7 +167,7 @@ FROM grafana/loki-canary:2.8.4
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.8.3
+FROM grafana/promtail:2.8.4
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.57.3
+FROM ghost:5.59.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.58.0-debian-11-r0
+FROM bitnami/ghost:5.59.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -1027,7 +1027,7 @@ FROM hashicorp/consul:1.16.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.2.0
+FROM hashicorp/consul-k8s-control-plane:1.2.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -1051,7 +1051,7 @@ FROM quay.io/strimzi/operator:0.36.1-0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.36.1-0-kafka-3.4.1
+FROM quay.io/strimzi/kafka:0.36.1-0-kafka-3.5.1
 # strimzi/kafka
 
 # pause
