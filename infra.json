@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.274",
+  "version": "06cbc782",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -42,8 +42,8 @@
       "quay.io/prometheus-operator/prometheus-operator:v0.67.1",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1",
       "grafana/grafana:10.0.3",
-      "grafana/loki:2.8.3",
-      "grafana/loki-canary:2.8.3",
+      "grafana/loki:2.8.4",
+      "grafana/loki-canary:2.8.4",
       "grafana/promtail:2.8.3",
       "nginxinc/nginx-unprivileged:1.25.1-alpine-slim",
       "nginxinc/nginx-unprivileged:1.25.1-alpine-slim",
@@ -80,7 +80,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.17.0",
       "gitlab/gitlab-runner:alpine3.18-v16.2.1",
-      "gitlab/gitlab-ce:16.2.3-ce.0",
+      "gitlab/gitlab-ce:16.2.4-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.38.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.54.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.2.0",
@@ -106,7 +106,7 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.26.1",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.58.0",
+      "ghost:5.57.3",
       "bitnami/ghost:5.58.0-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.109.6",

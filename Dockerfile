@@ -159,11 +159,11 @@ FROM grafana/grafana:10.0.3
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.8.3
+FROM grafana/loki:2.8.4
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.8.3
+FROM grafana/loki-canary:2.8.4
 # grafana/loki-canary
 
 # grafana/promtail
@@ -311,7 +311,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.2.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.2.3-ce.0
+FROM gitlab/gitlab-ce:16.2.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -415,7 +415,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.58.0
+FROM ghost:5.57.3
 # ghost
 
 # bitnami/ghost
