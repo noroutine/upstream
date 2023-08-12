@@ -95,7 +95,7 @@ FROM quay.io/keycloak/keycloak:22.0.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:15.3-bookworm
+FROM postgres:15.4-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.10.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:27.0.1-apache
+FROM nextcloud:27.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -519,27 +519,27 @@ FROM bitnami/redis-exporter:1.52.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
-FROM bitnami/postgresql:10.23.0-debian-11-r0
+FROM bitnami/postgresql:10.23.0-debian-11-r3
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.20.0-debian-11-r6
+FROM bitnami/postgresql:11.21.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.15.0-debian-11-r6
+FROM bitnami/postgresql:12.16.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.11.0-debian-11-r6
+FROM bitnami/postgresql:13.12.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.8.0-debian-11-r5
+FROM bitnami/postgresql:14.9.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.3.0-debian-11-r6
+FROM bitnami/postgresql:15.4.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/tomcat
