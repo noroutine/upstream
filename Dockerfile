@@ -355,23 +355,23 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:2.0.0
+FROM jupyterhub/k8s-hub:3.0.0
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:2.0.0
+FROM jupyterhub/k8s-secret-sync:3.0.0
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:2.0.0
+FROM jupyterhub/k8s-network-tools:3.0.0
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:2.0.0
+FROM jupyterhub/k8s-image-awaiter:3.0.0
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:2.0.0
+FROM jupyterhub/k8s-singleuser-sample:3.0.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:hub-4.0.1
+FROM jupyter/base-notebook:2023-08-07
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:hub-4.0.1
+FROM jupyter/minimal-notebook:2023-08-07
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:hub-4.0.1
+FROM jupyter/r-notebook:2023-08-07
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:hub-4.0.1
+FROM jupyter/scipy-notebook:2023-08-07
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:hub-4.0.1
+FROM jupyter/tensorflow-notebook:2023-08-07
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:hub-4.0.1
+FROM jupyter/datascience-notebook:2023-08-07
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:hub-4.0.1
+FROM jupyter/pyspark-notebook:2023-08-07
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:hub-4.0.1
+FROM jupyter/all-spark-notebook:2023-08-07
 # jupyter/all-spark-notebook
 
 # rocker/shiny
