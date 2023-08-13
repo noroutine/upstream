@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.11
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.22.3
+FROM netbirdio/signal:0.22.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.22.3
+FROM netbirdio/management:0.22.4
 # netbirdio/management
 
 # coturn/coturn
