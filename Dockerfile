@@ -443,7 +443,7 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-13
+FROM jupyter/base-notebook:2023-08-14
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
