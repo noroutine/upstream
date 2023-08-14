@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.54.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.2.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.3.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-13
+FROM jupyter/base-notebook:2023-08-14
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-13
+FROM jupyter/minimal-notebook:2023-08-14
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-13
+FROM jupyter/r-notebook:2023-08-14
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-13
+FROM jupyter/scipy-notebook:2023-08-14
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-13
+FROM jupyter/tensorflow-notebook:2023-08-14
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-13
+FROM jupyter/datascience-notebook:2023-08-14
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-13
+FROM jupyter/pyspark-notebook:2023-08-14
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-13
+FROM jupyter/all-spark-notebook:2023-08-14
 # jupyter/all-spark-notebook
 
 # rocker/shiny
