@@ -419,7 +419,7 @@ FROM ghost:5.59.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.59.0-debian-11-r0
+FROM bitnami/ghost:5.59.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -735,7 +735,7 @@ FROM redis:7.0.12-bookworm
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.5.0
+FROM listmonk/listmonk:v2.5.1
 # listmonk/listmonk
 
 # vaultwarden/server

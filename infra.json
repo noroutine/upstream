@@ -1,5 +1,5 @@
 {
-  "version": "7fc9748c",
+  "version": "d33f1dd9",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -107,7 +107,7 @@
       "verdaccio/verdaccio:5.26.1",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.59.0",
-      "bitnami/ghost:5.59.0-debian-11-r0",
+      "bitnami/ghost:5.59.1-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.109.7",
       "metabase/metabase:v0.46.7",
@@ -186,7 +186,7 @@
       "quay.io/argoproj/workflow-controller:v3.4.9",
       "quay.io/argoproj/argoexec:v3.4.9",
       "redis:7.0.12-bookworm",
-      "listmonk/listmonk:v2.5.0",
+      "listmonk/listmonk:v2.5.1",
       "vaultwarden/server:1.29.1",
       "boky/postfix:v3.6.1",
       "cupcakearmy/cryptgeon:2.3.3",
