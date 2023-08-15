@@ -335,7 +335,7 @@ FROM summerwind/actions-runner-controller:v0.27.4
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.307.1-ubuntu-22.04
+FROM summerwind/actions-runner:v2.308.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
