@@ -543,7 +543,7 @@ FROM bitnami/postgresql:15.4.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.11-debian-11-r0
+FROM bitnami/tomcat:10.1.12-debian-11-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
