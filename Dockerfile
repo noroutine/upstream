@@ -7,7 +7,7 @@ FROM ubuntu:jammy-20230624
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230624
+FROM ubuntu:focal-20230801
 # ubuntu
 
 # alpine
@@ -247,7 +247,7 @@ FROM mysql:8.1.0
 # mysql
 
 # mariadb
-FROM mariadb:10.11.4-jammy
+FROM mariadb:11.0.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -427,7 +427,7 @@ FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.109.6
+FROM nocodb/nocodb:0.109.7
 # nocodb/nocodb
 
 # metabase/metabase
@@ -559,7 +559,7 @@ FROM bitnami/keycloak-config-cli:5.6.1-debian-11-r3
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.0.2-debian-11-r0
+FROM bitnami/mariadb:11.0.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -783,7 +783,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.7.2-alpine
+FROM caddy:2.7.3-alpine
 # caddy
 
 # outline/shadowbox
