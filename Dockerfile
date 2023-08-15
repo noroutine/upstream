@@ -906,6 +906,10 @@ FROM jenkins/jenkins:2.418-jdk17
 FROM jenkins/agent:3107.v665000b_51092-16-jdk17
 # jenkins/agent
 
+# jenkins-kubernetes-operator/operator
+FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2
+# jenkins-kubernetes-operator/operator
+
 # netboxcommunity/netbox
 FROM netboxcommunity/netbox:v3.5.7
 # netboxcommunity/netbox

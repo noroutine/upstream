@@ -1,5 +1,5 @@
 {
-  "version": "e34ed2e7",
+  "version": "1915c041",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -229,6 +229,7 @@
       "firezone/firezone:0.7.32",
       "jenkins/jenkins:2.418-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
+      "quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2",
       "netboxcommunity/netbox:v3.5.7",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:v1.0.0",
