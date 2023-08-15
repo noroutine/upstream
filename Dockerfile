@@ -543,7 +543,7 @@ FROM bitnami/postgresql:15.4.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.11-debian-11-r0
+FROM bitnami/tomcat:10.1.12-debian-11-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -667,7 +667,7 @@ FROM aquasec/trivy:0.44.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.2
+FROM ghcr.io/external-secrets/external-secrets:v0.9.3
 # external-secrets/external-secrets
 
 # minio/console
