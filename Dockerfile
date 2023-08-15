@@ -355,23 +355,23 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.0.0
+FROM jupyterhub/k8s-hub:3.0.1
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.0.0
+FROM jupyterhub/k8s-secret-sync:3.0.1
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.0.0
+FROM jupyterhub/k8s-network-tools:3.0.1
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.0.0
+FROM jupyterhub/k8s-image-awaiter:3.0.1
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:3.0.0
+FROM jupyterhub/k8s-singleuser-sample:3.0.1
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
@@ -386,9 +386,9 @@ FROM registry.k8s.io/kube-scheduler:v1.23.10
 FROM registry.k8s.io/pause:3.9
 # pause
 
-# noroutine/repo2docker
-FROM quay.io/noroutine/repo2docker:2022.10.0-92.g4cd300b
-# noroutine/repo2docker
+# jupyterhub/repo2docker
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-8.gd414e99
+# jupyterhub/repo2docker
 
 # pihole/pihole
 FROM pihole/pihole:2023.05.2
