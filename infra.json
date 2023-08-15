@@ -1,5 +1,5 @@
 {
-  "version": "601a24b8",
+  "version": "272bf855",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -182,9 +182,9 @@
       "quay.io/argoproj/argocd:v2.8.0",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.8.0",
-      "quay.io/argoproj/argocli:v3.4.9",
-      "quay.io/argoproj/workflow-controller:v3.4.9",
-      "quay.io/argoproj/argoexec:v3.4.9",
+      "quay.io/argoproj/argocli:v3.4.10",
+      "quay.io/argoproj/workflow-controller:v3.4.10",
+      "quay.io/argoproj/argoexec:v3.4.10",
       "redis:7.0.12-bookworm",
       "listmonk/listmonk:v2.5.1",
       "vaultwarden/server:1.29.1",
