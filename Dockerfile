@@ -511,7 +511,7 @@ FROM bitnami/postgres-exporter:0.13.2-debian-11-r1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.0.12-debian-11-r0
+FROM bitnami/redis:7.2.0-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -747,7 +747,7 @@ FROM boky/postfix:v3.6.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.3.2
+FROM cupcakearmy/cryptgeon:2.3.3
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -899,7 +899,7 @@ FROM firezone/firezone:0.7.32
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.418-jdk17
+FROM jenkins/jenkins:2.419-jdk17
 # jenkins/jenkins
 
 # jenkins/agent

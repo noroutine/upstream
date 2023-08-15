@@ -1,5 +1,5 @@
 {
-  "version": "b97fd390",
+  "version": "53258217",
   "upstream": {
     "images": [
       "debian:bookworm-20230725-slim",
@@ -130,7 +130,7 @@
       "bitnami/node-exporter:1.6.1-debian-11-r0",
       "bitnami/blackbox-exporter:0.24.0-debian-11-r3",
       "bitnami/postgres-exporter:0.13.2-debian-11-r1",
-      "bitnami/redis:7.0.12-debian-11-r0",
+      "bitnami/redis:7.2.0-debian-11-r0",
       "bitnami/redis-exporter:1.52.0-debian-11-r0",
       "bitnami/postgresql:10.23.0-debian-11-r3",
       "bitnami/postgresql:11.21.0-debian-11-r0",
@@ -189,7 +189,7 @@
       "listmonk/listmonk:v2.5.0",
       "vaultwarden/server:1.29.1",
       "boky/postfix:v3.6.1",
-      "cupcakearmy/cryptgeon:2.3.2",
+      "cupcakearmy/cryptgeon:2.3.3",
       "memcached:1.6.21-alpine3.18",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.9.21-alpine3.18",
@@ -227,7 +227,7 @@
       "netbirdio/management:0.22.4",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.32",
-      "jenkins/jenkins:2.418-jdk17",
+      "jenkins/jenkins:2.419-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2",
       "netboxcommunity/netbox:v3.5.7",
