@@ -1,9 +1,9 @@
 # debian
-FROM debian:bookworm-20230725-slim
+FROM debian:bookworm-20230814-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230624
+FROM ubuntu:jammy-20230804
 # ubuntu
 
 # ubuntu
@@ -183,7 +183,7 @@ FROM httpd:2.4.57-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.11-jdk17-temurin-jammy
+FROM tomcat:10.1.12-jdk17-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -231,7 +231,7 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.8-jammy
+FROM mongo:6.0.9-jammy
 # mongo
 
 # wordpress
@@ -791,7 +791,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.13.0
+FROM gcr.io/kaniko-project/executor:v1.14.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -879,7 +879,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.11
+FROM wiretrustee/dashboard:v1.15.13
 # wiretrustee/dashboard
 
 # netbirdio/signal
