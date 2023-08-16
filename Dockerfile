@@ -3,7 +3,7 @@ FROM debian:bookworm-20230725-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230624
+FROM ubuntu:jammy-20230804
 # ubuntu
 
 # ubuntu
