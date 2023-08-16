@@ -51,7 +51,7 @@ FROM buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff88728
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:8f28bd087741849791b564aea220968c88f2cace4063336681cd238858e05a79
+FROM buildpack-deps:jammy@sha256:9af1133fb54c5bfacb532e8402e592546f4e88452f8acb2f5842f13c10ad3d36
 # buildpack-deps
 
 # php
@@ -911,7 +911,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.7
+FROM netboxcommunity/netbox:v3.5.8
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
