@@ -139,7 +139,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.24.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.22.0
+FROM quay.io/prometheus/snmp-exporter:v0.23.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
@@ -415,7 +415,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.59.0
+FROM ghost:5.59.1
 # ghost
 
 # bitnami/ghost
@@ -431,7 +431,7 @@ FROM nocodb/nocodb:0.109.7
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.46.7
+FROM metabase/metabase:v0.47.0
 # metabase/metabase
 
 # docker
@@ -583,7 +583,7 @@ FROM bitnami/minio:2023.7.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.8.8-debian-11-r0
+FROM bitnami/minio-client:2023.8.15-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -731,7 +731,7 @@ FROM quay.io/argoproj/argoexec:v3.4.10
 # argoproj/argoexec
 
 # redis
-FROM redis:7.0.12-bookworm
+FROM redis:7.2.0-bookworm
 # redis
 
 # listmonk/listmonk
@@ -775,7 +775,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.15-openssl
+FROM eclipse-mosquitto:2.0.16-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.20.5
+FROM gravitl/netmaker:v0.20.6
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.20.5
+FROM gravitl/netmaker-ui:v0.20.6
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -867,11 +867,11 @@ FROM restic/restic:0.16.0
 # restic/restic
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.10.1
+FROM registry.k8s.io/coredns/coredns:v1.11.0
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.16.6.1-b1
+FROM yugabytedb/yugabyte:2.18.2.1-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
@@ -883,11 +883,11 @@ FROM wiretrustee/dashboard:v1.15.13
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.22.4
+FROM netbirdio/signal:0.22.6
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.22.4
+FROM netbirdio/management:0.22.6
 # netbirdio/management
 
 # coturn/coturn
@@ -1043,7 +1043,7 @@ FROM hashicorp/vault:1.14.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.2.1
+FROM hashicorp/vault-k8s:1.3.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
