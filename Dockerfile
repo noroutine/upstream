@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.31.0
+FROM hasura/graphql-engine:v2.32.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -815,7 +815,7 @@ FROM elastic/eck-operator:2.9.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.22.1-alpine
+FROM louislam/uptime-kuma:1.23.0-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint

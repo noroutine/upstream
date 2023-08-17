@@ -1,5 +1,5 @@
 {
-  "version": "32edfcb1",
+  "version": "7efc4d13",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -173,7 +173,7 @@
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.4",
-      "hasura/graphql-engine:v2.31.0",
+      "hasura/graphql-engine:v2.32.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.36",
       "jimmidyson/configmap-reload:v0.9.0",
@@ -206,7 +206,7 @@
       "azul/zulu-openjdk:20.0.2-20.32.11",
       "eclipse-temurin:20.0.2_9-jdk-jammy",
       "elastic/eck-operator:2.9.0",
-      "louislam/uptime-kuma:1.22.1-alpine",
+      "louislam/uptime-kuma:1.23.0-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.70.2",
       "syncthing/syncthing:1.23.7",
