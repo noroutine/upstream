@@ -1,5 +1,5 @@
 {
-  "version": "7efc4d13",
+  "version": "0b018e59",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -16,7 +16,7 @@
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
       "buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff8872826cf7776d8254e736",
       "buildpack-deps:jammy@sha256:9af1133fb54c5bfacb532e8402e592546f4e88452f8acb2f5842f13c10ad3d36",
-      "php:8.2.8-apache-bookworm",
+      "php:8.2.9-apache-bookworm",
       "python:3.11.4-bookworm",
       "python:3.11.4-slim-bookworm",
       "golang:1.21.0-bookworm",
@@ -198,7 +198,7 @@
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.16-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
-      "caddy:2.7.3-alpine",
+      "caddy:2.7.4-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
       "gcr.io/kaniko-project/executor:v1.14.0",
       "quay.io/iovisor/bpftrace:v0.18.0",
