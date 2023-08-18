@@ -1,5 +1,5 @@
 {
-  "version": "ecd2c217",
+  "version": "7bf84f82",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -208,7 +208,7 @@
       "elastic/eck-operator:2.9.0",
       "louislam/uptime-kuma:1.23.0-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.70.2",
+      "outlinewiki/outline:0.71.0",
       "syncthing/syncthing:1.23.7",
       "jellyfin/jellyfin:10.8.10",
       "gravitl/netmaker:v0.20.6",
@@ -248,7 +248,7 @@
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.1",
       "velero/velero-restic-restore-helper:v1.9.7",
       "bitnami/kubectl:1.27.4-debian-11-r0",
-      "apache/airflow:2.6.3-python3.10",
+      "apache/airflow:2.7.0-python3.11",
       "registry.k8s.io/git-sync/git-sync:v3.6.9",
       "ghcr.io/kedacore/keda:2.11.2",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.11.2",
