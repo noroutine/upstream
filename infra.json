@@ -1,5 +1,5 @@
 {
-  "version": "0b018e59",
+  "version": "4e0b488a",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -60,7 +60,7 @@
       "docker.elastic.co/logstash/logstash:8.9.1",
       "docker.elastic.co/kibana/kibana:8.9.1",
       "alerta/alerta-web:9.0.1",
-      "mongo:6.0.9-jammy",
+      "mongo:7.0.0-jammy",
       "wordpress:6.3.0-apache",
       "dpage/pgadmin4:7.5",
       "mysql:8.1.0",
