@@ -231,7 +231,7 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:6.0.9-jammy
+FROM mongo:7.0.0-jammy
 # mongo
 
 # wordpress
