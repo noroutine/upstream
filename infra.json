@@ -1,5 +1,5 @@
 {
-  "version": "4e0b488a",
+  "version": "ecd2c217",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -268,7 +268,7 @@
       "quay.io/strimzi/operator:0.36.1",
       "quay.io/strimzi/kafka:0.36.1-kafka-3.5.1",
       "registry.k8s.io/pause:3.9",
-      "registry.k8s.io/coredns/coredns:v1.10.1",
+      "registry.k8s.io/coredns/coredns:v1.11.0",
       "registry.k8s.io/kube-apiserver:v1.28.0",
       "registry.k8s.io/kube-proxy:v1.28.0",
       "registry.k8s.io/kube-scheduler:v1.28.0",
