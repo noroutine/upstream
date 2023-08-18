@@ -823,7 +823,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.70.2
+FROM outlinewiki/outline:0.71.0
 # outlinewiki/outline
 
 # syncthing/syncthing
