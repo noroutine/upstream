@@ -987,7 +987,7 @@ FROM apache/airflow:2.7.0-python3.11
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v3.6.9
+FROM registry.k8s.io/git-sync/git-sync:v4.0.0
 # git-sync/git-sync
 
 # kedacore/keda
