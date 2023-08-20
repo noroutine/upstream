@@ -1,5 +1,5 @@
 {
-  "version": "2d124b34",
+  "version": "38cfba83",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -81,7 +81,7 @@
       "buildpacksio/lifecycle:0.17.0",
       "gitlab/gitlab-runner:alpine3.18-v16.2.1",
       "gitlab/gitlab-ce:16.2.4-ce.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.38.1",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.39.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.54.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.3.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",
@@ -249,7 +249,7 @@
       "velero/velero-restic-restore-helper:v1.9.7",
       "bitnami/kubectl:1.27.4-debian-11-r0",
       "apache/airflow:2.7.0-python3.11",
-      "registry.k8s.io/git-sync/git-sync:v3.6.9",
+      "registry.k8s.io/git-sync/git-sync:v4.0.0",
       "ghcr.io/kedacore/keda:2.11.2",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.11.2",
       "quay.io/jetstack/cert-manager-controller:v1.12.3",
