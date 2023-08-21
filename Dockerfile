@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-14
+FROM jupyter/base-notebook:2023-08-20
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-14
+FROM jupyter/minimal-notebook:2023-08-20
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-14
+FROM jupyter/r-notebook:2023-08-20
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-14
+FROM jupyter/scipy-notebook:2023-08-20
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-14
+FROM jupyter/tensorflow-notebook:2023-08-20
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-14
+FROM jupyter/datascience-notebook:2023-08-20
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-14
+FROM jupyter/pyspark-notebook:2023-08-20
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-14
+FROM jupyter/all-spark-notebook:2023-08-20
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -575,7 +575,7 @@ FROM bitnami/nginx-ingress-controller:1.8.1-debian-11-r1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.1-debian-11-r3
+FROM bitnami/nginx:1.25.2-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.36
+FROM stakater/reloader:v1.0.38
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -833,6 +833,14 @@ FROM syncthing/syncthing:1.23.7
 # jellyfin/jellyfin
 FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
+
+# haveagitgat/tdarr
+FROM haveagitgat/tdarr:2.00.25
+# haveagitgat/tdarr
+
+# haveagitgat/tdarr_node
+FROM haveagitgat/tdarr_node:2.00.25
+# haveagitgat/tdarr_node
 
 # gravitl/netmaker
 FROM gravitl/netmaker:v0.20.6
