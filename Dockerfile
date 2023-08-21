@@ -283,7 +283,7 @@ FROM heroku/heroku:22-cnb
 # heroku/heroku
 
 # heroku/procfile-cnb
-FROM heroku/procfile-cnb:2.0.0
+FROM heroku/procfile-cnb:2.0.1
 # heroku/procfile-cnb
 
 # paketobuildpacks/builder
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-ce:16.2.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.39.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.40.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -419,7 +419,7 @@ FROM ghost:5.59.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.59.1-debian-11-r0
+FROM bitnami/ghost:5.59.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-20
+FROM jupyter/base-notebook:2023-08-21
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-20
+FROM jupyter/minimal-notebook:2023-08-21
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-20
+FROM jupyter/r-notebook:2023-08-21
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-20
+FROM jupyter/scipy-notebook:2023-08-21
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-20
+FROM jupyter/tensorflow-notebook:2023-08-21
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-20
+FROM jupyter/datascience-notebook:2023-08-21
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-20
+FROM jupyter/pyspark-notebook:2023-08-21
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-20
+FROM jupyter/all-spark-notebook:2023-08-21
 # jupyter/all-spark-notebook
 
 # rocker/shiny
