@@ -419,7 +419,7 @@ FROM ghost:5.59.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.59.2-debian-11-r0
+FROM bitnami/ghost:5.59.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -1267,7 +1267,7 @@ FROM longhornio/livenessprobe:v2.9.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.25
+FROM longhornio/support-bundle-kit:v0.0.27
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
