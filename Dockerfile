@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.59.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.1.21
+FROM squidfunk/mkdocs-material:9.2.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -171,11 +171,11 @@ FROM grafana/promtail:2.8.4
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.1-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.2-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.1-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.2-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -307,7 +307,7 @@ FROM buildpacksio/lifecycle:0.17.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.2.1
+FROM gitlab/gitlab-runner:alpine3.18-v16.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -415,7 +415,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.59.1
+FROM ghost:5.59.2
 # ghost
 
 # bitnami/ghost
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.8.0
+FROM quay.io/argoproj/argocd:v2.8.1
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
