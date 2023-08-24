@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.59.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.2.1
+FROM squidfunk/mkdocs-material:9.2.3
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.0.3
+FROM grafana/grafana:10.1.0
 # grafana/grafana
 
 # grafana/loki
@@ -599,7 +599,7 @@ FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.0.3-debian-11-r0
+FROM bitnami/grafana:10.1.0-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.32.0
+FROM hasura/graphql-engine:v2.32.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
