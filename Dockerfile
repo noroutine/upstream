@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.59.2
+FROM ghost:5.59.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.59.3-debian-11-r0
+FROM bitnami/ghost:5.59.4-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-21
+FROM jupyter/base-notebook:2023-08-23
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-21
+FROM jupyter/minimal-notebook:2023-08-23
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-21
+FROM jupyter/r-notebook:2023-08-23
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-21
+FROM jupyter/scipy-notebook:2023-08-23
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-21
+FROM jupyter/tensorflow-notebook:2023-08-23
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-21
+FROM jupyter/datascience-notebook:2023-08-23
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-21
+FROM jupyter/pyspark-notebook:2023-08-23
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-21
+FROM jupyter/all-spark-notebook:2023-08-23
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -583,7 +583,7 @@ FROM bitnami/minio:2023.7.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.8.15-debian-11-r0
+FROM bitnami/minio-client:2023.8.18-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -775,7 +775,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.16-openssl
+FROM eclipse-mosquitto:2.0.17-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
@@ -875,7 +875,7 @@ FROM restic/restic:0.16.0
 # restic/restic
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.11.0
+FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
@@ -887,7 +887,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.13
+FROM wiretrustee/dashboard:v1.15.14
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -1071,7 +1071,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.11.0
+FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
