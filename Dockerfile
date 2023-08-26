@@ -63,7 +63,7 @@ FROM python:3.11.5-bookworm
 # python
 
 # python
-FROM python:3.11.4-slim-bookworm
+FROM python:3.11.5-slim-bookworm
 # python
 
 # golang
@@ -407,7 +407,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.26.1
+FROM verdaccio/verdaccio:5.26.2
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-25
+FROM jupyter/base-notebook:2023-08-26
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-25
+FROM jupyter/minimal-notebook:2023-08-26
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-25
+FROM jupyter/r-notebook:2023-08-26
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-25
+FROM jupyter/scipy-notebook:2023-08-26
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-25
+FROM jupyter/tensorflow-notebook:2023-08-26
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-25
+FROM jupyter/datascience-notebook:2023-08-26
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-25
+FROM jupyter/pyspark-notebook:2023-08-26
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-25
+FROM jupyter/all-spark-notebook:2023-08-26
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.00.25
+FROM haveagitgat/tdarr:2.10.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.00.25
+FROM haveagitgat/tdarr_node:2.10.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1315,7 +1315,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.2
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.6.1
+FROM confluentinc/confluent-init-container:2.7.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
