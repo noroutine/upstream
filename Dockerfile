@@ -59,7 +59,7 @@ FROM php:8.2.9-apache-bookworm
 # php
 
 # python
-FROM python:3.11.4-bookworm
+FROM python:3.11.5-bookworm
 # python
 
 # python
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.59.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.2.3
+FROM squidfunk/mkdocs-material:9.2.4
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -183,7 +183,7 @@ FROM httpd:2.4.57-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.12-jdk17-temurin-jammy
+FROM tomcat:10.1.13-jdk17-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -311,7 +311,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.2.4-ce.0
+FROM gitlab/gitlab-ce:16.3.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.59.4
+FROM ghost:5.60.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.59.4-debian-11-r0
+FROM bitnami/ghost:5.60.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -427,7 +427,7 @@ FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.109.7
+FROM nocodb/nocodb:0.111.0
 # nocodb/nocodb
 
 # metabase/metabase
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-24
+FROM jupyter/base-notebook:2023-08-25
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-24
+FROM jupyter/minimal-notebook:2023-08-25
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-24
+FROM jupyter/r-notebook:2023-08-25
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-24
+FROM jupyter/scipy-notebook:2023-08-25
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-24
+FROM jupyter/tensorflow-notebook:2023-08-25
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-24
+FROM jupyter/datascience-notebook:2023-08-25
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-24
+FROM jupyter/pyspark-notebook:2023-08-25
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-24
+FROM jupyter/all-spark-notebook:2023-08-25
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -515,7 +515,7 @@ FROM bitnami/redis:7.2.0-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.52.0-debian-11-r0
+FROM bitnami/redis-exporter:1.53.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -543,7 +543,7 @@ FROM bitnami/postgresql:15.4.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.12-debian-11-r0
+FROM bitnami/tomcat:10.1.13-debian-11-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -563,7 +563,7 @@ FROM bitnami/mariadb:11.0.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:6.0.8-debian-11-r0
+FROM bitnami/mongodb:6.0.9-debian-11-r0
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -903,7 +903,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # firezone/firezone
-FROM firezone/firezone:0.7.33
+FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
@@ -1075,19 +1075,19 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.0
+FROM registry.k8s.io/kube-apiserver:v1.28.1
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.0
+FROM registry.k8s.io/kube-proxy:v1.28.1
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.0
+FROM registry.k8s.io/kube-scheduler:v1.28.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.0
+FROM registry.k8s.io/kube-controller-manager:v1.28.1
 # kube-controller-manager
 
 # kube-apiserver
@@ -1271,7 +1271,7 @@ FROM longhornio/support-bundle-kit:v0.0.27
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.27.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
@@ -1319,43 +1319,43 @@ FROM confluentinc/confluent-init-container:2.6.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.771.29
+FROM confluentinc/confluent-operator:0.824.2
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.4.1
+FROM confluentinc/cp-enterprise-control-center:7.5.0
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.4.1
+FROM confluentinc/cp-enterprise-replicator:7.5.0
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.4.1
+FROM confluentinc/cp-kafka-rest:7.5.0
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.4.1
+FROM confluentinc/cp-ksqldb-server:7.5.0
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.4.1
+FROM confluentinc/cp-ksqldb-cli:7.5.0
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.4.1
+FROM confluentinc/cp-schema-registry:7.5.0
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.4.1
+FROM confluentinc/cp-server:7.5.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.4.1
+FROM confluentinc/cp-server-connect:7.5.0
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.4.1
+FROM confluentinc/cp-zookeeper:7.5.0
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
