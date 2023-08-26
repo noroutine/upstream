@@ -459,7 +459,7 @@ FROM jupyter/scipy-notebook:2023-08-24
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-24
+FROM jupyter/tensorflow-notebook:2023-08-25
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
