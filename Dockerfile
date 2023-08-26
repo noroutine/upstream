@@ -1355,7 +1355,7 @@ FROM confluentinc/cp-server-connect:7.4.1
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.4.1
+FROM confluentinc/cp-zookeeper:7.5.0
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
