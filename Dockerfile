@@ -835,7 +835,7 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.00.25
+FROM haveagitgat/tdarr:2.10.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
