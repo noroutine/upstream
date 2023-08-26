@@ -1331,7 +1331,7 @@ FROM confluentinc/cp-enterprise-replicator:7.4.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.4.1
+FROM confluentinc/cp-kafka-rest:7.5.0
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
