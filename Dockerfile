@@ -123,7 +123,7 @@ FROM quay.io/prometheus/prometheus:v2.46.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.25.0
+FROM quay.io/prometheus/alertmanager:v0.26.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
@@ -239,7 +239,7 @@ FROM wordpress:6.3.0-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.5
+FROM dpage/pgadmin4:7.6
 # dpage/pgadmin4
 
 # mysql
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-23
+FROM jupyter/base-notebook:2023-08-24
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-23
+FROM jupyter/minimal-notebook:2023-08-24
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-23
+FROM jupyter/r-notebook:2023-08-24
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-23
+FROM jupyter/scipy-notebook:2023-08-24
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-23
+FROM jupyter/tensorflow-notebook:2023-08-24
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-23
+FROM jupyter/datascience-notebook:2023-08-24
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-23
+FROM jupyter/pyspark-notebook:2023-08-24
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-23
+FROM jupyter/all-spark-notebook:2023-08-24
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -659,7 +659,7 @@ FROM bitnami/trivy:0.44.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.4-debian-11-r0
+FROM bitnami/kubectl:1.27.5-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -667,7 +667,7 @@ FROM aquasec/trivy:0.44.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.3
+FROM ghcr.io/external-secrets/external-secrets:v0.9.4
 # external-secrets/external-secrets
 
 # minio/console
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.8.1
+FROM quay.io/argoproj/argocd:v2.8.2
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -891,11 +891,11 @@ FROM wiretrustee/dashboard:v1.15.14
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.22.6
+FROM netbirdio/signal:0.22.7
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.22.6
+FROM netbirdio/management:0.22.7
 # netbirdio/management
 
 # coturn/coturn
@@ -907,7 +907,7 @@ FROM firezone/firezone:0.7.33
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.419-jdk17
+FROM jenkins/jenkins:2.420-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -987,7 +987,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.4-debian-11-r0
+FROM bitnami/kubectl:1.27.5-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
