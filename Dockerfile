@@ -63,7 +63,7 @@ FROM python:3.11.5-bookworm
 # python
 
 # python
-FROM python:3.11.4-slim-bookworm
+FROM python:3.11.5-slim-bookworm
 # python
 
 # golang
