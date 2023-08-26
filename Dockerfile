@@ -183,7 +183,7 @@ FROM httpd:2.4.57-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.12-jdk17-temurin-jammy
+FROM tomcat:10.1.13-jdk17-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
