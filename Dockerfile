@@ -619,7 +619,7 @@ FROM bitnami/kube-state-metrics:2.9.2-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.3-debian-11-r32
+FROM bitnami/metrics-server:0.6.4-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
