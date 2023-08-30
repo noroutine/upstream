@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.59.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.2.4
+FROM squidfunk/mkdocs-material:9.2.5
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -247,7 +247,7 @@ FROM mysql:8.1.0
 # mysql
 
 # mariadb
-FROM mariadb:11.0.3-jammy
+FROM mariadb:11.1.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -319,7 +319,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.40.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.54.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.55.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.4
+FROM summerwind/actions-runner-controller:v0.27.5
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -355,23 +355,23 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.0.2
+FROM jupyterhub/k8s-hub:3.0.3
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.0.2
+FROM jupyterhub/k8s-secret-sync:3.0.3
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.0.2
+FROM jupyterhub/k8s-network-tools:3.0.3
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.0.2
+FROM jupyterhub/k8s-image-awaiter:3.0.3
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:3.0.2
+FROM jupyterhub/k8s-singleuser-sample:3.0.3
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
@@ -439,39 +439,39 @@ FROM docker:24.0.5-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.6.0
+FROM quay.io/podman/stable:v4.6.1
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-26
+FROM jupyter/base-notebook:2023-08-28
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-26
+FROM jupyter/minimal-notebook:2023-08-28
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-26
+FROM jupyter/r-notebook:2023-08-28
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-26
+FROM jupyter/scipy-notebook:2023-08-28
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-26
+FROM jupyter/tensorflow-notebook:2023-08-28
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-26
+FROM jupyter/datascience-notebook:2023-08-28
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-26
+FROM jupyter/pyspark-notebook:2023-08-28
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-26
+FROM jupyter/all-spark-notebook:2023-08-28
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -479,7 +479,7 @@ FROM rocker/shiny:4.3.1
 # rocker/shiny
 
 # caprover/caprover
-FROM caprover/caprover:1.10.1
+FROM caprover/caprover:1.11.0
 # caprover/caprover
 
 # mikecao/umami
@@ -619,7 +619,7 @@ FROM bitnami/kube-state-metrics:2.9.2-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.3-debian-11-r32
+FROM bitnami/metrics-server:0.6.4-debian-11-r32
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
@@ -815,7 +815,7 @@ FROM elastic/eck-operator:2.9.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.0-alpine
+FROM louislam/uptime-kuma:1.23.1-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.10.01
+FROM haveagitgat/tdarr:2.10.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.10.01
+FROM haveagitgat/tdarr_node:2.10.02
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -907,7 +907,7 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.420-jdk17
+FROM jenkins/jenkins:2.421-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1027,7 +1027,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.5.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.4.0
+FROM zachomedia/cert-manager-webhook-pdns:v2.5.0
 # zachomedia/cert-manager-webhook-pdns
 
 # vstadtmueller/cert-manager-webhook-powerdns
@@ -1047,7 +1047,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.14.1
+FROM hashicorp/vault:1.14.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
