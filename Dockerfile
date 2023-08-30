@@ -139,7 +139,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.24.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.23.0
+FROM quay.io/prometheus/snmp-exporter:v0.24.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
@@ -583,7 +583,7 @@ FROM bitnami/minio:2023.7.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.8.18-debian-11-r0
+FROM bitnami/minio-client:2023.8.29-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.32.1
+FROM hasura/graphql-engine:v2.33.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.38
+FROM stakater/reloader:v1.0.39
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -791,7 +791,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.14.0
+FROM gcr.io/kaniko-project/executor:v1.15.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -919,7 +919,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.8
+FROM netboxcommunity/netbox:v3.5.9
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
