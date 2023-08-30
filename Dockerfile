@@ -439,7 +439,7 @@ FROM docker:24.0.5-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.6.0
+FROM quay.io/podman/stable:v4.6.1
 # podman/stable
 
 # jupyter/base-notebook
