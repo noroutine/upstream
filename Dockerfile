@@ -99,7 +99,7 @@ FROM postgres:15.4-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.10.1
+FROM atlassian/jira-software:9.11.0
 # atlassian/jira-software
 
 # nextcloud
@@ -919,7 +919,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.5.9
+FROM netboxcommunity/netbox:v3.6.0
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard

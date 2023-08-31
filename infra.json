@@ -1,5 +1,5 @@
 {
-  "version": "5cebb793",
+  "version": "00b71244",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -27,7 +27,7 @@
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.1",
       "postgres:15.4-bookworm",
-      "atlassian/jira-software:9.10.1",
+      "atlassian/jira-software:9.11.0",
       "nextcloud:27.0.2-apache",
       "haproxytech/haproxy-debian:2.8.2",
       "minio/minio:RELEASE.2023-07-18T17-49-40Z",
@@ -232,7 +232,7 @@
       "jenkins/jenkins:2.421-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2",
-      "netboxcommunity/netbox:v3.5.9",
+      "netboxcommunity/netbox:v3.6.0",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",
