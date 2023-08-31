@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.2
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-07-18T17-49-40Z
+FROM minio/minio:RELEASE.2023-08-29T23-07-35Z
 # minio/minio
 
 # coreos/etcd
@@ -579,7 +579,7 @@ FROM bitnami/nginx:1.25.2-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.7.18-debian-11-r0
+FROM bitnami/minio:2023.8.29-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -1091,67 +1091,67 @@ FROM registry.k8s.io/kube-controller-manager:v1.28.1
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.4
+FROM registry.k8s.io/kube-apiserver:v1.27.5
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.4
+FROM registry.k8s.io/kube-proxy:v1.27.5
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.4
+FROM registry.k8s.io/kube-scheduler:v1.27.5
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.4
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.7
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.7
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.7
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.7
+FROM registry.k8s.io/kube-controller-manager:v1.27.5
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.12
+FROM registry.k8s.io/kube-apiserver:v1.26.8
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.12
+FROM registry.k8s.io/kube-proxy:v1.26.8
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.12
+FROM registry.k8s.io/kube-scheduler:v1.26.8
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.12
+FROM registry.k8s.io/kube-controller-manager:v1.26.8
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.24.16
+FROM registry.k8s.io/kube-apiserver:v1.25.13
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.24.16
+FROM registry.k8s.io/kube-proxy:v1.25.13
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.16
+FROM registry.k8s.io/kube-scheduler:v1.25.13
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.24.16
+FROM registry.k8s.io/kube-controller-manager:v1.25.13
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.24.17
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.24.17
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.24.17
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.24.17
 # kube-controller-manager
 
 # kube-apiserver
