@@ -1,5 +1,5 @@
 {
-  "version": "cb1e67e5",
+  "version": "8c694ad8",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -156,7 +156,7 @@
       "bitnami/grafana-image-renderer:3.8.0-debian-11-r2",
       "bitnami/consul:1.16.1-debian-11-r0",
       "bitnami/nats:2.9.21-debian-11-r0",
-      "bitnami/kube-state-metrics:2.9.2-debian-11-r0",
+      "bitnami/kube-state-metrics:2.10.0-debian-11-r0",
       "bitnami/metrics-server:0.6.4-debian-11-r32",
       "bitnami/kubeapps-dashboard:2.8.0-debian-11-r4",
       "bitnami/kubeapps-apprepository-controller:2.8.0-scratch-r1",
@@ -166,9 +166,9 @@
       "bitnami/kube-rbac-proxy:0.14.2-scratch-r0",
       "bitnami/openldap:2.6.4-debian-11-r3",
       "bitnami/sealed-secrets-controller:v0.23.1",
-      "bitnami/trivy:0.44.1-debian-11-r0",
+      "bitnami/trivy:0.45.0-debian-11-r0",
       "bitnami/kubectl:1.27.5-debian-11-r0",
-      "aquasec/trivy:0.44.1",
+      "aquasec/trivy:0.45.0",
       "ghcr.io/external-secrets/external-secrets:v0.9.4",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",

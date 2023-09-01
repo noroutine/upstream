@@ -615,7 +615,7 @@ FROM bitnami/nats:2.9.21-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.9.2-debian-11-r0
+FROM bitnami/kube-state-metrics:2.10.0-debian-11-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -655,7 +655,7 @@ FROM bitnami/sealed-secrets-controller:v0.23.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.44.1-debian-11-r0
+FROM bitnami/trivy:0.45.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.5-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.44.1
+FROM aquasec/trivy:0.45.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
