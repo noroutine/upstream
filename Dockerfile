@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.5-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.44.1
+FROM aquasec/trivy:0.45.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
