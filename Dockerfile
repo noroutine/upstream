@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.1.0
+FROM grafana/grafana:10.1.1
 # grafana/grafana
 
 # grafana/loki
@@ -311,7 +311,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.3.0-ce.0
+FROM gitlab/gitlab-ce:16.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -599,7 +599,7 @@ FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.1.0-debian-11-r0
+FROM bitnami/grafana:10.1.1-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -715,7 +715,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # argoproj/argo-events
-FROM quay.io/argoproj/argo-events:v1.8.0
+FROM quay.io/argoproj/argo-events:v1.8.1
 # argoproj/argo-events
 
 # argoproj/argocli
@@ -739,7 +739,7 @@ FROM listmonk/listmonk:v2.5.1
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.29.1
+FROM vaultwarden/server:1.29.2
 # vaultwarden/server
 
 # boky/postfix
@@ -795,7 +795,7 @@ FROM gcr.io/kaniko-project/executor:v1.15.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
-FROM quay.io/iovisor/bpftrace:v0.18.0
+FROM quay.io/iovisor/bpftrace:v0.18.1
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
