@@ -739,7 +739,7 @@ FROM listmonk/listmonk:v2.5.1
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.29.1
+FROM vaultwarden/server:1.29.2
 # vaultwarden/server
 
 # boky/postfix
