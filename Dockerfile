@@ -139,7 +139,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.24.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.24.0
+FROM quay.io/prometheus/snmp-exporter:v0.24.1
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
@@ -1215,7 +1215,7 @@ FROM calico/csi:v3.26.1
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.13.3
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.13.4
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager

@@ -1,5 +1,5 @@
 {
-  "version": "e8dfdc71",
+  "version": "cb1e67e5",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -37,7 +37,7 @@
       "quay.io/prometheus/node-exporter:v1.6.1",
       "quay.io/prometheus/consul-exporter:v0.9.0",
       "quay.io/prometheus/blackbox-exporter:v0.24.0",
-      "quay.io/prometheus/snmp-exporter:v0.24.0",
+      "quay.io/prometheus/snmp-exporter:v0.24.1",
       "quay.io/prometheus/pushgateway:v1.6.0",
       "quay.io/prometheus-operator/prometheus-operator:v0.67.1",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1",
@@ -306,7 +306,7 @@
       "calico/pod2daemon-flexvol:v3.26.1",
       "calico/node-driver-registrar:v3.26.1",
       "calico/csi:v3.26.1",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.13.3",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.13.4",
       "longhornio/longhorn-manager:v1.5.1",
       "longhornio/longhorn-ui:v1.5.1",
       "longhornio/longhorn-engine:v1.5.1",
