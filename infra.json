@@ -1,5 +1,5 @@
 {
-  "version": "8c694ad8",
+  "version": "7c2b0a24",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -15,7 +15,7 @@
       "gcr.io/distroless/nodejs-debian11",
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
       "buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff8872826cf7776d8254e736",
-      "buildpack-deps:jammy@sha256:9af1133fb54c5bfacb532e8402e592546f4e88452f8acb2f5842f13c10ad3d36",
+      "buildpack-deps:jammy@sha256:50bdc7b67763b1a1de96286a97ad09907c1ed2234278e3e5da92ef0d126f0e23",
       "php:8.2.9-apache-bookworm",
       "python:3.11.5-bookworm",
       "python:3.11.5-slim-bookworm",
@@ -107,7 +107,7 @@
       "verdaccio/verdaccio:5.26.2",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.60.0",
-      "bitnami/ghost:5.60.0-debian-11-r0",
+      "bitnami/ghost:5.61.0-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.111.0",
       "metabase/metabase:v0.47.0",
@@ -173,7 +173,7 @@
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.4",
-      "hasura/graphql-engine:v2.33.0",
+      "hasura/graphql-engine:v2.33.1",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.39",
       "jimmidyson/configmap-reload:v0.9.0",

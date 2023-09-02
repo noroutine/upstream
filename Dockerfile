@@ -51,7 +51,7 @@ FROM buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff88728
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:9af1133fb54c5bfacb532e8402e592546f4e88452f8acb2f5842f13c10ad3d36
+FROM buildpack-deps:jammy@sha256:50bdc7b67763b1a1de96286a97ad09907c1ed2234278e3e5da92ef0d126f0e23
 # buildpack-deps
 
 # php
@@ -419,7 +419,7 @@ FROM ghost:5.60.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.60.0-debian-11-r0
+FROM bitnami/ghost:5.61.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.33.0
+FROM hasura/graphql-engine:v2.33.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
