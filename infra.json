@@ -1,5 +1,5 @@
 {
-  "version": "7c2b0a24",
+  "version": "80ef127a",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -16,7 +16,7 @@
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
       "buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff8872826cf7776d8254e736",
       "buildpack-deps:jammy@sha256:50bdc7b67763b1a1de96286a97ad09907c1ed2234278e3e5da92ef0d126f0e23",
-      "php:8.2.9-apache-bookworm",
+      "php:8.2.10-apache-bookworm",
       "python:3.11.5-bookworm",
       "python:3.11.5-slim-bookworm",
       "golang:1.21.0-bookworm",
@@ -109,7 +109,7 @@
       "ghost:5.60.0",
       "bitnami/ghost:5.61.0-debian-11-r0",
       "matomo:4.15.1-apache",
-      "nocodb/nocodb:0.111.0",
+      "nocodb/nocodb:0.111.1",
       "metabase/metabase:v0.47.0",
       "docker:24.0.5-dind",
       "quay.io/podman/stable:v4.6.1",
