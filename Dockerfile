@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.59.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.2.6
+FROM squidfunk/mkdocs-material:9.2.7
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -1171,7 +1171,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.30.5
+FROM quay.io/tigera/operator:v1.31.1
 # tigera/operator
 
 # calico/typha

@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.284",
+  "version": "d317a9cf",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.0-alpine3.18",
       "traefik:v2.10.4",
       "sonatype/nexus3:3.59.0",
-      "squidfunk/mkdocs-material:9.2.6",
+      "squidfunk/mkdocs-material:9.2.7",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.1",
       "postgres:15.4-bookworm",
@@ -295,7 +295,7 @@
       "registry.k8s.io/kube-proxy:v1.23.17",
       "registry.k8s.io/kube-scheduler:v1.23.17",
       "registry.k8s.io/kube-controller-manager:v1.23.17",
-      "quay.io/tigera/operator:v1.30.5",
+      "quay.io/tigera/operator:v1.31.1",
       "calico/typha:v3.26.1",
       "calico/ctl:v3.26.1",
       "calico/node:v3.26.1",
