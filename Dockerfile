@@ -3,7 +3,7 @@ FROM debian:bookworm-20230814-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230804
+FROM ubuntu:jammy-20230816
 # ubuntu
 
 # ubuntu
@@ -835,11 +835,11 @@ FROM jellyfin/jellyfin:10.8.10
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.10.02
+FROM haveagitgat/tdarr:2.11.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.10.02
+FROM haveagitgat/tdarr_node:2.11.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker

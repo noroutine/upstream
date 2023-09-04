@@ -1,9 +1,9 @@
 {
-  "version": "v0.0.285",
+  "version": "fbccfce6",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
-      "ubuntu:jammy-20230804",
+      "ubuntu:jammy-20230816",
       "ubuntu:focal-20230801",
       "alpine:3.18.3",
       "busybox:1.36.1",
@@ -211,8 +211,8 @@
       "outlinewiki/outline:0.71.0",
       "syncthing/syncthing:1.23.7",
       "jellyfin/jellyfin:10.8.10",
-      "haveagitgat/tdarr:2.10.02",
-      "haveagitgat/tdarr_node:2.10.02",
+      "haveagitgat/tdarr:2.11.01",
+      "haveagitgat/tdarr_node:2.11.01",
       "gravitl/netmaker:v0.20.6",
       "gravitl/netmaker-ui:v0.20.6",
       "kmb32123/youtube-dl-server:2.0",
