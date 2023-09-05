@@ -255,7 +255,7 @@ FROM mccutchen/go-httpbin:v2.11.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.4.0-amd64
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.5.0-amd64
 # oauth2-proxy/oauth2-proxy
 
 # heroku/heroku
