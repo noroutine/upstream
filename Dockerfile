@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.2
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-08-31T15-31-16Z
+FROM minio/minio:RELEASE.2023-09-04T19-57-37Z
 # minio/minio
 
 # coreos/etcd
@@ -255,7 +255,7 @@ FROM mccutchen/go-httpbin:v2.11.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.4.0-amd64
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.5.0-amd64
 # oauth2-proxy/oauth2-proxy
 
 # heroku/heroku
@@ -579,11 +579,11 @@ FROM bitnami/nginx:1.25.2-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.8.31-debian-11-r0
+FROM bitnami/minio:2023.9.4-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.8.30-debian-11-r0
+FROM bitnami/minio-client:2023.9.2-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.33.1
+FROM hasura/graphql-engine:v2.33.2
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -827,7 +827,7 @@ FROM outlinewiki/outline:0.71.0
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.23.7
+FROM syncthing/syncthing:1.24.0
 # syncthing/syncthing
 
 # jellyfin/jellyfin
