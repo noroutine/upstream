@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.59.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.2.7
+FROM squidfunk/mkdocs-material:9.2.8
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.1
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-08-28
+FROM jupyter/base-notebook:2023-09-04
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-28
+FROM jupyter/minimal-notebook:2023-09-04
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-28
+FROM jupyter/r-notebook:2023-09-04
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-28
+FROM jupyter/scipy-notebook:2023-09-04
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-08-28
+FROM jupyter/tensorflow-notebook:2023-09-04
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-28
+FROM jupyter/datascience-notebook:2023-09-04
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-08-28
+FROM jupyter/pyspark-notebook:2023-09-04
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-08-28
+FROM jupyter/all-spark-notebook:2023-09-04
 # jupyter/all-spark-notebook
 
 # rocker/shiny
