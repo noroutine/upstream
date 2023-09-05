@@ -447,7 +447,7 @@ FROM jupyter/base-notebook:2023-08-28
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-08-28
+FROM jupyter/minimal-notebook:2023-09-04
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
