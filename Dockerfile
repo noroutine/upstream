@@ -463,7 +463,7 @@ FROM jupyter/tensorflow-notebook:2023-08-28
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-08-28
+FROM jupyter/datascience-notebook:2023-09-04
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
