@@ -451,7 +451,7 @@ FROM jupyter/minimal-notebook:2023-08-28
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-08-28
+FROM jupyter/r-notebook:2023-09-04
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
