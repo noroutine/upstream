@@ -455,7 +455,7 @@ FROM jupyter/r-notebook:2023-08-28
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-08-28
+FROM jupyter/scipy-notebook:2023-09-04
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
