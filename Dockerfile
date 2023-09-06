@@ -311,7 +311,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.3.1-ce.0
+FROM gitlab/gitlab-ce:16.3.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.60.0
+FROM ghost:5.61.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.61.1-debian-11-r0
+FROM bitnami/ghost:5.61.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -435,7 +435,7 @@ FROM metabase/metabase:v0.47.0
 # metabase/metabase
 
 # docker
-FROM docker:24.0.5-dind
+FROM docker:24.0.6-dind
 # docker
 
 # podman/stable
