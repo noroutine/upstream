@@ -515,7 +515,7 @@ FROM bitnami/redis:7.2.0-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.53.0-debian-11-r0
+FROM bitnami/redis-exporter:1.54.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -887,7 +887,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.14
+FROM wiretrustee/dashboard:v1.15.15
 # wiretrustee/dashboard
 
 # netbirdio/signal

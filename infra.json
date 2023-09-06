@@ -1,5 +1,5 @@
 {
-  "version": "9b401e3f",
+  "version": "0c53b8c4",
   "upstream": {
     "images": [
       "debian:bookworm-20230814-slim",
@@ -131,7 +131,7 @@
       "bitnami/blackbox-exporter:0.24.0-debian-11-r3",
       "bitnami/postgres-exporter:0.13.2-debian-11-r1",
       "bitnami/redis:7.2.0-debian-11-r0",
-      "bitnami/redis-exporter:1.53.0-debian-11-r0",
+      "bitnami/redis-exporter:1.54.0-debian-11-r0",
       "bitnami/postgresql:10.23.0-debian-11-r3",
       "bitnami/postgresql:11.21.0-debian-11-r0",
       "bitnami/postgresql:12.16.0-debian-11-r0",
@@ -224,7 +224,7 @@
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "yugabytedb/yugabyte:2.18.2.1-b1",
       "antelle/keeweb:1.18.7",
-      "wiretrustee/dashboard:v1.15.14",
+      "wiretrustee/dashboard:v1.15.15",
       "netbirdio/signal:0.22.7",
       "netbirdio/management:0.22.7",
       "coturn/coturn:4.6.2",
