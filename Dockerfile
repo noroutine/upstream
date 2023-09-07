@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20230814-slim
+FROM debian:bookworm-20230904-slim
 # debian
 
 # ubuntu
@@ -67,11 +67,11 @@ FROM python:3.11.5-slim-bookworm
 # python
 
 # golang
-FROM golang:1.21.0-bookworm
+FROM golang:1.21.1-bookworm
 # golang
 
 # golang
-FROM golang:1.21.0-alpine3.18
+FROM golang:1.21.1-alpine3.18
 # golang
 
 # traefik
@@ -143,7 +143,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.24.1
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.6.0
+FROM quay.io/prometheus/pushgateway:v1.6.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -159,15 +159,15 @@ FROM grafana/grafana:10.1.1
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.8.4
+FROM grafana/loki:2.9.0
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.8.4
+FROM grafana/loki-canary:2.9.0
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.8.4
+FROM grafana/promtail:2.9.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.9.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.9.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.9.1
+FROM docker.elastic.co/logstash/logstash:8.9.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.9.1
+FROM docker.elastic.co/kibana/kibana:8.9.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.61.2
+FROM ghost:5.61.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.61.2-debian-11-r0
+FROM bitnami/ghost:5.61.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -511,7 +511,7 @@ FROM bitnami/postgres-exporter:0.13.2-debian-11-r1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.0-debian-11-r0
+FROM bitnami/redis:7.2.1-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -611,7 +611,7 @@ FROM bitnami/consul:1.16.1-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.21-debian-11-r0
+FROM bitnami/nats:2.9.22-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.33.2
+FROM hasura/graphql-engine:v2.33.3
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -731,7 +731,7 @@ FROM quay.io/argoproj/argoexec:v3.4.10
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.0-bookworm
+FROM redis:7.2.1-bookworm
 # redis
 
 # listmonk/listmonk
@@ -759,7 +759,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.21-alpine3.18
+FROM nats:2.9.22-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -891,11 +891,11 @@ FROM wiretrustee/dashboard:v1.15.15
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.22.7
+FROM netbirdio/signal:0.23.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.22.7
+FROM netbirdio/management:0.23.0
 # netbirdio/management
 
 # coturn/coturn
@@ -907,7 +907,7 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.421-jdk17
+FROM jenkins/jenkins:2.422-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1059,11 +1059,11 @@ FROM hashicorp/vault-csi-provider:1.4.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.36.1
+FROM quay.io/strimzi/operator:0.37.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.36.1-kafka-3.5.1
+FROM quay.io/strimzi/kafka:0.37.0-kafka-3.5.1
 # strimzi/kafka
 
 # pause
