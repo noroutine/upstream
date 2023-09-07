@@ -107,7 +107,7 @@ FROM nextcloud:27.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.8.2
+FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -427,7 +427,7 @@ FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.111.1
+FROM nocodb/nocodb:0.111.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -919,7 +919,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.6.0
+FROM netboxcommunity/netbox:v3.6.1
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard

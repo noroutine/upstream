@@ -1,5 +1,5 @@
 {
-  "version": "58e791fa",
+  "version": "5ccd48c9",
   "upstream": {
     "images": [
       "debian:bookworm-20230904-slim",
@@ -29,7 +29,7 @@
       "postgres:15.4-bookworm",
       "atlassian/jira-software:9.11.0",
       "nextcloud:27.0.2-apache",
-      "haproxytech/haproxy-debian:2.8.2",
+      "haproxytech/haproxy-debian:2.8.3",
       "minio/minio:RELEASE.2023-09-04T19-57-37Z",
       "quay.io/coreos/etcd:v3.5.9",
       "quay.io/prometheus/prometheus:v2.46.0",
@@ -109,7 +109,7 @@
       "ghost:5.61.3",
       "bitnami/ghost:5.61.3-debian-11-r0",
       "matomo:4.15.1-apache",
-      "nocodb/nocodb:0.111.1",
+      "nocodb/nocodb:0.111.2",
       "metabase/metabase:v0.47.0",
       "docker:24.0.6-dind",
       "quay.io/podman/stable:v4.6.1",
@@ -232,7 +232,7 @@
       "jenkins/jenkins:2.422-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2",
-      "netboxcommunity/netbox:v3.6.0",
+      "netboxcommunity/netbox:v3.6.1",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",
