@@ -1,5 +1,5 @@
 {
-  "version": "aec96f47",
+  "version": "f32b09e6",
   "upstream": {
     "images": [
       "debian:bookworm-20230904-slim",
@@ -125,7 +125,7 @@
       "caprover/caprover:1.11.0",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.4.1-debian-11-r4",
-      "bitnami/prometheus:2.46.0-debian-11-r0",
+      "bitnami/prometheus:2.47.0-debian-11-r0",
       "bitnami/prometheus-operator:0.67.1-debian-11-r0",
       "bitnami/node-exporter:1.6.1-debian-11-r0",
       "bitnami/blackbox-exporter:0.24.0-debian-11-r3",
