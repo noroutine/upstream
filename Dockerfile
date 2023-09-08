@@ -79,7 +79,7 @@ FROM traefik:v2.10.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.59.0
+FROM sonatype/nexus3:3.60.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.9
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.46.0
+FROM quay.io/prometheus/prometheus:v2.47.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-ce:16.3.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.40.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.41.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -431,7 +431,7 @@ FROM nocodb/nocodb:0.111.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.47.0
+FROM metabase/metabase:v0.47.1
 # metabase/metabase
 
 # docker
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.8.2
+FROM quay.io/argoproj/argocd:v2.8.3
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -719,15 +719,15 @@ FROM quay.io/argoproj/argo-events:v1.8.1
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.4.10
+FROM quay.io/argoproj/argocli:v3.4.11
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.4.10
+FROM quay.io/argoproj/workflow-controller:v3.4.11
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.4.10
+FROM quay.io/argoproj/argoexec:v3.4.11
 # argoproj/argoexec
 
 # redis
@@ -887,7 +887,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.15.15
+FROM wiretrustee/dashboard:v1.15.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -991,7 +991,7 @@ FROM bitnami/kubectl:1.27.5-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.7.0-python3.11
+FROM apache/airflow:2.7.1-python3.11
 # apache/airflow
 
 # git-sync/git-sync
@@ -1215,7 +1215,7 @@ FROM calico/csi:v3.26.1
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.13.4
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.0
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
