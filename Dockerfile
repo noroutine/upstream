@@ -891,11 +891,11 @@ FROM wiretrustee/dashboard:v1.15.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.0
+FROM netbirdio/signal:0.23.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.23.0
+FROM netbirdio/management:0.23.1
 # netbirdio/management
 
 # coturn/coturn
