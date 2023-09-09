@@ -1,5 +1,5 @@
 {
-  "version": "bedd1924",
+  "version": "3d7e7b64",
   "upstream": {
     "images": [
       "debian:bookworm-20230904-slim",
@@ -39,8 +39,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.24.0",
       "quay.io/prometheus/snmp-exporter:v0.24.1",
       "quay.io/prometheus/pushgateway:v1.6.1",
-      "quay.io/prometheus-operator/prometheus-operator:v0.67.1",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1",
+      "quay.io/prometheus-operator/prometheus-operator:v0.68.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0",
       "grafana/grafana:10.1.1",
       "grafana/loki:2.9.0",
       "grafana/loki-canary:2.9.0",
@@ -126,7 +126,7 @@
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.4.1-debian-11-r4",
       "bitnami/prometheus:2.47.0-debian-11-r0",
-      "bitnami/prometheus-operator:0.67.1-debian-11-r0",
+      "bitnami/prometheus-operator:0.68.0-debian-11-r0",
       "bitnami/node-exporter:1.6.1-debian-11-r0",
       "bitnami/blackbox-exporter:0.24.0-debian-11-r3",
       "bitnami/postgres-exporter:0.13.2-debian-11-r1",
@@ -213,8 +213,8 @@
       "jellyfin/jellyfin:10.8.10",
       "haveagitgat/tdarr:2.11.01",
       "haveagitgat/tdarr_node:2.11.01",
-      "gravitl/netmaker:v0.20.6",
-      "gravitl/netmaker-ui:v0.20.6",
+      "gravitl/netmaker:v0.21.0",
+      "gravitl/netmaker-ui:v0.21.0",
       "kmb32123/youtube-dl-server:2.0",
       "puppet/puppetserver:7.9.2",
       "puppet/puppetdb:7.10.0",

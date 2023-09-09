@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.67.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.68.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -495,7 +495,7 @@ FROM bitnami/prometheus:2.47.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.67.1-debian-11-r0
+FROM bitnami/prometheus-operator:0.68.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -843,11 +843,11 @@ FROM haveagitgat/tdarr_node:2.11.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.20.6
+FROM gravitl/netmaker:v0.21.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.20.6
+FROM gravitl/netmaker-ui:v0.21.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
