@@ -1,5 +1,5 @@
 {
-  "version": "dba38ac0",
+  "version": "7d43b666",
   "upstream": {
     "images": [
       "debian:bookworm-20230904-slim",
@@ -56,9 +56,9 @@
       "gcr.io/cadvisor/cadvisor:v0.47.2",
       "ghcr.io/prymitive/karma:v0.115",
       "quay.io/cortexproject/cortex:v1.15.3",
-      "docker.elastic.co/elasticsearch/elasticsearch:8.9.2",
-      "docker.elastic.co/logstash/logstash:8.9.2",
-      "docker.elastic.co/kibana/kibana:8.9.2",
+      "docker.elastic.co/elasticsearch/elasticsearch:8.10.0",
+      "docker.elastic.co/logstash/logstash:8.10.0",
+      "docker.elastic.co/kibana/kibana:8.10.0",
       "alerta/alerta-web:9.0.1",
       "mongo:7.0.1-jammy",
       "wordpress:6.3.1-apache",
