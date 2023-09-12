@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.60.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.2.8
+FROM squidfunk/mkdocs-material:9.3.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:22.0.1
+FROM quay.io/keycloak/keycloak:22.0.2
 # keycloak/keycloak
 
 # postgres
@@ -427,7 +427,7 @@ FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.111.3
+FROM nocodb/nocodb:0.111.4
 # nocodb/nocodb
 
 # metabase/metabase
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.1
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-09-04
+FROM jupyter/base-notebook:2023-09-11
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-09-04
+FROM jupyter/minimal-notebook:2023-09-11
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-09-04
+FROM jupyter/r-notebook:2023-09-11
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-09-04
+FROM jupyter/scipy-notebook:2023-09-11
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-09-04
+FROM jupyter/tensorflow-notebook:2023-09-11
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-09-04
+FROM jupyter/datascience-notebook:2023-09-11
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-09-04
+FROM jupyter/pyspark-notebook:2023-09-11
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-09-04
+FROM jupyter/all-spark-notebook:2023-09-11
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -551,7 +551,7 @@ FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:22.0.1-debian-11-r0
+FROM bitnami/keycloak:22.0.2-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -683,7 +683,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.33.3
+FROM hasura/graphql-engine:v2.33.4
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
