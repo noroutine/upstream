@@ -143,7 +143,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.24.1
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.6.1
+FROM quay.io/prometheus/pushgateway:v1.6.2
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -1091,51 +1091,51 @@ FROM registry.k8s.io/kube-controller-manager:v1.28.2
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.5
+FROM registry.k8s.io/kube-apiserver:v1.27.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.5
+FROM registry.k8s.io/kube-proxy:v1.27.6
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.5
+FROM registry.k8s.io/kube-scheduler:v1.27.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.5
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.8
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.8
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.8
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.8
+FROM registry.k8s.io/kube-controller-manager:v1.27.6
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.13
+FROM registry.k8s.io/kube-apiserver:v1.26.9
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.13
+FROM registry.k8s.io/kube-proxy:v1.26.9
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.13
+FROM registry.k8s.io/kube-scheduler:v1.26.9
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.13
+FROM registry.k8s.io/kube-controller-manager:v1.26.9
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.25.14
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.25.14
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.25.14
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.25.14
 # kube-controller-manager
 
 # kube-apiserver
