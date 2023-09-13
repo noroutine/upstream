@@ -551,7 +551,7 @@ FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:22.0.2-debian-11-r0
+FROM bitnami/keycloak:22.0.3-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
