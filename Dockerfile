@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:22.0.2
+FROM quay.io/keycloak/keycloak:22.0.3
 # keycloak/keycloak
 
 # postgres
@@ -311,7 +311,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.3.2-ce.0
+FROM gitlab/gitlab-ce:16.3.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -551,7 +551,7 @@ FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:22.0.2-debian-11-r0
+FROM bitnami/keycloak:22.0.3-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -907,7 +907,7 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.422-jdk17
+FROM jenkins/jenkins:2.423-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1007,19 +1007,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.2
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.12.4
+FROM quay.io/jetstack/cert-manager-controller:v1.13.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.12.4
+FROM quay.io/jetstack/cert-manager-cainjector:v1.13.0
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.12.4
+FROM quay.io/jetstack/cert-manager-webhook:v1.13.0
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.12.4
+FROM quay.io/jetstack/cert-manager-ctl:v1.13.0
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
