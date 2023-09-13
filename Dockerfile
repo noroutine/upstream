@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.55.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.3.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.4.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -1075,19 +1075,19 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.1
+FROM registry.k8s.io/kube-apiserver:v1.28.2
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.1
+FROM registry.k8s.io/kube-proxy:v1.28.2
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.1
+FROM registry.k8s.io/kube-scheduler:v1.28.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.1
+FROM registry.k8s.io/kube-controller-manager:v1.28.2
 # kube-controller-manager
 
 # kube-apiserver
@@ -1287,7 +1287,7 @@ FROM registry.k8s.io/sig-storage/livenessprobe:v2.10.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
