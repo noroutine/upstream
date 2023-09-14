@@ -659,7 +659,7 @@ FROM bitnami/trivy:0.45.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.5-debian-11-r0
+FROM bitnami/kubectl:1.27.6-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -707,7 +707,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.8.3
+FROM quay.io/argoproj/argocd:v2.8.4
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -987,7 +987,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.5-debian-11-r0
+FROM bitnami/kubectl:1.27.6-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
@@ -1047,7 +1047,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.14.2
+FROM hashicorp/vault:1.14.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -1291,11 +1291,11 @@ FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.3.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.8.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
