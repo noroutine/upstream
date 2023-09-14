@@ -1291,7 +1291,7 @@ FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.3.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
