@@ -335,11 +335,11 @@ FROM summerwind/actions-runner-controller:v0.27.5
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.308.0-ubuntu-22.04
+FROM summerwind/actions-runner:v2.309.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.308.0-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.309.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -563,7 +563,7 @@ FROM bitnami/mariadb:11.0.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:6.0.9-debian-11-r0
+FROM bitnami/mongodb:6.0.10-debian-11-r0
 # bitnami/mongodb
 
 # bitnami/memcached
