@@ -159,15 +159,15 @@ FROM grafana/grafana:10.1.1
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.9.0
+FROM grafana/loki:2.9.1
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.9.0
+FROM grafana/loki-canary:2.9.1
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.9.0
+FROM grafana/promtail:2.9.1
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -319,7 +319,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.41.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.55.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.56.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -1303,15 +1303,15 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.0
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v6.2.2
+FROM registry.k8s.io/sig-storage/snapshot-controller:v6.3.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.2.2
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.0
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
