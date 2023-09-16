@@ -95,7 +95,7 @@ FROM quay.io/keycloak/keycloak:22.0.3
 # keycloak/keycloak
 
 # postgres
-FROM postgres:15.4-bookworm
+FROM postgres:16.0-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -343,7 +343,7 @@ FROM summerwind/actions-runner-dind:v2.309.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.14.2
+FROM quay.io/brancz/kube-rbac-proxy:v0.14.3
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -419,7 +419,7 @@ FROM ghost:5.62.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.62.0-debian-11-r0
+FROM bitnami/ghost:5.63.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -651,11 +651,11 @@ FROM bitnami/openldap:2.6.4-debian-11-r3
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.23.1
+FROM bitnami/sealed-secrets-controller:v0.24.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.45.0-debian-11-r0
+FROM bitnami/trivy:0.45.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -663,7 +663,7 @@ FROM bitnami/kubectl:1.27.6-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.45.0
+FROM aquasec/trivy:0.45.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -1275,11 +1275,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.0.2
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.0
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.0.2
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
