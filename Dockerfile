@@ -1275,7 +1275,7 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.0.2
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.0
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
