@@ -223,7 +223,7 @@ FROM docker.elastic.co/logstash/logstash:8.10.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.10.0
+FROM docker.elastic.co/kibana/kibana:8.10.0-1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -583,7 +583,7 @@ FROM bitnami/minio:2023.9.7-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.9.7-debian-11-r0
+FROM bitnami/minio-client:2023.9.13-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -1283,7 +1283,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.10.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.11.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar

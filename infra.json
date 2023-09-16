@@ -1,5 +1,5 @@
 {
-  "version": "18c4c3b5",
+  "version": "a958cb53",
   "upstream": {
     "images": [
       "debian:bookworm-20230904-slim",
@@ -58,7 +58,7 @@
       "quay.io/cortexproject/cortex:v1.15.3",
       "docker.elastic.co/elasticsearch/elasticsearch:8.10.0",
       "docker.elastic.co/logstash/logstash:8.10.0",
-      "docker.elastic.co/kibana/kibana:8.10.0",
+      "docker.elastic.co/kibana/kibana:8.10.0-1",
       "alerta/alerta-web:9.0.1",
       "mongo:7.0.1-jammy",
       "wordpress:6.3.1-apache",
@@ -148,7 +148,7 @@
       "bitnami/nginx-ingress-controller:1.8.1-debian-11-r1",
       "bitnami/nginx:1.25.2-debian-11-r3",
       "bitnami/minio:2023.9.7-debian-11-r0",
-      "bitnami/minio-client:2023.9.7-debian-11-r0",
+      "bitnami/minio-client:2023.9.13-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r133",
       "bitnami/metallb-controller:0.13.10-debian-11-r3",
       "bitnami/metallb-speaker:0.13.10-debian-11-r3",
@@ -323,7 +323,7 @@
       "gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0",
       "gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.0",
       "gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.0",
-      "registry.k8s.io/sig-storage/livenessprobe:v2.10.0",
+      "registry.k8s.io/sig-storage/livenessprobe:v2.11.0",
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0",
       "registry.k8s.io/sig-storage/csi-attacher:v4.4.0",
       "registry.k8s.io/sig-storage/csi-resizer:v1.9.0",
