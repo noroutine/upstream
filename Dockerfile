@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.1
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-09-11
+FROM jupyter/base-notebook:2023-09-16
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-09-11
+FROM jupyter/minimal-notebook:2023-09-16
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-09-11
+FROM jupyter/r-notebook:2023-09-16
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-09-11
+FROM jupyter/scipy-notebook:2023-09-16
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-09-11
+FROM jupyter/tensorflow-notebook:2023-09-16
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-09-11
+FROM jupyter/datascience-notebook:2023-09-16
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-09-11
+FROM jupyter/pyspark-notebook:2023-09-16
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-09-11
+FROM jupyter/all-spark-notebook:2023-09-16
 # jupyter/all-spark-notebook
 
 # rocker/shiny
