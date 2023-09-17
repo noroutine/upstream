@@ -479,7 +479,7 @@ FROM rocker/shiny:4.3.1
 # rocker/shiny
 
 # caprover/caprover
-FROM caprover/caprover:1.11.0
+FROM caprover/caprover:1.11.1
 # caprover/caprover
 
 # mikecao/umami
@@ -579,7 +579,7 @@ FROM bitnami/nginx:1.25.2-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.9.7-debian-11-r0
+FROM bitnami/minio:2023.9.16-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
