@@ -1,5 +1,5 @@
 {
-  "version": "ee8ce899",
+  "version": "baa9f3f0",
   "upstream": {
     "images": [
       "debian:bookworm-20230904-slim",
@@ -23,11 +23,11 @@
       "golang:1.21.1-alpine3.18",
       "traefik:v2.10.4",
       "sonatype/nexus3:3.60.0",
-      "squidfunk/mkdocs-material:9.3.1",
+      "squidfunk/mkdocs-material:9.3.2",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.3",
       "postgres:16.0-bookworm",
-      "atlassian/jira-software:9.11.0",
+      "atlassian/jira-software:9.11.1",
       "nextcloud:27.1.0-apache",
       "haproxytech/haproxy-debian:2.8.3",
       "minio/minio:RELEASE.2023-09-07T02-05-02Z",
@@ -152,7 +152,7 @@
       "bitnami/bitnami-shell:11-debian-11-r133",
       "bitnami/metallb-controller:0.13.10-debian-11-r3",
       "bitnami/metallb-speaker:0.13.10-debian-11-r3",
-      "bitnami/grafana:10.1.1-debian-11-r0",
+      "bitnami/grafana:10.1.2-debian-11-r0",
       "bitnami/grafana-image-renderer:3.8.0-debian-11-r2",
       "bitnami/consul:1.16.1-debian-11-r0",
       "bitnami/nats:2.9.22-debian-11-r0",

@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.60.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.3.1
+FROM squidfunk/mkdocs-material:9.3.2
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -99,7 +99,7 @@ FROM postgres:16.0-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.11.0
+FROM atlassian/jira-software:9.11.1
 # atlassian/jira-software
 
 # nextcloud
@@ -599,7 +599,7 @@ FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.1.1-debian-11-r0
+FROM bitnami/grafana:10.1.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
