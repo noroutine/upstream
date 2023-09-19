@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.11.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:27.0.2-apache
+FROM nextcloud:27.1.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.1.1
+FROM grafana/grafana:10.1.2
 # grafana/grafana
 
 # grafana/loki
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.10.0
+FROM docker.elastic.co/logstash/logstash:8.10.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.10.0-1
+FROM docker.elastic.co/kibana/kibana:8.10.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -303,15 +303,15 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.17.0
+FROM buildpacksio/lifecycle:0.17.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.3.0
+FROM gitlab/gitlab-runner:alpine3.18-v16.3.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.3.3-ce.0
+FROM gitlab/gitlab-ce:16.3.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -431,7 +431,7 @@ FROM nocodb/nocodb:0.111.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.47.1
+FROM metabase/metabase:v0.47.2
 # metabase/metabase
 
 # docker
@@ -443,35 +443,35 @@ FROM quay.io/podman/stable:v4.6.1
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-09-16
+FROM jupyter/base-notebook:2023-09-18
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-09-16
+FROM jupyter/minimal-notebook:2023-09-18
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-09-16
+FROM jupyter/r-notebook:2023-09-18
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-09-16
+FROM jupyter/scipy-notebook:2023-09-18
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-09-16
+FROM jupyter/tensorflow-notebook:2023-09-18
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-09-16
+FROM jupyter/datascience-notebook:2023-09-18
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-09-16
+FROM jupyter/pyspark-notebook:2023-09-18
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-09-16
+FROM jupyter/all-spark-notebook:2023-09-18
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -775,7 +775,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.17-openssl
+FROM eclipse-mosquitto:2.0.18-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
@@ -815,7 +815,7 @@ FROM elastic/eck-operator:2.9.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.1-alpine
+FROM louislam/uptime-kuma:1.23.2-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
