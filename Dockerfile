@@ -375,7 +375,7 @@ FROM jupyterhub/k8s-singleuser-sample:3.0.3
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.6
+FROM jupyterhub/configurable-http-proxy:4.6.0
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
