@@ -891,7 +891,7 @@ FROM wiretrustee/dashboard:v1.15.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.1
+FROM netbirdio/signal:0.23.2
 # netbirdio/signal
 
 # netbirdio/management
