@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-09-07T02-05-02Z
+FROM minio/minio:RELEASE.2023-09-20T22-49-55Z
 # minio/minio
 
 # coreos/etcd
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.10.1
+FROM docker.elastic.co/logstash/logstash:8.10.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.10.1
+FROM docker.elastic.co/kibana/kibana:8.10.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -239,8 +239,12 @@ FROM wordpress:6.3.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.6
+FROM dpage/pgadmin4:7.7
 # dpage/pgadmin4
+
+# adminer
+FROM adminer:4.8.1
+# adminer
 
 # mysql
 FROM mysql:8.1.0
@@ -579,11 +583,11 @@ FROM bitnami/nginx:1.25.2-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.9.16-debian-11-r0
+FROM bitnami/minio:2023.9.20-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.9.13-debian-11-r0
+FROM bitnami/minio-client:2023.9.20-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -607,7 +611,7 @@ FROM bitnami/grafana-image-renderer:3.8.0-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.16.1-debian-11-r0
+FROM bitnami/consul:1.16.2-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -759,7 +763,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.0-alpine3.18
+FROM nats:2.10.1-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
