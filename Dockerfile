@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20230904-slim
+FROM debian:bookworm-20230919-slim
 # debian
 
 # ubuntu
@@ -207,7 +207,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.47.2
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.115
+FROM ghcr.io/prymitive/karma:v0.116
 # prymitive/karma
 
 # cortexproject/cortex
@@ -375,7 +375,7 @@ FROM jupyterhub/k8s-singleuser-sample:3.0.3
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.5.6
+FROM jupyterhub/configurable-http-proxy:4.6.0
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
@@ -387,7 +387,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-8.gd414e99
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-11.g3fe6c75
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -415,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.62.0
+FROM ghost:5.63.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.63.0-debian-11-r0
+FROM bitnami/ghost:5.64.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -611,7 +611,7 @@ FROM bitnami/consul:1.16.1-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.9.22-debian-11-r0
+FROM bitnami/nats:2.10.1-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -659,7 +659,7 @@ FROM bitnami/trivy:0.45.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.6-debian-11-r0
+FROM bitnami/kubectl:1.28.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -691,7 +691,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.40
+FROM stakater/reloader:v1.0.41
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -759,7 +759,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.9.22-alpine3.18
+FROM nats:2.10.0-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -795,7 +795,7 @@ FROM gcr.io/kaniko-project/executor:v1.15.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
-FROM quay.io/iovisor/bpftrace:v0.18.1
+FROM quay.io/iovisor/bpftrace:v0.19.0
 # iovisor/bpftrace
 
 # pryorda/vmware_exporter
@@ -803,7 +803,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:20.0.2-20.32.11
+FROM azul/zulu-openjdk:21.0.0-21.28.85
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -891,11 +891,11 @@ FROM wiretrustee/dashboard:v1.15.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.1
+FROM netbirdio/signal:0.23.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.23.1
+FROM netbirdio/management:0.23.2
 # netbirdio/management
 
 # coturn/coturn
@@ -987,7 +987,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.27.6-debian-11-r0
+FROM bitnami/kubectl:1.28.2-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
@@ -1035,7 +1035,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.16.1
+FROM hashicorp/consul:1.16.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -1215,7 +1215,7 @@ FROM calico/csi:v3.26.1
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.0
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.1
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
