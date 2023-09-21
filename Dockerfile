@@ -387,7 +387,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-8.gd414e99
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-11.g3fe6c75
 # jupyterhub/repo2docker
 
 # pihole/pihole
