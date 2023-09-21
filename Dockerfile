@@ -239,7 +239,7 @@ FROM wordpress:6.3.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.6
+FROM dpage/pgadmin4:7.7
 # dpage/pgadmin4
 
 # mysql
