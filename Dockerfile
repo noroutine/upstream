@@ -963,7 +963,7 @@ FROM velero/velero-plugin-for-csi:v0.5.1
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.7.1
+FROM velero/velero-plugin-for-aws:v1.8.0
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
