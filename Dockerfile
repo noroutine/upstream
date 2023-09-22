@@ -919,7 +919,7 @@ FROM jenkins/agent:3107.v665000b_51092-16-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
-FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2
+FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
@@ -955,23 +955,23 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0
 # oss/azure/workload-identity/webhook
 
 # velero/velero
-FROM velero/velero:v1.11.1
+FROM velero/velero:v1.12.0
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.5.1
+FROM velero/velero-plugin-for-csi:v0.6.0
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.7.1
+FROM velero/velero-plugin-for-aws:v1.8.0
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.7.1
+FROM velero/velero-plugin-for-gcp:v1.8.0
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.7.1
+FROM velero/velero-plugin-for-microsoft-azure:v1.8.0
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere

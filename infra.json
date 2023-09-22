@@ -1,5 +1,5 @@
 {
-  "version": "2bb190a5",
+  "version": "8e671e2d",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -232,7 +232,7 @@
       "firezone/firezone:0.7.35",
       "jenkins/jenkins:2.424-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
-      "quay.io/jenkins-kubernetes-operator/operator:v0.8.0-beta2",
+      "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.6.2",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:v1.0.0",
@@ -241,11 +241,11 @@
       "locustio/locust:2.16.1",
       "postgrest/postgrest:v11.2.0",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0",
-      "velero/velero:v1.11.1",
-      "velero/velero-plugin-for-csi:v0.5.1",
-      "velero/velero-plugin-for-aws:v1.7.1",
-      "velero/velero-plugin-for-gcp:v1.7.1",
-      "velero/velero-plugin-for-microsoft-azure:v1.7.1",
+      "velero/velero:v1.12.0",
+      "velero/velero-plugin-for-csi:v0.6.0",
+      "velero/velero-plugin-for-aws:v1.8.0",
+      "velero/velero-plugin-for-gcp:v1.8.0",
+      "velero/velero-plugin-for-microsoft-azure:v1.8.0",
       "vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.1",
       "vsphereveleroplugin/backup-driver:v1.5.1",
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.1",
