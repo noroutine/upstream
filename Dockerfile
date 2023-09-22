@@ -954,6 +954,14 @@ FROM postgrest/postgrest:v11.2.0
 FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0
 # oss/azure/workload-identity/webhook
 
+# guacamole/guacamole
+FROM guacamole/guacamole:1.5.3
+# guacamole/guacamole
+
+# guacamole/guacd
+FROM guacamole/guacd:1.5.3
+# guacamole/guacd
+
 # velero/velero
 FROM velero/velero:v1.12.0
 # velero/velero
