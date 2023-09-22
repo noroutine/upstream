@@ -1,5 +1,5 @@
 {
-  "version": "8e671e2d",
+  "version": "7650ec94",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -144,7 +144,7 @@
       "bitnami/keycloak:22.0.3-debian-11-r0",
       "bitnami/keycloak-config-cli:5.6.1-debian-11-r3",
       "bitnami/mariadb:11.0.3-debian-11-r0",
-      "bitnami/mongodb:6.0.10-debian-11-r0",
+      "bitnami/mongodb:7.0.1-debian-11-r0",
       "bitnami/memcached:1.6.21-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.8.1-debian-11-r1",
       "bitnami/nginx:1.25.2-debian-11-r3",
