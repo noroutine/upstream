@@ -1,5 +1,5 @@
 {
-  "version": "cb01146c",
+  "version": "3ea53098",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.1-alpine3.18",
       "traefik:v2.10.4",
       "sonatype/nexus3:3.60.0",
-      "squidfunk/mkdocs-material:9.4.0",
+      "squidfunk/mkdocs-material:9.4.1",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.3",
       "postgres:16.0-bookworm",
@@ -67,7 +67,7 @@
       "mysql:8.1.0",
       "mariadb:11.1.2-jammy",
       "mccutchen/go-httpbin:v2.11.0",
-      "quay.io/oauth2-proxy/oauth2-proxy:v7.5.0-amd64",
+      "quay.io/oauth2-proxy/oauth2-proxy:v7.5.1-amd64",
       "heroku/heroku:20-build",
       "heroku/heroku:20",
       "heroku/heroku:22-build",
@@ -81,7 +81,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.17.1",
       "gitlab/gitlab-runner:alpine3.18-v16.3.1",
-      "gitlab/gitlab-ce:16.3.4-ce.0",
+      "gitlab/gitlab-ce:16.4.0-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.41.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.56.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.4.0",

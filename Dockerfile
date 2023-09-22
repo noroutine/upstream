@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.60.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.0
+FROM squidfunk/mkdocs-material:9.4.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -259,7 +259,7 @@ FROM mccutchen/go-httpbin:v2.11.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.5.0-amd64
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.5.1-amd64
 # oauth2-proxy/oauth2-proxy
 
 # heroku/heroku
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.3.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.3.4-ce.0
+FROM gitlab/gitlab-ce:16.4.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
