@@ -1,5 +1,5 @@
 {
-  "version": "aa232ab2",
+  "version": "2bb190a5",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -107,7 +107,7 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.26.2",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.63.0",
+      "ghost:5.64.0",
       "bitnami/ghost:5.64.0-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.111.4",
