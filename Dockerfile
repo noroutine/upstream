@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.60.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.3.2
+FROM squidfunk/mkdocs-material:9.4.0
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.11.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:27.1.0-apache
+FROM nextcloud:27.1.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -443,7 +443,7 @@ FROM docker:24.0.6-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.6.1
+FROM quay.io/podman/stable:v4.6.2
 # podman/stable
 
 # jupyter/base-notebook
@@ -1043,7 +1043,7 @@ FROM hashicorp/consul:1.16.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.2.1
+FROM hashicorp/consul-k8s-control-plane:1.2.2
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
