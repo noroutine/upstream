@@ -955,7 +955,7 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0
 # oss/azure/workload-identity/webhook
 
 # velero/velero
-FROM velero/velero:v1.11.1
+FROM velero/velero:v1.12.0
 # velero/velero
 
 # velero/velero-plugin-for-csi
