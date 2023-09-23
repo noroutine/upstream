@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.289",
+  "version": "f5204a11",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -107,8 +107,8 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.26.2",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.64.0",
-      "bitnami/ghost:5.64.0-debian-11-r0",
+      "ghost:5.65.0",
+      "bitnami/ghost:5.65.0-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.111.4",
       "metabase/metabase:v0.47.2",
@@ -201,7 +201,7 @@
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.7.4-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
-      "gcr.io/kaniko-project/executor:v1.15.0",
+      "gcr.io/kaniko-project/executor:v1.16.0",
       "quay.io/iovisor/bpftrace:v0.19.0",
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:21.0.0-21.28.85",

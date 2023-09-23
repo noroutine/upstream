@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.64.0
+FROM ghost:5.65.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.64.0-debian-11-r0
+FROM bitnami/ghost:5.65.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -795,7 +795,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.15.0
+FROM gcr.io/kaniko-project/executor:v1.16.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
