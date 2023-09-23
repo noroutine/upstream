@@ -1,5 +1,5 @@
 {
-  "version": "33cf1ce7",
+  "version": "67c1d32f",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -225,7 +225,7 @@
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "yugabytedb/yugabyte:2.18.2.1-b1",
       "antelle/keeweb:1.18.7",
-      "wiretrustee/dashboard:v1.15.16",
+      "wiretrustee/dashboard:v1.16.0",
       "netbirdio/signal:0.23.3",
       "netbirdio/management:0.23.3",
       "coturn/coturn:4.6.2",
