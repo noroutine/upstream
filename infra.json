@@ -1,5 +1,5 @@
 {
-  "version": "67c1d32f",
+  "version": "95b65a77",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -211,7 +211,7 @@
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.71.0",
       "syncthing/syncthing:1.24.0",
-      "jellyfin/jellyfin:10.8.10",
+      "jellyfin/jellyfin:10.8.11",
       "haveagitgat/tdarr:2.11.01",
       "haveagitgat/tdarr_node:2.11.01",
       "gravitl/netmaker:v0.21.0",
