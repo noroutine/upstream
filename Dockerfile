@@ -411,7 +411,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.26.2
+FROM verdaccio/verdaccio:5.26.3
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -607,7 +607,7 @@ FROM bitnami/grafana:10.1.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.8.0-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.8.2-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -671,7 +671,7 @@ FROM aquasec/trivy:0.45.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.4
+FROM ghcr.io/external-secrets/external-secrets:v0.9.5
 # external-secrets/external-secrets
 
 # minio/console
@@ -839,11 +839,11 @@ FROM jellyfin/jellyfin:10.8.11
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.11.01
+FROM haveagitgat/tdarr:2.12.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.11.01
+FROM haveagitgat/tdarr_node:2.12.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
