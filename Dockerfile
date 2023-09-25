@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.60.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.1
+FROM squidfunk/mkdocs-material:9.4.2
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-09-20T22-49-55Z
+FROM minio/minio:RELEASE.2023-09-23T03-47-50Z
 # minio/minio
 
 # coreos/etcd
@@ -583,11 +583,11 @@ FROM bitnami/nginx:1.25.2-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.9.20-debian-11-r0
+FROM bitnami/minio:2023.9.23-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.9.20-debian-11-r0
+FROM bitnami/minio-client:2023.9.22-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -895,11 +895,11 @@ FROM wiretrustee/dashboard:v1.16.0
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.3
+FROM netbirdio/signal:0.23.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.23.3
+FROM netbirdio/management:0.23.4
 # netbirdio/management
 
 # coturn/coturn
