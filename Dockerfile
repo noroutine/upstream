@@ -843,7 +843,7 @@ FROM haveagitgat/tdarr:2.11.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.11.01
+FROM haveagitgat/tdarr_node:2.12.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
