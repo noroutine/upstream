@@ -183,7 +183,7 @@ FROM httpd:2.4.57-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.13-jdk17-temurin-jammy
+FROM tomcat:10.1.13-jdk21-openjdk-bookworm
 # tomcat
 
 # m3db/m3coordinator
@@ -447,35 +447,35 @@ FROM quay.io/podman/stable:v4.6.2
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-09-18
+FROM jupyter/base-notebook:2023-09-25
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-09-18
+FROM jupyter/minimal-notebook:2023-09-25
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-09-18
+FROM jupyter/r-notebook:2023-09-25
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-09-18
+FROM jupyter/scipy-notebook:2023-09-25
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-09-18
+FROM jupyter/tensorflow-notebook:2023-09-25
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-09-18
+FROM jupyter/datascience-notebook:2023-09-25
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-09-18
+FROM jupyter/pyspark-notebook:2023-09-25
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-09-18
+FROM jupyter/all-spark-notebook:2023-09-25
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -771,7 +771,7 @@ FROM natsio/prometheus-nats-exporter:0.12.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.12.0
+FROM natsio/nats-server-config-reloader:0.13.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
