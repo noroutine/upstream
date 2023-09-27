@@ -546,6 +546,10 @@ FROM bitnami/postgresql:14.9.0-debian-11-r0
 FROM bitnami/postgresql:15.4.0-debian-11-r0
 # bitnami/postgresql
 
+# bitnami/postgresql
+FROM bitnami/postgresql:16.0.0-debian-11-r0
+# bitnami/postgresql
+
 # bitnami/tomcat
 FROM bitnami/tomcat:10.1.13-debian-11-r0
 # bitnami/tomcat
@@ -923,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.6.2
+FROM netboxcommunity/netbox:v3.6.3
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard

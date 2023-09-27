@@ -1,5 +1,5 @@
 {
-  "version": "ecb0d05d",
+  "version": "35816a00",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -139,6 +139,7 @@
       "bitnami/postgresql:13.12.0-debian-11-r0",
       "bitnami/postgresql:14.9.0-debian-11-r0",
       "bitnami/postgresql:15.4.0-debian-11-r0",
+      "bitnami/postgresql:16.0.0-debian-11-r0",
       "bitnami/tomcat:10.1.13-debian-11-r0",
       "bitnami/jmx-exporter:0.18.0-debian-11-r10",
       "bitnami/keycloak:22.0.3-debian-11-r0",
@@ -233,7 +234,7 @@
       "jenkins/jenkins:2.425-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
-      "netboxcommunity/netbox:v3.6.2",
+      "netboxcommunity/netbox:v3.6.3",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",
