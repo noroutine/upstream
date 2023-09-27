@@ -527,23 +527,23 @@ FROM bitnami/postgresql:10.23.0-debian-11-r3
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.21.0-debian-11-r0
+FROM bitnami/postgresql:16.0.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.16.0-debian-11-r0
+FROM bitnami/postgresql:16.0.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.12.0-debian-11-r0
+FROM bitnami/postgresql:16.0.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.9.0-debian-11-r0
+FROM bitnami/postgresql:16.0.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.4.0-debian-11-r0
+FROM bitnami/postgresql:16.0.0-debian-11-r0
 # bitnami/postgresql
 
 # bitnami/tomcat
