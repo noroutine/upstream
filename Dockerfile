@@ -911,7 +911,7 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.424-jdk17
+FROM jenkins/jenkins:2.425-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1059,7 +1059,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.14.3
+FROM hashicorp/vault:1.15.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s

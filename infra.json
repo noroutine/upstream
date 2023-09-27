@@ -1,5 +1,5 @@
 {
-  "version": "b215f2aa",
+  "version": "ecb0d05d",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -230,7 +230,7 @@
       "netbirdio/management:0.23.4",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.35",
-      "jenkins/jenkins:2.424-jdk17",
+      "jenkins/jenkins:2.425-jdk17",
       "jenkins/agent:3107.v665000b_51092-16-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.6.2",
@@ -267,7 +267,7 @@
       "hashicorp/consul:1.16.2",
       "hashicorp/consul-k8s-control-plane:1.2.2",
       "envoyproxy/envoy-alpine:v1.21.6",
-      "hashicorp/vault:1.14.3",
+      "hashicorp/vault:1.15.0",
       "hashicorp/vault-k8s:1.3.0",
       "hashicorp/vault-csi-provider:1.4.0",
       "quay.io/strimzi/operator:0.37.0",
