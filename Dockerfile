@@ -311,7 +311,7 @@ FROM buildpacksio/lifecycle:0.17.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.3.1
+FROM gitlab/gitlab-runner:alpine3.18-v16.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
