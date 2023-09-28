@@ -311,7 +311,7 @@ FROM buildpacksio/lifecycle:0.17.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.3.1
+FROM gitlab/gitlab-runner:alpine3.18-v16.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-ce:16.4.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.41.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.42.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.65.0
+FROM ghost:5.65.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.65.0-debian-11-r0
+FROM bitnami/ghost:5.65.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -895,7 +895,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.16.0
+FROM wiretrustee/dashboard:v1.16.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -1023,19 +1023,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.2
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.13.0
+FROM quay.io/jetstack/cert-manager-controller:v1.13.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.13.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.13.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.13.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.13.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.13.0
+FROM quay.io/jetstack/cert-manager-ctl:v1.13.1
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
