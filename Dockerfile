@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.4.0-ce.0
+FROM gitlab/gitlab-ce:16.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
