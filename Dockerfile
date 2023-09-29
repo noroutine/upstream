@@ -1019,7 +1019,7 @@ FROM ghcr.io/kedacore/keda:2.11.2
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.2
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.12.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
