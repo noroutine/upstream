@@ -958,6 +958,10 @@ FROM postgrest/postgrest:v11.2.0
 FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0
 # oss/azure/workload-identity/webhook
 
+# k8s/azureserviceoperator
+FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.2.0
+# k8s/azureserviceoperator
+
 # guacamole/guacamole
 FROM guacamole/guacamole:1.5.3
 # guacamole/guacamole
