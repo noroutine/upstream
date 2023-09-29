@@ -11,7 +11,7 @@ FROM ubuntu:focal-20230801
 # ubuntu
 
 # alpine
-FROM alpine:3.18.3
+FROM alpine:3.18.4
 # alpine
 
 # busybox
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.4.0-ce.0
+FROM gitlab/gitlab-ce:16.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.42.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.56.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.57.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -691,7 +691,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.33.4
+FROM hasura/graphql-engine:v2.34.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.16.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.4
+FROM netbirdio/signal:0.23.5
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.23.4
+FROM netbirdio/management:0.23.5
 # netbirdio/management
 
 # coturn/coturn
@@ -1015,11 +1015,11 @@ FROM registry.k8s.io/git-sync/git-sync:v4.0.0
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.11.2
+FROM ghcr.io/kedacore/keda:2.12.0
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.11.2
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.12.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
