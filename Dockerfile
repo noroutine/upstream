@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-09-23T03-47-50Z
+FROM minio/minio:RELEASE.2023-09-30T07-02-29Z
 # minio/minio
 
 # coreos/etcd
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.65.1
+FROM ghost:5.66.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.65.1-debian-11-r0
+FROM bitnami/ghost:5.66.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.2-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.9.23-debian-11-r0
+FROM bitnami/minio:2023.9.27-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.9.22-debian-11-r0
+FROM bitnami/minio-client:2023.9.28-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -895,15 +895,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.16.1
+FROM wiretrustee/dashboard:v1.16.3
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.5
+FROM netbirdio/signal:0.23.6
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.23.5
+FROM netbirdio/management:0.23.6
 # netbirdio/management
 
 # coturn/coturn
