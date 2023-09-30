@@ -1,5 +1,5 @@
 {
-  "version": "047a5575",
+  "version": "e936ae3c",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -41,7 +41,7 @@
       "quay.io/prometheus/pushgateway:v1.6.2",
       "quay.io/prometheus-operator/prometheus-operator:v0.68.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0",
-      "grafana/grafana:10.1.2",
+      "grafana/grafana:10.1.4",
       "grafana/loki:2.9.1",
       "grafana/loki-canary:2.9.1",
       "grafana/promtail:2.9.1",
@@ -145,7 +145,7 @@
       "bitnami/keycloak:22.0.3-debian-11-r0",
       "bitnami/keycloak-config-cli:5.6.1-debian-11-r3",
       "bitnami/mariadb:11.0.3-debian-11-r0",
-      "bitnami/mongodb:7.0.1-debian-11-r0",
+      "bitnami/mongodb:7.0.2-debian-11-r0",
       "bitnami/memcached:1.6.21-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.8.1-debian-11-r1",
       "bitnami/nginx:1.25.2-debian-11-r3",
@@ -154,7 +154,7 @@
       "bitnami/bitnami-shell:11-debian-11-r133",
       "bitnami/metallb-controller:0.13.10-debian-11-r3",
       "bitnami/metallb-speaker:0.13.10-debian-11-r3",
-      "bitnami/grafana:10.1.2-debian-11-r0",
+      "bitnami/grafana:10.1.4-debian-11-r0",
       "bitnami/grafana-image-renderer:3.8.2-debian-11-r2",
       "bitnami/consul:1.16.2-debian-11-r0",
       "bitnami/nats:2.10.1-debian-11-r0",

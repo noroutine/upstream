@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.1.2
+FROM grafana/grafana:10.1.4
 # grafana/grafana
 
 # grafana/loki
@@ -571,7 +571,7 @@ FROM bitnami/mariadb:11.0.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.1-debian-11-r0
+FROM bitnami/mongodb:7.0.2-debian-11-r0
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -607,7 +607,7 @@ FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.1.2-debian-11-r0
+FROM bitnami/grafana:10.1.4-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
