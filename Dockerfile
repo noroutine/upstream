@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:50bdc7b67763b1a1de96286a97ad09907c1ed2234278e3e
 # buildpack-deps
 
 # php
-FROM php:8.2.10-apache-bookworm
+FROM php:8.2.11-apache-bookworm
 # php
 
 # python
@@ -359,23 +359,23 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.0.3
+FROM jupyterhub/k8s-hub:3.1.0
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.0.3
+FROM jupyterhub/k8s-secret-sync:3.1.0
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.0.3
+FROM jupyterhub/k8s-network-tools:3.1.0
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.0.3
+FROM jupyterhub/k8s-image-awaiter:3.1.0
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:3.0.3
+FROM jupyterhub/k8s-singleuser-sample:3.1.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-11.g3fe6c75
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-17.g4cd89f5
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -443,7 +443,7 @@ FROM docker:24.0.6-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.6.2
+FROM quay.io/podman/stable:v4.7.0
 # podman/stable
 
 # jupyter/base-notebook
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.2-debian-11-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.9.27-debian-11-r0
+FROM bitnami/minio:2023.9.30-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.9.28-debian-11-r0
+FROM bitnami/minio-client:2023.9.29-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -843,11 +843,11 @@ FROM jellyfin/jellyfin:10.8.11
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.12.01
+FROM haveagitgat/tdarr:2.13.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.12.01
+FROM haveagitgat/tdarr_node:2.13.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
