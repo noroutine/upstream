@@ -359,7 +359,7 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.0.3
+FROM jupyterhub/k8s-hub:3.1.0
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
