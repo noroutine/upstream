@@ -367,7 +367,7 @@ FROM jupyterhub/k8s-secret-sync:3.0.3
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.0.3
+FROM jupyterhub/k8s-network-tools:3.1.0
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
