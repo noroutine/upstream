@@ -59,11 +59,11 @@ FROM php:8.2.11-apache-bookworm
 # php
 
 # python
-FROM python:3.11.5-bookworm
+FROM python:3.12.0-bookworm
 # python
 
 # python
-FROM python:3.11.5-slim-bookworm
+FROM python:3.12.0-slim-bookworm
 # python
 
 # golang
