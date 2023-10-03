@@ -1335,11 +1335,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.0
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.7.0
+FROM confluentinc/confluent-init-container:2.7.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.824.2
+FROM confluentinc/confluent-operator:0.824.14
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
