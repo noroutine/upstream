@@ -59,11 +59,11 @@ FROM php:8.2.11-apache-bookworm
 # php
 
 # python
-FROM python:3.11.5-bookworm
+FROM python:3.12.0-bookworm
 # python
 
 # python
-FROM python:3.11.5-slim-bookworm
+FROM python:3.12.0-slim-bookworm
 # python
 
 # golang
@@ -915,11 +915,11 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.425-jdk17
+FROM jenkins/jenkins:2.426-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3107.v665000b_51092-16-jdk17
+FROM jenkins/agent:3148.v532a_7e715ee3-10-jdk21-preview
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator

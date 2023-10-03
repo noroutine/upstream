@@ -1,5 +1,5 @@
 {
-  "version": "9817dae6",
+  "version": "194a6fc2",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -17,8 +17,8 @@
       "buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff8872826cf7776d8254e736",
       "buildpack-deps:jammy@sha256:81c4ad1a6b9202455440f3b5866bfb9befd1ff7fba2d738e7ac36e3aad99f495",
       "php:8.2.11-apache-bookworm",
-      "python:3.11.5-bookworm",
-      "python:3.11.5-slim-bookworm",
+      "python:3.12.0-bookworm",
+      "python:3.12.0-slim-bookworm",
       "golang:1.21.1-bookworm",
       "golang:1.21.1-alpine3.18",
       "traefik:v2.10.4",
@@ -231,8 +231,8 @@
       "netbirdio/management:0.23.6",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.35",
-      "jenkins/jenkins:2.425-jdk17",
-      "jenkins/agent:3107.v665000b_51092-16-jdk17",
+      "jenkins/jenkins:2.426-jdk21",
+      "jenkins/agent:3148.v532a_7e715ee3-10-jdk21-preview",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.6.3",
       "kubernetesui/dashboard:v2.7.0",
