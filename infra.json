@@ -1,9 +1,9 @@
 {
-  "version": "d513f7ba",
+  "version": "2a05ae0e",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
-      "ubuntu:jammy-20230816",
+      "ubuntu:jammy-20230916",
       "ubuntu:focal-20230801",
       "alpine:3.18.4",
       "busybox:1.36.1",
@@ -15,7 +15,7 @@
       "gcr.io/distroless/nodejs-debian11",
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
       "buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff8872826cf7776d8254e736",
-      "buildpack-deps:jammy@sha256:50bdc7b67763b1a1de96286a97ad09907c1ed2234278e3e5da92ef0d126f0e23",
+      "buildpack-deps:jammy@sha256:81c4ad1a6b9202455440f3b5866bfb9befd1ff7fba2d738e7ac36e3aad99f495",
       "php:8.2.11-apache-bookworm",
       "python:3.11.5-bookworm",
       "python:3.11.5-slim-bookworm",
@@ -179,7 +179,7 @@
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.41",
       "jimmidyson/configmap-reload:v0.9.0",
-      "registry:2.8.2",
+      "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.37.0",
       "quay.io/argoproj/argocd:v2.8.4",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",

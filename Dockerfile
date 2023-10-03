@@ -3,7 +3,7 @@ FROM debian:bookworm-20230919-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230816
+FROM ubuntu:jammy-20230916
 # ubuntu
 
 # ubuntu
@@ -51,7 +51,7 @@ FROM buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff88728
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:50bdc7b67763b1a1de96286a97ad09907c1ed2234278e3e5da92ef0d126f0e23
+FROM buildpack-deps:jammy@sha256:81c4ad1a6b9202455440f3b5866bfb9befd1ff7fba2d738e7ac36e3aad99f495
 # buildpack-deps
 
 # php
@@ -707,7 +707,7 @@ FROM jimmidyson/configmap-reload:v0.9.0
 # jimmidyson/configmap-reload
 
 # registry
-FROM registry:2.8.2
+FROM registry:2.8.3
 # registry
 
 # dexidp/dex
