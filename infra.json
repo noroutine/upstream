@@ -1,5 +1,5 @@
 {
-  "version": "e8c7f2e6",
+  "version": "fcdebc6e",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -22,7 +22,7 @@
       "golang:1.21.1-bookworm",
       "golang:1.21.1-alpine3.18",
       "traefik:v2.10.4",
-      "sonatype/nexus3:3.60.0",
+      "sonatype/nexus3:3.61.0",
       "squidfunk/mkdocs-material:9.4.3",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.3",
@@ -211,7 +211,7 @@
       "louislam/uptime-kuma:1.23.2-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.72.0",
-      "syncthing/syncthing:1.24.0",
+      "syncthing/syncthing:1.25.0",
       "jellyfin/jellyfin:10.8.11",
       "haveagitgat/tdarr:2.13.01",
       "haveagitgat/tdarr_node:2.13.01",

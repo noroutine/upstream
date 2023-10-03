@@ -79,7 +79,7 @@ FROM traefik:v2.10.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.60.0
+FROM sonatype/nexus3:3.61.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -835,7 +835,7 @@ FROM outlinewiki/outline:0.72.0
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.24.0
+FROM syncthing/syncthing:1.25.0
 # syncthing/syncthing
 
 # jellyfin/jellyfin
