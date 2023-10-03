@@ -707,7 +707,7 @@ FROM jimmidyson/configmap-reload:v0.9.0
 # jimmidyson/configmap-reload
 
 # registry
-FROM registry:2.8.2
+FROM registry:2.8.3
 # registry
 
 # dexidp/dex
