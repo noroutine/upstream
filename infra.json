@@ -1,5 +1,5 @@
 {
-  "version": "c8333ffa",
+  "version": "9817dae6",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.1-alpine3.18",
       "traefik:v2.10.4",
       "sonatype/nexus3:3.60.0",
-      "squidfunk/mkdocs-material:9.4.2",
+      "squidfunk/mkdocs-material:9.4.3",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.3",
       "postgres:16.0-bookworm",
@@ -210,7 +210,7 @@
       "elastic/eck-operator:2.9.0",
       "louislam/uptime-kuma:1.23.2-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.71.0",
+      "outlinewiki/outline:0.72.0",
       "syncthing/syncthing:1.24.0",
       "jellyfin/jellyfin:10.8.11",
       "haveagitgat/tdarr:2.13.01",
