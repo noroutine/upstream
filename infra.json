@@ -1,5 +1,5 @@
 {
-  "version": "fcdebc6e",
+  "version": "1b064e80",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -108,7 +108,7 @@
       "verdaccio/verdaccio:5.26.3",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.66.1",
-      "bitnami/ghost:5.66.0-debian-11-r0",
+      "bitnami/ghost:5.66.1-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.111.4",
       "metabase/metabase:v0.47.3",
