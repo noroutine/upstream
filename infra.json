@@ -1,5 +1,5 @@
 {
-  "version": "1b064e80",
+  "version": "e2902adb",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -203,7 +203,7 @@
       "caddy:2.7.4-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
       "gcr.io/kaniko-project/executor:v1.16.0",
-      "quay.io/iovisor/bpftrace:v0.19.0",
+      "quay.io/iovisor/bpftrace:v0.19.1",
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:21.0.0-21.28.85",
       "eclipse-temurin:20.0.2_9-jdk-jammy",
