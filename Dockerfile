@@ -1219,7 +1219,7 @@ FROM calico/kube-controllers:v3.26.1
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.26.1
+FROM calico/dikastes:v3.26.2
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
