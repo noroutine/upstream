@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:22.0.3
+FROM quay.io/keycloak/keycloak:22.0.4
 # keycloak/keycloak
 
 # postgres
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.9
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.47.0
+FROM quay.io/prometheus/prometheus:v2.47.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-17.g4cd89f5
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-19.g129f624
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -423,7 +423,7 @@ FROM ghost:5.66.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.66.1-debian-11-r0
+FROM bitnami/ghost:5.67.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -495,7 +495,7 @@ FROM bitnami/spark:3.4.1-debian-11-r4
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.47.0-debian-11-r0
+FROM bitnami/prometheus:2.47.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -559,11 +559,11 @@ FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:22.0.3-debian-11-r0
+FROM bitnami/keycloak:22.0.4-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.6.1-debian-11-r3
+FROM bitnami/keycloak-config-cli:5.8.0-debian-11-r65
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.41
+FROM stakater/reloader:v1.0.42
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -895,15 +895,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.16.3
+FROM wiretrustee/dashboard:v1.17.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.6
+FROM netbirdio/signal:0.23.7
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.23.6
+FROM netbirdio/management:0.23.7
 # netbirdio/management
 
 # coturn/coturn
@@ -951,7 +951,7 @@ FROM locustio/locust:2.16.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v11.2.0
+FROM postgrest/postgrest:v11.2.1
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
@@ -1195,43 +1195,43 @@ FROM quay.io/tigera/operator:v1.31.1
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.26.1
+FROM calico/typha:v3.26.2
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.26.1
+FROM calico/ctl:v3.26.2
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.26.1
+FROM calico/node:v3.26.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.26.1
+FROM calico/cni:v3.26.2
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.26.1
+FROM calico/apiserver:v3.26.2
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.26.1
+FROM calico/kube-controllers:v3.26.2
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.26.1
+FROM calico/dikastes:v3.26.2
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.26.1
+FROM calico/pod2daemon-flexvol:v3.26.2
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.26.1
+FROM calico/node-driver-registrar:v3.26.2
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.26.1
+FROM calico/csi:v3.26.2
 # calico/csi
 
 # nfd/node-feature-discovery
