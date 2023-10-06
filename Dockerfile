@@ -67,11 +67,11 @@ FROM python:3.12.0-slim-bookworm
 # python
 
 # golang
-FROM golang:1.21.1-bookworm
+FROM golang:1.21.2-bookworm
 # golang
 
 # golang
-FROM golang:1.21.1-alpine3.18
+FROM golang:1.21.2-alpine3.18
 # golang
 
 # traefik
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.61.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.3
+FROM squidfunk/mkdocs-material:9.4.4
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -99,7 +99,7 @@ FROM postgres:16.0-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.11.1
+FROM atlassian/jira-software:9.11.2
 # atlassian/jira-software
 
 # nextcloud
@@ -491,7 +491,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.4.1-debian-11-r4
+FROM bitnami/spark:3.5.0-debian-11-r9
 # bitnami/spark
 
 # bitnami/prometheus
@@ -499,27 +499,27 @@ FROM bitnami/prometheus:2.47.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.68.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.68.0-debian-11-r24
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.6.1-debian-11-r0
+FROM bitnami/node-exporter:1.6.1-debian-11-r75
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.24.0-debian-11-r3
+FROM bitnami/blackbox-exporter:0.24.0-debian-11-r135
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.13.2-debian-11-r1
+FROM bitnami/postgres-exporter:0.14.0-debian-11-r12
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.1-debian-11-r0
+FROM bitnami/redis:7.2.1-debian-11-r24
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.54.0-debian-11-r0
+FROM bitnami/redis-exporter:1.54.0-debian-11-r25
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -527,35 +527,35 @@ FROM bitnami/postgresql:10.23.0-debian-11-r3
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.21.0-debian-11-r0
+FROM bitnami/postgresql:11.21.0-debian-11-r55
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.16.0-debian-11-r0
+FROM bitnami/postgresql:12.16.0-debian-11-r50
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.12.0-debian-11-r0
+FROM bitnami/postgresql:13.12.0-debian-11-r55
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.9.0-debian-11-r0
+FROM bitnami/postgresql:14.9.0-debian-11-r54
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.4.0-debian-11-r0
+FROM bitnami/postgresql:15.4.0-debian-11-r50
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.0.0-debian-11-r0
+FROM bitnami/postgresql:16.0.0-debian-11-r10
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.13-debian-11-r0
+FROM bitnami/tomcat:10.1.13-debian-11-r35
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
-FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
+FROM bitnami/jmx-exporter:0.19.0-debian-11-r92
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
@@ -567,107 +567,107 @@ FROM bitnami/keycloak-config-cli:5.8.0-debian-11-r65
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.0.3-debian-11-r0
+FROM bitnami/mariadb:11.0.3-debian-11-r47
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.2-debian-11-r0
+FROM bitnami/mongodb:7.0.2-debian-11-r2
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.21-debian-11-r0
+FROM bitnami/memcached:1.6.21-debian-11-r104
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.8.1-debian-11-r1
+FROM bitnami/nginx-ingress-controller:1.9.0-debian-11-r7
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.2-debian-11-r3
+FROM bitnami/nginx:1.25.2-debian-11-r45
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.9.30-debian-11-r0
+FROM bitnami/minio:2023.9.30-debian-11-r2
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.9.29-debian-11-r0
+FROM bitnami/minio-client:2023.9.29-debian-11-r2
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
-FROM bitnami/bitnami-shell:11-debian-11-r133
+FROM bitnami/bitnami-shell:11-debian-11-r136
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.10-debian-11-r3
+FROM bitnami/metallb-controller:0.13.11-debian-11-r26
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.10-debian-11-r3
+FROM bitnami/metallb-speaker:0.13.11-debian-11-r28
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.1.4-debian-11-r0
+FROM bitnami/grafana:10.1.4-debian-11-r3
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.8.2-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.8.3-debian-11-r3
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.16.2-debian-11-r0
+FROM bitnami/consul:1.16.2-debian-11-r15
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.1-debian-11-r0
+FROM bitnami/nats:2.10.1-debian-11-r12
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.10.0-debian-11-r0
+FROM bitnami/kube-state-metrics:2.10.0-debian-11-r31
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.4-debian-11-r32
+FROM bitnami/metrics-server:0.6.4-debian-11-r67
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.8.0-debian-11-r4
+FROM bitnami/kubeapps-dashboard:2.9.0-debian-11-r11
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.8.0-scratch-r1
+FROM bitnami/kubeapps-apprepository-controller:2.9.0-debian-11-r7
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.8.0-scratch-r1
+FROM bitnami/kubeapps-asset-syncer:2.9.0-debian-11-r7
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.8.0-debian-11-r3
+FROM bitnami/kubeapps-apis:2.9.0-debian-11-r7
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.8.0-debian-11-r3
+FROM bitnami/kubeapps-pinniped-proxy:2.9.0-debian-11-r8
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.14.2-scratch-r0
+FROM bitnami/kube-rbac-proxy:0.14.3-debian-11-r22
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.4-debian-11-r3
+FROM bitnami/openldap:2.6.6-debian-11-r57
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.24.0
+FROM bitnami/sealed-secrets-controller:v0.24.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.45.1-debian-11-r0
+FROM bitnami/trivy:0.45.1-debian-11-r12
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.28.2-debian-11-r0
+FROM bitnami/kubectl:1.28.2-debian-11-r12
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.16.1
+FROM locustio/locust:2.17.0
 # locustio/locust
 
 # postgrest/postgrest
