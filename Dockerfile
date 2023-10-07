@@ -255,7 +255,7 @@ FROM mariadb:11.1.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.11.0
+FROM mccutchen/go-httpbin:v2.11.1
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy

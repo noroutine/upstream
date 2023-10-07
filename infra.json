@@ -1,5 +1,5 @@
 {
-  "version": "2ea0df9d",
+  "version": "53c6c64b",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -66,7 +66,7 @@
       "adminer:4.8.1",
       "mysql:8.1.0",
       "mariadb:11.1.2-jammy",
-      "mccutchen/go-httpbin:v2.11.0",
+      "mccutchen/go-httpbin:v2.11.1",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.5.1-amd64",
       "heroku/heroku:20-build",
       "heroku/heroku:20",
