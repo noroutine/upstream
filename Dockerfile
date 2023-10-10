@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.61.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.4
+FROM squidfunk/mkdocs-material:9.4.5
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -527,27 +527,27 @@ FROM bitnami/postgresql:10.23.0-debian-11-r3
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.21.0-debian-11-r55
+FROM bitnami/postgresql:11.21.0-debian-11-r56
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.16.0-debian-11-r50
+FROM bitnami/postgresql:12.16.0-debian-11-r52
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.12.0-debian-11-r55
+FROM bitnami/postgresql:13.12.0-debian-11-r57
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.9.0-debian-11-r54
+FROM bitnami/postgresql:14.9.0-debian-11-r56
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.4.0-debian-11-r50
+FROM bitnami/postgresql:15.4.0-debian-11-r52
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.0.0-debian-11-r10
+FROM bitnami/postgresql:16.0.0-debian-11-r12
 # bitnami/postgresql
 
 # bitnami/tomcat
@@ -1235,7 +1235,7 @@ FROM calico/csi:v3.26.3
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.1
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.2
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
@@ -1379,7 +1379,7 @@ FROM confluentinc/cp-zookeeper:7.5.1
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
-FROM obsidiandynamics/kafdrop:3.31.0
+FROM obsidiandynamics/kafdrop:4.0.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq

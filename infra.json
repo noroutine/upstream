@@ -1,5 +1,5 @@
 {
-  "version": "6d201281",
+  "version": "7ea8aa00",
   "upstream": {
     "images": [
       "debian:bookworm-20230919-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.2-alpine3.18",
       "traefik:v2.10.4",
       "sonatype/nexus3:3.61.0",
-      "squidfunk/mkdocs-material:9.4.4",
+      "squidfunk/mkdocs-material:9.4.5",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.4",
       "postgres:16.0-bookworm",
@@ -134,12 +134,12 @@
       "bitnami/redis:7.2.1-debian-11-r24",
       "bitnami/redis-exporter:1.54.0-debian-11-r25",
       "bitnami/postgresql:10.23.0-debian-11-r3",
-      "bitnami/postgresql:11.21.0-debian-11-r55",
-      "bitnami/postgresql:12.16.0-debian-11-r50",
-      "bitnami/postgresql:13.12.0-debian-11-r55",
-      "bitnami/postgresql:14.9.0-debian-11-r54",
-      "bitnami/postgresql:15.4.0-debian-11-r50",
-      "bitnami/postgresql:16.0.0-debian-11-r10",
+      "bitnami/postgresql:11.21.0-debian-11-r56",
+      "bitnami/postgresql:12.16.0-debian-11-r52",
+      "bitnami/postgresql:13.12.0-debian-11-r57",
+      "bitnami/postgresql:14.9.0-debian-11-r56",
+      "bitnami/postgresql:15.4.0-debian-11-r52",
+      "bitnami/postgresql:16.0.0-debian-11-r12",
       "bitnami/tomcat:10.1.13-debian-11-r35",
       "bitnami/jmx-exporter:0.19.0-debian-11-r92",
       "bitnami/keycloak:22.0.4-debian-11-r0",
@@ -311,7 +311,7 @@
       "calico/pod2daemon-flexvol:v3.26.3",
       "calico/node-driver-registrar:v3.26.3",
       "calico/csi:v3.26.3",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.14.1",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.14.2",
       "longhornio/longhorn-manager:v1.5.1",
       "longhornio/longhorn-ui:v1.5.1",
       "longhornio/longhorn-engine:v1.5.1",
@@ -347,7 +347,7 @@
       "confluentinc/cp-server:7.5.1",
       "confluentinc/cp-server-connect:7.5.1",
       "confluentinc/cp-zookeeper:7.5.1",
-      "obsidiandynamics/kafdrop:3.31.0",
+      "obsidiandynamics/kafdrop:4.0.0",
       "tchiotludo/akhq:0.24.0"
     ]
   }
