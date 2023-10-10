@@ -311,7 +311,7 @@ FROM buildpacksio/lifecycle:0.17.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.4.0
+FROM gitlab/gitlab-runner:alpine3.18-v16.4.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -423,7 +423,7 @@ FROM ghost:5.67.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.67.0-debian-11-r0
+FROM bitnami/ghost:5.68.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -447,35 +447,35 @@ FROM quay.io/podman/stable:v4.7.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-10-02
+FROM jupyter/base-notebook:2023-10-09
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-10-02
+FROM jupyter/minimal-notebook:2023-10-09
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-10-02
+FROM jupyter/r-notebook:2023-10-09
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-10-02
+FROM jupyter/scipy-notebook:2023-10-09
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-10-02
+FROM jupyter/tensorflow-notebook:2023-10-09
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-10-02
+FROM jupyter/datascience-notebook:2023-10-09
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-10-02
+FROM jupyter/pyspark-notebook:2023-10-09
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-10-02
+FROM jupyter/all-spark-notebook:2023-10-09
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -619,7 +619,7 @@ FROM bitnami/consul:1.16.2-debian-11-r15
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.1-debian-11-r12
+FROM bitnami/nats:2.10.2-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -767,7 +767,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.1-alpine3.18
+FROM nats:2.10.2-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -823,7 +823,7 @@ FROM elastic/eck-operator:2.9.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.2-alpine
+FROM louislam/uptime-kuma:1.23.3-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -871,7 +871,7 @@ FROM puppet/puppetdb:7.10.0
 # puppet/puppetdb
 
 # voxpupuli/puppetboard
-FROM ghcr.io/voxpupuli/puppetboard:5.0.0
+FROM ghcr.io/voxpupuli/puppetboard:5.1.0
 # voxpupuli/puppetboard
 
 # puppet/r10k
