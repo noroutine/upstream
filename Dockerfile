@@ -527,7 +527,7 @@ FROM bitnami/postgresql:10.23.0-debian-11-r3
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.21.0-debian-11-r56
+FROM bitnami/postgresql:14.9.0-debian-11-r56
 # bitnami/postgresql
 
 # bitnami/postgresql
