@@ -467,7 +467,7 @@ FROM jupyter/tensorflow-notebook:2023-10-09
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-10-09
+FROM jupyter/datascience-notebook:2023-10-10
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
