@@ -447,7 +447,7 @@ FROM quay.io/podman/stable:v4.7.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-10-09
+FROM jupyter/base-notebook:2023-10-10
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
