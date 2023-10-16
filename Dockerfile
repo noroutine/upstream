@@ -1,13 +1,13 @@
 # debian
-FROM debian:bookworm-20230919-slim
+FROM debian:bookworm-20231009-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20230916
+FROM ubuntu:jammy-20231004
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20230801
+FROM ubuntu:focal-20231003
 # ubuntu
 
 # alpine
@@ -47,11 +47,11 @@ FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:acd56f331b33212692b155f660b552b4c88f58d5ff8872826cf7776d8254e736
+FROM buildpack-deps:focal@sha256:b5fde3cb8a892f44fcc5cd00f64984c2dfbc1f716ae0f3102cd4e87be3075da8
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:81c4ad1a6b9202455440f3b5866bfb9befd1ff7fba2d738e7ac36e3aad99f495
+FROM buildpack-deps:jammy@sha256:24fe4235a691b49a8f4c3570eabdbeb2e33f712a7bf05f41717fce9c36bea901
 # buildpack-deps
 
 # php
@@ -67,15 +67,15 @@ FROM python:3.12.0-slim-bookworm
 # python
 
 # golang
-FROM golang:1.21.2-bookworm
+FROM golang:1.21.3-bookworm
 # golang
 
 # golang
-FROM golang:1.21.2-alpine3.18
+FROM golang:1.21.3-alpine3.18
 # golang
 
 # traefik
-FROM traefik:v2.10.4
+FROM traefik:v2.10.5
 # traefik
 
 # sonatype/nexus3
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.61.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.5
+FROM squidfunk/mkdocs-material:9.4.6
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.11.2
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:27.1.1-apache
+FROM nextcloud:27.1.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-09-30T07-02-29Z
+FROM minio/minio:RELEASE.2023-10-16T04-13-43Z
 # minio/minio
 
 # coreos/etcd
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.9
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.47.1
+FROM quay.io/prometheus/prometheus:v2.47.2
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.1.4
+FROM grafana/grafana:10.1.5
 # grafana/grafana
 
 # grafana/loki
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.10.2
+FROM docker.elastic.co/logstash/logstash:8.10.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.10.2
+FROM docker.elastic.co/kibana/kibana:8.10.3
 # kibana/kibana
 
 # alerta/alerta-web
@@ -319,15 +319,15 @@ FROM gitlab/gitlab-ce:16.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.42.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.44.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.58.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.59.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.4.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.5.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-19.g129f624
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-24.g8c32db9
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.67.0
+FROM ghost:5.69.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.68.0-debian-11-r0
+FROM bitnami/ghost:5.69.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -431,11 +431,11 @@ FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.111.4
+FROM nocodb/nocodb:0.202.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.47.3
+FROM metabase/metabase:v0.47.4
 # metabase/metabase
 
 # docker
@@ -447,35 +447,35 @@ FROM quay.io/podman/stable:v4.7.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-10-09
+FROM jupyter/base-notebook:2023-10-16
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-10-09
+FROM jupyter/minimal-notebook:2023-10-16
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-10-09
+FROM jupyter/r-notebook:2023-10-16
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-10-09
+FROM jupyter/scipy-notebook:2023-10-16
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-10-09
+FROM jupyter/tensorflow-notebook:2023-10-16
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-10-09
+FROM jupyter/datascience-notebook:2023-10-16
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-10-09
+FROM jupyter/pyspark-notebook:2023-10-16
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-10-09
+FROM jupyter/all-spark-notebook:2023-10-16
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -495,7 +495,7 @@ FROM bitnami/spark:3.5.0-debian-11-r9
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.47.1-debian-11-r0
+FROM bitnami/prometheus:2.47.2-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.2-debian-11-r45
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.9.30-debian-11-r2
+FROM bitnami/minio:2023.10.16-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.9.29-debian-11-r2
+FROM bitnami/minio-client:2023.10.14-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -619,7 +619,7 @@ FROM bitnami/consul:1.16.2-debian-11-r15
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.2-debian-11-r0
+FROM bitnami/nats:2.10.3-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.42
+FROM stakater/reloader:v1.0.43
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -727,15 +727,15 @@ FROM quay.io/argoproj/argo-events:v1.8.1
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.4.11
+FROM quay.io/argoproj/argocli:v3.5.0
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.4.11
+FROM quay.io/argoproj/workflow-controller:v3.5.0
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.4.11
+FROM quay.io/argoproj/argoexec:v3.5.0
 # argoproj/argoexec
 
 # redis
@@ -767,7 +767,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.2-alpine3.18
+FROM nats:2.10.3-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -791,7 +791,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.7.4-alpine
+FROM caddy:2.7.5-alpine
 # caddy
 
 # outline/shadowbox
@@ -831,7 +831,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.72.1
+FROM outlinewiki/outline:0.72.2
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.1
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.7
+FROM netbirdio/signal:0.23.9
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.23.7
+FROM netbirdio/management:0.23.9
 # netbirdio/management
 
 # coturn/coturn
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.426-jdk21
+FROM jenkins/jenkins:2.427-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1011,11 +1011,11 @@ FROM bitnami/kubectl:1.28.2-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.7.1-python3.11
+FROM apache/airflow:2.7.2-python3.11
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.0.0
+FROM registry.k8s.io/git-sync/git-sync:v4.1.0
 # git-sync/git-sync
 
 # kedacore/keda
