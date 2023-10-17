@@ -1,5 +1,5 @@
 {
-  "version": "797c59d8",
+  "version": "32d42a12",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -44,7 +44,7 @@
       "grafana/grafana:10.1.5",
       "grafana/loki:2.9.2",
       "grafana/loki-canary:2.9.2",
-      "grafana/promtail:2.9.1",
+      "grafana/promtail:2.9.2",
       "nginxinc/nginx-unprivileged:1.25.2-alpine-slim",
       "nginxinc/nginx-unprivileged:1.25.2-alpine-slim",
       "httpd:2.4.57-alpine",
@@ -82,7 +82,7 @@
       "buildpacksio/lifecycle:0.17.1",
       "gitlab/gitlab-runner:alpine3.18-v16.4.1",
       "gitlab/gitlab-ce:16.4.1-ce.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.44.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.46.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.59.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.5.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",

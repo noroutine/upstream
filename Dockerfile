@@ -167,7 +167,7 @@ FROM grafana/loki-canary:2.9.2
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.9.1
+FROM grafana/promtail:2.9.2
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-ce:16.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.44.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.46.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
