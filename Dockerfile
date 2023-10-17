@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.427-jdk21
+FROM jenkins/jenkins:2.428-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
