@@ -159,11 +159,11 @@ FROM grafana/grafana:10.1.5
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.9.1
+FROM grafana/loki:2.9.2
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.9.1
+FROM grafana/loki-canary:2.9.2
 # grafana/loki-canary
 
 # grafana/promtail
@@ -235,7 +235,7 @@ FROM mongo:7.0.2-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.3.1-apache
+FROM wordpress:6.3.2-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.44.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.59.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.59.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -347,7 +347,7 @@ FROM summerwind/actions-runner-dind:v2.309.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.14.3
+FROM quay.io/brancz/kube-rbac-proxy:v0.14.4
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -411,7 +411,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.26.3
+FROM verdaccio/verdaccio:5.27.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.69.0
+FROM ghost:5.69.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.69.1-debian-11-r0
+FROM bitnami/ghost:5.69.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -651,7 +651,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.9.0-debian-11-r8
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.14.3-debian-11-r22
+FROM bitnami/kube-rbac-proxy:0.14.4-debian-11-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -659,11 +659,11 @@ FROM bitnami/openldap:2.6.6-debian-11-r57
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.24.1
+FROM bitnami/sealed-secrets-controller:v0.24.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.45.1-debian-11-r12
+FROM bitnami/trivy:0.46.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -671,11 +671,11 @@ FROM bitnami/kubectl:1.28.2-debian-11-r12
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.45.1
+FROM aquasec/trivy:0.46.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.5
+FROM ghcr.io/external-secrets/external-secrets:v0.9.6
 # external-secrets/external-secrets
 
 # minio/console
@@ -851,11 +851,11 @@ FROM haveagitgat/tdarr_node:2.13.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.21.0
+FROM gravitl/netmaker:v0.21.1
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.21.0
+FROM gravitl/netmaker-ui:v0.21.1
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -895,7 +895,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.17.1
+FROM wiretrustee/dashboard:v1.17.2
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -1079,11 +1079,11 @@ FROM hashicorp/vault-csi-provider:1.4.0
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.37.0
+FROM quay.io/strimzi/operator:0.38.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.37.0-kafka-3.5.1
+FROM quay.io/strimzi/kafka:0.38.0-kafka-3.6.0
 # strimzi/kafka
 
 # pause
@@ -1191,7 +1191,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.31.1
+FROM quay.io/tigera/operator:v1.31.2
 # tigera/operator
 
 # calico/typha
