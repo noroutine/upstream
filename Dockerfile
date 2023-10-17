@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.4
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.10.3
+FROM docker.elastic.co/logstash/logstash:8.10.4
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.10.3
+FROM docker.elastic.co/kibana/kibana:8.10.4
 # kibana/kibana
 
 # alerta/alerta-web
@@ -339,11 +339,11 @@ FROM summerwind/actions-runner-controller:v0.27.5
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.309.0-ubuntu-22.04
+FROM summerwind/actions-runner:v2.310.2-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.309.0-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.310.2-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.427-jdk21
+FROM jenkins/jenkins:2.428-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
