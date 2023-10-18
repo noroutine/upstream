@@ -475,7 +475,7 @@ FROM jupyter/pyspark-notebook:2023-10-16
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-10-16
+FROM jupyter/all-spark-notebook:2023-10-17
 # jupyter/all-spark-notebook
 
 # rocker/shiny
