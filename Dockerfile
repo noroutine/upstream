@@ -447,35 +447,35 @@ FROM quay.io/podman/stable:v4.7.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-10-16
+FROM jupyter/base-notebook:2023-10-17
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-10-16
+FROM jupyter/minimal-notebook:2023-10-17
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-10-16
+FROM jupyter/r-notebook:2023-10-17
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-10-16
+FROM jupyter/scipy-notebook:2023-10-17
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-10-16
+FROM jupyter/tensorflow-notebook:2023-10-17
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-10-16
+FROM jupyter/datascience-notebook:2023-10-17
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-10-16
+FROM jupyter/pyspark-notebook:2023-10-17
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-10-16
+FROM jupyter/all-spark-notebook:2023-10-17
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -575,7 +575,7 @@ FROM bitnami/mongodb:7.0.2-debian-11-r2
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.21-debian-11-r104
+FROM bitnami/memcached:1.6.22-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -759,7 +759,7 @@ FROM cupcakearmy/cryptgeon:2.3.3
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.21-alpine3.18
+FROM memcached:1.6.22-alpine3.18
 # memcached
 
 # connecteverything/nats-operator
@@ -815,7 +815,7 @@ FROM azul/zulu-openjdk:21.0.0-21.28.85
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:20.0.2_9-jdk-jammy
+FROM eclipse-temurin:21_35-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
