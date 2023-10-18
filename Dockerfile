@@ -471,7 +471,7 @@ FROM jupyter/datascience-notebook:2023-10-16
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-10-16
+FROM jupyter/pyspark-notebook:2023-10-17
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
