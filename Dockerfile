@@ -515,7 +515,7 @@ FROM bitnami/postgres-exporter:0.14.0-debian-11-r12
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.1-debian-11-r24
+FROM bitnami/redis:7.2.2-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -739,7 +739,7 @@ FROM quay.io/argoproj/argoexec:v3.5.0
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.1-bookworm
+FROM redis:7.2.2-bookworm
 # redis
 
 # listmonk/listmonk
@@ -1263,7 +1263,7 @@ FROM longhornio/backing-image-manager:v1.5.1
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.7.0
+FROM longhornio/csi-node-driver-registrar:v2.9.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
@@ -1275,11 +1275,11 @@ FROM longhornio/csi-resizer:v1.9.0
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
-FROM longhornio/csi-provisioner:v3.4.1
+FROM longhornio/csi-provisioner:v3.6.0
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v4.2.0
+FROM longhornio/csi-attacher:v4.4.0
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
