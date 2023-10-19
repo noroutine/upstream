@@ -1263,7 +1263,7 @@ FROM longhornio/backing-image-manager:v1.5.1
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.7.0
+FROM longhornio/csi-node-driver-registrar:v2.9.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
