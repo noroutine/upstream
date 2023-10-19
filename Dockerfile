@@ -307,7 +307,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.17.1
+FROM buildpacksio/lifecycle:0.17.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -395,7 +395,7 @@ FROM quay.io/jupyterhub/repo2docker:2023.06.0-24.g8c32db9
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.05.2
+FROM pihole/pihole:2023.10.0
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -423,7 +423,7 @@ FROM ghost:5.69.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.69.2-debian-11-r0
+FROM bitnami/ghost:5.69.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.43
+FROM stakater/reloader:v1.0.44
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -799,7 +799,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.16.0
+FROM gcr.io/kaniko-project/executor:v1.17.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -927,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.6.3
+FROM netboxcommunity/netbox:v3.6.4
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1095,67 +1095,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.2
+FROM registry.k8s.io/kube-apiserver:v1.28.3
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.2
+FROM registry.k8s.io/kube-proxy:v1.28.3
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.2
+FROM registry.k8s.io/kube-scheduler:v1.28.3
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.2
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.6
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.6
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.6
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.6
+FROM registry.k8s.io/kube-controller-manager:v1.28.3
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.9
+FROM registry.k8s.io/kube-apiserver:v1.27.7
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.9
+FROM registry.k8s.io/kube-proxy:v1.27.7
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.9
+FROM registry.k8s.io/kube-scheduler:v1.27.7
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.9
+FROM registry.k8s.io/kube-controller-manager:v1.27.7
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.14
+FROM registry.k8s.io/kube-apiserver:v1.26.10
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.14
+FROM registry.k8s.io/kube-proxy:v1.26.10
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.14
+FROM registry.k8s.io/kube-scheduler:v1.26.10
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.14
+FROM registry.k8s.io/kube-controller-manager:v1.26.10
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.25.15
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.25.15
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.25.15
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.25.15
 # kube-controller-manager
 
 # kube-apiserver
