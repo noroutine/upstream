@@ -1279,7 +1279,7 @@ FROM longhornio/csi-provisioner:v3.4.1
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v4.2.0
+FROM longhornio/csi-attacher:v4.4.0
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
