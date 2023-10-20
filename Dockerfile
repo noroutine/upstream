@@ -179,7 +179,7 @@ FROM nginxinc/nginx-unprivileged:1.25.2-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.57-alpine
+FROM httpd:2.4.58-alpine
 # httpd
 
 # tomcat
@@ -239,7 +239,7 @@ FROM wordpress:6.3.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.7
+FROM dpage/pgadmin4:7.8
 # dpage/pgadmin4
 
 # adminer
@@ -447,35 +447,35 @@ FROM quay.io/podman/stable:v4.7.0
 # podman/stable
 
 # jupyter/base-notebook
-FROM jupyter/base-notebook:2023-10-17
+FROM jupyter/base-notebook:2023-10-20
 # jupyter/base-notebook
 
 # jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-10-17
+FROM jupyter/minimal-notebook:2023-10-20
 # jupyter/minimal-notebook
 
 # jupyter/r-notebook
-FROM jupyter/r-notebook:2023-10-17
+FROM jupyter/r-notebook:2023-10-20
 # jupyter/r-notebook
 
 # jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-10-17
+FROM jupyter/scipy-notebook:2023-10-20
 # jupyter/scipy-notebook
 
 # jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-10-17
+FROM jupyter/tensorflow-notebook:2023-10-20
 # jupyter/tensorflow-notebook
 
 # jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-10-17
+FROM jupyter/datascience-notebook:2023-10-20
 # jupyter/datascience-notebook
 
 # jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-10-17
+FROM jupyter/pyspark-notebook:2023-10-20
 # jupyter/pyspark-notebook
 
 # jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-10-17
+FROM jupyter/all-spark-notebook:2023-10-20
 # jupyter/all-spark-notebook
 
 # rocker/shiny
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.44
+FROM stakater/reloader:v1.0.46
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1283,7 +1283,7 @@ FROM longhornio/csi-attacher:v4.4.0
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
-FROM longhornio/livenessprobe:v2.9.0
+FROM longhornio/livenessprobe:v2.11.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
@@ -1311,7 +1311,7 @@ FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.1
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
@@ -1319,7 +1319,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.1
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
