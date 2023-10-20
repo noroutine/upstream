@@ -431,7 +431,7 @@ FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.202.4
+FROM nocodb/nocodb:0.202.5
 # nocodb/nocodb
 
 # metabase/metabase
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.2
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.23.9
+FROM netbirdio/signal:0.24.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.23.9
+FROM netbirdio/management:0.24.0
 # netbirdio/management
 
 # coturn/coturn
@@ -1315,7 +1315,7 @@ FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.1
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.1
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
