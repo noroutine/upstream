@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.69.3
+FROM ghost:5.70.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.69.3-debian-11-r0
+FROM bitnami/ghost:5.70.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -435,7 +435,7 @@ FROM nocodb/nocodb:0.202.5
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.47.4
+FROM metabase/metabase:v0.47.5
 # metabase/metabase
 
 # docker
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.46
+FROM stakater/reloader:v1.0.47
 # stakater/reloader
 
 # jimmidyson/configmap-reload
