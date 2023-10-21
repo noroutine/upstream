@@ -1,5 +1,5 @@
 {
-  "version": "8d0f30d0",
+  "version": "2fb0f199",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -89,7 +89,7 @@
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.310.2-ubuntu-22.04",
       "summerwind/actions-runner-dind:v2.310.2-ubuntu-22.04",
-      "quay.io/brancz/kube-rbac-proxy:v0.14.4",
+      "quay.io/brancz/kube-rbac-proxy:v0.15.0",
       "jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab",
       "noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b",
       "jupyterhub/k8s-hub:3.1.0",
@@ -165,7 +165,7 @@
       "bitnami/kubeapps-asset-syncer:2.9.0-debian-11-r7",
       "bitnami/kubeapps-apis:2.9.0-debian-11-r7",
       "bitnami/kubeapps-pinniped-proxy:2.9.0-debian-11-r8",
-      "bitnami/kube-rbac-proxy:0.14.4-debian-11-r0",
+      "bitnami/kube-rbac-proxy:0.15.0-debian-11-r0",
       "bitnami/openldap:2.6.6-debian-11-r57",
       "bitnami/sealed-secrets-controller:v0.24.2",
       "bitnami/trivy:0.46.0-debian-11-r0",
@@ -224,7 +224,7 @@
       "puppet/r10k:3.15.2",
       "restic/restic:0.16.0",
       "registry.k8s.io/coredns/coredns:v1.11.1",
-      "yugabytedb/yugabyte:2.18.2.1-b1",
+      "yugabytedb/yugabyte:2.18.3.1-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.3",
       "netbirdio/signal:0.24.0",

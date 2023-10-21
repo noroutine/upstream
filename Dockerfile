@@ -347,7 +347,7 @@ FROM summerwind/actions-runner-dind:v2.310.2-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.14.4
+FROM quay.io/brancz/kube-rbac-proxy:v0.15.0
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -651,7 +651,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.9.0-debian-11-r8
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.14.4-debian-11-r0
+FROM bitnami/kube-rbac-proxy:0.15.0-debian-11-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -887,7 +887,7 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.18.2.1-b1
+FROM yugabytedb/yugabyte:2.18.3.1-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
