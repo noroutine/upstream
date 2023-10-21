@@ -887,7 +887,7 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.18.2.1-b1
+FROM yugabytedb/yugabyte:2.18.3.1-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
