@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.5
+FROM summerwind/actions-runner-controller:v0.27.6
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
@@ -895,7 +895,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.17.2
+FROM wiretrustee/dashboard:v1.17.3
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -1323,7 +1323,7 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.1
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.1
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
