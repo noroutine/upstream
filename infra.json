@@ -1,5 +1,5 @@
 {
-  "version": "2fb0f199",
+  "version": "457d0a89",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -83,7 +83,7 @@
       "gitlab/gitlab-runner:alpine3.18-v16.4.1",
       "gitlab/gitlab-ce:16.4.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.46.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.59.1",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.60.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.5.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -319,7 +319,7 @@
       "longhornio/longhorn-share-manager:v1.5.1",
       "longhornio/backing-image-manager:v1.5.1",
       "longhornio/csi-node-driver-registrar:v2.9.0",
-      "longhornio/csi-snapshotter:v6.2.1",
+      "longhornio/csi-snapshotter:v6.3.0",
       "longhornio/csi-resizer:v1.9.0",
       "longhornio/csi-provisioner:v3.6.0",
       "longhornio/csi-attacher:v4.4.0",
