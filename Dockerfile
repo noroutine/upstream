@@ -1267,7 +1267,7 @@ FROM longhornio/csi-node-driver-registrar:v2.9.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v6.2.1
+FROM longhornio/csi-snapshotter:v6.3.0
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
