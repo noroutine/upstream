@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.5
+FROM summerwind/actions-runner-controller:v0.27.6
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
