@@ -311,11 +311,11 @@ FROM buildpacksio/lifecycle:0.17.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.4.1
+FROM gitlab/gitlab-runner:alpine3.18-v16.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.4.1-ce.0
+FROM gitlab/gitlab-ce:16.5.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-24.g8c32db9
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-41.g57d229e
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -675,7 +675,7 @@ FROM aquasec/trivy:0.46.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.6
+FROM ghcr.io/external-secrets/external-secrets:v0.9.7
 # external-secrets/external-secrets
 
 # minio/console
@@ -843,11 +843,11 @@ FROM jellyfin/jellyfin:10.8.11
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.13.01
+FROM haveagitgat/tdarr:2.14.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.13.01
+FROM haveagitgat/tdarr_node:2.14.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
