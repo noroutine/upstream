@@ -983,7 +983,7 @@ FROM velero/velero-plugin-for-aws:v1.8.0
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.8.0
+FROM velero/velero-plugin-for-gcp:v1.8.1
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
