@@ -951,11 +951,11 @@ FROM locustio/locust:2.17.0
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v11.2.1
+FROM postgrest/postgrest:v11.2.2
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
-FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0
+FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
@@ -1071,7 +1071,7 @@ FROM hashicorp/vault:1.15.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.3.0
+FROM hashicorp/vault-k8s:1.3.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
