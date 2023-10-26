@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.1.5
+FROM grafana/grafana:10.2.0
 # grafana/grafana
 
 # grafana/loki
@@ -607,7 +607,7 @@ FROM bitnami/metallb-speaker:0.13.11-debian-11-r28
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.1.4-debian-11-r3
+FROM bitnami/grafana:10.2.0-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -975,7 +975,7 @@ FROM velero/velero:v1.12.1
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.6.0
+FROM velero/velero-plugin-for-csi:v0.6.1
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws

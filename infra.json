@@ -1,5 +1,5 @@
 {
-  "version": "9f032fcf",
+  "version": "4a5f771c",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -41,7 +41,7 @@
       "quay.io/prometheus/pushgateway:v1.6.2",
       "quay.io/prometheus-operator/prometheus-operator:v0.68.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0",
-      "grafana/grafana:10.1.5",
+      "grafana/grafana:10.2.0",
       "grafana/loki:2.9.2",
       "grafana/loki-canary:2.9.2",
       "grafana/promtail:2.9.2",
@@ -154,7 +154,7 @@
       "bitnami/bitnami-shell:11-debian-11-r136",
       "bitnami/metallb-controller:0.13.11-debian-11-r26",
       "bitnami/metallb-speaker:0.13.11-debian-11-r28",
-      "bitnami/grafana:10.1.4-debian-11-r3",
+      "bitnami/grafana:10.2.0-debian-11-r0",
       "bitnami/grafana-image-renderer:3.8.3-debian-11-r3",
       "bitnami/consul:1.16.2-debian-11-r15",
       "bitnami/nats:2.10.3-debian-11-r0",
@@ -246,7 +246,7 @@
       "guacamole/guacamole:1.5.3",
       "guacamole/guacd:1.5.3",
       "velero/velero:v1.12.1",
-      "velero/velero-plugin-for-csi:v0.6.0",
+      "velero/velero-plugin-for-csi:v0.6.1",
       "velero/velero-plugin-for-aws:v1.8.1",
       "velero/velero-plugin-for-gcp:v1.8.1",
       "velero/velero-plugin-for-microsoft-azure:v1.8.1",
