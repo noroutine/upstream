@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-10-24T04-42-36Z
+FROM minio/minio:RELEASE.2023-10-25T06-33-25Z
 # minio/minio
 
 # coreos/etcd
@@ -339,11 +339,11 @@ FROM summerwind/actions-runner-controller:v0.27.6
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.310.2-ubuntu-22.04
+FROM summerwind/actions-runner:v2.311.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.310.2-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.311.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.2-debian-11-r45
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.10.24-debian-11-r0
+FROM bitnami/minio:2023.10.25-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -1235,7 +1235,7 @@ FROM calico/csi:v3.26.3
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.2
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.3
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
@@ -1327,7 +1327,7 @@ FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.1
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v6.3.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v6.3.1
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
