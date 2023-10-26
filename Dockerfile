@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:22.0.4
+FROM quay.io/keycloak/keycloak:22.0.5
 # keycloak/keycloak
 
 # postgres
@@ -287,7 +287,7 @@ FROM heroku/heroku:22-cnb
 # heroku/heroku
 
 # heroku/procfile-cnb
-FROM heroku/procfile-cnb:2.0.1
+FROM heroku/procfile-cnb:2.0.2
 # heroku/procfile-cnb
 
 # paketobuildpacks/builder
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-ce:16.5.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.47.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.48.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.70.1
+FROM ghost:5.70.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.70.1-debian-11-r0
+FROM bitnami/ghost:5.70.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -559,7 +559,7 @@ FROM bitnami/jmx-exporter:0.19.0-debian-11-r92
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:22.0.4-debian-11-r0
+FROM bitnami/keycloak:22.0.5-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.47
+FROM stakater/reloader:v1.0.48
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -811,7 +811,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:21.0.0-21.28.85
+FROM azul/zulu-openjdk:21.0.1-21.30.15
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -879,7 +879,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # restic/restic
-FROM restic/restic:0.16.0
+FROM restic/restic:0.16.1
 # restic/restic
 
 # coredns/coredns
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.3
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.24.0
+FROM netbirdio/signal:0.24.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.24.0
+FROM netbirdio/management:0.24.2
 # netbirdio/management
 
 # coturn/coturn
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.428-jdk21
+FROM jenkins/jenkins:2.429-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -971,7 +971,7 @@ FROM guacamole/guacd:1.5.3
 # guacamole/guacd
 
 # velero/velero
-FROM velero/velero:v1.12.0
+FROM velero/velero:v1.12.1
 # velero/velero
 
 # velero/velero-plugin-for-csi
@@ -979,15 +979,15 @@ FROM velero/velero-plugin-for-csi:v0.6.0
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.8.0
+FROM velero/velero-plugin-for-aws:v1.8.1
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.8.0
+FROM velero/velero-plugin-for-gcp:v1.8.1
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.8.0
+FROM velero/velero-plugin-for-microsoft-azure:v1.8.1
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
@@ -1067,7 +1067,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.15.0
+FROM hashicorp/vault:1.15.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -1295,11 +1295,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.1
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.1
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
@@ -1331,7 +1331,7 @@ FROM registry.k8s.io/sig-storage/snapshot-controller:v6.3.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.0
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
