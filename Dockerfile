@@ -951,7 +951,7 @@ FROM locustio/locust:2.17.0
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v11.2.1
+FROM postgrest/postgrest:v11.2.2
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
