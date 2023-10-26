@@ -955,7 +955,7 @@ FROM postgrest/postgrest:v11.2.1
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
-FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.1.0
+FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
