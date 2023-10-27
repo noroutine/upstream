@@ -1075,7 +1075,7 @@ FROM hashicorp/vault-k8s:1.3.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.4.0
+FROM hashicorp/vault-csi-provider:1.4.1
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
