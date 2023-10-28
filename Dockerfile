@@ -247,7 +247,7 @@ FROM adminer:4.8.1
 # adminer
 
 # mysql
-FROM mysql:8.1.0
+FROM mysql:8.2.0
 # mysql
 
 # mariadb
@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.70.2
+FROM ghost:5.71.0
 # ghost
 
 # bitnami/ghost
@@ -439,7 +439,7 @@ FROM metabase/metabase:v0.47.6
 # metabase/metabase
 
 # docker
-FROM docker:24.0.6-dind
+FROM docker:24.0.7-dind
 # docker
 
 # podman/stable
@@ -611,7 +611,7 @@ FROM bitnami/grafana:10.2.0-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.8.3-debian-11-r3
+FROM bitnami/grafana-image-renderer:3.8.4-debian-11-r3
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -663,7 +663,7 @@ FROM bitnami/sealed-secrets-controller:v0.24.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.46.0-debian-11-r0
+FROM bitnami/trivy:0.46.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -671,7 +671,7 @@ FROM bitnami/kubectl:1.28.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.46.0
+FROM aquasec/trivy:0.46.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
