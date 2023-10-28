@@ -619,7 +619,7 @@ FROM bitnami/consul:1.16.2-debian-11-r15
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.3-debian-11-r0
+FROM bitnami/nats:2.10.4-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -767,7 +767,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.3-alpine3.18
+FROM nats:2.10.4-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
