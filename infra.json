@@ -1,5 +1,5 @@
 {
-  "version": "f859a36a",
+  "version": "a97ea5c5",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -16,7 +16,7 @@
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
       "buildpack-deps:focal@sha256:b5fde3cb8a892f44fcc5cd00f64984c2dfbc1f716ae0f3102cd4e87be3075da8",
       "buildpack-deps:jammy@sha256:24fe4235a691b49a8f4c3570eabdbeb2e33f712a7bf05f41717fce9c36bea901",
-      "php:8.2.11-apache-bookworm",
+      "php:8.2.12-apache-bookworm",
       "python:3.12.0-bookworm",
       "python:3.12.0-slim-bookworm",
       "golang:1.21.3-bookworm",
@@ -28,7 +28,7 @@
       "quay.io/keycloak/keycloak:22.0.5",
       "postgres:16.0-bookworm",
       "atlassian/jira-software:9.11.2",
-      "nextcloud:27.1.2-apache",
+      "nextcloud:27.1.3-apache",
       "haproxytech/haproxy-debian:2.8.3",
       "minio/minio:RELEASE.2023-10-25T06-33-25Z",
       "quay.io/coreos/etcd:v3.5.9",
