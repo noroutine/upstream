@@ -1,5 +1,5 @@
 {
-  "version": "7dc80796",
+  "version": "15fc2cc3",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -190,7 +190,7 @@
       "redis:7.2.2-bookworm",
       "listmonk/listmonk:v2.5.1",
       "vaultwarden/server:1.29.2",
-      "boky/postfix:v4.0.0",
+      "boky/postfix:v4.0.0-alpine",
       "cupcakearmy/cryptgeon:2.3.3",
       "memcached:1.6.22-alpine3.18",
       "connecteverything/nats-operator:0.8.0",
