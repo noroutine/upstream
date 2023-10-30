@@ -751,7 +751,7 @@ FROM vaultwarden/server:1.29.2
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.0.0-alpine
+FROM boky/postfix:v4.0.1-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
@@ -843,11 +843,11 @@ FROM jellyfin/jellyfin:10.8.11
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.14.01
+FROM haveagitgat/tdarr:2.14.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.14.01
+FROM haveagitgat/tdarr_node:2.14.02
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -879,7 +879,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # restic/restic
-FROM restic/restic:0.16.1
+FROM restic/restic:0.16.2
 # restic/restic
 
 # coredns/coredns

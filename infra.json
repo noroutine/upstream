@@ -1,5 +1,5 @@
 {
-  "version": "15fc2cc3",
+  "version": "77a154a7",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -190,7 +190,7 @@
       "redis:7.2.2-bookworm",
       "listmonk/listmonk:v2.5.1",
       "vaultwarden/server:1.29.2",
-      "boky/postfix:v4.0.0-alpine",
+      "boky/postfix:v4.0.1-alpine",
       "cupcakearmy/cryptgeon:2.3.3",
       "memcached:1.6.22-alpine3.18",
       "connecteverything/nats-operator:0.8.0",
@@ -213,8 +213,8 @@
       "outlinewiki/outline:0.72.2",
       "syncthing/syncthing:1.25.0",
       "jellyfin/jellyfin:10.8.11",
-      "haveagitgat/tdarr:2.14.01",
-      "haveagitgat/tdarr_node:2.14.01",
+      "haveagitgat/tdarr:2.14.02",
+      "haveagitgat/tdarr_node:2.14.02",
       "gravitl/netmaker:v0.21.1",
       "gravitl/netmaker-ui:v0.21.1",
       "kmb32123/youtube-dl-server:2.0",
@@ -222,7 +222,7 @@
       "puppet/puppetdb:7.10.0",
       "ghcr.io/voxpupuli/puppetboard:5.1.0",
       "puppet/r10k:3.15.2",
-      "restic/restic:0.16.1",
+      "restic/restic:0.16.2",
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "yugabytedb/yugabyte:2.18.3.1-b1",
       "antelle/keeweb:1.18.7",
