@@ -1,5 +1,5 @@
 {
-  "version": "77a154a7",
+  "version": "9f6b3fd0",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -324,7 +324,7 @@
       "longhornio/csi-provisioner:v3.6.0",
       "longhornio/csi-attacher:v4.4.0",
       "longhornio/livenessprobe:v2.11.0",
-      "longhornio/support-bundle-kit:v0.0.27",
+      "longhornio/support-bundle-kit:v0.0.29",
       "gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0",
       "gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.1",
       "gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.1",
