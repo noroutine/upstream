@@ -319,7 +319,7 @@ FROM gitlab/gitlab-ce:16.5.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.48.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.49.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -423,7 +423,7 @@ FROM ghost:5.71.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.70.2-debian-11-r0
+FROM bitnami/ghost:5.71.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.49
+FROM stakater/reloader:v1.0.50
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1027,19 +1027,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.12.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.13.1
+FROM quay.io/jetstack/cert-manager-controller:v1.13.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.13.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.13.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.13.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.13.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.13.1
+FROM quay.io/jetstack/cert-manager-ctl:v1.13.2
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
