@@ -1,5 +1,5 @@
 {
-  "version": "866aad24",
+  "version": "923d7b43",
   "upstream": {
     "images": [
       "debian:bookworm-20231009-slim",
@@ -206,7 +206,7 @@
       "quay.io/iovisor/bpftrace:v0.19.1",
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:21.0.1-21.30.15",
-      "eclipse-temurin:21_35-jdk-jammy",
+      "eclipse-temurin:21.0.1_12-jdk-jammy",
       "elastic/eck-operator:2.9.0",
       "louislam/uptime-kuma:1.23.3-alpine",
       "hadolint/hadolint:v2.12.1-beta",
