@@ -307,7 +307,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.17.2
+FROM buildpacksio/lifecycle:0.18.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.5.0-ce.0
+FROM gitlab/gitlab-ce:16.5.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -479,7 +479,7 @@ FROM jupyter/all-spark-notebook:2023-10-20
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.3.1
+FROM rocker/shiny:4.3.2
 # rocker/shiny
 
 # caprover/caprover
@@ -691,7 +691,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.34.0
+FROM hasura/graphql-engine:v2.35.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.8.5
+FROM quay.io/argoproj/argocd:v2.8.6
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -771,7 +771,7 @@ FROM nats:2.10.4-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.12.0
+FROM natsio/prometheus-nats-exporter:0.13.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
@@ -1055,7 +1055,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.16.2
+FROM hashicorp/consul:1.16.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
