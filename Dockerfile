@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20231009-slim
+FROM debian:bookworm-20231030-slim
 # debian
 
 # ubuntu
@@ -675,7 +675,7 @@ FROM aquasec/trivy:0.46.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.7
+FROM ghcr.io/external-secrets/external-secrets:v0.9.8
 # external-secrets/external-secrets
 
 # minio/console
@@ -751,11 +751,11 @@ FROM vaultwarden/server:1.29.2
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.0.1-alpine
+FROM boky/postfix:v4.0.2-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.3.3
+FROM cupcakearmy/cryptgeon:2.4.0
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.17.0
+FROM locustio/locust:2.18.1
 # locustio/locust
 
 # postgrest/postgrest
