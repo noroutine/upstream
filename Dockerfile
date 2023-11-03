@@ -423,7 +423,7 @@ FROM ghost:5.71.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.71.0-debian-11-r0
+FROM bitnami/ghost:5.71.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -515,7 +515,7 @@ FROM bitnami/postgres-exporter:0.14.0-debian-11-r12
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.2-debian-11-r0
+FROM bitnami/redis:7.2.3-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -591,7 +591,7 @@ FROM bitnami/minio:2023.10.25-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.10.24-debian-11-r0
+FROM bitnami/minio-client:2023.10.30-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -1239,27 +1239,27 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.3
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.5.1
+FROM longhornio/longhorn-manager:v1.5.2
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.5.1
+FROM longhornio/longhorn-ui:v1.5.2
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.5.1
+FROM longhornio/longhorn-engine:v1.5.2
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.5.1
+FROM longhornio/longhorn-instance-manager:v1.5.2
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.5.1
+FROM longhornio/longhorn-share-manager:v1.5.2
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.5.1
+FROM longhornio/backing-image-manager:v1.5.2
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
@@ -1379,7 +1379,7 @@ FROM confluentinc/cp-zookeeper:7.5.1
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
-FROM obsidiandynamics/kafdrop:4.0.0
+FROM obsidiandynamics/kafdrop:4.0.1
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq

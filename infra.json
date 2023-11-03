@@ -1,5 +1,5 @@
 {
-  "version": "08d02a09",
+  "version": "b841e114",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -108,7 +108,7 @@
       "verdaccio/verdaccio:5.27.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.71.0",
-      "bitnami/ghost:5.71.0-debian-11-r0",
+      "bitnami/ghost:5.71.1-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.202.5",
       "metabase/metabase:v0.47.6",
@@ -131,7 +131,7 @@
       "bitnami/node-exporter:1.6.1-debian-11-r75",
       "bitnami/blackbox-exporter:0.24.0-debian-11-r135",
       "bitnami/postgres-exporter:0.14.0-debian-11-r12",
-      "bitnami/redis:7.2.2-debian-11-r0",
+      "bitnami/redis:7.2.3-debian-11-r0",
       "bitnami/redis-exporter:1.54.0-debian-11-r25",
       "bitnami/postgresql:10.23.0-debian-11-r3",
       "bitnami/postgresql:11.21.0-debian-11-r56",
@@ -150,7 +150,7 @@
       "bitnami/nginx-ingress-controller:1.9.0-debian-11-r7",
       "bitnami/nginx:1.25.2-debian-11-r45",
       "bitnami/minio:2023.10.25-debian-11-r0",
-      "bitnami/minio-client:2023.10.24-debian-11-r0",
+      "bitnami/minio-client:2023.10.30-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r136",
       "bitnami/metallb-controller:0.13.11-debian-11-r26",
       "bitnami/metallb-speaker:0.13.11-debian-11-r28",
@@ -312,12 +312,12 @@
       "calico/node-driver-registrar:v3.26.3",
       "calico/csi:v3.26.3",
       "registry.k8s.io/nfd/node-feature-discovery:v0.14.3",
-      "longhornio/longhorn-manager:v1.5.1",
-      "longhornio/longhorn-ui:v1.5.1",
-      "longhornio/longhorn-engine:v1.5.1",
-      "longhornio/longhorn-instance-manager:v1.5.1",
-      "longhornio/longhorn-share-manager:v1.5.1",
-      "longhornio/backing-image-manager:v1.5.1",
+      "longhornio/longhorn-manager:v1.5.2",
+      "longhornio/longhorn-ui:v1.5.2",
+      "longhornio/longhorn-engine:v1.5.2",
+      "longhornio/longhorn-instance-manager:v1.5.2",
+      "longhornio/longhorn-share-manager:v1.5.2",
+      "longhornio/backing-image-manager:v1.5.2",
       "longhornio/csi-node-driver-registrar:v2.9.0",
       "longhornio/csi-snapshotter:v6.3.0",
       "longhornio/csi-resizer:v1.9.0",
@@ -347,7 +347,7 @@
       "confluentinc/cp-server:7.5.1",
       "confluentinc/cp-server-connect:7.5.1",
       "confluentinc/cp-zookeeper:7.5.1",
-      "obsidiandynamics/kafdrop:4.0.0",
+      "obsidiandynamics/kafdrop:4.0.1",
       "tchiotludo/akhq:0.24.0"
     ]
   }
