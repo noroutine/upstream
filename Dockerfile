@@ -1379,7 +1379,7 @@ FROM confluentinc/cp-zookeeper:7.5.1
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
-FROM obsidiandynamics/kafdrop:4.0.0
+FROM obsidiandynamics/kafdrop:4.0.1
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
