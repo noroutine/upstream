@@ -423,7 +423,7 @@ FROM ghost:5.71.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.71.1-debian-11-r0
+FROM bitnami/ghost:5.71.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -659,7 +659,7 @@ FROM bitnami/openldap:2.6.6-debian-11-r57
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.24.2
+FROM bitnami/sealed-secrets-controller:v0.24.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -1059,7 +1059,7 @@ FROM hashicorp/consul:1.16.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.2.2
+FROM hashicorp/consul-k8s-control-plane:1.2.3
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
