@@ -1255,7 +1255,7 @@ FROM longhornio/longhorn-instance-manager:v1.5.1
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.5.1
+FROM longhornio/longhorn-share-manager:v1.5.2
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
