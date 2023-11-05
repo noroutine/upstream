@@ -1,5 +1,5 @@
 {
-  "version": "f862d0a7",
+  "version": "c21e3d76",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -250,9 +250,9 @@
       "velero/velero-plugin-for-aws:v1.8.1",
       "velero/velero-plugin-for-gcp:v1.8.1",
       "velero/velero-plugin-for-microsoft-azure:v1.8.1",
-      "vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.1",
-      "vsphereveleroplugin/backup-driver:v1.5.1",
-      "vsphereveleroplugin/data-manager-for-plugin:v1.5.1",
+      "vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.2",
+      "vsphereveleroplugin/backup-driver:v1.5.2",
+      "vsphereveleroplugin/data-manager-for-plugin:v1.5.2",
       "velero/velero-restic-restore-helper:v1.9.7",
       "bitnami/kubectl:1.28.3-debian-11-r0",
       "apache/airflow:2.7.2-python3.11",

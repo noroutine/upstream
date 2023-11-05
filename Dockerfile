@@ -991,15 +991,15 @@ FROM velero/velero-plugin-for-microsoft-azure:v1.8.1
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
-FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.1
+FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.2
 # vsphereveleroplugin/velero-plugin-for-vsphere
 
 # vsphereveleroplugin/backup-driver
-FROM vsphereveleroplugin/backup-driver:v1.5.1
+FROM vsphereveleroplugin/backup-driver:v1.5.2
 # vsphereveleroplugin/backup-driver
 
 # vsphereveleroplugin/data-manager-for-plugin
-FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.1
+FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.2
 # vsphereveleroplugin/data-manager-for-plugin
 
 # velero/velero-restic-restore-helper
