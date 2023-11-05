@@ -731,7 +731,7 @@ FROM quay.io/argoproj/argocli:v3.5.0
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.0
+FROM quay.io/argoproj/workflow-controller:v3.5.1
 # argoproj/workflow-controller
 
 # argoproj/argoexec
