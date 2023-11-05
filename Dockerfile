@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-10-25T06-33-25Z
+FROM minio/minio:RELEASE.2023-11-01T18-37-25Z
 # minio/minio
 
 # coreos/etcd
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.49.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.60.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.61.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.2-debian-11-r45
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.10.25-debian-11-r0
+FROM bitnami/minio:2023.11.1-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client

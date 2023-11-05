@@ -1,5 +1,5 @@
 {
-  "version": "c21e3d76",
+  "version": "ef82dda0",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -30,7 +30,7 @@
       "atlassian/jira-software:9.11.2",
       "nextcloud:27.1.3-apache",
       "haproxytech/haproxy-debian:2.8.3",
-      "minio/minio:RELEASE.2023-10-25T06-33-25Z",
+      "minio/minio:RELEASE.2023-11-01T18-37-25Z",
       "quay.io/coreos/etcd:v3.5.10",
       "quay.io/prometheus/prometheus:v2.47.2",
       "quay.io/prometheus/alertmanager:v0.26.0",
@@ -83,7 +83,7 @@
       "gitlab/gitlab-runner:alpine3.18-v16.5.0",
       "gitlab/gitlab-ce:16.5.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.49.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.60.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.61.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.5.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -149,7 +149,7 @@
       "bitnami/memcached:1.6.22-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.9.0-debian-11-r7",
       "bitnami/nginx:1.25.2-debian-11-r45",
-      "bitnami/minio:2023.10.25-debian-11-r0",
+      "bitnami/minio:2023.11.1-debian-11-r0",
       "bitnami/minio-client:2023.10.30-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r136",
       "bitnami/metallb-controller:0.13.11-debian-11-r26",
