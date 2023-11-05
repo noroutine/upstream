@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.71.0
+FROM ghost:5.72.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.71.2-debian-11-r0
+FROM bitnami/ghost:5.72.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -615,7 +615,7 @@ FROM bitnami/grafana-image-renderer:3.8.4-debian-11-r3
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.16.2-debian-11-r15
+FROM bitnami/consul:1.17.0-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -727,19 +727,19 @@ FROM quay.io/argoproj/argo-events:v1.8.1
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.0
+FROM quay.io/argoproj/argocli:v3.5.1
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.0
+FROM quay.io/argoproj/workflow-controller:v3.5.1
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.0
+FROM quay.io/argoproj/argoexec:v3.5.1
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.2-bookworm
+FROM redis:7.2.3-bookworm
 # redis
 
 # listmonk/listmonk
@@ -1055,7 +1055,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.16.3
+FROM hashicorp/consul:1.17.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
