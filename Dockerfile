@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.61.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.7
+FROM squidfunk/mkdocs-material:9.4.8
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -255,7 +255,7 @@ FROM mariadb:11.1.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.11.1
+FROM mccutchen/go-httpbin:v2.12.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -327,7 +327,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.61.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.5.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.6.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -747,7 +747,7 @@ FROM listmonk/listmonk:v2.5.1
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.29.2
+FROM vaultwarden/server:1.30.0
 # vaultwarden/server
 
 # boky/postfix
@@ -839,7 +839,7 @@ FROM syncthing/syncthing:1.25.0
 # syncthing/syncthing
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.11
+FROM jellyfin/jellyfin:10.8.12
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
