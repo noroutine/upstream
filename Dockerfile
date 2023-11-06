@@ -839,7 +839,7 @@ FROM syncthing/syncthing:1.25.0
 # syncthing/syncthing
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.11
+FROM jellyfin/jellyfin:10.8.12
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
