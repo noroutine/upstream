@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.2
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.68.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.69.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.69.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -443,7 +443,7 @@ FROM docker:24.0.7-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.7.0
+FROM quay.io/podman/stable:v4.7.2
 # podman/stable
 
 # jupyter/base-notebook

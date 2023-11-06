@@ -1,5 +1,5 @@
 {
-  "version": "af85c1fa",
+  "version": "9a4702e2",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -39,8 +39,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.24.0",
       "quay.io/prometheus/snmp-exporter:v0.24.1",
       "quay.io/prometheus/pushgateway:v1.6.2",
-      "quay.io/prometheus-operator/prometheus-operator:v0.68.0",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0",
+      "quay.io/prometheus-operator/prometheus-operator:v0.69.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.69.0",
       "grafana/grafana:10.2.0",
       "grafana/loki:2.9.2",
       "grafana/loki-canary:2.9.2",
@@ -113,7 +113,7 @@
       "nocodb/nocodb:0.202.5",
       "metabase/metabase:v0.47.6",
       "docker:24.0.7-dind",
-      "quay.io/podman/stable:v4.7.0",
+      "quay.io/podman/stable:v4.7.2",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
