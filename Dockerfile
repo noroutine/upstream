@@ -671,7 +671,7 @@ FROM bitnami/kubectl:1.28.3-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.46.1
+FROM aquasec/trivy:0.47.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.8.6
+FROM quay.io/argoproj/argocd:v2.9.0
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -1011,7 +1011,7 @@ FROM bitnami/kubectl:1.28.3-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.7.2-python3.11
+FROM apache/airflow:2.7.3-python3.11
 # apache/airflow
 
 # git-sync/git-sync
