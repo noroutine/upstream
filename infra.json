@@ -1,5 +1,5 @@
 {
-  "version": "f6ad7407",
+  "version": "af85c1fa",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -168,7 +168,7 @@
       "bitnami/kube-rbac-proxy:0.15.0-debian-11-r0",
       "bitnami/openldap:2.6.6-debian-11-r57",
       "bitnami/sealed-secrets-controller:v0.24.3",
-      "bitnami/trivy:0.46.1-debian-11-r0",
+      "bitnami/trivy:0.47.0-debian-11-r0",
       "bitnami/kubectl:1.28.3-debian-11-r0",
       "aquasec/trivy:0.47.0",
       "ghcr.io/external-secrets/external-secrets:v0.9.8",
