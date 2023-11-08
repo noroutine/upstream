@@ -67,11 +67,11 @@ FROM python:3.12.0-slim-bookworm
 # python
 
 # golang
-FROM golang:1.21.3-bookworm
+FROM golang:1.21.4-bookworm
 # golang
 
 # golang
-FROM golang:1.21.3-alpine3.18
+FROM golang:1.21.4-alpine3.18
 # golang
 
 # traefik
