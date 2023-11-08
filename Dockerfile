@@ -79,7 +79,7 @@ FROM traefik:v2.10.5
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.61.0
+FROM sonatype/nexus3:3.62.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -235,7 +235,7 @@ FROM mongo:7.0.2-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.3.2-apache
+FROM wordpress:6.4.0-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.72.0
+FROM ghost:5.72.1
 # ghost
 
 # bitnami/ghost
