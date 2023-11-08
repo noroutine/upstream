@@ -67,11 +67,11 @@ FROM python:3.12.0-slim-bookworm
 # python
 
 # golang
-FROM golang:1.21.3-bookworm
+FROM golang:1.21.4-bookworm
 # golang
 
 # golang
-FROM golang:1.21.3-alpine3.18
+FROM golang:1.21.4-alpine3.18
 # golang
 
 # traefik
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.4
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.10.4
+FROM docker.elastic.co/logstash/logstash:8.11.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.10.4
+FROM docker.elastic.co/kibana/kibana:8.11.0
 # kibana/kibana
 
 # alerta/alerta-web
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.49.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.61.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.62.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -435,7 +435,7 @@ FROM nocodb/nocodb:0.202.5
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.47.6
+FROM metabase/metabase:v0.47.7
 # metabase/metabase
 
 # docker
@@ -799,7 +799,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.17.0
+FROM gcr.io/kaniko-project/executor:v1.18.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -915,11 +915,11 @@ FROM firezone/firezone:0.7.35
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.430-jdk21
+FROM jenkins/jenkins:2.431-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3148.v532a_7e715ee3-10-jdk21-preview
+FROM jenkins/agent:3192.v713e3b_039fb_e-2-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
