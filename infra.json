@@ -1,5 +1,5 @@
 {
-  "version": "6b6d978b",
+  "version": "58e3c07a",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -269,7 +269,7 @@
       "hashicorp/consul:1.17.0",
       "hashicorp/consul-k8s-control-plane:1.3.0",
       "envoyproxy/envoy-alpine:v1.21.6",
-      "hashicorp/vault:1.15.1",
+      "hashicorp/vault:1.15.2",
       "hashicorp/vault-k8s:1.3.1",
       "hashicorp/vault-csi-provider:1.4.1",
       "quay.io/strimzi/operator:0.38.0",
