@@ -1343,7 +1343,7 @@ FROM confluentinc/confluent-operator:0.824.17
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.5.1
+FROM confluentinc/cp-enterprise-control-center:7.5.2
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
