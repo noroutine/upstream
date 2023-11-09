@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-11-01T18-37-25Z
+FROM minio/minio:RELEASE.2023-11-06T22-26-08Z
 # minio/minio
 
 # coreos/etcd
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.2-debian-11-r45
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.11.1-debian-11-r0
+FROM bitnami/minio:2023.11.6-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.10.30-debian-11-r0
+FROM bitnami/minio-client:2023.11.6-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -691,7 +691,7 @@ FROM drakkan/sftpgo:v2.5.4
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.35.0
+FROM hasura/graphql-engine:v2.35.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.50
+FROM stakater/reloader:v1.0.51
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1059,7 +1059,7 @@ FROM hashicorp/consul:1.17.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.2.3
+FROM hashicorp/consul-k8s-control-plane:1.3.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -1343,39 +1343,39 @@ FROM confluentinc/confluent-operator:0.824.17
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.5.1
+FROM confluentinc/cp-enterprise-control-center:7.5.2
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.5.1
+FROM confluentinc/cp-enterprise-replicator:7.5.2
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.5.1
+FROM confluentinc/cp-kafka-rest:7.5.2
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.5.1
+FROM confluentinc/cp-ksqldb-server:7.5.2
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.5.1
+FROM confluentinc/cp-ksqldb-cli:7.5.2
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.5.1
+FROM confluentinc/cp-schema-registry:7.5.2
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.5.1
+FROM confluentinc/cp-server:7.5.2
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.5.1
+FROM confluentinc/cp-server-connect:7.5.2
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.5.1
+FROM confluentinc/cp-zookeeper:7.5.2
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
