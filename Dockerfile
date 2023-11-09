@@ -1367,7 +1367,7 @@ FROM confluentinc/cp-schema-registry:7.5.1
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.5.1
+FROM confluentinc/cp-server:7.5.2
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
