@@ -571,7 +571,7 @@ FROM bitnami/mariadb:11.0.3-debian-11-r47
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.2-debian-11-r2
+FROM bitnami/mongodb:7.0.3-debian-11-r2
 # bitnami/mongodb
 
 # bitnami/memcached
