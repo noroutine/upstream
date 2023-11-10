@@ -1,5 +1,5 @@
 {
-  "version": "7bb6ca31",
+  "version": "1a63099b",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -230,7 +230,7 @@
       "netbirdio/signal:0.24.2",
       "netbirdio/management:0.24.2",
       "coturn/coturn:4.6.2",
-      "firezone/firezone:0.7.35",
+      "firezone/firezone:0.7.36",
       "jenkins/jenkins:2.431-jdk21",
       "jenkins/agent:3192.v713e3b_039fb_e-2-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
@@ -337,7 +337,7 @@
       "registry.k8s.io/sig-storage/snapshot-controller:v6.3.1",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.1",
       "confluentinc/confluent-init-container:2.7.2",
-      "confluentinc/confluent-operator:0.824.17",
+      "confluentinc/confluent-operator:0.824.33",
       "confluentinc/cp-enterprise-control-center:7.5.2",
       "confluentinc/cp-enterprise-replicator:7.5.2",
       "confluentinc/cp-kafka-rest:7.5.2",
