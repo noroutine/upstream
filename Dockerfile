@@ -619,7 +619,7 @@ FROM bitnami/consul:1.17.0-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.4-debian-11-r0
+FROM bitnami/nats:2.10.5-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -1335,7 +1335,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.7.1
+FROM confluentinc/confluent-init-container:2.7.2
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
