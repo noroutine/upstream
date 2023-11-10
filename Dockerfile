@@ -99,7 +99,7 @@ FROM postgres:16.0-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.11.2
+FROM atlassian/jira-software:9.11.3
 # atlassian/jira-software
 
 # nextcloud
@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.2
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.69.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.69.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.69.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.69.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -571,7 +571,7 @@ FROM bitnami/mariadb:11.0.3-debian-11-r47
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.2-debian-11-r2
+FROM bitnami/mongodb:7.0.3-debian-11-r2
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -767,7 +767,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.4-alpine3.18
+FROM nats:2.10.5-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -1307,23 +1307,23 @@ FROM registry.k8s.io/sig-storage/livenessprobe:v2.11.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.1
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.1
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.2
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.1
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.2
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.1
+FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.2
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.1
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.2
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
