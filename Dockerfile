@@ -687,7 +687,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.5.4
+FROM drakkan/sftpgo:v2.5.5
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.18.1
+FROM locustio/locust:2.18.2
 # locustio/locust
 
 # postgrest/postgrest

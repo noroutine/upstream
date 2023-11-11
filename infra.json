@@ -1,5 +1,5 @@
 {
-  "version": "1a63099b",
+  "version": "87db6f6d",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -174,7 +174,7 @@
       "ghcr.io/external-secrets/external-secrets:v0.9.8",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
-      "drakkan/sftpgo:v2.5.4",
+      "drakkan/sftpgo:v2.5.5",
       "hasura/graphql-engine:v2.35.1",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.51",
@@ -239,7 +239,7 @@
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.18.1",
+      "locustio/locust:2.18.2",
       "postgrest/postgrest:v11.2.2",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.3.0",
