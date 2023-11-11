@@ -843,7 +843,7 @@ FROM jellyfin/jellyfin:10.8.12
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.14.02
+FROM haveagitgat/tdarr:2.15.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
