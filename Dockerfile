@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-11-06T22-26-08Z
+FROM minio/minio:RELEASE.2023-11-11T08-14-41Z
 # minio/minio
 
 # coreos/etcd
@@ -127,7 +127,7 @@ FROM quay.io/prometheus/alertmanager:v0.26.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.6.1
+FROM quay.io/prometheus/node-exporter:v1.7.0
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
@@ -503,7 +503,7 @@ FROM bitnami/prometheus-operator:0.68.0-debian-11-r24
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.6.1-debian-11-r75
+FROM bitnami/node-exporter:1.7.0-debian-11-r0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.2-debian-11-r45
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.11.6-debian-11-r0
+FROM bitnami/minio:2023.11.11-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.11.6-debian-11-r0
+FROM bitnami/minio-client:2023.11.10-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.18.2
+FROM locustio/locust:2.18.3
 # locustio/locust
 
 # postgrest/postgrest
