@@ -127,7 +127,7 @@ FROM quay.io/prometheus/alertmanager:v0.26.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.6.1
+FROM quay.io/prometheus/node-exporter:v1.7.0
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
