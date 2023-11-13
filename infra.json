@@ -1,5 +1,5 @@
 {
-  "version": "72edde26",
+  "version": "49587ca3",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -56,9 +56,9 @@
       "gcr.io/cadvisor/cadvisor:v0.47.2",
       "ghcr.io/prymitive/karma:v0.116",
       "quay.io/cortexproject/cortex:v1.15.3",
-      "docker.elastic.co/elasticsearch/elasticsearch:8.11.0",
-      "docker.elastic.co/logstash/logstash:8.11.0",
-      "docker.elastic.co/kibana/kibana:8.11.0",
+      "docker.elastic.co/elasticsearch/elasticsearch:8.11.1",
+      "docker.elastic.co/logstash/logstash:8.11.1",
+      "docker.elastic.co/kibana/kibana:8.11.1",
       "alerta/alerta-web:9.0.1",
       "mongo:7.0.2-jammy",
       "wordpress:6.4.0-apache",
@@ -208,7 +208,7 @@
       "azul/zulu-openjdk:21.0.1-21.30.15",
       "eclipse-temurin:21.0.1_12-jdk-jammy",
       "elastic/eck-operator:2.10.0",
-      "louislam/uptime-kuma:1.23.3-alpine",
+      "louislam/uptime-kuma:1.23.4-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.72.2",
       "syncthing/syncthing:1.26.0",

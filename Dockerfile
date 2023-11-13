@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.15.3
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.11.0
+FROM docker.elastic.co/logstash/logstash:8.11.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.11.0
+FROM docker.elastic.co/kibana/kibana:8.11.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -823,7 +823,7 @@ FROM elastic/eck-operator:2.10.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.3-alpine
+FROM louislam/uptime-kuma:1.23.4-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
