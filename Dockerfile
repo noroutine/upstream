@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.49.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.62.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.63.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -675,7 +675,7 @@ FROM aquasec/trivy:0.47.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.8
+FROM ghcr.io/external-secrets/external-secrets:v0.9.9
 # external-secrets/external-secrets
 
 # minio/console
@@ -775,7 +775,7 @@ FROM natsio/prometheus-nats-exporter:0.13.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.13.0
+FROM natsio/nats-server-config-reloader:0.14.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -831,7 +831,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.72.2
+FROM outlinewiki/outline:0.73.0
 # outlinewiki/outline
 
 # syncthing/syncthing

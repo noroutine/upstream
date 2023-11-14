@@ -1,5 +1,5 @@
 {
-  "version": "49587ca3",
+  "version": "eea32019",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -83,7 +83,7 @@
       "gitlab/gitlab-runner:alpine3.18-v16.5.0",
       "gitlab/gitlab-ce:16.5.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.49.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.62.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.63.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.6.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -171,7 +171,7 @@
       "bitnami/trivy:0.47.0-debian-11-r0",
       "bitnami/kubectl:1.28.3-debian-11-r0",
       "aquasec/trivy:0.47.0",
-      "ghcr.io/external-secrets/external-secrets:v0.9.8",
+      "ghcr.io/external-secrets/external-secrets:v0.9.9",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.5",
@@ -196,7 +196,7 @@
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.5-alpine3.18",
       "natsio/prometheus-nats-exporter:0.13.0",
-      "natsio/nats-server-config-reloader:0.13.0",
+      "natsio/nats-server-config-reloader:0.14.0",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.18-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
@@ -210,7 +210,7 @@
       "elastic/eck-operator:2.10.0",
       "louislam/uptime-kuma:1.23.4-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.72.2",
+      "outlinewiki/outline:0.73.0",
       "syncthing/syncthing:1.26.0",
       "jellyfin/jellyfin:10.8.12",
       "haveagitgat/tdarr:2.15.01",
