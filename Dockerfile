@@ -95,7 +95,7 @@ FROM quay.io/keycloak/keycloak:22.0.5
 # keycloak/keycloak
 
 # postgres
-FROM postgres:16.0-bookworm
+FROM postgres:16.1-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -527,27 +527,27 @@ FROM bitnami/postgresql:10.23.0-debian-11-r3
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.21.0-debian-11-r56
+FROM bitnami/postgresql:11.22.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.16.0-debian-11-r52
+FROM bitnami/postgresql:12.17.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.12.0-debian-11-r57
+FROM bitnami/postgresql:13.13.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.9.0-debian-11-r56
+FROM bitnami/postgresql:14.10.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.4.0-debian-11-r52
+FROM bitnami/postgresql:15.5.0-debian-11-r3
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.0.0-debian-11-r12
+FROM bitnami/postgresql:16.1.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/tomcat
@@ -959,7 +959,7 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
-FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.3.0
+FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.4.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
