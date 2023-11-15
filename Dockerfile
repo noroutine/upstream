@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.69.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.2.0
+FROM grafana/grafana:10.2.1
 # grafana/grafana
 
 # grafana/loki
@@ -171,11 +171,11 @@ FROM grafana/promtail:2.9.2
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.2-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.3-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.2-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.3-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -231,11 +231,11 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.2-jammy
+FROM mongo:7.0.3-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.4.0-apache
+FROM wordpress:6.4.1-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -315,15 +315,15 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.5.1-ce.0
+FROM gitlab/gitlab-ce:16.5.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.49.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.50.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.63.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.64.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.72.1
+FROM ghost:5.73.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.72.1-debian-11-r0
+FROM bitnami/ghost:5.73.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.9.0
+FROM quay.io/argoproj/argocd:v2.9.1
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -831,7 +831,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.73.0
+FROM outlinewiki/outline:0.73.1
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -895,7 +895,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.17.3
+FROM wiretrustee/dashboard:v1.17.4
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.431-jdk21
+FROM jenkins/jenkins:2.432-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
