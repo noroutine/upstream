@@ -1,5 +1,5 @@
 {
-  "version": "1826a834",
+  "version": "ef5e7262",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -108,7 +108,7 @@
       "verdaccio/verdaccio:5.27.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.73.1",
-      "bitnami/ghost:5.73.1-debian-11-r0",
+      "bitnami/ghost:5.73.2-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.202.5",
       "metabase/metabase:v0.47.7",
@@ -167,7 +167,7 @@
       "bitnami/kubeapps-pinniped-proxy:2.9.0-debian-11-r8",
       "bitnami/kube-rbac-proxy:0.15.0-debian-11-r0",
       "bitnami/openldap:2.6.6-debian-11-r57",
-      "bitnami/sealed-secrets-controller:v0.24.3",
+      "bitnami/sealed-secrets-controller:v0.24.4",
       "bitnami/trivy:0.47.0-debian-11-r0",
       "bitnami/kubectl:1.28.3-debian-11-r0",
       "aquasec/trivy:0.47.0",
