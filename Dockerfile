@@ -251,7 +251,7 @@ FROM mysql:8.2.0
 # mysql
 
 # mariadb
-FROM mariadb:11.1.2-jammy
+FROM mariadb:11.1.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
@@ -567,7 +567,7 @@ FROM bitnami/keycloak-config-cli:5.8.0-debian-11-r65
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.0.3-debian-11-r47
+FROM bitnami/mariadb:11.1.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -667,7 +667,7 @@ FROM bitnami/trivy:0.47.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.28.3-debian-11-r0
+FROM bitnami/kubectl:1.28.4-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -835,7 +835,7 @@ FROM outlinewiki/outline:0.73.1
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.26.0
+FROM syncthing/syncthing:1.26.1
 # syncthing/syncthing
 
 # jellyfin/jellyfin
@@ -1007,7 +1007,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.28.3-debian-11-r0
+FROM bitnami/kubectl:1.28.4-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
@@ -1191,47 +1191,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.30.8
+FROM quay.io/tigera/operator:v1.30.8-0-g473c5da21d69-2023-11-16-v3-26-chihuahua
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.26.3
+FROM calico/typha:v3.26.4
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.26.3
+FROM calico/ctl:v3.26.4
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.26.3
+FROM calico/node:v3.26.4
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.26.3
+FROM calico/cni:v3.26.4
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.26.3
+FROM calico/apiserver:v3.26.4
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.26.3
+FROM calico/kube-controllers:v3.26.4
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.26.3
+FROM calico/dikastes:v3.26.4
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.26.3
+FROM calico/pod2daemon-flexvol:v3.26.4
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.26.3
+FROM calico/node-driver-registrar:v3.26.4
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.26.3
+FROM calico/csi:v3.26.4
 # calico/csi
 
 # nfd/node-feature-discovery
