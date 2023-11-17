@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.10
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.47.2
+FROM quay.io/prometheus/prometheus:v2.48.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -311,7 +311,7 @@ FROM buildpacksio/lifecycle:0.18.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.5.0
+FROM gitlab/gitlab-runner:alpine3.18-v16.6.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.50.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.65.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.66.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.73.1
+FROM ghost:5.73.2
 # ghost
 
 # bitnami/ghost
@@ -431,7 +431,7 @@ FROM matomo:4.15.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.202.5
+FROM nocodb/nocodb:0.202.7
 # nocodb/nocodb
 
 # metabase/metabase
@@ -495,11 +495,11 @@ FROM bitnami/spark:3.5.0-debian-11-r9
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.47.2-debian-11-r0
+FROM bitnami/prometheus:2.48.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.68.0-debian-11-r24
+FROM bitnami/prometheus-operator:0.69.1-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.51
+FROM stakater/reloader:v1.0.52
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1239,27 +1239,27 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.3
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.5.2
+FROM longhornio/longhorn-manager:v1.5.3
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.5.2
+FROM longhornio/longhorn-ui:v1.5.3
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.5.2
+FROM longhornio/longhorn-engine:v1.5.3
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.5.2
+FROM longhornio/longhorn-instance-manager:v1.5.3
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.5.2
+FROM longhornio/longhorn-share-manager:v1.5.3
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.5.2
+FROM longhornio/backing-image-manager:v1.5.3
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
@@ -1287,7 +1287,7 @@ FROM longhornio/livenessprobe:v2.11.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.30
+FROM longhornio/support-bundle-kit:v0.0.31
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
