@@ -1243,7 +1243,7 @@ FROM longhornio/longhorn-manager:v1.5.2
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.5.2
+FROM longhornio/longhorn-ui:v1.5.3
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
