@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.62.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.8
+FROM squidfunk/mkdocs-material:9.4.9
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -1043,7 +1043,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.13.2
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.5.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.6.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns

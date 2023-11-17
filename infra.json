@@ -1,5 +1,5 @@
 {
-  "version": "30e4fa82",
+  "version": "aedbe0ed",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.4-alpine3.18",
       "traefik:v2.10.5",
       "sonatype/nexus3:3.62.0",
-      "squidfunk/mkdocs-material:9.4.8",
+      "squidfunk/mkdocs-material:9.4.9",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.5",
       "postgres:16.1-bookworm",
@@ -263,7 +263,7 @@
       "quay.io/jetstack/cert-manager-cainjector:v1.13.2",
       "quay.io/jetstack/cert-manager-webhook:v1.13.2",
       "quay.io/jetstack/cert-manager-ctl:v1.13.2",
-      "quay.io/jetstack/cert-manager-csi-driver:v0.5.0",
+      "quay.io/jetstack/cert-manager-csi-driver:v0.6.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.0",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.17.0",
