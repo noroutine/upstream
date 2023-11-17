@@ -1,5 +1,5 @@
 {
-  "version": "aedbe0ed",
+  "version": "1954012c",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -215,8 +215,8 @@
       "jellyfin/jellyfin:10.8.12",
       "haveagitgat/tdarr:2.15.01",
       "haveagitgat/tdarr_node:2.15.01",
-      "gravitl/netmaker:v0.21.1",
-      "gravitl/netmaker-ui:v0.21.1",
+      "gravitl/netmaker:v0.21.2",
+      "gravitl/netmaker-ui:v0.21.2",
       "kmb32123/youtube-dl-server:2.0",
       "puppet/puppetserver:7.9.2",
       "puppet/puppetdb:7.10.0",
