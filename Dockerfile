@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.3
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-11-11T08-14-41Z
+FROM minio/minio:RELEASE.2023-11-15T20-43-25Z
 # minio/minio
 
 # coreos/etcd
@@ -307,7 +307,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.18.1
+FROM buildpacksio/lifecycle:0.18.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.5.2-ce.0
+FROM gitlab/gitlab-ce:16.6.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.50.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.64.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.65.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -583,11 +583,11 @@ FROM bitnami/nginx-ingress-controller:1.9.0-debian-11-r7
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.2-debian-11-r45
+FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.11.11-debian-11-r0
+FROM bitnami/minio:2023.11.15-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -1095,67 +1095,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.3
+FROM registry.k8s.io/kube-apiserver:v1.28.4
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.3
+FROM registry.k8s.io/kube-proxy:v1.28.4
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.3
+FROM registry.k8s.io/kube-scheduler:v1.28.4
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.3
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.7
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.7
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.7
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.7
+FROM registry.k8s.io/kube-controller-manager:v1.28.4
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.10
+FROM registry.k8s.io/kube-apiserver:v1.27.8
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.10
+FROM registry.k8s.io/kube-proxy:v1.27.8
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.10
+FROM registry.k8s.io/kube-scheduler:v1.27.8
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.10
+FROM registry.k8s.io/kube-controller-manager:v1.27.8
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.15
+FROM registry.k8s.io/kube-apiserver:v1.26.11
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.15
+FROM registry.k8s.io/kube-proxy:v1.26.11
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.15
+FROM registry.k8s.io/kube-scheduler:v1.26.11
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.15
+FROM registry.k8s.io/kube-controller-manager:v1.26.11
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.25.16
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.25.16
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.25.16
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.25.16
 # kube-controller-manager
 
 # kube-apiserver
@@ -1287,7 +1287,7 @@ FROM longhornio/livenessprobe:v2.11.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.29
+FROM longhornio/support-bundle-kit:v0.0.30
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
