@@ -1239,7 +1239,7 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.3
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.5.2
+FROM longhornio/longhorn-manager:v1.5.3
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
