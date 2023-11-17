@@ -1251,7 +1251,7 @@ FROM longhornio/longhorn-engine:v1.5.2
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.5.2
+FROM longhornio/longhorn-instance-manager:v1.5.3
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
