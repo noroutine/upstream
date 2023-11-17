@@ -1247,7 +1247,7 @@ FROM longhornio/longhorn-ui:v1.5.2
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.5.2
+FROM longhornio/longhorn-engine:v1.5.3
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
