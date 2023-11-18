@@ -107,7 +107,7 @@ FROM nextcloud:27.1.3-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.8.3
+FROM haproxytech/haproxy-debian:2.8.4
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.73.2
+FROM ghost:5.74.0
 # ghost
 
 # bitnami/ghost
@@ -823,7 +823,7 @@ FROM elastic/eck-operator:2.10.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.4-alpine
+FROM louislam/uptime-kuma:1.23.6-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
