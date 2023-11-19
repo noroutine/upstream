@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.295",
+  "version": "b076e8ee",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -300,7 +300,7 @@
       "registry.k8s.io/kube-proxy:v1.23.17",
       "registry.k8s.io/kube-scheduler:v1.23.17",
       "registry.k8s.io/kube-controller-manager:v1.23.17",
-      "quay.io/tigera/operator:v1.30.8-0-g473c5da21d69-2023-11-16-v3-26-chihuahua",
+      "quay.io/tigera/operator:v1.30.9",
       "calico/typha:v3.26.4",
       "calico/ctl:v3.26.4",
       "calico/node:v3.26.4",

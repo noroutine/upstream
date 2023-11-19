@@ -1191,7 +1191,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.30.8-0-g473c5da21d69-2023-11-16-v3-26-chihuahua
+FROM quay.io/tigera/operator:v1.30.9
 # tigera/operator
 
 # calico/typha
