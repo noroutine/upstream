@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.62.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.9
+FROM squidfunk/mkdocs-material:9.4.10
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -211,7 +211,7 @@ FROM ghcr.io/prymitive/karma:v0.116
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.15.3
+FROM quay.io/cortexproject/cortex:v1.16.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -747,7 +747,7 @@ FROM listmonk/listmonk:v2.5.1
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.30.0
+FROM vaultwarden/server:1.30.1
 # vaultwarden/server
 
 # boky/postfix
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.18.3
+FROM locustio/locust:2.18.4
 # locustio/locust
 
 # postgrest/postgrest

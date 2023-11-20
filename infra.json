@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.296",
+  "version": "65be0d99",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.4-alpine3.18",
       "traefik:v2.10.5",
       "sonatype/nexus3:3.62.0",
-      "squidfunk/mkdocs-material:9.4.9",
+      "squidfunk/mkdocs-material:9.4.10",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:22.0.5",
       "postgres:16.1-bookworm",
@@ -55,7 +55,7 @@
       "ribbybibby/ssl-exporter:2.4.2",
       "gcr.io/cadvisor/cadvisor:v0.47.2",
       "ghcr.io/prymitive/karma:v0.116",
-      "quay.io/cortexproject/cortex:v1.15.3",
+      "quay.io/cortexproject/cortex:v1.16.0",
       "docker.elastic.co/elasticsearch/elasticsearch:8.11.1",
       "docker.elastic.co/logstash/logstash:8.11.1",
       "docker.elastic.co/kibana/kibana:8.11.1",
@@ -189,7 +189,7 @@
       "quay.io/argoproj/argoexec:v3.5.1",
       "redis:7.2.3-bookworm",
       "listmonk/listmonk:v2.5.1",
-      "vaultwarden/server:1.30.0",
+      "vaultwarden/server:1.30.1",
       "boky/postfix:v4.0.2-alpine",
       "cupcakearmy/cryptgeon:2.4.0",
       "memcached:1.6.22-alpine3.18",
@@ -239,7 +239,7 @@
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.18.3",
+      "locustio/locust:2.18.4",
       "postgrest/postgrest:v11.2.2",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.4.0",
