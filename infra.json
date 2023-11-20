@@ -1,5 +1,5 @@
 {
-  "version": "65be0d99",
+  "version": "a13b49f6",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -110,7 +110,7 @@
       "ghost:5.74.0",
       "bitnami/ghost:5.73.2-debian-11-r0",
       "matomo:4.15.1-apache",
-      "nocodb/nocodb:0.202.7",
+      "nocodb/nocodb:0.202.8",
       "metabase/metabase:v0.47.8",
       "docker:24.0.7-dind",
       "quay.io/podman/stable:v4.7.2",
@@ -334,7 +334,7 @@
       "registry.k8s.io/sig-storage/csi-resizer:v1.9.2",
       "registry.k8s.io/sig-storage/csi-provisioner:v3.6.2",
       "registry.k8s.io/sig-storage/csi-snapshotter:v6.3.2",
-      "registry.k8s.io/sig-storage/snapshot-controller:v6.3.1",
+      "registry.k8s.io/sig-storage/snapshot-controller:v6.3.2",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.1",
       "confluentinc/confluent-init-container:2.7.2",
       "confluentinc/confluent-operator:0.824.33",
