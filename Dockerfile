@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.18.3
+FROM locustio/locust:2.18.4
 # locustio/locust
 
 # postgrest/postgrest
