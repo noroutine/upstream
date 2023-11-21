@@ -591,7 +591,7 @@ FROM bitnami/minio:2023.11.15-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.11.10-debian-11-r0
+FROM bitnami/minio-client:2023.11.20-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.9.1
+FROM quay.io/argoproj/argocd:v2.9.2
 # argoproj/argocd
 
 # argoproj/argocd-applicationset

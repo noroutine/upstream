@@ -1,5 +1,5 @@
 {
-  "version": "54c82c23",
+  "version": "6900c090",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -150,7 +150,7 @@
       "bitnami/nginx-ingress-controller:1.9.0-debian-11-r7",
       "bitnami/nginx:1.25.3-debian-11-r1",
       "bitnami/minio:2023.11.15-debian-11-r0",
-      "bitnami/minio-client:2023.11.10-debian-11-r0",
+      "bitnami/minio-client:2023.11.20-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r136",
       "bitnami/metallb-controller:0.13.11-debian-11-r26",
       "bitnami/metallb-speaker:0.13.11-debian-11-r28",
@@ -181,7 +181,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.37.0",
-      "quay.io/argoproj/argocd:v2.9.1",
+      "quay.io/argoproj/argocd:v2.9.2",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.8.1",
       "quay.io/argoproj/argocli:v3.5.1",
