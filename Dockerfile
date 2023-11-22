@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:2.8.4
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-11-15T20-43-25Z
+FROM minio/minio:RELEASE.2023-11-20T22-40-07Z
 # minio/minio
 
 # coreos/etcd
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.69.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.2.1
+FROM grafana/grafana:10.2.2
 # grafana/grafana
 
 # grafana/loki
@@ -423,7 +423,7 @@ FROM ghost:5.74.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.73.2-debian-11-r0
+FROM bitnami/ghost:5.74.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.11.15-debian-11-r0
+FROM bitnami/minio:2023.11.20-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.432-jdk21
+FROM jenkins/jenkins:2.433-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.18.4
+FROM locustio/locust:2.19.0
 # locustio/locust
 
 # postgrest/postgrest
