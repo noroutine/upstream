@@ -395,7 +395,7 @@ FROM quay.io/jupyterhub/repo2docker:2023.06.0-41.g57d229e
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.10.0
+FROM pihole/pihole:2023.11.0
 # pihole/pihole
 
 # yandex/clickhouse-server

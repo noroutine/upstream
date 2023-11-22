@@ -1,5 +1,5 @@
 {
-  "version": "17dd5fd4",
+  "version": "9f88ce08",
   "upstream": {
     "images": [
       "debian:bookworm-20231030-slim",
@@ -101,7 +101,7 @@
       "registry.k8s.io/kube-scheduler:v1.23.10",
       "registry.k8s.io/pause:3.9",
       "quay.io/jupyterhub/repo2docker:2023.06.0-41.g57d229e",
-      "pihole/pihole:2023.10.0",
+      "pihole/pihole:2023.11.0",
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v2.0.0",
