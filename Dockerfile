@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20231030-slim
+FROM debian:bookworm-20231120-slim
 # debian
 
 # ubuntu
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.50.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.66.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.67.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -423,7 +423,7 @@ FROM ghost:5.74.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.74.1-debian-11-r0
+FROM bitnami/ghost:5.74.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -607,7 +607,7 @@ FROM bitnami/metallb-speaker:0.13.11-debian-11-r28
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.2.0-debian-11-r0
+FROM bitnami/grafana:10.2.2-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -1295,11 +1295,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.2
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.1
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.2
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
