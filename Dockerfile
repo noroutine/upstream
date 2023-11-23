@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.62.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.10
+FROM squidfunk/mkdocs-material:9.4.11
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -239,7 +239,7 @@ FROM wordpress:6.4.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:7.8
+FROM dpage/pgadmin4:8.0
 # dpage/pgadmin4
 
 # adminer
@@ -251,7 +251,7 @@ FROM mysql:8.2.0
 # mysql
 
 # mariadb
-FROM mariadb:11.1.3-jammy
+FROM mariadb:11.2.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
