@@ -251,7 +251,7 @@ FROM mysql:8.2.0
 # mysql
 
 # mariadb
-FROM mariadb:11.1.3-jammy
+FROM mariadb:11.2.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
