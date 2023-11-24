@@ -1,5 +1,5 @@
 {
-  "version": "746e1c2a",
+  "version": "5138f393",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -247,9 +247,9 @@
       "guacamole/guacd:1.5.3",
       "velero/velero:v1.12.1",
       "velero/velero-plugin-for-csi:v0.6.1",
-      "velero/velero-plugin-for-aws:v1.8.1",
+      "velero/velero-plugin-for-aws:v1.8.2",
       "velero/velero-plugin-for-gcp:v1.8.1",
-      "velero/velero-plugin-for-microsoft-azure:v1.8.1",
+      "velero/velero-plugin-for-microsoft-azure:v1.8.2",
       "vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.2",
       "vsphereveleroplugin/backup-driver:v1.5.2",
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.2",
