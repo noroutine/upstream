@@ -987,7 +987,7 @@ FROM velero/velero-plugin-for-gcp:v1.8.1
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.8.1
+FROM velero/velero-plugin-for-microsoft-azure:v1.8.2
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
