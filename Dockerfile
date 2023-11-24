@@ -899,7 +899,7 @@ FROM wiretrustee/dashboard:v1.17.4
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.24.2
+FROM netbirdio/signal:0.24.3
 # netbirdio/signal
 
 # netbirdio/management
