@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.62.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.11
+FROM squidfunk/mkdocs-material:9.4.12
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -823,7 +823,7 @@ FROM elastic/eck-operator:2.10.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.6-alpine
+FROM louislam/uptime-kuma:1.23.7-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.4
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.24.2
+FROM netbirdio/signal:0.24.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.24.2
+FROM netbirdio/management:0.24.3
 # netbirdio/management
 
 # coturn/coturn
