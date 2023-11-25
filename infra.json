@@ -1,5 +1,5 @@
 {
-  "version": "064236cc",
+  "version": "8e99bc17",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -108,7 +108,7 @@
       "verdaccio/verdaccio:5.27.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.74.0",
-      "bitnami/ghost:5.74.2-debian-11-r0",
+      "bitnami/ghost:5.74.3-debian-11-r0",
       "matomo:4.15.1-apache",
       "nocodb/nocodb:0.202.8",
       "metabase/metabase:v0.47.8",
@@ -226,7 +226,7 @@
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "yugabytedb/yugabyte:2.18.3.1-b1",
       "antelle/keeweb:1.18.7",
-      "wiretrustee/dashboard:v1.17.4",
+      "wiretrustee/dashboard:v1.17.6",
       "netbirdio/signal:0.24.3",
       "netbirdio/management:0.24.3",
       "coturn/coturn:4.6.2",
