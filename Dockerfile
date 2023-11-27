@@ -975,7 +975,7 @@ FROM velero/velero:v1.12.1
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.6.1
+FROM velero/velero-plugin-for-csi:v0.6.2
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
