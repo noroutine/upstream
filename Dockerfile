@@ -971,7 +971,7 @@ FROM guacamole/guacd:1.5.3
 # guacamole/guacd
 
 # velero/velero
-FROM velero/velero:v1.12.1
+FROM velero/velero:v1.12.2
 # velero/velero
 
 # velero/velero-plugin-for-csi
