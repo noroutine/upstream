@@ -379,7 +379,7 @@ FROM jupyterhub/k8s-singleuser-sample:3.1.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.6.0
+FROM jupyterhub/configurable-http-proxy:4.6.1
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
@@ -423,7 +423,7 @@ FROM ghost:5.74.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.74.3-debian-11-r0
+FROM bitnami/ghost:5.74.4-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -727,15 +727,15 @@ FROM quay.io/argoproj/argo-events:v1.8.1
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.1
+FROM quay.io/argoproj/argocli:v3.5.2
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.1
+FROM quay.io/argoproj/workflow-controller:v3.5.2
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.1
+FROM quay.io/argoproj/argoexec:v3.5.2
 # argoproj/argoexec
 
 # redis
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.19.0
+FROM locustio/locust:2.19.1
 # locustio/locust
 
 # postgrest/postgrest
@@ -1019,11 +1019,11 @@ FROM registry.k8s.io/git-sync/git-sync:v4.1.0
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.12.0
+FROM ghcr.io/kedacore/keda:2.12.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.12.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.12.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
@@ -1287,7 +1287,7 @@ FROM longhornio/livenessprobe:v2.11.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.31
+FROM longhornio/support-bundle-kit:v0.0.32
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
