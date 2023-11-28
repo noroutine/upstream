@@ -1019,7 +1019,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.1.0
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.12.0
+FROM ghcr.io/kedacore/keda:2.12.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
