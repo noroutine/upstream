@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.62.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.12
+FROM squidfunk/mkdocs-material:9.4.14
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -843,11 +843,11 @@ FROM jellyfin/jellyfin:10.8.12
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.15.01
+FROM haveagitgat/tdarr:2.16.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.15.01
+FROM haveagitgat/tdarr_node:2.16.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -971,11 +971,11 @@ FROM guacamole/guacd:1.5.3
 # guacamole/guacd
 
 # velero/velero
-FROM velero/velero:v1.12.1
+FROM velero/velero:v1.12.2
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.6.1
+FROM velero/velero-plugin-for-csi:v0.6.2
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
@@ -983,7 +983,7 @@ FROM velero/velero-plugin-for-aws:v1.8.2
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.8.1
+FROM velero/velero-plugin-for-gcp:v1.8.2
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
