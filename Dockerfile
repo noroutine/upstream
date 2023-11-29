@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:23.0.0
+FROM quay.io/keycloak/keycloak:23.0.1
 # keycloak/keycloak
 
 # postgres
@@ -839,7 +839,7 @@ FROM syncthing/syncthing:1.26.1
 # syncthing/syncthing
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.12
+FROM jellyfin/jellyfin:10.8.13
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr

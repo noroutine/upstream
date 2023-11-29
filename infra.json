@@ -1,5 +1,5 @@
 {
-  "version": "ef8d4016",
+  "version": "1db19b00",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -25,7 +25,7 @@
       "sonatype/nexus3:3.62.0",
       "squidfunk/mkdocs-material:9.4.14",
       "freeradius/freeradius-server:3.2.3-alpine",
-      "quay.io/keycloak/keycloak:23.0.0",
+      "quay.io/keycloak/keycloak:23.0.1",
       "postgres:16.1-bookworm",
       "atlassian/jira-software:9.11.3",
       "nextcloud:27.1.4-apache",
@@ -212,7 +212,7 @@
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.73.1",
       "syncthing/syncthing:1.26.1",
-      "jellyfin/jellyfin:10.8.12",
+      "jellyfin/jellyfin:10.8.13",
       "haveagitgat/tdarr:2.16.01",
       "haveagitgat/tdarr_node:2.16.01",
       "gravitl/netmaker:v0.21.2",
