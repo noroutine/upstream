@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.11.3
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:27.1.3-apache
+FROM nextcloud:27.1.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -231,7 +231,7 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.3-jammy
+FROM mongo:7.0.4-jammy
 # mongo
 
 # wordpress
@@ -423,7 +423,7 @@ FROM ghost:5.74.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.74.4-debian-11-r0
+FROM bitnami/ghost:5.74.5-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -571,7 +571,7 @@ FROM bitnami/mariadb:11.1.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.3-debian-11-r2
+FROM bitnami/mongodb:7.0.4-debian-11-r0
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.433-jdk21
+FROM jenkins/jenkins:2.434-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
