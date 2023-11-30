@@ -1,5 +1,5 @@
 {
-  "version": "ecfc59ba",
+  "version": "2ecefc37",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -81,7 +81,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.18.2",
       "gitlab/gitlab-runner:alpine3.18-v16.6.1",
-      "gitlab/gitlab-ce:16.6.0-ce.0",
+      "gitlab/gitlab-ce:16.6.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.50.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.67.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.6.0",
@@ -234,7 +234,7 @@
       "jenkins/jenkins:2.434-jdk17",
       "jenkins/agent:3192.v713e3b_039fb_e-2-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
-      "netboxcommunity/netbox:v3.6.5",
+      "netboxcommunity/netbox:v3.6.6",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",

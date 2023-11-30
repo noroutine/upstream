@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.6.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.6.0-ce.0
+FROM gitlab/gitlab-ce:16.6.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -927,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.6.5
+FROM netboxcommunity/netbox:v3.6.6
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
