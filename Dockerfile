@@ -799,7 +799,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.18.0
+FROM gcr.io/kaniko-project/executor:v1.19.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
