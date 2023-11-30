@@ -311,7 +311,7 @@ FROM buildpacksio/lifecycle:0.18.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.6.0
+FROM gitlab/gitlab-runner:alpine3.18-v16.6.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.74.0
+FROM ghost:5.74.5
 # ghost
 
 # bitnami/ghost
@@ -427,7 +427,7 @@ FROM bitnami/ghost:5.74.5-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.15.1-apache
+FROM matomo:4.16.0-apache
 # matomo
 
 # nocodb/nocodb
@@ -799,7 +799,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.18.0
+FROM gcr.io/kaniko-project/executor:v1.19.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -839,7 +839,7 @@ FROM syncthing/syncthing:1.26.1
 # syncthing/syncthing
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.13
+FROM jellyfin/jellyfin:10.8.13-1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
