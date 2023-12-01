@@ -11,7 +11,7 @@ FROM ubuntu:focal-20231003
 # ubuntu
 
 # alpine
-FROM alpine:3.18.4
+FROM alpine:3.18.5
 # alpine
 
 # busybox
@@ -1067,7 +1067,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.15.2
+FROM hashicorp/vault:1.15.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
