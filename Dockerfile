@@ -99,7 +99,7 @@ FROM postgres:16.1-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.11.3
+FROM atlassian/jira-software:9.12.0
 # atlassian/jira-software
 
 # nextcloud
