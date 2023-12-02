@@ -47,11 +47,11 @@ FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:b5fde3cb8a892f44fcc5cd00f64984c2dfbc1f716ae0f3102cd4e87be3075da8
+FROM buildpack-deps:focal@sha256:33ff81a6551e2879e8c7bf47082e55f9321a83956303cd2b846abee7d91bcbd8
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:24fe4235a691b49a8f4c3570eabdbeb2e33f712a7bf05f41717fce9c36bea901
+FROM buildpack-deps:jammy@sha256:3269bf621fbf136f5dad17b036d746aabf05bcfa8e886509e735a089a71c8632
 # buildpack-deps
 
 # php
@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.74.5
+FROM ghost:5.75.0
 # ghost
 
 # bitnami/ghost
