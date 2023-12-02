@@ -1,5 +1,5 @@
 {
-  "version": "df586fba",
+  "version": "6a1d70f6",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -54,7 +54,7 @@
       "braedon/prometheus-es-exporter:0.14.1",
       "ribbybibby/ssl-exporter:2.4.2",
       "gcr.io/cadvisor/cadvisor:v0.47.2",
-      "ghcr.io/prymitive/karma:v0.116",
+      "ghcr.io/prymitive/karma:v0.117",
       "quay.io/cortexproject/cortex:v1.16.0",
       "docker.elastic.co/elasticsearch/elasticsearch:8.11.1",
       "docker.elastic.co/logstash/logstash:8.11.1",
@@ -113,7 +113,7 @@
       "nocodb/nocodb:0.202.9",
       "metabase/metabase:v0.47.9",
       "docker:24.0.7-dind",
-      "quay.io/podman/stable:v4.7.2",
+      "quay.io/podman/stable:v4.8.0",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",

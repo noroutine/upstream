@@ -207,7 +207,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.47.2
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.116
+FROM ghcr.io/prymitive/karma:v0.117
 # prymitive/karma
 
 # cortexproject/cortex
@@ -443,7 +443,7 @@ FROM docker:24.0.7-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.7.2
+FROM quay.io/podman/stable:v4.8.0
 # podman/stable
 
 # jupyter/base-notebook
