@@ -3,11 +3,11 @@ FROM debian:bookworm-20231120-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20231004
+FROM ubuntu:jammy-20231128
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20231003
+FROM ubuntu:focal-20231128
 # ubuntu
 
 # alpine
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.9.2
+FROM quay.io/argoproj/argocd:v2.9.3
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
