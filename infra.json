@@ -1,5 +1,5 @@
 {
-  "version": "42155a4c",
+  "version": "bb8d5bc1",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -194,7 +194,7 @@
       "cupcakearmy/cryptgeon:2.4.0",
       "memcached:1.6.22-alpine3.18",
       "connecteverything/nats-operator:0.8.0",
-      "nats:2.10.5-alpine3.18",
+      "nats:2.10.6-alpine3.18",
       "natsio/prometheus-nats-exporter:0.13.0",
       "natsio/nats-server-config-reloader:0.14.0",
       "masipcat/wireguard-go:0.0.20230223",
@@ -208,7 +208,7 @@
       "azul/zulu-openjdk:21.0.1-21.30.15",
       "eclipse-temurin:21.0.1_12-jdk-jammy",
       "elastic/eck-operator:2.10.0",
-      "louislam/uptime-kuma:1.23.7-alpine",
+      "louislam/uptime-kuma:1.23.8-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.73.1",
       "syncthing/syncthing:1.26.1",

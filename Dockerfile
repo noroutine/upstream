@@ -767,7 +767,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.5-alpine3.18
+FROM nats:2.10.6-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -823,7 +823,7 @@ FROM elastic/eck-operator:2.10.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.7-alpine
+FROM louislam/uptime-kuma:1.23.8-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
