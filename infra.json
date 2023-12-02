@@ -1,5 +1,5 @@
 {
-  "version": "ac79544f",
+  "version": "df586fba",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -27,7 +27,7 @@
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:23.0.1",
       "postgres:16.1-bookworm",
-      "atlassian/jira-software:9.11.3",
+      "atlassian/jira-software:9.12.0",
       "nextcloud:27.1.4-apache",
       "haproxytech/haproxy-debian:2.8.4",
       "minio/minio:RELEASE.2023-11-20T22-40-07Z",
@@ -39,8 +39,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.24.0",
       "quay.io/prometheus/snmp-exporter:v0.24.1",
       "quay.io/prometheus/pushgateway:v1.6.2",
-      "quay.io/prometheus-operator/prometheus-operator:v0.69.1",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.69.1",
+      "quay.io/prometheus-operator/prometheus-operator:v0.70.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.70.0",
       "grafana/grafana:10.2.2",
       "grafana/loki:2.9.2",
       "grafana/loki-canary:2.9.2",
@@ -127,7 +127,7 @@
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.0-debian-11-r9",
       "bitnami/prometheus:2.48.0-debian-11-r0",
-      "bitnami/prometheus-operator:0.69.1-debian-11-r0",
+      "bitnami/prometheus-operator:0.70.0-debian-11-r0",
       "bitnami/node-exporter:1.7.0-debian-11-r0",
       "bitnami/blackbox-exporter:0.24.0-debian-11-r135",
       "bitnami/postgres-exporter:0.14.0-debian-11-r12",

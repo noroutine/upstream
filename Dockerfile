@@ -99,7 +99,7 @@ FROM postgres:16.1-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.11.3
+FROM atlassian/jira-software:9.12.0
 # atlassian/jira-software
 
 # nextcloud
@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.2
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.69.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.70.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.69.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.70.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -499,7 +499,7 @@ FROM bitnami/prometheus:2.48.0-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.69.1-debian-11-r0
+FROM bitnami/prometheus-operator:0.70.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
