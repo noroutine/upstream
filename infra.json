@@ -1,5 +1,5 @@
 {
-  "version": "6a1d70f6",
+  "version": "570bf6ba",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -82,7 +82,7 @@
       "buildpacksio/lifecycle:0.18.2",
       "gitlab/gitlab-runner:alpine3.18-v16.6.1",
       "gitlab/gitlab-ce:16.6.1-ce.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.50.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.67.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.6.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",
@@ -105,7 +105,7 @@
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v2.0.0",
-      "verdaccio/verdaccio:5.27.0",
+      "verdaccio/verdaccio:5.27.1",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.75.0",
       "bitnami/ghost:5.74.5-debian-11-r0",
