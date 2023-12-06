@@ -67,11 +67,11 @@ FROM python:3.12.0-slim-bookworm
 # python
 
 # golang
-FROM golang:1.21.4-bookworm
+FROM golang:1.21.5-bookworm
 # golang
 
 # golang
-FROM golang:1.21.4-alpine3.18
+FROM golang:1.21.5-alpine3.18
 # golang
 
 # traefik
@@ -107,7 +107,7 @@ FROM nextcloud:27.1.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.8.4
+FROM haproxytech/haproxy-debian:2.9.0
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -411,7 +411,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.27.1
+FROM verdaccio/verdaccio:5.28.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -887,7 +887,7 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.18.3.1-b1
+FROM yugabytedb/yugabyte:2.20.0.1-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.434-jdk17
+FROM jenkins/jenkins:2.435-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1067,7 +1067,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.15.3
+FROM hashicorp/vault:1.15.4
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -1307,7 +1307,7 @@ FROM registry.k8s.io/sig-storage/livenessprobe:v2.11.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.1
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.2
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
