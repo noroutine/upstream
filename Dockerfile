@@ -79,7 +79,7 @@ FROM traefik:v2.10.6
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.62.0
+FROM sonatype/nexus3:3.63.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -591,7 +591,7 @@ FROM bitnami/minio:2023.11.20-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.11.20-debian-11-r0
+FROM bitnami/minio-client:2023.12.2-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -619,7 +619,7 @@ FROM bitnami/consul:1.17.0-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.5-debian-11-r0
+FROM bitnami/nats:2.10.6-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -671,7 +671,7 @@ FROM bitnami/kubectl:1.28.4-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.47.0
+FROM aquasec/trivy:0.48.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -835,7 +835,7 @@ FROM outlinewiki/outline:0.73.1
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.26.1
+FROM syncthing/syncthing:1.27.0
 # syncthing/syncthing
 
 # jellyfin/jellyfin
