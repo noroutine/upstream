@@ -107,7 +107,7 @@ FROM nextcloud:27.1.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.8.4
+FROM haproxytech/haproxy-debian:2.9.0
 # haproxytech/haproxy-debian
 
 # minio/minio
