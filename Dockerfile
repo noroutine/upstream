@@ -207,7 +207,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.47.2
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.117
+FROM ghcr.io/prymitive/karma:v0.118
 # prymitive/karma
 
 # cortexproject/cortex
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.16.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.11.1
+FROM docker.elastic.co/logstash/logstash:8.11.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.11.1
+FROM docker.elastic.co/kibana/kibana:8.11.2
 # kibana/kibana
 
 # alerta/alerta-web
