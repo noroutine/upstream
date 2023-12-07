@@ -115,7 +115,7 @@ FROM minio/minio:RELEASE.2023-11-20T22-40-07Z
 # minio/minio
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.10
+FROM quay.io/coreos/etcd:v3.5.11
 # coreos/etcd
 
 # prometheus/prometheus
@@ -443,7 +443,7 @@ FROM docker:24.0.7-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.8.0
+FROM quay.io/podman/stable:v4.8.1
 # podman/stable
 
 # jupyter/base-notebook
@@ -1287,7 +1287,7 @@ FROM longhornio/livenessprobe:v2.11.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.32
+FROM longhornio/support-bundle-kit:v0.0.33
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager

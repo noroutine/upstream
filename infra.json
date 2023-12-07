@@ -1,5 +1,5 @@
 {
-  "version": "73565cd7",
+  "version": "1b6fb742",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -31,7 +31,7 @@
       "nextcloud:27.1.4-apache",
       "haproxytech/haproxy-debian:2.9.0",
       "minio/minio:RELEASE.2023-11-20T22-40-07Z",
-      "quay.io/coreos/etcd:v3.5.10",
+      "quay.io/coreos/etcd:v3.5.11",
       "quay.io/prometheus/prometheus:v2.48.0",
       "quay.io/prometheus/alertmanager:v0.26.0",
       "quay.io/prometheus/node-exporter:v1.7.0",
@@ -113,7 +113,7 @@
       "nocodb/nocodb:0.202.9",
       "metabase/metabase:v0.47.9",
       "docker:24.0.7-dind",
-      "quay.io/podman/stable:v4.8.0",
+      "quay.io/podman/stable:v4.8.1",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
@@ -324,7 +324,7 @@
       "longhornio/csi-provisioner:v3.6.0",
       "longhornio/csi-attacher:v4.4.0",
       "longhornio/livenessprobe:v2.11.0",
-      "longhornio/support-bundle-kit:v0.0.32",
+      "longhornio/support-bundle-kit:v0.0.33",
       "gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0",
       "gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.2",
       "gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.2",
