@@ -75,7 +75,7 @@ FROM golang:1.21.5-alpine3.18
 # golang
 
 # traefik
-FROM traefik:v2.10.6
+FROM traefik:v2.10.7
 # traefik
 
 # sonatype/nexus3
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.67.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.68.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -619,7 +619,7 @@ FROM bitnami/consul:1.17.0-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.6-debian-11-r0
+FROM bitnami/nats:2.10.7-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -767,7 +767,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.6-alpine3.18
+FROM nats:2.10.7-alpine3.18
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -831,7 +831,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.73.1
+FROM outlinewiki/outline:0.74.0
 # outlinewiki/outline
 
 # syncthing/syncthing
