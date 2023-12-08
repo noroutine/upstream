@@ -963,7 +963,7 @@ FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.4.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
-FROM guacamole/guacamole:1.5.3
+FROM guacamole/guacamole:1.5.4
 # guacamole/guacamole
 
 # guacamole/guacd
