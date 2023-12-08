@@ -1,5 +1,5 @@
 {
-  "version": "68629f81",
+  "version": "47b61aca",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.5-alpine3.18",
       "traefik:v2.10.7",
       "sonatype/nexus3:3.63.0",
-      "squidfunk/mkdocs-material:9.4.14",
+      "squidfunk/mkdocs-material:9.5.1",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:23.0.1",
       "postgres:16.1-bookworm",
@@ -61,7 +61,7 @@
       "docker.elastic.co/kibana/kibana:8.11.2",
       "alerta/alerta-web:9.0.1",
       "mongo:7.0.4-jammy",
-      "wordpress:6.4.1-apache",
+      "wordpress:6.4.2-apache",
       "dpage/pgadmin4:8.0",
       "adminer:4.8.1",
       "mysql:8.2.0",
@@ -105,7 +105,7 @@
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v2.0.0",
-      "verdaccio/verdaccio:5.28.0",
+      "verdaccio/verdaccio:5.29.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.75.0",
       "bitnami/ghost:5.74.5-debian-11-r0",

@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.63.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.4.14
+FROM squidfunk/mkdocs-material:9.5.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -235,7 +235,7 @@ FROM mongo:7.0.4-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.4.1-apache
+FROM wordpress:6.4.2-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -411,7 +411,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.28.0
+FROM verdaccio/verdaccio:5.29.0
 # verdaccio/verdaccio
 
 # strapi/strapi
