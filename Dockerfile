@@ -967,7 +967,7 @@ FROM guacamole/guacamole:1.5.3
 # guacamole/guacamole
 
 # guacamole/guacd
-FROM guacamole/guacd:1.5.3
+FROM guacamole/guacd:1.5.4
 # guacamole/guacd
 
 # velero/velero
