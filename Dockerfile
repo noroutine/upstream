@@ -11,7 +11,7 @@ FROM ubuntu:focal-20231128
 # ubuntu
 
 # alpine
-FROM alpine:3.18.5
+FROM alpine:3.19.0
 # alpine
 
 # busybox
@@ -107,11 +107,11 @@ FROM nextcloud:27.1.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:2.9.0
+FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-11-20T22-40-07Z
+FROM minio/minio:RELEASE.2023-12-07T04-16-00Z
 # minio/minio
 
 # coreos/etcd
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.11.20-debian-11-r0
+FROM bitnami/minio:2023.12.7-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -691,7 +691,7 @@ FROM drakkan/sftpgo:v2.5.5
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.35.1
+FROM hasura/graphql-engine:v2.36.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -959,15 +959,15 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
-FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.4.0
+FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.5.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
-FROM guacamole/guacamole:1.5.3
+FROM guacamole/guacamole:1.5.4
 # guacamole/guacamole
 
 # guacamole/guacd
-FROM guacamole/guacd:1.5.3
+FROM guacamole/guacd:1.5.4
 # guacamole/guacd
 
 # velero/velero
