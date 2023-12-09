@@ -1,5 +1,5 @@
 {
-  "version": "6b280887",
+  "version": "3db4ff6b",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -17,8 +17,8 @@
       "buildpack-deps:focal@sha256:33ff81a6551e2879e8c7bf47082e55f9321a83956303cd2b846abee7d91bcbd8",
       "buildpack-deps:jammy@sha256:3269bf621fbf136f5dad17b036d746aabf05bcfa8e886509e735a089a71c8632",
       "php:8.3.0-apache-bookworm",
-      "python:3.12.0-bookworm",
-      "python:3.12.0-slim-bookworm",
+      "python:3.12.1-bookworm",
+      "python:3.12.1-slim-bookworm",
       "golang:1.21.5-bookworm",
       "golang:1.21.5-alpine3.18",
       "traefik:v2.10.7",
@@ -32,7 +32,7 @@
       "haproxytech/haproxy-debian:3.0",
       "minio/minio:RELEASE.2023-12-07T04-16-00Z",
       "quay.io/coreos/etcd:v3.5.11",
-      "quay.io/prometheus/prometheus:v2.48.0",
+      "quay.io/prometheus/prometheus:v2.48.1",
       "quay.io/prometheus/alertmanager:v0.26.0",
       "quay.io/prometheus/node-exporter:v1.7.0",
       "quay.io/prometheus/consul-exporter:v0.9.0",

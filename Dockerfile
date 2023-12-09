@@ -59,11 +59,11 @@ FROM php:8.3.0-apache-bookworm
 # php
 
 # python
-FROM python:3.12.0-bookworm
+FROM python:3.12.1-bookworm
 # python
 
 # python
-FROM python:3.12.0-slim-bookworm
+FROM python:3.12.1-slim-bookworm
 # python
 
 # golang
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.11
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.48.0
+FROM quay.io/prometheus/prometheus:v2.48.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
