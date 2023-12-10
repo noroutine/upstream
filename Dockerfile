@@ -139,7 +139,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.24.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.24.1
+FROM quay.io/prometheus/snmp-exporter:v0.25.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
@@ -823,7 +823,7 @@ FROM elastic/eck-operator:2.10.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.8-alpine
+FROM louislam/uptime-kuma:1.23.9-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint

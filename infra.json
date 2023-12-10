@@ -1,5 +1,5 @@
 {
-  "version": "4f3b3821",
+  "version": "bc774148",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -37,7 +37,7 @@
       "quay.io/prometheus/node-exporter:v1.7.0",
       "quay.io/prometheus/consul-exporter:v0.9.0",
       "quay.io/prometheus/blackbox-exporter:v0.24.0",
-      "quay.io/prometheus/snmp-exporter:v0.24.1",
+      "quay.io/prometheus/snmp-exporter:v0.25.0",
       "quay.io/prometheus/pushgateway:v1.6.2",
       "quay.io/prometheus-operator/prometheus-operator:v0.70.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.70.0",
@@ -208,7 +208,7 @@
       "azul/zulu-openjdk:21.0.1-21.30.15",
       "eclipse-temurin:21.0.1_12-jdk-jammy",
       "elastic/eck-operator:2.10.0",
-      "louislam/uptime-kuma:1.23.8-alpine",
+      "louislam/uptime-kuma:1.23.9-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.74.0",
       "syncthing/syncthing:1.27.0",
