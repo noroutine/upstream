@@ -1,5 +1,5 @@
 {
-  "version": "d354eafa",
+  "version": "4f3b3821",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -150,7 +150,7 @@
       "bitnami/nginx-ingress-controller:1.9.0-debian-11-r7",
       "bitnami/nginx:1.25.3-debian-11-r1",
       "bitnami/minio:2023.12.7-debian-11-r0",
-      "bitnami/minio-client:2023.12.2-debian-11-r0",
+      "bitnami/minio-client:2023.12.7-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r136",
       "bitnami/metallb-controller:0.13.11-debian-11-r26",
       "bitnami/metallb-speaker:0.13.11-debian-11-r28",
