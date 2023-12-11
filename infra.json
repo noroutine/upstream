@@ -1,5 +1,5 @@
 {
-  "version": "bc774148",
+  "version": "11d6ecd5",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -213,8 +213,8 @@
       "outlinewiki/outline:0.74.0",
       "syncthing/syncthing:1.27.0",
       "jellyfin/jellyfin:10.8.13-1",
-      "haveagitgat/tdarr:2.16.01",
-      "haveagitgat/tdarr_node:2.16.01",
+      "haveagitgat/tdarr:2.17.01",
+      "haveagitgat/tdarr_node:2.17.01",
       "gravitl/netmaker:v0.21.2",
       "gravitl/netmaker-ui:v0.21.2",
       "kmb32123/youtube-dl-server:2.0",

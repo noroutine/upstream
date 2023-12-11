@@ -843,11 +843,11 @@ FROM jellyfin/jellyfin:10.8.13-1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.16.01
+FROM haveagitgat/tdarr:2.17.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.16.01
+FROM haveagitgat/tdarr_node:2.17.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
