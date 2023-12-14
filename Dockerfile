@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.52
+FROM stakater/reloader:v1.0.54
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -951,7 +951,7 @@ FROM locustio/locust:2.20.0
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.0.0
+FROM postgrest/postgrest:v12.0.1
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
