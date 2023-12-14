@@ -255,7 +255,7 @@ FROM mariadb:11.2.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.13.0
+FROM mccutchen/go-httpbin:v2.13.1
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.6.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.6.1-ce.0
+FROM gitlab/gitlab-ce:16.6.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.70.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.71.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -431,7 +431,7 @@ FROM matomo:4.16.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.202.9
+FROM nocodb/nocodb:0.202.10
 # nocodb/nocodb
 
 # metabase/metabase
@@ -495,7 +495,7 @@ FROM bitnami/spark:3.5.0-debian-11-r9
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.48.0-debian-11-r0
+FROM bitnami/prometheus:2.48.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.19.1
+FROM locustio/locust:2.20.0
 # locustio/locust
 
 # postgrest/postgrest
@@ -1093,6 +1093,22 @@ FROM registry.k8s.io/pause:3.9
 # coredns/coredns
 FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.29.0
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.29.0
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.29.0
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.29.0
+# kube-controller-manager
 
 # kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.28.4
