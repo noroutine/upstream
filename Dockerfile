@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.63.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.1
+FROM squidfunk/mkdocs-material:9.5.2
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -99,11 +99,11 @@ FROM postgres:16.1-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.12.0
+FROM atlassian/jira-software:9.12.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:27.1.4-apache
+FROM nextcloud:28.0.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -159,15 +159,15 @@ FROM grafana/grafana:10.2.2
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.9.2
+FROM grafana/loki:2.9.3
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.9.2
+FROM grafana/loki-canary:2.9.3
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.9.2
+FROM grafana/promtail:2.9.3
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.16.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.11.2
+FROM docker.elastic.co/logstash/logstash:8.11.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.11.2
+FROM docker.elastic.co/kibana/kibana:8.11.3
 # kibana/kibana
 
 # alerta/alerta-web
@@ -255,7 +255,7 @@ FROM mariadb:11.2.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.12.0
+FROM mccutchen/go-httpbin:v2.13.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -775,7 +775,7 @@ FROM natsio/prometheus-nats-exporter:0.13.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.14.0
+FROM natsio/nats-server-config-reloader:0.14.1
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -823,7 +823,7 @@ FROM elastic/eck-operator:2.10.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.9-alpine
+FROM louislam/uptime-kuma:1.23.10-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -895,7 +895,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.17.7
+FROM wiretrustee/dashboard:v1.17.11
 # wiretrustee/dashboard
 
 # netbirdio/signal
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.435-jdk17
+FROM jenkins/jenkins:2.436-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1027,19 +1027,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.12.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.13.2
+FROM quay.io/jetstack/cert-manager-controller:v1.13.3
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.13.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.13.3
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.13.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.13.3
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.13.2
+FROM quay.io/jetstack/cert-manager-ctl:v1.13.3
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
