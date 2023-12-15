@@ -239,7 +239,7 @@ FROM wordpress:6.4.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.0
+FROM dpage/pgadmin4:8.1
 # dpage/pgadmin4
 
 # adminer
@@ -799,7 +799,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.19.0
+FROM gcr.io/kaniko-project/executor:v1.19.1
 # kaniko-project/executor
 
 # iovisor/bpftrace
