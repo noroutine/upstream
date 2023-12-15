@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-12-09T18-17-51Z
+FROM minio/minio:RELEASE.2023-12-14T18-51-57Z
 # minio/minio
 
 # coreos/etcd
@@ -131,7 +131,7 @@ FROM quay.io/prometheus/node-exporter:v1.7.0
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
-FROM quay.io/prometheus/consul-exporter:v0.9.0
+FROM quay.io/prometheus/consul-exporter:v0.10.0
 # prometheus/consul-exporter
 
 # prometheus/blackbox-exporter
@@ -423,7 +423,7 @@ FROM ghost:5.75.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.75.1-debian-11-r0
+FROM bitnami/ghost:5.75.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -435,7 +435,7 @@ FROM nocodb/nocodb:0.202.10
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.47.9
+FROM metabase/metabase:v0.48.0
 # metabase/metabase
 
 # docker
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.12.9-debian-11-r0
+FROM bitnami/minio:2023.12.14-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.12.7-debian-11-r0
+FROM bitnami/minio-client:2023.12.14-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -615,7 +615,7 @@ FROM bitnami/grafana-image-renderer:3.8.4-debian-11-r3
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.17.0-debian-11-r0
+FROM bitnami/consul:1.17.1-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -1055,7 +1055,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.17.0
+FROM hashicorp/consul:1.17.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
