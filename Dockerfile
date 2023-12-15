@@ -659,11 +659,11 @@ FROM bitnami/openldap:2.6.6-debian-11-r57
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.24.4
+FROM bitnami/sealed-secrets-controller:v0.24.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.47.0-debian-11-r0
+FROM bitnami/trivy:0.48.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
