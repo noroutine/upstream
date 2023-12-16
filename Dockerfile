@@ -3,11 +3,11 @@ FROM debian:bookworm-20231120-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20231128
+FROM ubuntu:jammy-20231211.1
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20231128
+FROM ubuntu:focal-20231211
 # ubuntu
 
 # alpine
@@ -927,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.6.6
+FROM netboxcommunity/netbox:v3.6.7
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard

@@ -1,10 +1,10 @@
 {
-  "version": "9121bd19",
+  "version": "b891a63e",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
-      "ubuntu:jammy-20231128",
-      "ubuntu:focal-20231128",
+      "ubuntu:jammy-20231211.1",
+      "ubuntu:focal-20231211",
       "alpine:3.19.0",
       "busybox:1.36.1",
       "gcr.io/distroless/static-debian11",
@@ -234,7 +234,7 @@
       "jenkins/jenkins:2.436-jdk17",
       "jenkins/agent:3192.v713e3b_039fb_e-2-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
-      "netboxcommunity/netbox:v3.6.6",
+      "netboxcommunity/netbox:v3.6.7",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",
