@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.75.1
+FROM ghost:5.75.2
 # ghost
 
 # bitnami/ghost
@@ -1207,47 +1207,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.30.9
+FROM quay.io/tigera/operator:v1.32.3
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.26.4
+FROM calico/typha:v3.27.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.26.4
+FROM calico/ctl:v3.27.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.26.4
+FROM calico/node:v3.27.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.26.4
+FROM calico/cni:v3.27.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.26.4
+FROM calico/apiserver:v3.27.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.26.4
+FROM calico/kube-controllers:v3.27.0
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.26.4
+FROM calico/dikastes:v3.27.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.26.4
+FROM calico/pod2daemon-flexvol:v3.27.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.26.4
+FROM calico/node-driver-registrar:v3.27.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.26.4
+FROM calico/csi:v3.27.0
 # calico/csi
 
 # nfd/node-feature-discovery
