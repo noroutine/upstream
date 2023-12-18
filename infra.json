@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.298",
+  "version": "c1a9f2c7",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -171,7 +171,7 @@
       "bitnami/trivy:0.48.0-debian-11-r0",
       "bitnami/kubectl:1.28.4-debian-11-r0",
       "aquasec/trivy:0.48.0",
-      "ghcr.io/external-secrets/external-secrets:v0.9.9",
+      "ghcr.io/external-secrets/external-secrets:v0.9.10",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.5",
