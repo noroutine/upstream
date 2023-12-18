@@ -691,7 +691,7 @@ FROM drakkan/sftpgo:v2.5.5
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.36.0
+FROM hasura/graphql-engine:v2.36.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -895,15 +895,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.17.11
+FROM wiretrustee/dashboard:v1.17.12
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.24.4
+FROM netbirdio/signal:0.25.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.24.4
+FROM netbirdio/management:0.25.0
 # netbirdio/management
 
 # coturn/coturn

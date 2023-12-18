@@ -1,5 +1,5 @@
 {
-  "version": "c1a9f2c7",
+  "version": "75fe2516",
   "upstream": {
     "images": [
       "debian:bookworm-20231120-slim",
@@ -175,7 +175,7 @@
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.5",
-      "hasura/graphql-engine:v2.36.0",
+      "hasura/graphql-engine:v2.36.1",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.54",
       "jimmidyson/configmap-reload:v0.9.0",
@@ -226,9 +226,9 @@
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "yugabytedb/yugabyte:2.20.0.1-b1",
       "antelle/keeweb:1.18.7",
-      "wiretrustee/dashboard:v1.17.11",
-      "netbirdio/signal:0.24.4",
-      "netbirdio/management:0.24.4",
+      "wiretrustee/dashboard:v1.17.12",
+      "netbirdio/signal:0.25.0",
+      "netbirdio/management:0.25.0",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
       "jenkins/jenkins:2.436-jdk17",
