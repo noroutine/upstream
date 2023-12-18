@@ -307,7 +307,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.18.2
+FROM buildpacksio/lifecycle:0.18.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -671,7 +671,7 @@ FROM bitnami/kubectl:1.28.4-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.48.0
+FROM aquasec/trivy:0.48.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
