@@ -567,7 +567,7 @@ FROM bitnami/keycloak-config-cli:5.9.0-debian-11-r1
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.1.3-debian-11-r0
+FROM bitnami/mariadb:11.2.2-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -663,7 +663,7 @@ FROM bitnami/sealed-secrets-controller:v0.24.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.48.0-debian-11-r0
+FROM bitnami/trivy:0.48.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
