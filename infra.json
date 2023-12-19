@@ -1,8 +1,8 @@
 {
-  "version": "60958afc",
+  "version": "25b41167",
   "upstream": {
     "images": [
-      "debian:bookworm-20231120-slim",
+      "debian:bookworm-20231218-slim",
       "ubuntu:jammy-20231211.1",
       "ubuntu:focal-20231211",
       "alpine:3.19.0",
@@ -83,7 +83,7 @@
       "gitlab/gitlab-runner:alpine3.18-v16.6.1",
       "gitlab/gitlab-ce:16.6.2-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.71.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.71.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.7.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -224,7 +224,7 @@
       "puppet/r10k:3.15.2",
       "restic/restic:0.16.2",
       "registry.k8s.io/coredns/coredns:v1.11.1",
-      "yugabytedb/yugabyte:2.20.0.1-b1",
+      "yugabytedb/yugabyte:2.20.0.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.12",
       "netbirdio/signal:0.25.0",
@@ -255,7 +255,7 @@
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.2",
       "velero/velero-restic-restore-helper:v1.9.7",
       "bitnami/kubectl:1.28.4-debian-11-r0",
-      "apache/airflow:2.7.3-python3.11",
+      "apache/airflow:2.8.0-python3.11",
       "registry.k8s.io/git-sync/git-sync:v4.1.0",
       "ghcr.io/kedacore/keda:2.12.1",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.12.1",

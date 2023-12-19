@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20231120-slim
+FROM debian:bookworm-20231218-slim
 # debian
 
 # ubuntu
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.71.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.71.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -887,7 +887,7 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.20.0.1-b1
+FROM yugabytedb/yugabyte:2.20.0.2-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
@@ -1011,7 +1011,7 @@ FROM bitnami/kubectl:1.28.4-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.7.3-python3.11
+FROM apache/airflow:2.8.0-python3.11
 # apache/airflow
 
 # git-sync/git-sync
