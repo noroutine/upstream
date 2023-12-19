@@ -687,7 +687,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.5.5
+FROM drakkan/sftpgo:v2.5.6
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -1059,7 +1059,7 @@ FROM hashicorp/consul:1.17.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.3.0
+FROM hashicorp/consul-k8s-control-plane:1.3.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
