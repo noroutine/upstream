@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-12-14T18-51-57Z
+FROM minio/minio:RELEASE.2023-12-20T01-00-02Z
 # minio/minio
 
 # coreos/etcd
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.70.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.2.2
+FROM grafana/grafana:10.2.3
 # grafana/grafana
 
 # grafana/loki
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.71.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.72.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -427,7 +427,7 @@ FROM bitnami/ghost:5.75.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:4.16.0-apache
+FROM matomo:5.0.0-apache
 # matomo
 
 # nocodb/nocodb
@@ -435,7 +435,7 @@ FROM nocodb/nocodb:0.202.10
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.48.0
+FROM metabase/metabase:v0.48.1
 # metabase/metabase
 
 # docker
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.12.14-debian-11-r0
+FROM bitnami/minio:2023.12.20-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.12.14-debian-11-r0
+FROM bitnami/minio-client:2023.12.20-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -607,7 +607,7 @@ FROM bitnami/metallb-speaker:0.13.11-debian-11-r28
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.2.2-debian-11-r0
+FROM bitnami/grafana:10.2.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -667,7 +667,7 @@ FROM bitnami/trivy:0.48.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.28.4-debian-11-r0
+FROM bitnami/kubectl:1.28.5-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.54
+FROM stakater/reloader:v1.0.56
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -799,7 +799,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.19.1
+FROM gcr.io/kaniko-project/executor:v1.19.2
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.12
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.25.0
+FROM netbirdio/signal:0.25.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.0
+FROM netbirdio/management:0.25.1
 # netbirdio/management
 
 # coturn/coturn
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.436-jdk17
+FROM jenkins/jenkins:2.437-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -951,7 +951,7 @@ FROM locustio/locust:2.20.0
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.0.1
+FROM postgrest/postgrest:v12.0.2
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
@@ -1007,7 +1007,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.28.4-debian-11-r0
+FROM bitnami/kubectl:1.28.5-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
@@ -1079,11 +1079,11 @@ FROM hashicorp/vault-csi-provider:1.4.1
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.38.0
+FROM quay.io/strimzi/operator:0.39.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.38.0-kafka-3.6.0
+FROM quay.io/strimzi/kafka:0.39.0-kafka-3.6.1
 # strimzi/kafka
 
 # pause
