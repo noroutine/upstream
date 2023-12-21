@@ -1111,51 +1111,51 @@ FROM registry.k8s.io/kube-controller-manager:v1.29.0
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.4
+FROM registry.k8s.io/kube-apiserver:v1.28.5
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.4
+FROM registry.k8s.io/kube-proxy:v1.28.5
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.4
+FROM registry.k8s.io/kube-scheduler:v1.28.5
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.4
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.8
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.8
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.8
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.8
+FROM registry.k8s.io/kube-controller-manager:v1.28.5
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.11
+FROM registry.k8s.io/kube-apiserver:v1.27.9
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.11
+FROM registry.k8s.io/kube-proxy:v1.27.9
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.11
+FROM registry.k8s.io/kube-scheduler:v1.27.9
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.11
+FROM registry.k8s.io/kube-controller-manager:v1.27.9
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.26.12
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.26.12
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.26.12
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.26.12
 # kube-controller-manager
 
 # kube-apiserver
@@ -1279,7 +1279,7 @@ FROM longhornio/backing-image-manager:v1.5.3
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.9.0
+FROM longhornio/csi-node-driver-registrar:v2.9.2
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
@@ -1295,7 +1295,7 @@ FROM longhornio/csi-provisioner:v3.6.0
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v4.4.0
+FROM longhornio/csi-attacher:v4.4.2
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
