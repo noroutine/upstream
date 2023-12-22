@@ -511,7 +511,7 @@ FROM bitnami/blackbox-exporter:0.24.0-debian-11-r135
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.14.0-debian-11-r12
+FROM bitnami/postgres-exporter:0.15.0-debian-11-r3
 # bitnami/postgres-exporter
 
 # bitnami/redis
@@ -579,7 +579,7 @@ FROM bitnami/memcached:1.6.22-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.9.0-debian-11-r7
+FROM bitnami/nginx-ingress-controller:1.9.4-debian-11-r3
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -1287,11 +1287,11 @@ FROM longhornio/csi-snapshotter:v6.3.0
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.9.0
+FROM longhornio/csi-resizer:v1.9.2
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
-FROM longhornio/csi-provisioner:v3.6.0
+FROM longhornio/csi-provisioner:v3.6.2
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher

@@ -1,5 +1,5 @@
 {
-  "version": "32dd827b",
+  "version": "6b993840",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -130,7 +130,7 @@
       "bitnami/prometheus-operator:0.70.0-debian-11-r0",
       "bitnami/node-exporter:1.7.0-debian-11-r0",
       "bitnami/blackbox-exporter:0.24.0-debian-11-r135",
-      "bitnami/postgres-exporter:0.14.0-debian-11-r12",
+      "bitnami/postgres-exporter:0.15.0-debian-11-r3",
       "bitnami/redis:7.2.3-debian-11-r0",
       "bitnami/redis-exporter:1.54.0-debian-11-r25",
       "bitnami/postgresql:10.23.0-debian-11-r3",
@@ -147,7 +147,7 @@
       "bitnami/mariadb:11.2.2-debian-11-r0",
       "bitnami/mongodb:7.0.4-debian-11-r0",
       "bitnami/memcached:1.6.22-debian-11-r0",
-      "bitnami/nginx-ingress-controller:1.9.0-debian-11-r7",
+      "bitnami/nginx-ingress-controller:1.9.4-debian-11-r3",
       "bitnami/nginx:1.25.3-debian-11-r1",
       "bitnami/minio:2023.12.20-debian-11-r0",
       "bitnami/minio-client:2023.12.20-debian-11-r0",
@@ -324,8 +324,8 @@
       "longhornio/backing-image-manager:v1.5.3",
       "longhornio/csi-node-driver-registrar:v2.9.2",
       "longhornio/csi-snapshotter:v6.3.0",
-      "longhornio/csi-resizer:v1.9.0",
-      "longhornio/csi-provisioner:v3.6.0",
+      "longhornio/csi-resizer:v1.9.2",
+      "longhornio/csi-provisioner:v3.6.2",
       "longhornio/csi-attacher:v4.4.2",
       "longhornio/livenessprobe:v2.11.0",
       "longhornio/support-bundle-kit:v0.0.33",
