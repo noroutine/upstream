@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.12.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:28.0.0-apache
+FROM nextcloud:28.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -1283,7 +1283,7 @@ FROM longhornio/csi-node-driver-registrar:v2.9.2
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v6.3.0
+FROM longhornio/csi-snapshotter:v6.3.2
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer

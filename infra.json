@@ -1,5 +1,5 @@
 {
-  "version": "6b993840",
+  "version": "c055bb94",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -28,7 +28,7 @@
       "quay.io/keycloak/keycloak:23.0.3",
       "postgres:16.1-bookworm",
       "atlassian/jira-software:9.12.1",
-      "nextcloud:28.0.0-apache",
+      "nextcloud:28.0.1-apache",
       "haproxytech/haproxy-debian:3.0",
       "minio/minio:RELEASE.2023-12-20T01-00-02Z",
       "quay.io/coreos/etcd:v3.5.11",
@@ -323,7 +323,7 @@
       "longhornio/longhorn-share-manager:v1.5.3",
       "longhornio/backing-image-manager:v1.5.3",
       "longhornio/csi-node-driver-registrar:v2.9.2",
-      "longhornio/csi-snapshotter:v6.3.0",
+      "longhornio/csi-snapshotter:v6.3.2",
       "longhornio/csi-resizer:v1.9.2",
       "longhornio/csi-provisioner:v3.6.2",
       "longhornio/csi-attacher:v4.4.2",
