@@ -519,7 +519,7 @@ FROM bitnami/redis:7.2.3-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.54.0-debian-11-r25
+FROM bitnami/redis-exporter:1.55.0-debian-11-r3
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -551,11 +551,11 @@ FROM bitnami/postgresql:16.1.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.13-debian-11-r35
+FROM bitnami/tomcat:10.1.17-debian-11-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
-FROM bitnami/jmx-exporter:0.19.0-debian-11-r92
+FROM bitnami/jmx-exporter:0.20.0-debian-11-r2
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
@@ -599,11 +599,11 @@ FROM bitnami/bitnami-shell:11-debian-11-r136
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.11-debian-11-r26
+FROM bitnami/metallb-controller:0.13.12-debian-11-r2
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.11-debian-11-r28
+FROM bitnami/metallb-speaker:0.13.12-debian-11-r2
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -611,7 +611,7 @@ FROM bitnami/grafana:10.2.3-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.8.4-debian-11-r3
+FROM bitnami/grafana-image-renderer:3.9.0-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -623,7 +623,7 @@ FROM bitnami/nats:2.10.7-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.10.0-debian-11-r31
+FROM bitnami/kube-state-metrics:2.10.1-debian-11-r1
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
