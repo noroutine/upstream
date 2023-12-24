@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2023-12-20T01-00-02Z
+FROM minio/minio:RELEASE.2023-12-23T07-19-11Z
 # minio/minio
 
 # coreos/etcd
@@ -311,11 +311,11 @@ FROM buildpacksio/lifecycle:0.18.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.6.1
+FROM gitlab/gitlab-runner:alpine3.18-v16.7.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.6.2-ce.0
+FROM gitlab/gitlab-ce:16.7.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.72.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.73.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2023.12.20-debian-11-r0
+FROM bitnami/minio:2023.12.23-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2023.12.20-debian-11-r0
+FROM bitnami/minio-client:2023.12.23-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -667,7 +667,7 @@ FROM bitnami/trivy:0.48.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.28.5-debian-11-r0
+FROM bitnami/kubectl:1.29.0-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.12
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.25.1
+FROM netbirdio/signal:0.25.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.1
+FROM netbirdio/management:0.25.2
 # netbirdio/management
 
 # coturn/coturn
@@ -1007,7 +1007,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.28.5-debian-11-r0
+FROM bitnami/kubectl:1.29.0-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
