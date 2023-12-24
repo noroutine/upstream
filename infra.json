@@ -1,5 +1,5 @@
 {
-  "version": "88fc5f6a",
+  "version": "bbd47a6d",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.5-alpine3.18",
       "traefik:v2.10.7",
       "sonatype/nexus3:3.63.0",
-      "squidfunk/mkdocs-material:9.5.2",
+      "squidfunk/mkdocs-material:9.5.3",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:23.0.3",
       "postgres:16.1-bookworm",
@@ -85,7 +85,7 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.73.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.7.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.0.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.1.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.311.0-ubuntu-22.04",
       "summerwind/actions-runner-dind:v2.311.0-ubuntu-22.04",
