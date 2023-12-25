@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.299",
+  "version": "6a23d8ab",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -315,7 +315,7 @@
       "calico/pod2daemon-flexvol:v3.27.0",
       "calico/node-driver-registrar:v3.27.0",
       "calico/csi:v3.27.0",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.14.3",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.15.0",
       "longhornio/longhorn-manager:v1.5.3",
       "longhornio/longhorn-ui:v1.5.3",
       "longhornio/longhorn-engine:v1.5.3",

@@ -1251,7 +1251,7 @@ FROM calico/csi:v3.27.0
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.14.3
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.0
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
