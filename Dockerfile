@@ -1351,7 +1351,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.7.2
+FROM confluentinc/confluent-init-container:2.7.3
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
