@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:4e9ec861c92dd67153dc1df1bd320fa25fd939e3edbc162
 # buildpack-deps
 
 # php
-FROM php:8.3.0-apache-bookworm
+FROM php:8.3.1-apache-bookworm
 # php
 
 # python
