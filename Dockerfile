@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:4e9ec861c92dd67153dc1df1bd320fa25fd939e3edbc162
 # buildpack-deps
 
 # php
-FROM php:8.3.0-apache-bookworm
+FROM php:8.3.1-apache-bookworm
 # php
 
 # python
@@ -131,7 +131,7 @@ FROM quay.io/prometheus/node-exporter:v1.7.0
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
-FROM quay.io/prometheus/consul-exporter:v0.10.0
+FROM quay.io/prometheus/consul-exporter:v0.11.0
 # prometheus/consul-exporter
 
 # prometheus/blackbox-exporter
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.73.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.76.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -675,7 +675,7 @@ FROM aquasec/trivy:0.48.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.10
+FROM ghcr.io/external-secrets/external-secrets:v0.9.11
 # external-secrets/external-secrets
 
 # minio/console
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.56
+FROM stakater/reloader:v1.0.58
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -915,11 +915,11 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.437-jdk17
+FROM jenkins/jenkins:2.438-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3192.v713e3b_039fb_e-2-jdk17
+FROM jenkins/agent:3198.v03a_401881f3e-1-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
@@ -1323,31 +1323,31 @@ FROM registry.k8s.io/sig-storage/livenessprobe:v2.11.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.2
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.3
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.2
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.3
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.2
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.3
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.2
+FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.3
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.2
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.3
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v6.3.2
+FROM registry.k8s.io/sig-storage/snapshot-controller:v6.3.3
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.2
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
