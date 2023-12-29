@@ -1,5 +1,5 @@
 {
-  "version": "df229557",
+  "version": "1dc8cfaf",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -110,7 +110,7 @@
       "ghost:5.75.2",
       "bitnami/ghost:5.75.2-debian-11-r0",
       "matomo:5.0.0-apache",
-      "nocodb/nocodb:0.202.10",
+      "nocodb/nocodb:0.203.0",
       "metabase/metabase:v0.48.1",
       "docker:24.0.7-dind",
       "quay.io/podman/stable:v4.8.1",
@@ -234,7 +234,7 @@
       "jenkins/jenkins:2.438-jdk17",
       "jenkins/agent:3198.v03a_401881f3e-1-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
-      "netboxcommunity/netbox:v3.6.7",
+      "netboxcommunity/netbox:v3.6.8",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",

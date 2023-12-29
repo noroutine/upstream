@@ -431,7 +431,7 @@ FROM matomo:5.0.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.202.10
+FROM nocodb/nocodb:0.203.0
 # nocodb/nocodb
 
 # metabase/metabase
@@ -927,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.6.7
+FROM netboxcommunity/netbox:v3.6.8
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
