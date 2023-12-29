@@ -431,7 +431,7 @@ FROM matomo:5.0.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.203.0
+FROM nocodb/nocodb:0.203.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -519,7 +519,7 @@ FROM bitnami/redis:7.2.3-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.55.0-debian-11-r3
+FROM bitnami/redis-exporter:1.56.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -559,11 +559,11 @@ FROM bitnami/jmx-exporter:0.20.0-debian-11-r2
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:22.0.5-debian-11-r0
+FROM bitnami/keycloak:23.0.3-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.9.0-debian-11-r1
+FROM bitnami/keycloak-config-cli:5.10.0-debian-11-r0
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
@@ -927,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.6.8
+FROM netboxcommunity/netbox:v3.6.9
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
