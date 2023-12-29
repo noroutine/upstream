@@ -1359,39 +1359,39 @@ FROM confluentinc/confluent-operator:0.824.40
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.5.2
+FROM confluentinc/cp-enterprise-control-center:7.5.3
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.5.2
+FROM confluentinc/cp-enterprise-replicator:7.5.3
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.5.2
+FROM confluentinc/cp-kafka-rest:7.5.3
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.5.2
+FROM confluentinc/cp-ksqldb-server:7.5.3
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.5.2
+FROM confluentinc/cp-ksqldb-cli:7.5.3
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.5.2
+FROM confluentinc/cp-schema-registry:7.5.3
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.5.2
+FROM confluentinc/cp-server:7.5.3
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.5.2
+FROM confluentinc/cp-server-connect:7.5.3
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.5.2
+FROM confluentinc/cp-zookeeper:7.5.3
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
