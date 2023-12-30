@@ -431,7 +431,7 @@ FROM matomo:5.0.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.203.1
+FROM nocodb/nocodb:0.203.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -895,7 +895,7 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.17.13
+FROM wiretrustee/dashboard:v1.17.14
 # wiretrustee/dashboard
 
 # netbirdio/signal
