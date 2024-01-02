@@ -1,5 +1,5 @@
 {
-  "version": "541b8359",
+  "version": "38eb8908",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -150,7 +150,7 @@
       "bitnami/nginx-ingress-controller:1.9.4-debian-11-r3",
       "bitnami/nginx:1.25.3-debian-11-r1",
       "bitnami/minio:2023.12.23-debian-11-r0",
-      "bitnami/minio-client:2023.12.23-debian-11-r0",
+      "bitnami/minio-client:2023.12.29-debian-11-r0",
       "bitnami/bitnami-shell:11-debian-11-r136",
       "bitnami/metallb-controller:0.13.12-debian-11-r2",
       "bitnami/metallb-speaker:0.13.12-debian-11-r2",
@@ -211,7 +211,7 @@
       "louislam/uptime-kuma:1.23.11-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.74.0",
-      "syncthing/syncthing:1.27.1",
+      "syncthing/syncthing:1.27.2",
       "jellyfin/jellyfin:10.8.13-1",
       "haveagitgat/tdarr:2.17.01",
       "haveagitgat/tdarr_node:2.17.01",
