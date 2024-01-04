@@ -1,5 +1,5 @@
 {
-  "version": "3c515a5e",
+  "version": "7d02da54",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -113,7 +113,7 @@
       "nocodb/nocodb:0.203.2",
       "metabase/metabase:v0.48.1",
       "docker:24.0.7-dind",
-      "quay.io/podman/stable:v4.8.1",
+      "quay.io/podman/stable:v4.8.2",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
