@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-41.g57d229e
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-49.g7713f2a
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.75.2
+FROM ghost:5.75.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.75.2-debian-11-r0
+FROM bitnami/ghost:5.75.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -663,7 +663,7 @@ FROM bitnami/sealed-secrets-controller:v0.24.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.48.1-debian-11-r0
+FROM bitnami/trivy:0.48.2-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -671,7 +671,7 @@ FROM bitnami/kubectl:1.29.0-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.48.1
+FROM aquasec/trivy:0.48.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -895,15 +895,15 @@ FROM antelle/keeweb:1.18.7
 # antelle/keeweb
 
 # wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.17.14
+FROM wiretrustee/dashboard:v1.17.15
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.25.2
+FROM netbirdio/signal:0.25.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.2
+FROM netbirdio/management:0.25.3
 # netbirdio/management
 
 # coturn/coturn
