@@ -1,5 +1,5 @@
 {
-  "version": "1ee573b2",
+  "version": "41738681",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -109,7 +109,7 @@
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.75.3",
       "bitnami/ghost:5.75.3-debian-11-r0",
-      "matomo:5.0.0-apache",
+      "matomo:5.0.1-apache",
       "nocodb/nocodb:0.203.2",
       "metabase/metabase:v0.48.1",
       "docker:24.0.7-dind",
@@ -145,7 +145,7 @@
       "bitnami/keycloak:23.0.3-debian-11-r0",
       "bitnami/keycloak-config-cli:5.10.0-debian-11-r0",
       "bitnami/mariadb:11.2.2-debian-11-r0",
-      "bitnami/mongodb:7.0.4-debian-11-r0",
+      "bitnami/mongodb:7.0.5-debian-11-r0",
       "bitnami/memcached:1.6.22-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.9.4-debian-11-r3",
       "bitnami/nginx:1.25.3-debian-11-r1",
