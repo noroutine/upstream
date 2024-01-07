@@ -1,5 +1,5 @@
 {
-  "version": "41738681",
+  "version": "7285f27a",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -111,7 +111,7 @@
       "bitnami/ghost:5.75.3-debian-11-r0",
       "matomo:5.0.1-apache",
       "nocodb/nocodb:0.203.2",
-      "metabase/metabase:v0.48.1",
+      "metabase/metabase:v0.48.2",
       "docker:24.0.7-dind",
       "quay.io/podman/stable:v4.8.2",
       "jupyter/base-notebook:2023-10-20",
