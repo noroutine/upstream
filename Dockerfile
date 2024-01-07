@@ -395,7 +395,7 @@ FROM quay.io/jupyterhub/repo2docker:2023.06.0-49.g7713f2a
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2023.11.0
+FROM pihole/pihole:2024.01.0
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -751,7 +751,7 @@ FROM vaultwarden/server:1.30.1
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.0.2-alpine
+FROM boky/postfix:v4.0.3-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon

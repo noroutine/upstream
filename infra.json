@@ -1,5 +1,5 @@
 {
-  "version": "7285f27a",
+  "version": "b44b8551",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -101,7 +101,7 @@
       "registry.k8s.io/kube-scheduler:v1.26.11",
       "registry.k8s.io/pause:3.9",
       "quay.io/jupyterhub/repo2docker:2023.06.0-49.g7713f2a",
-      "pihole/pihole:2023.11.0",
+      "pihole/pihole:2024.01.0",
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v2.0.0",
@@ -190,7 +190,7 @@
       "redis:7.2.3-bookworm",
       "listmonk/listmonk:v2.5.1",
       "vaultwarden/server:1.30.1",
-      "boky/postfix:v4.0.2-alpine",
+      "boky/postfix:v4.0.3-alpine",
       "cupcakearmy/cryptgeon:2.4.0",
       "memcached:1.6.22-alpine3.18",
       "connecteverything/nats-operator:0.8.0",
