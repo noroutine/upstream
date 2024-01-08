@@ -1,5 +1,5 @@
 {
-  "version": "c5fd6f84",
+  "version": "5b163095",
   "upstream": {
     "images": [
       "debian:bookworm-20231218-slim",
@@ -25,7 +25,7 @@
       "sonatype/nexus3:3.63.0",
       "squidfunk/mkdocs-material:9.5.3",
       "freeradius/freeradius-server:3.2.3-alpine",
-      "quay.io/keycloak/keycloak:23.0.3",
+      "quay.io/keycloak/keycloak:23.0.4",
       "postgres:16.1-bookworm",
       "atlassian/jira-software:9.12.1",
       "nextcloud:28.0.1-apache",
@@ -84,7 +84,7 @@
       "gitlab/gitlab-ce:16.7.0-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.76.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.7.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.8.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.1.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.311.0-ubuntu-22.04",
@@ -142,7 +142,7 @@
       "bitnami/postgresql:16.1.0-debian-11-r4",
       "bitnami/tomcat:10.1.17-debian-11-r0",
       "bitnami/jmx-exporter:0.20.0-debian-11-r2",
-      "bitnami/keycloak:23.0.3-debian-11-r0",
+      "bitnami/keycloak:23.0.4-debian-11-r0",
       "bitnami/keycloak-config-cli:5.10.0-debian-11-r0",
       "bitnami/mariadb:11.2.2-debian-11-r0",
       "bitnami/mongodb:7.0.5-debian-11-r0",
