@@ -515,7 +515,7 @@ FROM bitnami/postgres-exporter:0.15.0-debian-11-r3
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.3-debian-11-r0
+FROM bitnami/redis:7.2.4-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
