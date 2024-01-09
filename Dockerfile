@@ -231,7 +231,7 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.4-jammy
+FROM mongo:7.0.5-jammy
 # mongo
 
 # wordpress
@@ -443,7 +443,7 @@ FROM docker:24.0.7-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.8.2
+FROM quay.io/podman/stable:v4.8.3
 # podman/stable
 
 # jupyter/base-notebook
@@ -515,7 +515,7 @@ FROM bitnami/postgres-exporter:0.15.0-debian-11-r3
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.3-debian-11-r0
+FROM bitnami/redis:7.2.4-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -751,7 +751,7 @@ FROM vaultwarden/server:1.30.1
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.0.4-alpine
+FROM boky/postfix:v4.1.0-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
