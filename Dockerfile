@@ -99,7 +99,7 @@ FROM postgres:16.1-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.12.1
+FROM atlassian/jira-software:9.12.2
 # atlassian/jira-software
 
 # nextcloud
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.60
+FROM stakater/reloader:v1.0.61
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.439-jdk17
+FROM jenkins/jenkins:2.440-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1323,7 +1323,7 @@ FROM registry.k8s.io/sig-storage/livenessprobe:v2.11.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.3
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
