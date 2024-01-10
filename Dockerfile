@@ -67,11 +67,11 @@ FROM python:3.12.1-slim-bookworm
 # python
 
 # golang
-FROM golang:1.21.5-bookworm
+FROM golang:1.21.6-bookworm
 # golang
 
 # golang
-FROM golang:1.21.5-alpine3.18
+FROM golang:1.21.6-alpine3.18
 # golang
 
 # traefik
@@ -79,7 +79,7 @@ FROM traefik:v2.10.7
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.63.0
+FROM sonatype/nexus3:3.64.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -723,7 +723,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # argoproj/argo-events
-FROM quay.io/argoproj/argo-events:v1.8.1
+FROM quay.io/argoproj/argo-events:v1.9.0
 # argoproj/argo-events
 
 # argoproj/argocli
@@ -739,7 +739,7 @@ FROM quay.io/argoproj/argoexec:v3.5.2
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.3-bookworm
+FROM redis:7.2.4-bookworm
 # redis
 
 # listmonk/listmonk
