@@ -1335,7 +1335,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.3
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.3
+FROM registry.k8s.io/sig-storage/csi-provisioner:v4.0.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
