@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20231218-slim
+FROM debian:bookworm-20240110-slim
 # debian
 
 # ubuntu
@@ -71,7 +71,7 @@ FROM golang:1.21.6-bookworm
 # golang
 
 # golang
-FROM golang:1.21.6-alpine3.18
+FROM golang:1.21.6-alpine3.19
 # golang
 
 # traefik
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.76.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.76.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -619,7 +619,7 @@ FROM bitnami/consul:1.17.1-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.7-debian-11-r0
+FROM bitnami/nats:2.10.8-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.61
+FROM stakater/reloader:v1.0.62
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -727,15 +727,15 @@ FROM quay.io/argoproj/argo-events:v1.9.0
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.2
+FROM quay.io/argoproj/argocli:v3.5.3
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.2
+FROM quay.io/argoproj/workflow-controller:v3.5.3
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.2
+FROM quay.io/argoproj/argoexec:v3.5.3
 # argoproj/argoexec
 
 # redis
@@ -767,7 +767,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.7-alpine3.18
+FROM nats:2.10.9-alpine3.19
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -1319,7 +1319,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.2
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.11.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.12.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
@@ -1327,7 +1327,7 @@ FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.4.3
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.5.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
@@ -1335,7 +1335,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.9.3
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v3.6.3
+FROM registry.k8s.io/sig-storage/csi-provisioner:v4.0.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
