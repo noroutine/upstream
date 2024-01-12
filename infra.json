@@ -1,5 +1,5 @@
 {
-  "version": "d8c42f26",
+  "version": "c0bf9d64",
   "upstream": {
     "images": [
       "debian:bookworm-20240110-slim",
@@ -146,7 +146,7 @@
       "bitnami/keycloak-config-cli:5.10.0-debian-11-r0",
       "bitnami/mariadb:11.2.2-debian-11-r0",
       "bitnami/mongodb:7.0.5-debian-11-r0",
-      "bitnami/memcached:1.6.22-debian-11-r0",
+      "bitnami/memcached:1.6.23-debian-11-r0",
       "bitnami/nginx-ingress-controller:1.9.4-debian-11-r3",
       "bitnami/nginx:1.25.3-debian-11-r1",
       "bitnami/minio:2023.12.23-debian-11-r0",
@@ -175,7 +175,7 @@
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.6",
-      "hasura/graphql-engine:v2.36.1",
+      "hasura/graphql-engine:v2.36.2",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.62",
       "jimmidyson/configmap-reload:v0.9.0",
@@ -245,7 +245,7 @@
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.5.0",
       "guacamole/guacamole:1.5.4",
       "guacamole/guacd:1.5.4",
-      "velero/velero:v1.12.2",
+      "velero/velero:v1.12.3",
       "velero/velero-plugin-for-csi:v0.6.2",
       "velero/velero-plugin-for-aws:v1.8.2",
       "velero/velero-plugin-for-gcp:v1.8.2",

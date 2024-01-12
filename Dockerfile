@@ -575,7 +575,7 @@ FROM bitnami/mongodb:7.0.5-debian-11-r0
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.22-debian-11-r0
+FROM bitnami/memcached:1.6.23-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -691,7 +691,7 @@ FROM drakkan/sftpgo:v2.5.6
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.36.1
+FROM hasura/graphql-engine:v2.36.2
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -971,7 +971,7 @@ FROM guacamole/guacd:1.5.4
 # guacamole/guacd
 
 # velero/velero
-FROM velero/velero:v1.12.2
+FROM velero/velero:v1.12.3
 # velero/velero
 
 # velero/velero-plugin-for-csi
