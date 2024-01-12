@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.6.2
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.70.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.71.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.70.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.71.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -499,7 +499,7 @@ FROM bitnami/prometheus:2.48.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.70.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.71.0-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -975,7 +975,7 @@ FROM velero/velero:v1.12.3
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.6.2
+FROM velero/velero-plugin-for-csi:v0.6.3
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws

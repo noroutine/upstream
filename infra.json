@@ -1,5 +1,5 @@
 {
-  "version": "c0bf9d64",
+  "version": "d14bf8f0",
   "upstream": {
     "images": [
       "debian:bookworm-20240110-slim",
@@ -39,8 +39,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.24.0",
       "quay.io/prometheus/snmp-exporter:v0.25.0",
       "quay.io/prometheus/pushgateway:v1.6.2",
-      "quay.io/prometheus-operator/prometheus-operator:v0.70.0",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.70.0",
+      "quay.io/prometheus-operator/prometheus-operator:v0.71.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.71.0",
       "grafana/grafana:10.2.3",
       "grafana/loki:2.9.3",
       "grafana/loki-canary:2.9.3",
@@ -127,7 +127,7 @@
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.0-debian-11-r9",
       "bitnami/prometheus:2.48.1-debian-11-r0",
-      "bitnami/prometheus-operator:0.70.0-debian-11-r0",
+      "bitnami/prometheus-operator:0.71.0-debian-11-r0",
       "bitnami/node-exporter:1.7.0-debian-11-r0",
       "bitnami/blackbox-exporter:0.24.0-debian-11-r135",
       "bitnami/postgres-exporter:0.15.0-debian-11-r3",
@@ -246,7 +246,7 @@
       "guacamole/guacamole:1.5.4",
       "guacamole/guacd:1.5.4",
       "velero/velero:v1.12.3",
-      "velero/velero-plugin-for-csi:v0.6.2",
+      "velero/velero-plugin-for-csi:v0.6.3",
       "velero/velero-plugin-for-aws:v1.8.2",
       "velero/velero-plugin-for-gcp:v1.8.2",
       "velero/velero-plugin-for-microsoft-azure:v1.8.2",
