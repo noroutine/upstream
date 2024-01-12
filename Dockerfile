@@ -579,7 +579,7 @@ FROM bitnami/memcached:1.6.23-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.9.4-debian-11-r3
+FROM bitnami/nginx-ingress-controller:1.9.5-debian-11-r3
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -663,7 +663,7 @@ FROM bitnami/sealed-secrets-controller:v0.24.5
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.48.2-debian-11-r0
+FROM bitnami/trivy:0.48.3-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
