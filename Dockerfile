@@ -183,7 +183,7 @@ FROM httpd:2.4.58-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.13-jdk21-openjdk-bookworm
+FROM tomcat:10.1.18-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.16.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.4
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.11.3
+FROM docker.elastic.co/logstash/logstash:8.11.4
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.11.3
+FROM docker.elastic.co/kibana/kibana:8.11.4
 # kibana/kibana
 
 # alerta/alerta-web
@@ -239,7 +239,7 @@ FROM wordpress:6.4.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.1
+FROM dpage/pgadmin4:8.2
 # dpage/pgadmin4
 
 # adminer
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.18-v16.7.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.7.0-ce.0
+FROM gitlab/gitlab-ce:16.7.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -435,7 +435,7 @@ FROM nocodb/nocodb:0.203.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.48.2
+FROM metabase/metabase:v0.48.3
 # metabase/metabase
 
 # docker
@@ -551,7 +551,7 @@ FROM bitnami/postgresql:16.1.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.17-debian-11-r0
+FROM bitnami/tomcat:10.1.18-debian-11-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -619,7 +619,7 @@ FROM bitnami/consul:1.17.1-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.8-debian-11-r0
+FROM bitnami/nats:2.10.9-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -671,7 +671,7 @@ FROM bitnami/kubectl:1.29.0-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.48.2
+FROM aquasec/trivy:0.48.3
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -759,7 +759,7 @@ FROM cupcakearmy/cryptgeon:2.4.0
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.22-alpine3.18
+FROM memcached:1.6.23-alpine3.19
 # memcached
 
 # connecteverything/nats-operator
