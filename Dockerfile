@@ -727,15 +727,15 @@ FROM quay.io/argoproj/argo-events:v1.9.0
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.3
+FROM quay.io/argoproj/argocli:v3.5.4
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.3
+FROM quay.io/argoproj/workflow-controller:v3.5.4
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.3
+FROM quay.io/argoproj/argoexec:v3.5.4
 # argoproj/argoexec
 
 # redis
