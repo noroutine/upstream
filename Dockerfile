@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.64.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.3
+FROM squidfunk/mkdocs-material:9.5.4
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.11
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.48.1
+FROM quay.io/prometheus/prometheus:v2.49.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -495,7 +495,7 @@ FROM bitnami/spark:3.5.0-debian-11-r9
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.48.1-debian-11-r0
+FROM bitnami/prometheus:2.49.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
