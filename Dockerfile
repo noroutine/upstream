@@ -851,11 +851,11 @@ FROM haveagitgat/tdarr_node:2.17.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.21.2
+FROM gravitl/netmaker:v0.22.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.21.2
+FROM gravitl/netmaker-ui:v0.22.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -915,11 +915,11 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.440-jdk17
+FROM jenkins/jenkins:2.441-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3198.v03a_401881f3e-1-jdk17
+FROM jenkins/agent:3206.vb_15dcf73f6a_9-2-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator

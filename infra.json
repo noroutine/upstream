@@ -1,5 +1,5 @@
 {
-  "version": "04e2eb64",
+  "version": "b7b9c7d4",
   "upstream": {
     "images": [
       "debian:bookworm-20240110-slim",
@@ -215,8 +215,8 @@
       "jellyfin/jellyfin:10.8.13-1",
       "haveagitgat/tdarr:2.17.01",
       "haveagitgat/tdarr_node:2.17.01",
-      "gravitl/netmaker:v0.21.2",
-      "gravitl/netmaker-ui:v0.21.2",
+      "gravitl/netmaker:v0.22.0",
+      "gravitl/netmaker-ui:v0.22.0",
       "kmb32123/youtube-dl-server:2.0",
       "puppet/puppetserver:7.9.2",
       "puppet/puppetdb:7.10.0",
@@ -231,8 +231,8 @@
       "netbirdio/management:0.25.4",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.440-jdk17",
-      "jenkins/agent:3198.v03a_401881f3e-1-jdk17",
+      "jenkins/jenkins:2.441-jdk17",
+      "jenkins/agent:3206.vb_15dcf73f6a_9-2-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.7.0",
       "kubernetesui/dashboard:v2.7.0",
