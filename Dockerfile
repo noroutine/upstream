@@ -47,11 +47,11 @@ FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:49f0fe4b976ac043f12a62f04bfd8adae2a952319778afc169f86509c107cf54
+FROM buildpack-deps:focal@sha256:ea9b8e0f79aea918edd8670e1faa166973535e5378adda8b648066c02949dd64
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:4e9ec861c92dd67153dc1df1bd320fa25fd939e3edbc1627f636519b2d851b3c
+FROM buildpack-deps:jammy@sha256:3647d50b4051f388b4f3d78569c25df9c5c80b95384dcf0cd65d38832bdb8ff1
 # buildpack-deps
 
 # php
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.76.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.78.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.1.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.2.0
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
