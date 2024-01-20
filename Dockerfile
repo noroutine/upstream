@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:3647d50b4051f388b4f3d78569c25df9c5c80b95384dcf0
 # buildpack-deps
 
 # php
-FROM php:8.3.1-apache-bookworm
+FROM php:8.3.2-apache-bookworm
 # php
 
 # python
@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-49.g7713f2a
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-57.gb3b8db7
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -591,7 +591,7 @@ FROM bitnami/minio:2024.1.16-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.1.16-debian-11-r0
+FROM bitnami/minio-client:2024.1.18-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.9.4
+FROM quay.io/argoproj/argocd:v2.9.5
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -1011,7 +1011,7 @@ FROM bitnami/kubectl:1.29.1-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.8.0-python3.11
+FROM apache/airflow:2.8.1-python3.11
 # apache/airflow
 
 # git-sync/git-sync
