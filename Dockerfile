@@ -3,7 +3,7 @@ FROM debian:bookworm-20240110-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20231211.1
+FROM ubuntu:jammy-20240111
 # ubuntu
 
 # ubuntu
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.16.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.11.4
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.12.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.11.4
+FROM docker.elastic.co/logstash/logstash:8.12.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.11.4
+FROM docker.elastic.co/kibana/kibana:8.12.0
 # kibana/kibana
 
 # alerta/alerta-web
@@ -307,15 +307,15 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.18.3
+FROM buildpacksio/lifecycle:0.18.4
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.18-v16.7.0
+FROM gitlab/gitlab-runner:alpine3.19-v16.8.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.7.3-ce.0
+FROM gitlab/gitlab-ce:16.8.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -667,7 +667,7 @@ FROM bitnami/trivy:0.48.3-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.0-debian-11-r0
+FROM bitnami/kubectl:1.29.1-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.37.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.9.3
+FROM quay.io/argoproj/argocd:v2.9.4
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -799,7 +799,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.19.2
+FROM gcr.io/kaniko-project/executor:v1.20.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -819,7 +819,7 @@ FROM eclipse-temurin:21.0.1_12-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.10.0
+FROM elastic/eck-operator:2.11.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -887,7 +887,7 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.20.0.2-b1
+FROM yugabytedb/yugabyte:2.20.1.2-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
@@ -927,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.0
+FROM netboxcommunity/netbox:v3.7.1
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1007,7 +1007,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.0-debian-11-r0
+FROM bitnami/kubectl:1.29.1-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
@@ -1095,67 +1095,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.0
+FROM registry.k8s.io/kube-apiserver:v1.29.1
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.0
+FROM registry.k8s.io/kube-proxy:v1.29.1
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.0
+FROM registry.k8s.io/kube-scheduler:v1.29.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.0
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.5
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.5
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.5
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.5
+FROM registry.k8s.io/kube-controller-manager:v1.29.1
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.9
+FROM registry.k8s.io/kube-apiserver:v1.28.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.9
+FROM registry.k8s.io/kube-proxy:v1.28.6
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.9
+FROM registry.k8s.io/kube-scheduler:v1.28.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.9
+FROM registry.k8s.io/kube-controller-manager:v1.28.6
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.12
+FROM registry.k8s.io/kube-apiserver:v1.27.10
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.12
+FROM registry.k8s.io/kube-proxy:v1.27.10
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.12
+FROM registry.k8s.io/kube-scheduler:v1.27.10
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.12
+FROM registry.k8s.io/kube-controller-manager:v1.27.10
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.26.13
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.26.13
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.26.13
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.26.13
 # kube-controller-manager
 
 # kube-apiserver
@@ -1207,7 +1207,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.32.3
+FROM quay.io/tigera/operator:v1.32.4
 # tigera/operator
 
 # calico/typha
@@ -1251,7 +1251,7 @@ FROM calico/csi:v3.27.0
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.0
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.1
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
