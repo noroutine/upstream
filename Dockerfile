@@ -1307,7 +1307,7 @@ FROM longhornio/support-bundle-kit:v0.0.33
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.29.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
