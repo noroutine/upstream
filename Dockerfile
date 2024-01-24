@@ -99,7 +99,7 @@ FROM postgres:16.1-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.12.2
+FROM atlassian/jira-software:9.13.0
 # atlassian/jira-software
 
 # nextcloud
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-01-16T16-07-38Z
+FROM minio/minio:RELEASE.2024-01-18T22-51-28Z
 # minio/minio
 
 # coreos/etcd
@@ -143,7 +143,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.25.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.6.2
+FROM quay.io/prometheus/pushgateway:v1.7.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -247,7 +247,7 @@ FROM adminer:4.8.1
 # adminer
 
 # mysql
-FROM mysql:8.2.0
+FROM mysql:8.3.0
 # mysql
 
 # mariadb
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.75.3
+FROM ghost:5.76.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.75.3-debian-11-r0
+FROM bitnami/ghost:5.76.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -439,7 +439,7 @@ FROM metabase/metabase:v0.48.3
 # metabase/metabase
 
 # docker
-FROM docker:24.0.7-dind
+FROM docker:25.0.0-dind
 # docker
 
 # podman/stable
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.1.16-debian-11-r0
+FROM bitnami/minio:2024.1.18-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -615,7 +615,7 @@ FROM bitnami/grafana-image-renderer:3.9.0-debian-11-r2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.17.1-debian-11-r0
+FROM bitnami/consul:1.17.2-debian-11-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -659,7 +659,7 @@ FROM bitnami/openldap:2.6.6-debian-11-r57
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:v0.24.5
+FROM bitnami/sealed-secrets-controller:0.25.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -871,7 +871,7 @@ FROM puppet/puppetdb:7.10.0
 # puppet/puppetdb
 
 # voxpupuli/puppetboard
-FROM ghcr.io/voxpupuli/puppetboard:5.1.0
+FROM ghcr.io/voxpupuli/puppetboard:5.2.0
 # voxpupuli/puppetboard
 
 # puppet/r10k
@@ -1019,11 +1019,11 @@ FROM registry.k8s.io/git-sync/git-sync:v4.2.0
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.12.1
+FROM ghcr.io/kedacore/keda:2.13.0
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.12.1
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.13.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
@@ -1055,7 +1055,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.17.1
+FROM hashicorp/consul:1.17.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -1307,7 +1307,7 @@ FROM longhornio/support-bundle-kit:v0.0.33
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.28.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.29.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
