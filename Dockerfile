@@ -903,7 +903,7 @@ FROM netbirdio/signal:0.25.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.4
+FROM netbirdio/management:0.25.5
 # netbirdio/management
 
 # coturn/coturn
