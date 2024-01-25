@@ -163,7 +163,7 @@ FROM grafana/loki:2.9.3
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.9.3
+FROM grafana/loki-canary:2.9.4
 # grafana/loki-canary
 
 # grafana/promtail
