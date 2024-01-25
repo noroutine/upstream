@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.64.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.4
+FROM squidfunk/mkdocs-material:9.5.5
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -147,23 +147,23 @@ FROM quay.io/prometheus/pushgateway:v1.7.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.71.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.71.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.71.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.71.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.2.3
+FROM grafana/grafana:10.3.1
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.9.3
+FROM grafana/loki:2.9.4
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.9.3
+FROM grafana/loki-canary:2.9.4
 # grafana/loki-canary
 
 # grafana/promtail
@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-57.gb3b8db7
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-64.g6aad2bc
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -423,7 +423,7 @@ FROM ghost:5.76.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.76.1-debian-11-r0
+FROM bitnami/ghost:5.76.2-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -439,7 +439,7 @@ FROM metabase/metabase:v0.48.3
 # metabase/metabase
 
 # docker
-FROM docker:25.0.0-dind
+FROM docker:25.0.1-dind
 # docker
 
 # podman/stable
@@ -499,7 +499,7 @@ FROM bitnami/prometheus:2.49.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.71.0-debian-11-r0
+FROM bitnami/prometheus-operator:0.71.1-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -691,7 +691,7 @@ FROM drakkan/sftpgo:v2.5.6
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.36.2
+FROM hasura/graphql-engine:v2.36.3
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -815,7 +815,7 @@ FROM azul/zulu-openjdk:21.0.1-21.30.15
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:21.0.1_12-jdk-jammy
+FROM eclipse-temurin:21.0.2_13-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.441-jdk17
+FROM jenkins/jenkins:2.442-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
