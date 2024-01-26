@@ -167,7 +167,7 @@ FROM grafana/loki-canary:2.9.4
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.9.3
+FROM grafana/promtail:2.9.4
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.8.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.8.0-ce.0
+FROM gitlab/gitlab-ce:16.8.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.15
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.25.4
+FROM netbirdio/signal:0.25.5
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.4
+FROM netbirdio/management:0.25.5
 # netbirdio/management
 
 # coturn/coturn
