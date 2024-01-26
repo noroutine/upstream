@@ -147,11 +147,11 @@ FROM quay.io/prometheus/pushgateway:v1.7.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.71.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.71.2
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.71.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.71.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.76.1
+FROM ghost:5.76.2
 # ghost
 
 # bitnami/ghost
@@ -499,7 +499,7 @@ FROM bitnami/prometheus:2.49.1-debian-11-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.71.1-debian-11-r0
+FROM bitnami/prometheus-operator:0.71.2-debian-11-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -1059,7 +1059,7 @@ FROM hashicorp/consul:1.17.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.3.1
+FROM hashicorp/consul-k8s-control-plane:1.3.2
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
