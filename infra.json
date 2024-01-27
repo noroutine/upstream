@@ -1,5 +1,5 @@
 {
-  "version": "600b59bb",
+  "version": "4f759187",
   "upstream": {
     "images": [
       "debian:bookworm-20240110-slim",
@@ -132,7 +132,7 @@
       "bitnami/blackbox-exporter:0.24.0-debian-11-r135",
       "bitnami/postgres-exporter:0.15.0-debian-11-r3",
       "bitnami/redis:7.2.4-debian-11-r0",
-      "bitnami/redis-exporter:1.56.0-debian-11-r0",
+      "bitnami/redis-exporter:1.57.0-debian-11-r0",
       "bitnami/postgresql:10.23.0-debian-11-r3",
       "bitnami/postgresql:11.22.0-debian-11-r4",
       "bitnami/postgresql:12.17.0-debian-11-r4",
@@ -154,7 +154,7 @@
       "bitnami/bitnami-shell:11-debian-11-r136",
       "bitnami/metallb-controller:0.13.12-debian-11-r2",
       "bitnami/metallb-speaker:0.13.12-debian-11-r2",
-      "bitnami/grafana:10.2.3-debian-11-r0",
+      "bitnami/grafana:10.3.1-debian-11-r0",
       "bitnami/grafana-image-renderer:3.9.0-debian-11-r2",
       "bitnami/consul:1.17.2-debian-11-r0",
       "bitnami/nats:2.10.9-debian-11-r0",

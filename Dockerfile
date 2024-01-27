@@ -519,7 +519,7 @@ FROM bitnami/redis:7.2.4-debian-11-r0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.56.0-debian-11-r0
+FROM bitnami/redis-exporter:1.57.0-debian-11-r0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -607,7 +607,7 @@ FROM bitnami/metallb-speaker:0.13.12-debian-11-r2
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.2.3-debian-11-r0
+FROM bitnami/grafana:10.3.1-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
