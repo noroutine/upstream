@@ -1,5 +1,5 @@
 {
-  "version": "99b0dee7",
+  "version": "fe6fea03",
   "upstream": {
     "images": [
       "debian:bookworm-20240110-slim",
@@ -23,7 +23,7 @@
       "golang:1.21.6-alpine3.19",
       "traefik:v2.10.7",
       "sonatype/nexus3:3.64.0",
-      "squidfunk/mkdocs-material:9.5.5",
+      "squidfunk/mkdocs-material:9.5.6",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:23.0.4",
       "postgres:16.1-bookworm",
@@ -239,7 +239,7 @@
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.20.1",
+      "locustio/locust:2.21.0",
       "postgrest/postgrest:v12.0.2",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.5.0",
