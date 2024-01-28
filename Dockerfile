@@ -11,7 +11,7 @@ FROM ubuntu:focal-20231211
 # ubuntu
 
 # alpine
-FROM alpine:3.19.0
+FROM alpine:3.19.1
 # alpine
 
 # busybox
@@ -711,7 +711,7 @@ FROM registry:2.8.3
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.37.0
+FROM ghcr.io/dexidp/dex:v2.38.0
 # dexidp/dex
 
 # argoproj/argocd
