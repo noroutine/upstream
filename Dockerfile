@@ -559,7 +559,7 @@ FROM bitnami/jmx-exporter:0.20.0-debian-11-r2
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:23.0.4-debian-11-r0
+FROM bitnami/keycloak:23.0.5-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
