@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:23.0.4
+FROM quay.io/keycloak/keycloak:23.0.5
 # keycloak/keycloak
 
 # postgres
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.79.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.80.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -559,7 +559,7 @@ FROM bitnami/jmx-exporter:0.20.0-debian-11-r2
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:23.0.4-debian-11-r0
+FROM bitnami/keycloak:23.0.5-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
