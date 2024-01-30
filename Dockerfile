@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.76.2
+FROM ghost:5.77.0
 # ghost
 
 # bitnami/ghost
@@ -435,7 +435,7 @@ FROM nocodb/nocodb:0.204.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.48.3
+FROM metabase/metabase:v0.48.4
 # metabase/metabase
 
 # docker
@@ -819,7 +819,7 @@ FROM eclipse-temurin:21.0.2_13-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.11.0
+FROM elastic/eck-operator:2.11.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -971,23 +971,23 @@ FROM guacamole/guacd:1.5.4
 # guacamole/guacd
 
 # velero/velero
-FROM velero/velero:v1.12.3
+FROM velero/velero:v1.13.0
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.6.3
+FROM velero/velero-plugin-for-csi:v0.7.0
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.8.2
+FROM velero/velero-plugin-for-aws:v1.9.0
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.8.2
+FROM velero/velero-plugin-for-gcp:v1.9.0
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.8.2
+FROM velero/velero-plugin-for-microsoft-azure:v1.9.0
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
