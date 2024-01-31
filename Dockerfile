@@ -443,7 +443,7 @@ FROM docker:25.0.1-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.8.3
+FROM quay.io/podman/stable:v4.9.0
 # podman/stable
 
 # jupyter/base-notebook
