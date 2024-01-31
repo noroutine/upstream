@@ -1,5 +1,5 @@
 {
-  "version": "16222f9b",
+  "version": "ca47cde8",
   "upstream": {
     "images": [
       "debian:bookworm-20240110-slim",
@@ -113,7 +113,7 @@
       "nocodb/nocodb:0.204.0",
       "metabase/metabase:v0.48.4",
       "docker:25.0.1-dind",
-      "quay.io/podman/stable:v4.8.3",
+      "quay.io/podman/stable:v4.9.0",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
@@ -263,7 +263,7 @@
       "quay.io/jetstack/cert-manager-cainjector:v1.14.0",
       "quay.io/jetstack/cert-manager-webhook:v1.14.0",
       "quay.io/jetstack/cert-manager-ctl:v1.14.0",
-      "quay.io/jetstack/cert-manager-csi-driver:v0.6.0",
+      "quay.io/jetstack/cert-manager-csi-driver:v0.7.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.0",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.17.2",

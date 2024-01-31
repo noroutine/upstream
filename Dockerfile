@@ -443,7 +443,7 @@ FROM docker:25.0.1-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.8.3
+FROM quay.io/podman/stable:v4.9.0
 # podman/stable
 
 # jupyter/base-notebook
@@ -1043,7 +1043,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.14.0
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.6.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.7.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
