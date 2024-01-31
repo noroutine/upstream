@@ -115,7 +115,7 @@ FROM minio/minio:RELEASE.2024-01-29T03-56-32Z
 # minio/minio
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.11
+FROM quay.io/coreos/etcd:v3.5.12
 # coreos/etcd
 
 # prometheus/prometheus
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.63
+FROM stakater/reloader:v1.0.64
 # stakater/reloader
 
 # jimmidyson/configmap-reload
