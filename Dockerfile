@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.77.0
+FROM ghost:5.78.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.76.2-debian-11-r0
+FROM bitnami/ghost:5.78.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -691,7 +691,7 @@ FROM drakkan/sftpgo:v2.5.6
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.36.3
+FROM hasura/graphql-engine:v2.37.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -747,7 +747,7 @@ FROM listmonk/listmonk:v2.5.1
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.30.1
+FROM vaultwarden/server:1.30.2
 # vaultwarden/server
 
 # boky/postfix
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.442-jdk17
+FROM jenkins/jenkins:2.443-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1067,7 +1067,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.15.4
+FROM hashicorp/vault:1.15.5
 # hashicorp/vault
 
 # hashicorp/vault-k8s
