@@ -1,5 +1,5 @@
 {
-  "version": "7eaf9ce5",
+  "version": "6b0ff44d",
   "upstream": {
     "images": [
       "debian:bookworm-20240110-slim",
@@ -170,7 +170,7 @@
       "bitnami/sealed-secrets-controller:0.25.0",
       "bitnami/trivy:0.48.3-debian-11-r0",
       "bitnami/kubectl:1.29.1-debian-11-r0",
-      "aquasec/trivy:0.48.3",
+      "aquasec/trivy:0.49.0",
       "ghcr.io/external-secrets/external-secrets:v0.9.11",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
