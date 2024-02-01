@@ -1255,27 +1255,27 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.1
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.5.3
+FROM longhornio/longhorn-manager:v1.6.0
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.5.3
+FROM longhornio/longhorn-ui:v1.6.0
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.5.3
+FROM longhornio/longhorn-engine:v1.6.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.5.3
+FROM longhornio/longhorn-instance-manager:v1.6.0
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.5.3
+FROM longhornio/longhorn-share-manager:v1.6.0
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.5.3
+FROM longhornio/backing-image-manager:v1.6.0
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
