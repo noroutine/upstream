@@ -235,7 +235,7 @@ FROM mongo:7.0.5-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.4.2-apache
+FROM wordpress:6.4.3-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.80.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.80.1
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
