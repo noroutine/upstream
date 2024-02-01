@@ -1263,7 +1263,7 @@ FROM longhornio/longhorn-ui:v1.5.3
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.5.3
+FROM longhornio/longhorn-engine:v1.6.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
