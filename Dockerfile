@@ -47,11 +47,11 @@ FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:ea9b8e0f79aea918edd8670e1faa166973535e5378adda8b648066c02949dd64
+FROM buildpack-deps:focal@sha256:5a099c8c39c1eaacf5f20011a4704b33e9b2f8b5559d7ba453cf616accf90c6d
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:3647d50b4051f388b4f3d78569c25df9c5c80b95384dcf0cd65d38832bdb8ff1
+FROM buildpack-deps:jammy@sha256:f8672346b0fb777428615371509403c110627a2d0faf3cfd2718e7537b2545de
 # buildpack-deps
 
 # php
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.64.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.6
+FROM squidfunk/mkdocs-material:9.5.7
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -439,7 +439,7 @@ FROM metabase/metabase:v0.48.4
 # metabase/metabase
 
 # docker
-FROM docker:25.0.1-dind
+FROM docker:25.0.2-dind
 # docker
 
 # podman/stable

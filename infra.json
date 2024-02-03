@@ -1,5 +1,5 @@
 {
-  "version": "72b9af06",
+  "version": "5d1c4d19",
   "upstream": {
     "images": [
       "debian:bookworm-20240130-slim",
@@ -14,8 +14,8 @@
       "gcr.io/distroless/cc-debian11",
       "gcr.io/distroless/nodejs-debian11",
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
-      "buildpack-deps:focal@sha256:ea9b8e0f79aea918edd8670e1faa166973535e5378adda8b648066c02949dd64",
-      "buildpack-deps:jammy@sha256:3647d50b4051f388b4f3d78569c25df9c5c80b95384dcf0cd65d38832bdb8ff1",
+      "buildpack-deps:focal@sha256:5a099c8c39c1eaacf5f20011a4704b33e9b2f8b5559d7ba453cf616accf90c6d",
+      "buildpack-deps:jammy@sha256:f8672346b0fb777428615371509403c110627a2d0faf3cfd2718e7537b2545de",
       "php:8.3.2-apache-bookworm",
       "python:3.12.1-bookworm",
       "python:3.12.1-slim-bookworm",
@@ -23,7 +23,7 @@
       "golang:1.21.6-alpine3.19",
       "traefik:v2.10.7",
       "sonatype/nexus3:3.64.0",
-      "squidfunk/mkdocs-material:9.5.6",
+      "squidfunk/mkdocs-material:9.5.7",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:23.0.6",
       "postgres:16.1-bookworm",
@@ -112,7 +112,7 @@
       "matomo:5.0.1-apache",
       "nocodb/nocodb:0.204.0",
       "metabase/metabase:v0.48.4",
-      "docker:25.0.1-dind",
+      "docker:25.0.2-dind",
       "quay.io/podman/stable:v4.9.0",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
