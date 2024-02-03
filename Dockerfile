@@ -1,13 +1,13 @@
 # debian
-FROM debian:bookworm-20240110-slim
+FROM debian:bookworm-20240130-slim
 # debian
 
 # ubuntu
-FROM ubuntu:jammy-20240111
+FROM ubuntu:jammy-20240125
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20231211
+FROM ubuntu:focal-20240123
 # ubuntu
 
 # alpine
@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:23.0.5
+FROM quay.io/keycloak/keycloak:23.0.6
 # keycloak/keycloak
 
 # postgres
@@ -103,7 +103,7 @@ FROM atlassian/jira-software:9.13.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:28.0.1-apache
+FROM nextcloud:28.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-01-29T03-56-32Z
+FROM minio/minio:RELEASE.2024-01-31T20-20-33Z
 # minio/minio
 
 # coreos/etcd
@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-68.g6f92fa0
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-75.g3221560
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -559,7 +559,7 @@ FROM bitnami/jmx-exporter:0.20.0-debian-11-r2
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:23.0.5-debian-11-r0
+FROM bitnami/keycloak:23.0.6-debian-11-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.1.29-debian-11-r0
+FROM bitnami/minio:2024.1.31-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.1.28-debian-11-r0
+FROM bitnami/minio-client:2024.1.31-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -747,7 +747,7 @@ FROM listmonk/listmonk:v2.5.1
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.30.2
+FROM vaultwarden/server:1.30.3
 # vaultwarden/server
 
 # boky/postfix
@@ -1027,19 +1027,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.13.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.14.0
+FROM quay.io/jetstack/cert-manager-controller:v1.14.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.14.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.14.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.14.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.14.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.14.0
+FROM quay.io/jetstack/cert-manager-ctl:v1.14.1
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
@@ -1339,15 +1339,15 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v4.0.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v6.3.3
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v7.0.0
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v6.3.3
+FROM registry.k8s.io/sig-storage/snapshot-controller:v7.0.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v6.3.3
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.0
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
