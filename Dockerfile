@@ -663,7 +663,7 @@ FROM bitnami/sealed-secrets-controller:0.25.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.48.3-debian-11-r0
+FROM bitnami/trivy:0.49.0-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.38.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.9.5
+FROM quay.io/argoproj/argocd:v2.9.6
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
