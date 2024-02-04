@@ -743,7 +743,7 @@ FROM redis:7.2.4-bookworm
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.5.1
+FROM listmonk/listmonk:v3.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
