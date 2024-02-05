@@ -1,5 +1,5 @@
 {
-  "version": "4983033e",
+  "version": "a041fca5",
   "upstream": {
     "images": [
       "debian:bookworm-20240130-slim",
@@ -222,7 +222,7 @@
       "puppet/puppetdb:7.10.0",
       "ghcr.io/voxpupuli/puppetboard:5.2.0",
       "puppet/r10k:3.15.2",
-      "restic/restic:0.16.3",
+      "restic/restic:0.16.4",
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "yugabytedb/yugabyte:2.20.1.2-b1",
       "antelle/keeweb:1.18.7",
@@ -239,7 +239,7 @@
       "kubernetesui/dashboard-api:v1.0.0",
       "kubernetesui/dashboard-web:v1.0.0",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.21.0",
+      "locustio/locust:2.22.0",
       "postgrest/postgrest:v12.0.2",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.5.0",

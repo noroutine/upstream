@@ -879,7 +879,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # restic/restic
-FROM restic/restic:0.16.3
+FROM restic/restic:0.16.4
 # restic/restic
 
 # coredns/coredns
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.21.0
+FROM locustio/locust:2.22.0
 # locustio/locust
 
 # postgrest/postgrest
