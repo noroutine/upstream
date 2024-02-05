@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-01-31T20-20-33Z
+FROM minio/minio:RELEASE.2024-02-04T22-36-13Z
 # minio/minio
 
 # coreos/etcd
@@ -579,7 +579,7 @@ FROM bitnami/memcached:1.6.23-debian-11-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.9.5-debian-11-r3
+FROM bitnami/nginx-ingress-controller:1.9.6-debian-11-r3
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.1.31-debian-11-r0
+FROM bitnami/minio:2024.2.4-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -743,7 +743,7 @@ FROM redis:7.2.4-bookworm
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v2.5.1
+FROM listmonk/listmonk:v3.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
