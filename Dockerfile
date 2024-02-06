@@ -671,7 +671,7 @@ FROM bitnami/kubectl:1.29.1-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.49.0
+FROM aquasec/trivy:0.49.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -927,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.1
+FROM netboxcommunity/netbox:v3.7.2
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
