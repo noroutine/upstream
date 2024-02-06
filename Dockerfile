@@ -99,7 +99,7 @@ FROM postgres:16.1-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.13.0
+FROM atlassian/jira-software:9.13.1
 # atlassian/jira-software
 
 # nextcloud
@@ -663,7 +663,7 @@ FROM bitnami/sealed-secrets-controller:0.25.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.49.0-debian-11-r0
+FROM bitnami/trivy:0.49.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -715,7 +715,7 @@ FROM ghcr.io/dexidp/dex:v2.38.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.9.6
+FROM quay.io/argoproj/argocd:v2.10.0
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.443-jdk17
+FROM jenkins/jenkins:2.444-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
