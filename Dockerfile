@@ -835,7 +835,7 @@ FROM outlinewiki/outline:0.74.0
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.2
+FROM syncthing/syncthing:1.27.3
 # syncthing/syncthing
 
 # jellyfin/jellyfin
@@ -1015,7 +1015,7 @@ FROM apache/airflow:2.8.1-python3.11
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.2.0
+FROM registry.k8s.io/git-sync/git-sync:v4.2.1
 # git-sync/git-sync
 
 # kedacore/keda
