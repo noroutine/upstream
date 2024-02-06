@@ -419,15 +419,15 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.78.0
+FROM ghost:5.79.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.78.0-debian-11-r0
+FROM bitnami/ghost:5.79.0-debian-11-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:5.0.1-apache
+FROM matomo:5.0.2-apache
 # matomo
 
 # nocodb/nocodb
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.25.5
+FROM netbirdio/signal:0.25.6
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.5
+FROM netbirdio/management:0.25.6
 # netbirdio/management
 
 # coturn/coturn
