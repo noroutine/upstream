@@ -59,19 +59,19 @@ FROM php:8.3.2-apache-bookworm
 # php
 
 # python
-FROM python:3.12.1-bookworm
+FROM python:3.12.2-bookworm
 # python
 
 # python
-FROM python:3.12.1-slim-bookworm
+FROM python:3.12.2-slim-bookworm
 # python
 
 # golang
-FROM golang:1.21.6-bookworm
+FROM golang:1.22.0-bookworm
 # golang
 
 # golang
-FROM golang:1.21.6-alpine3.19
+FROM golang:1.22.0-alpine3.19
 # golang
 
 # traefik
@@ -79,11 +79,11 @@ FROM traefik:v2.10.7
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.64.0
+FROM sonatype/nexus3:3.65.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.7
+FROM squidfunk/mkdocs-material:9.5.8
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.8.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.8.1-ce.0
+FROM gitlab/gitlab-ce:16.8.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -435,11 +435,11 @@ FROM nocodb/nocodb:0.204.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.48.4
+FROM metabase/metabase:v0.48.5
 # metabase/metabase
 
 # docker
-FROM docker:25.0.2-dind
+FROM docker:25.0.3-dind
 # docker
 
 # podman/stable
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.25.6
+FROM netbirdio/signal:0.25.7
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.6
+FROM netbirdio/management:0.25.7
 # netbirdio/management
 
 # coturn/coturn
