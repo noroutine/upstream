@@ -1043,7 +1043,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.14.1
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.7.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.7.1
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
