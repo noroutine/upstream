@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-02-04T22-36-13Z
+FROM minio/minio:RELEASE.2024-02-06T21-36-22Z
 # minio/minio
 
 # coreos/etcd
@@ -567,7 +567,7 @@ FROM bitnami/keycloak-config-cli:5.10.0-debian-11-r0
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.2.2-debian-11-r0
+FROM bitnami/mariadb:11.2.3-debian-11-r0
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.2.4-debian-11-r0
+FROM bitnami/minio:2024.2.6-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -599,11 +599,11 @@ FROM bitnami/bitnami-shell:11-debian-11-r136
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.13.12-debian-11-r2
+FROM bitnami/metallb-controller:0.14.3-debian-11-r2
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.13.12-debian-11-r2
+FROM bitnami/metallb-speaker:0.14.3-debian-11-r2
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -611,7 +611,7 @@ FROM bitnami/grafana:10.3.1-debian-11-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.9.0-debian-11-r2
+FROM bitnami/grafana-image-renderer:3.9.1-debian-11-r1
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -627,7 +627,7 @@ FROM bitnami/kube-state-metrics:2.10.1-debian-11-r1
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.6.4-debian-11-r67
+FROM bitnami/metrics-server:0.7.0-debian-11-r4
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
@@ -655,7 +655,7 @@ FROM bitnami/kube-rbac-proxy:0.15.0-debian-11-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.6-debian-11-r57
+FROM bitnami/openldap:2.6.7-debian-11-r2
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
@@ -1027,23 +1027,23 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.13.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.14.1
+FROM quay.io/jetstack/cert-manager-controller:v1.14.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.14.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.14.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.14.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.14.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.14.1
+FROM quay.io/jetstack/cert-manager-ctl:v1.14.2
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.7.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.7.1
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
