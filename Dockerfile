@@ -327,7 +327,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.80.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.8.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -391,7 +391,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-75.g3221560
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-78.ga20dd1c
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -675,7 +675,7 @@ FROM aquasec/trivy:0.49.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.11
+FROM ghcr.io/external-secrets/external-secrets:v0.9.12
 # external-secrets/external-secrets
 
 # minio/console
@@ -811,7 +811,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:21.0.1-21.30.15
+FROM azul/zulu-openjdk:21.0.2-21.32
 # azul/zulu-openjdk
 
 # eclipse-temurin
