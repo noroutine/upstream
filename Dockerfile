@@ -347,7 +347,7 @@ FROM summerwind/actions-runner-dind:v2.312.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.15.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.16.0
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -651,7 +651,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.9.0-debian-11-r8
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.15.0-debian-11-r0
+FROM bitnami/kube-rbac-proxy:0.16.0-debian-11-r0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.65
+FROM stakater/reloader:v1.0.67
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -871,7 +871,7 @@ FROM puppet/puppetdb:7.10.0
 # puppet/puppetdb
 
 # voxpupuli/puppetboard
-FROM ghcr.io/voxpupuli/puppetboard:5.2.0
+FROM ghcr.io/voxpupuli/puppetboard:5.3.0
 # voxpupuli/puppetboard
 
 # puppet/r10k
@@ -1299,7 +1299,7 @@ FROM longhornio/csi-attacher:v4.4.2
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
-FROM longhornio/livenessprobe:v2.11.0
+FROM longhornio/livenessprobe:v2.12.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
