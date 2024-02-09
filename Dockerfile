@@ -1299,7 +1299,7 @@ FROM longhornio/csi-attacher:v4.4.2
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
-FROM longhornio/livenessprobe:v2.11.0
+FROM longhornio/livenessprobe:v2.12.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
