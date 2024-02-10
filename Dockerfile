@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.65.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.8
+FROM squidfunk/mkdocs-material:9.5.9
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -339,11 +339,11 @@ FROM summerwind/actions-runner-controller:v0.27.6
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.312.0-ubuntu-22.04
+FROM summerwind/actions-runner:v2.313.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.312.0-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.313.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
