@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-02-06T21-36-22Z
+FROM minio/minio:RELEASE.2024-02-09T21-25-16Z
 # minio/minio
 
 # coreos/etcd
@@ -239,7 +239,7 @@ FROM wordpress:6.4.3-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.2
+FROM dpage/pgadmin4:8.3
 # dpage/pgadmin4
 
 # adminer
@@ -423,7 +423,7 @@ FROM ghost:5.79.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.79.0-debian-11-r0
+FROM bitnami/ghost:5.79.1-debian-11-r0
 # bitnami/ghost
 
 # matomo
@@ -587,11 +587,11 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.2.6-debian-11-r0
+FROM bitnami/minio:2024.2.9-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.1.31-debian-11-r0
+FROM bitnami/minio-client:2024.2.9-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -799,7 +799,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.20.0
+FROM gcr.io/kaniko-project/executor:v1.20.1
 # kaniko-project/executor
 
 # iovisor/bpftrace
