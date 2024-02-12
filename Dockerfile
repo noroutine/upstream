@@ -543,7 +543,7 @@ FROM bitnami/postgresql:14.10.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.5.0-debian-11-r3
+FROM bitnami/postgresql:15.6.0-debian-11-r3
 # bitnami/postgresql
 
 # bitnami/postgresql
