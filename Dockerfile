@@ -75,7 +75,7 @@ FROM golang:1.22.0-alpine3.19
 # golang
 
 # traefik
-FROM traefik:v2.10.7
+FROM traefik:v2.11.0
 # traefik
 
 # sonatype/nexus3
@@ -95,7 +95,7 @@ FROM quay.io/keycloak/keycloak:23.0.6
 # keycloak/keycloak
 
 # postgres
-FROM postgres:16.1-bookworm
+FROM postgres:16.2-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -251,11 +251,11 @@ FROM mysql:8.3.0
 # mysql
 
 # mariadb
-FROM mariadb:11.2.2-jammy
+FROM mariadb:11.2.3-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.13.2
+FROM mccutchen/go-httpbin:v2.13.3
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.79.0
+FROM ghost:5.79.1
 # ghost
 
 # bitnami/ghost
@@ -511,7 +511,7 @@ FROM bitnami/blackbox-exporter:0.24.0-debian-11-r135
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.15.0-debian-11-r3
+FROM bitnami/postgres-exporter:0.15.0-debian-11-r14
 # bitnami/postgres-exporter
 
 # bitnami/redis
@@ -531,23 +531,23 @@ FROM bitnami/postgresql:11.22.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.17.0-debian-11-r4
+FROM bitnami/postgresql:12.18.0-debian-11-r5
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.13.0-debian-11-r4
+FROM bitnami/postgresql:13.14.0-debian-11-r5
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.10.0-debian-11-r4
+FROM bitnami/postgresql:14.11.0-debian-11-r6
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.5.0-debian-11-r3
+FROM bitnami/postgresql:15.6.0-debian-11-r6
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.1.0-debian-11-r4
+FROM bitnami/postgresql:16.2.0-debian-11-r6
 # bitnami/postgresql
 
 # bitnami/tomcat
@@ -947,7 +947,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.22.0
+FROM locustio/locust:2.23.1
 # locustio/locust
 
 # postgrest/postgrest
