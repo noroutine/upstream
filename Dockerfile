@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-02-09T21-25-16Z
+FROM minio/minio:RELEASE.2024-02-13T15-35-11Z
 # minio/minio
 
 # coreos/etcd
@@ -155,7 +155,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.71.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.3.1
+FROM grafana/grafana:10.3.3
 # grafana/grafana
 
 # grafana/loki
@@ -435,7 +435,7 @@ FROM nocodb/nocodb:0.204.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.48.5
+FROM metabase/metabase:v0.48.6
 # metabase/metabase
 
 # docker
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.3-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.2.9-debian-11-r0
+FROM bitnami/minio:2024.2.13-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -607,15 +607,15 @@ FROM bitnami/metallb-speaker:0.14.3-debian-11-r2
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.3.1-debian-11-r0
+FROM bitnami/grafana:10.3.3-debian-11-r1
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.9.1-debian-11-r1
+FROM bitnami/grafana-image-renderer:3.9.1-debian-11-r11
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.17.2-debian-11-r0
+FROM bitnami/consul:1.17.3-debian-11-r1
 # bitnami/consul
 
 # bitnami/nats
@@ -831,7 +831,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.74.0
+FROM outlinewiki/outline:0.75.0
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.25.7
+FROM netbirdio/signal:0.25.8
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.7
+FROM netbirdio/management:0.25.8
 # netbirdio/management
 
 # coturn/coturn
@@ -1055,7 +1055,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.17.2
+FROM hashicorp/consul:1.17.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -1347,7 +1347,7 @@ FROM registry.k8s.io/sig-storage/snapshot-controller:v7.0.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.0
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
