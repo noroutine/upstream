@@ -1,5 +1,5 @@
 {
-  "version": "e79eb28f",
+  "version": "28b0b278",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -81,7 +81,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.18.5",
       "gitlab/gitlab-runner:alpine3.19-v16.8.0",
-      "gitlab/gitlab-ce:16.8.2-ce.0",
+      "gitlab/gitlab-ce:16.9.0-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.81.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.2",
@@ -167,7 +167,7 @@
       "bitnami/kubeapps-pinniped-proxy:2.9.0-debian-11-r8",
       "bitnami/kube-rbac-proxy:0.16.0-debian-11-r0",
       "bitnami/openldap:2.6.7-debian-11-r2",
-      "bitnami/sealed-secrets-controller:0.25.0",
+      "bitnami/sealed-secrets-controller:0.26.0",
       "bitnami/trivy:0.49.1-debian-11-r0",
       "bitnami/kubectl:1.29.2-debian-11-r0",
       "aquasec/trivy:0.49.1",
@@ -338,7 +338,7 @@
       "registry.k8s.io/sig-storage/csi-resizer:v1.10.0",
       "registry.k8s.io/sig-storage/csi-provisioner:v4.0.0",
       "registry.k8s.io/sig-storage/csi-snapshotter:v7.0.1",
-      "registry.k8s.io/sig-storage/snapshot-controller:v7.0.0",
+      "registry.k8s.io/sig-storage/snapshot-controller:v7.0.1",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.1",
       "confluentinc/confluent-init-container:2.8.0",
       "confluentinc/confluent-operator:0.824.40",

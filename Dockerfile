@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.8.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.8.2-ce.0
+FROM gitlab/gitlab-ce:16.9.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -659,7 +659,7 @@ FROM bitnami/openldap:2.6.7-debian-11-r2
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.25.0
+FROM bitnami/sealed-secrets-controller:0.26.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -1343,7 +1343,7 @@ FROM registry.k8s.io/sig-storage/csi-snapshotter:v7.0.1
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v7.0.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v7.0.1
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
