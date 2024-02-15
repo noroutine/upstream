@@ -667,7 +667,7 @@ FROM bitnami/trivy:0.49.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.1-debian-11-r0
+FROM bitnami/kubectl:1.29.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -1007,7 +1007,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.1-debian-11-r0
+FROM bitnami/kubectl:1.29.2-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
