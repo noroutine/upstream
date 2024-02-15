@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240130-slim
+FROM debian:bookworm-20240211-slim
 # debian
 
 # ubuntu
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-02-13T15-35-11Z
+FROM minio/minio:RELEASE.2024-02-14T21-36-02Z
 # minio/minio
 
 # coreos/etcd
@@ -171,11 +171,11 @@ FROM grafana/promtail:2.9.4
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.3-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.3-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -259,7 +259,7 @@ FROM mccutchen/go-httpbin:v2.13.3
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.5.1-amd64
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.6.0-amd64
 # oauth2-proxy/oauth2-proxy
 
 # heroku/heroku
@@ -307,7 +307,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.18.4
+FROM buildpacksio/lifecycle:0.18.5
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.80.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.81.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -395,7 +395,7 @@ FROM quay.io/jupyterhub/repo2docker:2023.06.0-78.ga20dd1c
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.01.0
+FROM pihole/pihole:2024.02.0
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -583,15 +583,15 @@ FROM bitnami/nginx-ingress-controller:1.9.6-debian-11-r3
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.3-debian-11-r1
+FROM bitnami/nginx:1.25.4-debian-11-r1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.2.13-debian-11-r0
+FROM bitnami/minio:2024.2.14-debian-11-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.2.9-debian-11-r0
+FROM bitnami/minio-client:2024.2.14-debian-11-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
@@ -667,7 +667,7 @@ FROM bitnami/trivy:0.49.1-debian-11-r0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.1-debian-11-r0
+FROM bitnami/kubectl:1.29.2-debian-11-r0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -1007,7 +1007,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.1-debian-11-r0
+FROM bitnami/kubectl:1.29.2-debian-11-r0
 # bitnami/kubectl
 
 # apache/airflow
@@ -1095,67 +1095,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.1
+FROM registry.k8s.io/kube-apiserver:v1.29.2
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.1
+FROM registry.k8s.io/kube-proxy:v1.29.2
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.1
+FROM registry.k8s.io/kube-scheduler:v1.29.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.1
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.6
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.6
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.6
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.6
+FROM registry.k8s.io/kube-controller-manager:v1.29.2
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.10
+FROM registry.k8s.io/kube-apiserver:v1.28.7
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.10
+FROM registry.k8s.io/kube-proxy:v1.28.7
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.10
+FROM registry.k8s.io/kube-scheduler:v1.28.7
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.10
+FROM registry.k8s.io/kube-controller-manager:v1.28.7
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.13
+FROM registry.k8s.io/kube-apiserver:v1.27.11
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.13
+FROM registry.k8s.io/kube-proxy:v1.27.11
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.13
+FROM registry.k8s.io/kube-scheduler:v1.27.11
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.13
+FROM registry.k8s.io/kube-controller-manager:v1.27.11
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.26.14
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.26.14
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.26.14
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.26.14
 # kube-controller-manager
 
 # kube-apiserver
@@ -1339,7 +1339,7 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v4.0.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v7.0.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v7.0.1
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
@@ -1351,7 +1351,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.7.3
+FROM confluentinc/confluent-init-container:2.8.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
