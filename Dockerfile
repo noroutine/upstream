@@ -619,7 +619,7 @@ FROM bitnami/consul:1.17.3-debian-11-r1
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.10-debian-11-r0
+FROM bitnami/nats:2.10.11-debian-11-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics

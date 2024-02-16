@@ -1,5 +1,5 @@
 {
-  "version": "f8b74982",
+  "version": "00788520",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -157,7 +157,7 @@
       "bitnami/grafana:10.3.3-debian-11-r1",
       "bitnami/grafana-image-renderer:3.9.1-debian-11-r11",
       "bitnami/consul:1.17.3-debian-11-r1",
-      "bitnami/nats:2.10.10-debian-11-r0",
+      "bitnami/nats:2.10.11-debian-11-r0",
       "bitnami/kube-state-metrics:2.10.1-debian-11-r1",
       "bitnami/metrics-server:0.7.0-debian-11-r4",
       "bitnami/kubeapps-dashboard:2.9.0-debian-11-r11",
