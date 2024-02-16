@@ -51,7 +51,7 @@ FROM buildpack-deps:focal@sha256:5a099c8c39c1eaacf5f20011a4704b33e9b2f8b5559d7ba
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:f8672346b0fb777428615371509403c110627a2d0faf3cfd2718e7537b2545de
+FROM buildpack-deps:jammy@sha256:31d0c494bc7400de931ec94b364886de3c36282586c30d0678439d763265c806
 # buildpack-deps
 
 # php
@@ -323,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.81.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.83.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk

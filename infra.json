@@ -1,5 +1,5 @@
 {
-  "version": "ddd0778c",
+  "version": "f8b74982",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -15,7 +15,7 @@
       "gcr.io/distroless/nodejs-debian11",
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
       "buildpack-deps:focal@sha256:5a099c8c39c1eaacf5f20011a4704b33e9b2f8b5559d7ba453cf616accf90c6d",
-      "buildpack-deps:jammy@sha256:f8672346b0fb777428615371509403c110627a2d0faf3cfd2718e7537b2545de",
+      "buildpack-deps:jammy@sha256:31d0c494bc7400de931ec94b364886de3c36282586c30d0678439d763265c806",
       "php:8.3.2-apache-bookworm",
       "python:3.12.2-bookworm",
       "python:3.12.2-slim-bookworm",
@@ -83,7 +83,7 @@
       "gitlab/gitlab-runner:alpine3.19-v16.8.0",
       "gitlab/gitlab-ce:16.9.0-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.81.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.83.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.2",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.2.0",
       "summerwind/actions-runner-controller:v0.27.6",
