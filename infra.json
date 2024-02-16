@@ -1,5 +1,5 @@
 {
-  "version": "00788520",
+  "version": "b9b0cdcd",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -227,8 +227,8 @@
       "yugabytedb/yugabyte:2.20.1.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
-      "netbirdio/signal:0.25.8",
-      "netbirdio/management:0.25.8",
+      "netbirdio/signal:0.25.9",
+      "netbirdio/management:0.25.9",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
       "jenkins/jenkins:2.445-jdk17",
