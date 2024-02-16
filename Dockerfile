@@ -99,7 +99,7 @@ FROM postgres:16.2-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.13.1
+FROM atlassian/jira-software:9.14.0
 # atlassian/jira-software
 
 # nextcloud
@@ -915,7 +915,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.444-jdk17
+FROM jenkins/jenkins:2.445-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1059,7 +1059,7 @@ FROM hashicorp/consul:1.17.3
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.3.2
+FROM hashicorp/consul-k8s-control-plane:1.3.3
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -1355,7 +1355,7 @@ FROM confluentinc/confluent-init-container:2.8.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.824.40
+FROM confluentinc/confluent-operator:0.921.2
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
