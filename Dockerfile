@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.79.1
+FROM ghost:5.79.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.79.1-debian-11-r0
+FROM bitnami/ghost:5.79.3-debian-11-r0
 # bitnami/ghost
 
 # matomo
