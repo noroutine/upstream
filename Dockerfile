@@ -1219,7 +1219,7 @@ FROM calico/ctl:v3.27.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.27.0
+FROM calico/node:v3.27.2
 # calico/node
 
 # calico/cni
