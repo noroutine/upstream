@@ -675,7 +675,7 @@ FROM aquasec/trivy:0.49.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.12
+FROM ghcr.io/external-secrets/external-secrets:v0.9.13
 # external-secrets/external-secrets
 
 # minio/console
