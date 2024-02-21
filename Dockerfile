@@ -1247,7 +1247,7 @@ FROM calico/node-driver-registrar:v3.27.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.27.0
+FROM calico/csi:v3.27.2
 # calico/csi
 
 # nfd/node-feature-discovery
