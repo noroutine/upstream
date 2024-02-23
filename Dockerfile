@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.12
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.49.1
+FROM quay.io/prometheus/prometheus:v2.50.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
