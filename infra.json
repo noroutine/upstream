@@ -1,5 +1,5 @@
 {
-  "version": "ecc862dc",
+  "version": "cf0bf07f",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -45,8 +45,8 @@
       "grafana/loki:2.9.4",
       "grafana/loki-canary:2.9.4",
       "grafana/promtail:2.9.4",
-      "nginxinc/nginx-unprivileged:1.25.4-alpine-slim@sha256:98321dff3aa6cc4340bbee21995bbb16a1dbf15cd21ee90a5ea1cd8ec318cdca",
-      "nginxinc/nginx-unprivileged:1.25.4-alpine-slim@sha256:98321dff3aa6cc4340bbee21995bbb16a1dbf15cd21ee90a5ea1cd8ec318cdca",
+      "nginxinc/nginx-unprivileged:1.25.4-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.25.4-alpine-slim",
       "httpd:2.4.58-alpine",
       "tomcat:10.1.19-jdk21-temurin-jammy",
       "quay.io/m3db/m3coordinator:v1.5.0",
