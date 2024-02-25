@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.65.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.10
+FROM squidfunk/mkdocs-material:9.5.11
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -431,7 +431,7 @@ FROM matomo:5.0.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.204.0
+FROM nocodb/nocodb:0.204.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -927,7 +927,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.2
+FROM netboxcommunity/netbox:v3.7.3
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1027,19 +1027,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.13.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.14.2
+FROM quay.io/jetstack/cert-manager-controller:v1.14.3
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.14.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.14.3
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.14.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.14.3
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.14.2
+FROM quay.io/jetstack/cert-manager-ctl:v1.14.3
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
