@@ -55,7 +55,7 @@ FROM buildpack-deps:jammy@sha256:31d0c494bc7400de931ec94b364886de3c36282586c30d0
 # buildpack-deps
 
 # php
-FROM php:8.3.2-apache-bookworm
+FROM php:8.3.3-apache-bookworm
 # php
 
 # python
@@ -83,7 +83,7 @@ FROM sonatype/nexus3:3.65.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.9
+FROM squidfunk/mkdocs-material:9.5.10
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -91,7 +91,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:23.0.6
+FROM quay.io/keycloak/keycloak:23.0.7
 # keycloak/keycloak
 
 # postgres
@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-02-14T21-36-02Z
+FROM minio/minio:RELEASE.2024-02-24T17-11-14Z
 # minio/minio
 
 # coreos/etcd
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.12
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.49.1
+FROM quay.io/prometheus/prometheus:v2.50.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -171,11 +171,11 @@ FROM grafana/promtail:2.9.4
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim@sha256:98321dff3aa6cc4340bbee21995bbb16a1dbf15cd21ee90a5ea1cd8ec318cdca
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim@sha256:98321dff3aa6cc4340bbee21995bbb16a1dbf15cd21ee90a5ea1cd8ec318cdca
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -183,7 +183,7 @@ FROM httpd:2.4.58-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.18-jdk21-temurin-jammy
+FROM tomcat:10.1.19-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -215,15 +215,15 @@ FROM quay.io/cortexproject/cortex:v1.16.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.12.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.12.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.12.1
+FROM docker.elastic.co/logstash/logstash:8.12.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.12.1
+FROM docker.elastic.co/kibana/kibana:8.12.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -251,11 +251,11 @@ FROM mysql:8.3.0
 # mysql
 
 # mariadb
-FROM mariadb:11.2.3-jammy
+FROM mariadb:11.3.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.13.3
+FROM mccutchen/go-httpbin:v2.13.4
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -311,23 +311,23 @@ FROM buildpacksio/lifecycle:0.18.5
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v16.8.0
+FROM gitlab/gitlab-runner:alpine3.19-v16.9.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.9.0-ce.0
+FROM gitlab/gitlab-ce:16.9.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.51.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.53.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.84.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.85.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.3
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.79.3
+FROM ghost:5.79.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.79.3-debian-11-r0
+FROM bitnami/ghost:5.79.4-debian-12-r2
 # bitnami/ghost
 
 # matomo
@@ -435,7 +435,7 @@ FROM nocodb/nocodb:0.204.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.48.6
+FROM metabase/metabase:v0.48.7
 # metabase/metabase
 
 # docker
@@ -491,35 +491,35 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.5.0-debian-11-r9
+FROM bitnami/spark:3.5.0-debian-12-r18
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.49.1-debian-11-r0
+FROM bitnami/prometheus:2.50.0-debian-12-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.71.2-debian-11-r0
+FROM bitnami/prometheus-operator:0.71.2-debian-12-r7
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.7.0-debian-11-r0
+FROM bitnami/node-exporter:1.7.0-debian-12-r12
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.24.0-debian-11-r135
+FROM bitnami/blackbox-exporter:0.24.0-debian-12-r24
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.15.0-debian-11-r14
+FROM bitnami/postgres-exporter:0.15.0-debian-12-r13
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.4-debian-11-r0
+FROM bitnami/redis:7.2.4-debian-12-r9
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.57.0-debian-11-r0
+FROM bitnami/redis-exporter:1.58.0-debian-12-r3
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -531,143 +531,143 @@ FROM bitnami/postgresql:11.22.0-debian-11-r4
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.18.0-debian-11-r5
+FROM bitnami/postgresql:12.18.0-debian-12-r6
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.14.0-debian-11-r5
+FROM bitnami/postgresql:13.14.0-debian-12-r5
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.11.0-debian-11-r6
+FROM bitnami/postgresql:14.11.0-debian-12-r6
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.6.0-debian-11-r6
+FROM bitnami/postgresql:15.6.0-debian-12-r5
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.2.0-debian-11-r6
+FROM bitnami/postgresql:16.2.0-debian-12-r5
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.18-debian-11-r0
+FROM bitnami/tomcat:10.1.19-debian-12-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
-FROM bitnami/jmx-exporter:0.20.0-debian-11-r2
+FROM bitnami/jmx-exporter:0.20.0-debian-12-r11
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:23.0.6-debian-11-r0
+FROM bitnami/keycloak:23.0.7-debian-12-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.10.0-debian-11-r0
+FROM bitnami/keycloak-config-cli:5.10.0-debian-12-r9
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.2.3-debian-11-r0
+FROM bitnami/mariadb:11.2.3-debian-12-r4
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.5-debian-11-r0
+FROM bitnami/mongodb:7.0.5-debian-12-r5
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.23-debian-11-r0
+FROM bitnami/memcached:1.6.23-debian-12-r8
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.9.6-debian-11-r3
+FROM bitnami/nginx-ingress-controller:1.9.6-debian-12-r8
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.4-debian-11-r1
+FROM bitnami/nginx:1.25.4-debian-12-r2
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.2.14-debian-11-r0
+FROM bitnami/minio:2024.2.24-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.2.14-debian-11-r0
+FROM bitnami/minio-client:2024.2.24-debian-12-r0
 # bitnami/minio-client
 
 # bitnami/bitnami-shell
-FROM bitnami/bitnami-shell:11-debian-11-r136
+FROM bitnami/bitnami-shell:11-debian-11-r135
 # bitnami/bitnami-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.3-debian-11-r2
+FROM bitnami/metallb-controller:0.14.3-debian-12-r5
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.3-debian-11-r2
+FROM bitnami/metallb-speaker:0.14.3-debian-12-r5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.3.3-debian-11-r1
+FROM bitnami/grafana:10.3.3-debian-12-r3
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.9.1-debian-11-r11
+FROM bitnami/grafana-image-renderer:3.9.1-debian-12-r7
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.17.3-debian-11-r1
+FROM bitnami/consul:1.17.3-debian-12-r4
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.11-debian-11-r0
+FROM bitnami/nats:2.10.11-debian-12-r4
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.10.1-debian-11-r1
+FROM bitnami/kube-state-metrics:2.10.1-debian-12-r15
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.7.0-debian-11-r4
+FROM bitnami/metrics-server:0.7.0-debian-12-r7
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.9.0-debian-11-r11
+FROM bitnami/kubeapps-dashboard:2.9.0-debian-12-r18
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.9.0-debian-11-r7
+FROM bitnami/kubeapps-apprepository-controller:2.9.0-debian-12-r17
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.9.0-debian-11-r7
+FROM bitnami/kubeapps-asset-syncer:2.9.0-debian-12-r18
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.9.0-debian-11-r7
+FROM bitnami/kubeapps-apis:2.9.0-debian-12-r17
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.9.0-debian-11-r8
+FROM bitnami/kubeapps-pinniped-proxy:2.9.0-debian-12-r17
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.16.0-debian-11-r0
+FROM bitnami/kube-rbac-proxy:0.16.0-debian-12-r3
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.7-debian-11-r2
+FROM bitnami/openldap:2.6.7-debian-12-r0
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.26.0
+FROM bitnami/sealed-secrets-controller:0.26.0-debian-12-r2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.49.1-debian-11-r0
+FROM bitnami/trivy:0.49.1-debian-12-r5
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.2-debian-11-r0
+FROM bitnami/kubectl:1.29.2-debian-12-r2
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -675,7 +675,7 @@ FROM aquasec/trivy:0.49.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.12
+FROM ghcr.io/external-secrets/external-secrets:v0.9.13
 # external-secrets/external-secrets
 
 # minio/console
@@ -699,7 +699,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.67
+FROM stakater/reloader:v1.0.69
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -767,7 +767,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.10-alpine3.19
+FROM nats:2.10.11-alpine3.19
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -831,7 +831,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.75.0
+FROM outlinewiki/outline:0.75.2
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -899,11 +899,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.25.9
+FROM netbirdio/signal:0.26.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.25.9
+FROM netbirdio/management:0.26.0
 # netbirdio/management
 
 # coturn/coturn
@@ -915,11 +915,11 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.445-jdk17
+FROM jenkins/jenkins:2.446-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3206.vb_15dcf73f6a_9-2-jdk17
+FROM jenkins/agent:3206.vb_15dcf73f6a_9-4-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
@@ -1007,7 +1007,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.2-debian-11-r0
+FROM bitnami/kubectl:1.29.2-debian-12-r2
 # bitnami/kubectl
 
 # apache/airflow
@@ -1207,47 +1207,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.33.0
+FROM quay.io/tigera/operator:v1.32.5
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.27.0
+FROM calico/typha:v3.27.2
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.27.0
+FROM calico/ctl:v3.27.2
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.27.0
+FROM calico/node:v3.27.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.27.0
+FROM calico/cni:v3.27.2
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.27.0
+FROM calico/apiserver:v3.27.2
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.27.0
+FROM calico/kube-controllers:v3.27.2
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.27.0
+FROM calico/dikastes:v3.27.2
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.27.0
+FROM calico/pod2daemon-flexvol:v3.27.2
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.27.0
+FROM calico/node-driver-registrar:v3.27.2
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.27.0
+FROM calico/csi:v3.27.2
 # calico/csi
 
 # nfd/node-feature-discovery
