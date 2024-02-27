@@ -419,7 +419,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.79.4
+FROM ghost:5.79.6
 # ghost
 
 # bitnami/ghost
