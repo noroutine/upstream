@@ -111,7 +111,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-02-24T17-11-14Z
+FROM minio/minio:RELEASE.2024-02-26T09-33-48Z
 # minio/minio
 
 # coreos/etcd
@@ -119,7 +119,7 @@ FROM quay.io/coreos/etcd:v3.5.12
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.50.0
+FROM quay.io/prometheus/prometheus:v2.50.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -395,7 +395,7 @@ FROM quay.io/jupyterhub/repo2docker:2023.06.0-78.ga20dd1c
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.02.0
+FROM pihole/pihole:2024.02.2
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -411,7 +411,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.29.0
+FROM verdaccio/verdaccio:5.29.2
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -419,11 +419,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.79.4
+FROM ghost:5.79.6
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.79.4-debian-12-r2
+FROM bitnami/ghost:5.79.6-debian-12-r0
 # bitnami/ghost
 
 # matomo
@@ -443,7 +443,7 @@ FROM docker:25.0.3-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.9.0
+FROM quay.io/podman/stable:v4.9.3
 # podman/stable
 
 # jupyter/base-notebook
@@ -495,7 +495,7 @@ FROM bitnami/spark:3.5.0-debian-12-r18
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.50.0-debian-12-r0
+FROM bitnami/prometheus:2.50.1-debian-12-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -587,7 +587,7 @@ FROM bitnami/nginx:1.25.4-debian-12-r2
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.2.24-debian-12-r0
+FROM bitnami/minio:2024.2.26-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -1011,7 +1011,7 @@ FROM bitnami/kubectl:1.29.2-debian-12-r2
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.8.1-python3.11
+FROM apache/airflow:2.8.2-python3.11
 # apache/airflow
 
 # git-sync/git-sync
