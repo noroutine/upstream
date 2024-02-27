@@ -1,9 +1,10 @@
 {
-  "version": "dc41e218",
+  "version": "f09b5fa2",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
-      "ubuntu:jammy-20240125",
+      "ubuntu:noble-20240212",
+      "ubuntu:jammy-20240212",
       "ubuntu:focal-20240123",
       "alpine:3.19.1",
       "busybox:1.36.1",
