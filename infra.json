@@ -1,5 +1,5 @@
 {
-  "version": "f09b5fa2",
+  "version": "0bc8353d",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -84,7 +84,7 @@
       "gitlab/gitlab-runner:alpine3.19-v16.9.0",
       "gitlab/gitlab-ce:16.9.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.53.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.85.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.86.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.3",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.2.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -228,11 +228,11 @@
       "yugabytedb/yugabyte:2.20.1.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
-      "netbirdio/signal:0.26.0",
-      "netbirdio/management:0.26.0",
+      "netbirdio/signal:0.26.1",
+      "netbirdio/management:0.26.1",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.446-jdk17",
+      "jenkins/jenkins:2.447-jdk17",
       "jenkins/agent:3206.vb_15dcf73f6a_9-4-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.7.3",

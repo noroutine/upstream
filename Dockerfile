@@ -327,7 +327,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.53.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.85.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.86.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -903,11 +903,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.26.0
+FROM netbirdio/signal:0.26.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.26.0
+FROM netbirdio/management:0.26.1
 # netbirdio/management
 
 # coturn/coturn
@@ -919,7 +919,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.446-jdk17
+FROM jenkins/jenkins:2.447-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
