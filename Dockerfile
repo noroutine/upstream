@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.65.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.11
+FROM squidfunk/mkdocs-material:9.5.12
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -127,7 +127,7 @@ FROM quay.io/prometheus/prometheus:v2.50.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.26.0
+FROM quay.io/prometheus/alertmanager:v0.27.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
@@ -163,15 +163,15 @@ FROM grafana/grafana:10.3.3
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.9.4
+FROM grafana/loki:2.9.5
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.9.4
+FROM grafana/loki-canary:2.9.5
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.9.4
+FROM grafana/promtail:2.9.5
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -291,7 +291,7 @@ FROM heroku/heroku:22-cnb
 # heroku/heroku
 
 # heroku/procfile-cnb
-FROM heroku/procfile-cnb:2.0.2
+FROM heroku/procfile-cnb:3.0.0
 # heroku/procfile-cnb
 
 # paketobuildpacks/builder
@@ -315,7 +315,7 @@ FROM buildpacksio/lifecycle:0.18.5
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v16.9.0
+FROM gitlab/gitlab-runner:alpine3.19-v16.9.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -579,7 +579,7 @@ FROM bitnami/mongodb:7.0.5-debian-12-r5
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.23-debian-12-r8
+FROM bitnami/memcached:1.6.24-debian-12-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -695,7 +695,7 @@ FROM drakkan/sftpgo:v2.5.6
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.37.0
+FROM hasura/graphql-engine:v2.37.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -763,7 +763,7 @@ FROM cupcakearmy/cryptgeon:2.4.0
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.23-alpine3.19
+FROM memcached:1.6.24-alpine3.19
 # memcached
 
 # connecteverything/nats-operator
@@ -855,11 +855,11 @@ FROM haveagitgat/tdarr_node:2.17.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.22.0
+FROM gravitl/netmaker:v0.23.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.22.0
+FROM gravitl/netmaker-ui:v0.23.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -903,11 +903,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.26.1
+FROM netbirdio/signal:0.26.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.26.1
+FROM netbirdio/management:0.26.2
 # netbirdio/management
 
 # coturn/coturn
@@ -1059,7 +1059,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.17.3
+FROM hashicorp/consul:1.18.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
