@@ -483,7 +483,7 @@ FROM jupyter/all-spark-notebook:2023-10-20
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.3.2
+FROM rocker/shiny:4.3.3
 # rocker/shiny
 
 # caprover/caprover
