@@ -1,5 +1,5 @@
 {
-  "version": "dd67fb17",
+  "version": "68c17cc5",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -88,8 +88,8 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.3",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.2.0",
       "summerwind/actions-runner-controller:v0.27.6",
-      "summerwind/actions-runner:v2.313.0-ubuntu-22.04",
-      "summerwind/actions-runner-dind:v2.313.0-ubuntu-22.04",
+      "summerwind/actions-runner:v2.314.1-ubuntu-22.04",
+      "summerwind/actions-runner-dind:v2.314.1-ubuntu-22.04",
       "quay.io/brancz/kube-rbac-proxy:v0.16.0",
       "jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab",
       "noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b",
@@ -123,7 +123,7 @@
       "jupyter/datascience-notebook:2023-10-20",
       "jupyter/pyspark-notebook:2023-10-20",
       "jupyter/all-spark-notebook:2023-10-20",
-      "rocker/shiny:4.3.2",
+      "rocker/shiny:4.3.3",
       "caprover/caprover:1.11.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.0-debian-12-r18",
