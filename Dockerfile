@@ -903,7 +903,7 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.26.1
+FROM netbirdio/signal:0.26.2
 # netbirdio/signal
 
 # netbirdio/management
