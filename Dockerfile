@@ -171,7 +171,7 @@ FROM grafana/loki-canary:2.9.4
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.9.4
+FROM grafana/promtail:2.9.5
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
