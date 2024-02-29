@@ -315,7 +315,7 @@ FROM buildpacksio/lifecycle:0.18.5
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v16.9.0
+FROM gitlab/gitlab-runner:alpine3.19-v16.9.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
