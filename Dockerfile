@@ -731,15 +731,15 @@ FROM quay.io/argoproj/argo-events:v1.9.1
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.4
+FROM quay.io/argoproj/argocli:v3.5.5
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.4
+FROM quay.io/argoproj/workflow-controller:v3.5.5
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.4
+FROM quay.io/argoproj/argoexec:v3.5.5
 # argoproj/argoexec
 
 # redis
@@ -951,7 +951,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.23.1
+FROM locustio/locust:2.24.0
 # locustio/locust
 
 # postgrest/postgrest
@@ -1023,11 +1023,11 @@ FROM registry.k8s.io/git-sync/git-sync:v4.2.1
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.13.0
+FROM ghcr.io/kedacore/keda:2.13.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.13.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.13.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
