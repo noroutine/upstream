@@ -235,7 +235,7 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.5-jammy
+FROM mongo:7.0.6-jammy
 # mongo
 
 # wordpress
@@ -427,7 +427,7 @@ FROM ghost:5.79.6
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.79.6-debian-12-r0
+FROM bitnami/ghost:5.80.0-debian-12-r0
 # bitnami/ghost
 
 # matomo
@@ -435,7 +435,7 @@ FROM matomo:5.0.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.204.1
+FROM nocodb/nocodb:0.204.3
 # nocodb/nocodb
 
 # metabase/metabase
@@ -575,7 +575,7 @@ FROM bitnami/mariadb:11.2.3-debian-12-r4
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.5-debian-12-r5
+FROM bitnami/mongodb:7.0.6-debian-12-r0
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -1071,7 +1071,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.15.5
+FROM hashicorp/vault:1.15.6
 # hashicorp/vault
 
 # hashicorp/vault-k8s
