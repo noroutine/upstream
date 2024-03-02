@@ -423,7 +423,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.79.6
+FROM ghost:5.80.0
 # ghost
 
 # bitnami/ghost
@@ -719,7 +719,7 @@ FROM ghcr.io/dexidp/dex:v2.38.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.10.1
+FROM quay.io/argoproj/argocd:v2.10.2
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -803,7 +803,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.20.1
+FROM gcr.io/kaniko-project/executor:v1.21.0
 # kaniko-project/executor
 
 # iovisor/bpftrace

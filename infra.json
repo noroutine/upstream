@@ -1,5 +1,5 @@
 {
-  "version": "3a27d737",
+  "version": "081690a6",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -108,7 +108,7 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.29.2",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.79.6",
+      "ghost:5.80.0",
       "bitnami/ghost:5.80.0-debian-12-r0",
       "matomo:5.0.2-apache",
       "nocodb/nocodb:0.204.3",
@@ -182,7 +182,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.38.0",
-      "quay.io/argoproj/argocd:v2.10.1",
+      "quay.io/argoproj/argocd:v2.10.2",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.9.1",
       "quay.io/argoproj/argocli:v3.5.5",
@@ -203,7 +203,7 @@
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.7.6-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
-      "gcr.io/kaniko-project/executor:v1.20.1",
+      "gcr.io/kaniko-project/executor:v1.21.0",
       "quay.io/iovisor/bpftrace:v0.19.1",
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:21.0.2-21.32",
