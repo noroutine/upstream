@@ -495,7 +495,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.5.0-debian-12-r18
+FROM bitnami/spark:3.5.1-debian-12-r0
 # bitnami/spark
 
 # bitnami/prometheus
@@ -555,7 +555,7 @@ FROM bitnami/postgresql:16.2.0-debian-12-r5
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.19-debian-12-r0
+FROM bitnami/tomcat:10.1.19-debian-12-r1
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -563,7 +563,7 @@ FROM bitnami/jmx-exporter:0.20.0-debian-12-r11
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:23.0.7-debian-12-r0
+FROM bitnami/keycloak:23.0.7-debian-12-r1
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -587,7 +587,7 @@ FROM bitnami/nginx-ingress-controller:1.9.6-debian-12-r8
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.4-debian-12-r2
+FROM bitnami/nginx:1.25.4-debian-12-r3
 # bitnami/nginx
 
 # bitnami/minio
@@ -598,9 +598,9 @@ FROM bitnami/minio:2024.2.26-debian-12-r0
 FROM bitnami/minio-client:2024.2.24-debian-12-r0
 # bitnami/minio-client
 
-# bitnami/bitnami-shell
-FROM bitnami/bitnami-shell:11-debian-11-r135
-# bitnami/bitnami-shell
+# bitnami/os-shell
+FROM bitnami/os-shell:12-debian-12-r16
+# bitnami/os-shell
 
 # bitnami/metallb-controller
 FROM bitnami/metallb-controller:0.14.3-debian-12-r5
@@ -611,11 +611,11 @@ FROM bitnami/metallb-speaker:0.14.3-debian-12-r5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.3.3-debian-12-r3
+FROM bitnami/grafana:10.3.3-debian-12-r4
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.9.1-debian-12-r7
+FROM bitnami/grafana-image-renderer:3.10.0-debian-12-r0
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
