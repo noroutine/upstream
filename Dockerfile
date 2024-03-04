@@ -95,7 +95,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:23.0.7
+FROM quay.io/keycloak/keycloak:24.0.0
 # keycloak/keycloak
 
 # postgres
@@ -839,7 +839,7 @@ FROM outlinewiki/outline:0.75.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.3
+FROM syncthing/syncthing:1.27.4
 # syncthing/syncthing
 
 # jellyfin/jellyfin
