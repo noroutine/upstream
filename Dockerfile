@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-02-26T09-33-48Z
+FROM minio/minio:RELEASE.2024-03-03T17-50-39Z
 # minio/minio
 
 # coreos/etcd
@@ -207,7 +207,7 @@ FROM ribbybibby/ssl-exporter:2.4.2
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.47.2
+FROM gcr.io/cadvisor/cadvisor:v0.49.1
 # cadvisor/cadvisor
 
 # prymitive/karma
@@ -591,11 +591,11 @@ FROM bitnami/nginx:1.25.4-debian-12-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.2.26-debian-12-r0
+FROM bitnami/minio:2024.3.3-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.2.24-debian-12-r0
+FROM bitnami/minio-client:2024.3.3-debian-12-r0
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -751,7 +751,7 @@ FROM listmonk/listmonk:v3.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.30.3
+FROM vaultwarden/server:1.30.5
 # vaultwarden/server
 
 # boky/postfix
