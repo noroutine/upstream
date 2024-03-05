@@ -107,7 +107,7 @@ FROM atlassian/jira-software:9.14.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:28.0.2-apache
+FROM nextcloud:28.0.3-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -151,11 +151,11 @@ FROM quay.io/prometheus/pushgateway:v1.7.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.71.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.72.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.71.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.72.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -435,11 +435,11 @@ FROM matomo:5.0.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.204.3
+FROM nocodb/nocodb:0.204.4
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.48.7
+FROM metabase/metabase:v0.48.8
 # metabase/metabase
 
 # docker
@@ -503,7 +503,7 @@ FROM bitnami/prometheus:2.50.1-debian-12-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.71.2-debian-12-r7
+FROM bitnami/prometheus-operator:0.72.0-debian-12-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -759,7 +759,7 @@ FROM boky/postfix:v4.1.0-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.4.0
+FROM cupcakearmy/cryptgeon:2.5.1
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -939,11 +939,11 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:v1.0.0
+FROM kubernetesui/dashboard-api:1.1.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:v1.0.0
+FROM kubernetesui/dashboard-web:1.1.1
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
