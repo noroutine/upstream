@@ -11,7 +11,7 @@ FROM ubuntu:jammy-20240212
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240123
+FROM ubuntu:focal-20240216
 # ubuntu
 
 # alpine
@@ -71,11 +71,11 @@ FROM python:3.12.2-slim-bookworm
 # python
 
 # golang
-FROM golang:1.22.0-bookworm
+FROM golang:1.22.1-bookworm
 # golang
 
 # golang
-FROM golang:1.22.0-alpine3.19
+FROM golang:1.22.1-alpine3.19
 # golang
 
 # traefik
@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-03-03T17-50-39Z
+FROM minio/minio:RELEASE.2024-03-05T04-48-44Z
 # minio/minio
 
 # coreos/etcd
@@ -591,7 +591,7 @@ FROM bitnami/nginx:1.25.4-debian-12-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.3.3-debian-12-r0
+FROM bitnami/minio:2024.3.5-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -919,7 +919,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.447-jdk17
+FROM jenkins/jenkins:2.448-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -959,7 +959,7 @@ FROM postgrest/postgrest:v12.0.2
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
-FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.0
+FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.1
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
@@ -1075,7 +1075,7 @@ FROM hashicorp/vault:1.15.6
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.3.1
+FROM hashicorp/vault-k8s:1.4.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
