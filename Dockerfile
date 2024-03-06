@@ -919,7 +919,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.447-jdk17
+FROM jenkins/jenkins:2.448-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
