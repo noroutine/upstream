@@ -159,7 +159,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.72.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.3.3
+FROM grafana/grafana:10.4.0
 # grafana/grafana
 
 # grafana/loki
