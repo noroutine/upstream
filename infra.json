@@ -1,9 +1,9 @@
 {
-  "version": "833bd682",
+  "version": "689bce68",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
-      "ubuntu:noble-20240212",
+      "ubuntu:noble-20240225",
       "ubuntu:jammy-20240227",
       "ubuntu:focal-20240216",
       "alpine:3.19.1",
