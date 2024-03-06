@@ -7,7 +7,7 @@ FROM ubuntu:noble-20240212
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240212
+FROM ubuntu:jammy-20240227
 # ubuntu
 
 # ubuntu
@@ -51,11 +51,11 @@ FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:5a099c8c39c1eaacf5f20011a4704b33e9b2f8b5559d7ba453cf616accf90c6d
+FROM buildpack-deps:focal@sha256:43d3c37b0b77687dac2c85f36cc78a8d7ba9d75699df4a15837516767442e88d
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:31d0c494bc7400de931ec94b364886de3c36282586c30d0678439d763265c806
+FROM buildpack-deps:jammy@sha256:ea6528431a9af0aacf1b5ad0f03c8b72a0fc9e49901401ef765b03c8872bcd43
 # buildpack-deps
 
 # php
@@ -939,7 +939,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.1.0
+FROM kubernetesui/dashboard-api:1.2.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web

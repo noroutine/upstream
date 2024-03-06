@@ -1,10 +1,10 @@
 {
-  "version": "b5dcd3aa",
+  "version": "833bd682",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
       "ubuntu:noble-20240212",
-      "ubuntu:jammy-20240212",
+      "ubuntu:jammy-20240227",
       "ubuntu:focal-20240216",
       "alpine:3.19.1",
       "busybox:1.36.1",
@@ -15,8 +15,8 @@
       "gcr.io/distroless/cc-debian11",
       "gcr.io/distroless/nodejs-debian11",
       "buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc",
-      "buildpack-deps:focal@sha256:5a099c8c39c1eaacf5f20011a4704b33e9b2f8b5559d7ba453cf616accf90c6d",
-      "buildpack-deps:jammy@sha256:31d0c494bc7400de931ec94b364886de3c36282586c30d0678439d763265c806",
+      "buildpack-deps:focal@sha256:43d3c37b0b77687dac2c85f36cc78a8d7ba9d75699df4a15837516767442e88d",
+      "buildpack-deps:jammy@sha256:ea6528431a9af0aacf1b5ad0f03c8b72a0fc9e49901401ef765b03c8872bcd43",
       "php:8.3.3-apache-bookworm",
       "python:3.12.2-bookworm",
       "python:3.12.2-slim-bookworm",
@@ -237,7 +237,7 @@
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.7.3",
       "kubernetesui/dashboard:v2.7.0",
-      "kubernetesui/dashboard-api:1.1.0",
+      "kubernetesui/dashboard-api:1.2.0",
       "kubernetesui/dashboard-web:1.1.1",
       "kubernetesui/metrics-scraper:v1.0.9",
       "locustio/locust:2.24.0",
