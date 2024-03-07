@@ -943,7 +943,7 @@ FROM kubernetesui/dashboard-api:1.2.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.1.1
+FROM kubernetesui/dashboard-web:1.2.0
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
