@@ -83,7 +83,7 @@ FROM traefik:v2.11.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.65.0
+FROM sonatype/nexus3:3.66.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -243,7 +243,7 @@ FROM wordpress:6.4.3-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.3
+FROM dpage/pgadmin4:8.4
 # dpage/pgadmin4
 
 # adminer
@@ -603,7 +603,7 @@ FROM bitnami/minio:2024.3.5-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.3.3-debian-12-r0
+FROM bitnami/minio-client:2024.3.7-debian-12-r0
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -951,7 +951,7 @@ FROM kubernetesui/dashboard-api:1.2.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.2.0
+FROM kubernetesui/dashboard-web:1.2.1
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
