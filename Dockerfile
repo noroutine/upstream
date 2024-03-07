@@ -803,7 +803,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.21.0
+FROM gcr.io/kaniko-project/executor:v1.21.1
 # kaniko-project/executor
 
 # iovisor/bpftrace
