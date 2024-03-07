@@ -159,7 +159,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.72.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.3.3
+FROM grafana/grafana:10.4.0
 # grafana/grafana
 
 # grafana/loki
@@ -290,6 +290,14 @@ FROM heroku/heroku:22-cnb-build
 FROM heroku/heroku:22-cnb
 # heroku/heroku
 
+# heroku/heroku
+FROM heroku/heroku:24-build
+# heroku/heroku
+
+# heroku/heroku
+FROM heroku/heroku:24
+# heroku/heroku
+
 # heroku/procfile-cnb
 FROM heroku/procfile-cnb:3.0.0
 # heroku/procfile-cnb
@@ -319,7 +327,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.9.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.9.1-ce.0
+FROM gitlab/gitlab-ce:16.9.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -331,7 +339,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.86.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.3
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.10.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -803,7 +811,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.21.0
+FROM gcr.io/kaniko-project/executor:v1.21.1
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -943,7 +951,7 @@ FROM kubernetesui/dashboard-api:1.2.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.1.1
+FROM kubernetesui/dashboard-web:1.2.0
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
