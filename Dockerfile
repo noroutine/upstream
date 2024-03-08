@@ -319,7 +319,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.18.5
+FROM buildpacksio/lifecycle:0.19.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.80.0
+FROM ghost:5.80.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.80.0-debian-12-r0
+FROM bitnami/ghost:5.80.1-debian-12-r0
 # bitnami/ghost
 
 # matomo
@@ -451,7 +451,7 @@ FROM metabase/metabase:v0.48.8
 # metabase/metabase
 
 # docker
-FROM docker:25.0.3-dind
+FROM docker:25.0.4-dind
 # docker
 
 # podman/stable
@@ -951,7 +951,7 @@ FROM kubernetesui/dashboard-api:1.2.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.2.1
+FROM kubernetesui/dashboard-web:1.2.2
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
