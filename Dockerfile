@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.80.1
+FROM ghost:5.80.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.80.1-debian-12-r0
+FROM bitnami/ghost:5.80.2-debian-12-r0
 # bitnami/ghost
 
 # matomo
@@ -947,7 +947,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.2.0
+FROM kubernetesui/dashboard-api:1.3.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
