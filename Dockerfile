@@ -211,7 +211,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.49.1
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.118
+FROM ghcr.io/prymitive/karma:v0.119
 # prymitive/karma
 
 # cortexproject/cortex
@@ -439,7 +439,7 @@ FROM bitnami/ghost:5.80.2-debian-12-r0
 # bitnami/ghost
 
 # matomo
-FROM matomo:5.0.2-apache
+FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb

@@ -1,5 +1,5 @@
 {
-  "version": "d128c92e",
+  "version": "fbc2c589",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -55,7 +55,7 @@
       "braedon/prometheus-es-exporter:0.14.1",
       "ribbybibby/ssl-exporter:2.4.2",
       "gcr.io/cadvisor/cadvisor:v0.49.1",
-      "ghcr.io/prymitive/karma:v0.118",
+      "ghcr.io/prymitive/karma:v0.119",
       "quay.io/cortexproject/cortex:v1.16.0",
       "docker.elastic.co/elasticsearch/elasticsearch:8.12.2",
       "docker.elastic.co/logstash/logstash:8.12.2",
@@ -112,7 +112,7 @@
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.80.2",
       "bitnami/ghost:5.80.2-debian-12-r0",
-      "matomo:5.0.2-apache",
+      "matomo:5.0.3-apache",
       "nocodb/nocodb:0.204.4",
       "metabase/metabase:v0.48.8",
       "docker:25.0.4-dind",
