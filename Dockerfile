@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.25.4-debian-12-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.3.7-debian-12-r0
+FROM bitnami/minio:2024.3.10-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
