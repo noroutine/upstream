@@ -1,5 +1,5 @@
 {
-  "version": "7de64614",
+  "version": "2f40e02f",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -258,7 +258,7 @@
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.2",
       "velero/velero-restic-restore-helper:v1.9.7",
       "bitnami/kubectl:1.29.2-debian-12-r2",
-      "apache/airflow:2.8.2-python3.11",
+      "apache/airflow:2.8.3-python3.11",
       "registry.k8s.io/git-sync/git-sync:v4.2.1",
       "ghcr.io/kedacore/keda:2.13.1",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.13.1",
