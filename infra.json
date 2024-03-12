@@ -1,5 +1,5 @@
 {
-  "version": "93078dfb",
+  "version": "98eb67c5",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -275,8 +275,8 @@
       "hashicorp/vault:1.15.6",
       "hashicorp/vault-k8s:1.4.0",
       "hashicorp/vault-csi-provider:1.4.1",
-      "quay.io/strimzi/operator:0.39.0",
-      "quay.io/strimzi/kafka:0.39.0-kafka-3.6.1",
+      "quay.io/strimzi/operator:0.40.0",
+      "quay.io/strimzi/kafka:0.40.0-kafka-3.7.0",
       "registry.k8s.io/pause:3.9",
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "registry.k8s.io/kube-apiserver:v1.29.2",
