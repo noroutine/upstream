@@ -1323,11 +1323,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.29.0
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.1.2
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.2.0
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.1.2
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.2.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
