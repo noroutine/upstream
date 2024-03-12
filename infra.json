@@ -1,5 +1,5 @@
 {
-  "version": "90c78002",
+  "version": "93078dfb",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -234,7 +234,7 @@
       "netbirdio/management:0.26.2",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.448-jdk17",
+      "jenkins/jenkins:2.449-jdk17",
       "jenkins/agent:3206.vb_15dcf73f6a_9-4-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.7.3",
@@ -318,7 +318,7 @@
       "calico/pod2daemon-flexvol:v3.27.2",
       "calico/node-driver-registrar:v3.27.2",
       "calico/csi:v3.27.2",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.15.1",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.15.2",
       "longhornio/longhorn-manager:v1.6.0",
       "longhornio/longhorn-ui:v1.6.0",
       "longhornio/longhorn-engine:v1.6.0",
@@ -331,7 +331,7 @@
       "longhornio/csi-provisioner:v3.6.2",
       "longhornio/csi-attacher:v4.4.2",
       "longhornio/livenessprobe:v2.12.0",
-      "longhornio/support-bundle-kit:v0.0.33",
+      "longhornio/support-bundle-kit:v0.0.36",
       "gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.29.0",
       "gcr.io/cloud-provider-vsphere/csi/release/driver:v3.2.0",
       "gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.2.0",

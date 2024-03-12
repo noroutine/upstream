@@ -927,7 +927,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.448-jdk17
+FROM jenkins/jenkins:2.449-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1263,7 +1263,7 @@ FROM calico/csi:v3.27.2
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.1
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.2
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
@@ -1315,7 +1315,7 @@ FROM longhornio/livenessprobe:v2.12.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.33
+FROM longhornio/support-bundle-kit:v0.0.36
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
