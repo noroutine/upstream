@@ -103,7 +103,7 @@ FROM postgres:16.2-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.14.0
+FROM atlassian/jira-software:9.14.1
 # atlassian/jira-software
 
 # nextcloud
@@ -623,7 +623,7 @@ FROM bitnami/grafana:10.3.3-debian-12-r4
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.10.0-debian-12-r0
+FROM bitnami/grafana-image-renderer:3.10.1-debian-12-r0
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -911,11 +911,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.26.2
+FROM netbirdio/signal:0.26.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.26.2
+FROM netbirdio/management:0.26.3
 # netbirdio/management
 
 # coturn/coturn
@@ -983,7 +983,7 @@ FROM guacamole/guacd:1.5.4
 # guacamole/guacd
 
 # velero/velero
-FROM velero/velero:v1.13.0
+FROM velero/velero:v1.13.1
 # velero/velero
 
 # velero/velero-plugin-for-csi
@@ -991,7 +991,7 @@ FROM velero/velero-plugin-for-csi:v0.7.0
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.9.0
+FROM velero/velero-plugin-for-aws:v1.9.1
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
@@ -999,7 +999,7 @@ FROM velero/velero-plugin-for-gcp:v1.9.0
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.9.0
+FROM velero/velero-plugin-for-microsoft-azure:v1.9.1
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
