@@ -627,11 +627,11 @@ FROM bitnami/grafana-image-renderer:3.10.1-debian-12-r0
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.17.3-debian-12-r4
+FROM bitnami/consul:1.18.0-debian-12-r1
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.11-debian-12-r4
+FROM bitnami/nats:2.10.12-debian-12-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -779,7 +779,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.11-alpine3.19
+FROM nats:2.10.12-alpine3.19
 # nats
 
 # natsio/prometheus-nats-exporter

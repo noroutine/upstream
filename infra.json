@@ -1,5 +1,5 @@
 {
-  "version": "731f4c48",
+  "version": "69d884fd",
   "upstream": {
     "images": [
       "debian:bookworm-20240211-slim",
@@ -159,8 +159,8 @@
       "bitnami/metallb-speaker:0.14.3-debian-12-r5",
       "bitnami/grafana:10.3.3-debian-12-r4",
       "bitnami/grafana-image-renderer:3.10.1-debian-12-r0",
-      "bitnami/consul:1.17.3-debian-12-r4",
-      "bitnami/nats:2.10.11-debian-12-r4",
+      "bitnami/consul:1.18.0-debian-12-r1",
+      "bitnami/nats:2.10.12-debian-12-r0",
       "bitnami/kube-state-metrics:2.10.1-debian-12-r15",
       "bitnami/metrics-server:0.7.0-debian-12-r7",
       "bitnami/kubeapps-dashboard:2.9.0-debian-12-r18",
@@ -197,7 +197,7 @@
       "cupcakearmy/cryptgeon:2.5.1",
       "memcached:1.6.24-alpine3.19",
       "connecteverything/nats-operator:0.8.0",
-      "nats:2.10.11-alpine3.19",
+      "nats:2.10.12-alpine3.19",
       "natsio/prometheus-nats-exporter:0.14.0",
       "natsio/nats-server-config-reloader:0.14.1",
       "masipcat/wireguard-go:0.0.20230223",
