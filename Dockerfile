@@ -623,7 +623,7 @@ FROM bitnami/grafana:10.3.3-debian-12-r4
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.10.0-debian-12-r0
+FROM bitnami/grafana-image-renderer:3.10.1-debian-12-r0
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
