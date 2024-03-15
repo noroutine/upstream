@@ -603,7 +603,7 @@ FROM bitnami/minio:2024.3.15-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.3.9-debian-12-r0
+FROM bitnami/minio-client:2024.3.13-debian-12-r0
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -1107,35 +1107,35 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.2
+FROM registry.k8s.io/kube-apiserver:v1.29.3
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.2
+FROM registry.k8s.io/kube-proxy:v1.29.3
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.2
+FROM registry.k8s.io/kube-scheduler:v1.29.3
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.2
+FROM registry.k8s.io/kube-controller-manager:v1.29.3
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.7
+FROM registry.k8s.io/kube-apiserver:v1.28.8
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.7
+FROM registry.k8s.io/kube-proxy:v1.28.8
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.7
+FROM registry.k8s.io/kube-scheduler:v1.28.8
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.7
+FROM registry.k8s.io/kube-controller-manager:v1.28.8
 # kube-controller-manager
 
 # kube-apiserver
@@ -1155,19 +1155,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.27.11
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.14
+FROM registry.k8s.io/kube-apiserver:v1.26.15
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.14
+FROM registry.k8s.io/kube-proxy:v1.26.15
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.14
+FROM registry.k8s.io/kube-scheduler:v1.26.15
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.14
+FROM registry.k8s.io/kube-controller-manager:v1.26.15
 # kube-controller-manager
 
 # kube-apiserver
@@ -1263,7 +1263,7 @@ FROM calico/csi:v3.27.2
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.2
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.3
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
