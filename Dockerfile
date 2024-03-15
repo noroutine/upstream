@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240211-slim
+FROM debian:bookworm-20240311-slim
 # debian
 
 # ubuntu
@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-03-10T02-53-48Z
+FROM minio/minio:RELEASE.2024-03-15T01-07-19Z
 # minio/minio
 
 # coreos/etcd
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.204.5
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.48.8
+FROM metabase/metabase:v0.49.0
 # metabase/metabase
 
 # docker
@@ -571,7 +571,7 @@ FROM bitnami/jmx-exporter:0.20.0-debian-12-r11
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:23.0.7-debian-12-r1
+FROM bitnami/keycloak:23.0.7-debian-12-r3
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.25.4-debian-12-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.3.10-debian-12-r0
+FROM bitnami/minio:2024.3.15-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
@@ -727,7 +727,7 @@ FROM ghcr.io/dexidp/dex:v2.38.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.10.2
+FROM quay.io/argoproj/argocd:v2.10.3
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
