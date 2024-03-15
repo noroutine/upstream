@@ -1139,19 +1139,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.28.8
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.11
+FROM registry.k8s.io/kube-apiserver:v1.27.12
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.11
+FROM registry.k8s.io/kube-proxy:v1.27.12
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.11
+FROM registry.k8s.io/kube-scheduler:v1.27.12
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.11
+FROM registry.k8s.io/kube-controller-manager:v1.27.12
 # kube-controller-manager
 
 # kube-apiserver
