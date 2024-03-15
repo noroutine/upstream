@@ -443,7 +443,7 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.204.4
+FROM nocodb/nocodb:0.204.5
 # nocodb/nocodb
 
 # metabase/metabase
@@ -939,7 +939,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.3
+FROM netboxcommunity/netbox:v3.7.4
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
