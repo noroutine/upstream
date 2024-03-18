@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy@sha256:ea6528431a9af0aacf1b5ad0f03c8b72a0fc9e49901401e
 # buildpack-deps
 
 # php
-FROM php:8.3.3-apache-bookworm
+FROM php:8.3.4-apache-bookworm
 # php
 
 # python
@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.66.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.13
+FROM squidfunk/mkdocs-material:9.5.14
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.80.2
+FROM ghost:5.80.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.80.2-debian-12-r0
+FROM bitnami/ghost:5.80.3-debian-12-r0
 # bitnami/ghost
 
 # matomo
