@@ -1,5 +1,5 @@
 {
-  "version": "c7781e32",
+  "version": "2304e0a5",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -86,7 +86,7 @@
       "gitlab/gitlab-runner:alpine3.19-v16.9.1",
       "gitlab/gitlab-ce:16.9.2-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.53.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.87.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.88.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.10.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.2.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -113,7 +113,7 @@
       "ghost:5.80.4",
       "bitnami/ghost:5.80.4-debian-12-r0",
       "matomo:5.0.3-apache",
-      "nocodb/nocodb:0.204.5",
+      "nocodb/nocodb:0.204.7",
       "metabase/metabase:v0.49.0",
       "docker:25.0.4-dind",
       "quay.io/podman/stable:v4.9.3",
@@ -171,9 +171,9 @@
       "bitnami/kube-rbac-proxy:0.16.0-debian-12-r3",
       "bitnami/openldap:2.6.7-debian-12-r0",
       "bitnami/sealed-secrets-controller:0.26.0-debian-12-r2",
-      "bitnami/trivy:0.49.1-debian-12-r5",
+      "bitnami/trivy:0.50.0-debian-12-r0",
       "bitnami/kubectl:1.29.2-debian-12-r2",
-      "aquasec/trivy:0.49.1",
+      "aquasec/trivy:0.50.0",
       "ghcr.io/external-secrets/external-secrets:v0.9.13",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",

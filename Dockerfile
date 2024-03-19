@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.53.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.87.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.88.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -443,7 +443,7 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.204.5
+FROM nocodb/nocodb:0.204.7
 # nocodb/nocodb
 
 # metabase/metabase
@@ -675,7 +675,7 @@ FROM bitnami/sealed-secrets-controller:0.26.0-debian-12-r2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.49.1-debian-12-r5
+FROM bitnami/trivy:0.50.0-debian-12-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -683,7 +683,7 @@ FROM bitnami/kubectl:1.29.2-debian-12-r2
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.49.1
+FROM aquasec/trivy:0.50.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
