@@ -583,7 +583,7 @@ FROM bitnami/mariadb:11.2.3-debian-12-r4
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.6-debian-12-r0
+FROM bitnami/mongodb:7.0.7-debian-12-r0
 # bitnami/mongodb
 
 # bitnami/memcached
