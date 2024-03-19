@@ -235,7 +235,7 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.6-jammy
+FROM mongo:7.0.7-jammy
 # mongo
 
 # wordpress
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.80.3
+FROM ghost:5.80.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.80.3-debian-12-r0
+FROM bitnami/ghost:5.80.4-debian-12-r0
 # bitnami/ghost
 
 # matomo
@@ -583,7 +583,7 @@ FROM bitnami/mariadb:11.2.3-debian-12-r4
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.6-debian-12-r0
+FROM bitnami/mongodb:7.0.7-debian-12-r0
 # bitnami/mongodb
 
 # bitnami/memcached

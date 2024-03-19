@@ -1,5 +1,5 @@
 {
-  "version": "a2663822",
+  "version": "c7781e32",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -61,7 +61,7 @@
       "docker.elastic.co/logstash/logstash:8.12.2",
       "docker.elastic.co/kibana/kibana:8.12.2",
       "alerta/alerta-web:9.0.1",
-      "mongo:7.0.6-jammy",
+      "mongo:7.0.7-jammy",
       "wordpress:6.4.3-apache",
       "dpage/pgadmin4:8.4",
       "adminer:4.8.1",
@@ -110,8 +110,8 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.29.2",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.80.3",
-      "bitnami/ghost:5.80.3-debian-12-r0",
+      "ghost:5.80.4",
+      "bitnami/ghost:5.80.4-debian-12-r0",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.204.5",
       "metabase/metabase:v0.49.0",
@@ -148,7 +148,7 @@
       "bitnami/keycloak:23.0.7-debian-12-r3",
       "bitnami/keycloak-config-cli:5.10.0-debian-12-r9",
       "bitnami/mariadb:11.2.3-debian-12-r4",
-      "bitnami/mongodb:7.0.6-debian-12-r0",
+      "bitnami/mongodb:7.0.7-debian-12-r0",
       "bitnami/memcached:1.6.24-debian-12-r0",
       "bitnami/nginx-ingress-controller:1.9.6-debian-12-r8",
       "bitnami/nginx:1.25.4-debian-12-r3",
