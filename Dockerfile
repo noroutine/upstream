@@ -123,7 +123,7 @@ FROM quay.io/coreos/etcd:v3.5.12
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.50.1
+FROM quay.io/prometheus/prometheus:v2.51.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -451,7 +451,7 @@ FROM metabase/metabase:v0.49.0
 # metabase/metabase
 
 # docker
-FROM docker:25.0.4-dind
+FROM docker:25.0.5-dind
 # docker
 
 # podman/stable
@@ -507,7 +507,7 @@ FROM bitnami/spark:3.5.1-debian-12-r0
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.50.1-debian-12-r0
+FROM bitnami/prometheus:2.51.0-debian-12-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -587,7 +587,7 @@ FROM bitnami/mongodb:7.0.7-debian-12-r0
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.24-debian-12-r0
+FROM bitnami/memcached:1.6.25-debian-12-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller

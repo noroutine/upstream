@@ -1,5 +1,5 @@
 {
-  "version": "2304e0a5",
+  "version": "4b8b83a1",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -33,7 +33,7 @@
       "haproxytech/haproxy-debian:3.0",
       "minio/minio:RELEASE.2024-03-15T01-07-19Z",
       "quay.io/coreos/etcd:v3.5.12",
-      "quay.io/prometheus/prometheus:v2.50.1",
+      "quay.io/prometheus/prometheus:v2.51.0",
       "quay.io/prometheus/alertmanager:v0.27.0",
       "quay.io/prometheus/node-exporter:v1.7.0",
       "quay.io/prometheus/consul-exporter:v0.11.0",
@@ -115,7 +115,7 @@
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.204.7",
       "metabase/metabase:v0.49.0",
-      "docker:25.0.4-dind",
+      "docker:25.0.5-dind",
       "quay.io/podman/stable:v4.9.3",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
@@ -129,7 +129,7 @@
       "caprover/caprover:1.11.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.1-debian-12-r0",
-      "bitnami/prometheus:2.50.1-debian-12-r0",
+      "bitnami/prometheus:2.51.0-debian-12-r0",
       "bitnami/prometheus-operator:0.72.0-debian-12-r0",
       "bitnami/node-exporter:1.7.0-debian-12-r12",
       "bitnami/blackbox-exporter:0.24.0-debian-12-r24",
@@ -149,7 +149,7 @@
       "bitnami/keycloak-config-cli:5.10.0-debian-12-r9",
       "bitnami/mariadb:11.2.3-debian-12-r4",
       "bitnami/mongodb:7.0.7-debian-12-r0",
-      "bitnami/memcached:1.6.24-debian-12-r0",
+      "bitnami/memcached:1.6.25-debian-12-r0",
       "bitnami/nginx-ingress-controller:1.9.6-debian-12-r8",
       "bitnami/nginx:1.25.4-debian-12-r3",
       "bitnami/minio:2024.3.15-debian-12-r0",
