@@ -159,7 +159,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.72.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.4.0
+FROM grafana/grafana:10.4.1
 # grafana/grafana
 
 # grafana/loki
@@ -435,7 +435,7 @@ FROM ghost:5.80.4
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.80.4-debian-12-r0
+FROM bitnami/ghost:5.80.5-debian-12-r0
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.204.7
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.0
+FROM metabase/metabase:v0.49.1
 # metabase/metabase
 
 # docker
@@ -619,7 +619,7 @@ FROM bitnami/metallb-speaker:0.14.3-debian-12-r5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.3.3-debian-12-r4
+FROM bitnami/grafana:10.4.1-debian-12-r0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer

@@ -1,5 +1,5 @@
 {
-  "version": "4b982284",
+  "version": "df2875cb",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -42,7 +42,7 @@
       "quay.io/prometheus/pushgateway:v1.7.0",
       "quay.io/prometheus-operator/prometheus-operator:v0.72.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.72.0",
-      "grafana/grafana:10.4.0",
+      "grafana/grafana:10.4.1",
       "grafana/loki:2.9.5",
       "grafana/loki-canary:2.9.5",
       "grafana/promtail:2.9.5",
@@ -111,10 +111,10 @@
       "verdaccio/verdaccio:5.29.2",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.80.4",
-      "bitnami/ghost:5.80.4-debian-12-r0",
+      "bitnami/ghost:5.80.5-debian-12-r0",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.204.7",
-      "metabase/metabase:v0.49.0",
+      "metabase/metabase:v0.49.1",
       "docker:25.0.5-dind",
       "quay.io/podman/stable:v4.9.3",
       "jupyter/base-notebook:2023-10-20",
@@ -157,7 +157,7 @@
       "bitnami/os-shell:12-debian-12-r16",
       "bitnami/metallb-controller:0.14.3-debian-12-r5",
       "bitnami/metallb-speaker:0.14.3-debian-12-r5",
-      "bitnami/grafana:10.3.3-debian-12-r4",
+      "bitnami/grafana:10.4.1-debian-12-r0",
       "bitnami/grafana-image-renderer:3.10.1-debian-12-r0",
       "bitnami/consul:1.18.0-debian-12-r1",
       "bitnami/nats:2.10.12-debian-12-r0",
