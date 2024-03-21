@@ -771,7 +771,7 @@ FROM cupcakearmy/cryptgeon:2.5.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.24-alpine3.19
+FROM memcached:1.6.25-alpine3.19
 # memcached
 
 # connecteverything/nats-operator
@@ -959,7 +959,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.24.0
+FROM locustio/locust:2.24.1
 # locustio/locust
 
 # postgrest/postgrest

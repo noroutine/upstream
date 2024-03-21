@@ -1,5 +1,5 @@
 {
-  "version": "fe7053a9",
+  "version": "b4b5ad8d",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -195,7 +195,7 @@
       "vaultwarden/server:1.30.5",
       "boky/postfix:v4.1.0-alpine",
       "cupcakearmy/cryptgeon:2.5.1",
-      "memcached:1.6.24-alpine3.19",
+      "memcached:1.6.25-alpine3.19",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.12-alpine3.19",
       "natsio/prometheus-nats-exporter:0.14.0",
@@ -242,7 +242,7 @@
       "kubernetesui/dashboard-api:1.3.0",
       "kubernetesui/dashboard-web:1.2.2",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.24.0",
+      "locustio/locust:2.24.1",
       "postgrest/postgrest:v12.0.2",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.1",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.6.0",
