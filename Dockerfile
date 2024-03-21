@@ -371,23 +371,23 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.2.1
+FROM jupyterhub/k8s-hub:3.3.2
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.2.1
+FROM jupyterhub/k8s-secret-sync:3.3.2
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.2.1
+FROM jupyterhub/k8s-network-tools:3.3.2
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.2.1
+FROM jupyterhub/k8s-image-awaiter:3.3.2
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:3.2.1
+FROM jupyterhub/k8s-singleuser-sample:3.3.2
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
@@ -395,7 +395,7 @@ FROM jupyterhub/configurable-http-proxy:4.6.1
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.11
+FROM registry.k8s.io/kube-scheduler:v1.28.8
 # kube-scheduler
 
 # pause
