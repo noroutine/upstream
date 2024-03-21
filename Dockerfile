@@ -711,7 +711,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.69
+FROM stakater/reloader:v1.0.71
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -927,7 +927,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.449-jdk17
+FROM jenkins/jenkins:2.450-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
