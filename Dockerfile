@@ -1343,11 +1343,11 @@ FROM registry.k8s.io/sig-storage/csi-attacher:v4.5.1
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.10.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.10.1
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v4.0.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v4.0.1
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
