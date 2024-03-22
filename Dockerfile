@@ -703,7 +703,7 @@ FROM drakkan/sftpgo:v2.5.6
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.37.1
+FROM hasura/graphql-engine:v2.38.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
