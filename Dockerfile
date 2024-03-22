@@ -323,7 +323,7 @@ FROM buildpacksio/lifecycle:0.19.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v16.9.1
+FROM gitlab/gitlab-runner:alpine3.19-v16.10.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.80.4
+FROM ghost:5.80.5
 # ghost
 
 # bitnami/ghost
@@ -1351,15 +1351,15 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v4.0.1
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v7.0.1
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v7.0.2
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v7.0.1
+FROM registry.k8s.io/sig-storage/snapshot-controller:v7.0.2
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.1
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.2
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
