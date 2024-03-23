@@ -1,5 +1,5 @@
 {
-  "version": "d8b2c1e0",
+  "version": "16b0e768",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -43,9 +43,9 @@
       "quay.io/prometheus-operator/prometheus-operator:v0.72.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.72.0",
       "grafana/grafana:10.4.1",
-      "grafana/loki:2.9.5",
-      "grafana/loki-canary:2.9.5",
-      "grafana/promtail:2.9.5",
+      "grafana/loki:2.9.6",
+      "grafana/loki-canary:2.9.6",
+      "grafana/promtail:2.9.6",
       "nginxinc/nginx-unprivileged:1.25.4-alpine-slim",
       "nginxinc/nginx-unprivileged:1.25.4-alpine-slim",
       "httpd:2.4.58-alpine",
@@ -113,7 +113,7 @@
       "ghost:5.80.5",
       "bitnami/ghost:5.80.5-debian-12-r0",
       "matomo:5.0.3-apache",
-      "nocodb/nocodb:0.204.7",
+      "nocodb/nocodb:0.204.8",
       "metabase/metabase:v0.49.1",
       "docker:25.0.5-dind",
       "quay.io/podman/stable:v4.9.3",

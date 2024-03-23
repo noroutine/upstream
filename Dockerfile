@@ -163,15 +163,15 @@ FROM grafana/grafana:10.4.1
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.9.5
+FROM grafana/loki:2.9.6
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.9.5
+FROM grafana/loki-canary:2.9.6
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.9.5
+FROM grafana/promtail:2.9.6
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -443,7 +443,7 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.204.7
+FROM nocodb/nocodb:0.204.8
 # nocodb/nocodb
 
 # metabase/metabase
