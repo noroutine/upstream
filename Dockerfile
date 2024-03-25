@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.66.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.14
+FROM squidfunk/mkdocs-material:9.5.15
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -331,7 +331,7 @@ FROM gitlab/gitlab-ce:16.10.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v1.53.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -371,23 +371,23 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.3.2
+FROM jupyterhub/k8s-hub:3.3.3
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.3.2
+FROM jupyterhub/k8s-secret-sync:3.3.3
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.3.2
+FROM jupyterhub/k8s-network-tools:3.3.3
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.3.2
+FROM jupyterhub/k8s-image-awaiter:3.3.3
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:3.3.2
+FROM jupyterhub/k8s-singleuser-sample:3.3.3
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
@@ -403,7 +403,7 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-78.ga20dd1c
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-88.gf667caf
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -443,7 +443,7 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.204.8
+FROM nocodb/nocodb:0.204.9
 # nocodb/nocodb
 
 # metabase/metabase
@@ -767,7 +767,7 @@ FROM boky/postfix:v4.1.0-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.5.1
+FROM cupcakearmy/cryptgeon:2.6.0
 # cupcakearmy/cryptgeon
 
 # memcached
