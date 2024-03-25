@@ -767,7 +767,7 @@ FROM boky/postfix:v4.1.0-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.5.1
+FROM cupcakearmy/cryptgeon:2.6.0
 # cupcakearmy/cryptgeon
 
 # memcached
