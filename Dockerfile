@@ -423,7 +423,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.29.2
+FROM verdaccio/verdaccio:5.30.2
 # verdaccio/verdaccio
 
 # strapi/strapi
