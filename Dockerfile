@@ -298,9 +298,9 @@ FROM heroku/heroku:24-build
 FROM heroku/heroku:24
 # heroku/heroku
 
-# heroku/procfile-cnb
-FROM heroku/procfile-cnb:3.0.0
-# heroku/procfile-cnb
+# heroku/buildpack-procfile
+FROM heroku/buildpack-procfile:3.0.1
+# heroku/buildpack-procfile
 
 # paketobuildpacks/builder
 FROM paketobuildpacks/builder:full
