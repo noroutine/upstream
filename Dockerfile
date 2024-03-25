@@ -95,7 +95,7 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:24.0.1
+FROM quay.io/keycloak/keycloak:24.0.2
 # keycloak/keycloak
 
 # postgres
@@ -723,7 +723,7 @@ FROM registry:2.8.3
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.38.0
+FROM ghcr.io/dexidp/dex:v2.39.0
 # dexidp/dex
 
 # argoproj/argocd
