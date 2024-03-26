@@ -1,5 +1,5 @@
 {
-  "version": "b9dd2e27",
+  "version": "84cbaf5f",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -205,7 +205,7 @@
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.7.6-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
-      "gcr.io/kaniko-project/executor:v1.21.1",
+      "gcr.io/kaniko-project/executor:v1.22.0",
       "quay.io/iovisor/bpftrace:v0.19.1",
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:21.0.2-21.32",
