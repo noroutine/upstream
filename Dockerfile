@@ -187,7 +187,7 @@ FROM httpd:2.4.58-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.19-jdk21-temurin-jammy
+FROM tomcat:10.1.20-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -371,23 +371,23 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.3.3
+FROM jupyterhub/k8s-hub:3.3.4
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.3.3
+FROM jupyterhub/k8s-secret-sync:3.3.4
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.3.3
+FROM jupyterhub/k8s-network-tools:3.3.4
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.3.3
+FROM jupyterhub/k8s-image-awaiter:3.3.4
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:3.3.3
+FROM jupyterhub/k8s-singleuser-sample:3.3.4
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.80.5
+FROM ghost:5.81.0
 # ghost
 
 # bitnami/ghost
@@ -1023,7 +1023,7 @@ FROM bitnami/kubectl:1.29.3-debian-12-r0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.8.3-python3.11
+FROM apache/airflow:2.8.4-python3.11
 # apache/airflow
 
 # git-sync/git-sync
