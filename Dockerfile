@@ -383,7 +383,7 @@ FROM jupyterhub/k8s-network-tools:3.3.4
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.3.4
+FROM jupyterhub/k8s-image-awaiter:3.3.5
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
