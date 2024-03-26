@@ -387,7 +387,7 @@ FROM jupyterhub/k8s-image-awaiter:3.3.3
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:3.3.3
+FROM jupyterhub/k8s-singleuser-sample:3.3.4
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
