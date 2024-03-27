@@ -831,7 +831,7 @@ FROM eclipse-temurin:21.0.2_13-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.11.1
+FROM elastic/eck-operator:2.12.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -1083,7 +1083,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.15.6
+FROM hashicorp/vault:1.16.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s

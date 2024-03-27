@@ -1,5 +1,5 @@
 {
-  "version": "13d7fcc8",
+  "version": "30e1ee23",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -210,7 +210,7 @@
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:21.0.2-21.32",
       "eclipse-temurin:21.0.2_13-jdk-jammy",
-      "elastic/eck-operator:2.11.1",
+      "elastic/eck-operator:2.12.0",
       "louislam/uptime-kuma:1.23.11-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.75.2",
@@ -273,7 +273,7 @@
       "hashicorp/consul:1.18.1",
       "hashicorp/consul-k8s-control-plane:1.4.0",
       "envoyproxy/envoy-alpine:v1.21.6",
-      "hashicorp/vault:1.15.6",
+      "hashicorp/vault:1.16.0",
       "hashicorp/vault-k8s:1.4.0",
       "hashicorp/vault-csi-provider:1.4.1",
       "quay.io/strimzi/operator:0.40.0",
