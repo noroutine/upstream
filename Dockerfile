@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-03-21T23-13-43Z
+FROM minio/minio:RELEASE.2024-03-26T22-10-45Z
 # minio/minio
 
 # coreos/etcd
@@ -599,11 +599,11 @@ FROM bitnami/nginx:1.25.4-debian-12-r3
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.3.21-debian-12-r0
+FROM bitnami/minio:2024.3.26-debian-12-r0
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.3.20-debian-12-r0
+FROM bitnami/minio-client:2024.3.25-debian-12-r0
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -1003,15 +1003,15 @@ FROM velero/velero-plugin-for-microsoft-azure:v1.9.1
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
-FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.2
+FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.3
 # vsphereveleroplugin/velero-plugin-for-vsphere
 
 # vsphereveleroplugin/backup-driver
-FROM vsphereveleroplugin/backup-driver:v1.5.2
+FROM vsphereveleroplugin/backup-driver:v1.5.3
 # vsphereveleroplugin/backup-driver
 
 # vsphereveleroplugin/data-manager-for-plugin
-FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.2
+FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.3
 # vsphereveleroplugin/data-manager-for-plugin
 
 # velero/velero-restic-restore-helper
