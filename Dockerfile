@@ -611,11 +611,11 @@ FROM bitnami/os-shell:12-debian-12-r17
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.4-debian-12-r0
+FROM bitnami/metallb-controller:0.14.3-debian-12-r7
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.4-debian-12-r0
+FROM bitnami/metallb-speaker:0.14.3-debian-12-r8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
