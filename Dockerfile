@@ -1083,7 +1083,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.15.6
+FROM hashicorp/vault:1.16.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
