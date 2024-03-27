@@ -563,7 +563,7 @@ FROM bitnami/postgresql:16.2.0-debian-12-r8
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.19-debian-12-r2
+FROM bitnami/tomcat:10.1.20-debian-12-r0
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -611,11 +611,11 @@ FROM bitnami/os-shell:12-debian-12-r17
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.3-debian-12-r7
+FROM bitnami/metallb-controller:0.14.4-debian-12-r0
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.3-debian-12-r8
+FROM bitnami/metallb-speaker:0.14.4-debian-12-r0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -627,7 +627,7 @@ FROM bitnami/grafana-image-renderer:3.10.1-debian-12-r0
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.18.0-debian-12-r1
+FROM bitnami/consul:1.18.1-debian-12-r0
 # bitnami/consul
 
 # bitnami/nats
@@ -982,6 +982,10 @@ FROM guacamole/guacamole:1.5.4
 FROM guacamole/guacd:1.5.4
 # guacamole/guacd
 
+# cephcsi/cephcsi
+FROM quay.io/cephcsi/cephcsi:v3.10.2-amd64
+# cephcsi/cephcsi
+
 # velero/velero
 FROM velero/velero:v1.13.1
 # velero/velero
@@ -1059,7 +1063,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.7.1
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.5.0
+FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
 # zachomedia/cert-manager-webhook-pdns
 
 # vstadtmueller/cert-manager-webhook-powerdns
@@ -1067,7 +1071,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.18.0
+FROM hashicorp/consul:1.18.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
