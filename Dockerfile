@@ -1003,7 +1003,7 @@ FROM velero/velero-plugin-for-microsoft-azure:v1.9.1
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
-FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.2
+FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.3
 # vsphereveleroplugin/velero-plugin-for-vsphere
 
 # vsphereveleroplugin/backup-driver
