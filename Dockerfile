@@ -639,7 +639,7 @@ FROM bitnami/kube-state-metrics:2.11.0-debian-12-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.7.0-debian-12-r8
+FROM bitnami/metrics-server:0.7.1-debian-12-r0
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
