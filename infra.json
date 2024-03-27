@@ -1,5 +1,5 @@
 {
-  "version": "4c7f84a1",
+  "version": "6747498e",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -88,7 +88,7 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.88.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.10.1",
-      "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.2.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.3.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.314.1-ubuntu-22.04",
       "summerwind/actions-runner-dind:v2.314.1-ubuntu-22.04",
