@@ -675,7 +675,7 @@ FROM bitnami/sealed-secrets-controller:0.26.1-debian-12-r0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.50.0-debian-12-r0
+FROM bitnami/trivy:0.50.1-debian-12-r0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -683,7 +683,7 @@ FROM bitnami/kubectl:1.29.3-debian-12-r0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.50.0
+FROM aquasec/trivy:0.50.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -711,7 +711,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.71
+FROM stakater/reloader:v1.0.72
 # stakater/reloader
 
 # jimmidyson/configmap-reload

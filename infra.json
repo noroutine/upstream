@@ -1,5 +1,5 @@
 {
-  "version": "6747498e",
+  "version": "fcdbfdfd",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -171,16 +171,16 @@
       "bitnami/kube-rbac-proxy:0.16.0-debian-12-r4",
       "bitnami/openldap:2.6.7-debian-12-r1",
       "bitnami/sealed-secrets-controller:0.26.1-debian-12-r0",
-      "bitnami/trivy:0.50.0-debian-12-r0",
+      "bitnami/trivy:0.50.1-debian-12-r0",
       "bitnami/kubectl:1.29.3-debian-12-r0",
-      "aquasec/trivy:0.50.0",
+      "aquasec/trivy:0.50.1",
       "ghcr.io/external-secrets/external-secrets:v0.9.13",
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.6",
       "hasura/graphql-engine:v2.38.0",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.71",
+      "stakater/reloader:v1.0.72",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.39.0",
