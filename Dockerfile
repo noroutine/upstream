@@ -587,7 +587,7 @@ FROM bitnami/mongodb:7.0.7-debian-12-r0
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.25-debian-12-r0
+FROM bitnami/memcached:1.6.26-debian-12-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
