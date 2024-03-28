@@ -1,5 +1,5 @@
 {
-  "version": "189e57b6",
+  "version": "b8bb9f9e",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -267,7 +267,7 @@
       "quay.io/jetstack/cert-manager-cainjector:v1.14.4",
       "quay.io/jetstack/cert-manager-webhook:v1.14.4",
       "quay.io/jetstack/cert-manager-ctl:v1.14.4",
-      "quay.io/jetstack/cert-manager-csi-driver:v0.7.1",
+      "quay.io/jetstack/cert-manager-csi-driver:v0.8.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.18.1",
