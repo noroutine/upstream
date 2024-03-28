@@ -103,7 +103,7 @@ FROM postgres:16.2-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.14.1
+FROM atlassian/jira-software:9.15.0
 # atlassian/jira-software
 
 # nextcloud
@@ -327,7 +327,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.10.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.10.0-ce.0
+FROM gitlab/gitlab-ce:16.10.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -407,7 +407,7 @@ FROM quay.io/jupyterhub/repo2docker:2023.06.0-88.gf667caf
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.02.2
+FROM pihole/pihole:2024.03.1
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -587,7 +587,7 @@ FROM bitnami/mongodb:7.0.7-debian-12-r0
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.25-debian-12-r0
+FROM bitnami/memcached:1.6.26-debian-12-r0
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -823,15 +823,15 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:21.0.2-21.32
+FROM azul/zulu-openjdk:22.0.0-22.28
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:21.0.2_13-jdk-jammy
+FROM eclipse-temurin:22_36-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.12.0
+FROM elastic/eck-operator:2.12.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -911,11 +911,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.26.3
+FROM netbirdio/signal:0.26.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.26.3
+FROM netbirdio/management:0.26.4
 # netbirdio/management
 
 # coturn/coturn
@@ -1091,7 +1091,7 @@ FROM hashicorp/vault-k8s:1.4.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.4.1
+FROM hashicorp/vault-csi-provider:1.4.2
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
