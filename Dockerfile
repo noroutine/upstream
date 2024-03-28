@@ -407,7 +407,7 @@ FROM quay.io/jupyterhub/repo2docker:2023.06.0-88.gf667caf
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.02.2
+FROM pihole/pihole:2024.03.1
 # pihole/pihole
 
 # yandex/clickhouse-server
