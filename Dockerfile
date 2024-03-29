@@ -1275,7 +1275,7 @@ FROM longhornio/longhorn-manager:v1.6.0
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.6.0
+FROM longhornio/longhorn-ui:v1.6.1
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
