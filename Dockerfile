@@ -123,7 +123,7 @@ FROM quay.io/coreos/etcd:v3.5.12
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.51.0
+FROM quay.io/prometheus/prometheus:v2.51.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.204.9
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.1
+FROM metabase/metabase:v0.49.2
 # metabase/metabase
 
 # docker
@@ -507,7 +507,7 @@ FROM bitnami/spark:3.5.1-debian-12-r0
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.51.0-debian-12-r0
+FROM bitnami/prometheus:2.51.1-debian-12-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -727,7 +727,7 @@ FROM ghcr.io/dexidp/dex:v2.39.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.10.4
+FROM quay.io/argoproj/argocd:v2.10.5
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -771,7 +771,7 @@ FROM cupcakearmy/cryptgeon:2.6.0
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.25-alpine3.19
+FROM memcached:1.6.26-alpine3.19
 # memcached
 
 # connecteverything/nats-operator
@@ -911,11 +911,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.26.4
+FROM netbirdio/signal:0.26.6
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.26.4
+FROM netbirdio/management:0.26.6
 # netbirdio/management
 
 # coturn/coturn
@@ -951,7 +951,7 @@ FROM kubernetesui/dashboard-api:1.3.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.2.2
+FROM kubernetesui/dashboard-web:1.2.3
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
@@ -1271,27 +1271,27 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.3
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.6.0
+FROM longhornio/longhorn-manager:v1.6.1
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.6.0
+FROM longhornio/longhorn-ui:v1.6.1
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.6.0
+FROM longhornio/longhorn-engine:v1.6.1
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.6.0
+FROM longhornio/longhorn-instance-manager:v1.6.1
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.6.0
+FROM longhornio/longhorn-share-manager:v1.6.1
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.6.0
+FROM longhornio/backing-image-manager:v1.6.1
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
