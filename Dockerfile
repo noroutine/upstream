@@ -575,7 +575,7 @@ FROM bitnami/keycloak:24.0.2-debian-12-r0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.11.1-debian-12-r0
+FROM bitnami/keycloak-config-cli:5.12.0-debian-12-r0
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
@@ -947,7 +947,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.3.0
+FROM kubernetesui/dashboard-api:1.4.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
