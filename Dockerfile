@@ -507,7 +507,7 @@ FROM bitnami/spark:3.5.1-debian-12-r0
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.51.0-debian-12-r0
+FROM bitnami/prometheus:2.51.1-debian-12-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
