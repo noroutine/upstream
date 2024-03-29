@@ -1279,7 +1279,7 @@ FROM longhornio/longhorn-ui:v1.6.0
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.6.0
+FROM longhornio/longhorn-engine:v1.6.1
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
