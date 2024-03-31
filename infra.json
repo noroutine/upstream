@@ -1,5 +1,5 @@
 {
-  "version": "416bae5d",
+  "version": "bbb0b08b",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -359,14 +359,14 @@
       "tchiotludo/akhq:0.24.0",
       "nvcr.io/nvidia/gpu-operator:v23.9.2",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.2",
-      "nvcr.io/nvidia/cuda:12.3.2-base-ubi8",
+      "nvcr.io/nvidia/cuda:12.3.2-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.7",
-      "nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubuntu20.04",
+      "nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8",
-      "nvcr.io/nvidia/cloud-native/dcgm:3.3.3-1-ubuntu22.04",
-      "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04",
+      "nvcr.io/nvidia/cloud-native/dcgm:3.3.3-1-ubi9",
+      "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.0-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
-      "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.6.0-ubuntu20.04"
+      "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.6.0-ubi8"
     ]
   }
 }

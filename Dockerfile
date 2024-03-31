@@ -1427,7 +1427,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.2
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.3.2-base-ubi8
+FROM nvcr.io/nvidia/cuda:12.3.2-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
@@ -1435,7 +1435,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.7
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubuntu20.04
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
@@ -1443,11 +1443,11 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.3-1-ubuntu22.04
+FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.3-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.0-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
@@ -1455,6 +1455,6 @@ FROM nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8
 # nvidia/gpu-feature-discovery
 
 # nvidia/cloud-native/k8s-mig-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.6.0-ubuntu20.04
+FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.6.0-ubi8
 # nvidia/cloud-native/k8s-mig-manager
 
