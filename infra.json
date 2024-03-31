@@ -1,5 +1,5 @@
 {
-  "version": "cf00c7e1",
+  "version": "4efa2766",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -32,7 +32,7 @@
       "nextcloud:28.0.4-apache",
       "haproxytech/haproxy-debian:3.0",
       "minio/minio:RELEASE.2024-03-30T09-41-56Z",
-      "quay.io/coreos/etcd:v3.5.12",
+      "quay.io/coreos/etcd:v3.5.13",
       "quay.io/prometheus/prometheus:v2.51.1",
       "quay.io/prometheus/alertmanager:v0.27.0",
       "quay.io/prometheus/node-exporter:v1.7.0",
@@ -360,7 +360,7 @@
       "nvcr.io/nvidia/gpu-operator:v23.9.2",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.2",
       "nvcr.io/nvidia/cuda:12.3.2-base-ubi8",
-      "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.5",
+      "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.7",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubuntu20.04",
       "nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8",
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.3-1-ubuntu22.04",

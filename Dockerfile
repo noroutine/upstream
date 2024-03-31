@@ -119,7 +119,7 @@ FROM minio/minio:RELEASE.2024-03-30T09-41-56Z
 # minio/minio
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.12
+FROM quay.io/coreos/etcd:v3.5.13
 # coreos/etcd
 
 # prometheus/prometheus
@@ -1431,7 +1431,7 @@ FROM nvcr.io/nvidia/cuda:12.3.2-base-ubi8
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.5
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.7
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
