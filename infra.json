@@ -1,5 +1,5 @@
 {
-  "version": "7bc9eeb6",
+  "version": "cf00c7e1",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -29,7 +29,7 @@
       "quay.io/keycloak/keycloak:24.0.2",
       "postgres:16.2-bookworm",
       "atlassian/jira-software:9.15.0",
-      "nextcloud:28.0.3-apache",
+      "nextcloud:28.0.4-apache",
       "haproxytech/haproxy-debian:3.0",
       "minio/minio:RELEASE.2024-03-30T09-41-56Z",
       "quay.io/coreos/etcd:v3.5.12",
@@ -363,7 +363,7 @@
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.5",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubuntu20.04",
       "nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8",
-      "nvcr.io/nvidia/cloud-native/dcgm:3.3.0-1-ubuntu22.04",
+      "nvcr.io/nvidia/cloud-native/dcgm:3.3.3-1-ubuntu22.04",
       "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.6.0-ubuntu20.04"

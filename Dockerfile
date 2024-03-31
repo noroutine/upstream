@@ -107,7 +107,7 @@ FROM atlassian/jira-software:9.15.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:28.0.3-apache
+FROM nextcloud:28.0.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -1443,7 +1443,7 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.0-1-ubuntu22.04
+FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.3-1-ubuntu22.04
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
