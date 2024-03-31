@@ -1,5 +1,5 @@
 {
-  "version": "bbb0b08b",
+  "version": "8f099938",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -24,7 +24,7 @@
       "golang:1.22.1-alpine3.19",
       "traefik:v2.11.0",
       "sonatype/nexus3:3.66.0",
-      "squidfunk/mkdocs-material:9.5.15",
+      "squidfunk/mkdocs-material:9.5.16",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.2",
       "postgres:16.2-bookworm",
