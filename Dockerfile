@@ -403,11 +403,11 @@ FROM registry.k8s.io/pause:3.9
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-88.gf667caf
+FROM quay.io/jupyterhub/repo2docker:2024.03.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.03.1
+FROM pihole/pihole:2024.03.2
 # pihole/pihole
 
 # yandex/clickhouse-server
@@ -911,11 +911,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.26.6
+FROM netbirdio/signal:0.26.7
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.26.6
+FROM netbirdio/management:0.26.7
 # netbirdio/management
 
 # coturn/coturn

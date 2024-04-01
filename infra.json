@@ -1,5 +1,5 @@
 {
-  "version": "240c9bdb",
+  "version": "2fc5c991",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -103,8 +103,8 @@
       "jupyterhub/configurable-http-proxy:4.6.1",
       "registry.k8s.io/kube-scheduler:v1.28.8",
       "registry.k8s.io/pause:3.9",
-      "quay.io/jupyterhub/repo2docker:2023.06.0-88.gf667caf",
-      "pihole/pihole:2024.03.1",
+      "quay.io/jupyterhub/repo2docker:2024.03.0",
+      "pihole/pihole:2024.03.2",
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v2.0.0",
@@ -230,8 +230,8 @@
       "yugabytedb/yugabyte:2.20.1.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
-      "netbirdio/signal:0.26.6",
-      "netbirdio/management:0.26.6",
+      "netbirdio/signal:0.26.7",
+      "netbirdio/management:0.26.7",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
       "jenkins/jenkins:2.451-jdk17",
