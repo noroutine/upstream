@@ -1,5 +1,5 @@
 {
-  "version": "2c2a7f03",
+  "version": "c1b6a80f",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -82,7 +82,7 @@
       "paketobuildpacks/builder:base",
       "paketobuildpacks/builder:tiny",
       "paketobuildpacks/run:full-cnb",
-      "buildpacksio/lifecycle:0.19.0",
+      "buildpacksio/lifecycle:0.19.1",
       "gitlab/gitlab-runner:alpine3.19-v16.10.0",
       "gitlab/gitlab-ce:16.10.1-ce.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0",
@@ -308,7 +308,7 @@
       "registry.k8s.io/kube-proxy:v1.23.17",
       "registry.k8s.io/kube-scheduler:v1.23.17",
       "registry.k8s.io/kube-controller-manager:v1.23.17",
-      "quay.io/tigera/operator:v1.32.5",
+      "quay.io/tigera/operator:v1.32.6",
       "calico/typha:v3.27.2",
       "calico/ctl:v3.27.2",
       "calico/node:v3.27.2",

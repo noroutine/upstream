@@ -319,7 +319,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.19.0
+FROM buildpacksio/lifecycle:0.19.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -1223,7 +1223,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.32.5
+FROM quay.io/tigera/operator:v1.32.6
 # tigera/operator
 
 # calico/typha
