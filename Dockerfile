@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.66.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.16
+FROM squidfunk/mkdocs-material:9.5.17
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -219,15 +219,15 @@ FROM quay.io/cortexproject/cortex:v1.16.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.13.0
+FROM docker.elastic.co/logstash/logstash:8.13.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.13.0
+FROM docker.elastic.co/kibana/kibana:8.13.1
 # kibana/kibana
 
 # alerta/alerta-web
