@@ -1,5 +1,5 @@
 {
-  "version": "0c337ddb",
+  "version": "33edef50",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -115,7 +115,7 @@
       "bitnami/ghost:5.81.1-debian-12-r0",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.204.9",
-      "metabase/metabase:v0.49.2",
+      "metabase/metabase:v0.49.3",
       "docker:26.0.0-dind",
       "quay.io/podman/stable:v4.9.3",
       "jupyter/base-notebook:2023-10-20",
@@ -179,7 +179,7 @@
       "minio/console:v0.30.0",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.6",
-      "hasura/graphql-engine:v2.38.0",
+      "hasura/graphql-engine:v2.38.1",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.72",
       "jimmidyson/configmap-reload:v0.9.0",

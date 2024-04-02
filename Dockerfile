@@ -451,7 +451,7 @@ FROM nocodb/nocodb:0.204.9
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.2
+FROM metabase/metabase:v0.49.3
 # metabase/metabase
 
 # docker
@@ -707,7 +707,7 @@ FROM drakkan/sftpgo:v2.5.6
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.38.0
+FROM hasura/graphql-engine:v2.38.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
