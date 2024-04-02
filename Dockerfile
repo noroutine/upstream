@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.81.0
+FROM ghost:5.81.1
 # ghost
 
 # bitnami/ghost
@@ -687,7 +687,7 @@ FROM aquasec/trivy:0.50.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.13
+FROM ghcr.io/external-secrets/external-secrets:v0.9.14
 # external-secrets/external-secrets
 
 # minio/console
@@ -899,7 +899,7 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.20.1.2-b1
+FROM yugabytedb/yugabyte:2.20.2.2-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
@@ -1075,7 +1075,7 @@ FROM hashicorp/consul:1.18.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.4.0
+FROM hashicorp/consul-k8s-control-plane:1.4.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -1223,47 +1223,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.32.6
+FROM quay.io/tigera/operator:v1.32.7
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.27.2
+FROM calico/typha:v3.27.3
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.27.2
+FROM calico/ctl:v3.27.3
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.27.2
+FROM calico/node:v3.27.3
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.27.2
+FROM calico/cni:v3.27.3
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.27.2
+FROM calico/apiserver:v3.27.3
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.27.2
+FROM calico/kube-controllers:v3.27.3
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.27.2
+FROM calico/dikastes:v3.27.3
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.27.2
+FROM calico/pod2daemon-flexvol:v3.27.3
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.27.2
+FROM calico/node-driver-registrar:v3.27.3
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.27.2
+FROM calico/csi:v3.27.3
 # calico/csi
 
 # nfd/node-feature-discovery
