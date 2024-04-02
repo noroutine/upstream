@@ -330,6 +330,10 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.10.0
 FROM gitlab/gitlab-ce:16.10.1-ce.0
 # gitlab/gitlab-ce
 
+# gitlab-org/gitlab-runner/gitlab-runner-helper
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.10.0
+# gitlab-org/gitlab-runner/gitlab-runner-helper
+
 # gitlab-org/cluster-integration/auto-build-image
 FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0
 # gitlab-org/cluster-integration/auto-build-image
