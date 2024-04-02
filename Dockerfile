@@ -1239,7 +1239,7 @@ FROM calico/node:v3.27.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.27.2
+FROM calico/cni:v3.27.3
 # calico/cni
 
 # calico/apiserver
