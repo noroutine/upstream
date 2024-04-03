@@ -639,7 +639,7 @@ FROM bitnami/nats:2.10.12-debian-12-r0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.11.0-debian-12-r0
+FROM bitnami/kube-state-metrics:2.12.0-debian-12-r0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -715,7 +715,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.72
+FROM stakater/reloader:v1.0.73
 # stakater/reloader
 
 # jimmidyson/configmap-reload
