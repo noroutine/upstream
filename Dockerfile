@@ -987,7 +987,7 @@ FROM guacamole/guacd:1.5.4
 # guacamole/guacd
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.10.2-amd64
+FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # velero/velero
