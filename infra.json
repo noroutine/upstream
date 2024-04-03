@@ -1,5 +1,5 @@
 {
-  "version": "e747481d",
+  "version": "04a0c898",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -23,7 +23,7 @@
       "golang:1.22.1-bookworm",
       "golang:1.22.1-alpine3.19",
       "traefik:v2.11.0",
-      "sonatype/nexus3:3.66.0",
+      "sonatype/nexus3:3.67.0",
       "squidfunk/mkdocs-material:9.5.17",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.2",
@@ -114,7 +114,7 @@
       "ghost:5.81.1",
       "bitnami/ghost:5.81.1-debian-12-r0",
       "matomo:5.0.3-apache",
-      "nocodb/nocodb:0.204.9",
+      "nocodb/nocodb:0.205.0",
       "metabase/metabase:v0.49.3",
       "docker:26.0.0-dind",
       "quay.io/podman/stable:v4.9.3",
@@ -249,7 +249,7 @@
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.6.0",
       "guacamole/guacamole:1.5.4",
       "guacamole/guacd:1.5.4",
-      "quay.io/cephcsi/cephcsi:v3.10.2-amd64",
+      "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
       "velero/velero:v1.13.1",
       "velero/velero-plugin-for-csi:v0.7.0",
       "velero/velero-plugin-for-aws:v1.9.1",

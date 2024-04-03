@@ -83,7 +83,7 @@ FROM traefik:v2.11.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.66.0
+FROM sonatype/nexus3:3.67.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -447,7 +447,7 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.204.9
+FROM nocodb/nocodb:0.205.0
 # nocodb/nocodb
 
 # metabase/metabase
@@ -987,7 +987,7 @@ FROM guacamole/guacd:1.5.4
 # guacamole/guacd
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.10.2-amd64
+FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # velero/velero
