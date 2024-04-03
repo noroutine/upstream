@@ -211,7 +211,7 @@ FROM gcr.io/cadvisor/cadvisor:v0.49.1
 # cadvisor/cadvisor
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.119
+FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # cortexproject/cortex
@@ -459,7 +459,7 @@ FROM docker:26.0.0-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.9.3
+FROM quay.io/podman/stable:v4.9.4
 # podman/stable
 
 # jupyter/base-notebook
@@ -783,7 +783,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.73
+FROM stakater/reloader:v1.0.74
 # stakater/reloader
 
 # jimmidyson/configmap-reload

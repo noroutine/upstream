@@ -1,5 +1,5 @@
 {
-  "version": "1b07c2c9",
+  "version": "0e329e03",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -55,7 +55,7 @@
       "braedon/prometheus-es-exporter:0.14.1",
       "ribbybibby/ssl-exporter:2.4.2",
       "gcr.io/cadvisor/cadvisor:v0.49.1",
-      "ghcr.io/prymitive/karma:v0.119",
+      "ghcr.io/prymitive/karma:v0.120",
       "quay.io/cortexproject/cortex:v1.16.0",
       "docker.elastic.co/elasticsearch/elasticsearch:8.13.1",
       "docker.elastic.co/logstash/logstash:8.13.1",
@@ -117,7 +117,7 @@
       "nocodb/nocodb:0.205.0",
       "metabase/metabase:v0.49.3",
       "docker:26.0.0-dind",
-      "quay.io/podman/stable:v4.9.3",
+      "quay.io/podman/stable:v4.9.4",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
@@ -198,7 +198,7 @@
       "drakkan/sftpgo:v2.5.6",
       "hasura/graphql-engine:v2.38.1",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.73",
+      "stakater/reloader:v1.0.74",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.39.0",
