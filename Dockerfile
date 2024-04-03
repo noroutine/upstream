@@ -854,6 +854,14 @@ FROM outlinewiki/outline:0.75.2
 FROM syncthing/syncthing:1.27.5
 # syncthing/syncthing
 
+# syncthing/discosrv
+FROM syncthing/discosrv:1.27.5
+# syncthing/discosrv
+
+# syncthing/relaysrv
+FROM syncthing/relaysrv:1.27.5
+# syncthing/relaysrv
+
 # jellyfin/jellyfin
 FROM jellyfin/jellyfin:10.8.13-1
 # jellyfin/jellyfin
