@@ -1,5 +1,5 @@
 {
-  "version": "33edef50",
+  "version": "e747481d",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -215,7 +215,7 @@
       "louislam/uptime-kuma:1.23.11-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.75.2",
-      "syncthing/syncthing:1.27.4",
+      "syncthing/syncthing:1.27.5",
       "jellyfin/jellyfin:10.8.13-1",
       "haveagitgat/tdarr:2.17.01",
       "haveagitgat/tdarr_node:2.17.01",
@@ -235,7 +235,7 @@
       "netbirdio/management:0.26.7",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.451-jdk17",
+      "jenkins/jenkins:2.452-jdk17",
       "jenkins/agent:3206.vb_15dcf73f6a_9-4-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.7.4",

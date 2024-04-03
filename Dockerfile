@@ -851,7 +851,7 @@ FROM outlinewiki/outline:0.75.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.4
+FROM syncthing/syncthing:1.27.5
 # syncthing/syncthing
 
 # jellyfin/jellyfin
@@ -931,7 +931,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.451-jdk17
+FROM jenkins/jenkins:2.452-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
