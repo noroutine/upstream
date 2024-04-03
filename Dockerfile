@@ -686,6 +686,74 @@ FROM bitnami/trivy:0.50.1-debian-12-r0
 FROM bitnami/kubectl:1.29.3-debian-12-r0
 # bitnami/kubectl
 
+# bitnami/harbor-adapter-trivy
+FROM bitnami/harbor-adapter-trivy:2.10.1-debian-12-r1
+# bitnami/harbor-adapter-trivy
+
+# bitnami/harbor-core
+FROM bitnami/harbor-core:2.10.1-debian-12-r1
+# bitnami/harbor-core
+
+# bitnami/harbor-exporter
+FROM bitnami/harbor-exporter:2.10.1-debian-12-r1
+# bitnami/harbor-exporter
+
+# bitnami/harbor-jobservice
+FROM bitnami/harbor-jobservice:2.10.1-debian-12-r1
+# bitnami/harbor-jobservice
+
+# bitnami/harbor-portal
+FROM bitnami/harbor-portal:2.10.1-debian-12-r1
+# bitnami/harbor-portal
+
+# bitnami/harbor-registry
+FROM bitnami/harbor-registry:2.10.1-debian-12-r1
+# bitnami/harbor-registry
+
+# bitnami/harbor-registryctl
+FROM bitnami/harbor-registryctl:2.10.1-debian-12-r1
+# bitnami/harbor-registryctl
+
+# goharbor/harbor-portal
+FROM goharbor/harbor-portal:v2.10.1
+# goharbor/harbor-portal
+
+# goharbor/harbor-core
+FROM goharbor/harbor-core:v2.10.1
+# goharbor/harbor-core
+
+# goharbor/harbor-jobservice
+FROM goharbor/harbor-jobservice:v2.10.1
+# goharbor/harbor-jobservice
+
+# goharbor/registry-photon
+FROM goharbor/registry-photon:v2.10.1
+# goharbor/registry-photon
+
+# goharbor/harbor-registryctl
+FROM goharbor/harbor-registryctl:v2.10.1
+# goharbor/harbor-registryctl
+
+# goharbor/harbor-db
+FROM goharbor/harbor-db:v2.10.1
+# goharbor/harbor-db
+
+# goharbor/harbor-exporter
+FROM goharbor/harbor-exporter:v2.10.1
+# goharbor/harbor-exporter
+
+# goharbor/redis-photon
+FROM goharbor/redis-photon:v2.10.1
+# goharbor/redis-photon
+
+# goharbor/trivy-adapter-photon
+FROM goharbor/trivy-adapter-photon:v2.10.1
+# goharbor/trivy-adapter-photon
+
+# goharbor/nginx-photon
+FROM goharbor/nginx-photon:v2.10.1
+# goharbor/nginx-photon
+
 # aquasec/trivy
 FROM aquasec/trivy:0.50.1
 # aquasec/trivy
@@ -997,6 +1065,10 @@ FROM guacamole/guacd:1.5.4
 # cephcsi/cephcsi
 FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
+
+# 
+FROM 
+# 
 
 # velero/velero
 FROM velero/velero:v1.13.1
