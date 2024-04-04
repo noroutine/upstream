@@ -239,7 +239,7 @@ FROM mongo:7.0.7-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.4.3-apache
+FROM wordpress:6.5.0-apache
 # wordpress
 
 # dpage/pgadmin4
