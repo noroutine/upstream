@@ -71,11 +71,11 @@ FROM python:3.12.2-slim-bookworm
 # python
 
 # golang
-FROM golang:1.22.1-bookworm
+FROM golang:1.22.2-bookworm
 # golang
 
 # golang
-FROM golang:1.22.1-alpine3.19
+FROM golang:1.22.2-alpine3.19
 # golang
 
 # traefik
@@ -147,7 +147,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.25.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.7.0
+FROM quay.io/prometheus/pushgateway:v1.8.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -235,11 +235,11 @@ FROM alerta/alerta-web:9.0.1
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.7-jammy
+FROM mongo:7.0.8-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.4.3-apache
+FROM wordpress:6.5.0-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.26.7
+FROM netbirdio/signal:0.27.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.26.7
+FROM netbirdio/management:0.27.0
 # netbirdio/management
 
 # coturn/coturn
@@ -1065,10 +1065,6 @@ FROM guacamole/guacd:1.5.4
 # cephcsi/cephcsi
 FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
-
-# 
-FROM 
-# 
 
 # velero/velero
 FROM velero/velero:v1.13.1
@@ -1527,11 +1523,11 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.3-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.5-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.0-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.1-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
