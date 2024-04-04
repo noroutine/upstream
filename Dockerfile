@@ -675,7 +675,7 @@ FROM bitnami/openldap:2.6.7-debian-12-r1
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.26.1-debian-12-r0
+FROM bitnami/sealed-secrets-controller:0.26.2-debian-12-r0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
