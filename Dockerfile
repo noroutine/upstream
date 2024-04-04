@@ -743,7 +743,7 @@ FROM goharbor/harbor-exporter:v2.10.1
 # goharbor/harbor-exporter
 
 # goharbor/redis-photon
-FROM goharbor/redis-photon:v2.10.1
+FROM goharbor/redis-photon:4.0
 # goharbor/redis-photon
 
 # goharbor/trivy-adapter-photon
