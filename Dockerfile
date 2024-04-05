@@ -447,7 +447,7 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.205.0
+FROM nocodb/nocodb:0.205.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -587,7 +587,7 @@ FROM bitnami/mariadb:11.2.3-debian-12-r5
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.7-debian-12-r0
+FROM bitnami/mongodb:7.0.8-debian-12-r0
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -675,7 +675,7 @@ FROM bitnami/openldap:2.6.7-debian-12-r1
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.26.1-debian-12-r0
+FROM bitnami/sealed-secrets-controller:0.26.2-debian-12-r0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy

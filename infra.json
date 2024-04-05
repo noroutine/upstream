@@ -1,5 +1,5 @@
 {
-  "version": "16e63920",
+  "version": "5fb3b626",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -114,7 +114,7 @@
       "ghost:5.81.1",
       "bitnami/ghost:5.81.1-debian-12-r0",
       "matomo:5.0.3-apache",
-      "nocodb/nocodb:0.205.0",
+      "nocodb/nocodb:0.205.1",
       "metabase/metabase:v0.49.3",
       "docker:26.0.0-dind",
       "quay.io/podman/stable:v4.9.4",
@@ -149,7 +149,7 @@
       "bitnami/keycloak:24.0.2-debian-12-r0",
       "bitnami/keycloak-config-cli:5.12.0-debian-12-r0",
       "bitnami/mariadb:11.2.3-debian-12-r5",
-      "bitnami/mongodb:7.0.7-debian-12-r0",
+      "bitnami/mongodb:7.0.8-debian-12-r0",
       "bitnami/memcached:1.6.26-debian-12-r0",
       "bitnami/nginx-ingress-controller:1.10.0-debian-12-r3",
       "bitnami/nginx:1.25.4-debian-12-r3",
@@ -171,7 +171,7 @@
       "bitnami/kubeapps-pinniped-proxy:2.9.0-debian-12-r18",
       "bitnami/kube-rbac-proxy:0.16.0-debian-12-r4",
       "bitnami/openldap:2.6.7-debian-12-r1",
-      "bitnami/sealed-secrets-controller:0.26.1-debian-12-r0",
+      "bitnami/sealed-secrets-controller:0.26.2-debian-12-r0",
       "bitnami/trivy:0.50.1-debian-12-r0",
       "bitnami/kubectl:1.29.3-debian-12-r0",
       "bitnami/harbor-adapter-trivy:2.10.1-debian-12-r1",
