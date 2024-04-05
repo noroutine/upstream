@@ -355,11 +355,11 @@ FROM summerwind/actions-runner-controller:v0.27.6
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.314.1-ubuntu-22.04
+FROM summerwind/actions-runner:v2.315.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.314.1-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.315.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -783,7 +783,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.74
+FROM stakater/reloader:v1.0.75
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.0
+FROM netbirdio/signal:0.27.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.0
+FROM netbirdio/management:0.27.1
 # netbirdio/management
 
 # coturn/coturn
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.4
+FROM netboxcommunity/netbox:v3.7.5
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
