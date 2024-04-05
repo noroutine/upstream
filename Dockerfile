@@ -243,7 +243,7 @@ FROM wordpress:6.5.0-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.4
+FROM dpage/pgadmin4:8.5
 # dpage/pgadmin4
 
 # adminer
