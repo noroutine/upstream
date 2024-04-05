@@ -1,7 +1,8 @@
 {
-  "version": "e2a29469",
+  "version": "881f1aa3",
   "upstream": {
     "images": [
+      "debian:bookworm-20240311-slim",
       "debian:bookworm-20240311-slim",
       "ubuntu:noble-20240225",
       "ubuntu:jammy-20240227",

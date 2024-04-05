@@ -2,6 +2,10 @@
 FROM debian:bookworm-20240311-slim
 # debian
 
+# debian
+FROM debian:bookworm-20240311-slim
+# debian
+
 # ubuntu
 FROM ubuntu:noble-20240225
 # ubuntu
