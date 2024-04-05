@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.39.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.10.5
+FROM quay.io/argoproj/argocd:v2.10.6
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
