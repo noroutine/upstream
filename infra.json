@@ -1,5 +1,5 @@
 {
-  "version": "297139ae",
+  "version": "4314d449",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -40,8 +40,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.24.0",
       "quay.io/prometheus/snmp-exporter:v0.25.0",
       "quay.io/prometheus/pushgateway:v1.8.0",
-      "quay.io/prometheus-operator/prometheus-operator:v0.72.0",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.72.0",
+      "quay.io/prometheus-operator/prometheus-operator:v0.73.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.73.0",
       "grafana/grafana:10.4.1",
       "grafana/loki:2.9.6",
       "grafana/loki-canary:2.9.6",
@@ -63,7 +63,7 @@
       "alerta/alerta-web:9.0.1",
       "mongo:7.0.8-jammy",
       "wordpress:6.5.0-apache",
-      "dpage/pgadmin4:8.4",
+      "dpage/pgadmin4:8.5",
       "adminer:4.8.1",
       "mysql:8.3.0",
       "mariadb:11.3.2-jammy",
@@ -131,7 +131,7 @@
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.1-debian-12-r0",
       "bitnami/prometheus:2.51.1-debian-12-r0",
-      "bitnami/prometheus-operator:0.72.0-debian-12-r1",
+      "bitnami/prometheus-operator:0.73.0-debian-12-r0",
       "bitnami/node-exporter:1.7.0-debian-12-r13",
       "bitnami/blackbox-exporter:0.24.0-debian-12-r25",
       "bitnami/postgres-exporter:0.15.0-debian-12-r14",

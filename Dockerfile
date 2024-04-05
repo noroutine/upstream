@@ -151,11 +151,11 @@ FROM quay.io/prometheus/pushgateway:v1.8.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.72.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.73.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.72.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.73.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -243,7 +243,7 @@ FROM wordpress:6.5.0-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.4
+FROM dpage/pgadmin4:8.5
 # dpage/pgadmin4
 
 # adminer
@@ -515,7 +515,7 @@ FROM bitnami/prometheus:2.51.1-debian-12-r0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.72.0-debian-12-r1
+FROM bitnami/prometheus-operator:0.73.0-debian-12-r0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
