@@ -183,7 +183,7 @@ FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.58-alpine
+FROM httpd:2.4.59-alpine
 # httpd
 
 # tomcat
