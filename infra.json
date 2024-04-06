@@ -1,5 +1,5 @@
 {
-  "version": "febaf622",
+  "version": "b8ffc114",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -156,8 +156,8 @@
       "bitnami/minio:2024.4.6",
       "bitnami/minio-client:2024.3.30",
       "bitnami/os-shell:12",
-      "bitnami/metallb-controller:0.14.3",
-      "bitnami/metallb-speaker:0.14.3",
+      "bitnami/metallb-controller:0.14.4",
+      "bitnami/metallb-speaker:0.14.4",
       "bitnami/grafana:10.4.1",
       "bitnami/grafana-image-renderer:3.10.1",
       "bitnami/consul:1.18.1",
