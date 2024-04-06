@@ -615,7 +615,7 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.3
+FROM bitnami/metallb-controller:0.14.4
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
