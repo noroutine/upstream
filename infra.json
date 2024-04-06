@@ -1,8 +1,7 @@
 {
-  "version": "v0.0.325",
+  "version": "36f82617",
   "upstream": {
     "images": [
-      "debian:bookworm-20240311-slim",
       "debian:bookworm-20240311-slim",
       "ubuntu:noble-20240225",
       "ubuntu:jammy-20240227",
@@ -260,7 +259,7 @@
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.7.5",
       "kubernetesui/dashboard:v2.7.0",
-      "kubernetesui/dashboard-api:1.4.0",
+      "kubernetesui/dashboard-api:1.4.1",
       "kubernetesui/dashboard-web:1.2.3",
       "kubernetesui/metrics-scraper:v1.0.9",
       "locustio/locust:2.24.1",
@@ -340,7 +339,7 @@
       "calico/pod2daemon-flexvol:v3.27.3",
       "calico/node-driver-registrar:v3.27.3",
       "calico/csi:v3.27.3",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.15.3",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.15.4",
       "longhornio/longhorn-manager:v1.6.1",
       "longhornio/longhorn-ui:v1.6.1",
       "longhornio/longhorn-engine:v1.6.1",
