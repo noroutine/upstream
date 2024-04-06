@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-03-30T09-41-56Z
+FROM minio/minio:RELEASE.2024-04-06T05-26-02Z
 # minio/minio
 
 # coreos/etcd
@@ -319,7 +319,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.19.1
+FROM buildpacksio/lifecycle:0.19.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -439,7 +439,7 @@ FROM ghost:5.81.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.81.1-debian-12-r0
+FROM bitnami/ghost:5.82.0
 # bitnami/ghost
 
 # matomo
@@ -507,211 +507,211 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.5.1-debian-12-r0
+FROM bitnami/spark:3.5.1
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.51.1-debian-12-r0
+FROM bitnami/prometheus:2.51.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.73.0-debian-12-r0
+FROM bitnami/prometheus-operator:0.73.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.7.0-debian-12-r13
+FROM bitnami/node-exporter:1.7.0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.24.0-debian-12-r25
+FROM bitnami/blackbox-exporter:0.24.0
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.15.0-debian-12-r14
+FROM bitnami/postgres-exporter:0.15.0
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.4-debian-12-r10
+FROM bitnami/redis:7.2.4
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.58.0-debian-12-r4
+FROM bitnami/redis-exporter:1.58.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
-FROM bitnami/postgresql:10.23.0-debian-11-r3
+FROM bitnami/postgresql:10.23.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.22.0-debian-11-r4
+FROM bitnami/postgresql:11.22.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.18.0-debian-12-r8
+FROM bitnami/postgresql:12.18.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.14.0-debian-12-r8
+FROM bitnami/postgresql:13.14.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.11.0-debian-12-r8
+FROM bitnami/postgresql:14.11.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.6.0-debian-12-r7
+FROM bitnami/postgresql:15.6.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.2.0-debian-12-r8
+FROM bitnami/postgresql:16.2.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.20-debian-12-r0
+FROM bitnami/tomcat:10.1.20
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
-FROM bitnami/jmx-exporter:0.20.0-debian-12-r12
+FROM bitnami/jmx-exporter:0.20.0
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:24.0.2-debian-12-r0
+FROM bitnami/keycloak:24.0.2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.12.0-debian-12-r0
+FROM bitnami/keycloak-config-cli:5.12.0
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.2.3-debian-12-r5
+FROM bitnami/mariadb:11.2.3
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.8-debian-12-r0
+FROM bitnami/mongodb:7.0.8
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.26-debian-12-r0
+FROM bitnami/memcached:1.6.26
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.10.0-debian-12-r3
+FROM bitnami/nginx-ingress-controller:1.10.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.4-debian-12-r3
+FROM bitnami/nginx:1.25.4
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.3.30-debian-12-r0
+FROM bitnami/minio:2024.4.6
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.3.30-debian-12-r0
+FROM bitnami/minio-client:2024.3.30
 # bitnami/minio-client
 
 # bitnami/os-shell
-FROM bitnami/os-shell:12-debian-12-r17
+FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.3-debian-12-r7
+FROM bitnami/metallb-controller:0.14.3
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.3-debian-12-r8
+FROM bitnami/metallb-speaker:0.14.3
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.4.1-debian-12-r0
+FROM bitnami/grafana:10.4.1
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.10.1-debian-12-r0
+FROM bitnami/grafana-image-renderer:3.10.1
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.18.1-debian-12-r0
+FROM bitnami/consul:1.18.1
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.12-debian-12-r0
+FROM bitnami/nats:2.10.12
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.12.0-debian-12-r0
+FROM bitnami/kube-state-metrics:2.12.0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.7.1-debian-12-r0
+FROM bitnami/metrics-server:0.7.1
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.9.0-debian-12-r19
+FROM bitnami/kubeapps-dashboard:2.9.0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.9.0-debian-12-r18
+FROM bitnami/kubeapps-apprepository-controller:2.9.0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.9.0-debian-12-r19
+FROM bitnami/kubeapps-asset-syncer:2.9.0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.9.0-debian-12-r19
+FROM bitnami/kubeapps-apis:2.9.0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.9.0-debian-12-r18
+FROM bitnami/kubeapps-pinniped-proxy:2.9.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.16.0-debian-12-r4
+FROM bitnami/kube-rbac-proxy:0.16.0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.7-debian-12-r1
+FROM bitnami/openldap:2.6.7
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.26.2-debian-12-r0
+FROM bitnami/sealed-secrets-controller:0.26.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.50.1-debian-12-r0
+FROM bitnami/trivy:0.50.1
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.3-debian-12-r0
+FROM bitnami/kubectl:1.29.3
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
-FROM bitnami/harbor-adapter-trivy:2.10.1-debian-12-r1
+FROM bitnami/harbor-adapter-trivy:2.10.1
 # bitnami/harbor-adapter-trivy
 
 # bitnami/harbor-core
-FROM bitnami/harbor-core:2.10.1-debian-12-r1
+FROM bitnami/harbor-core:2.10.1
 # bitnami/harbor-core
 
 # bitnami/harbor-exporter
-FROM bitnami/harbor-exporter:2.10.1-debian-12-r1
+FROM bitnami/harbor-exporter:2.10.1
 # bitnami/harbor-exporter
 
 # bitnami/harbor-jobservice
-FROM bitnami/harbor-jobservice:2.10.1-debian-12-r1
+FROM bitnami/harbor-jobservice:2.10.1
 # bitnami/harbor-jobservice
 
 # bitnami/harbor-portal
-FROM bitnami/harbor-portal:2.10.1-debian-12-r1
+FROM bitnami/harbor-portal:2.10.1
 # bitnami/harbor-portal
 
 # bitnami/harbor-registry
-FROM bitnami/harbor-registry:2.10.1-debian-12-r1
+FROM bitnami/harbor-registry:2.10.1
 # bitnami/harbor-registry
 
 # bitnami/harbor-registryctl
-FROM bitnami/harbor-registryctl:2.10.1-debian-12-r1
+FROM bitnami/harbor-registryctl:2.10.1
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
@@ -1027,7 +1027,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.4.1
+FROM kubernetesui/dashboard-api:1.4.2
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
@@ -1055,11 +1055,11 @@ FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.6.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
-FROM guacamole/guacamole:1.5.4
+FROM guacamole/guacamole:1.5.5
 # guacamole/guacamole
 
 # guacamole/guacd
-FROM guacamole/guacd:1.5.4
+FROM guacamole/guacd:1.5.5
 # guacamole/guacd
 
 # cephcsi/cephcsi
@@ -1103,7 +1103,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.3-debian-12-r0
+FROM bitnami/kubectl:1.29.3
 # bitnami/kubectl
 
 # apache/airflow
