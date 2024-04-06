@@ -655,7 +655,7 @@ FROM bitnami/kubeapps-apprepository-controller:2.9.0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.9.0
+FROM bitnami/kubeapps-asset-syncer:2.10.0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
