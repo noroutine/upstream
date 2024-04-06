@@ -183,7 +183,7 @@ FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.58-alpine
+FROM httpd:2.4.59-alpine
 # httpd
 
 # tomcat
@@ -427,7 +427,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.30.2
+FROM verdaccio/verdaccio:5.30.3
 # verdaccio/verdaccio
 
 # strapi/strapi
