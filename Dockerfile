@@ -1055,7 +1055,7 @@ FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.6.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
-FROM guacamole/guacamole:1.5.4
+FROM guacamole/guacamole:1.5.5
 # guacamole/guacamole
 
 # guacamole/guacd
