@@ -647,15 +647,15 @@ FROM bitnami/metrics-server:0.7.1
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.9.0
+FROM bitnami/kubeapps-dashboard:2.10.0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.9.0
+FROM bitnami/kubeapps-apprepository-controller:2.10.0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.9.0
+FROM bitnami/kubeapps-asset-syncer:2.10.0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
@@ -663,7 +663,7 @@ FROM bitnami/kubeapps-apis:2.9.0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.9.0
+FROM bitnami/kubeapps-pinniped-proxy:2.10.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
