@@ -1,5 +1,5 @@
 {
-  "version": "3590a586",
+  "version": "616bdd8b",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -148,7 +148,7 @@
       "bitnami/jmx-exporter:0.20.0",
       "bitnami/keycloak:24.0.2",
       "bitnami/keycloak-config-cli:5.12.0",
-      "bitnami/mariadb:11.2.3",
+      "bitnami/mariadb:11.3.2",
       "bitnami/mongodb:7.0.8",
       "bitnami/memcached:1.6.26",
       "bitnami/nginx-ingress-controller:1.10.0",
@@ -379,7 +379,7 @@
       "tchiotludo/akhq:0.24.0",
       "nvcr.io/nvidia/gpu-operator:v23.9.2",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.2",
-      "nvcr.io/nvidia/cuda:12.3.2-base-ubi9",
+      "nvcr.io/nvidia/cuda:12.4.0-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.7",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8",
