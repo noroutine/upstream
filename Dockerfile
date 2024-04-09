@@ -439,7 +439,7 @@ FROM ghost:5.82.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.0
+FROM bitnami/ghost:5.82.1
 # bitnami/ghost
 
 # matomo
@@ -627,7 +627,7 @@ FROM bitnami/grafana:10.4.1
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.10.1
+FROM bitnami/grafana-image-renderer:3.10.2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul

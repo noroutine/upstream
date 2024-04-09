@@ -1,5 +1,5 @@
 {
-  "version": "52b0c437",
+  "version": "3dc74d3b",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -112,7 +112,7 @@
       "verdaccio/verdaccio:5.30.3",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.82.1",
-      "bitnami/ghost:5.82.0",
+      "bitnami/ghost:5.82.1",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.205.1",
       "metabase/metabase:v0.49.3",
@@ -159,7 +159,7 @@
       "bitnami/metallb-controller:0.14.4",
       "bitnami/metallb-speaker:0.14.4",
       "bitnami/grafana:10.4.1",
-      "bitnami/grafana-image-renderer:3.10.1",
+      "bitnami/grafana-image-renderer:3.10.2",
       "bitnami/consul:1.18.1",
       "bitnami/nats:2.10.12",
       "bitnami/kube-state-metrics:2.12.0",
