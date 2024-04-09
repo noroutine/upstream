@@ -163,15 +163,15 @@ FROM grafana/grafana:10.4.1
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:2.9.6
+FROM grafana/loki:3.0.0
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:2.9.6
+FROM grafana/loki-canary:3.0.0
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:2.9.6
+FROM grafana/promtail:3.0.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -219,15 +219,15 @@ FROM quay.io/cortexproject/cortex:v1.16.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.13.1
+FROM docker.elastic.co/logstash/logstash:8.13.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.13.1
+FROM docker.elastic.co/kibana/kibana:8.13.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -435,7 +435,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.81.1
+FROM ghost:5.82.1
 # ghost
 
 # bitnami/ghost
@@ -659,7 +659,7 @@ FROM bitnami/kubeapps-asset-syncer:2.10.0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.9.0
+FROM bitnami/kubeapps-apis:2.10.0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
@@ -783,7 +783,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.75
+FROM stakater/reloader:v1.0.76
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1107,7 +1107,7 @@ FROM bitnami/kubectl:1.29.3
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.8.4-python3.11
+FROM apache/airflow:2.9.0-python3.11
 # apache/airflow
 
 # git-sync/git-sync
@@ -1167,7 +1167,7 @@ FROM hashicorp/vault:1.16.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.4.0
+FROM hashicorp/vault-k8s:1.4.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
