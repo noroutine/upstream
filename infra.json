@@ -1,5 +1,5 @@
 {
-  "version": "3dc74d3b",
+  "version": "01b70fe5",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -96,11 +96,11 @@
       "quay.io/brancz/kube-rbac-proxy:v0.16.0",
       "jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab",
       "noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b",
-      "jupyterhub/k8s-hub:3.3.6",
-      "jupyterhub/k8s-secret-sync:3.3.6",
-      "jupyterhub/k8s-network-tools:3.3.6",
-      "jupyterhub/k8s-image-awaiter:3.3.6",
-      "jupyterhub/k8s-singleuser-sample:3.3.6",
+      "jupyterhub/k8s-hub:3.3.7",
+      "jupyterhub/k8s-secret-sync:3.3.7",
+      "jupyterhub/k8s-network-tools:3.3.7",
+      "jupyterhub/k8s-image-awaiter:3.3.7",
+      "jupyterhub/k8s-singleuser-sample:3.3.7",
       "jupyterhub/configurable-http-proxy:4.6.1",
       "registry.k8s.io/kube-scheduler:v1.28.8",
       "registry.k8s.io/pause:3.9",
@@ -254,7 +254,7 @@
       "netbirdio/management:0.27.1",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.452-jdk17",
+      "jenkins/jenkins:2.453-jdk17",
       "jenkins/agent:3206.vb_15dcf73f6a_9-4-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.7.5",
