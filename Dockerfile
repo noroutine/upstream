@@ -919,7 +919,7 @@ FROM outlinewiki/outline:0.75.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.5
+FROM syncthing/syncthing:1.27.6
 # syncthing/syncthing
 
 # syncthing/discosrv
