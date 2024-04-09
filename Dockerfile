@@ -231,7 +231,7 @@ FROM docker.elastic.co/kibana/kibana:8.13.2
 # kibana/kibana
 
 # alerta/alerta-web
-FROM alerta/alerta-web:9.0.1
+FROM alerta/alerta-web:9.0.2
 # alerta/alerta-web
 
 # mongo
@@ -795,7 +795,7 @@ FROM registry:2.8.3
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.39.0
+FROM ghcr.io/dexidp/dex:v2.39.1
 # dexidp/dex
 
 # argoproj/argocd
@@ -919,15 +919,15 @@ FROM outlinewiki/outline:0.75.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.5
+FROM syncthing/syncthing:1.27.6
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.5
+FROM syncthing/discosrv:1.27.6
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.5
+FROM syncthing/relaysrv:1.27.6
 # syncthing/relaysrv
 
 # jellyfin/jellyfin

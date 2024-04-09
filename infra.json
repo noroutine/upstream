@@ -1,5 +1,5 @@
 {
-  "version": "9632a90a",
+  "version": "52b0c437",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -60,7 +60,7 @@
       "docker.elastic.co/elasticsearch/elasticsearch:8.13.2",
       "docker.elastic.co/logstash/logstash:8.13.2",
       "docker.elastic.co/kibana/kibana:8.13.2",
-      "alerta/alerta-web:9.0.1",
+      "alerta/alerta-web:9.0.2",
       "mongo:7.0.8-jammy",
       "wordpress:6.5.0-apache",
       "dpage/pgadmin4:8.5",
@@ -201,7 +201,7 @@
       "stakater/reloader:v1.0.76",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
-      "ghcr.io/dexidp/dex:v2.39.0",
+      "ghcr.io/dexidp/dex:v2.39.1",
       "quay.io/argoproj/argocd:v2.10.6",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.9.1",
@@ -232,9 +232,9 @@
       "louislam/uptime-kuma:1.23.11-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.75.2",
-      "syncthing/syncthing:1.27.5",
-      "syncthing/discosrv:1.27.5",
-      "syncthing/relaysrv:1.27.5",
+      "syncthing/syncthing:1.27.6",
+      "syncthing/discosrv:1.27.6",
+      "syncthing/relaysrv:1.27.6",
       "jellyfin/jellyfin:10.8.13-1",
       "haveagitgat/tdarr:2.17.01",
       "haveagitgat/tdarr_node:2.17.01",
