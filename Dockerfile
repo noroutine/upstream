@@ -63,11 +63,11 @@ FROM php:8.3.4-apache-bookworm
 # php
 
 # python
-FROM python:3.12.2-bookworm
+FROM python:3.12.3-bookworm
 # python
 
 # python
-FROM python:3.12.2-slim-bookworm
+FROM python:3.12.3-slim-bookworm
 # python
 
 # golang
@@ -83,7 +83,7 @@ FROM traefik:v2.11.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.67.0
+FROM sonatype/nexus3:3.66.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -139,7 +139,7 @@ FROM quay.io/prometheus/consul-exporter:v0.11.0
 # prometheus/consul-exporter
 
 # prometheus/blackbox-exporter
-FROM quay.io/prometheus/blackbox-exporter:v0.24.0
+FROM quay.io/prometheus/blackbox-exporter:v0.25.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
@@ -523,7 +523,7 @@ FROM bitnami/node-exporter:1.7.0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.24.0
+FROM bitnami/blackbox-exporter:0.25.0
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
@@ -859,7 +859,7 @@ FROM natsio/prometheus-nats-exporter:0.14.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.14.1
+FROM natsio/nats-server-config-reloader:0.14.2
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.1
+FROM netbirdio/signal:0.27.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.1
+FROM netbirdio/management:0.27.2
 # netbirdio/management
 
 # coturn/coturn
@@ -1507,7 +1507,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.2
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.4.0-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.4.1-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
