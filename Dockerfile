@@ -719,7 +719,7 @@ FROM goharbor/harbor-portal:v2.10.1
 # goharbor/harbor-portal
 
 # goharbor/harbor-core
-FROM goharbor/harbor-core:v2.10.1
+FROM goharbor/harbor-core:v2.10.2
 # goharbor/harbor-core
 
 # goharbor/harbor-jobservice
