@@ -123,7 +123,7 @@ FROM quay.io/coreos/etcd:v3.5.13
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.51.1
+FROM quay.io/prometheus/prometheus:v2.51.2
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -451,7 +451,7 @@ FROM nocodb/nocodb:0.205.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.3
+FROM metabase/metabase:v0.49.4
 # metabase/metabase
 
 # docker
@@ -511,7 +511,7 @@ FROM bitnami/spark:3.5.1
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.51.1
+FROM bitnami/prometheus:2.51.2
 # bitnami/prometheus
 
 # bitnami/prometheus-operator

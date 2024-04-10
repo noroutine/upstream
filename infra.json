@@ -1,5 +1,5 @@
 {
-  "version": "2ee596d3",
+  "version": "fc934fa2",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -33,7 +33,7 @@
       "haproxytech/haproxy-debian:3.0",
       "minio/minio:RELEASE.2024-04-06T05-26-02Z",
       "quay.io/coreos/etcd:v3.5.13",
-      "quay.io/prometheus/prometheus:v2.51.1",
+      "quay.io/prometheus/prometheus:v2.51.2",
       "quay.io/prometheus/alertmanager:v0.27.0",
       "quay.io/prometheus/node-exporter:v1.7.0",
       "quay.io/prometheus/consul-exporter:v0.11.0",
@@ -115,7 +115,7 @@
       "bitnami/ghost:5.82.1",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.205.1",
-      "metabase/metabase:v0.49.3",
+      "metabase/metabase:v0.49.4",
       "docker:26.0.0-dind",
       "quay.io/podman/stable:v4.9.4",
       "jupyter/base-notebook:2023-10-20",
@@ -130,7 +130,7 @@
       "caprover/caprover:1.11.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.1",
-      "bitnami/prometheus:2.51.1",
+      "bitnami/prometheus:2.51.2",
       "bitnami/prometheus-operator:0.73.0",
       "bitnami/node-exporter:1.7.0",
       "bitnami/blackbox-exporter:0.25.0",
