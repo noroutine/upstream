@@ -79,7 +79,7 @@ FROM golang:1.22.2-alpine3.19
 # golang
 
 # traefik
-FROM traefik:v2.11.0
+FROM traefik:v2.11.1
 # traefik
 
 # sonatype/nexus3
@@ -239,7 +239,7 @@ FROM mongo:7.0.8-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.5.0-apache
+FROM wordpress:6.5.2-apache
 # wordpress
 
 # dpage/pgadmin4

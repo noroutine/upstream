@@ -1,5 +1,5 @@
 {
-  "version": "fc934fa2",
+  "version": "c233358a",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -22,7 +22,7 @@
       "python:3.12.3-slim-bookworm",
       "golang:1.22.2-bookworm",
       "golang:1.22.2-alpine3.19",
-      "traefik:v2.11.0",
+      "traefik:v2.11.1",
       "sonatype/nexus3:3.66.0",
       "squidfunk/mkdocs-material:9.5.17",
       "freeradius/freeradius-server:3.2.3-alpine",
@@ -62,7 +62,7 @@
       "docker.elastic.co/kibana/kibana:8.13.2",
       "alerta/alerta-web:9.0.2",
       "mongo:7.0.8-jammy",
-      "wordpress:6.5.0-apache",
+      "wordpress:6.5.2-apache",
       "dpage/pgadmin4:8.5",
       "adminer:4.8.1",
       "mysql:8.3.0",
