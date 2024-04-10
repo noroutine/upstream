@@ -687,31 +687,31 @@ FROM bitnami/kubectl:1.29.3
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
-FROM bitnami/harbor-adapter-trivy:2.10.1
+FROM bitnami/harbor-adapter-trivy:2.10.2
 # bitnami/harbor-adapter-trivy
 
 # bitnami/harbor-core
-FROM bitnami/harbor-core:2.10.1
+FROM bitnami/harbor-core:2.10.2
 # bitnami/harbor-core
 
 # bitnami/harbor-exporter
-FROM bitnami/harbor-exporter:2.10.1
+FROM bitnami/harbor-exporter:2.10.2
 # bitnami/harbor-exporter
 
 # bitnami/harbor-jobservice
-FROM bitnami/harbor-jobservice:2.10.1
+FROM bitnami/harbor-jobservice:2.10.2
 # bitnami/harbor-jobservice
 
 # bitnami/harbor-portal
-FROM bitnami/harbor-portal:2.10.1
+FROM bitnami/harbor-portal:2.10.2
 # bitnami/harbor-portal
 
 # bitnami/harbor-registry
-FROM bitnami/harbor-registry:2.10.1
+FROM bitnami/harbor-registry:2.10.2
 # bitnami/harbor-registry
 
 # bitnami/harbor-registryctl
-FROM bitnami/harbor-registryctl:2.10.1
+FROM bitnami/harbor-registryctl:2.10.2
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal

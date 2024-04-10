@@ -1,5 +1,5 @@
 {
-  "version": "d613dcdf",
+  "version": "2ee596d3",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -174,13 +174,13 @@
       "bitnami/sealed-secrets-controller:0.26.2",
       "bitnami/trivy:0.50.1",
       "bitnami/kubectl:1.29.3",
-      "bitnami/harbor-adapter-trivy:2.10.1",
-      "bitnami/harbor-core:2.10.1",
-      "bitnami/harbor-exporter:2.10.1",
-      "bitnami/harbor-jobservice:2.10.1",
-      "bitnami/harbor-portal:2.10.1",
-      "bitnami/harbor-registry:2.10.1",
-      "bitnami/harbor-registryctl:2.10.1",
+      "bitnami/harbor-adapter-trivy:2.10.2",
+      "bitnami/harbor-core:2.10.2",
+      "bitnami/harbor-exporter:2.10.2",
+      "bitnami/harbor-jobservice:2.10.2",
+      "bitnami/harbor-portal:2.10.2",
+      "bitnami/harbor-registry:2.10.2",
+      "bitnami/harbor-registryctl:2.10.2",
       "goharbor/harbor-portal:v2.10.2",
       "goharbor/harbor-core:v2.10.2",
       "goharbor/harbor-jobservice:v2.10.2",
