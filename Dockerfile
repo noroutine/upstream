@@ -511,7 +511,7 @@ FROM bitnami/spark:3.5.1
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.51.1
+FROM bitnami/prometheus:2.51.2
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
