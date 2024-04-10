@@ -319,7 +319,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.19.2
+FROM buildpacksio/lifecycle:0.19.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -327,7 +327,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.10.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.10.1-ce.0
+FROM gitlab/gitlab-ce:16.10.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -715,43 +715,43 @@ FROM bitnami/harbor-registryctl:2.10.1
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
-FROM goharbor/harbor-portal:v2.10.1
+FROM goharbor/harbor-portal:v2.10.2
 # goharbor/harbor-portal
 
 # goharbor/harbor-core
-FROM goharbor/harbor-core:v2.10.1
+FROM goharbor/harbor-core:v2.10.2
 # goharbor/harbor-core
 
 # goharbor/harbor-jobservice
-FROM goharbor/harbor-jobservice:v2.10.1
+FROM goharbor/harbor-jobservice:v2.10.2
 # goharbor/harbor-jobservice
 
 # goharbor/registry-photon
-FROM goharbor/registry-photon:v2.10.1
+FROM goharbor/registry-photon:v2.10.2
 # goharbor/registry-photon
 
 # goharbor/harbor-registryctl
-FROM goharbor/harbor-registryctl:v2.10.1
+FROM goharbor/harbor-registryctl:v2.10.2
 # goharbor/harbor-registryctl
 
 # goharbor/harbor-db
-FROM goharbor/harbor-db:v2.10.1
+FROM goharbor/harbor-db:v2.10.2
 # goharbor/harbor-db
 
 # goharbor/harbor-exporter
-FROM goharbor/harbor-exporter:v2.10.1
+FROM goharbor/harbor-exporter:v2.10.2
 # goharbor/harbor-exporter
 
 # goharbor/redis-photon
-FROM goharbor/redis-photon:v2.10.1
+FROM goharbor/redis-photon:v2.10.2
 # goharbor/redis-photon
 
 # goharbor/trivy-adapter-photon
-FROM goharbor/trivy-adapter-photon:v2.10.1
+FROM goharbor/trivy-adapter-photon:v2.10.2
 # goharbor/trivy-adapter-photon
 
 # goharbor/nginx-photon
-FROM goharbor/nginx-photon:v2.10.1
+FROM goharbor/nginx-photon:v2.10.2
 # goharbor/nginx-photon
 
 # aquasec/trivy
@@ -783,7 +783,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.76
+FROM stakater/reloader:v1.0.78
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1027,7 +1027,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.4.2
+FROM kubernetesui/dashboard-api:1.4.3
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
