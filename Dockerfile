@@ -1491,7 +1491,7 @@ FROM confluentinc/cp-server:7.6.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.6.0
+FROM confluentinc/cp-server-connect:7.6.1
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
