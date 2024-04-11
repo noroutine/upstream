@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.327",
+  "version": "241bbd3d",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -39,6 +39,7 @@
       "quay.io/prometheus/consul-exporter:v0.11.0",
       "quay.io/prometheus/blackbox-exporter:v0.25.0",
       "quay.io/prometheus/snmp-exporter:v0.25.0",
+      "quay.io/prometheus/memcached-exporter:v0.14.3",
       "quay.io/prometheus/pushgateway:v1.8.0",
       "quay.io/prometheus-operator/prometheus-operator:v0.73.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.73.0",
