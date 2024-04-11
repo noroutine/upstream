@@ -1066,6 +1066,10 @@ FROM guacamole/guacd:1.5.5
 FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
+# zitadel/zitadel
+FROM ghcr.io/zitadel/zitadel:v2.49.3
+# zitadel/zitadel
+
 # velero/velero
 FROM velero/velero:v1.13.1
 # velero/velero
