@@ -1,5 +1,5 @@
 {
-  "version": "241bbd3d",
+  "version": "64234ac0",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -261,7 +261,7 @@
       "netboxcommunity/netbox:v3.7.5",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:1.4.3",
-      "kubernetesui/dashboard-web:1.2.3",
+      "kubernetesui/dashboard-web:1.3.0",
       "kubernetesui/metrics-scraper:v1.0.9",
       "locustio/locust:2.24.1",
       "postgrest/postgrest:v12.0.2",
