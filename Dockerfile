@@ -455,7 +455,7 @@ FROM nocodb/nocodb:0.205.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.4
+FROM metabase/metabase:v0.49.5
 # metabase/metabase
 
 # docker
@@ -519,7 +519,7 @@ FROM bitnami/prometheus:2.51.2
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.73.0
+FROM bitnami/prometheus-operator:0.73.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
