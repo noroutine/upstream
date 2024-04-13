@@ -639,7 +639,7 @@ FROM bitnami/consul:1.18.1
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.12
+FROM bitnami/nats:2.10.14
 # bitnami/nats
 
 # bitnami/kube-state-metrics
