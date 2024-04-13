@@ -639,7 +639,7 @@ FROM bitnami/consul:1.18.1
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.12
+FROM bitnami/nats:2.10.14
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -855,7 +855,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.12-alpine3.19
+FROM nats:2.10.14-alpine3.19
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -1455,7 +1455,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.2
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.8.0
+FROM confluentinc/confluent-init-container:2.8.2
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
