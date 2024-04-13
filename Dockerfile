@@ -79,7 +79,7 @@ FROM golang:1.22.2-alpine3.19
 # golang
 
 # traefik
-FROM traefik:v2.11.1
+FROM traefik:v2.11.2
 # traefik
 
 # sonatype/nexus3
@@ -163,7 +163,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.73.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.4.1
+FROM grafana/grafana:10.4.2
 # grafana/grafana
 
 # grafana/loki
@@ -235,7 +235,7 @@ FROM docker.elastic.co/kibana/kibana:8.13.2
 # kibana/kibana
 
 # alerta/alerta-web
-FROM alerta/alerta-web:9.0.2
+FROM alerta/alerta-web:9.0.3
 # alerta/alerta-web
 
 # mongo
@@ -627,7 +627,7 @@ FROM bitnami/metallb-speaker:0.14.4
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.4.1
+FROM bitnami/grafana:10.4.2
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -995,11 +995,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.2
+FROM netbirdio/signal:0.27.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.2
+FROM netbirdio/management:0.27.3
 # netbirdio/management
 
 # coturn/coturn
