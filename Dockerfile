@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy@sha256:ea6528431a9af0aacf1b5ad0f03c8b72a0fc9e49901401e
 # buildpack-deps
 
 # php
-FROM php:8.3.4-apache-bookworm
+FROM php:8.3.6-apache-bookworm
 # php
 
 # python
@@ -83,7 +83,7 @@ FROM traefik:v2.11.2
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.66.0
+FROM sonatype/nexus3:3.67.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -343,7 +343,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.88.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.89.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -459,7 +459,7 @@ FROM metabase/metabase:v0.49.5
 # metabase/metabase
 
 # docker
-FROM docker:26.0.0-dind
+FROM docker:26.0.1-dind
 # docker
 
 # podman/stable
@@ -763,7 +763,7 @@ FROM aquasec/trivy:0.50.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.14
+FROM ghcr.io/external-secrets/external-secrets:v0.9.15
 # external-secrets/external-secrets
 
 # minio/console
@@ -1043,7 +1043,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.24.1
+FROM locustio/locust:2.25.0
 # locustio/locust
 
 # postgrest/postgrest
@@ -1459,7 +1459,7 @@ FROM confluentinc/confluent-init-container:2.8.2
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.921.2
+FROM confluentinc/confluent-operator:0.921.20
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
