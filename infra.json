@@ -1,5 +1,5 @@
 {
-  "version": "0cb5a8ae",
+  "version": "6eecbe79",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -36,7 +36,7 @@
       "quay.io/prometheus/prometheus:v2.51.2",
       "quay.io/prometheus/alertmanager:v0.27.0",
       "quay.io/prometheus/node-exporter:v1.7.0",
-      "quay.io/prometheus/consul-exporter:v0.11.0",
+      "quay.io/prometheus/consul-exporter:v0.12.0",
       "quay.io/prometheus/blackbox-exporter:v0.25.0",
       "quay.io/prometheus/snmp-exporter:v0.25.0",
       "quay.io/prometheus/memcached-exporter:v0.14.3",
@@ -113,7 +113,7 @@
       "verdaccio/verdaccio:5.30.3",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.82.1",
-      "bitnami/ghost:5.82.1",
+      "bitnami/ghost:5.82.2",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.205.1",
       "metabase/metabase:v0.49.5",
@@ -203,7 +203,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.39.1",
-      "quay.io/argoproj/argocd:v2.10.6",
+      "quay.io/argoproj/argocd:v2.10.7",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.9.1",
       "quay.io/argoproj/argocli:v3.5.5",

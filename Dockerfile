@@ -135,7 +135,7 @@ FROM quay.io/prometheus/node-exporter:v1.7.0
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
-FROM quay.io/prometheus/consul-exporter:v0.11.0
+FROM quay.io/prometheus/consul-exporter:v0.12.0
 # prometheus/consul-exporter
 
 # prometheus/blackbox-exporter
@@ -443,7 +443,7 @@ FROM ghost:5.82.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.1
+FROM bitnami/ghost:5.82.2
 # bitnami/ghost
 
 # matomo
@@ -803,7 +803,7 @@ FROM ghcr.io/dexidp/dex:v2.39.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.10.6
+FROM quay.io/argoproj/argocd:v2.10.7
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
