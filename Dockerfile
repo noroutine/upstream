@@ -443,7 +443,7 @@ FROM ghost:5.82.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.1
+FROM bitnami/ghost:5.82.2
 # bitnami/ghost
 
 # matomo
