@@ -47,15 +47,15 @@ FROM gcr.io/distroless/nodejs-debian11
 # distroless/nodejs-debian11
 
 # buildpack-deps
-FROM buildpack-deps:bionic@sha256:816cb0d4a26fd8584b27d190bdd57ba7048be4fc20c259e60a985bec812887dc
+FROM buildpack-deps:bionic
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:focal@sha256:43d3c37b0b77687dac2c85f36cc78a8d7ba9d75699df4a15837516767442e88d
+FROM buildpack-deps:focal
 # buildpack-deps
 
 # buildpack-deps
-FROM buildpack-deps:jammy@sha256:ea6528431a9af0aacf1b5ad0f03c8b72a0fc9e49901401ef765b03c8872bcd43
+FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
@@ -455,7 +455,7 @@ FROM nocodb/nocodb:0.205.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.5
+FROM metabase/metabase:v0.49.6
 # metabase/metabase
 
 # docker
@@ -1071,7 +1071,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.50.0
+FROM ghcr.io/zitadel/zitadel:v2.50.1
 # zitadel/zitadel
 
 # velero/velero
