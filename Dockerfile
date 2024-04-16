@@ -603,7 +603,7 @@ FROM bitnami/nginx-ingress-controller:1.10.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.4
+FROM bitnami/nginx:1.25.5
 # bitnami/nginx
 
 # bitnami/minio
@@ -631,7 +631,7 @@ FROM bitnami/grafana:10.4.2
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.10.2
+FROM bitnami/grafana-image-renderer:3.10.3
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
