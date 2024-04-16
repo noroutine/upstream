@@ -3,15 +3,15 @@ FROM debian:bookworm-20240311-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240225
+FROM ubuntu:noble-20240407.1
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240227
+FROM ubuntu:jammy-20240405
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240216
+FROM ubuntu:focal-20240410
 # ubuntu
 
 # alpine
@@ -331,7 +331,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.10.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.10.2-ce.0
+FROM gitlab/gitlab-ce:16.10.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -439,7 +439,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.82.1
+FROM ghost:5.82.2
 # ghost
 
 # bitnami/ghost
@@ -1031,7 +1031,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.4.3
+FROM kubernetesui/dashboard-api:1.5.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
@@ -1071,7 +1071,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.49.3
+FROM ghcr.io/zitadel/zitadel:v2.50.0
 # zitadel/zitadel
 
 # velero/velero
@@ -1119,7 +1119,7 @@ FROM apache/airflow:2.9.0-python3.11
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.2.1
+FROM registry.k8s.io/git-sync/git-sync:v4.2.2
 # git-sync/git-sync
 
 # kedacore/keda
