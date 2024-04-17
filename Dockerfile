@@ -1075,7 +1075,7 @@ FROM ghcr.io/zitadel/zitadel:v2.50.1
 # zitadel/zitadel
 
 # velero/velero
-FROM velero/velero:v1.13.1
+FROM velero/velero:v1.13.2
 # velero/velero
 
 # velero/velero-plugin-for-csi
