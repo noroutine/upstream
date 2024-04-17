@@ -1527,7 +1527,7 @@ FROM nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
-FROM nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8
+FROM nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
