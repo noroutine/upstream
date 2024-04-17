@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240311-slim
+FROM debian:bookworm-20240408-slim
 # debian
 
 # ubuntu
@@ -687,7 +687,7 @@ FROM bitnami/trivy:0.50.1
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.3
+FROM bitnami/kubectl:1.29.4
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -1075,23 +1075,23 @@ FROM ghcr.io/zitadel/zitadel:v2.50.1
 # zitadel/zitadel
 
 # velero/velero
-FROM velero/velero:v1.13.1
+FROM velero/velero:v1.13.2
 # velero/velero
 
 # velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.7.0
+FROM velero/velero-plugin-for-csi:v0.7.1
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.9.1
+FROM velero/velero-plugin-for-aws:v1.9.2
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.9.0
+FROM velero/velero-plugin-for-gcp:v1.9.1
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.9.1
+FROM velero/velero-plugin-for-microsoft-azure:v1.9.2
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
@@ -1111,7 +1111,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.3
+FROM bitnami/kubectl:1.29.4
 # bitnami/kubectl
 
 # apache/airflow
@@ -1199,51 +1199,51 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.3
+FROM registry.k8s.io/kube-apiserver:v1.29.4
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.3
+FROM registry.k8s.io/kube-proxy:v1.29.4
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.3
+FROM registry.k8s.io/kube-scheduler:v1.29.4
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.3
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.8
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.8
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.8
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.8
+FROM registry.k8s.io/kube-controller-manager:v1.29.4
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.12
+FROM registry.k8s.io/kube-apiserver:v1.28.9
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.12
+FROM registry.k8s.io/kube-proxy:v1.28.9
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.12
+FROM registry.k8s.io/kube-scheduler:v1.28.9
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.12
+FROM registry.k8s.io/kube-controller-manager:v1.28.9
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.27.13
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.27.13
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.27.13
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.27.13
 # kube-controller-manager
 
 # kube-apiserver
@@ -1523,11 +1523,11 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.7
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.14.6-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
-FROM nvcr.io/nvidia/k8s-device-plugin:v0.14.5-ubi8
+FROM nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
