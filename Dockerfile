@@ -103,7 +103,7 @@ FROM postgres:16.2-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.15.0
+FROM atlassian/jira-software:9.15.1
 # atlassian/jira-software
 
 # nextcloud
@@ -343,7 +343,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.89.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -787,7 +787,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.79
+FROM stakater/reloader:v1.0.80
 # stakater/reloader
 
 # jimmidyson/configmap-reload

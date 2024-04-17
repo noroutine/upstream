@@ -1,5 +1,5 @@
 {
-  "version": "d8c5d94d",
+  "version": "b238239a",
   "upstream": {
     "images": [
       "debian:bookworm-20240408-slim",
@@ -28,7 +28,7 @@
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.3",
       "postgres:16.2-bookworm",
-      "atlassian/jira-software:9.15.0",
+      "atlassian/jira-software:9.15.1",
       "nextcloud:28.0.4-apache",
       "haproxytech/haproxy-debian:3.0",
       "minio/minio:RELEASE.2024-04-06T05-26-02Z",
@@ -88,7 +88,7 @@
       "gitlab/gitlab-ce:16.10.3-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.10.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.89.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.10.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.3.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -199,7 +199,7 @@
       "drakkan/sftpgo:v2.5.6",
       "hasura/graphql-engine:v2.38.1",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.79",
+      "stakater/reloader:v1.0.80",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.39.1",
