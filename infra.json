@@ -1,5 +1,5 @@
 {
-  "version": "ae96fd0f",
+  "version": "0ad899c0",
   "upstream": {
     "images": [
       "debian:bookworm-20240311-slim",
@@ -24,7 +24,7 @@
       "golang:1.22.2-alpine3.19",
       "traefik:v2.11.2",
       "sonatype/nexus3:3.67.1",
-      "squidfunk/mkdocs-material:9.5.17",
+      "squidfunk/mkdocs-material:9.5.18",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.3",
       "postgres:16.2-bookworm",
@@ -255,7 +255,7 @@
       "netbirdio/management:0.27.3",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.453-jdk17",
+      "jenkins/jenkins:2.454-jdk17",
       "jenkins/agent:3206.vb_15dcf73f6a_9-4-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v3.7.5",

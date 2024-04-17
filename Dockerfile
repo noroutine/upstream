@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.67.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.17
+FROM squidfunk/mkdocs-material:9.5.18
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -1011,7 +1011,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.453-jdk17
+FROM jenkins/jenkins:2.454-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
