@@ -859,7 +859,7 @@ FROM nats:2.10.14-alpine3.19
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.14.0
+FROM natsio/prometheus-nats-exporter:0.15.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
