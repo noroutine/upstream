@@ -947,7 +947,7 @@ FROM haveagitgat/tdarr_node:2.17.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.23.0
+FROM gravitl/netmaker:v0.24.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
