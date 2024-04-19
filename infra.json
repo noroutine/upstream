@@ -1,5 +1,5 @@
 {
-  "version": "050e8eef",
+  "version": "d8e18fea",
   "upstream": {
     "images": [
       "debian:bookworm-20240408-slim",
@@ -363,7 +363,7 @@
       "longhornio/csi-attacher:v4.4.2",
       "longhornio/livenessprobe:v2.12.0",
       "longhornio/support-bundle-kit:v0.0.37",
-      "gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.29.0",
+      "gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.0",
       "gcr.io/cloud-provider-vsphere/csi/release/driver:v3.2.0",
       "gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.2.0",
       "registry.k8s.io/sig-storage/livenessprobe:v2.12.0",
@@ -390,7 +390,7 @@
       "nvcr.io/nvidia/gpu-operator:v23.9.2",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.2",
       "nvcr.io/nvidia/cuda:12.4.1-base-ubi9",
-      "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.7",
+      "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.8",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8",
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.5-1-ubi9",
