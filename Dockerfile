@@ -115,8 +115,16 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM minio/minio:RELEASE.2024-04-06T05-26-02Z
+FROM quay.io/minio/minio:RELEASE.2024-04-18T19-09-19Z
 # minio/minio
+
+# minio/mc
+FROM quay.io/minio/mc:RELEASE.2024-04-18T16-45-29Z
+# minio/mc
+
+# minio/console
+FROM quay.io/minio/console:v0.30.0
+# minio/console
 
 # coreos/etcd
 FROM quay.io/coreos/etcd:v3.5.13
@@ -179,11 +187,11 @@ FROM grafana/promtail:3.0.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.5-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.4-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.25.5-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -331,7 +339,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.10.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.10.3-ce.0
+FROM gitlab/gitlab-ce:16.11.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -367,7 +375,7 @@ FROM summerwind/actions-runner-dind:v2.315.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.16.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.17.0
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -607,11 +615,11 @@ FROM bitnami/nginx:1.25.5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.4.6
+FROM bitnami/minio:2024.4.18
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.3.30
+FROM bitnami/minio-client:2024.4.18
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -671,7 +679,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.10.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.16.0
+FROM bitnami/kube-rbac-proxy:0.17.0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -766,10 +774,6 @@ FROM aquasec/trivy:0.50.1
 FROM ghcr.io/external-secrets/external-secrets:v0.9.15
 # external-secrets/external-secrets
 
-# minio/console
-FROM minio/console:v0.30.0
-# minio/console
-
 # kutt/kutt
 FROM kutt/kutt:v2.7.4
 # kutt/kutt
@@ -859,7 +863,7 @@ FROM nats:2.10.14-alpine3.19
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.14.0
+FROM natsio/prometheus-nats-exporter:0.15.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
@@ -911,7 +915,7 @@ FROM elastic/eck-operator:2.12.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.11-alpine
+FROM louislam/uptime-kuma:1.23.12-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -947,11 +951,11 @@ FROM haveagitgat/tdarr_node:2.17.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.23.0
+FROM gravitl/netmaker:v0.24.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.23.0
+FROM gravitl/netmaker-ui:v0.24.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -1043,7 +1047,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.25.0
+FROM locustio/locust:2.26.0
 # locustio/locust
 
 # postgrest/postgrest
@@ -1051,7 +1055,7 @@ FROM postgrest/postgrest:v12.0.2
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
-FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.1
+FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.2
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
@@ -1071,8 +1075,20 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.50.1
+FROM ghcr.io/zitadel/zitadel:v2.50.2
 # zitadel/zitadel
+
+# chirpstack/chirpstack
+FROM chirpstack/chirpstack:4.7.0
+# chirpstack/chirpstack
+
+# chirpstack/chirpstack-rest-api
+FROM chirpstack/chirpstack-rest-api:4.7.0
+# chirpstack/chirpstack-rest-api
+
+# chirpstack/chirpstack-gateway-bridge
+FROM chirpstack/chirpstack-gateway-bridge:4.0.11
+# chirpstack/chirpstack-gateway-bridge
 
 # velero/velero
 FROM velero/velero:v1.13.2
@@ -1197,6 +1213,22 @@ FROM registry.k8s.io/pause:3.9
 # coredns/coredns
 FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.30.0
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.30.0
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.30.0
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.30.0
+# kube-controller-manager
 
 # kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.29.4
@@ -1407,7 +1439,7 @@ FROM longhornio/livenessprobe:v2.12.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.36
+FROM longhornio/support-bundle-kit:v0.0.37
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
