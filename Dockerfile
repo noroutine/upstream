@@ -911,7 +911,7 @@ FROM elastic/eck-operator:2.12.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.11-alpine
+FROM louislam/uptime-kuma:1.23.12-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
