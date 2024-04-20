@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.329",
+  "version": "e1feee17",
   "upstream": {
     "images": [
       "debian:bookworm-20240408-slim",
@@ -119,7 +119,7 @@
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.205.1",
       "metabase/metabase:v0.49.6",
-      "docker:26.0.1-dind",
+      "docker:26.0.2-dind",
       "quay.io/podman/stable:v4.9.4",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
@@ -159,8 +159,8 @@
       "bitnami/minio:2024.4.18",
       "bitnami/minio-client:2024.4.18",
       "bitnami/os-shell:12",
-      "bitnami/metallb-controller:0.14.4",
-      "bitnami/metallb-speaker:0.14.4",
+      "bitnami/metallb-controller:0.14.5",
+      "bitnami/metallb-speaker:0.14.5",
       "bitnami/grafana:10.4.2",
       "bitnami/grafana-image-renderer:3.10.3",
       "bitnami/consul:1.18.1",

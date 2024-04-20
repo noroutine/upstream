@@ -467,7 +467,7 @@ FROM metabase/metabase:v0.49.6
 # metabase/metabase
 
 # docker
-FROM docker:26.0.1-dind
+FROM docker:26.0.2-dind
 # docker
 
 # podman/stable
@@ -627,11 +627,11 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.4
+FROM bitnami/metallb-controller:0.14.5
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.4
+FROM bitnami/metallb-speaker:0.14.5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
