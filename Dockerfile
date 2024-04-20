@@ -163,11 +163,11 @@ FROM quay.io/prometheus/pushgateway:v1.8.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.73.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.73.2
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.73.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.73.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -527,7 +527,7 @@ FROM bitnami/prometheus:2.51.2
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.73.1
+FROM bitnami/prometheus-operator:0.73.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -819,15 +819,15 @@ FROM quay.io/argoproj/argo-events:v1.9.1
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.5
+FROM quay.io/argoproj/argocli:v3.5.6
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.5
+FROM quay.io/argoproj/workflow-controller:v3.5.6
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.5
+FROM quay.io/argoproj/argoexec:v3.5.6
 # argoproj/argoexec
 
 # redis
