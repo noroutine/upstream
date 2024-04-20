@@ -819,7 +819,7 @@ FROM quay.io/argoproj/argo-events:v1.9.1
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.5
+FROM quay.io/argoproj/argocli:v3.5.6
 # argoproj/argocli
 
 # argoproj/workflow-controller
