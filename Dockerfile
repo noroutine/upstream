@@ -1090,6 +1090,46 @@ FROM chirpstack/chirpstack-rest-api:4.7.0
 FROM chirpstack/chirpstack-gateway-bridge:4.0.11
 # chirpstack/chirpstack-gateway-bridge
 
+# supabase/studio
+FROM supabase/studio:20240415-304bec8
+# supabase/studio
+
+# supabase/gotrue
+FROM supabase/gotrue:v2.149.0
+# supabase/gotrue
+
+# supabase/realtime
+FROM supabase/realtime:v2.28.32
+# supabase/realtime
+
+# supabase/postgres-meta
+FROM supabase/postgres-meta:v0.80.0
+# supabase/postgres-meta
+
+# supabase/storage-api
+FROM supabase/storage-api:v1.0.10
+# supabase/storage-api
+
+# supabase/logflare
+FROM supabase/logflare:1.6.3
+# supabase/logflare
+
+# supabase/edge-runtime
+FROM supabase/edge-runtime:v1.44.1
+# supabase/edge-runtime
+
+# darthsim/imgproxy
+FROM darthsim/imgproxy:v3.23
+# darthsim/imgproxy
+
+# timberio/vector
+FROM timberio/vector:0.37.1-alpine
+# timberio/vector
+
+# kong
+FROM kong:3.6.1-ubuntu
+# kong
+
 # velero/velero
 FROM velero/velero:v1.13.2
 # velero/velero

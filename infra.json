@@ -1,5 +1,5 @@
 {
-  "version": "973a473c",
+  "version": "1e221a3b",
   "upstream": {
     "images": [
       "debian:bookworm-20240408-slim",
@@ -275,6 +275,16 @@
       "chirpstack/chirpstack:4.7.0",
       "chirpstack/chirpstack-rest-api:4.7.0",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
+      "supabase/studio:20240415-304bec8",
+      "supabase/gotrue:v2.149.0",
+      "supabase/realtime:v2.28.32",
+      "supabase/postgres-meta:v0.80.0",
+      "supabase/storage-api:v1.0.10",
+      "supabase/logflare:1.6.3",
+      "supabase/edge-runtime:v1.44.1",
+      "darthsim/imgproxy:v3.23",
+      "timberio/vector:0.37.1-alpine",
+      "kong:3.6.1-ubuntu",
       "velero/velero:v1.13.2",
       "velero/velero-plugin-for-csi:v0.7.1",
       "velero/velero-plugin-for-aws:v1.9.2",
