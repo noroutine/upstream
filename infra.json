@@ -1,5 +1,5 @@
 {
-  "version": "a1e97206",
+  "version": "e7680a1f",
   "upstream": {
     "images": [
       "debian:bookworm-20240408-slim",
@@ -139,7 +139,7 @@
       "bitnami/blackbox-exporter:0.25.0",
       "bitnami/postgres-exporter:0.15.0",
       "bitnami/redis:7.2.4",
-      "bitnami/redis-exporter:1.58.0",
+      "bitnami/redis-exporter:1.59.0",
       "bitnami/postgresql:10.23.0",
       "bitnami/postgresql:11.22.0",
       "bitnami/postgresql:12.18.0",
