@@ -1,5 +1,5 @@
 {
-  "version": "a4692455",
+  "version": "bbd01332",
   "upstream": {
     "images": [
       "debian:bookworm-20240408-slim",
@@ -86,12 +86,12 @@
       "paketobuildpacks/builder:tiny",
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.19.3",
-      "gitlab/gitlab-runner:alpine3.19-v16.10.0",
+      "gitlab/gitlab-runner:alpine3.19-v16.11.0",
       "gitlab/gitlab-ce:16.11.0-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.10.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.10.1",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.3.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.315.0-ubuntu-22.04",

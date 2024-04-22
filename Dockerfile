@@ -335,7 +335,7 @@ FROM buildpacksio/lifecycle:0.19.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v16.10.0
+FROM gitlab/gitlab-runner:alpine3.19-v16.11.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -355,7 +355,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.10.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
