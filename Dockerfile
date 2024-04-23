@@ -691,7 +691,7 @@ FROM bitnami/sealed-secrets-controller:0.26.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.50.1
+FROM bitnami/trivy:0.50.2
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -767,7 +767,7 @@ FROM goharbor/nginx-photon:v2.10.2
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.50.1
+FROM aquasec/trivy:0.50.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -1115,7 +1115,7 @@ FROM supabase/logflare:1.6.3
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.44.1
+FROM supabase/edge-runtime:v1.46.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1615,6 +1615,6 @@ FROM nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8
 # nvidia/gpu-feature-discovery
 
 # nvidia/cloud-native/k8s-mig-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.6.0-ubi8
+FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.7.0-ubi8
 # nvidia/cloud-native/k8s-mig-manager
 

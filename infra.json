@@ -1,5 +1,5 @@
 {
-  "version": "bbd01332",
+  "version": "d759d17f",
   "upstream": {
     "images": [
       "debian:bookworm-20240408-slim",
@@ -175,7 +175,7 @@
       "bitnami/kube-rbac-proxy:0.17.0",
       "bitnami/openldap:2.6.7",
       "bitnami/sealed-secrets-controller:0.26.2",
-      "bitnami/trivy:0.50.1",
+      "bitnami/trivy:0.50.2",
       "bitnami/kubectl:1.29.4",
       "bitnami/harbor-adapter-trivy:2.10.2",
       "bitnami/harbor-core:2.10.2",
@@ -194,7 +194,7 @@
       "goharbor/redis-photon:v2.10.2",
       "goharbor/trivy-adapter-photon:v2.10.2",
       "goharbor/nginx-photon:v2.10.2",
-      "aquasec/trivy:0.50.1",
+      "aquasec/trivy:0.50.2",
       "ghcr.io/external-secrets/external-secrets:v0.9.15",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.6",
@@ -281,7 +281,7 @@
       "supabase/postgres-meta:v0.80.0",
       "supabase/storage-api:v1.0.10",
       "supabase/logflare:1.6.3",
-      "supabase/edge-runtime:v1.44.1",
+      "supabase/edge-runtime:v1.46.0",
       "darthsim/imgproxy:v3.23",
       "timberio/vector:0.37.1-alpine",
       "kong:3.6.1-ubuntu",
@@ -406,7 +406,7 @@
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.5-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.1-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
-      "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.6.0-ubi8"
+      "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.7.0-ubi8"
     ]
   }
 }
