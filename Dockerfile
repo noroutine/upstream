@@ -1615,6 +1615,6 @@ FROM nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8
 # nvidia/gpu-feature-discovery
 
 # nvidia/cloud-native/k8s-mig-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.6.0-ubi8
+FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.7.0-ubi8
 # nvidia/cloud-native/k8s-mig-manager
 
