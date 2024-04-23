@@ -1,5 +1,5 @@
 {
-  "version": "d759d17f",
+  "version": "576c218b",
   "upstream": {
     "images": [
       "debian:bookworm-20240408-slim",
@@ -89,7 +89,7 @@
       "gitlab/gitlab-runner:alpine3.19-v16.11.0",
       "gitlab/gitlab-ce:16.11.0-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.10.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.1.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.3.0",
@@ -256,10 +256,10 @@
       "netbirdio/management:0.27.3",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.454-jdk17",
+      "jenkins/jenkins:2.455-jdk17",
       "jenkins/agent:3206.vb_15dcf73f6a_9-4-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
-      "netboxcommunity/netbox:v3.7.5",
+      "netboxcommunity/netbox:v3.7.6",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:1.5.0",
       "kubernetesui/dashboard-web:1.3.0",
@@ -271,7 +271,7 @@
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
-      "ghcr.io/zitadel/zitadel:v2.50.2",
+      "ghcr.io/zitadel/zitadel:v2.50.3",
       "chirpstack/chirpstack:4.7.0",
       "chirpstack/chirpstack-rest-api:4.7.0",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",

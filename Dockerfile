@@ -347,7 +347,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.0.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.1.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -1015,7 +1015,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.454-jdk17
+FROM jenkins/jenkins:2.455-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1027,7 +1027,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.5
+FROM netboxcommunity/netbox:v3.7.6
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1075,7 +1075,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.50.2
+FROM ghcr.io/zitadel/zitadel:v2.50.3
 # zitadel/zitadel
 
 # chirpstack/chirpstack
