@@ -791,7 +791,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.82
+FROM stakater/reloader:v1.0.83
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1115,7 +1115,7 @@ FROM supabase/storage-api:v1.1.0
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.6.4
+FROM supabase/logflare:1.6.5
 # supabase/logflare
 
 # supabase/edge-runtime
