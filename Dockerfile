@@ -343,11 +343,11 @@ FROM gitlab/gitlab-ce:16.11.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.10.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v2.1.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v3.0.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -467,7 +467,7 @@ FROM metabase/metabase:v0.49.6
 # metabase/metabase
 
 # docker
-FROM docker:26.0.2-dind
+FROM docker:26.1.0-dind
 # docker
 
 # podman/stable
@@ -607,7 +607,7 @@ FROM bitnami/memcached:1.6.26
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.10.0
+FROM bitnami/nginx-ingress-controller:1.10.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -771,7 +771,7 @@ FROM aquasec/trivy:0.50.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.15
+FROM ghcr.io/external-secrets/external-secrets:v0.9.16
 # external-secrets/external-secrets
 
 # kutt/kutt
@@ -843,7 +843,7 @@ FROM vaultwarden/server:1.30.5
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.1.0-alpine
+FROM boky/postfix:v4.2.0-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
@@ -1227,7 +1227,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.16.1
+FROM hashicorp/vault:1.16.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
