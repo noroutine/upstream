@@ -1,5 +1,5 @@
 {
-  "version": "f0e38ae9",
+  "version": "d985e948",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -91,7 +91,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v3.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.3.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.315.0-ubuntu-22.04",
@@ -297,8 +297,8 @@
       "bitnami/kubectl:1.29.4",
       "apache/airflow:2.9.0-python3.11",
       "registry.k8s.io/git-sync/git-sync:v4.2.2",
-      "ghcr.io/kedacore/keda:2.13.1",
-      "ghcr.io/kedacore/keda-metrics-apiserver:2.13.1",
+      "ghcr.io/kedacore/keda:2.14.0",
+      "ghcr.io/kedacore/keda-metrics-apiserver:2.14.0",
       "quay.io/jetstack/cert-manager-controller:v1.14.5",
       "quay.io/jetstack/cert-manager-cainjector:v1.14.5",
       "quay.io/jetstack/cert-manager-webhook:v1.14.5",
