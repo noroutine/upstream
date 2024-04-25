@@ -1,5 +1,5 @@
 {
-  "version": "9cfaeb67",
+  "version": "4be06ae4",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -272,6 +272,7 @@
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
       "ghcr.io/zitadel/zitadel:v2.50.4",
+      "homeassistant/home-assistant:2024.4",
       "chirpstack/chirpstack:4.7.0",
       "chirpstack/chirpstack-rest-api:4.7.0",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",

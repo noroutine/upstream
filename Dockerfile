@@ -1078,6 +1078,10 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 FROM ghcr.io/zitadel/zitadel:v2.50.4
 # zitadel/zitadel
 
+# homeassistant/home-assistant
+FROM homeassistant/home-assistant:2024.4
+# homeassistant/home-assistant
+
 # chirpstack/chirpstack
 FROM chirpstack/chirpstack:4.7.0
 # chirpstack/chirpstack
