@@ -843,7 +843,7 @@ FROM vaultwarden/server:1.30.5
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.2.0-alpine
+FROM boky/postfix:4.2.1-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
