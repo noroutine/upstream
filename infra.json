@@ -1,5 +1,5 @@
 {
-  "version": "6883792b",
+  "version": "4fdb792e",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -24,7 +24,7 @@
       "golang:1.22.2-alpine3.19",
       "traefik:v2.11.2",
       "sonatype/nexus3:3.67.1",
-      "squidfunk/mkdocs-material:9.5.18",
+      "squidfunk/mkdocs-material:9.5.19",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.3",
       "postgres:16.2-bookworm",
@@ -129,7 +129,7 @@
       "jupyter/datascience-notebook:2023-10-20",
       "jupyter/pyspark-notebook:2023-10-20",
       "jupyter/all-spark-notebook:2023-10-20",
-      "rocker/shiny:4.3.3",
+      "rocker/shiny:4.4.0",
       "caprover/caprover:1.11.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.1",

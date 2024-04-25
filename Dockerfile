@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.67.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.18
+FROM squidfunk/mkdocs-material:9.5.19
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -507,7 +507,7 @@ FROM jupyter/all-spark-notebook:2023-10-20
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.3.3
+FROM rocker/shiny:4.4.0
 # rocker/shiny
 
 # caprover/caprover
