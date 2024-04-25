@@ -915,7 +915,7 @@ FROM elastic/eck-operator:2.12.1
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.12-alpine
+FROM louislam/uptime-kuma:1.23.13-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -1187,19 +1187,19 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.13.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.14.4
+FROM quay.io/jetstack/cert-manager-controller:v1.14.5
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.14.4
+FROM quay.io/jetstack/cert-manager-cainjector:v1.14.5
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.14.4
+FROM quay.io/jetstack/cert-manager-webhook:v1.14.5
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.14.4
+FROM quay.io/jetstack/cert-manager-ctl:v1.14.5
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver

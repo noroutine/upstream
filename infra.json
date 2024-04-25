@@ -1,5 +1,5 @@
 {
-  "version": "4fdb792e",
+  "version": "f0e38ae9",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -231,7 +231,7 @@
       "azul/zulu-openjdk:22.0.0-22.28",
       "eclipse-temurin:22_36-jdk-jammy",
       "elastic/eck-operator:2.12.1",
-      "louislam/uptime-kuma:1.23.12-alpine",
+      "louislam/uptime-kuma:1.23.13-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.75.2",
       "syncthing/syncthing:1.27.6",
@@ -299,10 +299,10 @@
       "registry.k8s.io/git-sync/git-sync:v4.2.2",
       "ghcr.io/kedacore/keda:2.13.1",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.13.1",
-      "quay.io/jetstack/cert-manager-controller:v1.14.4",
-      "quay.io/jetstack/cert-manager-cainjector:v1.14.4",
-      "quay.io/jetstack/cert-manager-webhook:v1.14.4",
-      "quay.io/jetstack/cert-manager-ctl:v1.14.4",
+      "quay.io/jetstack/cert-manager-controller:v1.14.5",
+      "quay.io/jetstack/cert-manager-cainjector:v1.14.5",
+      "quay.io/jetstack/cert-manager-webhook:v1.14.5",
+      "quay.io/jetstack/cert-manager-ctl:v1.14.5",
       "quay.io/jetstack/cert-manager-csi-driver:v0.8.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
