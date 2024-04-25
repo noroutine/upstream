@@ -1111,7 +1111,7 @@ FROM supabase/storage-api:v1.0.10
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.6.3
+FROM supabase/logflare:1.6.4
 # supabase/logflare
 
 # supabase/edge-runtime
