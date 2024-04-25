@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240408-slim
+FROM debian:bookworm-20240423-slim
 # debian
 
 # ubuntu
@@ -107,7 +107,7 @@ FROM atlassian/jira-software:9.15.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:28.0.4-apache
+FROM nextcloud:29.0.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -139,7 +139,7 @@ FROM quay.io/prometheus/alertmanager:v0.27.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.7.0
+FROM quay.io/prometheus/node-exporter:v1.8.0
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
@@ -187,11 +187,11 @@ FROM grafana/promtail:3.0.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.5-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.26.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.25.5-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.26.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -199,7 +199,7 @@ FROM httpd:2.4.59-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.20-jdk21-temurin-jammy
+FROM tomcat:10.1.23-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -227,7 +227,7 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.16.0
+FROM quay.io/cortexproject/cortex:v1.16.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -339,7 +339,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.11.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.11.0-ce.0
+FROM gitlab/gitlab-ce:16.11.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -463,7 +463,7 @@ FROM nocodb/nocodb:0.205.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.6
+FROM metabase/metabase:v0.49.7
 # metabase/metabase
 
 # docker
@@ -531,7 +531,7 @@ FROM bitnami/prometheus-operator:0.73.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.7.0
+FROM bitnami/node-exporter:1.8.0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
@@ -579,7 +579,7 @@ FROM bitnami/postgresql:16.2.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.20
+FROM bitnami/tomcat:10.1.23
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -691,7 +691,7 @@ FROM bitnami/sealed-secrets-controller:0.26.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.50.2
+FROM bitnami/trivy:0.50.4
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -767,7 +767,7 @@ FROM goharbor/nginx-photon:v2.10.2
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.50.2
+FROM aquasec/trivy:0.50.4
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -791,7 +791,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.80
+FROM stakater/reloader:v1.0.82
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -843,7 +843,7 @@ FROM vaultwarden/server:1.30.5
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.2.0-alpine
+FROM boky/postfix:v4.2.1-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
@@ -1075,7 +1075,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.50.3
+FROM ghcr.io/zitadel/zitadel:v2.50.4
 # zitadel/zitadel
 
 # chirpstack/chirpstack
@@ -1107,11 +1107,11 @@ FROM supabase/postgres-meta:v0.80.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.0.10
+FROM supabase/storage-api:v1.1.0
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.6.3
+FROM supabase/logflare:1.6.4
 # supabase/logflare
 
 # supabase/edge-runtime
