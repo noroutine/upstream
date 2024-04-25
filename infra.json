@@ -1,5 +1,5 @@
 {
-  "version": "3d92a433",
+  "version": "9cfaeb67",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -120,7 +120,7 @@
       "nocodb/nocodb:0.205.1",
       "metabase/metabase:v0.49.7",
       "docker:26.1.0-dind",
-      "quay.io/podman/stable:v4.9.4",
+      "quay.io/podman/stable:v5.0.1",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
@@ -276,7 +276,7 @@
       "chirpstack/chirpstack-rest-api:4.7.0",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.149.0",
+      "supabase/gotrue:v2.150.0",
       "supabase/realtime:v2.28.32",
       "supabase/postgres-meta:v0.80.0",
       "supabase/storage-api:v1.1.0",

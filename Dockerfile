@@ -471,7 +471,7 @@ FROM docker:26.1.0-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v4.9.4
+FROM quay.io/podman/stable:v5.0.1
 # podman/stable
 
 # jupyter/base-notebook
@@ -1095,7 +1095,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.149.0
+FROM supabase/gotrue:v2.150.0
 # supabase/gotrue
 
 # supabase/realtime
