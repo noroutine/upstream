@@ -3,15 +3,15 @@ FROM debian:bookworm-20240423-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240407.1
+FROM ubuntu:noble-20240423
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240405
+FROM ubuntu:jammy-20240416
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240410
+FROM ubuntu:focal-20240416
 # ubuntu
 
 # alpine
@@ -907,7 +907,7 @@ FROM azul/zulu-openjdk:22.0.0-22.28
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:22_36-jdk-jammy
+FROM eclipse-temurin:22.0.1_8-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator

@@ -1,11 +1,11 @@
 {
-  "version": "v0.0.331",
+  "version": "a5912f4c",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
-      "ubuntu:noble-20240407.1",
-      "ubuntu:jammy-20240405",
-      "ubuntu:focal-20240410",
+      "ubuntu:noble-20240423",
+      "ubuntu:jammy-20240416",
+      "ubuntu:focal-20240416",
       "alpine:3.19.1",
       "busybox:1.36.1",
       "gcr.io/distroless/static-debian11",
@@ -229,7 +229,7 @@
       "quay.io/iovisor/bpftrace:v0.19.1",
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:22.0.0-22.28",
-      "eclipse-temurin:22_36-jdk-jammy",
+      "eclipse-temurin:22.0.1_8-jdk-jammy",
       "elastic/eck-operator:2.12.1",
       "louislam/uptime-kuma:1.23.13-alpine",
       "hadolint/hadolint:v2.12.1-beta",
