@@ -7,11 +7,11 @@ FROM ubuntu:noble-20240423
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240416
+FROM ubuntu:24.04
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240416
+FROM ubuntu:24.04
 # ubuntu
 
 # alpine
