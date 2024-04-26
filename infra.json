@@ -1,5 +1,5 @@
 {
-  "version": "a5912f4c",
+  "version": "e82e9b77",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -267,7 +267,7 @@
       "locustio/locust:2.26.0",
       "postgrest/postgrest:v12.0.2",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.2",
-      "mcr.microsoft.com/k8s/azureserviceoperator:v2.6.0",
+      "mcr.microsoft.com/k8s/azureserviceoperator:v2.7.0",
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
