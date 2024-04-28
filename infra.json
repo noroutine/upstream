@@ -1,5 +1,5 @@
 {
-  "version": "01964eed",
+  "version": "b284336c",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -89,7 +89,7 @@
       "gitlab/gitlab-runner:alpine3.19-v16.11.0",
       "gitlab/gitlab-ce:16.11.1-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v3.0.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.3.0",
@@ -152,7 +152,7 @@
       "bitnami/keycloak:24.0.3",
       "bitnami/keycloak-config-cli:5.12.0",
       "bitnami/mariadb:11.3.2",
-      "bitnami/mongodb:7.0.8",
+      "bitnami/mongodb:7.0.9",
       "bitnami/memcached:1.6.26",
       "bitnami/nginx-ingress-controller:1.10.1",
       "bitnami/nginx:1.25.5",
@@ -176,7 +176,7 @@
       "bitnami/openldap:2.6.7",
       "bitnami/sealed-secrets-controller:0.26.2",
       "bitnami/trivy:0.50.4",
-      "bitnami/kubectl:1.29.4",
+      "bitnami/kubectl:1.30.0",
       "bitnami/harbor-adapter-trivy:2.10.2",
       "bitnami/harbor-core:2.10.2",
       "bitnami/harbor-exporter:2.10.2",
@@ -296,7 +296,7 @@
       "vsphereveleroplugin/backup-driver:v1.5.3",
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.3",
       "velero/velero-restic-restore-helper:v1.9.7",
-      "bitnami/kubectl:1.29.4",
+      "bitnami/kubectl:1.30.0",
       "apache/airflow:2.9.0-python3.11",
       "registry.k8s.io/git-sync/git-sync:v4.2.2",
       "ghcr.io/kedacore/keda:2.14.0",

@@ -347,7 +347,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v3.0.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.0.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -599,7 +599,7 @@ FROM bitnami/mariadb:11.3.2
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.8
+FROM bitnami/mongodb:7.0.9
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -695,7 +695,7 @@ FROM bitnami/trivy:0.50.4
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.4
+FROM bitnami/kubectl:1.30.0
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -1175,7 +1175,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.29.4
+FROM bitnami/kubectl:1.30.0
 # bitnami/kubectl
 
 # apache/airflow
