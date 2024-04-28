@@ -791,7 +791,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.83
+FROM stakater/reloader:v1.0.91
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -807,7 +807,7 @@ FROM ghcr.io/dexidp/dex:v2.39.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.10.7
+FROM quay.io/argoproj/argocd:v2.10.8
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -1081,6 +1081,10 @@ FROM ghcr.io/zitadel/zitadel:v2.50.4
 # homeassistant/home-assistant
 FROM homeassistant/home-assistant:2024.4
 # homeassistant/home-assistant
+
+# sig-storage/nfsplugin
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.6.0
+# sig-storage/nfsplugin
 
 # chirpstack/chirpstack
 FROM chirpstack/chirpstack:4.7.0
