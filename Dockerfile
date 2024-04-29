@@ -215,7 +215,7 @@ FROM braedon/prometheus-es-exporter:0.14.1
 # braedon/prometheus-es-exporter
 
 # ribbybibby/ssl-exporter
-FROM ribbybibby/ssl-exporter:2.4.2
+FROM ribbybibby/ssl-exporter:2.4.3
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
