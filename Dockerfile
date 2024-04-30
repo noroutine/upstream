@@ -79,7 +79,7 @@ FROM golang:1.22.2-alpine3.19
 # golang
 
 # traefik
-FROM traefik:v2.11.2
+FROM traefik:v3.0.0
 # traefik
 
 # sonatype/nexus3
@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.67.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.19
+FROM squidfunk/mkdocs-material:9.5.20
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -115,11 +115,11 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-04-18T19-09-19Z
+FROM quay.io/minio/minio:RELEASE.2024-04-28T17-53-50Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-04-18T16-45-29Z
+FROM quay.io/minio/mc:RELEASE.2024-04-29T09-56-05Z
 # minio/mc
 
 # minio/console
@@ -215,7 +215,7 @@ FROM braedon/prometheus-es-exporter:0.14.1
 # braedon/prometheus-es-exporter
 
 # ribbybibby/ssl-exporter
-FROM ribbybibby/ssl-exporter:2.4.2
+FROM ribbybibby/ssl-exporter:2.4.3
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
@@ -471,7 +471,7 @@ FROM docker:26.1.0-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.0.1
+FROM quay.io/podman/stable:v5.0.2
 # podman/stable
 
 # jupyter/base-notebook
@@ -615,11 +615,11 @@ FROM bitnami/nginx:1.25.5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.4.18
+FROM bitnami/minio:2024.4.28
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.4.18
+FROM bitnami/minio-client:2024.4.29
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -791,7 +791,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.91
+FROM stakater/reloader:v1.0.93
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1075,7 +1075,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.50.4
+FROM ghcr.io/zitadel/zitadel:v2.51.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1103,7 +1103,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.150.0
+FROM supabase/gotrue:v2.150.1
 # supabase/gotrue
 
 # supabase/realtime
@@ -1127,7 +1127,7 @@ FROM supabase/edge-runtime:v1.46.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
-FROM darthsim/imgproxy:v3.23
+FROM darthsim/imgproxy:v3.24
 # darthsim/imgproxy
 
 # timberio/vector
