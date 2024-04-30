@@ -471,7 +471,7 @@ FROM docker:26.1.0-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.0.1
+FROM quay.io/podman/stable:v5.0.2
 # podman/stable
 
 # jupyter/base-notebook
