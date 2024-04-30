@@ -1,5 +1,5 @@
 {
-  "version": "2a59e638",
+  "version": "e91683bf",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -64,7 +64,7 @@
       "docker.elastic.co/logstash/logstash:8.13.2",
       "docker.elastic.co/kibana/kibana:8.13.2",
       "alerta/alerta-web:9.0.3",
-      "mongo:7.0.8-jammy",
+      "mongo:7.0.9-jammy",
       "wordpress:6.5.2-apache",
       "dpage/pgadmin4:8.5",
       "adminer:4.8.1",
@@ -283,7 +283,7 @@
       "supabase/postgres-meta:v0.80.0",
       "supabase/storage-api:v1.1.0",
       "supabase/logflare:1.6.5",
-      "supabase/edge-runtime:v1.46.0",
+      "supabase/edge-runtime:v1.46.1",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.37.1-alpine",
       "kong:3.6.1-ubuntu",

@@ -247,7 +247,7 @@ FROM alerta/alerta-web:9.0.3
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.8-jammy
+FROM mongo:7.0.9-jammy
 # mongo
 
 # wordpress
@@ -1123,7 +1123,7 @@ FROM supabase/logflare:1.6.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.46.0
+FROM supabase/edge-runtime:v1.46.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy
