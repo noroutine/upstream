@@ -227,7 +227,7 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.16.1
+FROM quay.io/cortexproject/cortex:v1.17.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -263,7 +263,7 @@ FROM adminer:4.8.1
 # adminer
 
 # mysql
-FROM mysql:8.3.0
+FROM mysql:8.4.0
 # mysql
 
 # mariadb
