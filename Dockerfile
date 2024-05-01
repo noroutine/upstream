@@ -903,7 +903,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:22.0.0-22.28
+FROM azul/zulu-openjdk:22.0.1-22.30
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -999,11 +999,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.3
+FROM netbirdio/signal:0.27.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.3
+FROM netbirdio/management:0.27.4
 # netbirdio/management
 
 # coturn/coturn
@@ -1591,11 +1591,11 @@ FROM tchiotludo/akhq:0.24.0
 # tchiotludo/akhq
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v23.9.2
+FROM nvcr.io/nvidia/gpu-operator:v24.3.0
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.2
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.3.0
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda

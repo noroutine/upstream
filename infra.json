@@ -1,5 +1,5 @@
 {
-  "version": "aea1e7a7",
+  "version": "d9c7bd10",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -228,7 +228,7 @@
       "gcr.io/kaniko-project/executor:v1.22.0",
       "quay.io/iovisor/bpftrace:v0.19.1",
       "pryorda/vmware_exporter:v0.18.4",
-      "azul/zulu-openjdk:22.0.0-22.28",
+      "azul/zulu-openjdk:22.0.1-22.30",
       "eclipse-temurin:22.0.1_8-jdk-jammy",
       "elastic/eck-operator:2.12.1",
       "louislam/uptime-kuma:1.23.13-alpine",
@@ -252,8 +252,8 @@
       "yugabytedb/yugabyte:2.20.2.2-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
-      "netbirdio/signal:0.27.3",
-      "netbirdio/management:0.27.3",
+      "netbirdio/signal:0.27.4",
+      "netbirdio/management:0.27.4",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
       "jenkins/jenkins:2.455-jdk17",
@@ -400,8 +400,8 @@
       "confluentinc/cp-zookeeper:7.6.1",
       "obsidiandynamics/kafdrop:4.0.1",
       "tchiotludo/akhq:0.24.0",
-      "nvcr.io/nvidia/gpu-operator:v23.9.2",
-      "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.2",
+      "nvcr.io/nvidia/gpu-operator:v24.3.0",
+      "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.3.0",
       "nvcr.io/nvidia/cuda:12.4.1-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.8",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8",
