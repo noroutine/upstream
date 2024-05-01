@@ -451,7 +451,7 @@ FROM ghost:5.82.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.2
+FROM bitnami/ghost:5.82.4
 # bitnami/ghost
 
 # matomo
@@ -467,7 +467,7 @@ FROM metabase/metabase:v0.49.7
 # metabase/metabase
 
 # docker
-FROM docker:26.1.0-dind
+FROM docker:26.1.1-dind
 # docker
 
 # podman/stable
@@ -807,7 +807,7 @@ FROM ghcr.io/dexidp/dex:v2.39.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.10.8
+FROM quay.io/argoproj/argocd:v2.10.9
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
