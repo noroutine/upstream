@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-04-28T17-53-50Z
+FROM quay.io/minio/minio:RELEASE.2024-05-01T01-11-10Z
 # minio/minio
 
 # minio/mc
@@ -615,7 +615,7 @@ FROM bitnami/nginx:1.25.5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.4.28
+FROM bitnami/minio:2024.5.1
 # bitnami/minio
 
 # bitnami/minio-client
@@ -771,7 +771,7 @@ FROM aquasec/trivy:0.50.4
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.16
+FROM ghcr.io/external-secrets/external-secrets:v0.9.17
 # external-secrets/external-secrets
 
 # kutt/kutt
@@ -1015,11 +1015,11 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.455-jdk17
+FROM jenkins/jenkins:2.456-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3206.vb_15dcf73f6a_9-4-jdk17
+FROM jenkins/agent:3174.v2c9e67f8f9df-1-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
