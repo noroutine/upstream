@@ -1019,7 +1019,7 @@ FROM jenkins/jenkins:2.456-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3174.v2c9e67f8f9df-1-jdk17
+FROM jenkins/agent:3203.v94ce994fdb_31-2-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
