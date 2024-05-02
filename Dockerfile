@@ -3,15 +3,15 @@ FROM debian:bookworm-20240423-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240423
+FROM ubuntu:noble-20240429
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240416
+FROM ubuntu:jammy-20240427
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240416
+FROM ubuntu:focal-20240427
 # ubuntu
 
 # alpine
@@ -451,7 +451,7 @@ FROM ghost:5.82.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.4
+FROM bitnami/ghost:5.82.5
 # bitnami/ghost
 
 # matomo
@@ -1019,7 +1019,7 @@ FROM jenkins/jenkins:2.456-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3174.v2c9e67f8f9df-1-jdk17
+FROM jenkins/agent:3203.v94ce994fdb_31-2-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
@@ -1079,11 +1079,11 @@ FROM ghcr.io/zitadel/zitadel:v2.51.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.4
+FROM homeassistant/home-assistant:2024.5
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.36.1
+FROM koenkk/zigbee2mqtt:1.37.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -1471,19 +1471,19 @@ FROM longhornio/csi-node-driver-registrar:v2.9.2
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v6.3.2
+FROM longhornio/csi-snapshotter:v7.0.2
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.9.2
+FROM longhornio/csi-resizer:v1.10.1
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
-FROM longhornio/csi-provisioner:v3.6.2
+FROM longhornio/csi-provisioner:v4.0.1
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v4.4.2
+FROM longhornio/csi-attacher:v4.5.1
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
