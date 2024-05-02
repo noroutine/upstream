@@ -1,5 +1,5 @@
 {
-  "version": "7ceb7f5f",
+  "version": "62c0c6df",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -281,7 +281,7 @@
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.150.1",
       "supabase/realtime:v2.28.32",
-      "supabase/postgres-meta:v0.80.0",
+      "supabase/postgres-meta:v0.80.1",
       "supabase/storage-api:v1.1.0",
       "supabase/logflare:1.6.5",
       "supabase/edge-runtime:v1.46.1",
