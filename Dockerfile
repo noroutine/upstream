@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.51.1
+FROM ghcr.io/zitadel/zitadel:v2.51.2
 # zitadel/zitadel
 
 # homeassistant/home-assistant
