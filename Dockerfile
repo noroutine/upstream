@@ -311,7 +311,7 @@ FROM heroku/heroku:24
 # heroku/heroku
 
 # heroku/buildpack-procfile
-FROM heroku/buildpack-procfile:3.0.1
+FROM heroku/buildpack-procfile:3.1.1
 # heroku/buildpack-procfile
 
 # paketobuildpacks/builder
