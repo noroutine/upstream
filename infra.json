@@ -1,5 +1,5 @@
 {
-  "version": "6e572014",
+  "version": "e5d666c5",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -234,7 +234,7 @@
       "elastic/eck-operator:2.12.1",
       "louislam/uptime-kuma:1.23.13-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.76.0",
+      "outlinewiki/outline:0.76.1",
       "syncthing/syncthing:1.27.6",
       "syncthing/discosrv:1.27.6",
       "syncthing/relaysrv:1.27.6",
