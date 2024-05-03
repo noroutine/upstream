@@ -1127,7 +1127,7 @@ FROM supabase/storage-api:v1.1.0
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.6.5
+FROM supabase/logflare:1.6.6
 # supabase/logflare
 
 # supabase/edge-runtime
