@@ -255,7 +255,7 @@ FROM wordpress:6.5.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.5
+FROM dpage/pgadmin4:8.6
 # dpage/pgadmin4
 
 # adminer
@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.51.1
+FROM ghcr.io/zitadel/zitadel:v2.51.2
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1127,7 +1127,7 @@ FROM supabase/storage-api:v1.1.0
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.6.5
+FROM supabase/logflare:1.6.6
 # supabase/logflare
 
 # supabase/edge-runtime

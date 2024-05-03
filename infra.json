@@ -1,5 +1,5 @@
 {
-  "version": "1af8e959",
+  "version": "4eb126ae",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -66,7 +66,7 @@
       "alerta/alerta-web:9.0.3",
       "mongo:7.0.9-jammy",
       "wordpress:6.5.2-apache",
-      "dpage/pgadmin4:8.5",
+      "dpage/pgadmin4:8.6",
       "adminer:4.8.1",
       "mysql:8.4.0",
       "mariadb:11.3.2-jammy",
@@ -272,7 +272,7 @@
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
-      "ghcr.io/zitadel/zitadel:v2.51.1",
+      "ghcr.io/zitadel/zitadel:v2.51.2",
       "homeassistant/home-assistant:2024.5",
       "koenkk/zigbee2mqtt:1.37.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.6.0",
@@ -284,7 +284,7 @@
       "supabase/realtime:v2.28.32",
       "supabase/postgres-meta:v0.80.1",
       "supabase/storage-api:v1.1.0",
-      "supabase/logflare:1.6.5",
+      "supabase/logflare:1.6.6",
       "supabase/edge-runtime:v1.46.3",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.37.1-alpine",
