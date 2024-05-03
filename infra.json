@@ -1,5 +1,5 @@
 {
-  "version": "4eb126ae",
+  "version": "60a1af97",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -80,7 +80,7 @@
       "heroku/heroku:22-cnb",
       "heroku/heroku:24-build",
       "heroku/heroku:24",
-      "heroku/buildpack-procfile:3.0.1",
+      "heroku/buildpack-procfile:3.1.1",
       "paketobuildpacks/builder:full",
       "paketobuildpacks/builder:base",
       "paketobuildpacks/builder:tiny",
@@ -195,7 +195,7 @@
       "goharbor/redis-photon:v2.10.2",
       "goharbor/trivy-adapter-photon:v2.10.2",
       "goharbor/nginx-photon:v2.10.2",
-      "aquasec/trivy:0.50.4",
+      "aquasec/trivy:0.51.0",
       "ghcr.io/external-secrets/external-secrets:v0.9.17",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.6",
