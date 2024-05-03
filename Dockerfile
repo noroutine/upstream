@@ -103,7 +103,7 @@ FROM postgres:16.2-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.15.1
+FROM atlassian/jira-software:9.15.2
 # atlassian/jira-software
 
 # nextcloud
@@ -231,15 +231,15 @@ FROM quay.io/cortexproject/cortex:v1.17.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.13.2
+FROM docker.elastic.co/logstash/logstash:8.13.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.13.2
+FROM docker.elastic.co/kibana/kibana:8.13.3
 # kibana/kibana
 
 # alerta/alerta-web
@@ -426,6 +426,10 @@ FROM quay.io/jupyterhub/repo2docker:2024.03.0
 FROM pihole/pihole:2024.03.2
 # pihole/pihole
 
+# klutchell/unbound
+FROM klutchell/unbound:v1.19.3
+# klutchell/unbound
+
 # yandex/clickhouse-server
 FROM yandex/clickhouse-server:22.1.3.7-alpine
 # yandex/clickhouse-server
@@ -463,7 +467,7 @@ FROM nocodb/nocodb:0.205.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.7
+FROM metabase/metabase:v0.49.8
 # metabase/metabase
 
 # docker
@@ -1027,7 +1031,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.6
+FROM netboxcommunity/netbox:v3.7.7
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1075,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.51.0
+FROM ghcr.io/zitadel/zitadel:v2.51.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1127,7 +1131,7 @@ FROM supabase/logflare:1.6.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.46.1
+FROM supabase/edge-runtime:v1.46.3
 # supabase/edge-runtime
 
 # darthsim/imgproxy
