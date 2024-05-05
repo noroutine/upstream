@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.67.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.20
+FROM squidfunk/mkdocs-material:9.5.21
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -455,7 +455,7 @@ FROM ghost:5.82.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.5
+FROM bitnami/ghost:5.82.6
 # bitnami/ghost
 
 # matomo
@@ -771,7 +771,7 @@ FROM goharbor/nginx-photon:v2.10.2
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.51.0
+FROM aquasec/trivy:0.51.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
