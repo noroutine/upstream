@@ -1,5 +1,5 @@
 {
-  "version": "f4f52626",
+  "version": "5ac577ec",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -215,7 +215,7 @@
       "listmonk/listmonk:v3.0.0",
       "vaultwarden/server:1.30.5",
       "boky/postfix:v4.2.1-alpine",
-      "cupcakearmy/cryptgeon:2.6.0",
+      "cupcakearmy/cryptgeon:2.6.1",
       "memcached:1.6.26-alpine3.19",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.14-alpine3.19",
@@ -281,7 +281,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.150.1",
-      "supabase/realtime:v2.28.32",
+      "supabase/realtime:v2.28.34",
       "supabase/postgres-meta:v0.80.1",
       "supabase/storage-api:v1.2.1",
       "supabase/logflare:1.6.6",

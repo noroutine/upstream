@@ -851,7 +851,7 @@ FROM boky/postfix:v4.2.1-alpine
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.6.0
+FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -1115,7 +1115,7 @@ FROM supabase/gotrue:v2.150.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.28.32
+FROM supabase/realtime:v2.28.34
 # supabase/realtime
 
 # supabase/postgres-meta
