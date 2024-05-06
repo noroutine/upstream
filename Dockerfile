@@ -1111,7 +1111,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.150.1
+FROM supabase/gotrue:v2.151.0
 # supabase/gotrue
 
 # supabase/realtime
