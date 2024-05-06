@@ -1,5 +1,5 @@
 {
-  "version": "5ac577ec",
+  "version": "a8940dde",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -86,9 +86,9 @@
       "paketobuildpacks/builder:tiny",
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.19.3",
-      "gitlab/gitlab-runner:alpine3.19-v16.11.0",
+      "gitlab/gitlab-runner:alpine3.19-v16.11.1",
       "gitlab/gitlab-ce:16.11.1-ce.0",
-      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.0",
+      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.1",
@@ -285,7 +285,7 @@
       "supabase/postgres-meta:v0.80.1",
       "supabase/storage-api:v1.2.1",
       "supabase/logflare:1.6.6",
-      "supabase/edge-runtime:v1.46.3",
+      "supabase/edge-runtime:v1.46.4",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.37.1-alpine",
       "kong:3.6.1-ubuntu",

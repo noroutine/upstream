@@ -335,7 +335,7 @@ FROM buildpacksio/lifecycle:0.19.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v16.11.0
+FROM gitlab/gitlab-runner:alpine3.19-v16.11.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -343,7 +343,7 @@ FROM gitlab/gitlab-ce:16.11.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -1131,7 +1131,7 @@ FROM supabase/logflare:1.6.6
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.46.3
+FROM supabase/edge-runtime:v1.46.4
 # supabase/edge-runtime
 
 # darthsim/imgproxy
