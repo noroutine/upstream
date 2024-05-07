@@ -607,7 +607,7 @@ FROM bitnami/mongodb:7.0.9
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.26
+FROM bitnami/memcached:1.6.27
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -855,7 +855,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.26-alpine3.19
+FROM memcached:1.6.27-alpine3.19
 # memcached
 
 # connecteverything/nats-operator
@@ -1031,7 +1031,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.7
+FROM netboxcommunity/netbox:v3.7.8
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
