@@ -643,7 +643,7 @@ FROM bitnami/grafana:10.4.2
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.10.3
+FROM bitnami/grafana-image-renderer:3.10.4
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -1111,11 +1111,11 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.150.1
+FROM supabase/gotrue:v2.151.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.28.34
+FROM supabase/realtime:v2.28.35
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1131,7 +1131,7 @@ FROM supabase/logflare:1.6.6
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.46.4
+FROM supabase/edge-runtime:v1.47.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1187,7 +1187,7 @@ FROM bitnami/kubectl:1.30.0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.9.0-python3.11
+FROM apache/airflow:2.9.1-python3.11
 # apache/airflow
 
 # git-sync/git-sync
