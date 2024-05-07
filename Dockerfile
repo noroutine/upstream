@@ -607,7 +607,7 @@ FROM bitnami/mongodb:7.0.9
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.27
+FROM bitnami/memcached:1.6.26
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -855,7 +855,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.27-alpine3.19
+FROM memcached:1.6.26-alpine3.19
 # memcached
 
 # connecteverything/nats-operator
