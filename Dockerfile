@@ -1091,7 +1091,7 @@ FROM koenkk/zigbee2mqtt:1.37.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.6.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.7.0
 # sig-storage/nfsplugin
 
 # chirpstack/chirpstack
