@@ -683,7 +683,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.10.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.17.0
+FROM bitnami/kube-rbac-proxy:0.17.1
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
