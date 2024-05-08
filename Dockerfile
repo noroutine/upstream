@@ -1031,7 +1031,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.8
+FROM netboxcommunity/netbox:v4.0.0
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
