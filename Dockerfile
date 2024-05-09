@@ -427,7 +427,7 @@ FROM pihole/pihole:2024.03.2
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.19.3
+FROM klutchell/unbound:1.20.0
 # klutchell/unbound
 
 # yandex/clickhouse-server
