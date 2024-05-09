@@ -931,7 +931,7 @@ FROM outlinewiki/outline:0.76.1
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.6
+FROM syncthing/syncthing:1.27.7
 # syncthing/syncthing
 
 # syncthing/discosrv
