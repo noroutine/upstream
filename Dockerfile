@@ -1039,7 +1039,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.5.0
+FROM kubernetesui/dashboard-api:1.6.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
