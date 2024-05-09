@@ -251,7 +251,7 @@ FROM mongo:7.0.9-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.5.2-apache
+FROM wordpress:6.5.3-apache
 # wordpress
 
 # dpage/pgadmin4
