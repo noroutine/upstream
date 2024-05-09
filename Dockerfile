@@ -423,7 +423,7 @@ FROM quay.io/jupyterhub/repo2docker:2024.03.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.03.2
+FROM pihole/pihole:2024.05.0
 # pihole/pihole
 
 # klutchell/unbound
