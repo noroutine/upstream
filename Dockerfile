@@ -623,7 +623,7 @@ FROM bitnami/minio:2024.5.1
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.4.29
+FROM bitnami/minio-client:2024.5.3
 # bitnami/minio-client
 
 # bitnami/os-shell
