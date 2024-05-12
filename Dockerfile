@@ -563,23 +563,23 @@ FROM bitnami/postgresql:11.22.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.18.0
+FROM bitnami/postgresql:12.19.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.14.0
+FROM bitnami/postgresql:13.15.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.11.0
+FROM bitnami/postgresql:14.12.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.6.0
+FROM bitnami/postgresql:15.7.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.2.0
+FROM bitnami/postgresql:16.3.0
 # bitnami/postgresql
 
 # bitnami/tomcat
@@ -1003,11 +1003,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.4
+FROM netbirdio/signal:0.27.5
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.4
+FROM netbirdio/management:0.27.5
 # netbirdio/management
 
 # coturn/coturn
@@ -1031,7 +1031,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.0
+FROM netboxcommunity/netbox:v4.0.1
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
