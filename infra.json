@@ -1,5 +1,5 @@
 {
-  "version": "a693d860",
+  "version": "e4ff0a70",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -17,14 +17,14 @@
       "buildpack-deps:bionic",
       "buildpack-deps:focal",
       "buildpack-deps:jammy",
-      "php:8.3.6-apache-bookworm",
+      "php:8.3.7-apache-bookworm",
       "python:3.12.3-bookworm",
       "python:3.12.3-slim-bookworm",
       "golang:1.22.3-bookworm",
       "golang:1.22.3-alpine3.19",
       "traefik:v3.0.0",
       "sonatype/nexus3:3.68.0",
-      "squidfunk/mkdocs-material:9.5.21",
+      "squidfunk/mkdocs-material:9.5.22",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.4",
       "postgres:16.3-bookworm",

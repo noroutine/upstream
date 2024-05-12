@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
-FROM php:8.3.6-apache-bookworm
+FROM php:8.3.7-apache-bookworm
 # php
 
 # python
@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.68.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.21
+FROM squidfunk/mkdocs-material:9.5.22
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
