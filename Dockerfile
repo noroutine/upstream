@@ -71,11 +71,11 @@ FROM python:3.12.3-slim-bookworm
 # python
 
 # golang
-FROM golang:1.22.2-bookworm
+FROM golang:1.22.3-bookworm
 # golang
 
 # golang
-FROM golang:1.22.2-alpine3.19
+FROM golang:1.22.3-alpine3.19
 # golang
 
 # traefik
@@ -83,7 +83,7 @@ FROM traefik:v3.0.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.67.1
+FROM sonatype/nexus3:3.68.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -95,11 +95,11 @@ FROM freeradius/freeradius-server:3.2.3-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:24.0.3
+FROM quay.io/keycloak/keycloak:24.0.4
 # keycloak/keycloak
 
 # postgres
-FROM postgres:16.2-bookworm
+FROM postgres:16.3-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -115,11 +115,11 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-05-01T01-11-10Z
+FROM quay.io/minio/minio:RELEASE.2024-05-10T01-41-38Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-04-29T09-56-05Z
+FROM quay.io/minio/mc:RELEASE.2024-05-09T17-04-24Z
 # minio/mc
 
 # minio/console
@@ -131,7 +131,7 @@ FROM quay.io/coreos/etcd:v3.5.13
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.51.2
+FROM quay.io/prometheus/prometheus:v2.52.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -231,15 +231,15 @@ FROM quay.io/cortexproject/cortex:v1.17.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.4
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.13.3
+FROM docker.elastic.co/logstash/logstash:8.13.4
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.13.3
+FROM docker.elastic.co/kibana/kibana:8.13.4
 # kibana/kibana
 
 # alerta/alerta-web
@@ -251,7 +251,7 @@ FROM mongo:7.0.9-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.5.2-apache
+FROM wordpress:6.5.3-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -331,7 +331,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.19.3
+FROM buildpacksio/lifecycle:0.19.4
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -339,7 +339,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v16.11.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.11.1-ce.0
+FROM gitlab/gitlab-ce:16.11.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -355,7 +355,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -375,7 +375,7 @@ FROM summerwind/actions-runner-dind:v2.316.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.17.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.17.1
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -423,11 +423,11 @@ FROM quay.io/jupyterhub/repo2docker:2024.03.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.03.2
+FROM pihole/pihole:2024.05.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.19.3
+FROM klutchell/unbound:v1.20.0
 # klutchell/unbound
 
 # yandex/clickhouse-server
@@ -455,7 +455,7 @@ FROM ghost:5.82.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.6
+FROM bitnami/ghost:5.82.8
 # bitnami/ghost
 
 # matomo
@@ -463,15 +463,15 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.205.1
+FROM nocodb/nocodb:0.207.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.8
+FROM metabase/metabase:v0.49.9
 # metabase/metabase
 
 # docker
-FROM docker:26.1.1-dind
+FROM docker:26.1.2-dind
 # docker
 
 # podman/stable
@@ -527,7 +527,7 @@ FROM bitnami/spark:3.5.1
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.51.2
+FROM bitnami/prometheus:2.52.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -591,7 +591,7 @@ FROM bitnami/jmx-exporter:0.20.0
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:24.0.3
+FROM bitnami/keycloak:24.0.4
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -607,7 +607,7 @@ FROM bitnami/mongodb:7.0.9
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.26
+FROM bitnami/memcached:1.6.27
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -619,11 +619,11 @@ FROM bitnami/nginx:1.25.5
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.5.1
+FROM bitnami/minio:2024.5.10
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.4.29
+FROM bitnami/minio-client:2024.5.9
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -683,7 +683,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.10.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.17.0
+FROM bitnami/kube-rbac-proxy:0.17.1
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -787,7 +787,7 @@ FROM drakkan/sftpgo:v2.5.6
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.38.1
+FROM hasura/graphql-engine:v2.39.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -811,7 +811,7 @@ FROM ghcr.io/dexidp/dex:v2.39.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.10.9
+FROM quay.io/argoproj/argocd:v2.11.0
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -855,7 +855,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.26-alpine3.19
+FROM memcached:1.6.27-alpine3.19
 # memcached
 
 # connecteverything/nats-operator
@@ -931,15 +931,15 @@ FROM outlinewiki/outline:0.76.1
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.6
+FROM syncthing/syncthing:1.27.7
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.6
+FROM syncthing/discosrv:1.27.7
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.6
+FROM syncthing/relaysrv:1.27.7
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -1019,7 +1019,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.456-jdk17
+FROM jenkins/jenkins:2.457-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1031,7 +1031,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v3.7.8
+FROM netboxcommunity/netbox:v4.0.0
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1039,7 +1039,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.5.0
+FROM kubernetesui/dashboard-api:1.6.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
@@ -1051,11 +1051,11 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.26.0
+FROM locustio/locust:2.27.0
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.0.2
+FROM postgrest/postgrest:v12.0.3
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.51.2
+FROM ghcr.io/zitadel/zitadel:v2.51.3
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1087,12 +1087,24 @@ FROM homeassistant/home-assistant:2024.5
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.37.0
+FROM koenkk/zigbee2mqtt:1.37.1
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.6.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.7.0
 # sig-storage/nfsplugin
+
+# spvest/azure-keyvault-controller
+FROM spvest/azure-keyvault-controller:1.6.0
+# spvest/azure-keyvault-controller
+
+# spvest/azure-keyvault-webhook
+FROM spvest/azure-keyvault-webhook:1.6.0
+# spvest/azure-keyvault-webhook
+
+# spvest/azure-keyvault-env
+FROM spvest/azure-keyvault-env:1.6.0
+# spvest/azure-keyvault-env
 
 # chirpstack/chirpstack
 FROM chirpstack/chirpstack:4.7.0
@@ -1115,7 +1127,7 @@ FROM supabase/gotrue:v2.151.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.28.35
+FROM supabase/realtime:v2.28.36
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1131,7 +1143,7 @@ FROM supabase/logflare:1.6.6
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.47.0
+FROM supabase/edge-runtime:v1.49.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1139,7 +1151,7 @@ FROM darthsim/imgproxy:v3.24
 # darthsim/imgproxy
 
 # timberio/vector
-FROM timberio/vector:0.37.1-alpine
+FROM timberio/vector:0.38.0-alpine
 # timberio/vector
 
 # kong
@@ -1191,7 +1203,7 @@ FROM apache/airflow:2.9.1-python3.11
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.2.2
+FROM registry.k8s.io/git-sync/git-sync:v4.2.3
 # git-sync/git-sync
 
 # kedacore/keda
@@ -1399,47 +1411,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.32.7
+FROM quay.io/tigera/operator:v1.34.0
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.27.3
+FROM calico/typha:v3.28.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.27.3
+FROM calico/ctl:v3.28.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.27.3
+FROM calico/node:v3.28.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.27.3
+FROM calico/cni:v3.28.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.27.3
+FROM calico/apiserver:v3.28.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.27.3
+FROM calico/kube-controllers:v3.28.0
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.27.3
+FROM calico/dikastes:v3.28.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.27.3
+FROM calico/pod2daemon-flexvol:v3.28.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.27.3
+FROM calico/node-driver-registrar:v3.28.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.27.3
+FROM calico/csi:v3.28.0
 # calico/csi
 
 # nfd/node-feature-discovery
