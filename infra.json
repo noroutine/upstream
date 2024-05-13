@@ -1,5 +1,5 @@
 {
-  "version": "5b119b01",
+  "version": "520a0cd8",
   "upstream": {
     "images": [
       "debian:bookworm-20240423-slim",
@@ -113,7 +113,7 @@
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v2.0.0",
-      "verdaccio/verdaccio:5.30.3",
+      "verdaccio/verdaccio:5.31.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.82.2",
       "bitnami/ghost:5.82.8",
@@ -238,7 +238,7 @@
       "syncthing/syncthing:1.27.7",
       "syncthing/discosrv:1.27.7",
       "syncthing/relaysrv:1.27.7",
-      "jellyfin/jellyfin:10.8.13-1",
+      "jellyfin/jellyfin:10.9.1",
       "haveagitgat/tdarr:2.17.01",
       "haveagitgat/tdarr_node:2.17.01",
       "gravitl/netmaker:v0.24.0",

@@ -443,7 +443,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.30.3
+FROM verdaccio/verdaccio:5.31.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -943,7 +943,7 @@ FROM syncthing/relaysrv:1.27.7
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.8.13-1
+FROM jellyfin/jellyfin:10.9.1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
