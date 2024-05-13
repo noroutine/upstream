@@ -151,7 +151,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.25.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.25.0
+FROM quay.io/prometheus/snmp-exporter:v0.26.0
 # prometheus/snmp-exporter
 
 # prometheus/memcached-exporter
