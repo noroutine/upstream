@@ -695,7 +695,7 @@ FROM bitnami/sealed-secrets-controller:0.26.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.50.4
+FROM bitnami/trivy:0.51.1
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.93
+FROM stakater/reloader:v1.0.95
 # stakater/reloader
 
 # jimmidyson/configmap-reload
