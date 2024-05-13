@@ -151,7 +151,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.25.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.25.0
+FROM quay.io/prometheus/snmp-exporter:v0.26.0
 # prometheus/snmp-exporter
 
 # prometheus/memcached-exporter
@@ -271,7 +271,7 @@ FROM mariadb:11.3.2-jammy
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.13.4
+FROM mccutchen/go-httpbin:v2.14.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
