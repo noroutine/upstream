@@ -1107,7 +1107,7 @@ FROM spvest/azure-keyvault-env:1.6.0
 # spvest/azure-keyvault-env
 
 # chirpstack/chirpstack
-FROM chirpstack/chirpstack:4.7.0
+FROM chirpstack/chirpstack:4.8.1
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
