@@ -775,7 +775,7 @@ FROM aquasec/trivy:0.51.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.17
+FROM ghcr.io/external-secrets/external-secrets:v0.9.18
 # external-secrets/external-secrets
 
 # kutt/kutt
@@ -1143,7 +1143,7 @@ FROM supabase/logflare:1.7.0
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.49.0
+FROM supabase/edge-runtime:v1.51.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy

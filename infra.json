@@ -1,5 +1,5 @@
 {
-  "version": "8a91d91c",
+  "version": "80f53a70",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -196,7 +196,7 @@
       "goharbor/trivy-adapter-photon:v2.10.2",
       "goharbor/nginx-photon:v2.10.2",
       "aquasec/trivy:0.51.1",
-      "ghcr.io/external-secrets/external-secrets:v0.9.17",
+      "ghcr.io/external-secrets/external-secrets:v0.9.18",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.5.6",
       "hasura/graphql-engine:v2.39.1",
@@ -288,7 +288,7 @@
       "supabase/postgres-meta:v0.80.1",
       "supabase/storage-api:v1.2.1",
       "supabase/logflare:1.7.0",
-      "supabase/edge-runtime:v1.49.0",
+      "supabase/edge-runtime:v1.51.0",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.38.0-alpine",
       "kong:3.6.1-ubuntu",
