@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.207.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.9
+FROM metabase/metabase:v0.49.10
 # metabase/metabase
 
 # docker
