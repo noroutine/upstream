@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240423-slim
+FROM debian:bookworm-20240513-slim
 # debian
 
 # ubuntu
@@ -331,7 +331,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.19.4
+FROM buildpacksio/lifecycle:0.19.5
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -455,7 +455,7 @@ FROM ghost:5.82.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.8
+FROM bitnami/ghost:5.82.9
 # bitnami/ghost
 
 # matomo
@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.207.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.9
+FROM metabase/metabase:v0.49.10
 # metabase/metabase
 
 # docker
@@ -615,7 +615,7 @@ FROM bitnami/nginx-ingress-controller:1.10.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.5
+FROM bitnami/nginx:1.26.0
 # bitnami/nginx
 
 # bitnami/minio
@@ -1003,11 +1003,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.5
+FROM netbirdio/signal:0.27.6
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.5
+FROM netbirdio/management:0.27.6
 # netbirdio/management
 
 # coturn/coturn
@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.51.3
+FROM ghcr.io/zitadel/zitadel:v2.51.4
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1107,7 +1107,7 @@ FROM spvest/azure-keyvault-env:1.6.0
 # spvest/azure-keyvault-env
 
 # chirpstack/chirpstack
-FROM chirpstack/chirpstack:4.7.0
+FROM chirpstack/chirpstack:4.8.1
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
@@ -1127,7 +1127,7 @@ FROM supabase/gotrue:v2.151.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.28.36
+FROM supabase/realtime:v2.28.39
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1139,7 +1139,7 @@ FROM supabase/storage-api:v1.2.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.6.6
+FROM supabase/logflare:1.7.0
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1267,11 +1267,11 @@ FROM hashicorp/vault-csi-provider:1.4.2
 # hashicorp/vault-csi-provider
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.40.0
+FROM quay.io/strimzi/operator:0.41.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.40.0-kafka-3.7.0
+FROM quay.io/strimzi/kafka:0.41.0-kafka-3.7.0
 # strimzi/kafka
 
 # pause
