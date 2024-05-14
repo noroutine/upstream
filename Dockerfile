@@ -615,7 +615,7 @@ FROM bitnami/nginx-ingress-controller:1.10.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.25.5
+FROM bitnami/nginx:1.26.0
 # bitnami/nginx
 
 # bitnami/minio
