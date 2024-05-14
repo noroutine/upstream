@@ -171,7 +171,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.73.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.4.2
+FROM grafana/grafana:10.4.3
 # grafana/grafana
 
 # grafana/loki
@@ -199,7 +199,7 @@ FROM httpd:2.4.59-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.23-jdk21-temurin-jammy
+FROM tomcat:10.1.24-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -583,7 +583,7 @@ FROM bitnami/postgresql:16.3.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.23
+FROM bitnami/tomcat:10.1.24
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -639,7 +639,7 @@ FROM bitnami/metallb-speaker:0.14.5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.4.2
+FROM bitnami/grafana:10.4.3
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -1019,11 +1019,11 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.457-jdk17
+FROM jenkins/jenkins:2.458-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3203.v94ce994fdb_31-2-jdk17
+FROM jenkins/agent:3206.vb_15dcf73f6a_9-11-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
