@@ -367,11 +367,11 @@ FROM summerwind/actions-runner-controller:v0.27.6
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.316.0-ubuntu-22.04
+FROM summerwind/actions-runner:v2.316.1-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.316.0-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.316.1-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -699,7 +699,7 @@ FROM bitnami/trivy:0.51.1
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.30.0
+FROM bitnami/kubectl:1.30.1
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -895,7 +895,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.22.0
+FROM gcr.io/kaniko-project/executor:v1.23.0
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -947,11 +947,11 @@ FROM jellyfin/jellyfin:10.9.1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.17.01
+FROM haveagitgat/tdarr:2.18.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.17.01
+FROM haveagitgat/tdarr_node:2.18.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1031,7 +1031,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.1
+FROM netboxcommunity/netbox:v4.0.2
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1105,6 +1105,10 @@ FROM spvest/azure-keyvault-webhook:1.6.0
 # spvest/azure-keyvault-env
 FROM spvest/azure-keyvault-env:1.6.0
 # spvest/azure-keyvault-env
+
+# gitea/gitea
+FROM gitea/gitea:1.21.11-rootless
+# gitea/gitea
 
 # chirpstack/chirpstack
 FROM chirpstack/chirpstack:4.8.1
@@ -1195,7 +1199,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.30.0
+FROM bitnami/kubectl:1.30.1
 # bitnami/kubectl
 
 # apache/airflow
@@ -1231,7 +1235,7 @@ FROM quay.io/jetstack/cert-manager-ctl:v1.14.5
 # jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.8.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.8.1
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -1266,6 +1270,10 @@ FROM hashicorp/vault-k8s:1.4.1
 FROM hashicorp/vault-csi-provider:1.4.2
 # hashicorp/vault-csi-provider
 
+# hashicorp/terraform-cloud-operator
+FROM hashicorp/terraform-cloud-operator:2.4.0
+# hashicorp/terraform-cloud-operator
+
 # strimzi/operator
 FROM quay.io/strimzi/operator:0.41.0
 # strimzi/operator
@@ -1283,67 +1291,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.30.0
+FROM registry.k8s.io/kube-apiserver:v1.30.1
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.30.0
+FROM registry.k8s.io/kube-proxy:v1.30.1
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.30.0
+FROM registry.k8s.io/kube-scheduler:v1.30.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.30.0
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.4
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.4
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.4
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.4
+FROM registry.k8s.io/kube-controller-manager:v1.30.1
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.9
+FROM registry.k8s.io/kube-apiserver:v1.29.5
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.9
+FROM registry.k8s.io/kube-proxy:v1.29.5
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.9
+FROM registry.k8s.io/kube-scheduler:v1.29.5
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.9
+FROM registry.k8s.io/kube-controller-manager:v1.29.5
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.13
+FROM registry.k8s.io/kube-apiserver:v1.28.10
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.13
+FROM registry.k8s.io/kube-proxy:v1.28.10
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.13
+FROM registry.k8s.io/kube-scheduler:v1.28.10
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.13
+FROM registry.k8s.io/kube-controller-manager:v1.28.10
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.27.14
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.27.14
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.27.14
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.27.14
 # kube-controller-manager
 
 # kube-apiserver
