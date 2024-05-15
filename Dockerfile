@@ -331,7 +331,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.19.5
+FROM buildpacksio/lifecycle:0.19.6
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.95
+FROM stakater/reloader:v1.0.97
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1003,11 +1003,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.6
+FROM netbirdio/signal:0.27.7
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.6
+FROM netbirdio/management:0.27.7
 # netbirdio/management
 
 # coturn/coturn
@@ -1131,7 +1131,7 @@ FROM supabase/gotrue:v2.151.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.28.39
+FROM supabase/realtime:v2.28.40
 # supabase/realtime
 
 # supabase/postgres-meta
