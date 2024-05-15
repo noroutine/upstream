@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.68.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.22
+FROM squidfunk/mkdocs-material:9.5.23
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -955,11 +955,11 @@ FROM haveagitgat/tdarr_node:2.18.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.24.0
+FROM gravitl/netmaker:v0.24.1
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.24.0
+FROM gravitl/netmaker-ui:v0.24.1
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server

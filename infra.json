@@ -1,5 +1,5 @@
 {
-  "version": "1dc55319",
+  "version": "ed009d1d",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -24,7 +24,7 @@
       "golang:1.22.3-alpine3.19",
       "traefik:v3.0.0",
       "sonatype/nexus3:3.68.0",
-      "squidfunk/mkdocs-material:9.5.22",
+      "squidfunk/mkdocs-material:9.5.23",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.4",
       "postgres:16.3-bookworm",
@@ -241,8 +241,8 @@
       "jellyfin/jellyfin:10.9.1",
       "haveagitgat/tdarr:2.18.01",
       "haveagitgat/tdarr_node:2.18.01",
-      "gravitl/netmaker:v0.24.0",
-      "gravitl/netmaker-ui:v0.24.0",
+      "gravitl/netmaker:v0.24.1",
+      "gravitl/netmaker-ui:v0.24.1",
       "kmb32123/youtube-dl-server:2.0",
       "puppet/puppetserver:7.9.2",
       "puppet/puppetdb:7.10.0",
