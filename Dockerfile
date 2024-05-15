@@ -463,7 +463,7 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.207.0
+FROM nocodb/nocodb:0.207.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -1115,7 +1115,7 @@ FROM chirpstack/chirpstack:4.8.1
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
-FROM chirpstack/chirpstack-rest-api:4.7.0
+FROM chirpstack/chirpstack-rest-api:4.8.1
 # chirpstack/chirpstack-rest-api
 
 # chirpstack/chirpstack-gateway-bridge

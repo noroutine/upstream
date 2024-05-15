@@ -1,5 +1,5 @@
 {
-  "version": "ed009d1d",
+  "version": "60f41248",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -118,7 +118,7 @@
       "ghost:5.82.2",
       "bitnami/ghost:5.82.9",
       "matomo:5.0.3-apache",
-      "nocodb/nocodb:0.207.0",
+      "nocodb/nocodb:0.207.1",
       "metabase/metabase:v0.49.10",
       "docker:26.1.2-dind",
       "quay.io/podman/stable:v5.0.2",
@@ -281,7 +281,7 @@
       "spvest/azure-keyvault-env:1.6.0",
       "gitea/gitea:1.21.11-rootless",
       "chirpstack/chirpstack:4.8.1",
-      "chirpstack/chirpstack-rest-api:4.7.0",
+      "chirpstack/chirpstack-rest-api:4.8.1",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.151.0",
