@@ -1003,7 +1003,7 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.6
+FROM netbirdio/signal:0.27.7
 # netbirdio/signal
 
 # netbirdio/management
