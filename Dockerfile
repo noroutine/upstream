@@ -783,7 +783,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.5.6
+FROM drakkan/sftpgo:v2.6.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
