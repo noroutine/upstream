@@ -83,7 +83,7 @@ FROM traefik:v3.0.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.68.0
+FROM sonatype/nexus3:3.68.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -335,15 +335,15 @@ FROM buildpacksio/lifecycle:0.19.6
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v16.11.1
+FROM gitlab/gitlab-runner:alpine3.19-v17.0.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:16.11.2-ce.0
+FROM gitlab/gitlab-ce:17.0.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.0.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -455,7 +455,7 @@ FROM ghost:5.82.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.9
+FROM bitnami/ghost:5.82.10
 # bitnami/ghost
 
 # matomo
@@ -467,11 +467,11 @@ FROM nocodb/nocodb:0.207.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.10
+FROM metabase/metabase:v0.49.11
 # metabase/metabase
 
 # docker
-FROM docker:26.1.2-dind
+FROM docker:26.1.3-dind
 # docker
 
 # podman/stable
@@ -651,7 +651,7 @@ FROM bitnami/consul:1.18.1
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.14
+FROM bitnami/nats:2.10.15
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -783,7 +783,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.5.6
+FROM drakkan/sftpgo:v2.6.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -947,11 +947,11 @@ FROM jellyfin/jellyfin:10.9.1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.18.01
+FROM haveagitgat/tdarr:2.18.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.18.01
+FROM haveagitgat/tdarr_node:2.18.02
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.51.4
+FROM ghcr.io/zitadel/zitadel:v2.52.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1139,7 +1139,7 @@ FROM supabase/postgres-meta:v0.80.1
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.2.1
+FROM supabase/storage-api:v1.3.1
 # supabase/storage-api
 
 # supabase/logflare
@@ -1147,7 +1147,7 @@ FROM supabase/logflare:1.7.0
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.51.0
+FROM supabase/edge-runtime:v1.53.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
