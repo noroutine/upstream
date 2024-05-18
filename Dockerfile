@@ -451,7 +451,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.82.2
+FROM ghost:5.82.11
 # ghost
 
 # bitnami/ghost
@@ -463,7 +463,7 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.207.1
+FROM nocodb/nocodb:0.207.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -1247,7 +1247,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.18.1
+FROM hashicorp/consul:1.18.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
