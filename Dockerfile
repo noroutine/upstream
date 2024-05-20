@@ -647,7 +647,7 @@ FROM bitnami/grafana-image-renderer:3.10.4
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.18.1
+FROM bitnami/consul:1.18.2
 # bitnami/consul
 
 # bitnami/nats
