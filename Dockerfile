@@ -163,7 +163,7 @@ FROM quay.io/prometheus/pushgateway:v1.8.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.73.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.74.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
