@@ -835,7 +835,7 @@ FROM quay.io/argoproj/argoexec:v3.5.6
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.4-bookworm
+FROM redis:7.2.5-bookworm
 # redis
 
 # listmonk/listmonk
