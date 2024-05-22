@@ -1519,7 +1519,7 @@ FROM longhornio/support-bundle-kit:v0.0.37
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.1
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
