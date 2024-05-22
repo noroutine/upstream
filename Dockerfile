@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.68.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.23
+FROM squidfunk/mkdocs-material:9.5.24
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -139,7 +139,7 @@ FROM quay.io/prometheus/alertmanager:v0.27.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.8.0
+FROM quay.io/prometheus/node-exporter:v1.8.1
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
@@ -163,11 +163,11 @@ FROM quay.io/prometheus/pushgateway:v1.8.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.73.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.74.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.73.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.74.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -455,7 +455,7 @@ FROM ghost:5.82.11
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.10
+FROM bitnami/ghost:5.82.11
 # bitnami/ghost
 
 # matomo
@@ -547,7 +547,7 @@ FROM bitnami/postgres-exporter:0.15.0
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.4
+FROM bitnami/redis:7.2.5
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -647,7 +647,7 @@ FROM bitnami/grafana-image-renderer:3.10.4
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.18.1
+FROM bitnami/consul:1.18.2
 # bitnami/consul
 
 # bitnami/nats
@@ -695,7 +695,7 @@ FROM bitnami/sealed-secrets-controller:0.26.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.51.1
+FROM bitnami/trivy:0.51.2
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -771,7 +771,7 @@ FROM goharbor/nginx-photon:v2.10.2
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.51.1
+FROM aquasec/trivy:0.51.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -811,7 +811,7 @@ FROM ghcr.io/dexidp/dex:v2.39.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.11.0
+FROM quay.io/argoproj/argocd:v2.11.1
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -835,7 +835,7 @@ FROM quay.io/argoproj/argoexec:v3.5.6
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.4-bookworm
+FROM redis:7.2.5-bookworm
 # redis
 
 # listmonk/listmonk
@@ -943,7 +943,7 @@ FROM syncthing/relaysrv:1.27.7
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.1
+FROM jellyfin/jellyfin:10.9.2
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -991,7 +991,7 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.20.2.2-b1
+FROM yugabytedb/yugabyte:2.21.0.1-b1
 # yugabytedb/yugabyte
 
 # antelle/keeweb
@@ -1131,7 +1131,7 @@ FROM supabase/gotrue:v2.151.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.28.40
+FROM supabase/realtime:v2.29.0
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1147,7 +1147,7 @@ FROM supabase/logflare:1.7.0
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.53.0
+FROM supabase/edge-runtime:v1.53.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1251,7 +1251,7 @@ FROM hashicorp/consul:1.18.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.4.1
+FROM hashicorp/consul-k8s-control-plane:1.4.2
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -1519,7 +1519,7 @@ FROM longhornio/support-bundle-kit:v0.0.37
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.0
+FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.1
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
@@ -1611,7 +1611,7 @@ FROM obsidiandynamics/kafdrop:4.0.1
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.24.0
+FROM tchiotludo/akhq:0.25.0
 # tchiotludo/akhq
 
 # nvidia/gpu-operator
