@@ -687,7 +687,7 @@ FROM bitnami/kube-rbac-proxy:0.17.1
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.7
+FROM bitnami/openldap:2.6.8
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
