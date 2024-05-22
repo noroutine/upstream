@@ -1,5 +1,5 @@
 {
-  "version": "c1620a72",
+  "version": "6d84d11a",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -280,6 +280,7 @@
       "spvest/azure-keyvault-webhook:1.6.0",
       "spvest/azure-keyvault-env:1.6.0",
       "gitea/gitea:1.21.11-rootless",
+      "paperlessngx/paperless-ngx:2.8.6",
       "chirpstack/chirpstack:4.8.1",
       "chirpstack/chirpstack-rest-api:4.8.1",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",

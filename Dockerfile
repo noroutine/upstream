@@ -1110,6 +1110,10 @@ FROM spvest/azure-keyvault-env:1.6.0
 FROM gitea/gitea:1.21.11-rootless
 # gitea/gitea
 
+# paperlessngx/paperless-ngx
+FROM paperlessngx/paperless-ngx:2.8.6
+# paperlessngx/paperless-ngx
+
 # chirpstack/chirpstack
 FROM chirpstack/chirpstack:4.8.1
 # chirpstack/chirpstack
