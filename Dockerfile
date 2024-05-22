@@ -787,7 +787,7 @@ FROM drakkan/sftpgo:v2.6.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.39.1
+FROM hasura/graphql-engine:v2.39.2
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -1467,27 +1467,27 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.4
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.6.1
+FROM longhornio/longhorn-manager:v1.6.2
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.6.1
+FROM longhornio/longhorn-ui:v1.6.2
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.6.1
+FROM longhornio/longhorn-engine:v1.6.2
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.6.1
+FROM longhornio/longhorn-instance-manager:v1.6.2
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.6.1
+FROM longhornio/longhorn-share-manager:v1.6.2
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.6.1
+FROM longhornio/backing-image-manager:v1.6.2
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
