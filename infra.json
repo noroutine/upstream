@@ -1,5 +1,5 @@
 {
-  "version": "2c8bbe2c",
+  "version": "90ae9d59",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -87,7 +87,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.19.6",
       "gitlab/gitlab-runner:alpine3.19-v17.0.0",
-      "gitlab/gitlab-ce:17.0.0-ce.0",
+      "gitlab/gitlab-ce:17.0.1-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.90.0",
@@ -174,7 +174,7 @@
       "bitnami/kubeapps-apis:2.10.0",
       "bitnami/kubeapps-pinniped-proxy:2.10.0",
       "bitnami/kube-rbac-proxy:0.17.1",
-      "bitnami/openldap:2.6.7",
+      "bitnami/openldap:2.6.8",
       "bitnami/sealed-secrets-controller:0.26.2",
       "bitnami/trivy:0.51.2",
       "bitnami/kubectl:1.30.1",
@@ -286,7 +286,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.151.0",
-      "supabase/realtime:v2.29.0",
+      "supabase/realtime:v2.29.1",
       "supabase/postgres-meta:v0.80.1",
       "supabase/storage-api:v1.3.1",
       "supabase/logflare:1.7.0",

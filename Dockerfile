@@ -339,7 +339,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.0.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.0.0-ce.0
+FROM gitlab/gitlab-ce:17.0.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -687,7 +687,7 @@ FROM bitnami/kube-rbac-proxy:0.17.1
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.7
+FROM bitnami/openldap:2.6.8
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
@@ -1135,7 +1135,7 @@ FROM supabase/gotrue:v2.151.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.0
+FROM supabase/realtime:v2.29.1
 # supabase/realtime
 
 # supabase/postgres-meta
