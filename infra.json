@@ -1,5 +1,5 @@
 {
-  "version": "6d84d11a",
+  "version": "2c8bbe2c",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -136,7 +136,7 @@
       "bitnami/spark:3.5.1",
       "bitnami/prometheus:2.52.0",
       "bitnami/prometheus-operator:0.73.2",
-      "bitnami/node-exporter:1.8.0",
+      "bitnami/node-exporter:1.8.1",
       "bitnami/blackbox-exporter:0.25.0",
       "bitnami/postgres-exporter:0.15.0",
       "bitnami/redis:7.2.5",
@@ -165,7 +165,7 @@
       "bitnami/grafana:10.4.3",
       "bitnami/grafana-image-renderer:3.10.4",
       "bitnami/consul:1.18.2",
-      "bitnami/nats:2.10.15",
+      "bitnami/nats:2.10.16",
       "bitnami/kube-state-metrics:2.12.0",
       "bitnami/metrics-server:0.7.1",
       "bitnami/kubeapps-dashboard:2.10.0",
@@ -218,7 +218,7 @@
       "cupcakearmy/cryptgeon:2.6.1",
       "memcached:1.6.27-alpine3.19",
       "connecteverything/nats-operator:0.8.0",
-      "nats:2.10.14-alpine3.19",
+      "nats:2.10.16-alpine3.19",
       "natsio/prometheus-nats-exporter:0.15.0",
       "natsio/nats-server-config-reloader:0.14.2",
       "masipcat/wireguard-go:0.0.20230223",

@@ -535,7 +535,7 @@ FROM bitnami/prometheus-operator:0.73.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.8.0
+FROM bitnami/node-exporter:1.8.1
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
@@ -651,7 +651,7 @@ FROM bitnami/consul:1.18.2
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.15
+FROM bitnami/nats:2.10.16
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -863,7 +863,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.14-alpine3.19
+FROM nats:2.10.16-alpine3.19
 # nats
 
 # natsio/prometheus-nats-exporter
