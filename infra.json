@@ -1,5 +1,5 @@
 {
-  "version": "4d65ae51",
+  "version": "f41cf34c",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -175,7 +175,7 @@
       "bitnami/kubeapps-pinniped-proxy:2.10.0",
       "bitnami/kube-rbac-proxy:0.17.1",
       "bitnami/openldap:2.6.8",
-      "bitnami/sealed-secrets-controller:0.26.2",
+      "bitnami/sealed-secrets-controller:0.26.3",
       "bitnami/trivy:0.51.2",
       "bitnami/kubectl:1.30.1",
       "bitnami/harbor-adapter-trivy:2.10.2",
@@ -253,8 +253,8 @@
       "yugabytedb/yugabyte:2.21.0.1-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
-      "netbirdio/signal:0.27.7",
-      "netbirdio/management:0.27.7",
+      "netbirdio/signal:0.27.8",
+      "netbirdio/management:0.27.8",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
       "jenkins/jenkins:2.458-jdk17",
