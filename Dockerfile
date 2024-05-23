@@ -15,7 +15,7 @@ FROM ubuntu:focal-20240427
 # ubuntu
 
 # alpine
-FROM alpine:3.19.1
+FROM alpine:3.20.0
 # alpine
 
 # busybox
@@ -227,7 +227,7 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.17.0
+FROM quay.io/cortexproject/cortex:v1.17.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -1135,7 +1135,7 @@ FROM supabase/gotrue:v2.151.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.1
+FROM supabase/realtime:v2.29.2
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1643,7 +1643,7 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.5-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.6-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter

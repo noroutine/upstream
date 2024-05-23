@@ -1,12 +1,12 @@
 {
-  "version": "90ae9d59",
+  "version": "43dab0f3",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
       "ubuntu:noble-20240429",
       "ubuntu:jammy-20240427",
       "ubuntu:focal-20240427",
-      "alpine:3.19.1",
+      "alpine:3.20.0",
       "busybox:1.36.1",
       "gcr.io/distroless/static-debian11",
       "gcr.io/distroless/base-debian11",
@@ -59,7 +59,7 @@
       "ribbybibby/ssl-exporter:2.4.3",
       "gcr.io/cadvisor/cadvisor:v0.49.1",
       "ghcr.io/prymitive/karma:v0.120",
-      "quay.io/cortexproject/cortex:v1.17.0",
+      "quay.io/cortexproject/cortex:v1.17.1",
       "docker.elastic.co/elasticsearch/elasticsearch:8.13.4",
       "docker.elastic.co/logstash/logstash:8.13.4",
       "docker.elastic.co/kibana/kibana:8.13.4",
@@ -286,7 +286,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.151.0",
-      "supabase/realtime:v2.29.1",
+      "supabase/realtime:v2.29.2",
       "supabase/postgres-meta:v0.80.1",
       "supabase/storage-api:v1.3.1",
       "supabase/logflare:1.7.0",
@@ -413,7 +413,7 @@
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.8",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8",
-      "nvcr.io/nvidia/cloud-native/dcgm:3.3.5-1-ubi9",
+      "nvcr.io/nvidia/cloud-native/dcgm:3.3.6-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.1-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.7.0-ubi8"
