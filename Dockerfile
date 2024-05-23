@@ -1643,7 +1643,7 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.5-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.6-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
