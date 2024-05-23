@@ -103,7 +103,7 @@ FROM postgres:16.3-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.15.2
+FROM atlassian/jira-software:9.16.0
 # atlassian/jira-software
 
 # nextcloud
@@ -643,7 +643,7 @@ FROM bitnami/grafana:10.4.3
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.10.4
+FROM bitnami/grafana-image-renderer:3.10.5
 # bitnami/grafana-image-renderer
 
 # bitnami/consul

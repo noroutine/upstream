@@ -1,5 +1,5 @@
 {
-  "version": "b21f1765",
+  "version": "4d65ae51",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -28,7 +28,7 @@
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.4",
       "postgres:16.3-bookworm",
-      "atlassian/jira-software:9.15.2",
+      "atlassian/jira-software:9.16.0",
       "nextcloud:29.0.0-apache",
       "haproxytech/haproxy-debian:3.0",
       "quay.io/minio/minio:RELEASE.2024-05-10T01-41-38Z",
@@ -163,7 +163,7 @@
       "bitnami/metallb-controller:0.14.5",
       "bitnami/metallb-speaker:0.14.5",
       "bitnami/grafana:10.4.3",
-      "bitnami/grafana-image-renderer:3.10.4",
+      "bitnami/grafana-image-renderer:3.10.5",
       "bitnami/consul:1.18.2",
       "bitnami/nats:2.10.16",
       "bitnami/kube-state-metrics:2.12.0",
