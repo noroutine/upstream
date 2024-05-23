@@ -811,7 +811,7 @@ FROM ghcr.io/dexidp/dex:v2.39.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.11.1
+FROM quay.io/argoproj/argocd:v2.11.2
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -947,11 +947,11 @@ FROM jellyfin/jellyfin:10.9.2
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.18.02
+FROM haveagitgat/tdarr:2.19.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.18.02
+FROM haveagitgat/tdarr_node:2.19.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker

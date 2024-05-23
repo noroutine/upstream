@@ -1,5 +1,5 @@
 {
-  "version": "9340dfae",
+  "version": "b21f1765",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -205,7 +205,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.39.1",
-      "quay.io/argoproj/argocd:v2.11.1",
+      "quay.io/argoproj/argocd:v2.11.2",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.9.1",
       "quay.io/argoproj/argocli:v3.5.6",
@@ -239,8 +239,8 @@
       "syncthing/discosrv:1.27.7",
       "syncthing/relaysrv:1.27.7",
       "jellyfin/jellyfin:10.9.2",
-      "haveagitgat/tdarr:2.18.02",
-      "haveagitgat/tdarr_node:2.18.02",
+      "haveagitgat/tdarr:2.19.01",
+      "haveagitgat/tdarr_node:2.19.01",
       "gravitl/netmaker:v0.24.1",
       "gravitl/netmaker-ui:v0.24.1",
       "kmb32123/youtube-dl-server:2.0",
