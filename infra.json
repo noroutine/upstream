@@ -1,5 +1,5 @@
 {
-  "version": "4f44cd22",
+  "version": "9340dfae",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -22,7 +22,7 @@
       "python:3.12.3-slim-bookworm",
       "golang:1.22.3-bookworm",
       "golang:1.22.3-alpine3.19",
-      "traefik:v3.0.0",
+      "traefik:v3.0.1",
       "sonatype/nexus3:3.68.1",
       "squidfunk/mkdocs-material:9.5.24",
       "freeradius/freeradius-server:3.2.3-alpine",
@@ -135,7 +135,7 @@
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.1",
       "bitnami/prometheus:2.52.0",
-      "bitnami/prometheus-operator:0.73.2",
+      "bitnami/prometheus-operator:0.74.0",
       "bitnami/node-exporter:1.8.1",
       "bitnami/blackbox-exporter:0.25.0",
       "bitnami/postgres-exporter:0.15.0",

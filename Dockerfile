@@ -79,7 +79,7 @@ FROM golang:1.22.3-alpine3.19
 # golang
 
 # traefik
-FROM traefik:v3.0.0
+FROM traefik:v3.0.1
 # traefik
 
 # sonatype/nexus3
@@ -531,7 +531,7 @@ FROM bitnami/prometheus:2.52.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.73.2
+FROM bitnami/prometheus-operator:0.74.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
