@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.336",
+  "version": "09f76531",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -253,8 +253,8 @@
       "yugabytedb/yugabyte:2.21.0.1-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
-      "netbirdio/signal:0.27.8",
-      "netbirdio/management:0.27.8",
+      "netbirdio/signal:0.27.9",
+      "netbirdio/management:0.27.9",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
       "jenkins/jenkins:2.458-jdk17",
@@ -290,7 +290,7 @@
       "supabase/postgres-meta:v0.80.1",
       "supabase/storage-api:v1.3.1",
       "supabase/logflare:1.7.0",
-      "supabase/edge-runtime:v1.53.1",
+      "supabase/edge-runtime:v1.53.2",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.38.0-alpine",
       "kong:3.6.1-ubuntu",
@@ -414,7 +414,7 @@
       "nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8",
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.6-1-ubi9",
-      "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.1-ubi9",
+      "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.6-3.4.2-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.7.0-ubi8"
     ]

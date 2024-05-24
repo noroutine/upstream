@@ -1003,11 +1003,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.8
+FROM netbirdio/signal:0.27.9
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.8
+FROM netbirdio/management:0.27.9
 # netbirdio/management
 
 # coturn/coturn
@@ -1151,7 +1151,7 @@ FROM supabase/logflare:1.7.0
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.53.1
+FROM supabase/edge-runtime:v1.53.2
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1647,7 +1647,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.6-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.1-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.6-3.4.2-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
