@@ -1,5 +1,5 @@
 {
-  "version": "09f76531",
+  "version": "82e6bbd5",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -257,7 +257,7 @@
       "netbirdio/management:0.27.9",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.458-jdk17",
+      "jenkins/jenkins:2.459-jdk17",
       "jenkins/agent:3206.vb_15dcf73f6a_9-11-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v4.0.3",
@@ -265,7 +265,7 @@
       "kubernetesui/dashboard-api:1.6.0",
       "kubernetesui/dashboard-web:1.3.0",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.27.0",
+      "locustio/locust:2.28.0",
       "postgrest/postgrest:v12.0.3",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.2",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.7.0",
