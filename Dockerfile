@@ -1647,7 +1647,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.6-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.1-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.6-3.4.2-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
