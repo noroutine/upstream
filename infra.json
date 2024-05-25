@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.337",
+  "version": "8b3281aa",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -176,7 +176,7 @@
       "bitnami/kube-rbac-proxy:0.17.1",
       "bitnami/openldap:2.6.8",
       "bitnami/sealed-secrets-controller:0.26.3",
-      "bitnami/trivy:0.51.2",
+      "bitnami/trivy:0.51.4",
       "bitnami/kubectl:1.30.1",
       "bitnami/harbor-adapter-trivy:2.10.2",
       "bitnami/harbor-core:2.10.2",
@@ -195,7 +195,7 @@
       "goharbor/redis-photon:v2.10.2",
       "goharbor/trivy-adapter-photon:v2.10.2",
       "goharbor/nginx-photon:v2.10.2",
-      "aquasec/trivy:0.51.2",
+      "aquasec/trivy:0.51.4",
       "ghcr.io/external-secrets/external-secrets:v0.9.18",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.6.0",
@@ -316,7 +316,7 @@
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.18.2",
-      "hashicorp/consul-k8s-control-plane:1.4.2",
+      "hashicorp/consul-k8s-control-plane:1.4.3",
       "envoyproxy/envoy-alpine:v1.21.6",
       "hashicorp/vault:1.16.2",
       "hashicorp/vault-k8s:1.4.1",

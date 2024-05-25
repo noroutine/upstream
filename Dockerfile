@@ -695,7 +695,7 @@ FROM bitnami/sealed-secrets-controller:0.26.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.51.2
+FROM bitnami/trivy:0.51.4
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -771,7 +771,7 @@ FROM goharbor/nginx-photon:v2.10.2
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.51.2
+FROM aquasec/trivy:0.51.4
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -1255,7 +1255,7 @@ FROM hashicorp/consul:1.18.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.4.2
+FROM hashicorp/consul-k8s-control-plane:1.4.3
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
