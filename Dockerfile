@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.207.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.11
+FROM metabase/metabase:v0.49.12
 # metabase/metabase
 
 # docker
@@ -1287,7 +1287,7 @@ FROM quay.io/strimzi/kafka:0.41.0-kafka-3.7.0
 # strimzi/kafka
 
 # pause
-FROM registry.k8s.io/pause:3.9
+FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
