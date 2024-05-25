@@ -171,7 +171,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.74.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:10.4.3
+FROM grafana/grafana:11.0.0
 # grafana/grafana
 
 # grafana/loki
@@ -639,7 +639,7 @@ FROM bitnami/metallb-speaker:0.14.5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:10.4.3
+FROM bitnami/grafana:11.0.0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
