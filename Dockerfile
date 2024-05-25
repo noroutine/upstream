@@ -415,7 +415,7 @@ FROM registry.k8s.io/kube-scheduler:v1.28.8
 # kube-scheduler
 
 # pause
-FROM registry.k8s.io/pause:3.9
+FROM registry.k8s.io/pause:3.10
 # pause
 
 # jupyterhub/repo2docker
@@ -1131,7 +1131,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.151.0
+FROM supabase/gotrue:v2.152.0
 # supabase/gotrue
 
 # supabase/realtime
@@ -1139,7 +1139,7 @@ FROM supabase/realtime:v2.29.2
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.80.1
+FROM supabase/postgres-meta:v0.81.0
 # supabase/postgres-meta
 
 # supabase/storage-api
