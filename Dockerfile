@@ -1559,7 +1559,7 @@ FROM registry.k8s.io/sig-storage/csi-snapshotter:v7.0.2
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v7.0.2
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.0.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
