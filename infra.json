@@ -1,5 +1,5 @@
 {
-  "version": "ab40d790",
+  "version": "d9bb0bf4",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -391,8 +391,8 @@
       "registry.k8s.io/sig-storage/csi-attacher:v4.6.0",
       "registry.k8s.io/sig-storage/csi-resizer:v1.11.0",
       "registry.k8s.io/sig-storage/csi-provisioner:v5.0.0",
-      "registry.k8s.io/sig-storage/csi-snapshotter:v7.0.2",
-      "registry.k8s.io/sig-storage/snapshot-controller:v7.0.2",
+      "registry.k8s.io/sig-storage/csi-snapshotter:v8.0.0",
+      "registry.k8s.io/sig-storage/snapshot-controller:v8.0.0",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.2",
       "confluentinc/confluent-init-container:2.8.2",
       "confluentinc/confluent-operator:0.921.20",
