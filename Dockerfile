@@ -355,7 +355,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.91.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.3
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.0.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -1551,7 +1551,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v4.0.1
+FROM registry.k8s.io/sig-storage/csi-provisioner:v5.0.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter

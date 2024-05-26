@@ -1,5 +1,5 @@
 {
-  "version": "c8ac2889",
+  "version": "ab40d790",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -91,7 +91,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.91.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.11.3",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.0.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.3.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.316.1-ubuntu-22.04",
@@ -390,7 +390,7 @@
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.1",
       "registry.k8s.io/sig-storage/csi-attacher:v4.6.0",
       "registry.k8s.io/sig-storage/csi-resizer:v1.11.0",
-      "registry.k8s.io/sig-storage/csi-provisioner:v4.0.1",
+      "registry.k8s.io/sig-storage/csi-provisioner:v5.0.0",
       "registry.k8s.io/sig-storage/csi-snapshotter:v7.0.2",
       "registry.k8s.io/sig-storage/snapshot-controller:v7.0.2",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v7.0.2",
