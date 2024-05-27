@@ -823,15 +823,15 @@ FROM quay.io/argoproj/argo-events:v1.9.1
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.6
+FROM quay.io/argoproj/argocli:v3.5.7
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.6
+FROM quay.io/argoproj/workflow-controller:v3.5.7
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.6
+FROM quay.io/argoproj/argoexec:v3.5.7
 # argoproj/argoexec
 
 # redis
@@ -943,7 +943,7 @@ FROM syncthing/relaysrv:1.27.7
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.2
+FROM jellyfin/jellyfin:10.9.3
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -1151,7 +1151,7 @@ FROM supabase/logflare:1.7.0
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.53.2
+FROM supabase/edge-runtime:v1.53.3
 # supabase/edge-runtime
 
 # darthsim/imgproxy

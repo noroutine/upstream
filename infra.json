@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.338",
+  "version": "c18ca466",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -208,9 +208,9 @@
       "quay.io/argoproj/argocd:v2.11.2",
       "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.9.1",
-      "quay.io/argoproj/argocli:v3.5.6",
-      "quay.io/argoproj/workflow-controller:v3.5.6",
-      "quay.io/argoproj/argoexec:v3.5.6",
+      "quay.io/argoproj/argocli:v3.5.7",
+      "quay.io/argoproj/workflow-controller:v3.5.7",
+      "quay.io/argoproj/argoexec:v3.5.7",
       "redis:7.2.5-bookworm",
       "listmonk/listmonk:v3.0.0",
       "vaultwarden/server:1.30.5",
@@ -238,7 +238,7 @@
       "syncthing/syncthing:1.27.7",
       "syncthing/discosrv:1.27.7",
       "syncthing/relaysrv:1.27.7",
-      "jellyfin/jellyfin:10.9.2",
+      "jellyfin/jellyfin:10.9.3",
       "haveagitgat/tdarr:2.19.01",
       "haveagitgat/tdarr_node:2.19.01",
       "gravitl/netmaker:v0.24.1",
@@ -290,7 +290,7 @@
       "supabase/postgres-meta:v0.81.0",
       "supabase/storage-api:v1.3.1",
       "supabase/logflare:1.7.0",
-      "supabase/edge-runtime:v1.53.2",
+      "supabase/edge-runtime:v1.53.3",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.38.0-alpine",
       "kong:3.6.1-ubuntu",
