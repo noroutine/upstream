@@ -1,5 +1,5 @@
 {
-  "version": "c18ca466",
+  "version": "e3671dc3",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -24,7 +24,7 @@
       "golang:1.22.3-alpine3.19",
       "traefik:v3.0.1",
       "sonatype/nexus3:3.68.1",
-      "squidfunk/mkdocs-material:9.5.24",
+      "squidfunk/mkdocs-material:9.5.25",
       "freeradius/freeradius-server:3.2.3-alpine",
       "quay.io/keycloak/keycloak:24.0.4",
       "postgres:16.3-bookworm",
@@ -253,8 +253,8 @@
       "yugabytedb/yugabyte:2.21.0.1-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
-      "netbirdio/signal:0.27.9",
-      "netbirdio/management:0.27.9",
+      "netbirdio/signal:0.27.10",
+      "netbirdio/management:0.27.10",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
       "jenkins/jenkins:2.459-jdk17",
