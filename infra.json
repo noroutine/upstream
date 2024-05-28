@@ -1,5 +1,5 @@
 {
-  "version": "5eb7f547",
+  "version": "9f78bcaa",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -157,7 +157,7 @@
       "bitnami/memcached:1.6.27",
       "bitnami/nginx-ingress-controller:1.10.1",
       "bitnami/nginx:1.26.0",
-      "bitnami/minio:2024.5.10",
+      "bitnami/minio:2024.5.27",
       "bitnami/minio-client:2024.5.24",
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.14.5",
@@ -382,7 +382,7 @@
       "longhornio/csi-provisioner:v4.0.1",
       "longhornio/csi-attacher:v4.5.1",
       "longhornio/livenessprobe:v2.12.0",
-      "longhornio/support-bundle-kit:v0.0.37",
+      "longhornio/support-bundle-kit:v0.0.38",
       "gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.1",
       "gcr.io/cloud-provider-vsphere/csi/release/driver:v3.2.0",
       "gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.2.0",
