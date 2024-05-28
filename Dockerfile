@@ -1107,7 +1107,7 @@ FROM spvest/azure-keyvault-env:1.6.0
 # spvest/azure-keyvault-env
 
 # gitea/gitea
-FROM gitea/gitea:1.21.11-rootless
+FROM gitea/gitea:1.22.0-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
@@ -1467,7 +1467,7 @@ FROM calico/csi:v3.28.0
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.15.4
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.0
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager

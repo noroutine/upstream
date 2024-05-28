@@ -1,5 +1,5 @@
 {
-  "version": "e3671dc3",
+  "version": "6e9ec958",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -279,7 +279,7 @@
       "spvest/azure-keyvault-controller:1.6.0",
       "spvest/azure-keyvault-webhook:1.6.0",
       "spvest/azure-keyvault-env:1.6.0",
-      "gitea/gitea:1.21.11-rootless",
+      "gitea/gitea:1.22.0-rootless",
       "paperlessngx/paperless-ngx:2.8.6",
       "chirpstack/chirpstack:4.8.1",
       "chirpstack/chirpstack-rest-api:4.8.1",
@@ -369,7 +369,7 @@
       "calico/pod2daemon-flexvol:v3.28.0",
       "calico/node-driver-registrar:v3.28.0",
       "calico/csi:v3.28.0",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.15.4",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.16.0",
       "longhornio/longhorn-manager:v1.6.2",
       "longhornio/longhorn-ui:v1.6.2",
       "longhornio/longhorn-engine:v1.6.2",
