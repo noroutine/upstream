@@ -1139,7 +1139,7 @@ FROM supabase/realtime:v2.29.2
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.81.0
+FROM supabase/postgres-meta:v0.81.1
 # supabase/postgres-meta
 
 # supabase/storage-api
