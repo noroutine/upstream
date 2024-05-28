@@ -455,7 +455,7 @@ FROM ghost:5.82.11
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.11
+FROM bitnami/ghost:5.82.12
 # bitnami/ghost
 
 # matomo
@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.97
+FROM stakater/reloader:v1.0.98
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.52.0
+FROM ghcr.io/zitadel/zitadel:v2.52.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1139,7 +1139,7 @@ FROM supabase/realtime:v2.29.2
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.81.0
+FROM supabase/postgres-meta:v0.81.1
 # supabase/postgres-meta
 
 # supabase/storage-api

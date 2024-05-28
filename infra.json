@@ -1,5 +1,5 @@
 {
-  "version": "9f78bcaa",
+  "version": "1a194e8b",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -116,7 +116,7 @@
       "verdaccio/verdaccio:5.31.0",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.82.11",
-      "bitnami/ghost:5.82.11",
+      "bitnami/ghost:5.82.12",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.207.2",
       "metabase/metabase:v0.49.12",
@@ -201,7 +201,7 @@
       "drakkan/sftpgo:v2.6.0",
       "hasura/graphql-engine:v2.39.2",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.97",
+      "stakater/reloader:v1.0.98",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.39.1",
@@ -272,7 +272,7 @@
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
-      "ghcr.io/zitadel/zitadel:v2.52.0",
+      "ghcr.io/zitadel/zitadel:v2.52.1",
       "homeassistant/home-assistant:2024.5",
       "koenkk/zigbee2mqtt:1.37.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.7.0",
@@ -287,7 +287,7 @@
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.152.0",
       "supabase/realtime:v2.29.2",
-      "supabase/postgres-meta:v0.81.0",
+      "supabase/postgres-meta:v0.81.1",
       "supabase/storage-api:v1.3.1",
       "supabase/logflare:1.7.0",
       "supabase/edge-runtime:v1.53.3",
