@@ -115,11 +115,11 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-05-10T01-41-38Z
+FROM quay.io/minio/minio:RELEASE.2024-05-27T19-17-46Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-05-09T17-04-24Z
+FROM quay.io/minio/mc:RELEASE.2024-05-24T09-08-49Z
 # minio/mc
 
 # minio/console
@@ -623,7 +623,7 @@ FROM bitnami/minio:2024.5.10
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.5.9
+FROM bitnami/minio-client:2024.5.24
 # bitnami/minio-client
 
 # bitnami/os-shell
