@@ -111,7 +111,7 @@ FROM nextcloud:29.0.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:3.0
+FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
@@ -359,7 +359,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.3.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
@@ -463,11 +463,11 @@ FROM matomo:5.0.3-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.207.2
+FROM nocodb/nocodb:0.207.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.12
+FROM metabase/metabase:v0.49.13
 # metabase/metabase
 
 # docker
