@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.0
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-05-27T19-17-46Z
+FROM quay.io/minio/minio:RELEASE.2024-05-28T17-19-04Z
 # minio/minio
 
 # minio/mc
@@ -619,7 +619,7 @@ FROM bitnami/nginx:1.26.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.5.27
+FROM bitnami/minio:2024.5.28
 # bitnami/minio
 
 # bitnami/minio-client
@@ -1019,7 +1019,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.459-jdk17
+FROM jenkins/jenkins:2.460-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.52.1
+FROM ghcr.io/zitadel/zitadel:v2.53.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1135,7 +1135,7 @@ FROM supabase/gotrue:v2.152.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.2
+FROM supabase/realtime:v2.29.3
 # supabase/realtime
 
 # supabase/postgres-meta
