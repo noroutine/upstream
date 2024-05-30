@@ -255,7 +255,7 @@ FROM wordpress:6.5.3-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.6
+FROM dpage/pgadmin4:8.7
 # dpage/pgadmin4
 
 # adminer
@@ -351,7 +351,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.0.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.92.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.93.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.100
+FROM stakater/reloader:v1.0.101
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.53.1
+FROM ghcr.io/zitadel/zitadel:v2.53.2
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1131,7 +1131,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.152.0
+FROM supabase/gotrue:v2.152.1
 # supabase/gotrue
 
 # supabase/realtime
