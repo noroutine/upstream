@@ -127,7 +127,7 @@ FROM quay.io/minio/console:v0.30.0
 # minio/console
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.13
+FROM quay.io/coreos/etcd:v3.5.14
 # coreos/etcd
 
 # prometheus/prometheus
