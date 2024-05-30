@@ -91,7 +91,7 @@ FROM squidfunk/mkdocs-material:9.5.25
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.3-alpine
+FROM freeradius/freeradius-server:3.2.4-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
@@ -127,7 +127,7 @@ FROM quay.io/minio/console:v0.30.0
 # minio/console
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.13
+FROM quay.io/coreos/etcd:v3.5.14
 # coreos/etcd
 
 # prometheus/prometheus
@@ -247,7 +247,7 @@ FROM alerta/alerta-web:9.0.3
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.9-jammy
+FROM mongo:7.0.11-jammy
 # mongo
 
 # wordpress
@@ -351,7 +351,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.0.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.91.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.92.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -451,7 +451,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.82.11
+FROM ghost:5.82.12
 # ghost
 
 # bitnami/ghost
@@ -615,7 +615,7 @@ FROM bitnami/nginx-ingress-controller:1.10.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.26.0
+FROM bitnami/nginx:1.26.1
 # bitnami/nginx
 
 # bitnami/minio
@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.98
+FROM stakater/reloader:v1.0.100
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -887,7 +887,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.7.6-alpine
+FROM caddy:2.8.0-alpine
 # caddy
 
 # outline/shadowbox
@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.53.0
+FROM ghcr.io/zitadel/zitadel:v2.53.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1263,7 +1263,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.16.2
+FROM hashicorp/vault:1.16.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
