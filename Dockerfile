@@ -107,7 +107,7 @@ FROM atlassian/jira-software:9.16.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:29.0.0-apache
+FROM nextcloud:29.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -455,7 +455,7 @@ FROM ghost:5.82.12
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.82.12
+FROM bitnami/ghost:5.83.0
 # bitnami/ghost
 
 # matomo
@@ -607,7 +607,7 @@ FROM bitnami/mongodb:7.0.11
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.27
+FROM bitnami/memcached:1.6.28
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -855,7 +855,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.27-alpine3.19
+FROM memcached:1.6.27-alpine
 # memcached
 
 # connecteverything/nats-operator
@@ -863,7 +863,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.16-alpine3.19
+FROM nats:2.10.16-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -1083,7 +1083,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.53.2
+FROM ghcr.io/zitadel/zitadel:v2.54.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
