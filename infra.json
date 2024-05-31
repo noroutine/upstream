@@ -1,5 +1,5 @@
 {
-  "version": "3d24b214",
+  "version": "6a4f03f9",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -134,7 +134,7 @@
       "caprover/caprover:1.11.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.1",
-      "bitnami/prometheus:2.52.0",
+      "bitnami/prometheus:2.52.1",
       "bitnami/prometheus-operator:0.74.0",
       "bitnami/node-exporter:1.8.1",
       "bitnami/blackbox-exporter:0.25.0",
@@ -224,7 +224,7 @@
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.18-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
-      "caddy:2.8.0-alpine",
+      "caddy:2.8.1-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
       "gcr.io/kaniko-project/executor:v1.23.0",
       "quay.io/iovisor/bpftrace:v0.19.1",
@@ -244,8 +244,8 @@
       "gravitl/netmaker:v0.24.1",
       "gravitl/netmaker-ui:v0.24.1",
       "kmb32123/youtube-dl-server:2.0",
-      "ghcr.io/voxpupuli/container-puppetserver:7.17.0-v1.5.0",
-      "ghcr.io/voxpupuli/container-puppetdb:7.18.0-v1.5.0",
+      "ghcr.io/voxpupuli/container-puppetserver:8.6.0-v1.5.0",
+      "ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0",
       "ghcr.io/voxpupuli/puppetboard:5.4.0",
       "puppet/r10k:3.15.2",
       "curlimages/curl:8.8.0",

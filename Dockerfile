@@ -527,7 +527,7 @@ FROM bitnami/spark:3.5.1
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.52.0
+FROM bitnami/prometheus:2.52.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -887,7 +887,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.8.0-alpine
+FROM caddy:2.8.1-alpine
 # caddy
 
 # outline/shadowbox
@@ -967,11 +967,11 @@ FROM kmb32123/youtube-dl-server:2.0
 # kmb32123/youtube-dl-server
 
 # voxpupuli/container-puppetserver
-FROM ghcr.io/voxpupuli/container-puppetserver:7.17.0-v1.5.0
+FROM ghcr.io/voxpupuli/container-puppetserver:8.6.0-v1.5.0
 # voxpupuli/container-puppetserver
 
 # voxpupuli/container-puppetdb
-FROM ghcr.io/voxpupuli/container-puppetdb:7.18.0-v1.5.0
+FROM ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0
 # voxpupuli/container-puppetdb
 
 # voxpupuli/puppetboard
