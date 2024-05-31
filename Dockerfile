@@ -967,7 +967,7 @@ FROM kmb32123/youtube-dl-server:2.0
 # kmb32123/youtube-dl-server
 
 # voxpupuli/container-puppetserver
-FROM ghcr.io/voxpupuli/container-puppetserver:7.17.0-v1.5.0
+FROM ghcr.io/voxpupuli/container-puppetserver:8.6.0-v1.5.0
 # voxpupuli/container-puppetserver
 
 # voxpupuli/container-puppetdb
