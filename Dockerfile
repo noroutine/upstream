@@ -971,7 +971,7 @@ FROM ghcr.io/voxpupuli/container-puppetserver:7.17.0-v1.5.0
 # voxpupuli/container-puppetserver
 
 # voxpupuli/container-puppetdb
-FROM ghcr.io/voxpupuli/container-puppetdb:7.18.0-v1.5.0
+FROM ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0
 # voxpupuli/container-puppetdb
 
 # voxpupuli/puppetboard
