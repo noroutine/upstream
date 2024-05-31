@@ -966,13 +966,13 @@ FROM gravitl/netmaker-ui:v0.24.1
 FROM kmb32123/youtube-dl-server:2.0
 # kmb32123/youtube-dl-server
 
-# puppet/puppetserver
-FROM puppet/puppetserver:7.9.2
-# puppet/puppetserver
+# voxpupuli/container-puppetserver
+FROM ghcr.io/voxpupuli/container-puppetserver:7.17.0-v1.5.0
+# voxpupuli/container-puppetserver
 
-# puppet/puppetdb
-FROM puppet/puppetdb:7.10.0
-# puppet/puppetdb
+# voxpupuli/container-puppetdb
+FROM ghcr.io/voxpupuli/container-puppetdb:7.18.0-v1.5.0
+# voxpupuli/container-puppetdb
 
 # voxpupuli/puppetboard
 FROM ghcr.io/voxpupuli/puppetboard:5.4.0
@@ -981,6 +981,10 @@ FROM ghcr.io/voxpupuli/puppetboard:5.4.0
 # puppet/r10k
 FROM puppet/r10k:3.15.2
 # puppet/r10k
+
+# curlimages/curl
+FROM curlimages/curl:8.8.0
+# curlimages/curl
 
 # restic/restic
 FROM restic/restic:0.16.4
