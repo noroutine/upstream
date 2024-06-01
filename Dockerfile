@@ -475,7 +475,7 @@ FROM docker:26.1.3-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.0.2
+FROM quay.io/podman/stable:v5.0.3
 # podman/stable
 
 # jupyter/base-notebook
@@ -551,7 +551,7 @@ FROM bitnami/redis:7.2.5
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.59.0
+FROM bitnami/redis-exporter:1.60.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
