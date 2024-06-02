@@ -187,11 +187,11 @@ FROM grafana/promtail:3.0.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.26.0-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.27.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.26.0-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.27.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -1631,7 +1631,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.3.0
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.4.1-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.5.0-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager

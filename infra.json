@@ -1,5 +1,5 @@
 {
-  "version": "a1c9a86f",
+  "version": "0e5ce8b7",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -49,8 +49,8 @@
       "grafana/loki:3.0.0",
       "grafana/loki-canary:3.0.0",
       "grafana/promtail:3.0.0",
-      "nginxinc/nginx-unprivileged:1.26.0-alpine-slim",
-      "nginxinc/nginx-unprivileged:1.26.0-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.27.0-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.27.0-alpine-slim",
       "httpd:2.4.59-alpine",
       "tomcat:10.1.24-jdk21-temurin-jammy",
       "quay.io/m3db/m3coordinator:v1.5.0",
@@ -410,7 +410,7 @@
       "tchiotludo/akhq:0.25.0",
       "nvcr.io/nvidia/gpu-operator:v24.3.0",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.3.0",
-      "nvcr.io/nvidia/cuda:12.4.1-base-ubi9",
+      "nvcr.io/nvidia/cuda:12.5.0-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.8",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8",
