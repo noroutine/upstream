@@ -1,5 +1,5 @@
 {
-  "version": "a8c672b9",
+  "version": "a1c9a86f",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -238,7 +238,7 @@
       "syncthing/syncthing:1.27.7",
       "syncthing/discosrv:1.27.7",
       "syncthing/relaysrv:1.27.7",
-      "jellyfin/jellyfin:10.9.3",
+      "jellyfin/jellyfin:10.9.4",
       "haveagitgat/tdarr:2.19.01",
       "haveagitgat/tdarr_node:2.19.01",
       "gravitl/netmaker:v0.24.1",
@@ -275,7 +275,7 @@
       "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
       "ghcr.io/zitadel/zitadel:v2.54.1",
       "homeassistant/home-assistant:2024.5",
-      "koenkk/zigbee2mqtt:1.37.1",
+      "koenkk/zigbee2mqtt:1.38.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.7.0",
       "spvest/azure-keyvault-controller:1.6.0",
       "spvest/azure-keyvault-webhook:1.6.0",
