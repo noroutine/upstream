@@ -1167,7 +1167,7 @@ FROM timberio/vector:0.38.0-alpine
 # timberio/vector
 
 # kong
-FROM kong:3.6.1-ubuntu
+FROM kong:3.7.0-ubuntu
 # kong
 
 # velero/velero
