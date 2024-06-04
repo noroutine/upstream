@@ -95,7 +95,7 @@ FROM freeradius/freeradius-server:3.2.4-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:24.0.4
+FROM quay.io/keycloak/keycloak:24.0.5
 # keycloak/keycloak
 
 # postgres
@@ -1043,7 +1043,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.6.0
+FROM kubernetesui/dashboard-api:1.7.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web

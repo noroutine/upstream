@@ -1,5 +1,5 @@
 {
-  "version": "6cf8a4a8",
+  "version": "e29d7aec",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -26,7 +26,7 @@
       "sonatype/nexus3:3.68.1",
       "squidfunk/mkdocs-material:9.5.25",
       "freeradius/freeradius-server:3.2.4-alpine",
-      "quay.io/keycloak/keycloak:24.0.4",
+      "quay.io/keycloak/keycloak:24.0.5",
       "postgres:16.3-bookworm",
       "atlassian/jira-software:9.16.0",
       "nextcloud:29.0.1-apache",
@@ -263,7 +263,7 @@
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.0",
       "netboxcommunity/netbox:v4.0.3",
       "kubernetesui/dashboard:v2.7.0",
-      "kubernetesui/dashboard-api:1.6.0",
+      "kubernetesui/dashboard-api:1.7.0",
       "kubernetesui/dashboard-web:1.3.0",
       "kubernetesui/metrics-scraper:v1.0.9",
       "locustio/locust:2.28.0",
