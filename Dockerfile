@@ -695,7 +695,7 @@ FROM bitnami/sealed-secrets-controller:0.26.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.51.4
+FROM bitnami/trivy:0.52.0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -771,7 +771,7 @@ FROM goharbor/nginx-photon:v2.10.2
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.51.4
+FROM aquasec/trivy:0.52.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.101
+FROM stakater/reloader:v1.0.104
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -807,7 +807,7 @@ FROM registry:2.8.3
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.39.1
+FROM ghcr.io/dexidp/dex:v2.40.0
 # dexidp/dex
 
 # argoproj/argocd
@@ -855,7 +855,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.27-alpine
+FROM memcached:1.6.28-alpine
 # memcached
 
 # connecteverything/nats-operator
@@ -887,7 +887,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.8.1-alpine
+FROM caddy:2.8.4-alpine
 # caddy
 
 # outline/shadowbox
