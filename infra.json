@@ -1,5 +1,5 @@
 {
-  "version": "ae198162",
+  "version": "6cf8a4a8",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -115,7 +115,7 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.31.0",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.82.12",
+      "ghost:5.83.0",
       "bitnami/ghost:5.83.0",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.207.3",
@@ -294,7 +294,7 @@
       "supabase/edge-runtime:v1.53.3",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.38.0-alpine",
-      "kong:3.6.1-ubuntu",
+      "kong:3.7.0-ubuntu",
       "velero/velero:v1.13.2",
       "velero/velero-plugin-for-csi:v0.7.1",
       "velero/velero-plugin-for-aws:v1.9.2",

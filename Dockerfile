@@ -451,7 +451,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.82.12
+FROM ghost:5.83.0
 # ghost
 
 # bitnami/ghost
@@ -1167,7 +1167,7 @@ FROM timberio/vector:0.38.0-alpine
 # timberio/vector
 
 # kong
-FROM kong:3.6.1-ubuntu
+FROM kong:3.7.0-ubuntu
 # kong
 
 # velero/velero
