@@ -1115,7 +1115,7 @@ FROM gitea/gitea:1.22.0-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.8.6
+FROM paperlessngx/paperless-ngx:2.9.0
 # paperlessngx/paperless-ngx
 
 # chirpstack/chirpstack
