@@ -3,15 +3,15 @@ FROM debian:bookworm-20240513-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240429
+FROM ubuntu:noble-20240530
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240427
+FROM ubuntu:jammy-20240530
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240427
+FROM ubuntu:focal-20240530
 # ubuntu
 
 # alpine
