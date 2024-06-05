@@ -1063,7 +1063,7 @@ FROM postgrest/postgrest:v12.0.3
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
-FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.2
+FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
