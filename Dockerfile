@@ -775,7 +775,7 @@ FROM aquasec/trivy:0.52.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.18
+FROM ghcr.io/external-secrets/external-secrets:v0.9.19
 # external-secrets/external-secrets
 
 # kutt/kutt
