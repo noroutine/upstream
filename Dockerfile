@@ -931,15 +931,15 @@ FROM outlinewiki/outline:0.76.1
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.7
+FROM syncthing/syncthing:1.27.8
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.7
+FROM syncthing/discosrv:1.27.8
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.7
+FROM syncthing/relaysrv:1.27.8
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
