@@ -915,7 +915,7 @@ FROM eclipse-temurin:22.0.1_8-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.12.1
+FROM elastic/eck-operator:2.13.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
