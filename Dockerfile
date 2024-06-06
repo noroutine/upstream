@@ -1227,7 +1227,7 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.14.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.14.5
+FROM quay.io/jetstack/cert-manager-controller:v1.15.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
