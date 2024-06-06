@@ -1235,7 +1235,7 @@ FROM quay.io/jetstack/cert-manager-cainjector:v1.14.5
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.14.5
+FROM quay.io/jetstack/cert-manager-webhook:v1.15.0
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-ctl
