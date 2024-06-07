@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
-FROM php:8.3.7-apache-bookworm
+FROM php:8.3.8-apache-bookworm
 # php
 
 # python
