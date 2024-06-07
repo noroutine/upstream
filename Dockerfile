@@ -1279,7 +1279,7 @@ FROM hashicorp/vault-csi-provider:1.4.2
 # hashicorp/vault-csi-provider
 
 # hashicorp/terraform-cloud-operator
-FROM hashicorp/terraform-cloud-operator:2.4.0
+FROM hashicorp/terraform-cloud-operator:2.4.1
 # hashicorp/terraform-cloud-operator
 
 # strimzi/operator
