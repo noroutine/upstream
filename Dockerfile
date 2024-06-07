@@ -739,7 +739,7 @@ FROM goharbor/harbor-core:v2.10.2
 # goharbor/harbor-core
 
 # goharbor/harbor-jobservice
-FROM goharbor/harbor-jobservice:v2.10.2
+FROM goharbor/harbor-jobservice:v2.11.0
 # goharbor/harbor-jobservice
 
 # goharbor/registry-photon
