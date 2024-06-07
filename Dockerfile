@@ -3,15 +3,15 @@ FROM debian:bookworm-20240513-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240429
+FROM ubuntu:noble-20240530
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240427
+FROM ubuntu:jammy-20240530
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240427
+FROM ubuntu:focal-20240530
 # ubuntu
 
 # alpine
@@ -71,11 +71,11 @@ FROM python:3.12.3-slim-bookworm
 # python
 
 # golang
-FROM golang:1.22.3-bookworm
+FROM golang:1.22.4-bookworm
 # golang
 
 # golang
-FROM golang:1.22.3-alpine3.19
+FROM golang:1.22.4-alpine
 # golang
 
 # traefik
@@ -83,7 +83,7 @@ FROM traefik:v3.0.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.68.1
+FROM sonatype/nexus3:3.69.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -115,11 +115,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-05-28T17-19-04Z
+FROM quay.io/minio/minio:RELEASE.2024-06-06T09-36-42Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-05-24T09-08-49Z
+FROM quay.io/minio/mc:RELEASE.2024-06-05T18-13-30Z
 # minio/mc
 
 # minio/console
@@ -231,15 +231,15 @@ FROM quay.io/cortexproject/cortex:v1.17.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.14.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.13.4
+FROM docker.elastic.co/logstash/logstash:8.14.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.13.4
+FROM docker.elastic.co/kibana/kibana:8.14.0
 # kibana/kibana
 
 # alerta/alerta-web
@@ -347,7 +347,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.0.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -375,7 +375,7 @@ FROM summerwind/actions-runner-dind:v2.316.1-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.17.1
+FROM quay.io/brancz/kube-rbac-proxy:v0.18.0
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
@@ -467,11 +467,11 @@ FROM nocodb/nocodb:0.207.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.13
+FROM metabase/metabase:v0.49.14
 # metabase/metabase
 
 # docker
-FROM docker:26.1.3-dind
+FROM docker:26.1.4-dind
 # docker
 
 # podman/stable
@@ -591,7 +591,7 @@ FROM bitnami/jmx-exporter:0.20.0
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:24.0.4
+FROM bitnami/keycloak:24.0.5
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -623,7 +623,7 @@ FROM bitnami/minio:2024.5.28
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.5.24
+FROM bitnami/minio-client:2024.6.1
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -683,7 +683,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.10.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.17.1
+FROM bitnami/kube-rbac-proxy:0.18.0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -775,7 +775,7 @@ FROM aquasec/trivy:0.52.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.18
+FROM ghcr.io/external-secrets/external-secrets:v0.9.19
 # external-secrets/external-secrets
 
 # kutt/kutt
@@ -787,7 +787,7 @@ FROM drakkan/sftpgo:v2.6.0
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.39.2
+FROM hasura/graphql-engine:v2.40.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.104
+FROM stakater/reloader:v1.0.105
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -915,7 +915,7 @@ FROM eclipse-temurin:22.0.1_8-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.12.1
+FROM elastic/eck-operator:2.13.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -943,7 +943,7 @@ FROM syncthing/relaysrv:1.27.8
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.4
+FROM jellyfin/jellyfin:10.9.5
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -1023,11 +1023,11 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.460-jdk17
+FROM jenkins/jenkins:2.461-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3206.vb_15dcf73f6a_9-11-jdk17
+FROM jenkins/agent:3248.v65ecb_254c298-5-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
@@ -1047,7 +1047,7 @@ FROM kubernetesui/dashboard-api:1.7.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.3.0
+FROM kubernetesui/dashboard-web:1.4.0
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
@@ -1063,7 +1063,7 @@ FROM postgrest/postgrest:v12.0.3
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
-FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.2.2
+FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
@@ -1087,7 +1087,7 @@ FROM ghcr.io/zitadel/zitadel:v2.54.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.5
+FROM homeassistant/home-assistant:2024.6
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -1115,7 +1115,7 @@ FROM gitea/gitea:1.22.0-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.8.6
+FROM paperlessngx/paperless-ngx:2.9.0
 # paperlessngx/paperless-ngx
 
 # chirpstack/chirpstack
@@ -1139,7 +1139,7 @@ FROM supabase/gotrue:v2.152.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.3
+FROM supabase/realtime:v2.29.5
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1547,23 +1547,23 @@ FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.1
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.6.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.6.1
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.1
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v5.0.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v5.0.1
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.0.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.0.1
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v8.0.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.0.1
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
