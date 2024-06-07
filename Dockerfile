@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.69.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.25
+FROM squidfunk/mkdocs-material:9.5.26
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -1155,7 +1155,7 @@ FROM supabase/logflare:1.7.0
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.53.3
+FROM supabase/edge-runtime:v1.53.4
 # supabase/edge-runtime
 
 # darthsim/imgproxy

@@ -1,5 +1,5 @@
 {
-  "version": "de596fae",
+  "version": "5e298cde",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -24,7 +24,7 @@
       "golang:1.22.4-alpine",
       "traefik:v3.0.1",
       "sonatype/nexus3:3.69.0",
-      "squidfunk/mkdocs-material:9.5.25",
+      "squidfunk/mkdocs-material:9.5.26",
       "freeradius/freeradius-server:3.2.4-alpine",
       "quay.io/keycloak/keycloak:24.0.5",
       "postgres:16.3-bookworm",
@@ -291,7 +291,7 @@
       "supabase/postgres-meta:v0.81.1",
       "supabase/storage-api:v1.3.3",
       "supabase/logflare:1.7.0",
-      "supabase/edge-runtime:v1.53.3",
+      "supabase/edge-runtime:v1.53.4",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.38.0-alpine",
       "kong:3.7.0-ubuntu",
