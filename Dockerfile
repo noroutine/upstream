@@ -1567,7 +1567,7 @@ FROM registry.k8s.io/sig-storage/snapshot-controller:v8.0.1
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.0
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
