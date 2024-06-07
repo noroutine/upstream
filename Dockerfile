@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
-FROM php:8.3.7-apache-bookworm
+FROM php:8.3.8-apache-bookworm
 # php
 
 # python
@@ -251,11 +251,11 @@ FROM mongo:7.0.11-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.5.3-apache
+FROM wordpress:6.5.4-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.7
+FROM dpage/pgadmin4:8.8
 # dpage/pgadmin4
 
 # adminer
@@ -331,7 +331,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.19.6
+FROM buildpacksio/lifecycle:0.19.7
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -443,7 +443,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.31.0
+FROM verdaccio/verdaccio:5.31.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -451,11 +451,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.83.0
+FROM ghost:5.84.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.83.0
+FROM bitnami/ghost:5.84.1
 # bitnami/ghost
 
 # matomo
@@ -615,15 +615,15 @@ FROM bitnami/nginx-ingress-controller:1.10.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.26.1
+FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.5.28
+FROM bitnami/minio:2024.6.6
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.6.1
+FROM bitnami/minio-client:2024.6.5
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -731,43 +731,43 @@ FROM bitnami/harbor-registryctl:2.10.2
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
-FROM goharbor/harbor-portal:v2.10.2
+FROM goharbor/harbor-portal:v2.11.0
 # goharbor/harbor-portal
 
 # goharbor/harbor-core
-FROM goharbor/harbor-core:v2.10.2
+FROM goharbor/harbor-core:v2.11.0
 # goharbor/harbor-core
 
 # goharbor/harbor-jobservice
-FROM goharbor/harbor-jobservice:v2.10.2
+FROM goharbor/harbor-jobservice:v2.11.0
 # goharbor/harbor-jobservice
 
 # goharbor/registry-photon
-FROM goharbor/registry-photon:v2.10.2
+FROM goharbor/registry-photon:v2.11.0
 # goharbor/registry-photon
 
 # goharbor/harbor-registryctl
-FROM goharbor/harbor-registryctl:v2.10.2
+FROM goharbor/harbor-registryctl:v2.11.0
 # goharbor/harbor-registryctl
 
 # goharbor/harbor-db
-FROM goharbor/harbor-db:v2.10.2
+FROM goharbor/harbor-db:v2.11.0
 # goharbor/harbor-db
 
 # goharbor/harbor-exporter
-FROM goharbor/harbor-exporter:v2.10.2
+FROM goharbor/harbor-exporter:v2.11.0
 # goharbor/harbor-exporter
 
 # goharbor/redis-photon
-FROM goharbor/redis-photon:v2.10.2
+FROM goharbor/redis-photon:v2.11.0
 # goharbor/redis-photon
 
 # goharbor/trivy-adapter-photon
-FROM goharbor/trivy-adapter-photon:v2.10.2
+FROM goharbor/trivy-adapter-photon:v2.11.0
 # goharbor/trivy-adapter-photon
 
 # goharbor/nginx-photon
-FROM goharbor/nginx-photon:v2.10.2
+FROM goharbor/nginx-photon:v2.11.0
 # goharbor/nginx-photon
 
 # aquasec/trivy
@@ -811,7 +811,7 @@ FROM ghcr.io/dexidp/dex:v2.40.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.11.2
+FROM quay.io/argoproj/argocd:v2.11.3
 # argoproj/argocd
 
 # argoproj/argocd-applicationset
@@ -943,7 +943,7 @@ FROM syncthing/relaysrv:1.27.8
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.5
+FROM jellyfin/jellyfin:10.9.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -1135,7 +1135,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.152.1
+FROM supabase/gotrue:v2.153.0
 # supabase/gotrue
 
 # supabase/realtime
@@ -1147,7 +1147,7 @@ FROM supabase/postgres-meta:v0.81.1
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.3.1
+FROM supabase/storage-api:v1.3.3
 # supabase/storage-api
 
 # supabase/logflare
