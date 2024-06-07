@@ -619,7 +619,7 @@ FROM bitnami/nginx:1.26.1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.5.28
+FROM bitnami/minio:2024.6.6
 # bitnami/minio
 
 # bitnami/minio-client
