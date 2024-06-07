@@ -1035,7 +1035,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.3
+FROM netboxcommunity/netbox:v4.0.5
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1227,20 +1227,16 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.14.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.14.5
+FROM quay.io/jetstack/cert-manager-controller:v1.15.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.14.5
+FROM quay.io/jetstack/cert-manager-cainjector:v1.15.0
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.14.5
+FROM quay.io/jetstack/cert-manager-webhook:v1.15.0
 # jetstack/cert-manager-webhook
-
-# jetstack/cert-manager-ctl
-FROM quay.io/jetstack/cert-manager-ctl:v1.14.5
-# jetstack/cert-manager-ctl
 
 # jetstack/cert-manager-csi-driver
 FROM quay.io/jetstack/cert-manager-csi-driver:v0.8.1
@@ -1279,7 +1275,7 @@ FROM hashicorp/vault-csi-provider:1.4.2
 # hashicorp/vault-csi-provider
 
 # hashicorp/terraform-cloud-operator
-FROM hashicorp/terraform-cloud-operator:2.4.0
+FROM hashicorp/terraform-cloud-operator:2.4.1
 # hashicorp/terraform-cloud-operator
 
 # strimzi/operator
@@ -1567,7 +1563,7 @@ FROM registry.k8s.io/sig-storage/snapshot-controller:v8.0.1
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.0
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
