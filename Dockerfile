@@ -455,7 +455,7 @@ FROM ghost:5.83.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.83.0
+FROM bitnami/ghost:5.84.1
 # bitnami/ghost
 
 # matomo
