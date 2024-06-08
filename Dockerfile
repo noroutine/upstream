@@ -707,7 +707,7 @@ FROM bitnami/harbor-adapter-trivy:2.10.2
 # bitnami/harbor-adapter-trivy
 
 # bitnami/harbor-core
-FROM bitnami/harbor-core:2.10.2
+FROM bitnami/harbor-core:2.11.0
 # bitnami/harbor-core
 
 # bitnami/harbor-exporter
