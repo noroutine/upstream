@@ -1,5 +1,5 @@
 {
-  "version": "5e298cde",
+  "version": "ab484c8f",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -115,13 +115,13 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:5.31.1",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.84.1",
-      "bitnami/ghost:5.84.1",
+      "ghost:5.84.2",
+      "bitnami/ghost:5.84.2",
       "matomo:5.0.3-apache",
       "nocodb/nocodb:0.207.3",
       "metabase/metabase:v0.49.14",
       "docker:26.1.4-dind",
-      "quay.io/podman/stable:v5.0.3",
+      "quay.io/podman/stable:v5.1.0",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
@@ -226,7 +226,7 @@
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.8.4-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
-      "gcr.io/kaniko-project/executor:v1.23.0",
+      "gcr.io/kaniko-project/executor:v1.23.1",
       "quay.io/iovisor/bpftrace:v0.19.1",
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:22.0.1-22.30",

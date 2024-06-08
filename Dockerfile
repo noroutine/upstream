@@ -451,11 +451,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.84.1
+FROM ghost:5.84.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.84.1
+FROM bitnami/ghost:5.84.2
 # bitnami/ghost
 
 # matomo
@@ -475,7 +475,7 @@ FROM docker:26.1.4-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.0.3
+FROM quay.io/podman/stable:v5.1.0
 # podman/stable
 
 # jupyter/base-notebook
@@ -895,7 +895,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.23.0
+FROM gcr.io/kaniko-project/executor:v1.23.1
 # kaniko-project/executor
 
 # iovisor/bpftrace
