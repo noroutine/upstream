@@ -711,7 +711,7 @@ FROM bitnami/harbor-core:2.10.2
 # bitnami/harbor-core
 
 # bitnami/harbor-exporter
-FROM bitnami/harbor-exporter:2.10.2
+FROM bitnami/harbor-exporter:2.11.0
 # bitnami/harbor-exporter
 
 # bitnami/harbor-jobservice
