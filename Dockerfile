@@ -723,7 +723,7 @@ FROM bitnami/harbor-portal:2.10.2
 # bitnami/harbor-portal
 
 # bitnami/harbor-registry
-FROM bitnami/harbor-registry:2.10.2
+FROM bitnami/harbor-registry:2.11.0
 # bitnami/harbor-registry
 
 # bitnami/harbor-registryctl
