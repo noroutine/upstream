@@ -407,7 +407,7 @@ FROM jupyterhub/k8s-singleuser-sample:3.3.7
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.6.1
+FROM jupyterhub/configurable-http-proxy:4.6.2
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.207.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.49.14
+FROM metabase/metabase:v0.50.0
 # metabase/metabase
 
 # docker
@@ -947,11 +947,11 @@ FROM jellyfin/jellyfin:10.9.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.19.01
+FROM haveagitgat/tdarr:2.20.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.19.01
+FROM haveagitgat/tdarr_node:2.20.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
