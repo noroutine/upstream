@@ -695,7 +695,7 @@ FROM bitnami/sealed-secrets-controller:0.26.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.52.0
+FROM bitnami/trivy:0.52.1
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -771,7 +771,7 @@ FROM goharbor/nginx-photon:v2.11.0
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.52.0
+FROM aquasec/trivy:0.52.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -1211,7 +1211,7 @@ FROM bitnami/kubectl:1.30.1
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.9.1-python3.11
+FROM apache/airflow:2.9.2-python3.11
 # apache/airflow
 
 # git-sync/git-sync

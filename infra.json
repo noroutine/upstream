@@ -1,5 +1,5 @@
 {
-  "version": "090d4745",
+  "version": "05fe8023",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -176,7 +176,7 @@
       "bitnami/kube-rbac-proxy:0.18.0",
       "bitnami/openldap:2.6.8",
       "bitnami/sealed-secrets-controller:0.26.3",
-      "bitnami/trivy:0.52.0",
+      "bitnami/trivy:0.52.1",
       "bitnami/kubectl:1.30.1",
       "bitnami/harbor-adapter-trivy:2.11.0",
       "bitnami/harbor-core:2.11.0",
@@ -195,7 +195,7 @@
       "goharbor/redis-photon:v2.11.0",
       "goharbor/trivy-adapter-photon:v2.11.0",
       "goharbor/nginx-photon:v2.11.0",
-      "aquasec/trivy:0.52.0",
+      "aquasec/trivy:0.52.1",
       "ghcr.io/external-secrets/external-secrets:v0.9.19",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.6.0",
@@ -305,7 +305,7 @@
       "vsphereveleroplugin/data-manager-for-plugin:v1.5.3",
       "velero/velero-restic-restore-helper:v1.9.7",
       "bitnami/kubectl:1.30.1",
-      "apache/airflow:2.9.1-python3.11",
+      "apache/airflow:2.9.2-python3.11",
       "registry.k8s.io/git-sync/git-sync:v4.2.3",
       "ghcr.io/kedacore/keda:2.14.0",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.14.0",
