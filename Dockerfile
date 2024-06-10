@@ -159,7 +159,7 @@ FROM quay.io/prometheus/memcached-exporter:v0.14.3
 # prometheus/memcached-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.8.0
+FROM quay.io/prometheus/pushgateway:v1.9.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -551,7 +551,7 @@ FROM bitnami/redis:7.2.5
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.60.0
+FROM bitnami/redis-exporter:1.61.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -703,31 +703,31 @@ FROM bitnami/kubectl:1.30.1
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
-FROM bitnami/harbor-adapter-trivy:2.10.2
+FROM bitnami/harbor-adapter-trivy:2.11.0
 # bitnami/harbor-adapter-trivy
 
 # bitnami/harbor-core
-FROM bitnami/harbor-core:2.10.2
+FROM bitnami/harbor-core:2.11.0
 # bitnami/harbor-core
 
 # bitnami/harbor-exporter
-FROM bitnami/harbor-exporter:2.10.2
+FROM bitnami/harbor-exporter:2.11.0
 # bitnami/harbor-exporter
 
 # bitnami/harbor-jobservice
-FROM bitnami/harbor-jobservice:2.10.2
+FROM bitnami/harbor-jobservice:2.11.0
 # bitnami/harbor-jobservice
 
 # bitnami/harbor-portal
-FROM bitnami/harbor-portal:2.10.2
+FROM bitnami/harbor-portal:2.11.0
 # bitnami/harbor-portal
 
 # bitnami/harbor-registry
-FROM bitnami/harbor-registry:2.10.2
+FROM bitnami/harbor-registry:2.11.0
 # bitnami/harbor-registry
 
 # bitnami/harbor-registryctl
-FROM bitnami/harbor-registryctl:2.10.2
+FROM bitnami/harbor-registryctl:2.11.0
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
@@ -1055,7 +1055,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.28.0
+FROM locustio/locust:2.29.0
 # locustio/locust
 
 # postgrest/postgrest
