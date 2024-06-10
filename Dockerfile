@@ -1211,7 +1211,7 @@ FROM bitnami/kubectl:1.30.1
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.9.1-python3.11
+FROM apache/airflow:2.9.2-python3.11
 # apache/airflow
 
 # git-sync/git-sync
