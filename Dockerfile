@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.105
+FROM stakater/reloader:v1.0.106
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -871,7 +871,7 @@ FROM natsio/prometheus-nats-exporter:0.15.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.14.2
+FROM natsio/nats-server-config-reloader:0.14.3
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go

@@ -1,5 +1,5 @@
 {
-  "version": "30b92f05",
+  "version": "99944178",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -201,7 +201,7 @@
       "drakkan/sftpgo:v2.6.0",
       "hasura/graphql-engine:v2.40.0",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.105",
+      "stakater/reloader:v1.0.106",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.40.0",
@@ -220,7 +220,7 @@
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.16-alpine",
       "natsio/prometheus-nats-exporter:0.15.0",
-      "natsio/nats-server-config-reloader:0.14.2",
+      "natsio/nats-server-config-reloader:0.14.3",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.18-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
