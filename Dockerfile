@@ -79,7 +79,7 @@ FROM golang:1.22.4-alpine
 # golang
 
 # traefik
-FROM traefik:v3.0.1
+FROM traefik:v3.0.2
 # traefik
 
 # sonatype/nexus3
@@ -95,7 +95,7 @@ FROM freeradius/freeradius-server:3.2.4-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:24.0.5
+FROM quay.io/keycloak/keycloak:25.0.0
 # keycloak/keycloak
 
 # postgres
@@ -367,11 +367,11 @@ FROM summerwind/actions-runner-controller:v0.27.6
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.316.1-ubuntu-22.04
+FROM summerwind/actions-runner:v2.317.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.316.1-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.317.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -451,11 +451,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.84.2
+FROM ghost:5.85.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.84.2
+FROM bitnami/ghost:5.85.0
 # bitnami/ghost
 
 # matomo
