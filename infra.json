@@ -1,5 +1,5 @@
 {
-  "version": "7132df5a",
+  "version": "30b92f05",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -31,8 +31,8 @@
       "atlassian/jira-software:9.16.0",
       "nextcloud:29.0.1-apache",
       "haproxytech/haproxy-debian:3.1",
-      "quay.io/minio/minio:RELEASE.2024-06-06T09-36-42Z",
-      "quay.io/minio/mc:RELEASE.2024-06-05T18-13-30Z",
+      "quay.io/minio/minio:RELEASE.2024-06-11T03-13-30Z",
+      "quay.io/minio/mc:RELEASE.2024-06-10T16-44-15Z",
       "quay.io/minio/console:v0.30.0",
       "quay.io/coreos/etcd:v3.5.14",
       "quay.io/prometheus/prometheus:v2.52.0",
@@ -157,8 +157,8 @@
       "bitnami/memcached:1.6.28",
       "bitnami/nginx-ingress-controller:1.10.1",
       "bitnami/nginx:1.27.0",
-      "bitnami/minio:2024.6.6",
-      "bitnami/minio-client:2024.6.5",
+      "bitnami/minio:2024.6.11",
+      "bitnami/minio-client:2024.6.10",
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.14.5",
       "bitnami/metallb-speaker:0.14.5",
