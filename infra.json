@@ -1,5 +1,5 @@
 {
-  "version": "401bdffe",
+  "version": "7132df5a",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -282,6 +282,9 @@
       "spvest/azure-keyvault-env:1.6.0",
       "gitea/gitea:1.22.0-rootless",
       "paperlessngx/paperless-ngx:2.9.0",
+      "scylladb/scylla:5.4.7",
+      "scylladb/scylla-manager:3.2.8",
+      "scylladb/scylla-operator:1.12.2",
       "chirpstack/chirpstack:4.8.1",
       "chirpstack/chirpstack-rest-api:4.8.1",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
@@ -290,7 +293,7 @@
       "supabase/realtime:v2.29.5",
       "supabase/postgres-meta:v0.81.1",
       "supabase/storage-api:v1.3.3",
-      "supabase/logflare:1.7.0",
+      "supabase/logflare:1.7.2",
       "supabase/edge-runtime:v1.53.4",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.38.0-alpine",

@@ -1118,6 +1118,18 @@ FROM gitea/gitea:1.22.0-rootless
 FROM paperlessngx/paperless-ngx:2.9.0
 # paperlessngx/paperless-ngx
 
+# scylladb/scylla
+FROM scylladb/scylla:5.4.7
+# scylladb/scylla
+
+# scylladb/scylla-manager
+FROM scylladb/scylla-manager:3.2.8
+# scylladb/scylla-manager
+
+# scylladb/scylla-operator
+FROM scylladb/scylla-operator:1.12.2
+# scylladb/scylla-operator
+
 # chirpstack/chirpstack
 FROM chirpstack/chirpstack:4.8.1
 # chirpstack/chirpstack
@@ -1151,7 +1163,7 @@ FROM supabase/storage-api:v1.3.3
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.0
+FROM supabase/logflare:1.7.2
 # supabase/logflare
 
 # supabase/edge-runtime
