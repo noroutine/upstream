@@ -459,7 +459,7 @@ FROM bitnami/ghost:5.85.0
 # bitnami/ghost
 
 # matomo
-FROM matomo:5.0.3-apache
+FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
@@ -795,7 +795,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.106
+FROM stakater/reloader:v1.0.107
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1023,7 +1023,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.461-jdk17
+FROM jenkins/jenkins:2.462-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1059,7 +1059,7 @@ FROM locustio/locust:2.29.0
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.0.3
+FROM postgrest/postgrest:v12.2.0
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
@@ -1151,7 +1151,7 @@ FROM supabase/gotrue:v2.153.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.5
+FROM supabase/realtime:v2.29.6
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1167,7 +1167,7 @@ FROM supabase/logflare:1.7.2
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.53.4
+FROM supabase/edge-runtime:v1.54.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1307,67 +1307,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.30.1
+FROM registry.k8s.io/kube-apiserver:v1.30.2
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.30.1
+FROM registry.k8s.io/kube-proxy:v1.30.2
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.30.1
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.30.1
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.5
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.5
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.5
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.5
+FROM registry.k8s.io/kube-controller-manager:v1.30.2
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.10
+FROM registry.k8s.io/kube-apiserver:v1.29.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.10
+FROM registry.k8s.io/kube-proxy:v1.29.6
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.10
+FROM registry.k8s.io/kube-scheduler:v1.29.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.10
+FROM registry.k8s.io/kube-controller-manager:v1.29.6
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.14
+FROM registry.k8s.io/kube-apiserver:v1.28.11
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.14
+FROM registry.k8s.io/kube-proxy:v1.28.11
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.14
+FROM registry.k8s.io/kube-scheduler:v1.28.11
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.14
+FROM registry.k8s.io/kube-controller-manager:v1.28.11
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.27.15
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.27.15
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.27.15
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.27.15
 # kube-controller-manager
 
 # kube-apiserver
