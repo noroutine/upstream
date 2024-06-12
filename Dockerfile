@@ -1167,7 +1167,7 @@ FROM supabase/logflare:1.7.2
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.1
+FROM supabase/edge-runtime:v1.54.2
 # supabase/edge-runtime
 
 # darthsim/imgproxy
