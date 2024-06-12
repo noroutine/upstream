@@ -1127,7 +1127,7 @@ FROM scylladb/scylla-manager:3.2.8
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.12.2
+FROM scylladb/scylla-operator:1.13
 # scylladb/scylla-operator
 
 # chirpstack/chirpstack
