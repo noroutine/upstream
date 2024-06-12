@@ -411,7 +411,7 @@ FROM jupyterhub/configurable-http-proxy:4.6.2
 # jupyterhub/configurable-http-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.8
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # pause
@@ -1315,7 +1315,7 @@ FROM registry.k8s.io/kube-proxy:v1.30.1
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.30.1
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
@@ -1331,7 +1331,7 @@ FROM registry.k8s.io/kube-proxy:v1.29.5
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.5
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
@@ -1347,7 +1347,7 @@ FROM registry.k8s.io/kube-proxy:v1.28.10
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.10
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
@@ -1363,7 +1363,7 @@ FROM registry.k8s.io/kube-proxy:v1.27.14
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.14
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
@@ -1379,7 +1379,7 @@ FROM registry.k8s.io/kube-proxy:v1.26.15
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.15
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
@@ -1395,7 +1395,7 @@ FROM registry.k8s.io/kube-proxy:v1.25.16
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.16
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
@@ -1411,7 +1411,7 @@ FROM registry.k8s.io/kube-proxy:v1.24.17
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.17
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
@@ -1427,7 +1427,7 @@ FROM registry.k8s.io/kube-proxy:v1.23.17
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.23.17
+FROM registry.k8s.io/kube-scheduler:v1.30.2
 # kube-scheduler
 
 # kube-controller-manager
