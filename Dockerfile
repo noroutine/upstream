@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.207.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.0
+FROM metabase/metabase:v0.50.3
 # metabase/metabase
 
 # docker
@@ -699,7 +699,7 @@ FROM bitnami/trivy:0.52.1
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.30.1
+FROM bitnami/kubectl:1.30.2
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -871,7 +871,7 @@ FROM natsio/prometheus-nats-exporter:0.15.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.14.3
+FROM natsio/nats-server-config-reloader:0.14.4
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -1083,7 +1083,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.54.1
+FROM ghcr.io/zitadel/zitadel:v2.54.2
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1167,7 +1167,7 @@ FROM supabase/logflare:1.7.2
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.1
+FROM supabase/edge-runtime:v1.54.2
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1219,7 +1219,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.30.1
+FROM bitnami/kubectl:1.30.2
 # bitnami/kubectl
 
 # apache/airflow
