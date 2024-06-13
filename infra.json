@@ -1,5 +1,5 @@
 {
-  "version": "555366bb",
+  "version": "7e920e80",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -28,7 +28,7 @@
       "freeradius/freeradius-server:3.2.4-alpine",
       "quay.io/keycloak/keycloak:25.0.0",
       "postgres:16.3-bookworm",
-      "atlassian/jira-software:9.16.0",
+      "atlassian/jira-software:9.16.1",
       "nextcloud:29.0.1-apache",
       "haproxytech/haproxy-debian:3.1",
       "quay.io/minio/minio:RELEASE.2024-06-11T03-13-30Z",
@@ -60,9 +60,9 @@
       "gcr.io/cadvisor/cadvisor:v0.49.1",
       "ghcr.io/prymitive/karma:v0.120",
       "quay.io/cortexproject/cortex:v1.17.1",
-      "docker.elastic.co/elasticsearch/elasticsearch:8.14.0",
-      "docker.elastic.co/logstash/logstash:8.14.0",
-      "docker.elastic.co/kibana/kibana:8.14.0",
+      "docker.elastic.co/elasticsearch/elasticsearch:8.14.1",
+      "docker.elastic.co/logstash/logstash:8.14.1",
+      "docker.elastic.co/kibana/kibana:8.14.1",
       "alerta/alerta-web:9.0.3",
       "mongo:7.0.11-jammy",
       "wordpress:6.5.4-apache",
@@ -292,7 +292,7 @@
       "supabase/gotrue:v2.153.0",
       "supabase/realtime:v2.29.6",
       "supabase/postgres-meta:v0.81.1",
-      "supabase/storage-api:v1.4.0",
+      "supabase/storage-api:v1.5.1",
       "supabase/logflare:1.7.2",
       "supabase/edge-runtime:v1.54.2",
       "darthsim/imgproxy:v3.24",

@@ -103,7 +103,7 @@ FROM postgres:16.3-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.16.0
+FROM atlassian/jira-software:9.16.1
 # atlassian/jira-software
 
 # nextcloud
@@ -231,15 +231,15 @@ FROM quay.io/cortexproject/cortex:v1.17.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.14.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.14.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.14.0
+FROM docker.elastic.co/logstash/logstash:8.14.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.14.0
+FROM docker.elastic.co/kibana/kibana:8.14.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -1159,7 +1159,7 @@ FROM supabase/postgres-meta:v0.81.1
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.4.0
+FROM supabase/storage-api:v1.5.1
 # supabase/storage-api
 
 # supabase/logflare
