@@ -819,7 +819,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # argoproj/argo-events
-FROM quay.io/argoproj/argo-events:v1.9.1
+FROM quay.io/argoproj/argo-events:v1.9.2
 # argoproj/argo-events
 
 # argoproj/argocli
