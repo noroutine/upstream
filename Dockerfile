@@ -463,7 +463,7 @@ FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.207.3
+FROM nocodb/nocodb:0.250.1
 # nocodb/nocodb
 
 # metabase/metabase
