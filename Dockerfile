@@ -1291,7 +1291,7 @@ FROM hashicorp/terraform-cloud-operator:2.4.1
 # hashicorp/terraform-cloud-operator
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.41.0
+FROM quay.io/strimzi/operator:0.41.0-1
 # strimzi/operator
 
 # strimzi/kafka
