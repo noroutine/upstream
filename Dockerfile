@@ -695,7 +695,7 @@ FROM bitnami/sealed-secrets-controller:0.26.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.52.1
+FROM bitnami/trivy:0.52.2
 # bitnami/trivy
 
 # bitnami/kubectl
