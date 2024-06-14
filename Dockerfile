@@ -355,7 +355,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.93.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.0.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.0.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -463,7 +463,7 @@ FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.207.3
+FROM nocodb/nocodb:0.250.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -643,7 +643,7 @@ FROM bitnami/grafana:11.0.0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.10.5
+FROM bitnami/grafana-image-renderer:3.11.0
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -819,7 +819,7 @@ FROM quay.io/argoproj/argocd-applicationset:v0.4.1
 # argoproj/argocd-applicationset
 
 # argoproj/argo-events
-FROM quay.io/argoproj/argo-events:v1.9.1
+FROM quay.io/argoproj/argo-events:v1.9.2
 # argoproj/argo-events
 
 # argoproj/argocli
@@ -959,7 +959,7 @@ FROM gravitl/netmaker:v0.24.2
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.24.1
+FROM gravitl/netmaker-ui:v0.24.2
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -1155,7 +1155,7 @@ FROM supabase/realtime:v2.29.6
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.81.1
+FROM supabase/postgres-meta:v0.81.2
 # supabase/postgres-meta
 
 # supabase/storage-api
@@ -1291,11 +1291,11 @@ FROM hashicorp/terraform-cloud-operator:2.4.1
 # hashicorp/terraform-cloud-operator
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.41.0
+FROM quay.io/strimzi/operator:0.41.0-1
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.41.0-kafka-3.7.0
+FROM quay.io/strimzi/kafka:0.41.0-1-kafka-3.7.0
 # strimzi/kafka
 
 # pause
