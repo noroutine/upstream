@@ -1,5 +1,5 @@
 {
-  "version": "7e920e80",
+  "version": "b95df628",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -87,7 +87,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.19.7",
       "gitlab/gitlab-runner:alpine3.19-v17.0.0",
-      "gitlab/gitlab-ce:17.0.1-ce.0",
+      "gitlab/gitlab-ce:17.0.2-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.93.0",
@@ -241,7 +241,7 @@
       "jellyfin/jellyfin:10.9.6",
       "haveagitgat/tdarr:2.20.01",
       "haveagitgat/tdarr_node:2.20.01",
-      "gravitl/netmaker:v0.24.1",
+      "gravitl/netmaker:v0.24.2",
       "gravitl/netmaker-ui:v0.24.1",
       "kmb32123/youtube-dl-server:2.0",
       "ghcr.io/voxpupuli/container-puppetserver:8.6.0-v1.5.0",
