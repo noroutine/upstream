@@ -1,5 +1,5 @@
 {
-  "version": "227b1873",
+  "version": "7d9a47ad",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -319,7 +319,7 @@
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.19.0",
-      "hashicorp/consul-k8s-control-plane:1.4.3",
+      "hashicorp/consul-k8s-control-plane:1.5.0",
       "envoyproxy/envoy-alpine:v1.21.6",
       "hashicorp/vault:1.16.3",
       "hashicorp/vault-k8s:1.4.1",

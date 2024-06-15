@@ -1267,7 +1267,7 @@ FROM hashicorp/consul:1.19.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.4.3
+FROM hashicorp/consul-k8s-control-plane:1.5.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
