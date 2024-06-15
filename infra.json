@@ -1,5 +1,5 @@
 {
-  "version": "7d9a47ad",
+  "version": "26c7b9d3",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -206,7 +206,6 @@
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.40.0",
       "quay.io/argoproj/argocd:v2.11.3",
-      "quay.io/argoproj/argocd-applicationset:v0.4.1",
       "quay.io/argoproj/argo-events:v1.9.2",
       "quay.io/argoproj/argocli:v3.5.7",
       "quay.io/argoproj/workflow-controller:v3.5.7",
@@ -234,7 +233,7 @@
       "elastic/eck-operator:2.13.0",
       "louislam/uptime-kuma:1.23.13-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.76.1",
+      "outlinewiki/outline:0.77.1",
       "syncthing/syncthing:1.27.8",
       "syncthing/discosrv:1.27.8",
       "syncthing/relaysrv:1.27.8",
@@ -321,7 +320,7 @@
       "hashicorp/consul:1.19.0",
       "hashicorp/consul-k8s-control-plane:1.5.0",
       "envoyproxy/envoy-alpine:v1.21.6",
-      "hashicorp/vault:1.16.3",
+      "hashicorp/vault:1.17.0",
       "hashicorp/vault-k8s:1.4.1",
       "hashicorp/vault-csi-provider:1.4.2",
       "hashicorp/terraform-cloud-operator:2.4.1",

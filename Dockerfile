@@ -814,10 +814,6 @@ FROM ghcr.io/dexidp/dex:v2.40.0
 FROM quay.io/argoproj/argocd:v2.11.3
 # argoproj/argocd
 
-# argoproj/argocd-applicationset
-FROM quay.io/argoproj/argocd-applicationset:v0.4.1
-# argoproj/argocd-applicationset
-
 # argoproj/argo-events
 FROM quay.io/argoproj/argo-events:v1.9.2
 # argoproj/argo-events
@@ -927,7 +923,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.76.1
+FROM outlinewiki/outline:0.77.1
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -1275,7 +1271,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.16.3
+FROM hashicorp/vault:1.17.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
