@@ -455,7 +455,7 @@ FROM ghost:5.85.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.85.0
+FROM bitnami/ghost:5.85.1
 # bitnami/ghost
 
 # matomo
@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.250.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.3
+FROM metabase/metabase:v0.50.4
 # metabase/metabase
 
 # docker
@@ -619,11 +619,11 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.6.11
+FROM bitnami/minio:2024.6.13
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.6.10
+FROM bitnami/minio-client:2024.6.12
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -695,7 +695,7 @@ FROM bitnami/sealed-secrets-controller:0.26.3
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.52.1
+FROM bitnami/trivy:0.52.2
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -771,7 +771,7 @@ FROM goharbor/nginx-photon:v2.11.0
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.52.1
+FROM aquasec/trivy:0.52.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -1083,7 +1083,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.54.2
+FROM ghcr.io/zitadel/zitadel:v2.54.3
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1151,7 +1151,7 @@ FROM supabase/gotrue:v2.153.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.6
+FROM supabase/realtime:v2.29.7
 # supabase/realtime
 
 # supabase/postgres-meta
