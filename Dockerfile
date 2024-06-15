@@ -511,7 +511,7 @@ FROM jupyter/all-spark-notebook:2023-10-20
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.4.0
+FROM rocker/shiny:4.4.1
 # rocker/shiny
 
 # caprover/caprover
@@ -1163,11 +1163,11 @@ FROM supabase/storage-api:v1.5.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.2
+FROM supabase/logflare:1.7.3
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.2
+FROM supabase/edge-runtime:v1.54.3
 # supabase/edge-runtime
 
 # darthsim/imgproxy

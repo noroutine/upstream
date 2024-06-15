@@ -1,5 +1,5 @@
 {
-  "version": "6555bf21",
+  "version": "1b5f0d0a",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -130,7 +130,7 @@
       "jupyter/datascience-notebook:2023-10-20",
       "jupyter/pyspark-notebook:2023-10-20",
       "jupyter/all-spark-notebook:2023-10-20",
-      "rocker/shiny:4.4.0",
+      "rocker/shiny:4.4.1",
       "caprover/caprover:1.11.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
       "bitnami/spark:3.5.1",
@@ -293,8 +293,8 @@
       "supabase/realtime:v2.29.7",
       "supabase/postgres-meta:v0.81.2",
       "supabase/storage-api:v1.5.1",
-      "supabase/logflare:1.7.2",
-      "supabase/edge-runtime:v1.54.2",
+      "supabase/logflare:1.7.3",
+      "supabase/edge-runtime:v1.54.3",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.38.0-alpine",
       "kong:3.7.0-ubuntu",
