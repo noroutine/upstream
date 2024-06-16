@@ -351,7 +351,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.93.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.95.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -777,6 +777,14 @@ FROM aquasec/trivy:0.52.2
 # external-secrets/external-secrets
 FROM ghcr.io/external-secrets/external-secrets:v0.9.19
 # external-secrets/external-secrets
+
+# csi-secrets-store/driver
+FROM registry.k8s.io/csi-secrets-store/driver:v1.4.3
+# csi-secrets-store/driver
+
+# csi-secrets-store/driver-crds
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.3
+# csi-secrets-store/driver-crds
 
 # kutt/kutt
 FROM kutt/kutt:v2.7.4
