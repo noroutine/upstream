@@ -87,7 +87,7 @@ FROM sonatype/nexus3:3.69.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.26
+FROM squidfunk/mkdocs-material:9.5.27
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -423,7 +423,7 @@ FROM quay.io/jupyterhub/repo2docker:2024.03.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.05.0
+FROM pihole/pihole:2024.06.0
 # pihole/pihole
 
 # klutchell/unbound

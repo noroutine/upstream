@@ -1,5 +1,5 @@
 {
-  "version": "aaae6add",
+  "version": "0b5e094a",
   "upstream": {
     "images": [
       "debian:bookworm-20240513-slim",
@@ -24,7 +24,7 @@
       "golang:1.22.4-alpine",
       "traefik:v3.0.2",
       "sonatype/nexus3:3.69.0",
-      "squidfunk/mkdocs-material:9.5.26",
+      "squidfunk/mkdocs-material:9.5.27",
       "freeradius/freeradius-server:3.2.4-alpine",
       "quay.io/keycloak/keycloak:25.0.0",
       "postgres:16.3-bookworm",
@@ -108,7 +108,7 @@
       "registry.k8s.io/kube-scheduler:v1.28.8",
       "registry.k8s.io/pause:3.10",
       "quay.io/jupyterhub/repo2docker:2024.03.0",
-      "pihole/pihole:2024.05.0",
+      "pihole/pihole:2024.06.0",
       "klutchell/unbound:v1.20.0",
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
