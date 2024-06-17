@@ -1187,7 +1187,7 @@ FROM kong:3.7.0-ubuntu
 # kong
 
 # velero/velero
-FROM velero/velero:v1.13.2
+FROM velero/velero:v1.14.0
 # velero/velero
 
 # velero/velero-plugin-for-csi
