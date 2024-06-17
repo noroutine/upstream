@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240513-slim
+FROM debian:bookworm-20240612-slim
 # debian
 
 # ubuntu
@@ -587,7 +587,7 @@ FROM bitnami/tomcat:10.1.24
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
-FROM bitnami/jmx-exporter:0.20.0
+FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
@@ -1151,7 +1151,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.153.0
+FROM supabase/gotrue:v2.154.0
 # supabase/gotrue
 
 # supabase/realtime
