@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.250.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.4
+FROM metabase/metabase:v0.50.5
 # metabase/metabase
 
 # docker
@@ -1295,11 +1295,11 @@ FROM hashicorp/terraform-cloud-operator:2.4.1
 # hashicorp/terraform-cloud-operator
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.41.0-1
+FROM quay.io/strimzi/operator:0.41.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.41.0-1-kafka-3.7.0
+FROM quay.io/strimzi/kafka:0.41.0-kafka-3.7.0
 # strimzi/kafka
 
 # pause
