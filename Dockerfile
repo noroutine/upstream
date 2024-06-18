@@ -451,7 +451,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.85.0
+FROM ghost:5.85.1
 # ghost
 
 # bitnami/ghost
@@ -779,11 +779,11 @@ FROM ghcr.io/external-secrets/external-secrets:v0.9.19
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.4.3
+FROM registry.k8s.io/csi-secrets-store/driver:v1.4.4
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.3
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.4
 # csi-secrets-store/driver-crds
 
 # kutt/kutt
@@ -931,7 +931,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.77.1
+FROM outlinewiki/outline:0.77.2
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -1155,7 +1155,7 @@ FROM supabase/gotrue:v2.154.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.7
+FROM supabase/realtime:v2.29.8
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1171,7 +1171,7 @@ FROM supabase/logflare:1.7.3
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.3
+FROM supabase/edge-runtime:v1.54.4
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1187,7 +1187,7 @@ FROM kong:3.7.0-ubuntu
 # kong
 
 # velero/velero
-FROM velero/velero:v1.13.2
+FROM velero/velero:v1.14.0
 # velero/velero
 
 # velero/velero-plugin-for-csi
@@ -1195,15 +1195,15 @@ FROM velero/velero-plugin-for-csi:v0.7.1
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.9.2
+FROM velero/velero-plugin-for-aws:v1.10.0
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.9.1
+FROM velero/velero-plugin-for-gcp:v1.10.0
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.9.2
+FROM velero/velero-plugin-for-microsoft-azure:v1.10.0
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
