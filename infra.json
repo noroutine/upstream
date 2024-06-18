@@ -1,9 +1,9 @@
 {
-  "version": "bb110ecf",
+  "version": "986eadfb",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
-      "ubuntu:noble-20240530",
+      "ubuntu:noble-20240605",
       "ubuntu:jammy-20240530",
       "ubuntu:focal-20240530",
       "alpine:3.20.0",
@@ -297,7 +297,7 @@
       "supabase/logflare:1.7.3",
       "supabase/edge-runtime:v1.54.4",
       "darthsim/imgproxy:v3.24",
-      "timberio/vector:0.38.0-alpine",
+      "timberio/vector:0.39.0-alpine",
       "kong:3.7.0-ubuntu",
       "velero/velero:v1.14.0",
       "velero/velero-plugin-for-csi:v0.7.1",

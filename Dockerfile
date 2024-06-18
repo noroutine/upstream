@@ -3,7 +3,7 @@ FROM debian:bookworm-20240612-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240530
+FROM ubuntu:noble-20240605
 # ubuntu
 
 # ubuntu
@@ -1179,7 +1179,7 @@ FROM darthsim/imgproxy:v3.24
 # darthsim/imgproxy
 
 # timberio/vector
-FROM timberio/vector:0.38.0-alpine
+FROM timberio/vector:0.39.0-alpine
 # timberio/vector
 
 # kong
