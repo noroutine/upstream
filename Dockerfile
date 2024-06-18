@@ -79,7 +79,7 @@ FROM golang:1.22.4-alpine
 # golang
 
 # traefik
-FROM traefik:v3.0.2
+FROM traefik:v3.0.3
 # traefik
 
 # sonatype/nexus3
@@ -1119,7 +1119,7 @@ FROM gitea/gitea:1.22.0-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.9.0
+FROM paperlessngx/paperless-ngx:2.10.0
 # paperlessngx/paperless-ngx
 
 # scylladb/scylla

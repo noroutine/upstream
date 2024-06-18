@@ -1,5 +1,5 @@
 {
-  "version": "986eadfb",
+  "version": "1730ed57",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -22,7 +22,7 @@
       "python:3.12.4-slim-bookworm",
       "golang:1.22.4-bookworm",
       "golang:1.22.4-alpine",
-      "traefik:v3.0.2",
+      "traefik:v3.0.3",
       "sonatype/nexus3:3.69.0",
       "squidfunk/mkdocs-material:9.5.27",
       "freeradius/freeradius-server:3.2.4-alpine",
@@ -282,7 +282,7 @@
       "spvest/azure-keyvault-webhook:1.6.0",
       "spvest/azure-keyvault-env:1.6.0",
       "gitea/gitea:1.22.0-rootless",
-      "paperlessngx/paperless-ngx:2.9.0",
+      "paperlessngx/paperless-ngx:2.10.0",
       "scylladb/scylla:5.4.7",
       "scylladb/scylla-manager:3.2.8",
       "scylladb/scylla-operator:1.12.2",
