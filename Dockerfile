@@ -1027,11 +1027,11 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.462-jdk17
+FROM jenkins/jenkins:2.463-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:3248.v65ecb_254c298-5-jdk17
+FROM jenkins/agent:bookworm-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
@@ -1155,7 +1155,7 @@ FROM supabase/gotrue:v2.154.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.8
+FROM supabase/realtime:v2.29.9
 # supabase/realtime
 
 # supabase/postgres-meta
