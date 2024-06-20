@@ -107,7 +107,7 @@ FROM atlassian/jira-software:9.16.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:29.0.1-apache
+FROM nextcloud:29.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -355,7 +355,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.95.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.0.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -455,7 +455,7 @@ FROM ghost:5.85.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.85.1
+FROM bitnami/ghost:5.85.2
 # bitnami/ghost
 
 # matomo
@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.250.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.5
+FROM metabase/metabase:v0.50.6
 # metabase/metabase
 
 # docker
@@ -791,7 +791,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.6.0
+FROM drakkan/sftpgo:v2.6.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -803,7 +803,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.107
+FROM stakater/reloader:v1.0.108
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1011,11 +1011,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.27.10
+FROM netbirdio/signal:0.28.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.27.10
+FROM netbirdio/management:0.28.0
 # netbirdio/management
 
 # coturn/coturn
@@ -1119,7 +1119,7 @@ FROM gitea/gitea:1.22.0-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.10.0
+FROM paperlessngx/paperless-ngx:2.10.1
 # paperlessngx/paperless-ngx
 
 # scylladb/scylla
@@ -1155,7 +1155,7 @@ FROM supabase/gotrue:v2.154.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.9
+FROM supabase/realtime:v2.29.10
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1167,11 +1167,11 @@ FROM supabase/storage-api:v1.5.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.3
+FROM supabase/logflare:1.7.4
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.4
+FROM supabase/edge-runtime:v1.54.6
 # supabase/edge-runtime
 
 # darthsim/imgproxy
