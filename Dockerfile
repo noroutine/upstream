@@ -1015,7 +1015,7 @@ FROM netbirdio/signal:0.28.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.0
+FROM netbirdio/management:0.28.2
 # netbirdio/management
 
 # coturn/coturn
