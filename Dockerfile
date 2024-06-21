@@ -199,7 +199,7 @@ FROM httpd:2.4.59-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.24-jdk21-temurin-jammy
+FROM tomcat:10.1.25-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
