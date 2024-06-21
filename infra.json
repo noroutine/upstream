@@ -1,5 +1,5 @@
 {
-  "version": "6b714976",
+  "version": "9e826175",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -26,7 +26,7 @@
       "sonatype/nexus3:3.69.0",
       "squidfunk/mkdocs-material:9.5.27",
       "freeradius/freeradius-server:3.2.4-alpine",
-      "quay.io/keycloak/keycloak:25.0.0",
+      "quay.io/keycloak/keycloak:25.0.1",
       "postgres:16.3-bookworm",
       "atlassian/jira-software:9.16.1",
       "nextcloud:29.0.2-apache",
@@ -90,7 +90,7 @@
       "gitlab/gitlab-ce:17.1.0-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.0.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.95.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.96.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -201,7 +201,7 @@
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.4",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.6.1",
-      "hasura/graphql-engine:v2.40.0",
+      "hasura/graphql-engine:v2.40.1",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.108",
       "jimmidyson/configmap-reload:v0.9.0",
@@ -293,7 +293,7 @@
       "supabase/gotrue:v2.154.1",
       "supabase/realtime:v2.29.11",
       "supabase/postgres-meta:v0.81.2",
-      "supabase/storage-api:v1.5.2",
+      "supabase/storage-api:v1.6.0",
       "supabase/logflare:1.7.4",
       "supabase/edge-runtime:v1.54.6",
       "darthsim/imgproxy:v3.24",

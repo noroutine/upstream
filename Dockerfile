@@ -95,7 +95,7 @@ FROM freeradius/freeradius-server:3.2.4-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:25.0.0
+FROM quay.io/keycloak/keycloak:25.0.1
 # keycloak/keycloak
 
 # postgres
@@ -351,7 +351,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.95.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.96.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -795,7 +795,7 @@ FROM drakkan/sftpgo:v2.6.1
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.40.0
+FROM hasura/graphql-engine:v2.40.1
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -1163,7 +1163,7 @@ FROM supabase/postgres-meta:v0.81.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.5.2
+FROM supabase/storage-api:v1.6.0
 # supabase/storage-api
 
 # supabase/logflare
