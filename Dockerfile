@@ -15,7 +15,7 @@ FROM ubuntu:focal-20240530
 # ubuntu
 
 # alpine
-FROM alpine:3.20.0
+FROM alpine:3.20.1
 # alpine
 
 # busybox
@@ -131,7 +131,7 @@ FROM quay.io/coreos/etcd:v3.5.14
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.52.0
+FROM quay.io/prometheus/prometheus:v2.53.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -335,11 +335,11 @@ FROM buildpacksio/lifecycle:0.19.7
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v17.0.0
+FROM gitlab/gitlab-runner:alpine3.19-v17.1.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.0.2-ce.0
+FROM gitlab/gitlab-ce:17.1.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -451,7 +451,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.85.1
+FROM ghost:5.85.2
 # ghost
 
 # bitnami/ghost
@@ -475,7 +475,7 @@ FROM docker:26.1.4-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.1.0
+FROM quay.io/podman/stable:v5.1.1
 # podman/stable
 
 # jupyter/base-notebook
@@ -527,7 +527,7 @@ FROM bitnami/spark:3.5.1
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.52.1
+FROM bitnami/prometheus:2.53.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -583,7 +583,7 @@ FROM bitnami/postgresql:16.3.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.24
+FROM bitnami/tomcat:10.1.25
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -1011,11 +1011,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.0
+FROM netbirdio/signal:0.28.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.0
+FROM netbirdio/management:0.28.2
 # netbirdio/management
 
 # coturn/coturn
@@ -1151,11 +1151,11 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.154.0
+FROM supabase/gotrue:v2.154.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.10
+FROM supabase/realtime:v2.29.11
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1163,7 +1163,7 @@ FROM supabase/postgres-meta:v0.81.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.5.1
+FROM supabase/storage-api:v1.5.2
 # supabase/storage-api
 
 # supabase/logflare
