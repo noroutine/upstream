@@ -115,11 +115,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-06-11T03-13-30Z
+FROM quay.io/minio/minio:RELEASE.2024-06-22T05-26-45Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-06-10T16-44-15Z
+FROM quay.io/minio/mc:RELEASE.2024-06-20T14-50-54Z
 # minio/mc
 
 # minio/console
@@ -619,11 +619,11 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.6.13
+FROM bitnami/minio:2024.6.22
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.6.12
+FROM bitnami/minio-client:2024.6.20
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -1439,7 +1439,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.34.0
+FROM quay.io/tigera/operator:v1.34.1
 # tigera/operator
 
 # calico/typha

@@ -1,5 +1,5 @@
 {
-  "version": "cad59aac",
+  "version": "47615827",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -31,8 +31,8 @@
       "atlassian/jira-software:9.16.1",
       "nextcloud:29.0.2-apache",
       "haproxytech/haproxy-debian:3.1",
-      "quay.io/minio/minio:RELEASE.2024-06-11T03-13-30Z",
-      "quay.io/minio/mc:RELEASE.2024-06-10T16-44-15Z",
+      "quay.io/minio/minio:RELEASE.2024-06-22T05-26-45Z",
+      "quay.io/minio/mc:RELEASE.2024-06-20T14-50-54Z",
       "quay.io/minio/console:v0.30.0",
       "quay.io/coreos/etcd:v3.5.14",
       "quay.io/prometheus/prometheus:v2.53.0",
@@ -157,8 +157,8 @@
       "bitnami/memcached:1.6.28",
       "bitnami/nginx-ingress-controller:1.10.1",
       "bitnami/nginx:1.27.0",
-      "bitnami/minio:2024.6.13",
-      "bitnami/minio-client:2024.6.12",
+      "bitnami/minio:2024.6.22",
+      "bitnami/minio-client:2024.6.20",
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.14.5",
       "bitnami/metallb-speaker:0.14.5",
@@ -362,7 +362,7 @@
       "registry.k8s.io/kube-proxy:v1.23.17",
       "registry.k8s.io/kube-scheduler:v1.23.17",
       "registry.k8s.io/kube-controller-manager:v1.23.17",
-      "quay.io/tigera/operator:v1.34.0",
+      "quay.io/tigera/operator:v1.34.1",
       "calico/typha:v3.28.0",
       "calico/ctl:v3.28.0",
       "calico/node:v3.28.0",
