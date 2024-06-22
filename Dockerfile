@@ -455,7 +455,7 @@ FROM ghost:5.85.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.85.2
+FROM bitnami/ghost:5.86.1
 # bitnami/ghost
 
 # matomo
@@ -791,7 +791,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.6.1
+FROM drakkan/sftpgo:v2.6.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -803,7 +803,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.112
+FROM stakater/reloader:v1.0.114
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1183,7 +1183,7 @@ FROM timberio/vector:0.39.0-alpine
 # timberio/vector
 
 # kong
-FROM kong:3.7.0-ubuntu
+FROM kong:3.7.1-ubuntu
 # kong
 
 # velero/velero
