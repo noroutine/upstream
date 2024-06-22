@@ -1,5 +1,5 @@
 {
-  "version": "9e826175",
+  "version": "7d6f0a33",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -52,7 +52,7 @@
       "nginxinc/nginx-unprivileged:1.27.0-alpine-slim",
       "nginxinc/nginx-unprivileged:1.27.0-alpine-slim",
       "httpd:2.4.59-alpine",
-      "tomcat:10.1.24-jdk21-temurin-jammy",
+      "tomcat:10.1.25-jdk21-temurin-jammy",
       "quay.io/m3db/m3coordinator:v1.5.0",
       "quay.io/m3db/m3dbnode:v1.5.0",
       "braedon/prometheus-es-exporter:0.14.1",
@@ -203,7 +203,7 @@
       "drakkan/sftpgo:v2.6.1",
       "hasura/graphql-engine:v2.40.1",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.108",
+      "stakater/reloader:v1.0.112",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.40.0",
@@ -274,7 +274,7 @@
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
-      "ghcr.io/zitadel/zitadel:v2.54.3",
+      "ghcr.io/zitadel/zitadel:v2.55.0",
       "homeassistant/home-assistant:2024.6",
       "koenkk/zigbee2mqtt:1.38.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.7.0",

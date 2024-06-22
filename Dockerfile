@@ -199,7 +199,7 @@ FROM httpd:2.4.59-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.24-jdk21-temurin-jammy
+FROM tomcat:10.1.25-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -803,7 +803,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.108
+FROM stakater/reloader:v1.0.112
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1087,7 +1087,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.54.3
+FROM ghcr.io/zitadel/zitadel:v2.55.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
