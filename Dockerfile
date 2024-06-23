@@ -1186,6 +1186,54 @@ FROM timberio/vector:0.39.0-alpine
 FROM kong:3.7.1-ubuntu
 # kong
 
+# cilium/clustermesh-apiserver
+FROM quay.io/cilium/clustermesh-apiserver:v1.15.6
+# cilium/clustermesh-apiserver
+
+# cilium/cilium
+FROM quay.io/cilium/cilium:v1.15.6
+# cilium/cilium
+
+# cilium/operator
+FROM quay.io/cilium/operator:v1.15.6
+# cilium/operator
+
+# cilium/startup-script
+FROM quay.io/cilium/startup-script:19fb149fb3d5c7a37d3edfaf10a2be3ab7386661
+# cilium/startup-script
+
+# cilium/certgen
+FROM quay.io/cilium/certgen:v0.1.12
+# cilium/certgen
+
+# cilium/cilium-envoy
+FROM quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6b
+# cilium/cilium-envoy
+
+# cilium/cilium-etcd-operator
+FROM quay.io/cilium/cilium-etcd-operator:v2.0.7
+# cilium/cilium-etcd-operator
+
+# cilium/hubble-relay
+FROM quay.io/cilium/hubble-relay:v1.15.6
+# cilium/hubble-relay
+
+# cilium/hubble-ui
+FROM quay.io/cilium/hubble-ui:v0.13.0
+# cilium/hubble-ui
+
+# cilium/hubble-ui-backend
+FROM quay.io/cilium/hubble-ui-backend:v0.13.0
+# cilium/hubble-ui-backend
+
+# spiffe/spire-server
+FROM ghcr.io/spiffe/spire-server:1.8.5
+# spiffe/spire-server
+
+# spiffe/spire-agent
+FROM ghcr.io/spiffe/spire-agent:1.8.5
+# spiffe/spire-agent
+
 # velero/velero
 FROM velero/velero:v1.14.0
 # velero/velero
