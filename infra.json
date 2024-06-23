@@ -1,5 +1,5 @@
 {
-  "version": "620fe778",
+  "version": "40cf20c0",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -307,8 +307,8 @@
       "quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6b",
       "quay.io/cilium/cilium-etcd-operator:v2.0.7",
       "quay.io/cilium/hubble-relay:v1.15.6",
-      "quay.io/cilium/hubble-ui:v0.13.0",
-      "quay.io/cilium/hubble-ui-backend:v0.13.0",
+      "quay.io/cilium/hubble-ui:v0.13.1",
+      "quay.io/cilium/hubble-ui-backend:v0.13.1",
       "ghcr.io/spiffe/spire-server:1.8.5",
       "ghcr.io/spiffe/spire-agent:1.8.5",
       "velero/velero:v1.14.0",
