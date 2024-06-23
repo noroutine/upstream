@@ -691,7 +691,7 @@ FROM bitnami/openldap:2.6.8
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.26.3
+FROM bitnami/sealed-secrets-controller:0.27.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -951,11 +951,11 @@ FROM jellyfin/jellyfin:10.9.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.20.01
+FROM haveagitgat/tdarr:2.21.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.20.01
+FROM haveagitgat/tdarr_node:2.21.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker

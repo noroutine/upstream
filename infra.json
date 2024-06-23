@@ -1,5 +1,5 @@
 {
-  "version": "47615827",
+  "version": "5eafd91c",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -175,7 +175,7 @@
       "bitnami/kubeapps-pinniped-proxy:2.10.0",
       "bitnami/kube-rbac-proxy:0.18.0",
       "bitnami/openldap:2.6.8",
-      "bitnami/sealed-secrets-controller:0.26.3",
+      "bitnami/sealed-secrets-controller:0.27.0",
       "bitnami/trivy:0.52.2",
       "bitnami/kubectl:1.30.2",
       "bitnami/harbor-adapter-trivy:2.11.0",
@@ -240,8 +240,8 @@
       "syncthing/discosrv:1.27.8",
       "syncthing/relaysrv:1.27.8",
       "jellyfin/jellyfin:10.9.6",
-      "haveagitgat/tdarr:2.20.01",
-      "haveagitgat/tdarr_node:2.20.01",
+      "haveagitgat/tdarr:2.21.01",
+      "haveagitgat/tdarr_node:2.21.01",
       "gravitl/netmaker:v0.24.2",
       "gravitl/netmaker-ui:v0.24.2",
       "kmb32123/youtube-dl-server:2.0",
