@@ -1223,7 +1223,7 @@ FROM quay.io/cilium/hubble-ui:v0.13.0
 # cilium/hubble-ui
 
 # cilium/hubble-ui-backend
-FROM quay.io/cilium/hubble-ui-backend:v0.13.0
+FROM quay.io/cilium/hubble-ui-backend:v0.13.1
 # cilium/hubble-ui-backend
 
 # spiffe/spire-server
