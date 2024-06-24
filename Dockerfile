@@ -1119,7 +1119,7 @@ FROM gitea/gitea:1.22.0-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.10.1
+FROM paperlessngx/paperless-ngx:2.10.2
 # paperlessngx/paperless-ngx
 
 # scylladb/scylla
