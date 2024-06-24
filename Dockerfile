@@ -1203,7 +1203,7 @@ FROM quay.io/cilium/startup-script:19fb149fb3d5c7a37d3edfaf10a2be3ab7386661
 # cilium/startup-script
 
 # cilium/certgen
-FROM quay.io/cilium/certgen:v0.1.12
+FROM quay.io/cilium/certgen:v0.2.0
 # cilium/certgen
 
 # cilium/cilium-envoy
