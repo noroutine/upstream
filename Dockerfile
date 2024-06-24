@@ -343,7 +343,7 @@ FROM gitlab/gitlab-ce:17.1.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.0.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.1.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -455,7 +455,7 @@ FROM ghost:5.85.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.86.1
+FROM bitnami/ghost:5.86.2
 # bitnami/ghost
 
 # matomo
@@ -1203,7 +1203,7 @@ FROM quay.io/cilium/startup-script:19fb149fb3d5c7a37d3edfaf10a2be3ab7386661
 # cilium/startup-script
 
 # cilium/certgen
-FROM quay.io/cilium/certgen:v0.1.12
+FROM quay.io/cilium/certgen:v0.2.0
 # cilium/certgen
 
 # cilium/cilium-envoy
@@ -1227,11 +1227,11 @@ FROM quay.io/cilium/hubble-ui-backend:v0.13.1
 # cilium/hubble-ui-backend
 
 # spiffe/spire-server
-FROM ghcr.io/spiffe/spire-server:1.8.5
+FROM ghcr.io/spiffe/spire-server:1.9.6
 # spiffe/spire-server
 
 # spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.8.5
+FROM ghcr.io/spiffe/spire-agent:1.9.6
 # spiffe/spire-agent
 
 # velero/velero
