@@ -1231,7 +1231,7 @@ FROM ghcr.io/spiffe/spire-server:1.8.5
 # spiffe/spire-server
 
 # spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.8.5
+FROM ghcr.io/spiffe/spire-agent:1.9.6
 # spiffe/spire-agent
 
 # velero/velero
