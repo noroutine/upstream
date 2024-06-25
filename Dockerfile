@@ -1163,7 +1163,7 @@ FROM supabase/postgres-meta:v0.81.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.6.0
+FROM supabase/storage-api:v1.6.1
 # supabase/storage-api
 
 # supabase/logflare
