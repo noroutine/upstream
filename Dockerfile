@@ -251,7 +251,7 @@ FROM mongo:7.0.11-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.5.4-apache
+FROM wordpress:6.5.5-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -451,7 +451,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.85.2
+FROM ghost:5.86.2
 # ghost
 
 # bitnami/ghost
@@ -795,7 +795,7 @@ FROM drakkan/sftpgo:v2.6.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.40.1
+FROM hasura/graphql-engine:v2.40.2
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -1119,7 +1119,7 @@ FROM gitea/gitea:1.22.0-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.10.1
+FROM paperlessngx/paperless-ngx:2.10.2
 # paperlessngx/paperless-ngx
 
 # scylladb/scylla
@@ -1151,7 +1151,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.154.1
+FROM supabase/gotrue:v2.154.2
 # supabase/gotrue
 
 # supabase/realtime
@@ -1159,11 +1159,11 @@ FROM supabase/realtime:v2.29.11
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.81.2
+FROM supabase/postgres-meta:v0.82.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.6.0
+FROM supabase/storage-api:v1.6.1
 # supabase/storage-api
 
 # supabase/logflare
@@ -1227,11 +1227,11 @@ FROM quay.io/cilium/hubble-ui-backend:v0.13.1
 # cilium/hubble-ui-backend
 
 # spiffe/spire-server
-FROM ghcr.io/spiffe/spire-server:1.9.6
+FROM ghcr.io/spiffe/spire-server:1.10.0
 # spiffe/spire-server
 
 # spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.9.6
+FROM ghcr.io/spiffe/spire-agent:1.10.0
 # spiffe/spire-agent
 
 # velero/velero
