@@ -951,7 +951,7 @@ FROM jellyfin/jellyfin:10.9.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.21.01
+FROM haveagitgat/tdarr:2.22.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
