@@ -947,15 +947,15 @@ FROM syncthing/relaysrv:1.27.8
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.6
+FROM jellyfin/jellyfin:10.9.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.21.01
+FROM haveagitgat/tdarr:2.22.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.21.01
+FROM haveagitgat/tdarr_node:2.22.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1059,7 +1059,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.29.0
+FROM locustio/locust:2.29.1
 # locustio/locust
 
 # postgrest/postgrest
@@ -1123,7 +1123,7 @@ FROM paperlessngx/paperless-ngx:2.10.2
 # paperlessngx/paperless-ngx
 
 # scylladb/scylla
-FROM scylladb/scylla:5.4.7
+FROM scylladb/scylla:6.0.1
 # scylladb/scylla
 
 # scylladb/scylla-manager
@@ -1131,7 +1131,7 @@ FROM scylladb/scylla-manager:3.2.8
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.12.2
+FROM scylladb/scylla-operator:1.13.0
 # scylladb/scylla-operator
 
 # chirpstack/chirpstack
@@ -1155,7 +1155,7 @@ FROM supabase/gotrue:v2.154.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.11
+FROM supabase/realtime:v2.29.12
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1167,11 +1167,11 @@ FROM supabase/storage-api:v1.6.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.4
+FROM supabase/logflare:1.7.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.6
+FROM supabase/edge-runtime:v1.54.8
 # supabase/edge-runtime
 
 # darthsim/imgproxy
