@@ -1123,7 +1123,7 @@ FROM paperlessngx/paperless-ngx:2.10.2
 # paperlessngx/paperless-ngx
 
 # scylladb/scylla
-FROM scylladb/scylla:5.4.7
+FROM scylladb/scylla:6.0.1
 # scylladb/scylla
 
 # scylladb/scylla-manager
