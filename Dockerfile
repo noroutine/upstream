@@ -115,11 +115,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-06-22T05-26-45Z
+FROM quay.io/minio/minio:RELEASE.2024-06-26T01-06-18Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-06-20T14-50-54Z
+FROM quay.io/minio/mc:RELEASE.2024-06-24T19-40-33Z
 # minio/mc
 
 # minio/console
@@ -339,7 +339,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.1.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.1.0-ce.0
+FROM gitlab/gitlab-ce:17.1.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -355,7 +355,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.96.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -619,11 +619,11 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.6.22
+FROM bitnami/minio:2024.6.26
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.6.20
+FROM bitnami/minio-client:2024.6.24
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -803,7 +803,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.114
+FROM stakater/reloader:v1.0.115
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1155,7 +1155,7 @@ FROM supabase/gotrue:v2.154.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.12
+FROM supabase/realtime:v2.29.13
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1591,11 +1591,11 @@ FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.1
 # cloud-provider-vsphere/cpi/release/manager
 
 # cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.2.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.3.0
 # cloud-provider-vsphere/csi/release/driver
 
 # cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.2.0
+FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.3.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
