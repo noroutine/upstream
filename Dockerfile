@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.250.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.6
+FROM metabase/metabase:v0.50.7
 # metabase/metabase
 
 # docker
@@ -1011,11 +1011,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.2
+FROM netbirdio/signal:0.28.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.2
+FROM netbirdio/management:0.28.3
 # netbirdio/management
 
 # coturn/coturn
