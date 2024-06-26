@@ -155,7 +155,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.26.0
 # prometheus/snmp-exporter
 
 # prometheus/memcached-exporter
-FROM quay.io/prometheus/memcached-exporter:v0.14.3
+FROM quay.io/prometheus/memcached-exporter:v0.14.4
 # prometheus/memcached-exporter
 
 # prometheus/pushgateway
@@ -171,7 +171,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.74.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.0.0
+FROM grafana/grafana:11.0.1
 # grafana/grafana
 
 # grafana/loki
@@ -1027,7 +1027,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.463-jdk17
+FROM jenkins/jenkins:2.464-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1039,7 +1039,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.5
+FROM netboxcommunity/netbox:v4.0.6
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1703,7 +1703,7 @@ FROM nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
-FROM nvcr.io/nvidia/k8s-device-plugin:v0.15.0-ubi8
+FROM nvcr.io/nvidia/k8s-device-plugin:v0.15.1-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
