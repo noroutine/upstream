@@ -171,7 +171,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.74.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.0.1
+FROM grafana/grafana:11.1.0
 # grafana/grafana
 
 # grafana/loki
@@ -463,7 +463,7 @@ FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.250.2
+FROM nocodb/nocodb:0.251.0
 # nocodb/nocodb
 
 # metabase/metabase
@@ -531,7 +531,7 @@ FROM bitnami/prometheus:2.53.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.74.0
+FROM bitnami/prometheus-operator:0.75.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -639,7 +639,7 @@ FROM bitnami/metallb-speaker:0.14.5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.0.0
+FROM bitnami/grafana:11.1.0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -1071,7 +1071,7 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
-FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.7.0
+FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.8.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
@@ -1163,7 +1163,7 @@ FROM supabase/postgres-meta:v0.82.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.6.1
+FROM supabase/storage-api:v1.6.2
 # supabase/storage-api
 
 # supabase/logflare
@@ -1291,15 +1291,15 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.14.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.15.0
+FROM quay.io/jetstack/cert-manager-controller:v1.15.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.15.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.15.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.15.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.15.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
