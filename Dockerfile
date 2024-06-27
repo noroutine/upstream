@@ -107,7 +107,7 @@ FROM atlassian/jira-software:9.16.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:29.0.2-apache
+FROM nextcloud:29.0.3-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -1327,7 +1327,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.17.0
+FROM hashicorp/vault:1.17.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s

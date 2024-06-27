@@ -1,5 +1,5 @@
 {
-  "version": "a6610eac",
+  "version": "8e95dff5",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -29,7 +29,7 @@
       "quay.io/keycloak/keycloak:25.0.1",
       "postgres:16.3-bookworm",
       "atlassian/jira-software:9.16.1",
-      "nextcloud:29.0.2-apache",
+      "nextcloud:29.0.3-apache",
       "haproxytech/haproxy-debian:3.1",
       "quay.io/minio/minio:RELEASE.2024-06-26T01-06-18Z",
       "quay.io/minio/mc:RELEASE.2024-06-24T19-40-33Z",
@@ -334,7 +334,7 @@
       "hashicorp/consul:1.19.0",
       "hashicorp/consul-k8s-control-plane:1.5.0",
       "envoyproxy/envoy-alpine:v1.21.6",
-      "hashicorp/vault:1.17.0",
+      "hashicorp/vault:1.17.1",
       "hashicorp/vault-k8s:1.4.1",
       "hashicorp/vault-csi-provider:1.4.2",
       "hashicorp/terraform-cloud-operator:2.4.1",
