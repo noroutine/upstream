@@ -255,7 +255,7 @@ FROM wordpress:6.5.5-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.8
+FROM dpage/pgadmin4:8.9
 # dpage/pgadmin4
 
 # adminer
