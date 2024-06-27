@@ -1071,7 +1071,7 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
-FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.7.0
+FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.8.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
