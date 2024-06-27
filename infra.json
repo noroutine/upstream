@@ -1,5 +1,5 @@
 {
-  "version": "d49b1f83",
+  "version": "f9dec93c",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -43,8 +43,8 @@
       "quay.io/prometheus/snmp-exporter:v0.26.0",
       "quay.io/prometheus/memcached-exporter:v0.14.4",
       "quay.io/prometheus/pushgateway:v1.9.0",
-      "quay.io/prometheus-operator/prometheus-operator:v0.74.0",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.74.0",
+      "quay.io/prometheus-operator/prometheus-operator:v0.75.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.75.0",
       "grafana/grafana:11.1.0",
       "grafana/loki:3.0.0",
       "grafana/loki-canary:3.0.0",
@@ -66,7 +66,7 @@
       "alerta/alerta-web:9.0.3",
       "mongo:7.0.11-jammy",
       "wordpress:6.5.5-apache",
-      "dpage/pgadmin4:8.8",
+      "dpage/pgadmin4:8.9",
       "adminer:4.8.1",
       "mysql:8.4.0",
       "mariadb:11.3.2-jammy",
@@ -293,9 +293,9 @@
       "supabase/gotrue:v2.154.2",
       "supabase/realtime:v2.29.13",
       "supabase/postgres-meta:v0.82.0",
-      "supabase/storage-api:v1.6.2",
+      "supabase/storage-api:v1.6.4",
       "supabase/logflare:1.7.5",
-      "supabase/edge-runtime:v1.54.8",
+      "supabase/edge-runtime:v1.54.9",
       "darthsim/imgproxy:v3.24",
       "timberio/vector:0.39.0-alpine",
       "kong:3.7.1-ubuntu",

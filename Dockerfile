@@ -163,11 +163,11 @@ FROM quay.io/prometheus/pushgateway:v1.9.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.74.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.75.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.74.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.75.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -255,7 +255,7 @@ FROM wordpress:6.5.5-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.8
+FROM dpage/pgadmin4:8.9
 # dpage/pgadmin4
 
 # adminer
@@ -1163,7 +1163,7 @@ FROM supabase/postgres-meta:v0.82.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.6.2
+FROM supabase/storage-api:v1.6.4
 # supabase/storage-api
 
 # supabase/logflare
@@ -1171,7 +1171,7 @@ FROM supabase/logflare:1.7.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.8
+FROM supabase/edge-runtime:v1.54.9
 # supabase/edge-runtime
 
 # darthsim/imgproxy
