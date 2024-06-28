@@ -471,7 +471,7 @@ FROM metabase/metabase:v0.50.7
 # metabase/metabase
 
 # docker
-FROM docker:26.1.4-dind
+FROM docker:27.0.2-dind
 # docker
 
 # podman/stable
@@ -651,7 +651,7 @@ FROM bitnami/consul:1.19.0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.16
+FROM bitnami/nats:2.10.17
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -867,7 +867,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.16-alpine
+FROM nats:2.10.17-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -1063,7 +1063,7 @@ FROM locustio/locust:2.29.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.0
+FROM postgrest/postgrest:v12.2.1
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
@@ -1303,7 +1303,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.15.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.8.1
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.9.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
