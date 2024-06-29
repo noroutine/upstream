@@ -607,7 +607,7 @@ FROM bitnami/mongodb:7.0.11
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.28
+FROM bitnami/memcached:1.6.29
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
