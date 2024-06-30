@@ -1,5 +1,5 @@
 {
-  "version": "1a0b796b",
+  "version": "f3187c37",
   "upstream": {
     "images": [
       "debian:bookworm-20240612-slim",
@@ -28,7 +28,7 @@
       "freeradius/freeradius-server:3.2.4-alpine",
       "quay.io/keycloak/keycloak:25.0.1",
       "postgres:16.3-bookworm",
-      "atlassian/jira-software:9.16.1",
+      "atlassian/jira-software:9.17.0",
       "nextcloud:29.0.3-apache",
       "haproxytech/haproxy-debian:3.1",
       "quay.io/minio/minio:RELEASE.2024-06-29T01-20-47Z",
