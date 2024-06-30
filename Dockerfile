@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-06-26T01-06-18Z
+FROM quay.io/minio/minio:RELEASE.2024-06-29T01-20-47Z
 # minio/minio
 
 # minio/mc
@@ -247,7 +247,7 @@ FROM alerta/alerta-web:9.0.3
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.11-jammy
+FROM mongo:7.0.12-jammy
 # mongo
 
 # wordpress
@@ -451,11 +451,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.86.2
+FROM ghost:5.87.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.86.2
+FROM bitnami/ghost:5.87.0
 # bitnami/ghost
 
 # matomo
@@ -467,7 +467,7 @@ FROM nocodb/nocodb:0.251.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.7
+FROM metabase/metabase:v0.50.8
 # metabase/metabase
 
 # docker
@@ -603,11 +603,11 @@ FROM bitnami/mariadb:11.3.2
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.11
+FROM bitnami/mongodb:7.0.12
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.28
+FROM bitnami/memcached:1.6.29
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -619,11 +619,11 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.6.26
+FROM bitnami/minio:2024.6.29
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.6.24
+FROM bitnami/minio-client:2024.6.29
 # bitnami/minio-client
 
 # bitnami/os-shell
