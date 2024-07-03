@@ -1011,11 +1011,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.3
+FROM netbirdio/signal:0.28.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.3
+FROM netbirdio/management:0.28.4
 # netbirdio/management
 
 # coturn/coturn
