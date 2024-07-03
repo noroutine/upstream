@@ -1091,7 +1091,7 @@ FROM ghcr.io/zitadel/zitadel:v2.55.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.6
+FROM homeassistant/home-assistant:2024.7
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
