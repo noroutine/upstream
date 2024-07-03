@@ -991,7 +991,7 @@ FROM curlimages/curl:8.8.0
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.16.4
+FROM restic/restic:0.16.5
 # restic/restic
 
 # coredns/coredns
