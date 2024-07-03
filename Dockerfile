@@ -943,7 +943,7 @@ FROM syncthing/discosrv:1.27.8
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.8
+FROM syncthing/relaysrv:1.27.9
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
