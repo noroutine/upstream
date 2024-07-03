@@ -419,7 +419,7 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2024.03.0
+FROM quay.io/jupyterhub/repo2docker:2024.07.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
@@ -463,7 +463,7 @@ FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.251.0
+FROM nocodb/nocodb:0.251.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -819,7 +819,7 @@ FROM ghcr.io/dexidp/dex:v2.40.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.11.3
+FROM quay.io/argoproj/argocd:v2.11.4
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -1087,7 +1087,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.55.0
+FROM ghcr.io/zitadel/zitadel:v2.55.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
