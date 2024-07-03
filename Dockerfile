@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240612-slim
+FROM debian:bookworm-20240701-slim
 # debian
 
 # ubuntu
@@ -71,15 +71,15 @@ FROM python:3.12.4-slim-bookworm
 # python
 
 # golang
-FROM golang:1.22.4-bookworm
+FROM golang:1.22.5-bookworm
 # golang
 
 # golang
-FROM golang:1.22.4-alpine
+FROM golang:1.22.5-alpine
 # golang
 
 # traefik
-FROM traefik:v3.0.3
+FROM traefik:v3.0.4
 # traefik
 
 # sonatype/nexus3
@@ -163,11 +163,11 @@ FROM quay.io/prometheus/pushgateway:v1.9.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.75.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.75.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.75.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.75.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -175,15 +175,15 @@ FROM grafana/grafana:11.1.0
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:3.0.0
+FROM grafana/loki:3.1.0
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:3.0.0
+FROM grafana/loki-canary:3.1.0
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:3.0.0
+FROM grafana/promtail:3.1.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -195,7 +195,7 @@ FROM nginxinc/nginx-unprivileged:1.27.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.59-alpine
+FROM httpd:2.4.60-alpine
 # httpd
 
 # tomcat
@@ -263,7 +263,7 @@ FROM adminer:4.8.1
 # adminer
 
 # mysql
-FROM mysql:8.4.0
+FROM mysql:9.0.0
 # mysql
 
 # mariadb
@@ -311,7 +311,7 @@ FROM heroku/heroku:24
 # heroku/heroku
 
 # heroku/buildpack-procfile
-FROM heroku/buildpack-procfile:3.1.1
+FROM heroku/buildpack-procfile:3.1.2
 # heroku/buildpack-procfile
 
 # paketobuildpacks/builder
@@ -467,11 +467,11 @@ FROM nocodb/nocodb:0.251.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.8
+FROM metabase/metabase:v0.50.9
 # metabase/metabase
 
 # docker
-FROM docker:27.0.2-dind
+FROM docker:27.0.3-dind
 # docker
 
 # podman/stable
@@ -531,7 +531,7 @@ FROM bitnami/prometheus:2.53.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.75.0
+FROM bitnami/prometheus-operator:0.75.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -695,7 +695,7 @@ FROM bitnami/sealed-secrets-controller:0.27.0
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.52.2
+FROM bitnami/trivy:0.53.0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -771,7 +771,7 @@ FROM goharbor/nginx-photon:v2.11.0
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.52.2
+FROM aquasec/trivy:0.53.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -859,7 +859,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.28-alpine
+FROM memcached:1.6.29-alpine
 # memcached
 
 # connecteverything/nats-operator
@@ -875,7 +875,7 @@ FROM natsio/prometheus-nats-exporter:0.15.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.14.4
+FROM natsio/nats-server-config-reloader:0.15.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -935,15 +935,15 @@ FROM outlinewiki/outline:0.77.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.8
+FROM syncthing/syncthing:1.27.9
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.8
+FROM syncthing/discosrv:1.27.9
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.8
+FROM syncthing/relaysrv:1.27.9
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -991,7 +991,7 @@ FROM curlimages/curl:8.8.0
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.16.4
+FROM restic/restic:0.16.5
 # restic/restic
 
 # coredns/coredns
@@ -1027,7 +1027,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.464-jdk17
+FROM jenkins/jenkins:2.466-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1095,7 +1095,7 @@ FROM homeassistant/home-assistant:2024.6
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.38.0
+FROM koenkk/zigbee2mqtt:1.39.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -1155,15 +1155,15 @@ FROM supabase/gotrue:v2.154.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.13
+FROM supabase/realtime:v2.29.15
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.82.0
+FROM supabase/postgres-meta:v0.83.1
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.6.4
+FROM supabase/storage-api:v1.6.5
 # supabase/storage-api
 
 # supabase/logflare
@@ -1209,10 +1209,6 @@ FROM quay.io/cilium/certgen:v0.2.0
 # cilium/cilium-envoy
 FROM quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6b
 # cilium/cilium-envoy
-
-# cilium/cilium-etcd-operator
-FROM quay.io/cilium/cilium-etcd-operator:v2.0.7
-# cilium/cilium-etcd-operator
 
 # cilium/hubble-relay
 FROM quay.io/cilium/hubble-relay:v1.15.6
