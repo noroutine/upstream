@@ -1107,7 +1107,7 @@ FROM spvest/azure-keyvault-env:1.6.0
 # spvest/azure-keyvault-env
 
 # gitea/gitea
-FROM gitea/gitea:1.22.0-rootless
+FROM gitea/gitea:1.22.1-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
