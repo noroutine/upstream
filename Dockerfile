@@ -1027,7 +1027,7 @@ FROM jenkins/agent:bookworm-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
-FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
+FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
