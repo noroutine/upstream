@@ -1107,7 +1107,7 @@ FROM spvest/azure-keyvault-env:1.6.0
 # spvest/azure-keyvault-env
 
 # gitea/gitea
-FROM gitea/gitea:1.22.0-rootless
+FROM gitea/gitea:1.22.1-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
@@ -1571,7 +1571,7 @@ FROM longhornio/livenessprobe:v2.12.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.38
+FROM longhornio/support-bundle-kit:v0.0.39
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
