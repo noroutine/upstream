@@ -1327,7 +1327,7 @@ FROM hashicorp/vault:1.17.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.4.1
+FROM hashicorp/vault-k8s:1.4.2
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
