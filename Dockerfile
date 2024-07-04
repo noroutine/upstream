@@ -231,15 +231,15 @@ FROM quay.io/cortexproject/cortex:v1.17.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.14.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.14.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.14.1
+FROM docker.elastic.co/logstash/logstash:8.14.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.14.1
+FROM docker.elastic.co/kibana/kibana:8.14.2
 # kibana/kibana
 
 # alerta/alerta-web
@@ -277,14 +277,6 @@ FROM mccutchen/go-httpbin:v2.14.0
 # oauth2-proxy/oauth2-proxy
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.6.0-alpine
 # oauth2-proxy/oauth2-proxy
-
-# heroku/heroku
-FROM heroku/heroku:20-build
-# heroku/heroku
-
-# heroku/heroku
-FROM heroku/heroku:20
-# heroku/heroku
 
 # heroku/heroku
 FROM heroku/heroku:22-build
@@ -467,7 +459,7 @@ FROM nocodb/nocodb:0.251.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.9
+FROM metabase/metabase:v0.50.10
 # metabase/metabase
 
 # docker
@@ -623,7 +615,7 @@ FROM bitnami/minio:2024.6.29
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.6.29
+FROM bitnami/minio-client:2024.7.3
 # bitnami/minio-client
 
 # bitnami/os-shell
