@@ -195,7 +195,7 @@ FROM nginxinc/nginx-unprivileged:1.27.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.60-alpine
+FROM httpd:2.4.61-alpine
 # httpd
 
 # tomcat
@@ -1091,7 +1091,7 @@ FROM ghcr.io/zitadel/zitadel:v2.55.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.6
+FROM homeassistant/home-assistant:2024.7
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -1151,7 +1151,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.154.2
+FROM supabase/gotrue:v2.155.0
 # supabase/gotrue
 
 # supabase/realtime
@@ -1327,11 +1327,11 @@ FROM hashicorp/vault:1.17.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.4.1
+FROM hashicorp/vault-k8s:1.4.2
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.4.2
+FROM hashicorp/vault-csi-provider:1.4.3
 # hashicorp/vault-csi-provider
 
 # hashicorp/terraform-cloud-operator
@@ -1527,7 +1527,7 @@ FROM calico/csi:v3.28.0
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.0
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.1
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
