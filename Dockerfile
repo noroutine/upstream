@@ -115,11 +115,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-06-29T01-20-47Z
+FROM quay.io/minio/minio:RELEASE.2024-07-04T14-25-45Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-06-24T19-40-33Z
+FROM quay.io/minio/mc:RELEASE.2024-07-03T20-17-25Z
 # minio/mc
 
 # minio/console
@@ -277,22 +277,6 @@ FROM mccutchen/go-httpbin:v2.14.0
 # oauth2-proxy/oauth2-proxy
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.6.0-alpine
 # oauth2-proxy/oauth2-proxy
-
-# heroku/heroku
-FROM heroku/heroku:22-build
-# heroku/heroku
-
-# heroku/heroku
-FROM heroku/heroku:22
-# heroku/heroku
-
-# heroku/heroku
-FROM heroku/heroku:22-cnb-build
-# heroku/heroku
-
-# heroku/heroku
-FROM heroku/heroku:22-cnb
-# heroku/heroku
 
 # heroku/heroku
 FROM heroku/heroku:24-build
@@ -611,7 +595,7 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.6.29
+FROM bitnami/minio:2024.7.4
 # bitnami/minio
 
 # bitnami/minio-client
@@ -1027,7 +1011,7 @@ FROM jenkins/agent:bookworm-jdk17
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
-FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.0
+FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
