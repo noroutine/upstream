@@ -1079,7 +1079,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.55.1
+FROM ghcr.io/zitadel/zitadel:v2.55.2
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1151,7 +1151,7 @@ FROM supabase/realtime:v2.29.15
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.83.1
+FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
