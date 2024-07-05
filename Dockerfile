@@ -1127,7 +1127,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.155.0
+FROM supabase/gotrue:v2.155.1
 # supabase/gotrue
 
 # supabase/realtime
@@ -1251,7 +1251,7 @@ FROM apache/airflow:2.9.2-python3.11
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.2.3
+FROM registry.k8s.io/git-sync/git-sync:v4.2.4
 # git-sync/git-sync
 
 # kedacore/keda

@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.342",
+  "version": "d9c8d236",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -284,7 +284,7 @@
       "chirpstack/chirpstack-rest-api:4.8.1",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.155.0",
+      "supabase/gotrue:v2.155.1",
       "supabase/realtime:v2.29.15",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.6.7",
@@ -315,7 +315,7 @@
       "velero/velero-restic-restore-helper:v1.9.7",
       "bitnami/kubectl:1.30.2",
       "apache/airflow:2.9.2-python3.11",
-      "registry.k8s.io/git-sync/git-sync:v4.2.3",
+      "registry.k8s.io/git-sync/git-sync:v4.2.4",
       "ghcr.io/kedacore/keda:2.14.0",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.14.0",
       "quay.io/jetstack/cert-manager-controller:v1.15.1",
