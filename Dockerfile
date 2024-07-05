@@ -1139,7 +1139,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.6.7
+FROM supabase/storage-api:v1.6.8
 # supabase/storage-api
 
 # supabase/logflare
@@ -1651,7 +1651,7 @@ FROM obsidiandynamics/kafdrop:4.0.1
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.25.0
+FROM tchiotludo/akhq:0.25.1
 # tchiotludo/akhq
 
 # nvidia/gpu-operator

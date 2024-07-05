@@ -1,5 +1,5 @@
 {
-  "version": "d9c8d236",
+  "version": "9f6475ec",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -287,7 +287,7 @@
       "supabase/gotrue:v2.155.1",
       "supabase/realtime:v2.29.15",
       "supabase/postgres-meta:v0.83.2",
-      "supabase/storage-api:v1.6.7",
+      "supabase/storage-api:v1.6.8",
       "supabase/logflare:1.7.5",
       "supabase/edge-runtime:v1.54.9",
       "darthsim/imgproxy:v3.24",
@@ -415,7 +415,7 @@
       "confluentinc/cp-server-connect:7.6.1",
       "confluentinc/cp-zookeeper:7.6.1",
       "obsidiandynamics/kafdrop:4.0.1",
-      "tchiotludo/akhq:0.25.0",
+      "tchiotludo/akhq:0.25.1",
       "nvcr.io/nvidia/gpu-operator:v24.3.0",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.3.0",
       "nvcr.io/nvidia/cuda:12.5.0-base-ubi9",
