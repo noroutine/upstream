@@ -1651,7 +1651,7 @@ FROM obsidiandynamics/kafdrop:4.0.1
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.25.0
+FROM tchiotludo/akhq:0.25.1
 # tchiotludo/akhq
 
 # nvidia/gpu-operator
