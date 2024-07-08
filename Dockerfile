@@ -587,7 +587,7 @@ FROM bitnami/memcached:1.6.29
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.10.1
+FROM bitnami/nginx-ingress-controller:1.10.2
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -779,7 +779,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.115
+FROM stakater/reloader:v1.0.116
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -1101,6 +1101,10 @@ FROM paperlessngx/paperless-ngx:2.10.2
 # roundcube/roundcubemail
 FROM roundcube/roundcubemail:1.6.7-apache
 # roundcube/roundcubemail
+
+# changemakerstudiosus/papercut-smtp
+FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
+# changemakerstudiosus/papercut-smtp
 
 # nodemailer/wildduck
 FROM nodemailer/wildduck:1.43.3

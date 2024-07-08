@@ -1,5 +1,5 @@
 {
-  "version": "df88b2c6",
+  "version": "46ce99f2",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -149,7 +149,7 @@
       "bitnami/mariadb:11.3.2",
       "bitnami/mongodb:7.0.12",
       "bitnami/memcached:1.6.29",
-      "bitnami/nginx-ingress-controller:1.10.1",
+      "bitnami/nginx-ingress-controller:1.10.2",
       "bitnami/nginx:1.27.0",
       "bitnami/minio:2024.7.4",
       "bitnami/minio-client:2024.7.3",
@@ -197,7 +197,7 @@
       "drakkan/sftpgo:v2.6.2",
       "hasura/graphql-engine:v2.40.2",
       "paulbouwer/hello-kubernetes:1.10.1",
-      "stakater/reloader:v1.0.115",
+      "stakater/reloader:v1.0.116",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.40.0",
@@ -278,6 +278,7 @@
       "gitea/gitea:1.22.1-rootless",
       "paperlessngx/paperless-ngx:2.10.2",
       "roundcube/roundcubemail:1.6.7-apache",
+      "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
       "nodemailer/wildduck:1.43.3",
       "nodemailer/wildduck-webmail:1.0.1",
       "nodemailer/zonemta-wildduck:2.4.3",
