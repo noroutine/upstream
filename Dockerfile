@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
-FROM php:8.3.8-apache-bookworm
+FROM php:8.3.9-apache-bookworm
 # php
 
 # python
@@ -427,11 +427,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.87.0
+FROM ghost:5.87.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.87.0
+FROM bitnami/ghost:5.87.1
 # bitnami/ghost
 
 # matomo
@@ -751,7 +751,7 @@ FROM aquasec/trivy:0.53.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.9.19
+FROM ghcr.io/external-secrets/external-secrets:v0.9.20
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -1098,6 +1098,34 @@ FROM gitea/gitea:1.22.1-rootless
 FROM paperlessngx/paperless-ngx:2.10.2
 # paperlessngx/paperless-ngx
 
+# roundcube/roundcubemail
+FROM roundcube/roundcubemail:1.6.7-apache
+# roundcube/roundcubemail
+
+# nodemailer/wildduck
+FROM nodemailer/wildduck:1.43.3
+# nodemailer/wildduck
+
+# nodemailer/wildduck-webmail
+FROM nodemailer/wildduck-webmail:1.0.1
+# nodemailer/wildduck-webmail
+
+# nodemailer/zonemta-wildduck
+FROM nodemailer/zonemta-wildduck:2.4.3
+# nodemailer/zonemta-wildduck
+
+# nodemailer/haraka-wildduck
+FROM nodemailer/haraka-wildduck:2.8.27
+# nodemailer/haraka-wildduck
+
+# nodemailer/rspamd
+FROM nodemailer/rspamd:2.7.0
+# nodemailer/rspamd
+
+# rspamd/rspamd
+FROM rspamd/rspamd:3.8.4
+# rspamd/rspamd
+
 # scylladb/scylla
 FROM scylladb/scylla:6.0.1
 # scylladb/scylla
@@ -1131,7 +1159,7 @@ FROM supabase/gotrue:v2.155.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.15
+FROM supabase/realtime:v2.29.16
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1667,7 +1695,7 @@ FROM nvcr.io/nvidia/cuda:12.5.0-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.8
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.9
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
