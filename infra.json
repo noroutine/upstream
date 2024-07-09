@@ -1,5 +1,5 @@
 {
-  "version": "415de781",
+  "version": "bd795d28",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -25,7 +25,7 @@
       "traefik:v3.0.4",
       "sonatype/nexus3:3.69.0",
       "squidfunk/mkdocs-material:9.5.27",
-      "freeradius/freeradius-server:3.2.4-alpine",
+      "freeradius/freeradius-server:3.2.5-alpine",
       "quay.io/keycloak/keycloak:25.0.1",
       "postgres:16.3-bookworm",
       "atlassian/jira-software:9.17.0",
@@ -422,7 +422,7 @@
       "confluentinc/cp-server:7.6.1",
       "confluentinc/cp-server-connect:7.6.1",
       "confluentinc/cp-zookeeper:7.6.1",
-      "obsidiandynamics/kafdrop:4.0.1",
+      "obsidiandynamics/kafdrop:4.0.2",
       "tchiotludo/akhq:0.25.1",
       "nvcr.io/nvidia/gpu-operator:v24.3.0",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.3.0",

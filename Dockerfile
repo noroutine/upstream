@@ -91,7 +91,7 @@ FROM squidfunk/mkdocs-material:9.5.27
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.4-alpine
+FROM freeradius/freeradius-server:3.2.5-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
@@ -1679,7 +1679,7 @@ FROM confluentinc/cp-zookeeper:7.6.1
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
-FROM obsidiandynamics/kafdrop:4.0.1
+FROM obsidiandynamics/kafdrop:4.0.2
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
