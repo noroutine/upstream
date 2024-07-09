@@ -1183,7 +1183,7 @@ FROM supabase/edge-runtime:v1.54.10
 # supabase/edge-runtime
 
 # darthsim/imgproxy
-FROM darthsim/imgproxy:v3.24
+FROM darthsim/imgproxy:v3.25
 # darthsim/imgproxy
 
 # timberio/vector
