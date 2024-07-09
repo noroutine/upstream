@@ -1183,7 +1183,7 @@ FROM supabase/edge-runtime:v1.54.10
 # supabase/edge-runtime
 
 # darthsim/imgproxy
-FROM darthsim/imgproxy:v3.24
+FROM darthsim/imgproxy:v3.25
 # darthsim/imgproxy
 
 # timberio/vector
@@ -1343,7 +1343,7 @@ FROM hashicorp/vault-csi-provider:1.4.3
 # hashicorp/vault-csi-provider
 
 # hashicorp/terraform-cloud-operator
-FROM hashicorp/terraform-cloud-operator:2.4.1
+FROM hashicorp/terraform-cloud-operator:2.5.0
 # hashicorp/terraform-cloud-operator
 
 # strimzi/operator

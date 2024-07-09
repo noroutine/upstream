@@ -1,5 +1,5 @@
 {
-  "version": "bd795d28",
+  "version": "0e556af0",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -298,7 +298,7 @@
       "supabase/storage-api:v1.6.8",
       "supabase/logflare:1.7.6",
       "supabase/edge-runtime:v1.54.10",
-      "darthsim/imgproxy:v3.24",
+      "darthsim/imgproxy:v3.25",
       "timberio/vector:0.39.0-alpine",
       "kong:3.7.1-ubuntu",
       "quay.io/cilium/clustermesh-apiserver:v1.15.6",
@@ -338,7 +338,7 @@
       "hashicorp/vault:1.17.1",
       "hashicorp/vault-k8s:1.4.2",
       "hashicorp/vault-csi-provider:1.4.3",
-      "hashicorp/terraform-cloud-operator:2.4.1",
+      "hashicorp/terraform-cloud-operator:2.5.0",
       "quay.io/strimzi/operator:0.41.0",
       "quay.io/strimzi/kafka:0.41.0-kafka-3.7.0",
       "registry.k8s.io/pause:3.10",
