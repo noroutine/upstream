@@ -1171,7 +1171,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.6.8
+FROM supabase/storage-api:v1.7.0
 # supabase/storage-api
 
 # supabase/logflare
