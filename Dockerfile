@@ -119,7 +119,7 @@ FROM quay.io/minio/minio:RELEASE.2024-07-04T14-25-45Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-07-03T20-17-25Z
+FROM quay.io/minio/mc:RELEASE.2024-07-08T20-59-24Z
 # minio/mc
 
 # minio/console
@@ -587,7 +587,7 @@ FROM bitnami/memcached:1.6.29
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.10.2
+FROM bitnami/nginx-ingress-controller:1.11.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -599,7 +599,7 @@ FROM bitnami/minio:2024.7.4
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.7.3
+FROM bitnami/minio-client:2024.7.8
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -1175,11 +1175,11 @@ FROM supabase/storage-api:v1.6.8
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.5
+FROM supabase/logflare:1.7.6
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.9
+FROM supabase/edge-runtime:v1.54.10
 # supabase/edge-runtime
 
 # darthsim/imgproxy
