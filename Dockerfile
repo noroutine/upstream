@@ -1003,7 +1003,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.466-jdk17
+FROM jenkins/jenkins:2.467-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1175,11 +1175,11 @@ FROM supabase/storage-api:v1.7.0
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.6
+FROM supabase/logflare:1.7.7
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.54.10
+FROM supabase/edge-runtime:v1.55.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy

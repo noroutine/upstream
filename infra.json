@@ -1,5 +1,5 @@
 {
-  "version": "5ccb9628",
+  "version": "2bb5ef8e",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -253,7 +253,7 @@
       "netbirdio/management:0.28.4",
       "coturn/coturn:4.6.2",
       "firezone/firezone:0.7.36",
-      "jenkins/jenkins:2.466-jdk17",
+      "jenkins/jenkins:2.467-jdk17",
       "jenkins/agent:bookworm-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.1",
       "netboxcommunity/netbox:v4.0.7",
@@ -296,8 +296,8 @@
       "supabase/realtime:v2.29.16",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.7.0",
-      "supabase/logflare:1.7.6",
-      "supabase/edge-runtime:v1.54.10",
+      "supabase/logflare:1.7.7",
+      "supabase/edge-runtime:v1.55.0",
       "darthsim/imgproxy:v3.25",
       "timberio/vector:0.39.0-alpine",
       "kong:3.7.1-ubuntu",
