@@ -1,5 +1,5 @@
 {
-  "version": "55e583f0",
+  "version": "0431aa03",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -206,12 +206,12 @@
       "quay.io/argoproj/argocli:v3.5.8",
       "quay.io/argoproj/workflow-controller:v3.5.8",
       "quay.io/argoproj/argoexec:v3.5.8",
-      "redis:7.2.5-bookworm",
+      "redis:7.2.5",
       "listmonk/listmonk:v3.0.0",
       "vaultwarden/server:1.30.5",
-      "boky/postfix:v4.2.1-alpine",
+      "boky/postfix:v4.2.1",
       "cupcakearmy/cryptgeon:2.6.1",
-      "memcached:1.6.29-alpine",
+      "memcached:1.6.29",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.17-alpine",
       "natsio/prometheus-nats-exporter:0.15.0",

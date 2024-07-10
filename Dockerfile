@@ -815,7 +815,7 @@ FROM quay.io/argoproj/argoexec:v3.5.8
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.5-bookworm
+FROM redis:7.2.5
 # redis
 
 # listmonk/listmonk
@@ -827,7 +827,7 @@ FROM vaultwarden/server:1.30.5
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.2.1-alpine
+FROM boky/postfix:v4.2.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
@@ -835,7 +835,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.29-alpine
+FROM memcached:1.6.29
 # memcached
 
 # connecteverything/nats-operator
