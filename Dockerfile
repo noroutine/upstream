@@ -443,7 +443,7 @@ FROM nocodb/nocodb:0.251.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.10
+FROM metabase/metabase:v0.50.11
 # metabase/metabase
 
 # docker
@@ -1015,7 +1015,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.6
+FROM netboxcommunity/netbox:v4.0.7
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
