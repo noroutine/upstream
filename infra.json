@@ -1,5 +1,5 @@
 {
-  "version": "2bb5ef8e",
+  "version": "3af9e388",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -279,6 +279,7 @@
       "paperlessngx/paperless-ngx:2.10.2",
       "roundcube/roundcubemail:1.6.7-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
+      "docker.n8n.io/n8nio/n8n:1.50.0",
       "nodemailer/wildduck:1.43.3",
       "nodemailer/wildduck-webmail:1.0.1",
       "nodemailer/zonemta-wildduck:2.4.3",
