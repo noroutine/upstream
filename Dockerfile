@@ -115,7 +115,7 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-07-04T14-25-45Z
+FROM quay.io/minio/minio:RELEASE.2024-07-10T18-41-49Z
 # minio/minio
 
 # minio/mc
@@ -131,7 +131,7 @@ FROM quay.io/coreos/etcd:v3.5.14
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.53.0
+FROM quay.io/prometheus/prometheus:v2.53.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -231,15 +231,15 @@ FROM quay.io/cortexproject/cortex:v1.17.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.14.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.14.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.14.2
+FROM docker.elastic.co/logstash/logstash:8.14.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.14.2
+FROM docker.elastic.co/kibana/kibana:8.14.3
 # kibana/kibana
 
 # alerta/alerta-web
@@ -315,7 +315,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.1.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.1.1-ce.0
+FROM gitlab/gitlab-ce:17.1.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -327,7 +327,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.97.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.98.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -503,7 +503,7 @@ FROM bitnami/spark:3.5.1
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.53.0
+FROM bitnami/prometheus:2.53.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -595,7 +595,7 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.7.4
+FROM bitnami/minio:2024.7.10
 # bitnami/minio
 
 # bitnami/minio-client
@@ -823,7 +823,7 @@ FROM listmonk/listmonk:v3.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.30.5
+FROM vaultwarden/server:1.31.0
 # vaultwarden/server
 
 # boky/postfix
@@ -1063,7 +1063,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.55.2
+FROM ghcr.io/zitadel/zitadel:v2.56.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1167,7 +1167,7 @@ FROM supabase/gotrue:v2.155.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.16
+FROM supabase/realtime:v2.29.17
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1539,7 +1539,7 @@ FROM calico/csi:v3.28.0
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.1
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.2
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
