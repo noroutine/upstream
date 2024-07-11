@@ -1175,7 +1175,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.7.0
+FROM supabase/storage-api:v1.7.1
 # supabase/storage-api
 
 # supabase/logflare
@@ -1199,15 +1199,15 @@ FROM kong:3.7.1-ubuntu
 # kong
 
 # cilium/clustermesh-apiserver
-FROM quay.io/cilium/clustermesh-apiserver:v1.15.6
+FROM quay.io/cilium/clustermesh-apiserver:v1.15.7
 # cilium/clustermesh-apiserver
 
 # cilium/cilium
-FROM quay.io/cilium/cilium:v1.15.6
+FROM quay.io/cilium/cilium:v1.15.7
 # cilium/cilium
 
 # cilium/operator
-FROM quay.io/cilium/operator:v1.15.6
+FROM quay.io/cilium/operator:v1.15.7
 # cilium/operator
 
 # cilium/startup-script
@@ -1223,7 +1223,7 @@ FROM quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
-FROM quay.io/cilium/hubble-relay:v1.15.6
+FROM quay.io/cilium/hubble-relay:v1.15.7
 # cilium/hubble-relay
 
 # cilium/hubble-ui
@@ -1241,6 +1241,30 @@ FROM ghcr.io/spiffe/spire-server:1.10.0
 # spiffe/spire-agent
 FROM ghcr.io/spiffe/spire-agent:1.10.0
 # spiffe/spire-agent
+
+# bitnami/cilium
+FROM bitnami/cilium:1.15.7
+# bitnami/cilium
+
+# bitnami/cilium-proxy
+FROM bitnami/cilium-proxy:1.28.5
+# bitnami/cilium-proxy
+
+# bitnami/cilium-operator
+FROM bitnami/cilium-operator:1.15.7
+# bitnami/cilium-operator
+
+# bitnami/hubble-relay
+FROM bitnami/hubble-relay:1.15.7
+# bitnami/hubble-relay
+
+# bitnami/hubble-ui
+FROM bitnami/hubble-ui:0.13.1
+# bitnami/hubble-ui
+
+# bitnami/hubble-ui-backend
+FROM bitnami/hubble-ui-backend:0.13.1
+# bitnami/hubble-ui-backend
 
 # velero/velero
 FROM velero/velero:v1.14.0
