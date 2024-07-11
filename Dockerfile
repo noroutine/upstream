@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.98.
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -1167,7 +1167,7 @@ FROM supabase/gotrue:v2.155.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.17
+FROM supabase/realtime:v2.30.0
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1247,7 +1247,7 @@ FROM bitnami/cilium:1.15.7
 # bitnami/cilium
 
 # bitnami/cilium-proxy
-FROM bitnami/cilium-proxy:1.28.5
+FROM bitnami/cilium-proxy:1.29.7
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator

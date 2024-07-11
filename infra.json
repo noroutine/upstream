@@ -1,5 +1,5 @@
 {
-  "version": "7aff1970",
+  "version": "796ab472",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -85,7 +85,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.1.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.98.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.1",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.2",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.317.0-ubuntu-22.04",
@@ -294,7 +294,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.155.1",
-      "supabase/realtime:v2.29.17",
+      "supabase/realtime:v2.30.0",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.7.1",
       "supabase/logflare:1.7.7",
@@ -314,7 +314,7 @@
       "ghcr.io/spiffe/spire-server:1.10.0",
       "ghcr.io/spiffe/spire-agent:1.10.0",
       "bitnami/cilium:1.15.7",
-      "bitnami/cilium-proxy:1.28.5",
+      "bitnami/cilium-proxy:1.29.7",
       "bitnami/cilium-operator:1.15.7",
       "bitnami/hubble-relay:1.15.7",
       "bitnami/hubble-ui:0.13.1",
