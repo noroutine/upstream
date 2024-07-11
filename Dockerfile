@@ -1039,7 +1039,7 @@ FROM locustio/locust:2.29.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.1
+FROM postgrest/postgrest:v12.2.2
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
