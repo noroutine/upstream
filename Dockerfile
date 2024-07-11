@@ -1163,7 +1163,7 @@ FROM supabase/gotrue:v2.155.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.29.16
+FROM supabase/realtime:v2.29.17
 # supabase/realtime
 
 # supabase/postgres-meta
