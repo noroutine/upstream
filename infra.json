@@ -1,5 +1,5 @@
 {
-  "version": "96288894",
+  "version": "139643a3",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -262,7 +262,7 @@
       "kubernetesui/dashboard-web:1.4.0",
       "kubernetesui/metrics-scraper:v1.0.9",
       "locustio/locust:2.29.1",
-      "postgrest/postgrest:v12.2.1",
+      "postgrest/postgrest:v12.2.2",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.8.0",
       "guacamole/guacamole:1.5.5",
@@ -336,7 +336,7 @@
       "hashicorp/consul:1.19.0",
       "hashicorp/consul-k8s-control-plane:1.5.0",
       "envoyproxy/envoy-alpine:v1.21.6",
-      "hashicorp/vault:1.17.1",
+      "hashicorp/vault:1.17.2",
       "hashicorp/vault-k8s:1.4.2",
       "hashicorp/vault-csi-provider:1.4.3",
       "hashicorp/terraform-cloud-operator:2.5.0",

@@ -1039,7 +1039,7 @@ FROM locustio/locust:2.29.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.1
+FROM postgrest/postgrest:v12.2.2
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
@@ -1335,7 +1335,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.17.1
+FROM hashicorp/vault:1.17.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
