@@ -623,7 +623,7 @@ FROM bitnami/grafana-image-renderer:3.11.0
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.19.0
+FROM bitnami/consul:1.19.1
 # bitnami/consul
 
 # bitnami/nats
@@ -1347,7 +1347,7 @@ FROM vstadtmueller/cert-manager-webhook-powerdns:main
 # vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.19.0
+FROM hashicorp/consul:1.19.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane

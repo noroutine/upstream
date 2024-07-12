@@ -1,5 +1,5 @@
 {
-  "version": "e0a8f874",
+  "version": "09a417af",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -158,7 +158,7 @@
       "bitnami/metallb-speaker:0.14.5",
       "bitnami/grafana:11.1.0",
       "bitnami/grafana-image-renderer:3.11.0",
-      "bitnami/consul:1.19.0",
+      "bitnami/consul:1.19.1",
       "bitnami/nats:2.10.17",
       "bitnami/kube-state-metrics:2.12.0",
       "bitnami/metrics-server:0.7.1",
@@ -339,7 +339,7 @@
       "quay.io/jetstack/cert-manager-csi-driver:v0.9.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "vstadtmueller/cert-manager-webhook-powerdns:main",
-      "hashicorp/consul:1.19.0",
+      "hashicorp/consul:1.19.1",
       "hashicorp/consul-k8s-control-plane:1.5.0",
       "envoyproxy/envoy-alpine:v1.21.6",
       "hashicorp/vault:1.17.2",
