@@ -399,7 +399,7 @@ FROM quay.io/jupyterhub/repo2docker:2024.07.0
 # jupyterhub/repo2docker
 
 # pihole/pihole
-FROM pihole/pihole:2024.06.0
+FROM pihole/pihole:2024.07.0
 # pihole/pihole
 
 # klutchell/unbound
@@ -1095,7 +1095,7 @@ FROM gitea/gitea:1.22.1-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.10.2
+FROM paperlessngx/paperless-ngx:2.11.0
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1167,7 +1167,7 @@ FROM supabase/gotrue:v2.155.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.0
+FROM supabase/realtime:v2.30.2
 # supabase/realtime
 
 # supabase/postgres-meta
