@@ -267,7 +267,7 @@ FROM mysql:9.0.0
 # mysql
 
 # mariadb
-FROM mariadb:11.3.2-jammy
+FROM mariadb:11.4.2-noble
 # mariadb
 
 # mccutchen/go-httpbin
@@ -575,7 +575,7 @@ FROM bitnami/keycloak-config-cli:5.12.0
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.3.2
+FROM bitnami/mariadb:11.4.2
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -771,7 +771,7 @@ FROM drakkan/sftpgo:v2.6.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.40.2
+FROM hasura/graphql-engine:v2.41.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes

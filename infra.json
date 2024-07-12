@@ -1,5 +1,5 @@
 {
-  "version": "796ab472",
+  "version": "e0a8f874",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -69,7 +69,7 @@
       "dpage/pgadmin4:8.9",
       "adminer:4.8.1",
       "mysql:9.0.0",
-      "mariadb:11.3.2-jammy",
+      "mariadb:11.4.2-noble",
       "mccutchen/go-httpbin:v2.14.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.6.0-alpine",
       "heroku/heroku:24-build",
@@ -146,7 +146,7 @@
       "bitnami/jmx-exporter:1.0.1",
       "bitnami/keycloak:24.0.5",
       "bitnami/keycloak-config-cli:5.12.0",
-      "bitnami/mariadb:11.3.2",
+      "bitnami/mariadb:11.4.2",
       "bitnami/mongodb:7.0.12",
       "bitnami/memcached:1.6.29",
       "bitnami/nginx-ingress-controller:1.11.0",
@@ -195,7 +195,7 @@
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.4",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.6.2",
-      "hasura/graphql-engine:v2.40.2",
+      "hasura/graphql-engine:v2.41.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.116",
       "jimmidyson/configmap-reload:v0.9.0",
