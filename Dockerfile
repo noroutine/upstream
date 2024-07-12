@@ -83,7 +83,7 @@ FROM traefik:v3.0.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.69.0
+FROM sonatype/nexus3:3.70.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -1110,6 +1110,10 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 FROM docker.n8n.io/n8nio/n8n:1.50.0
 # n8nio/n8n
 
+# cloudflare/cloudflared
+FROM cloudflare/cloudflared:2024.6.1
+# cloudflare/cloudflared
+
 # nodemailer/wildduck
 FROM nodemailer/wildduck:1.43.3
 # nodemailer/wildduck
@@ -1341,10 +1345,6 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.9.0
 # zachomedia/cert-manager-webhook-pdns
 FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
 # zachomedia/cert-manager-webhook-pdns
-
-# vstadtmueller/cert-manager-webhook-powerdns
-FROM vstadtmueller/cert-manager-webhook-powerdns:main
-# vstadtmueller/cert-manager-webhook-powerdns
 
 # hashicorp/consul
 FROM hashicorp/consul:1.19.1

@@ -1,5 +1,5 @@
 {
-  "version": "a89cb7ac",
+  "version": "9d163b03",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -23,7 +23,7 @@
       "golang:1.22.5-bookworm",
       "golang:1.22.5-alpine",
       "traefik:v3.0.4",
-      "sonatype/nexus3:3.69.0",
+      "sonatype/nexus3:3.70.1",
       "squidfunk/mkdocs-material:9.5.27",
       "freeradius/freeradius-server:3.2.5-alpine",
       "quay.io/keycloak/keycloak:25.0.1",
@@ -280,6 +280,7 @@
       "roundcube/roundcubemail:1.6.7-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
       "docker.n8n.io/n8nio/n8n:1.50.0",
+      "cloudflare/cloudflared:2024.6.1",
       "nodemailer/wildduck:1.43.3",
       "nodemailer/wildduck-webmail:1.0.1",
       "nodemailer/zonemta-wildduck:2.4.3",
@@ -338,7 +339,6 @@
       "quay.io/jetstack/cert-manager-webhook:v1.15.1",
       "quay.io/jetstack/cert-manager-csi-driver:v0.9.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
-      "vstadtmueller/cert-manager-webhook-powerdns:main",
       "hashicorp/consul:1.19.1",
       "hashicorp/consul-k8s-control-plane:1.5.0",
       "envoyproxy/envoy-alpine:v1.21.6",
