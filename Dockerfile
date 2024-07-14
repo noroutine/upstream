@@ -115,11 +115,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-07-10T18-41-49Z
+FROM quay.io/minio/minio:RELEASE.2024-07-13T01-46-15Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-07-08T20-59-24Z
+FROM quay.io/minio/mc:RELEASE.2024-07-11T18-01-28Z
 # minio/mc
 
 # minio/console
@@ -427,11 +427,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.87.1
+FROM ghost:5.87.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.87.1
+FROM bitnami/ghost:5.87.2
 # bitnami/ghost
 
 # matomo
@@ -443,7 +443,7 @@ FROM nocodb/nocodb:0.251.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.11
+FROM metabase/metabase:v0.50.12
 # metabase/metabase
 
 # docker
@@ -595,11 +595,11 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.7.10
+FROM bitnami/minio:2024.7.13
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.7.8
+FROM bitnami/minio-client:2024.7.11
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -1171,7 +1171,7 @@ FROM supabase/gotrue:v2.155.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.2
+FROM supabase/realtime:v2.30.12
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1183,7 +1183,7 @@ FROM supabase/storage-api:v1.7.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.7
+FROM supabase/logflare:1.7.8
 # supabase/logflare
 
 # supabase/edge-runtime
