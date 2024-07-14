@@ -199,7 +199,7 @@ FROM httpd:2.4.61-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.25-jdk21-temurin-jammy
+FROM tomcat:10.1.26-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -1135,7 +1135,7 @@ FROM nodemailer/rspamd:2.7.0
 # nodemailer/rspamd
 
 # rspamd/rspamd
-FROM rspamd/rspamd:3.8.4
+FROM rspamd/rspamd:3.9.0
 # rspamd/rspamd
 
 # scylladb/scylla

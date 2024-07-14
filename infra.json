@@ -1,5 +1,5 @@
 {
-  "version": "83b4e59c",
+  "version": "8d1b03b5",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -52,7 +52,7 @@
       "nginxinc/nginx-unprivileged:1.27.0-alpine-slim",
       "nginxinc/nginx-unprivileged:1.27.0-alpine-slim",
       "httpd:2.4.61-alpine",
-      "tomcat:10.1.25-jdk21-temurin-jammy",
+      "tomcat:10.1.26-jdk21-temurin-jammy",
       "quay.io/m3db/m3coordinator:v1.5.0",
       "quay.io/m3db/m3dbnode:v1.5.0",
       "braedon/prometheus-es-exporter:0.14.1",
@@ -286,7 +286,7 @@
       "nodemailer/zonemta-wildduck:2.4.3",
       "nodemailer/haraka-wildduck:2.8.27",
       "nodemailer/rspamd:2.7.0",
-      "rspamd/rspamd:3.8.4",
+      "rspamd/rspamd:3.9.0",
       "scylladb/scylla:6.0.1",
       "scylladb/scylla-manager:3.2.8",
       "scylladb/scylla-operator:1.13.0",
