@@ -1,5 +1,5 @@
 {
-  "version": "8d1b03b5",
+  "version": "856b9cc6",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -18,6 +18,7 @@
       "buildpack-deps:focal",
       "buildpack-deps:jammy",
       "php:8.3.9-apache-bookworm",
+      "node:22.4.1-bookworm",
       "python:3.12.4-bookworm",
       "python:3.12.4-slim-bookworm",
       "golang:1.22.5-bookworm",

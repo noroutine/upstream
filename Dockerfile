@@ -62,6 +62,10 @@ FROM buildpack-deps:jammy
 FROM php:8.3.9-apache-bookworm
 # php
 
+# node
+FROM node:22.4.1-bookworm
+# node
+
 # python
 FROM python:3.12.4-bookworm
 # python
