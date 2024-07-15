@@ -1,5 +1,5 @@
 {
-  "version": "856b9cc6",
+  "version": "243d66e6",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -38,7 +38,7 @@
       "quay.io/coreos/etcd:v3.5.14",
       "quay.io/prometheus/prometheus:v2.53.1",
       "quay.io/prometheus/alertmanager:v0.27.0",
-      "quay.io/prometheus/node-exporter:v1.8.1",
+      "quay.io/prometheus/node-exporter:v1.8.2",
       "quay.io/prometheus/consul-exporter:v0.12.0",
       "quay.io/prometheus/blackbox-exporter:v0.25.0",
       "quay.io/prometheus/snmp-exporter:v0.26.0",
@@ -131,7 +131,7 @@
       "bitnami/spark:3.5.1",
       "bitnami/prometheus:2.53.1",
       "bitnami/prometheus-operator:0.75.1",
-      "bitnami/node-exporter:1.8.1",
+      "bitnami/node-exporter:1.8.2",
       "bitnami/blackbox-exporter:0.25.0",
       "bitnami/postgres-exporter:0.15.0",
       "bitnami/redis:7.2.5",
@@ -146,7 +146,7 @@
       "bitnami/tomcat:10.1.25",
       "bitnami/jmx-exporter:1.0.1",
       "bitnami/keycloak:24.0.5",
-      "bitnami/keycloak-config-cli:5.12.0",
+      "bitnami/keycloak-config-cli:6.1.5",
       "bitnami/mariadb:11.4.2",
       "bitnami/mongodb:7.0.12",
       "bitnami/memcached:1.6.29",
@@ -230,7 +230,7 @@
       "elastic/eck-operator:2.13.0",
       "louislam/uptime-kuma:1.23.13-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.77.2",
+      "outlinewiki/outline:0.77.3",
       "syncthing/syncthing:1.27.9",
       "syncthing/discosrv:1.27.9",
       "syncthing/relaysrv:1.27.9",

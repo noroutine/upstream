@@ -143,7 +143,7 @@ FROM quay.io/prometheus/alertmanager:v0.27.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.8.1
+FROM quay.io/prometheus/node-exporter:v1.8.2
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
@@ -515,7 +515,7 @@ FROM bitnami/prometheus-operator:0.75.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.8.1
+FROM bitnami/node-exporter:1.8.2
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
@@ -575,7 +575,7 @@ FROM bitnami/keycloak:24.0.5
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:5.12.0
+FROM bitnami/keycloak-config-cli:6.1.5
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
@@ -911,7 +911,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.77.2
+FROM outlinewiki/outline:0.77.3
 # outlinewiki/outline
 
 # syncthing/syncthing
