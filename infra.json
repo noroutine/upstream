@@ -1,5 +1,5 @@
 {
-  "version": "3b7efa75",
+  "version": "a7ae81b9",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.87.2",
       "matomo:5.1.0-apache",
       "nocodb/nocodb:0.251.1",
-      "metabase/metabase:v0.50.12",
+      "metabase/metabase:v0.50.13",
       "docker:27.0.3-dind",
       "quay.io/podman/stable:v5.1.1",
       "jupyter/base-notebook:2023-10-20",
@@ -292,7 +292,7 @@
       "airbyte/connector-builder-server:0.63.8",
       "airbyte/airbyte-api-server:0.63.8",
       "airbyte/workload-api-server:0.63.8",
-      "temporalio/auto-setup:1.23.0",
+      "temporalio/auto-setup:1.24.2",
       "nodemailer/wildduck:1.43.3",
       "nodemailer/wildduck-webmail:1.0.1",
       "nodemailer/zonemta-wildduck:2.4.3",
