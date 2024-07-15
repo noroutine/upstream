@@ -1118,6 +1118,50 @@ FROM docker.n8n.io/n8nio/n8n:1.50.0
 FROM cloudflare/cloudflared:2024.6.1
 # cloudflare/cloudflared
 
+# airbyte/webapp
+FROM airbyte/webapp:0.63.8
+# airbyte/webapp
+
+# airbyte/server
+FROM airbyte/server:0.63.8
+# airbyte/server
+
+# airbyte/worker
+FROM airbyte/worker:0.63.8
+# airbyte/worker
+
+# airbyte/metrics-reporter
+FROM airbyte/metrics-reporter:0.63.8
+# airbyte/metrics-reporter
+
+# airbyte/bootloader
+FROM airbyte/bootloader:0.63.8
+# airbyte/bootloader
+
+# airbyte/db
+FROM airbyte/db:0.63.8
+# airbyte/db
+
+# airbyte/cron
+FROM airbyte/cron:0.63.8
+# airbyte/cron
+
+# airbyte/connector-builder-server
+FROM airbyte/connector-builder-server:0.63.8
+# airbyte/connector-builder-server
+
+# airbyte/airbyte-api-server
+FROM airbyte/airbyte-api-server:0.63.8
+# airbyte/airbyte-api-server
+
+# airbyte/workload-api-server
+FROM airbyte/workload-api-server:0.63.8
+# airbyte/workload-api-server
+
+# temporalio/auto-setup
+FROM temporalio/auto-setup:1.23.0
+# temporalio/auto-setup
+
 # nodemailer/wildduck
 FROM nodemailer/wildduck:1.43.3
 # nodemailer/wildduck

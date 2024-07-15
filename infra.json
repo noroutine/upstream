@@ -1,5 +1,5 @@
 {
-  "version": "243d66e6",
+  "version": "3b7efa75",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -282,6 +282,17 @@
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
       "docker.n8n.io/n8nio/n8n:1.50.0",
       "cloudflare/cloudflared:2024.6.1",
+      "airbyte/webapp:0.63.8",
+      "airbyte/server:0.63.8",
+      "airbyte/worker:0.63.8",
+      "airbyte/metrics-reporter:0.63.8",
+      "airbyte/bootloader:0.63.8",
+      "airbyte/db:0.63.8",
+      "airbyte/cron:0.63.8",
+      "airbyte/connector-builder-server:0.63.8",
+      "airbyte/airbyte-api-server:0.63.8",
+      "airbyte/workload-api-server:0.63.8",
+      "temporalio/auto-setup:1.23.0",
       "nodemailer/wildduck:1.43.3",
       "nodemailer/wildduck-webmail:1.0.1",
       "nodemailer/zonemta-wildduck:2.4.3",
