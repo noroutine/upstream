@@ -515,7 +515,7 @@ FROM bitnami/prometheus-operator:0.75.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.8.1
+FROM bitnami/node-exporter:1.8.2
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
