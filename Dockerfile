@@ -1219,7 +1219,7 @@ FROM supabase/gotrue:v2.155.3
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.12
+FROM supabase/realtime:v2.30.14
 # supabase/realtime
 
 # supabase/postgres-meta
