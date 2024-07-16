@@ -119,11 +119,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-07-13T01-46-15Z
+FROM quay.io/minio/minio:RELEASE.2024-07-15T19-02-30Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-07-11T18-01-28Z
+FROM quay.io/minio/mc:RELEASE.2024-07-15T17-46-06Z
 # minio/mc
 
 # minio/console
@@ -599,11 +599,11 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.7.13
+FROM bitnami/minio:2024.7.15
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.7.11
+FROM bitnami/minio-client:2024.7.15
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -623,7 +623,7 @@ FROM bitnami/grafana:11.1.0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.11.0
+FROM bitnami/grafana-image-renderer:3.11.1
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -1219,7 +1219,7 @@ FROM supabase/gotrue:v2.155.3
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.12
+FROM supabase/realtime:v2.30.14
 # supabase/realtime
 
 # supabase/postgres-meta
