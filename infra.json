@@ -1,5 +1,5 @@
 {
-  "version": "6884805d",
+  "version": "11ddd133",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -23,7 +23,7 @@
       "python:3.12.4-slim-bookworm",
       "golang:1.22.5-bookworm",
       "golang:1.22.5-alpine",
-      "traefik:v3.0.4",
+      "traefik:v3.1.0",
       "sonatype/nexus3:3.70.1",
       "squidfunk/mkdocs-material:9.5.27",
       "freeradius/freeradius-server:3.2.5-alpine",
@@ -202,7 +202,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.40.0",
-      "quay.io/argoproj/argocd:v2.11.4",
+      "quay.io/argoproj/argocd:v2.11.5",
       "quay.io/argoproj/argo-events:v1.9.2",
       "quay.io/argoproj/argocli:v3.5.8",
       "quay.io/argoproj/workflow-controller:v3.5.8",
@@ -447,7 +447,7 @@
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.3.0",
       "nvcr.io/nvidia/cuda:12.5.1-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.9",
-      "nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8",
+      "nvcr.io/nvidia/k8s/container-toolkit:v1.16.0-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.15.1-ubi8",
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.6-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.6-3.4.2-ubi9",

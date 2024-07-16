@@ -83,7 +83,7 @@ FROM golang:1.22.5-alpine
 # golang
 
 # traefik
-FROM traefik:v3.0.4
+FROM traefik:v3.1.0
 # traefik
 
 # sonatype/nexus3
@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.40.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.11.4
+FROM quay.io/argoproj/argocd:v2.11.5
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -1779,7 +1779,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.9
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.15.0-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.16.0-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
