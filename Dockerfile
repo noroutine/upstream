@@ -1399,7 +1399,7 @@ FROM hashicorp/consul:1.19.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.5.0
+FROM hashicorp/consul-k8s-control-plane:1.5.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
