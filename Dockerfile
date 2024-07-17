@@ -255,7 +255,7 @@ FROM mongo:7.0.12-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.5.5-apache
+FROM wordpress:6.6.0-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.467-jdk17
+FROM jenkins/jenkins:2.468-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1399,7 +1399,7 @@ FROM hashicorp/consul:1.19.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.5.0
+FROM hashicorp/consul-k8s-control-plane:1.5.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -1679,11 +1679,11 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.3.0
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.12.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.13.1
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.1
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.11.1
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
@@ -1775,7 +1775,7 @@ FROM nvcr.io/nvidia/cuda:12.5.1-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.9
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.10
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
