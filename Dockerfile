@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.50.0
+FROM docker.n8n.io/n8nio/n8n:1.50.1
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1227,7 +1227,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.7.1
+FROM supabase/storage-api:v1.8.2
 # supabase/storage-api
 
 # supabase/logflare
@@ -1359,7 +1359,7 @@ FROM bitnami/kubectl:1.30.2
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.9.2-python3.11
+FROM apache/airflow:2.9.3-python3.12
 # apache/airflow
 
 # git-sync/git-sync
@@ -1611,7 +1611,7 @@ FROM calico/csi:v3.28.0
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.2
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.3
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
