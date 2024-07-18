@@ -1723,7 +1723,7 @@ FROM confluentinc/cp-enterprise-control-center:7.6.1
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.6.1
+FROM confluentinc/cp-enterprise-replicator:7.6.2
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
