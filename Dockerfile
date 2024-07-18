@@ -119,7 +119,7 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-07-15T19-02-30Z
+FROM quay.io/minio/minio:RELEASE.2024-07-16T23-46-41Z
 # minio/minio
 
 # minio/mc
@@ -331,11 +331,11 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.98.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.99.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.1.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.7.15
+FROM bitnami/minio:2024.7.16
 # bitnami/minio
 
 # bitnami/minio-client
@@ -611,11 +611,11 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.5
+FROM bitnami/metallb-controller:0.14.7
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.5
+FROM bitnami/metallb-speaker:0.14.7
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -631,7 +631,7 @@ FROM bitnami/consul:1.19.1
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.17
+FROM bitnami/nats:2.10.18
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -679,7 +679,7 @@ FROM bitnami/trivy:0.53.0
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.30.2
+FROM bitnami/kubectl:1.30.3
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -847,7 +847,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.17-alpine
+FROM nats:2.10.18-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -891,7 +891,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:22.0.1-22.30
+FROM azul/zulu-openjdk:22.0.2-22.32
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -931,11 +931,11 @@ FROM jellyfin/jellyfin:10.9.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.22.01
+FROM haveagitgat/tdarr:2.23.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.22.01
+FROM haveagitgat/tdarr_node:2.23.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.50.1
+FROM docker.n8n.io/n8nio/n8n:1.51.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1215,7 +1215,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.155.3
+FROM supabase/gotrue:v2.155.4
 # supabase/gotrue
 
 # supabase/realtime
@@ -1231,7 +1231,7 @@ FROM supabase/storage-api:v1.8.2
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.8
+FROM supabase/logflare:1.7.9
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1355,7 +1355,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.30.2
+FROM bitnami/kubectl:1.30.3
 # bitnami/kubectl
 
 # apache/airflow
@@ -1439,67 +1439,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.1
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.30.2
+FROM registry.k8s.io/kube-apiserver:v1.30.3
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.30.2
+FROM registry.k8s.io/kube-proxy:v1.30.3
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.30.2
+FROM registry.k8s.io/kube-scheduler:v1.30.3
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.30.2
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.6
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.6
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.6
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.6
+FROM registry.k8s.io/kube-controller-manager:v1.30.3
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.11
+FROM registry.k8s.io/kube-apiserver:v1.29.7
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.11
+FROM registry.k8s.io/kube-proxy:v1.29.7
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.11
+FROM registry.k8s.io/kube-scheduler:v1.29.7
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.11
+FROM registry.k8s.io/kube-controller-manager:v1.29.7
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.15
+FROM registry.k8s.io/kube-apiserver:v1.28.12
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.15
+FROM registry.k8s.io/kube-proxy:v1.28.12
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.15
+FROM registry.k8s.io/kube-scheduler:v1.28.12
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.15
+FROM registry.k8s.io/kube-controller-manager:v1.28.12
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.27.16
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.27.16
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.27.16
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.27.16
 # kube-controller-manager
 
 # kube-apiserver
@@ -1719,39 +1719,39 @@ FROM confluentinc/confluent-operator:0.921.40
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.6.1
+FROM confluentinc/cp-enterprise-control-center:7.6.2
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.6.1
+FROM confluentinc/cp-enterprise-replicator:7.6.2
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.6.1
+FROM confluentinc/cp-kafka-rest:7.6.2
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.6.1
+FROM confluentinc/cp-ksqldb-server:7.6.2
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.6.1
+FROM confluentinc/cp-ksqldb-cli:7.6.2
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.6.1
+FROM confluentinc/cp-schema-registry:7.6.2
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.6.1
+FROM confluentinc/cp-server:7.6.2
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.6.1
+FROM confluentinc/cp-server-connect:7.6.2
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.6.1
+FROM confluentinc/cp-zookeeper:7.6.2
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
@@ -1783,7 +1783,7 @@ FROM nvcr.io/nvidia/k8s/container-toolkit:v1.16.0-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
-FROM nvcr.io/nvidia/k8s-device-plugin:v0.15.1-ubi8
+FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.0-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
@@ -1799,6 +1799,6 @@ FROM nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8
 # nvidia/gpu-feature-discovery
 
 # nvidia/cloud-native/k8s-mig-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.7.0-ubi8
+FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.8.0-ubi8
 # nvidia/cloud-native/k8s-mig-manager
 
