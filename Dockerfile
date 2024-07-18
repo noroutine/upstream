@@ -1215,7 +1215,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.155.3
+FROM supabase/gotrue:v2.155.4
 # supabase/gotrue
 
 # supabase/realtime
