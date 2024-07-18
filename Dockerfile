@@ -1735,7 +1735,7 @@ FROM confluentinc/cp-ksqldb-server:7.6.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.6.1
+FROM confluentinc/cp-ksqldb-cli:7.6.2
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
