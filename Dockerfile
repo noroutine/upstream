@@ -99,7 +99,7 @@ FROM freeradius/freeradius-server:3.2.5-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:25.0.1
+FROM quay.io/keycloak/keycloak:25.0.2
 # keycloak/keycloak
 
 # postgres
@@ -1663,7 +1663,7 @@ FROM longhornio/livenessprobe:v2.12.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.39
+FROM longhornio/support-bundle-kit:v0.0.40
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
