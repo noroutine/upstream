@@ -671,7 +671,7 @@ FROM bitnami/openldap:2.6.8
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.27.0
+FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
