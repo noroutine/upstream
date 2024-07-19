@@ -199,7 +199,7 @@ FROM nginxinc/nginx-unprivileged:1.27.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.61-alpine
+FROM httpd:2.4.62-alpine
 # httpd
 
 # tomcat
