@@ -1079,7 +1079,7 @@ FROM koenkk/zigbee2mqtt:1.39.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.7.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.8.0
 # sig-storage/nfsplugin
 
 # spvest/azure-keyvault-controller
