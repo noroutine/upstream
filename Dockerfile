@@ -63,7 +63,7 @@ FROM php:8.3.9-apache-bookworm
 # php
 
 # node
-FROM node:22.4.1-bookworm
+FROM node:22.5.0-bookworm
 # node
 
 # python
@@ -107,7 +107,7 @@ FROM postgres:16.3-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.17.0
+FROM atlassian/jira-software:9.17.1
 # atlassian/jira-software
 
 # nextcloud
@@ -199,7 +199,7 @@ FROM nginxinc/nginx-unprivileged:1.27.0-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
-FROM httpd:2.4.61-alpine
+FROM httpd:2.4.62-alpine
 # httpd
 
 # tomcat
@@ -311,23 +311,23 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.19.7
+FROM buildpacksio/lifecycle:0.20.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v17.1.0
+FROM gitlab/gitlab-runner:alpine3.19-v17.2.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.1.2-ce.0
+FROM gitlab/gitlab-ce:17.2.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.1.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.2.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.3.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.87.2
+FROM ghost:5.87.3
 # ghost
 
 # bitnami/ghost
@@ -531,7 +531,7 @@ FROM bitnami/redis:7.2.5
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.61.0
+FROM bitnami/redis-exporter:1.62.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -591,7 +591,7 @@ FROM bitnami/memcached:1.6.29
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.11.0
+FROM bitnami/nginx-ingress-controller:1.11.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -671,7 +671,7 @@ FROM bitnami/openldap:2.6.8
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.27.0
+FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -939,11 +939,11 @@ FROM haveagitgat/tdarr_node:2.23.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.24.2
+FROM gravitl/netmaker:v0.24.3
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.24.2
+FROM gravitl/netmaker-ui:v0.24.3
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.4
+FROM netbirdio/signal:0.28.5
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.4
+FROM netbirdio/management:0.28.5
 # netbirdio/management
 
 # coturn/coturn
@@ -1079,7 +1079,7 @@ FROM koenkk/zigbee2mqtt:1.39.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.7.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.8.0
 # sig-storage/nfsplugin
 
 # spvest/azure-keyvault-controller
@@ -1639,7 +1639,7 @@ FROM longhornio/backing-image-manager:v1.6.2
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.9.2
+FROM longhornio/csi-node-driver-registrar:v2.10.1
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
@@ -1647,7 +1647,7 @@ FROM longhornio/csi-snapshotter:v7.0.2
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.10.1
+FROM longhornio/csi-resizer:v1.11.1
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
@@ -1655,7 +1655,7 @@ FROM longhornio/csi-provisioner:v4.0.1
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v4.5.1
+FROM longhornio/csi-attacher:v4.6.1
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
