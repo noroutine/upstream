@@ -63,7 +63,7 @@ FROM php:8.3.9-apache-bookworm
 # php
 
 # node
-FROM node:22.5.0-bookworm
+FROM node:22.5.1-bookworm
 # node
 
 # python
@@ -131,7 +131,7 @@ FROM quay.io/minio/console:v0.30.0
 # minio/console
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.14
+FROM quay.io/coreos/etcd:v3.5.15
 # coreos/etcd
 
 # prometheus/prometheus
@@ -1215,7 +1215,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.155.4
+FROM supabase/gotrue:v2.155.5
 # supabase/gotrue
 
 # supabase/realtime
@@ -1231,7 +1231,7 @@ FROM supabase/storage-api:v1.8.2
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.11
+FROM supabase/logflare:1.7.13
 # supabase/logflare
 
 # supabase/edge-runtime

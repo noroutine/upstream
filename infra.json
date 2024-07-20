@@ -1,5 +1,5 @@
 {
-  "version": "c5ec8260",
+  "version": "da60eb1f",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -18,7 +18,7 @@
       "buildpack-deps:focal",
       "buildpack-deps:jammy",
       "php:8.3.9-apache-bookworm",
-      "node:22.5.0-bookworm",
+      "node:22.5.1-bookworm",
       "python:3.12.4-bookworm",
       "python:3.12.4-slim-bookworm",
       "golang:1.22.5-bookworm",
@@ -35,7 +35,7 @@
       "quay.io/minio/minio:RELEASE.2024-07-16T23-46-41Z",
       "quay.io/minio/mc:RELEASE.2024-07-15T17-46-06Z",
       "quay.io/minio/console:v0.30.0",
-      "quay.io/coreos/etcd:v3.5.14",
+      "quay.io/coreos/etcd:v3.5.15",
       "quay.io/prometheus/prometheus:v2.53.1",
       "quay.io/prometheus/alertmanager:v0.27.0",
       "quay.io/prometheus/node-exporter:v1.8.2",
@@ -306,11 +306,11 @@
       "chirpstack/chirpstack-rest-api:4.8.1",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.155.4",
+      "supabase/gotrue:v2.155.5",
       "supabase/realtime:v2.30.14",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.8.2",
-      "supabase/logflare:1.7.11",
+      "supabase/logflare:1.7.13",
       "supabase/edge-runtime:v1.55.0",
       "darthsim/imgproxy:v3.25",
       "timberio/vector:0.39.0-alpine",
