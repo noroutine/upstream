@@ -1343,7 +1343,7 @@ FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.3
 # vsphereveleroplugin/velero-plugin-for-vsphere
 
 # vsphereveleroplugin/backup-driver
-FROM vsphereveleroplugin/backup-driver:v1.5.3
+FROM vsphereveleroplugin/backup-driver:v1.5.4
 # vsphereveleroplugin/backup-driver
 
 # vsphereveleroplugin/data-manager-for-plugin
