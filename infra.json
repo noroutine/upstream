@@ -1,5 +1,5 @@
 {
-  "version": "0264a919",
+  "version": "c5ec8260",
   "upstream": {
     "images": [
       "debian:bookworm-20240701-slim",
@@ -230,7 +230,7 @@
       "elastic/eck-operator:2.13.0",
       "louislam/uptime-kuma:1.23.13-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.77.3",
+      "outlinewiki/outline:0.78.0",
       "syncthing/syncthing:1.27.9",
       "syncthing/discosrv:1.27.9",
       "syncthing/relaysrv:1.27.9",
@@ -310,7 +310,7 @@
       "supabase/realtime:v2.30.14",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.8.2",
-      "supabase/logflare:1.7.10",
+      "supabase/logflare:1.7.11",
       "supabase/edge-runtime:v1.55.0",
       "darthsim/imgproxy:v3.25",
       "timberio/vector:0.39.0-alpine",

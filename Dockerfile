@@ -911,7 +911,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.77.3
+FROM outlinewiki/outline:0.78.0
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -1231,7 +1231,7 @@ FROM supabase/storage-api:v1.8.2
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.10
+FROM supabase/logflare:1.7.11
 # supabase/logflare
 
 # supabase/edge-runtime
