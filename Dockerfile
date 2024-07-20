@@ -635,7 +635,7 @@ FROM bitnami/nats:2.10.18
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.12.0
+FROM bitnami/kube-state-metrics:2.13.0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
