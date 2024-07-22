@@ -1127,7 +1127,7 @@ FROM airbyte/server:0.63.8
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.8
+FROM airbyte/worker:0.63.9
 # airbyte/worker
 
 # airbyte/metrics-reporter
