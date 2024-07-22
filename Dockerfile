@@ -1155,7 +1155,7 @@ FROM airbyte/airbyte-api-server:0.63.8
 # airbyte/airbyte-api-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.8
+FROM airbyte/workload-api-server:0.63.9
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
