@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240701-slim
+FROM debian:bookworm-20240722-slim
 # debian
 
 # ubuntu
@@ -15,7 +15,7 @@ FROM ubuntu:focal-20240530
 # ubuntu
 
 # alpine
-FROM alpine:3.20.1
+FROM alpine:3.20.2
 # alpine
 
 # busybox
@@ -111,7 +111,7 @@ FROM atlassian/jira-software:9.17.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:29.0.3-apache
+FROM nextcloud:29.0.4-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.87.3
+FROM ghost:5.88.1
 # ghost
 
 # bitnami/ghost
@@ -447,11 +447,11 @@ FROM nocodb/nocodb:0.251.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.13
+FROM metabase/metabase:v0.50.14
 # metabase/metabase
 
 # docker
-FROM docker:27.0.3-dind
+FROM docker:27.1.0-dind
 # docker
 
 # podman/stable
@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.40.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.11.5
+FROM quay.io/argoproj/argocd:v2.11.6
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -927,7 +927,7 @@ FROM syncthing/relaysrv:1.27.9
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.7
+FROM jellyfin/jellyfin:10.9.8
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.5
+FROM netbirdio/signal:0.28.6
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.5
+FROM netbirdio/management:0.28.6
 # netbirdio/management
 
 # coturn/coturn
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.56.0
+FROM ghcr.io/zitadel/zitadel:v2.56.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1099,7 +1099,7 @@ FROM gitea/gitea:1.22.1-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.11.0
+FROM paperlessngx/paperless-ngx:2.11.1
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1215,7 +1215,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.155.5
+FROM supabase/gotrue:v2.155.6
 # supabase/gotrue
 
 # supabase/realtime
@@ -1387,7 +1387,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.15.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.9.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
