@@ -643,7 +643,7 @@ FROM bitnami/metrics-server:0.7.1
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.10.0
+FROM bitnami/kubeapps-dashboard:2.11.0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
