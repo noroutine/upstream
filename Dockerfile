@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.3.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.99.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.251.1
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.14
+FROM metabase/metabase:v0.50.15
 # metabase/metabase
 
 # docker
@@ -611,11 +611,11 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.7
+FROM bitnami/metallb-controller:0.14.8
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.7
+FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.468-jdk17
+FROM jenkins/jenkins:2.469-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.51.0
+FROM docker.n8n.io/n8nio/n8n:1.51.1
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1119,43 +1119,39 @@ FROM cloudflare/cloudflared:2024.6.1
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.8
+FROM airbyte/webapp:0.63.9
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.8
+FROM airbyte/server:0.63.9
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.8
+FROM airbyte/worker:0.63.9
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.8
+FROM airbyte/metrics-reporter:0.63.9
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.8
+FROM airbyte/bootloader:0.63.9
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.8
+FROM airbyte/db:0.63.9
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.8
+FROM airbyte/cron:0.63.9
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.8
+FROM airbyte/connector-builder-server:0.63.9
 # airbyte/connector-builder-server
 
-# airbyte/airbyte-api-server
-FROM airbyte/airbyte-api-server:0.63.8
-# airbyte/airbyte-api-server
-
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.8
+FROM airbyte/workload-api-server:0.63.9
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1183,7 +1179,7 @@ FROM nodemailer/rspamd:2.7.0
 # nodemailer/rspamd
 
 # rspamd/rspamd
-FROM rspamd/rspamd:3.9.0
+FROM rspamd/rspamd:3.9.1
 # rspamd/rspamd
 
 # scylladb/scylla
