@@ -1,5 +1,5 @@
 {
-  "version": "ae8af2d6",
+  "version": "76152e38",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -69,7 +69,7 @@
       "wordpress:6.6.0-apache",
       "dpage/pgadmin4:8.9",
       "adminer:4.8.1",
-      "mysql:9.0.0",
+      "mysql:9.0.1",
       "mariadb:11.4.2-noble",
       "mccutchen/go-httpbin:v2.14.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.6.0-alpine",
@@ -115,7 +115,7 @@
       "matomo:5.1.0-apache",
       "nocodb/nocodb:0.251.1",
       "metabase/metabase:v0.50.15",
-      "docker:27.1.0-dind",
+      "docker:27.1.1-dind",
       "quay.io/podman/stable:v5.1.1",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
