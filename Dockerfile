@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.251.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.15
+FROM metabase/metabase:v0.50.16
 # metabase/metabase
 
 # docker
@@ -1247,15 +1247,15 @@ FROM kong:3.7.1-ubuntu
 # kong
 
 # cilium/clustermesh-apiserver
-FROM quay.io/cilium/clustermesh-apiserver:v1.15.7
+FROM quay.io/cilium/clustermesh-apiserver:v1.16.0
 # cilium/clustermesh-apiserver
 
 # cilium/cilium
-FROM quay.io/cilium/cilium:v1.15.7
+FROM quay.io/cilium/cilium:v1.16.0
 # cilium/cilium
 
 # cilium/operator
-FROM quay.io/cilium/operator:v1.15.7
+FROM quay.io/cilium/operator:v1.16.0
 # cilium/operator
 
 # cilium/startup-script
@@ -1271,7 +1271,7 @@ FROM quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
-FROM quay.io/cilium/hubble-relay:v1.15.7
+FROM quay.io/cilium/hubble-relay:v1.16.0
 # cilium/hubble-relay
 
 # cilium/hubble-ui

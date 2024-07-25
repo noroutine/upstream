@@ -1,5 +1,5 @@
 {
-  "version": "9a5846b4",
+  "version": "8486d73e",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.88.1",
       "matomo:5.1.0-apache",
       "nocodb/nocodb:0.251.2",
-      "metabase/metabase:v0.50.15",
+      "metabase/metabase:v0.50.16",
       "docker:27.1.1-dind",
       "quay.io/podman/stable:v5.1.1",
       "jupyter/base-notebook:2023-10-20",
@@ -314,13 +314,13 @@
       "darthsim/imgproxy:v3.25",
       "timberio/vector:0.39.0-alpine",
       "kong:3.7.1-ubuntu",
-      "quay.io/cilium/clustermesh-apiserver:v1.15.7",
-      "quay.io/cilium/cilium:v1.15.7",
-      "quay.io/cilium/operator:v1.15.7",
+      "quay.io/cilium/clustermesh-apiserver:v1.16.0",
+      "quay.io/cilium/cilium:v1.16.0",
+      "quay.io/cilium/operator:v1.16.0",
       "quay.io/cilium/startup-script:19fb149fb3d5c7a37d3edfaf10a2be3ab7386661",
       "quay.io/cilium/certgen:v0.2.1",
       "quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6b",
-      "quay.io/cilium/hubble-relay:v1.15.7",
+      "quay.io/cilium/hubble-relay:v1.16.0",
       "quay.io/cilium/hubble-ui:v0.13.1",
       "quay.io/cilium/hubble-ui-backend:v0.13.1",
       "ghcr.io/spiffe/spire-server:1.10.0",
