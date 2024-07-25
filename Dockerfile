@@ -175,7 +175,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.75.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.1.0
+FROM grafana/grafana:11.1.1
 # grafana/grafana
 
 # grafana/loki
@@ -967,7 +967,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # curlimages/curl
-FROM curlimages/curl:8.8.0
+FROM curlimages/curl:8.9.0
 # curlimages/curl
 
 # restic/restic

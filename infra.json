@@ -1,5 +1,5 @@
 {
-  "version": "8486d73e",
+  "version": "f5912dbc",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -46,7 +46,7 @@
       "quay.io/prometheus/pushgateway:v1.9.0",
       "quay.io/prometheus-operator/prometheus-operator:v0.75.2",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.75.2",
-      "grafana/grafana:11.1.0",
+      "grafana/grafana:11.1.1",
       "grafana/loki:3.1.0",
       "grafana/loki-canary:3.1.0",
       "grafana/promtail:3.1.0",
@@ -244,7 +244,7 @@
       "ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0",
       "ghcr.io/voxpupuli/puppetboard:5.4.0",
       "puppet/r10k:3.15.2",
-      "curlimages/curl:8.8.0",
+      "curlimages/curl:8.9.0",
       "restic/restic:0.16.5",
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "yugabytedb/yugabyte:2.21.0.1-b1",
