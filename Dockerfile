@@ -647,7 +647,7 @@ FROM bitnami/kubeapps-dashboard:2.10.0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.10.0
+FROM bitnami/kubeapps-apprepository-controller:2.11.0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
