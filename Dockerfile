@@ -123,7 +123,7 @@ FROM quay.io/minio/minio:RELEASE.2024-07-16T23-46-41Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-07-15T17-46-06Z
+FROM quay.io/minio/mc:RELEASE.2024-07-22T20-02-49Z
 # minio/mc
 
 # minio/console
@@ -167,11 +167,11 @@ FROM quay.io/prometheus/pushgateway:v1.9.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.75.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.75.2
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.75.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.75.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -223,7 +223,7 @@ FROM ribbybibby/ssl-exporter:2.4.3
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.49.1
+FROM gcr.io/cadvisor/cadvisor:v0.50.0
 # cadvisor/cadvisor
 
 # prymitive/karma
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.2.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.2.0-ce.0
+FROM gitlab/gitlab-ce:17.2.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -443,7 +443,7 @@ FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.251.1
+FROM nocodb/nocodb:0.251.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.53.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.75.1
+FROM bitnami/prometheus-operator:0.75.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -603,7 +603,7 @@ FROM bitnami/minio:2024.7.16
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.7.15
+FROM bitnami/minio-client:2024.7.22
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -643,23 +643,23 @@ FROM bitnami/metrics-server:0.7.1
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.10.0
+FROM bitnami/kubeapps-dashboard:2.11.0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.10.0
+FROM bitnami/kubeapps-apprepository-controller:2.11.0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.10.0
+FROM bitnami/kubeapps-asset-syncer:2.11.0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.10.0
+FROM bitnami/kubeapps-apis:2.11.0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.10.0
+FROM bitnami/kubeapps-pinniped-proxy:2.11.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.40.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.11.6
+FROM quay.io/argoproj/argocd:v2.11.7
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -895,7 +895,7 @@ FROM azul/zulu-openjdk:22.0.2-22.32
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:22.0.1_8-jdk-jammy
+FROM eclipse-temurin:22.0.2_9-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.51.1
+FROM docker.n8n.io/n8nio/n8n:1.52.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.6.1
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.9
+FROM airbyte/webapp:0.63.10
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.9
+FROM airbyte/server:0.63.10
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.9
+FROM airbyte/worker:0.63.10
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.9
+FROM airbyte/metrics-reporter:0.63.10
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.9
+FROM airbyte/bootloader:0.63.10
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.9
+FROM airbyte/db:0.63.10
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.9
+FROM airbyte/cron:0.63.10
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.9
+FROM airbyte/connector-builder-server:0.63.10
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.9
+FROM airbyte/workload-api-server:0.63.10
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1263,7 +1263,7 @@ FROM quay.io/cilium/startup-script:19fb149fb3d5c7a37d3edfaf10a2be3ab7386661
 # cilium/startup-script
 
 # cilium/certgen
-FROM quay.io/cilium/certgen:v0.2.0
+FROM quay.io/cilium/certgen:v0.2.1
 # cilium/certgen
 
 # cilium/cilium-envoy
@@ -1291,7 +1291,7 @@ FROM ghcr.io/spiffe/spire-agent:1.10.0
 # spiffe/spire-agent
 
 # bitnami/cilium
-FROM bitnami/cilium:1.15.7
+FROM bitnami/cilium:1.16.0
 # bitnami/cilium
 
 # bitnami/cilium-proxy
@@ -1299,11 +1299,11 @@ FROM bitnami/cilium-proxy:1.29.7
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator
-FROM bitnami/cilium-operator:1.15.7
+FROM bitnami/cilium-operator:1.16.0
 # bitnami/cilium-operator
 
 # bitnami/hubble-relay
-FROM bitnami/hubble-relay:1.15.7
+FROM bitnami/hubble-relay:1.16.0
 # bitnami/hubble-relay
 
 # bitnami/hubble-ui
@@ -1775,19 +1775,19 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.10
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.16.0-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.16.1-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
-FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.0-ubi8
+FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.1-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.6-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.7-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.6-3.4.2-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.7-3.5.0-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
