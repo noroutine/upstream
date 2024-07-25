@@ -255,7 +255,7 @@ FROM mongo:7.0.12-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.6.0-apache
+FROM wordpress:6.6.1-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -435,7 +435,7 @@ FROM ghost:5.88.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.87.2
+FROM bitnami/ghost:5.88.1
 # bitnami/ghost
 
 # matomo
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.56.1
+FROM ghcr.io/zitadel/zitadel:v2.57.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1563,7 +1563,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.34.1
+FROM quay.io/tigera/operator:v1.34.2
 # tigera/operator
 
 # calico/typha
