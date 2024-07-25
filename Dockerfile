@@ -223,7 +223,7 @@ FROM ribbybibby/ssl-exporter:2.4.3
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.49.1
+FROM gcr.io/cadvisor/cadvisor:v0.50.0
 # cadvisor/cadvisor
 
 # prymitive/karma
