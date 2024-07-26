@@ -323,7 +323,7 @@ FROM gitlab/gitlab-ce:17.2.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -455,7 +455,7 @@ FROM docker:27.1.1-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.1.1
+FROM quay.io/podman/stable:v5.1.2
 # podman/stable
 
 # jupyter/base-notebook
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.6.1
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.10
+FROM airbyte/webapp:0.63.11
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.10
+FROM airbyte/server:0.63.11
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.10
+FROM airbyte/worker:0.63.11
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.10
+FROM airbyte/metrics-reporter:0.63.11
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.10
+FROM airbyte/bootloader:0.63.11
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.10
+FROM airbyte/db:0.63.11
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.10
+FROM airbyte/cron:0.63.11
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.10
+FROM airbyte/connector-builder-server:0.63.11
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.10
+FROM airbyte/workload-api-server:0.63.11
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1211,7 +1211,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.155.6
+FROM supabase/gotrue:v2.156.0
 # supabase/gotrue
 
 # supabase/realtime
@@ -1715,39 +1715,39 @@ FROM confluentinc/confluent-operator:0.921.40
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.6.2
+FROM confluentinc/cp-enterprise-control-center:7.7.0
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.6.2
+FROM confluentinc/cp-enterprise-replicator:7.7.0
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.6.2
+FROM confluentinc/cp-kafka-rest:7.7.0
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.6.2
+FROM confluentinc/cp-ksqldb-server:7.7.0
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.6.2
+FROM confluentinc/cp-ksqldb-cli:7.7.0
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.6.2
+FROM confluentinc/cp-schema-registry:7.7.0
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.6.2
+FROM confluentinc/cp-server:7.7.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.6.2
+FROM confluentinc/cp-server-connect:7.7.0
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.6.2
+FROM confluentinc/cp-zookeeper:7.7.0
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
