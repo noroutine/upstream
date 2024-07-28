@@ -1,5 +1,5 @@
 {
-  "version": "44d9114f",
+  "version": "8bf78116",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -89,8 +89,8 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0",
       "summerwind/actions-runner-controller:v0.27.6",
-      "summerwind/actions-runner:v2.317.0-ubuntu-22.04",
-      "summerwind/actions-runner-dind:v2.317.0-ubuntu-22.04",
+      "summerwind/actions-runner:v2.318.0-ubuntu-22.04",
+      "summerwind/actions-runner-dind:v2.318.0-ubuntu-22.04",
       "quay.io/brancz/kube-rbac-proxy:v0.18.0",
       "jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab",
       "noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b",
@@ -245,7 +245,7 @@
       "ghcr.io/voxpupuli/puppetboard:5.4.0",
       "puppet/r10k:3.15.2",
       "curlimages/curl:8.9.0",
-      "restic/restic:0.16.5",
+      "restic/restic:0.17.0",
       "registry.k8s.io/coredns/coredns:v1.11.1",
       "yugabytedb/yugabyte:2.21.0.1-b1",
       "antelle/keeweb:1.18.7",
