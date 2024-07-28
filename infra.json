@@ -1,5 +1,5 @@
 {
-  "version": "c3c43b3e",
+  "version": "44d9114f",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -153,7 +153,7 @@
       "bitnami/nginx-ingress-controller:1.11.1",
       "bitnami/nginx:1.27.0",
       "bitnami/minio:2024.7.26",
-      "bitnami/minio-client:2024.7.22",
+      "bitnami/minio-client:2024.7.26",
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.14.8",
       "bitnami/metallb-speaker:0.14.8",
@@ -257,7 +257,7 @@
       "jenkins/jenkins:2.469-jdk17",
       "jenkins/agent:bookworm-jdk17",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.1",
-      "netboxcommunity/netbox:v4.0.7",
+      "netboxcommunity/netbox:v4.0.8",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:1.7.0",
       "kubernetesui/dashboard-web:1.4.0",

@@ -603,7 +603,7 @@ FROM bitnami/minio:2024.7.26
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.7.22
+FROM bitnami/minio-client:2024.7.26
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.7
+FROM netboxcommunity/netbox:v4.0.8
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
