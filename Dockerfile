@@ -575,7 +575,7 @@ FROM bitnami/keycloak:24.0.5
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:6.1.5
+FROM bitnami/keycloak-config-cli:6.1.6
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
