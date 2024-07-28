@@ -119,7 +119,7 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-07-16T23-46-41Z
+FROM quay.io/minio/minio:RELEASE.2024-07-26T20-48-21Z
 # minio/minio
 
 # minio/mc
@@ -435,7 +435,7 @@ FROM ghost:5.88.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.88.1
+FROM bitnami/ghost:5.88.2
 # bitnami/ghost
 
 # matomo
@@ -443,11 +443,11 @@ FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.251.2
+FROM nocodb/nocodb:0.251.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.16
+FROM metabase/metabase:v0.50.17
 # metabase/metabase
 
 # docker
@@ -575,7 +575,7 @@ FROM bitnami/keycloak:24.0.5
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:6.1.5
+FROM bitnami/keycloak-config-cli:6.1.6
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.7.16
+FROM bitnami/minio:2024.7.26
 # bitnami/minio
 
 # bitnami/minio-client
@@ -619,7 +619,7 @@ FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.1.0
+FROM bitnami/grafana:11.1.2
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.52.0
+FROM docker.n8n.io/n8nio/n8n:1.52.1
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1211,7 +1211,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.156.0
+FROM supabase/gotrue:v2.157.0
 # supabase/gotrue
 
 # supabase/realtime
