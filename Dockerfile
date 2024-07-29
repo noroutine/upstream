@@ -1183,7 +1183,7 @@ FROM rspamd/rspamd:3.9.1
 # rspamd/rspamd
 
 # scylladb/scylla
-FROM scylladb/scylla:6.0.1
+FROM scylladb/scylla:6.0.2
 # scylladb/scylla
 
 # scylladb/scylla-manager
