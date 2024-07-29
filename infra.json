@@ -1,5 +1,5 @@
 {
-  "version": "860ddeac",
+  "version": "5a5f4159",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -292,7 +292,7 @@
       "airbyte/connector-builder-server:0.63.11",
       "airbyte/workload-api-server:0.63.11",
       "temporalio/auto-setup:1.24.2",
-      "nodemailer/wildduck:1.43.3",
+      "nodemailer/wildduck:1.44.0",
       "nodemailer/wildduck-webmail:1.0.1",
       "nodemailer/zonemta-wildduck:2.4.3",
       "nodemailer/haraka-wildduck:2.8.27",
