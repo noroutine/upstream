@@ -1,5 +1,5 @@
 {
-  "version": "5a5f4159",
+  "version": "7c4242a8",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -67,7 +67,7 @@
       "alerta/alerta-web:9.0.3",
       "mongo:7.0.12-jammy",
       "wordpress:6.6.1-apache",
-      "dpage/pgadmin4:8.9",
+      "dpage/pgadmin4:8.10",
       "adminer:4.8.1",
       "mysql:9.0.1",
       "mariadb:11.4.2-noble",
@@ -298,7 +298,7 @@
       "nodemailer/haraka-wildduck:2.8.27",
       "nodemailer/rspamd:2.7.0",
       "rspamd/rspamd:3.9.1",
-      "scylladb/scylla:6.0.1",
+      "scylladb/scylla:6.0.2",
       "scylladb/scylla-manager:3.2.8",
       "scylladb/scylla-operator:1.13.0",
       "chirpstack/chirpstack:4.8.1",

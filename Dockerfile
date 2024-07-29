@@ -259,7 +259,7 @@ FROM wordpress:6.6.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.9
+FROM dpage/pgadmin4:8.10
 # dpage/pgadmin4
 
 # adminer
@@ -1183,7 +1183,7 @@ FROM rspamd/rspamd:3.9.1
 # rspamd/rspamd
 
 # scylladb/scylla
-FROM scylladb/scylla:6.0.1
+FROM scylladb/scylla:6.0.2
 # scylladb/scylla
 
 # scylladb/scylla-manager
