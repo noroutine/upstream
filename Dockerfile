@@ -175,7 +175,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.75.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.1.1
+FROM grafana/grafana:11.1.3
 # grafana/grafana
 
 # grafana/loki
@@ -619,7 +619,7 @@ FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.1.2
+FROM bitnami/grafana:11.1.3
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -807,15 +807,15 @@ FROM quay.io/argoproj/argo-events:v1.9.2
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.8
+FROM quay.io/argoproj/argocli:v3.5.9
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.8
+FROM quay.io/argoproj/workflow-controller:v3.5.9
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.8
+FROM quay.io/argoproj/argoexec:v3.5.9
 # argoproj/argoexec
 
 # redis
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.469-jdk17
+FROM jenkins/jenkins:2.470-jdk17
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.57.0
+FROM ghcr.io/zitadel/zitadel:v2.58.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
