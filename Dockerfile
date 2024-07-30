@@ -119,7 +119,7 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-07-26T20-48-21Z
+FROM quay.io/minio/minio:RELEASE.2024-07-29T22-14-52Z
 # minio/minio
 
 # minio/mc
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.88.1
+FROM ghost:5.88.2
 # ghost
 
 # bitnami/ghost
@@ -571,7 +571,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:24.0.5
+FROM bitnami/keycloak:25.0.2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.7.26
+FROM bitnami/minio:2024.7.29
 # bitnami/minio
 
 # bitnami/minio-client
