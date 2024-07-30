@@ -1,5 +1,5 @@
 {
-  "version": "cabbb8dd",
+  "version": "23e26ba7",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.88.2",
       "matomo:5.1.0-apache",
       "nocodb/nocodb:0.251.3",
-      "metabase/metabase:v0.50.17",
+      "metabase/metabase:v0.50.18",
       "docker:27.1.1-dind",
       "quay.io/podman/stable:v5.1.2",
       "jupyter/base-notebook:2023-10-20",
@@ -345,9 +345,9 @@
       "registry.k8s.io/git-sync/git-sync:v4.2.4",
       "ghcr.io/kedacore/keda:2.14.0",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.14.0",
-      "quay.io/jetstack/cert-manager-controller:v1.15.1",
-      "quay.io/jetstack/cert-manager-cainjector:v1.15.1",
-      "quay.io/jetstack/cert-manager-webhook:v1.15.1",
+      "quay.io/jetstack/cert-manager-controller:v1.15.2",
+      "quay.io/jetstack/cert-manager-cainjector:v1.15.2",
+      "quay.io/jetstack/cert-manager-webhook:v1.15.2",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "hashicorp/consul:1.19.1",
