@@ -1687,7 +1687,7 @@ FROM registry.k8s.io/sig-storage/csi-attacher:v4.6.1
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.1
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.2
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
