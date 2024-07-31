@@ -1579,7 +1579,7 @@ FROM calico/node:v3.28.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.28.0
+FROM calico/cni:v3.28.1
 # calico/cni
 
 # calico/apiserver
