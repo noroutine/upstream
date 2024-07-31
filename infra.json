@@ -1,5 +1,5 @@
 {
-  "version": "23e26ba7",
+  "version": "1ce481e1",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -246,7 +246,7 @@
       "puppet/r10k:3.15.2",
       "curlimages/curl:8.9.0",
       "restic/restic:0.17.0",
-      "registry.k8s.io/coredns/coredns:v1.11.1",
+      "registry.k8s.io/coredns/coredns:v1.11.3",
       "yugabytedb/yugabyte:2.21.0.1-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
@@ -360,7 +360,7 @@
       "quay.io/strimzi/operator:0.42.0",
       "quay.io/strimzi/kafka:0.42.0-kafka-3.7.0",
       "registry.k8s.io/pause:3.10",
-      "registry.k8s.io/coredns/coredns:v1.11.1",
+      "registry.k8s.io/coredns/coredns:v1.11.3",
       "registry.k8s.io/kube-apiserver:v1.30.3",
       "registry.k8s.io/kube-proxy:v1.30.3",
       "registry.k8s.io/kube-scheduler:v1.30.3",
@@ -424,7 +424,7 @@
       "registry.k8s.io/sig-storage/livenessprobe:v2.13.1",
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.11.1",
       "registry.k8s.io/sig-storage/csi-attacher:v4.6.1",
-      "registry.k8s.io/sig-storage/csi-resizer:v1.11.1",
+      "registry.k8s.io/sig-storage/csi-resizer:v1.11.2",
       "registry.k8s.io/sig-storage/csi-provisioner:v5.0.1",
       "registry.k8s.io/sig-storage/csi-snapshotter:v8.0.1",
       "registry.k8s.io/sig-storage/snapshot-controller:v8.0.1",

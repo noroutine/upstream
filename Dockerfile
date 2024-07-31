@@ -975,7 +975,7 @@ FROM restic/restic:0.17.0
 # restic/restic
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.11.1
+FROM registry.k8s.io/coredns/coredns:v1.11.3
 # coredns/coredns
 
 # yugabytedb/yugabyte
@@ -1431,7 +1431,7 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.11.1
+FROM registry.k8s.io/coredns/coredns:v1.11.3
 # coredns/coredns
 
 # kube-apiserver
@@ -1687,7 +1687,7 @@ FROM registry.k8s.io/sig-storage/csi-attacher:v4.6.1
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.1
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.2
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
