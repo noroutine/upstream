@@ -1587,7 +1587,7 @@ FROM calico/apiserver:v3.28.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.28.0
+FROM calico/kube-controllers:v3.28.1
 # calico/kube-controllers
 
 # calico/dikastes
