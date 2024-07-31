@@ -819,7 +819,7 @@ FROM quay.io/argoproj/argoexec:v3.5.9
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.5
+FROM redis:7.4.0
 # redis
 
 # listmonk/listmonk
