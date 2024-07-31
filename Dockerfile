@@ -1711,7 +1711,7 @@ FROM confluentinc/confluent-init-container:2.8.3
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.921.40
+FROM confluentinc/confluent-operator:0.1033.3
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
