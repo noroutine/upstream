@@ -83,7 +83,7 @@ FROM golang:1.22.5-alpine
 # golang
 
 # traefik
-FROM traefik:v3.1.0
+FROM traefik:v3.1.1
 # traefik
 
 # sonatype/nexus3
@@ -119,7 +119,7 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-07-29T22-14-52Z
+FROM quay.io/minio/minio:RELEASE.2024-07-31T05-46-26Z
 # minio/minio
 
 # minio/mc
@@ -315,7 +315,7 @@ FROM buildpacksio/lifecycle:0.20.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v17.2.0
+FROM gitlab/gitlab-runner:alpine3.19-v17.2.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.88.2
+FROM ghost:5.88.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.88.2
+FROM bitnami/ghost:5.88.3
 # bitnami/ghost
 
 # matomo
@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.27.0
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.7.29
+FROM bitnami/minio:2024.7.31
 # bitnami/minio
 
 # bitnami/minio-client
@@ -819,7 +819,7 @@ FROM quay.io/argoproj/argoexec:v3.5.9
 # argoproj/argoexec
 
 # redis
-FROM redis:7.2.5
+FROM redis:7.4.0
 # redis
 
 # listmonk/listmonk
@@ -967,7 +967,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # curlimages/curl
-FROM curlimages/curl:8.9.0
+FROM curlimages/curl:8.9.1
 # curlimages/curl
 
 # restic/restic
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.58.0
+FROM ghcr.io/zitadel/zitadel:v2.58.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.52.1
+FROM docker.n8n.io/n8nio/n8n:1.53.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.6.1
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.11
+FROM airbyte/webapp:0.63.13
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.11
+FROM airbyte/server:0.63.13
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.11
+FROM airbyte/worker:0.63.13
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.11
+FROM airbyte/metrics-reporter:0.63.13
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.11
+FROM airbyte/bootloader:0.63.13
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.11
+FROM airbyte/db:0.63.13
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.11
+FROM airbyte/cron:0.63.13
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.11
+FROM airbyte/connector-builder-server:0.63.13
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.11
+FROM airbyte/workload-api-server:0.63.13
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1211,11 +1211,11 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.157.0
+FROM supabase/gotrue:v2.158.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.14
+FROM supabase/realtime:v2.30.15
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1231,7 +1231,7 @@ FROM supabase/logflare:1.7.13
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.55.0
+FROM supabase/edge-runtime:v1.56.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1563,47 +1563,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.34.2
+FROM quay.io/tigera/operator:v1.34.3
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.28.0
+FROM calico/typha:v3.28.1
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.28.0
+FROM calico/ctl:v3.28.1
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.28.0
+FROM calico/node:v3.28.1
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.28.0
+FROM calico/cni:v3.28.1
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.28.0
+FROM calico/apiserver:v3.28.1
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.28.0
+FROM calico/kube-controllers:v3.28.1
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.28.0
+FROM calico/dikastes:v3.28.1
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.28.0
+FROM calico/pod2daemon-flexvol:v3.28.1
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.28.0
+FROM calico/node-driver-registrar:v3.28.1
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.28.0
+FROM calico/csi:v3.28.1
 # calico/csi
 
 # nfd/node-feature-discovery
@@ -1711,7 +1711,7 @@ FROM confluentinc/confluent-init-container:2.8.3
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.921.40
+FROM confluentinc/confluent-operator:0.1033.3
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
