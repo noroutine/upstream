@@ -1,5 +1,5 @@
 {
-  "version": "03e8033d",
+  "version": "43d111dd",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -85,7 +85,7 @@
       "gitlab/gitlab-ce:17.2.1-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.3.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -309,7 +309,7 @@
       "supabase/realtime:v2.30.16",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.8.2",
-      "supabase/logflare:1.7.13",
+      "supabase/logflare:1.7.14",
       "supabase/edge-runtime:v1.56.0",
       "darthsim/imgproxy:v3.25",
       "timberio/vector:0.39.0-alpine",
