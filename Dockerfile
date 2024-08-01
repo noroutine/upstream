@@ -675,7 +675,7 @@ FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.53.0
+FROM bitnami/trivy:0.54.1
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -751,7 +751,7 @@ FROM goharbor/nginx-photon:v2.11.0
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.53.0
+FROM aquasec/trivy:0.54.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.8.2
+FROM supabase/storage-api:v1.8.3
 # supabase/storage-api
 
 # supabase/logflare
