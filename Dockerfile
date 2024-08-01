@@ -815,7 +815,7 @@ FROM quay.io/argoproj/workflow-controller:v3.5.9
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.9
+FROM quay.io/argoproj/argoexec:v3.5.10
 # argoproj/argoexec
 
 # redis
