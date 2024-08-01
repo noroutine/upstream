@@ -1,5 +1,5 @@
 {
-  "version": "884f301f",
+  "version": "ddabfbd1",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -98,7 +98,7 @@
       "jupyterhub/k8s-secret-sync:3.3.8",
       "jupyterhub/k8s-network-tools:3.3.8",
       "jupyterhub/k8s-image-awaiter:3.3.8",
-      "jupyterhub/k8s-singleuser-sample:3.3.7",
+      "jupyterhub/k8s-singleuser-sample:3.3.8",
       "jupyterhub/configurable-http-proxy:4.6.2",
       "registry.k8s.io/kube-scheduler:v1.28.8",
       "registry.k8s.io/pause:3.10",
