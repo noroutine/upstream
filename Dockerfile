@@ -367,19 +367,19 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.3.7
+FROM jupyterhub/k8s-hub:3.3.8
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.3.7
+FROM jupyterhub/k8s-secret-sync:3.3.8
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.3.7
+FROM jupyterhub/k8s-network-tools:3.3.8
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.3.7
+FROM jupyterhub/k8s-image-awaiter:3.3.8
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.88.3
+FROM ghost:5.88.2
 # ghost
 
 # bitnami/ghost
@@ -807,15 +807,15 @@ FROM quay.io/argoproj/argo-events:v1.9.2
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.9
+FROM quay.io/argoproj/argocli:v3.5.10
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.9
+FROM quay.io/argoproj/workflow-controller:v3.5.10
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.9
+FROM quay.io/argoproj/argoexec:v3.5.10
 # argoproj/argoexec
 
 # redis
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.158.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.15
+FROM supabase/realtime:v2.30.16
 # supabase/realtime
 
 # supabase/postgres-meta
