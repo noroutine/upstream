@@ -1283,11 +1283,11 @@ FROM quay.io/cilium/hubble-ui-backend:v0.13.1
 # cilium/hubble-ui-backend
 
 # spiffe/spire-server
-FROM ghcr.io/spiffe/spire-server:1.10.0
+FROM ghcr.io/spiffe/spire-server:1.10.1
 # spiffe/spire-server
 
 # spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.10.0
+FROM ghcr.io/spiffe/spire-agent:1.10.1
 # spiffe/spire-agent
 
 # bitnami/cilium

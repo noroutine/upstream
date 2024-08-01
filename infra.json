@@ -1,5 +1,5 @@
 {
-  "version": "bfb3706f",
+  "version": "337d15f4",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -323,8 +323,8 @@
       "quay.io/cilium/hubble-relay:v1.16.0",
       "quay.io/cilium/hubble-ui:v0.13.1",
       "quay.io/cilium/hubble-ui-backend:v0.13.1",
-      "ghcr.io/spiffe/spire-server:1.10.0",
-      "ghcr.io/spiffe/spire-agent:1.10.0",
+      "ghcr.io/spiffe/spire-server:1.10.1",
+      "ghcr.io/spiffe/spire-agent:1.10.1",
       "bitnami/cilium:1.16.0",
       "bitnami/cilium-proxy:1.29.7",
       "bitnami/cilium-operator:1.16.0",
