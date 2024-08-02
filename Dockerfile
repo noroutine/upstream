@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.88.2
+FROM ghost:5.88.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.88.3
+FROM bitnami/ghost:5.89.0
 # bitnami/ghost
 
 # matomo
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.6
+FROM netbirdio/signal:0.28.7
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.6
+FROM netbirdio/management:0.28.7
 # netbirdio/management
 
 # coturn/coturn
