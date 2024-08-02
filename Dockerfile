@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.70.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.27
+FROM squidfunk/mkdocs-material:9.5.31
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
