@@ -1075,7 +1075,7 @@ FROM homeassistant/home-assistant:2024.7
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.39.0
+FROM koenkk/zigbee2mqtt:1.39.1
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.6.1
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.13
+FROM airbyte/webapp:0.63.14
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.13
+FROM airbyte/server:0.63.14
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.13
+FROM airbyte/worker:0.63.14
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.13
+FROM airbyte/metrics-reporter:0.63.14
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.13
+FROM airbyte/bootloader:0.63.14
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.13
+FROM airbyte/db:0.63.14
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.13
+FROM airbyte/cron:0.63.14
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.13
+FROM airbyte/connector-builder-server:0.63.14
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.13
+FROM airbyte/workload-api-server:0.63.14
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1363,11 +1363,11 @@ FROM registry.k8s.io/git-sync/git-sync:v4.2.4
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.14.0
+FROM ghcr.io/kedacore/keda:2.15.0
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.14.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.15.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
@@ -1707,7 +1707,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.8.3
+FROM confluentinc/confluent-init-container:2.9.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
@@ -1759,11 +1759,11 @@ FROM tchiotludo/akhq:0.25.1
 # tchiotludo/akhq
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v24.3.0
+FROM nvcr.io/nvidia/gpu-operator:v24.6.0
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.3.0
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.0
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
