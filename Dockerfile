@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
-FROM php:8.3.9-apache-bookworm
+FROM php:8.3.10-apache-bookworm
 # php
 
 # node
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.3.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100.2
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -423,7 +423,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.32.0
+FROM verdaccio/verdaccio:5.32.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -1043,7 +1043,7 @@ FROM locustio/locust:2.29.1
 # locustio/locust
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.2
+FROM postgrest/postgrest:v12.2.3
 # postgrest/postgrest
 
 # oss/azure/workload-identity/webhook
