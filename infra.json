@@ -1,5 +1,5 @@
 {
-  "version": "6c4c1cb1",
+  "version": "86e83908",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -280,7 +280,7 @@
       "paperlessngx/paperless-ngx:2.11.2",
       "roundcube/roundcubemail:1.6.7-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
-      "docker.n8n.io/n8nio/n8n:1.53.0",
+      "docker.n8n.io/n8nio/n8n:1.53.1",
       "cloudflare/cloudflared:2024.6.1",
       "airbyte/webapp:0.63.14",
       "airbyte/server:0.63.14",
@@ -306,13 +306,13 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.158.0",
-      "supabase/realtime:v2.30.16",
+      "supabase/realtime:v2.30.18",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.8.3",
       "supabase/logflare:1.7.14",
       "supabase/edge-runtime:v1.56.0",
       "darthsim/imgproxy:v3.25",
-      "timberio/vector:0.39.0-alpine",
+      "timberio/vector:0.40.0-alpine",
       "kong:3.7.1-ubuntu",
       "quay.io/cilium/clustermesh-apiserver:v1.16.0",
       "quay.io/cilium/cilium:v1.16.0",

@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.53.0
+FROM docker.n8n.io/n8nio/n8n:1.53.1
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.158.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.16
+FROM supabase/realtime:v2.30.18
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1239,7 +1239,7 @@ FROM darthsim/imgproxy:v3.25
 # darthsim/imgproxy
 
 # timberio/vector
-FROM timberio/vector:0.39.0-alpine
+FROM timberio/vector:0.40.0-alpine
 # timberio/vector
 
 # kong
