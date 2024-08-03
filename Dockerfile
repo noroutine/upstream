@@ -123,7 +123,7 @@ FROM quay.io/minio/minio:RELEASE.2024-07-31T05-46-26Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-07-22T20-02-49Z
+FROM quay.io/minio/mc:RELEASE.2024-07-31T15-58-33Z
 # minio/mc
 
 # minio/console
@@ -603,7 +603,7 @@ FROM bitnami/minio:2024.7.31
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.7.26
+FROM bitnami/minio-client:2024.7.31
 # bitnami/minio-client
 
 # bitnami/os-shell
