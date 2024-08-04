@@ -611,11 +611,11 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.8
+FROM bitnami/metallb-controller:0.14.5
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.8
+FROM bitnami/metallb-speaker:0.14.5
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.158.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.18
+FROM supabase/realtime:v2.30.19
 # supabase/realtime
 
 # supabase/postgres-meta
