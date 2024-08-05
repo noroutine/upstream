@@ -1,5 +1,5 @@
 {
-  "version": "fa38b01e",
+  "version": "fc1b8242",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -196,7 +196,7 @@
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.4",
       "kutt/kutt:v2.7.4",
       "drakkan/sftpgo:v2.6.2",
-      "hasura/graphql-engine:v2.41.0",
+      "hasura/graphql-engine:v2.42.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.0.119",
       "jimmidyson/configmap-reload:v0.9.0",
@@ -306,7 +306,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.158.1",
-      "supabase/realtime:v2.30.19",
+      "supabase/realtime:v2.30.20",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.8.4",
       "supabase/logflare:1.7.14",
