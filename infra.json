@@ -1,5 +1,5 @@
 {
-  "version": "40c6ad63",
+  "version": "fa38b01e",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -305,7 +305,7 @@
       "chirpstack/chirpstack-rest-api:4.8.1",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.158.0",
+      "supabase/gotrue:v2.158.1",
       "supabase/realtime:v2.30.19",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.8.4",
