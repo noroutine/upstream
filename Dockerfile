@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.251.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.18
+FROM metabase/metabase:v0.50.18.3
 # metabase/metabase
 
 # docker
@@ -795,7 +795,7 @@ FROM registry:2.8.3
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.40.0
+FROM ghcr.io/dexidp/dex:v2.41.0
 # dexidp/dex
 
 # argoproj/argocd
@@ -927,7 +927,7 @@ FROM syncthing/relaysrv:1.27.9
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.8
+FROM jellyfin/jellyfin:10.9.9
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -1103,7 +1103,7 @@ FROM paperlessngx/paperless-ngx:2.11.2
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
-FROM roundcube/roundcubemail:1.6.7-apache
+FROM roundcube/roundcubemail:1.6.8-apache
 # roundcube/roundcubemail
 
 # changemakerstudiosus/papercut-smtp
@@ -1635,7 +1635,7 @@ FROM longhornio/backing-image-manager:v1.6.2
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.10.1
+FROM longhornio/csi-node-driver-registrar:v2.11.1
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
@@ -1659,7 +1659,7 @@ FROM longhornio/livenessprobe:v2.12.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.40
+FROM longhornio/support-bundle-kit:v0.0.41
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
