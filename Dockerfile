@@ -1655,7 +1655,7 @@ FROM longhornio/csi-attacher:v4.6.1
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
-FROM longhornio/livenessprobe:v2.12.0
+FROM longhornio/livenessprobe:v2.13.1
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
