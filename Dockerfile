@@ -915,15 +915,15 @@ FROM outlinewiki/outline:0.78.0
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.9
+FROM syncthing/syncthing:1.27.10
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.9
+FROM syncthing/discosrv:1.27.10
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.9
+FROM syncthing/relaysrv:1.27.10
 # syncthing/relaysrv
 
 # jellyfin/jellyfin

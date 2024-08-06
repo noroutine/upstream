@@ -1,5 +1,5 @@
 {
-  "version": "715cc5f6",
+  "version": "7eef40bc",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -231,9 +231,9 @@
       "louislam/uptime-kuma:1.23.13-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.78.0",
-      "syncthing/syncthing:1.27.9",
-      "syncthing/discosrv:1.27.9",
-      "syncthing/relaysrv:1.27.9",
+      "syncthing/syncthing:1.27.10",
+      "syncthing/discosrv:1.27.10",
+      "syncthing/relaysrv:1.27.10",
       "jellyfin/jellyfin:10.9.9",
       "haveagitgat/tdarr:2.23.01",
       "haveagitgat/tdarr_node:2.23.01",
