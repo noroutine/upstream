@@ -327,7 +327,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.3.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.88.3
+FROM ghost:5.89.0
 # ghost
 
 # bitnami/ghost
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.251.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.18.3
+FROM metabase/metabase:v0.50.18.4
 # metabase/metabase
 
 # docker
@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.41.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.11.7
+FROM quay.io/argoproj/argocd:v2.12.0
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -1039,7 +1039,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.29.1
+FROM locustio/locust:2.31.1
 # locustio/locust
 
 # postgrest/postgrest
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.158.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.20
+FROM supabase/realtime:v2.30.21
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.8.4
+FROM supabase/storage-api:v1.8.5
 # supabase/storage-api
 
 # supabase/logflare
