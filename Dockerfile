@@ -919,7 +919,7 @@ FROM syncthing/syncthing:1.27.9
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.9
+FROM syncthing/discosrv:1.27.10
 # syncthing/discosrv
 
 # syncthing/relaysrv
