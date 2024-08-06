@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.8.4
+FROM supabase/storage-api:v1.8.5
 # supabase/storage-api
 
 # supabase/logflare
