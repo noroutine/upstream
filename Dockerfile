@@ -203,7 +203,7 @@ FROM httpd:2.4.62-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.26-jdk21-temurin-jammy
+FROM tomcat:10.1.28-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -563,7 +563,7 @@ FROM bitnami/postgresql:16.3.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.26
+FROM bitnami/tomcat:10.1.28
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -783,7 +783,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.119
+FROM stakater/reloader:v1.0.121
 # stakater/reloader
 
 # jimmidyson/configmap-reload
