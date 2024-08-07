@@ -63,7 +63,7 @@ FROM php:8.3.10-apache-bookworm
 # php
 
 # node
-FROM node:22.5.1-bookworm
+FROM node:22.6.0-bookworm
 # node
 
 # python
@@ -75,15 +75,15 @@ FROM python:3.12.4-slim-bookworm
 # python
 
 # golang
-FROM golang:1.22.5-bookworm
+FROM golang:1.22.6-bookworm
 # golang
 
 # golang
-FROM golang:1.22.5-alpine
+FROM golang:1.22.6-alpine
 # golang
 
 # traefik
-FROM traefik:v3.1.1
+FROM traefik:v3.1.2
 # traefik
 
 # sonatype/nexus3
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.251.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.18.4
+FROM metabase/metabase:v0.50.19.1
 # metabase/metabase
 
 # docker
@@ -1039,7 +1039,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.31.1
+FROM locustio/locust:2.31.2
 # locustio/locust
 
 # postgrest/postgrest
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.58.1
+FROM ghcr.io/zitadel/zitadel:v2.58.2
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.158.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.21
+FROM supabase/realtime:v2.30.22
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1231,7 +1231,7 @@ FROM supabase/logflare:1.7.14
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.56.0
+FROM supabase/edge-runtime:v1.56.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1691,7 +1691,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.2
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v5.0.1
+FROM registry.k8s.io/sig-storage/csi-provisioner:v5.0.2
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
