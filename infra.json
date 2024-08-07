@@ -1,5 +1,5 @@
 {
-  "version": "bb4fdbbf",
+  "version": "6fc8a8bb",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -82,11 +82,11 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.20.0",
       "gitlab/gitlab-runner:alpine3.19-v17.2.1",
-      "gitlab/gitlab-ce:17.2.1-ce.0",
+      "gitlab/gitlab-ce:17.2.2-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100.2",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.1",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.2",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.318.0-ubuntu-22.04",
@@ -280,7 +280,7 @@
       "paperlessngx/paperless-ngx:2.11.2",
       "roundcube/roundcubemail:1.6.8-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
-      "docker.n8n.io/n8nio/n8n:1.53.1",
+      "docker.n8n.io/n8nio/n8n:1.54.0",
       "cloudflare/cloudflared:2024.6.1",
       "airbyte/webapp:0.63.14",
       "airbyte/server:0.63.14",
@@ -306,7 +306,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.158.1",
-      "supabase/realtime:v2.30.22",
+      "supabase/realtime:v2.30.25",
       "supabase/postgres-meta:v0.83.2",
       "supabase/storage-api:v1.8.5",
       "supabase/logflare:1.7.14",

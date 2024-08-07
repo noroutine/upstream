@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.2.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.2.1-ce.0
+FROM gitlab/gitlab-ce:17.2.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.53.1
+FROM docker.n8n.io/n8nio/n8n:1.54.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.158.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.22
+FROM supabase/realtime:v2.30.25
 # supabase/realtime
 
 # supabase/postgres-meta
