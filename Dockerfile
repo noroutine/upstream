@@ -1007,11 +1007,11 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.470-jdk17
+FROM jenkins/jenkins:2.471-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:bookworm-jdk17
+FROM jenkins/agent:bookworm-jdk21
 # jenkins/agent
 
 # jenkins-kubernetes-operator/operator
@@ -1115,7 +1115,7 @@ FROM docker.n8n.io/n8nio/n8n:1.54.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.6.1
+FROM cloudflare/cloudflared:2024.8.2
 # cloudflare/cloudflared
 
 # airbyte/webapp
