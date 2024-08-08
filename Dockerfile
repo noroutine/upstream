@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.251.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.19.1
+FROM metabase/metabase:v0.50.19.2
 # metabase/metabase
 
 # docker
@@ -855,7 +855,7 @@ FROM natsio/prometheus-nats-exporter:0.15.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.15.0
+FROM natsio/nats-server-config-reloader:0.15.1
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -1227,7 +1227,7 @@ FROM supabase/storage-api:v1.8.5
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.7.14
+FROM supabase/logflare:1.8.0
 # supabase/logflare
 
 # supabase/edge-runtime
