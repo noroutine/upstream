@@ -543,7 +543,7 @@ FROM bitnami/postgresql:11.22.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.19.0
+FROM bitnami/postgresql:12.20.0
 # bitnami/postgresql
 
 # bitnami/postgresql
