@@ -1,5 +1,5 @@
 {
-  "version": "68d8a9b3",
+  "version": "111cca92",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -269,7 +269,7 @@
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
-      "ghcr.io/zitadel/zitadel:v2.58.2",
+      "ghcr.io/zitadel/zitadel:v2.58.3",
       "homeassistant/home-assistant:2024.7",
       "koenkk/zigbee2mqtt:1.39.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.8.0",
@@ -447,7 +447,7 @@
       "nvcr.io/nvidia/cuda:12.5.1-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.10",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.16.1-ubi8",
-      "nvcr.io/nvidia/k8s-device-plugin:v0.16.1-ubi8",
+      "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.7-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.7-3.5.0-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
