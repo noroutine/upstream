@@ -103,7 +103,7 @@ FROM quay.io/keycloak/keycloak:25.0.2
 # keycloak/keycloak
 
 # postgres
-FROM postgres:16.3-bookworm
+FROM postgres:16.4-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -543,23 +543,23 @@ FROM bitnami/postgresql:11.22.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.19.0
+FROM bitnami/postgresql:12.20.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.15.0
+FROM bitnami/postgresql:13.16.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.12.0
+FROM bitnami/postgresql:14.13.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.7.0
+FROM bitnami/postgresql:15.8.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.3.0
+FROM bitnami/postgresql:16.4.0
 # bitnami/postgresql
 
 # bitnami/tomcat
@@ -1099,7 +1099,7 @@ FROM gitea/gitea:1.22.1-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.11.2
+FROM paperlessngx/paperless-ngx:2.11.3
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
