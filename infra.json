@@ -1,5 +1,5 @@
 {
-  "version": "b22bdaa6",
+  "version": "68d8a9b3",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -429,8 +429,8 @@
       "registry.k8s.io/sig-storage/csi-snapshotter:v8.0.1",
       "registry.k8s.io/sig-storage/snapshot-controller:v8.0.1",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.1",
-      "confluentinc/confluent-init-container:2.9.0",
-      "confluentinc/confluent-operator:0.1033.3",
+      "confluentinc/confluent-init-container:2.9.1",
+      "confluentinc/confluent-operator:0.1033.10",
       "confluentinc/cp-enterprise-control-center:7.7.0",
       "confluentinc/cp-enterprise-replicator:7.7.0",
       "confluentinc/cp-kafka-rest:7.7.0",

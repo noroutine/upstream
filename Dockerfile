@@ -1707,11 +1707,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.9.0
+FROM confluentinc/confluent-init-container:2.9.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.1033.3
+FROM confluentinc/confluent-operator:0.1033.10
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
