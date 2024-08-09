@@ -67,11 +67,11 @@ FROM node:22.6.0-bookworm
 # node
 
 # python
-FROM python:3.12.4-bookworm
+FROM python:3.12.5-bookworm
 # python
 
 # python
-FROM python:3.12.4-slim-bookworm
+FROM python:3.12.5-slim-bookworm
 # python
 
 # golang
@@ -107,7 +107,7 @@ FROM postgres:16.3-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.17.1
+FROM atlassian/jira-software:9.17.2
 # atlassian/jira-software
 
 # nextcloud
@@ -179,15 +179,15 @@ FROM grafana/grafana:11.1.3
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:3.1.0
+FROM grafana/loki:3.1.1
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:3.1.0
+FROM grafana/loki-canary:3.1.1
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:3.1.0
+FROM grafana/promtail:3.1.1
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -235,15 +235,15 @@ FROM quay.io/cortexproject/cortex:v1.17.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.15.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.14.3
+FROM docker.elastic.co/logstash/logstash:8.15.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.14.3
+FROM docker.elastic.co/kibana/kibana:8.15.0
 # kibana/kibana
 
 # alerta/alerta-web
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.251.3
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.19.2
+FROM metabase/metabase:v0.50.19.3
 # metabase/metabase
 
 # docker
@@ -623,7 +623,7 @@ FROM bitnami/grafana:11.1.3
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.11.1
+FROM bitnami/grafana-image-renderer:3.11.2
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -899,7 +899,7 @@ FROM eclipse-temurin:22.0.2_9-jdk-jammy
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.13.0
+FROM elastic/eck-operator:2.14.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.8.5
+FROM supabase/storage-api:v1.9.0
 # supabase/storage-api
 
 # supabase/logflare
