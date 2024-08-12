@@ -1,5 +1,5 @@
 {
-  "version": "336bd005",
+  "version": "320cdee8",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -128,7 +128,7 @@
       "rocker/shiny:4.4.1",
       "caprover/caprover:1.11.1",
       "ghcr.io/mikecao/umami:postgresql-v1.33.2",
-      "bitnami/spark:3.5.1",
+      "bitnami/spark:3.5.2",
       "bitnami/prometheus:2.54.0",
       "bitnami/prometheus-operator:0.75.2",
       "bitnami/node-exporter:1.8.2",
@@ -235,8 +235,8 @@
       "syncthing/discosrv:1.27.10",
       "syncthing/relaysrv:1.27.10",
       "jellyfin/jellyfin:10.9.9",
-      "haveagitgat/tdarr:2.24.01",
-      "haveagitgat/tdarr_node:2.24.01",
+      "haveagitgat/tdarr:2.24.02",
+      "haveagitgat/tdarr_node:2.24.02",
       "gravitl/netmaker:v0.24.3",
       "gravitl/netmaker-ui:v0.24.3",
       "kmb32123/youtube-dl-server:2.0",
@@ -343,8 +343,8 @@
       "bitnami/kubectl:1.30.3",
       "apache/airflow:2.9.3-python3.12",
       "registry.k8s.io/git-sync/git-sync:v4.2.4",
-      "ghcr.io/kedacore/keda:2.15.0",
-      "ghcr.io/kedacore/keda-metrics-apiserver:2.15.0",
+      "ghcr.io/kedacore/keda:2.15.1",
+      "ghcr.io/kedacore/keda-metrics-apiserver:2.15.1",
       "quay.io/jetstack/cert-manager-controller:v1.15.2",
       "quay.io/jetstack/cert-manager-cainjector:v1.15.2",
       "quay.io/jetstack/cert-manager-webhook:v1.15.2",

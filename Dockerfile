@@ -503,7 +503,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.5.1
+FROM bitnami/spark:3.5.2
 # bitnami/spark
 
 # bitnami/prometheus
@@ -931,11 +931,11 @@ FROM jellyfin/jellyfin:10.9.9
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.24.01
+FROM haveagitgat/tdarr:2.24.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.24.01
+FROM haveagitgat/tdarr_node:2.24.02
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1363,11 +1363,11 @@ FROM registry.k8s.io/git-sync/git-sync:v4.2.4
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.15.0
+FROM ghcr.io/kedacore/keda:2.15.1
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.15.0
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.15.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
