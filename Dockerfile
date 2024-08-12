@@ -1411,7 +1411,7 @@ FROM hashicorp/vault-k8s:1.4.2
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.4.3
+FROM hashicorp/vault-csi-provider:1.5.0
 # hashicorp/vault-csi-provider
 
 # hashicorp/terraform-cloud-operator
