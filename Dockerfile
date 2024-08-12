@@ -135,7 +135,7 @@ FROM quay.io/coreos/etcd:v3.5.15
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.53.1
+FROM quay.io/prometheus/prometheus:v2.54.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -435,7 +435,7 @@ FROM ghost:5.89.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.89.0
+FROM bitnami/ghost:5.89.1
 # bitnami/ghost
 
 # matomo
@@ -507,7 +507,7 @@ FROM bitnami/spark:3.5.1
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.53.1
+FROM bitnami/prometheus:2.54.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -611,11 +611,11 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.5
+FROM bitnami/metallb-controller:0.14.8
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.5
+FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
