@@ -527,7 +527,7 @@ FROM bitnami/postgres-exporter:0.15.0
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.2.5
+FROM bitnami/redis:7.4.0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -931,11 +931,11 @@ FROM jellyfin/jellyfin:10.9.9
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.23.01
+FROM haveagitgat/tdarr:2.24.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.23.01
+FROM haveagitgat/tdarr_node:2.24.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1071,7 +1071,7 @@ FROM ghcr.io/zitadel/zitadel:v2.58.3
 # zitadel/zitadel
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.7
+FROM homeassistant/home-assistant:2024.8
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -1411,7 +1411,7 @@ FROM hashicorp/vault-k8s:1.4.2
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.4.3
+FROM hashicorp/vault-csi-provider:1.5.0
 # hashicorp/vault-csi-provider
 
 # hashicorp/terraform-cloud-operator
