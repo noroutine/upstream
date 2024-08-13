@@ -271,7 +271,7 @@ FROM mysql:9.0.1
 # mysql
 
 # mariadb
-FROM mariadb:11.4.2-noble
+FROM mariadb:11.4.3-noble
 # mariadb
 
 # mccutchen/go-httpbin
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.89.0
+FROM ghost:5.89.1
 # ghost
 
 # bitnami/ghost
@@ -443,11 +443,11 @@ FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.251.3
+FROM nocodb/nocodb:0.252.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.19.3
+FROM metabase/metabase:v0.50.19.4
 # metabase/metabase
 
 # docker
@@ -827,7 +827,7 @@ FROM listmonk/listmonk:v3.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.31.0
+FROM vaultwarden/server:1.32.0
 # vaultwarden/server
 
 # boky/postfix
@@ -1227,7 +1227,7 @@ FROM supabase/storage-api:v1.9.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.0
+FROM supabase/logflare:1.8.1
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1607,7 +1607,7 @@ FROM calico/csi:v3.28.1
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.3
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.4
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
