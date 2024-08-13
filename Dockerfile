@@ -451,7 +451,7 @@ FROM metabase/metabase:v0.50.19.4
 # metabase/metabase
 
 # docker
-FROM docker:27.1.1-dind
+FROM docker:27.1.2-dind
 # docker
 
 # podman/stable
@@ -931,11 +931,11 @@ FROM jellyfin/jellyfin:10.9.9
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.24.02
+FROM haveagitgat/tdarr:2.24.03
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.24.02
+FROM haveagitgat/tdarr_node:2.24.03
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.10.0
+FROM supabase/storage-api:v1.10.1
 # supabase/storage-api
 
 # supabase/logflare

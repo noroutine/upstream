@@ -1,5 +1,5 @@
 {
-  "version": "038223bd",
+  "version": "048b4157",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -115,7 +115,7 @@
       "matomo:5.1.0-apache",
       "nocodb/nocodb:0.252.0",
       "metabase/metabase:v0.50.19.4",
-      "docker:27.1.1-dind",
+      "docker:27.1.2-dind",
       "quay.io/podman/stable:v5.1.2",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
@@ -235,8 +235,8 @@
       "syncthing/discosrv:1.27.10",
       "syncthing/relaysrv:1.27.10",
       "jellyfin/jellyfin:10.9.9",
-      "haveagitgat/tdarr:2.24.02",
-      "haveagitgat/tdarr_node:2.24.02",
+      "haveagitgat/tdarr:2.24.03",
+      "haveagitgat/tdarr_node:2.24.03",
       "gravitl/netmaker:v0.24.3",
       "gravitl/netmaker-ui:v0.24.3",
       "kmb32123/youtube-dl-server:2.0",
@@ -308,7 +308,7 @@
       "supabase/gotrue:v2.158.1",
       "supabase/realtime:v2.30.25",
       "supabase/postgres-meta:v0.83.2",
-      "supabase/storage-api:v1.10.0",
+      "supabase/storage-api:v1.10.1",
       "supabase/logflare:1.8.1",
       "supabase/edge-runtime:v1.56.1",
       "darthsim/imgproxy:v3.25",
