@@ -1,5 +1,5 @@
 {
-  "version": "320cdee8",
+  "version": "c7b3efdc",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -442,8 +442,8 @@
       "confluentinc/cp-zookeeper:7.7.0",
       "obsidiandynamics/kafdrop:4.0.2",
       "tchiotludo/akhq:0.25.1",
-      "nvcr.io/nvidia/gpu-operator:v24.6.0",
-      "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.0",
+      "nvcr.io/nvidia/gpu-operator:v24.6.1",
+      "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.1",
       "nvcr.io/nvidia/cuda:12.5.1-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.10",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.16.1-ubi8",
