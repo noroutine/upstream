@@ -1,5 +1,5 @@
 {
-  "version": "048b4157",
+  "version": "52d1d3a8",
   "upstream": {
     "images": [
       "debian:bookworm-20240722-slim",
@@ -21,8 +21,8 @@
       "node:22.6.0-bookworm",
       "python:3.12.5-bookworm",
       "python:3.12.5-slim-bookworm",
-      "golang:1.22.6-bookworm",
-      "golang:1.22.6-alpine",
+      "golang:1.23.0-bookworm",
+      "golang:1.23.0-alpine",
       "traefik:v3.1.2",
       "sonatype/nexus3:3.70.1",
       "squidfunk/mkdocs-material:9.5.31",
@@ -116,7 +116,7 @@
       "nocodb/nocodb:0.252.0",
       "metabase/metabase:v0.50.19.4",
       "docker:27.1.2-dind",
-      "quay.io/podman/stable:v5.1.2",
+      "quay.io/podman/stable:v5.2.0",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",

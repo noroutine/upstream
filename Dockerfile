@@ -75,11 +75,11 @@ FROM python:3.12.5-slim-bookworm
 # python
 
 # golang
-FROM golang:1.22.6-bookworm
+FROM golang:1.23.0-bookworm
 # golang
 
 # golang
-FROM golang:1.22.6-alpine
+FROM golang:1.23.0-alpine
 # golang
 
 # traefik
@@ -455,7 +455,7 @@ FROM docker:27.1.2-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.1.2
+FROM quay.io/podman/stable:v5.2.0
 # podman/stable
 
 # jupyter/base-notebook
