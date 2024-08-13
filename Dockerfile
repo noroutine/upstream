@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.471-jdk21
+FROM jenkins/jenkins:2.472-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.54.0
+FROM docker.n8n.io/n8nio/n8n:1.54.1
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1159,7 +1159,7 @@ FROM temporalio/auto-setup:1.24.2
 # temporalio/auto-setup
 
 # nodemailer/wildduck
-FROM nodemailer/wildduck:1.44.0
+FROM nodemailer/wildduck:1.45.0
 # nodemailer/wildduck
 
 # nodemailer/wildduck-webmail
@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.9.1
+FROM supabase/storage-api:v1.10.0
 # supabase/storage-api
 
 # supabase/logflare
@@ -1767,7 +1767,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.1
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.5.1-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.6.0-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
