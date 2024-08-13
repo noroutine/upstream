@@ -271,7 +271,7 @@ FROM mysql:9.0.1
 # mysql
 
 # mariadb
-FROM mariadb:11.4.2-noble
+FROM mariadb:11.4.3-noble
 # mariadb
 
 # mccutchen/go-httpbin
