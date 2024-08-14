@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240722-slim
+FROM debian:bookworm-20240812-slim
 # debian
 
 # ubuntu
@@ -87,7 +87,7 @@ FROM traefik:v3.1.2
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.70.1
+FROM sonatype/nexus3:3.71.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.252.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.19.4
+FROM metabase/metabase:v0.50.20.1
 # metabase/metabase
 
 # docker
@@ -623,7 +623,7 @@ FROM bitnami/grafana:11.1.3
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.11.2
+FROM bitnami/grafana-image-renderer:3.11.3
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
