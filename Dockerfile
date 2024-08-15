@@ -1195,7 +1195,7 @@ FROM scylladb/scylla-operator:1.13.0
 # scylladb/scylla-operator
 
 # chirpstack/chirpstack
-FROM chirpstack/chirpstack:4.8.1
+FROM chirpstack/chirpstack:4.9.0
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
