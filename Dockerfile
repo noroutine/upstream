@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.54.1
+FROM docker.n8n.io/n8nio/n8n:1.54.2
 # n8nio/n8n
 
 # cloudflare/cloudflared
