@@ -123,7 +123,7 @@ FROM quay.io/minio/minio:RELEASE.2024-08-03T04-33-23Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-07-31T15-58-33Z
+FROM quay.io/minio/mc:RELEASE.2024-08-13T05-33-17Z
 # minio/mc
 
 # minio/console
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.54.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.75.2
+FROM bitnami/prometheus-operator:0.76.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -603,7 +603,7 @@ FROM bitnami/minio:2024.8.3
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.7.31
+FROM bitnami/minio-client:2024.8.13
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.54.2
+FROM docker.n8n.io/n8nio/n8n:1.54.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.8.2
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.15
+FROM airbyte/webapp:0.63.16
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.15
+FROM airbyte/server:0.63.16
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.15
+FROM airbyte/worker:0.63.16
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.15
+FROM airbyte/metrics-reporter:0.63.16
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.15
+FROM airbyte/bootloader:0.63.16
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.15
+FROM airbyte/db:0.63.16
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.15
+FROM airbyte/cron:0.63.16
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.15
+FROM airbyte/connector-builder-server:0.63.16
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.15
+FROM airbyte/workload-api-server:0.63.16
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1183,7 +1183,7 @@ FROM rspamd/rspamd:3.9.1
 # rspamd/rspamd
 
 # scylladb/scylla
-FROM scylladb/scylla:6.0.2
+FROM scylladb/scylla:6.1.0
 # scylladb/scylla
 
 # scylladb/scylla-manager
