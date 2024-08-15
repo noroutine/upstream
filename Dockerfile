@@ -167,15 +167,15 @@ FROM quay.io/prometheus/pushgateway:v1.9.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.75.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.76.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.75.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.1.3
+FROM grafana/grafana:11.1.4
 # grafana/grafana
 
 # grafana/loki
@@ -315,7 +315,7 @@ FROM buildpacksio/lifecycle:0.20.0
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v17.2.1
+FROM gitlab/gitlab-runner:alpine3.19-v17.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -323,7 +323,7 @@ FROM gitlab/gitlab-ce:17.2.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.3.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.101.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -443,11 +443,11 @@ FROM matomo:5.1.0-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.252.0
+FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.20.1
+FROM metabase/metabase:v0.50.20.3
 # metabase/metabase
 
 # docker
@@ -579,7 +579,7 @@ FROM bitnami/keycloak-config-cli:6.1.6
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.4.2
+FROM bitnami/mariadb:11.4.3
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -595,7 +595,7 @@ FROM bitnami/nginx-ingress-controller:1.11.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.27.0
+FROM bitnami/nginx:1.27.1
 # bitnami/nginx
 
 # bitnami/minio
@@ -619,7 +619,7 @@ FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.1.3
+FROM bitnami/grafana:11.1.4
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -679,7 +679,7 @@ FROM bitnami/trivy:0.54.1
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.30.3
+FROM bitnami/kubectl:1.31.0
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.8
+FROM netboxcommunity/netbox:v4.0.9
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.54.1
+FROM docker.n8n.io/n8nio/n8n:1.54.2
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1227,7 +1227,7 @@ FROM supabase/storage-api:v1.10.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.1
+FROM supabase/logflare:1.8.2
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1351,7 +1351,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.30.3
+FROM bitnami/kubectl:1.31.0
 # bitnami/kubectl
 
 # apache/airflow
