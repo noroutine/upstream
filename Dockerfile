@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.100
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.2.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -1247,15 +1247,15 @@ FROM kong:3.7.1-ubuntu
 # kong
 
 # cilium/clustermesh-apiserver
-FROM quay.io/cilium/clustermesh-apiserver:v1.16.0
+FROM quay.io/cilium/clustermesh-apiserver:v1.16.1
 # cilium/clustermesh-apiserver
 
 # cilium/cilium
-FROM quay.io/cilium/cilium:v1.16.0
+FROM quay.io/cilium/cilium:v1.16.1
 # cilium/cilium
 
 # cilium/operator
-FROM quay.io/cilium/operator:v1.16.0
+FROM quay.io/cilium/operator:v1.16.1
 # cilium/operator
 
 # cilium/startup-script
@@ -1271,7 +1271,7 @@ FROM quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
-FROM quay.io/cilium/hubble-relay:v1.16.0
+FROM quay.io/cilium/hubble-relay:v1.16.1
 # cilium/hubble-relay
 
 # cilium/hubble-ui
@@ -1291,7 +1291,7 @@ FROM ghcr.io/spiffe/spire-agent:1.10.1
 # spiffe/spire-agent
 
 # bitnami/cilium
-FROM bitnami/cilium:1.16.0
+FROM bitnami/cilium:1.16.1
 # bitnami/cilium
 
 # bitnami/cilium-proxy
@@ -1299,11 +1299,11 @@ FROM bitnami/cilium-proxy:1.29.7
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator
-FROM bitnami/cilium-operator:1.16.0
+FROM bitnami/cilium-operator:1.16.1
 # bitnami/cilium-operator
 
 # bitnami/hubble-relay
-FROM bitnami/hubble-relay:1.16.0
+FROM bitnami/hubble-relay:1.16.1
 # bitnami/hubble-relay
 
 # bitnami/hubble-ui
