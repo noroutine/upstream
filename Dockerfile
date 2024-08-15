@@ -271,7 +271,7 @@ FROM mysql:9.0.1
 # mysql
 
 # mariadb
-FROM mariadb:11.4.3-noble
+FROM mariadb:11.5.2-noble
 # mariadb
 
 # mccutchen/go-httpbin
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.2.2-ce.0
+FROM gitlab/gitlab-ce:17.3.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -1195,7 +1195,7 @@ FROM scylladb/scylla-operator:1.13.0
 # scylladb/scylla-operator
 
 # chirpstack/chirpstack
-FROM chirpstack/chirpstack:4.8.1
+FROM chirpstack/chirpstack:4.9.0
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api

@@ -1,5 +1,5 @@
 {
-  "version": "adc91940",
+  "version": "aa09799f",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -70,7 +70,7 @@
       "dpage/pgadmin4:8.10",
       "adminer:4.8.1",
       "mysql:9.0.1",
-      "mariadb:11.4.3-noble",
+      "mariadb:11.5.2-noble",
       "mccutchen/go-httpbin:v2.14.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.6.0-alpine",
       "heroku/heroku:24-build",
@@ -82,7 +82,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.20.0",
       "gitlab/gitlab-runner:alpine3.19-v17.3.0",
-      "gitlab/gitlab-ce:17.2.2-ce.0",
+      "gitlab/gitlab-ce:17.3.0-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.3.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.101.0",
@@ -301,7 +301,7 @@
       "scylladb/scylla:6.1.0",
       "scylladb/scylla-manager:3.2.8",
       "scylladb/scylla-operator:1.13.0",
-      "chirpstack/chirpstack:4.8.1",
+      "chirpstack/chirpstack:4.9.0",
       "chirpstack/chirpstack-rest-api:4.8.1",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
