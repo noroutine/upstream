@@ -619,7 +619,7 @@ FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.1.3
+FROM bitnami/grafana:11.1.4
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
