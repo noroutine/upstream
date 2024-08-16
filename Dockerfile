@@ -1199,7 +1199,7 @@ FROM chirpstack/chirpstack:4.9.0
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
-FROM chirpstack/chirpstack-rest-api:4.8.1
+FROM chirpstack/chirpstack-rest-api:4.9.0
 # chirpstack/chirpstack-rest-api
 
 # chirpstack/chirpstack-gateway-bridge
