@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.8.2
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.16
+FROM airbyte/webapp:0.63.17
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.16
+FROM airbyte/server:0.63.17
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.16
+FROM airbyte/worker:0.63.17
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.16
+FROM airbyte/metrics-reporter:0.63.17
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.16
+FROM airbyte/bootloader:0.63.17
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.16
+FROM airbyte/db:0.63.17
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.16
+FROM airbyte/cron:0.63.17
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.16
+FROM airbyte/connector-builder-server:0.63.17
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.16
+FROM airbyte/workload-api-server:0.63.17
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1451,51 +1451,51 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.0
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.30.3
+FROM registry.k8s.io/kube-apiserver:v1.30.4
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.30.3
+FROM registry.k8s.io/kube-proxy:v1.30.4
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.30.3
+FROM registry.k8s.io/kube-scheduler:v1.30.4
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.30.3
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.7
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.7
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.7
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.7
+FROM registry.k8s.io/kube-controller-manager:v1.30.4
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.12
+FROM registry.k8s.io/kube-apiserver:v1.29.8
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.12
+FROM registry.k8s.io/kube-proxy:v1.29.8
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.12
+FROM registry.k8s.io/kube-scheduler:v1.29.8
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.12
+FROM registry.k8s.io/kube-controller-manager:v1.29.8
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.28.13
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.28.13
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.28.13
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.28.13
 # kube-controller-manager
 
 # kube-apiserver
