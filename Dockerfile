@@ -1371,15 +1371,15 @@ FROM ghcr.io/kedacore/keda-metrics-apiserver:2.15.1
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.15.2
+FROM quay.io/jetstack/cert-manager-controller:v1.15.3
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.15.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.15.3
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.15.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.15.3
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
