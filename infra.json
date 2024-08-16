@@ -1,5 +1,5 @@
 {
-  "version": "a49d0655",
+  "version": "e60045df",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.89.1",
       "matomo:5.1.0-apache",
       "nocodb/nocodb:0.255.0",
-      "metabase/metabase:v0.50.20.3",
+      "metabase/metabase:v0.50.20.4",
       "docker:27.1.2-dind",
       "quay.io/podman/stable:v5.2.0",
       "jupyter/base-notebook:2023-10-20",
@@ -150,7 +150,7 @@
       "bitnami/mariadb:11.4.3",
       "bitnami/mongodb:7.0.12",
       "bitnami/memcached:1.6.29",
-      "bitnami/nginx-ingress-controller:1.11.1",
+      "bitnami/nginx-ingress-controller:1.11.2",
       "bitnami/nginx:1.27.1",
       "bitnami/minio:2024.8.3",
       "bitnami/minio-client:2024.8.13",
@@ -262,7 +262,7 @@
       "kubernetesui/dashboard-api:1.7.0",
       "kubernetesui/dashboard-web:1.4.0",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.31.2",
+      "locustio/locust:2.31.3",
       "postgrest/postgrest:v12.2.3",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.8.0",
@@ -280,7 +280,7 @@
       "paperlessngx/paperless-ngx:2.11.4",
       "roundcube/roundcubemail:1.6.8-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
-      "docker.n8n.io/n8nio/n8n:1.54.0",
+      "docker.n8n.io/n8nio/n8n:1.54.4",
       "cloudflare/cloudflared:2024.8.2",
       "airbyte/webapp:0.63.17",
       "airbyte/server:0.63.17",

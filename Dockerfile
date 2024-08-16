@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.20.3
+FROM metabase/metabase:v0.50.20.4
 # metabase/metabase
 
 # docker
@@ -591,7 +591,7 @@ FROM bitnami/memcached:1.6.29
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.11.1
+FROM bitnami/nginx-ingress-controller:1.11.2
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
@@ -1039,7 +1039,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.31.2
+FROM locustio/locust:2.31.3
 # locustio/locust
 
 # postgrest/postgrest
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.54.0
+FROM docker.n8n.io/n8nio/n8n:1.54.4
 # n8nio/n8n
 
 # cloudflare/cloudflared
