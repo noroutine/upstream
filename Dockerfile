@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.54.4
+FROM docker.n8n.io/n8nio/n8n:1.55.2
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1199,7 +1199,7 @@ FROM chirpstack/chirpstack:4.9.0
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
-FROM chirpstack/chirpstack-rest-api:4.8.1
+FROM chirpstack/chirpstack-rest-api:4.9.0
 # chirpstack/chirpstack-rest-api
 
 # chirpstack/chirpstack-gateway-bridge
@@ -1355,7 +1355,7 @@ FROM bitnami/kubectl:1.31.0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.9.3-python3.12
+FROM apache/airflow:2.10.0-python3.12
 # apache/airflow
 
 # git-sync/git-sync
