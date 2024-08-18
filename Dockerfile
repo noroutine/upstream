@@ -439,7 +439,7 @@ FROM bitnami/ghost:5.89.3
 # bitnami/ghost
 
 # matomo
-FROM matomo:5.1.0-apache
+FROM matomo:5.1.1-apache
 # matomo
 
 # nocodb/nocodb
