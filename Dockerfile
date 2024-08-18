@@ -7,7 +7,7 @@ FROM ubuntu:noble-20240605
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240530
+FROM ubuntu:jammy-20240808
 # ubuntu
 
 # ubuntu
