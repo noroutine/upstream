@@ -3,11 +3,11 @@ FROM debian:bookworm-20240812-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240605
+FROM ubuntu:noble-20240801
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240530
+FROM ubuntu:jammy-20240808
 # ubuntu
 
 # ubuntu
@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.12.0
+FROM quay.io/argoproj/argocd:v2.12.1
 # argoproj/argocd
 
 # argoproj/argo-events
