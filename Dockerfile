@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.89.1
+FROM ghost:5.89.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.89.1
+FROM bitnami/ghost:5.89.3
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.20.4
+FROM metabase/metabase:v0.50.20.5
 # metabase/metabase
 
 # docker
@@ -931,11 +931,11 @@ FROM jellyfin/jellyfin:10.9.9
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.24.03
+FROM haveagitgat/tdarr:2.24.04
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.24.03
+FROM haveagitgat/tdarr_node:2.24.04
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.8.2
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.17
+FROM airbyte/webapp:0.63.18
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.17
+FROM airbyte/server:0.63.18
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.17
+FROM airbyte/worker:0.63.18
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.17
+FROM airbyte/metrics-reporter:0.63.18
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.17
+FROM airbyte/bootloader:0.63.18
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.17
+FROM airbyte/db:0.63.18
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.17
+FROM airbyte/cron:0.63.18
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.17
+FROM airbyte/connector-builder-server:0.63.18
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.17
+FROM airbyte/workload-api-server:0.63.18
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
