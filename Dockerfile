@@ -191,11 +191,11 @@ FROM grafana/promtail:3.1.1
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.27.0-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.27.1-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.27.0-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.27.1-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -439,7 +439,7 @@ FROM bitnami/ghost:5.89.3
 # bitnami/ghost
 
 # matomo
-FROM matomo:5.1.0-apache
+FROM matomo:5.1.1-apache
 # matomo
 
 # nocodb/nocodb

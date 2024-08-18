@@ -1,5 +1,5 @@
 {
-  "version": "cbed6e36",
+  "version": "ea6209b0",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -50,8 +50,8 @@
       "grafana/loki:3.1.1",
       "grafana/loki-canary:3.1.1",
       "grafana/promtail:3.1.1",
-      "nginxinc/nginx-unprivileged:1.27.0-alpine-slim",
-      "nginxinc/nginx-unprivileged:1.27.0-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.27.1-alpine-slim",
+      "nginxinc/nginx-unprivileged:1.27.1-alpine-slim",
       "httpd:2.4.62-alpine",
       "tomcat:10.1.28-jdk21-temurin-jammy",
       "quay.io/m3db/m3coordinator:v1.5.0",
@@ -112,7 +112,7 @@
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.89.3",
       "bitnami/ghost:5.89.3",
-      "matomo:5.1.0-apache",
+      "matomo:5.1.1-apache",
       "nocodb/nocodb:0.255.0",
       "metabase/metabase:v0.50.20.5",
       "docker:27.1.2-dind",
