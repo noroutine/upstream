@@ -1,5 +1,5 @@
 {
-  "version": "30684ced",
+  "version": "d0a68da1",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -27,7 +27,7 @@
       "sonatype/nexus3:3.71.0",
       "squidfunk/mkdocs-material:9.5.31",
       "freeradius/freeradius-server:3.2.5-alpine",
-      "quay.io/keycloak/keycloak:25.0.2",
+      "quay.io/keycloak/keycloak:25.0.4",
       "postgres:16.4-bookworm",
       "atlassian/jira-software:9.17.2",
       "nextcloud:29.0.4-apache",
@@ -145,7 +145,7 @@
       "bitnami/postgresql:16.4.0",
       "bitnami/tomcat:10.1.28",
       "bitnami/jmx-exporter:1.0.1",
-      "bitnami/keycloak:25.0.2",
+      "bitnami/keycloak:25.0.4",
       "bitnami/keycloak-config-cli:6.1.6",
       "bitnami/mariadb:11.4.3",
       "bitnami/mongodb:7.0.12",
