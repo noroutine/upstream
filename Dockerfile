@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.101.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.102.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -1063,7 +1063,7 @@ FROM guacamole/guacd:1.5.5
 # guacamole/guacd
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.11.0-amd64
+FROM quay.io/cephcsi/cephcsi:v3.12.0-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel

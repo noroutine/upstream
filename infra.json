@@ -1,5 +1,5 @@
 {
-  "version": "4dfc0f15",
+  "version": "30684ced",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -85,7 +85,7 @@
       "gitlab/gitlab-ce:17.3.0-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.3.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.101.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.102.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0",
       "summerwind/actions-runner-controller:v0.27.6",
@@ -268,7 +268,7 @@
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.8.0",
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
-      "quay.io/cephcsi/cephcsi:v3.11.0-amd64",
+      "quay.io/cephcsi/cephcsi:v3.12.0-amd64",
       "ghcr.io/zitadel/zitadel:v2.58.3",
       "homeassistant/home-assistant:2024.8",
       "koenkk/zigbee2mqtt:1.39.1",
