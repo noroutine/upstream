@@ -1647,7 +1647,7 @@ FROM longhornio/longhorn-share-manager:v1.6.2
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.6.2
+FROM longhornio/backing-image-manager:v1.7.0
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
