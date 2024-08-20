@@ -455,7 +455,7 @@ FROM docker:27.1.2-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.2.0
+FROM quay.io/podman/stable:v5.2.1
 # podman/stable
 
 # jupyter/base-notebook
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.472-jdk21
+FROM jenkins/jenkins:2.473-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
