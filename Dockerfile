@@ -435,7 +435,7 @@ FROM ghost:5.89.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.89.3
+FROM bitnami/ghost:5.89.4
 # bitnami/ghost
 
 # matomo
@@ -1063,11 +1063,11 @@ FROM guacamole/guacd:1.5.5
 # guacamole/guacd
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.12.0-amd64
+FROM quay.io/cephcsi/cephcsi:v3.12.1-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.58.3
+FROM ghcr.io/zitadel/zitadel:v2.59.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.83.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.10.1
+FROM supabase/storage-api:v1.10.2
 # supabase/storage-api
 
 # supabase/logflare
@@ -1627,27 +1627,27 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.4
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.6.2
+FROM longhornio/longhorn-manager:v1.7.0
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.6.2
+FROM longhornio/longhorn-ui:v1.7.0
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.6.2
+FROM longhornio/longhorn-engine:v1.7.0
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.6.2
+FROM longhornio/longhorn-instance-manager:v1.7.0
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.6.2
+FROM longhornio/longhorn-share-manager:v1.7.0
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.6.2
+FROM longhornio/backing-image-manager:v1.7.0
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
