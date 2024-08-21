@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.89.3
+FROM ghost:5.89.5
 # ghost
 
 # bitnami/ghost
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.20.6
+FROM metabase/metabase:v0.50.20.7
 # metabase/metabase
 
 # docker
@@ -711,43 +711,43 @@ FROM bitnami/harbor-registryctl:2.11.0
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
-FROM goharbor/harbor-portal:v2.11.0
+FROM goharbor/harbor-portal:v2.11.1
 # goharbor/harbor-portal
 
 # goharbor/harbor-core
-FROM goharbor/harbor-core:v2.11.0
+FROM goharbor/harbor-core:v2.11.1
 # goharbor/harbor-core
 
 # goharbor/harbor-jobservice
-FROM goharbor/harbor-jobservice:v2.11.0
+FROM goharbor/harbor-jobservice:v2.11.1
 # goharbor/harbor-jobservice
 
 # goharbor/registry-photon
-FROM goharbor/registry-photon:v2.11.0
+FROM goharbor/registry-photon:v2.11.1
 # goharbor/registry-photon
 
 # goharbor/harbor-registryctl
-FROM goharbor/harbor-registryctl:v2.11.0
+FROM goharbor/harbor-registryctl:v2.11.1
 # goharbor/harbor-registryctl
 
 # goharbor/harbor-db
-FROM goharbor/harbor-db:v2.11.0
+FROM goharbor/harbor-db:v2.11.1
 # goharbor/harbor-db
 
 # goharbor/harbor-exporter
-FROM goharbor/harbor-exporter:v2.11.0
+FROM goharbor/harbor-exporter:v2.11.1
 # goharbor/harbor-exporter
 
 # goharbor/redis-photon
-FROM goharbor/redis-photon:v2.11.0
+FROM goharbor/redis-photon:v2.11.1
 # goharbor/redis-photon
 
 # goharbor/trivy-adapter-photon
-FROM goharbor/trivy-adapter-photon:v2.11.0
+FROM goharbor/trivy-adapter-photon:v2.11.1
 # goharbor/trivy-adapter-photon
 
 # goharbor/nginx-photon
-FROM goharbor/nginx-photon:v2.11.0
+FROM goharbor/nginx-photon:v2.11.1
 # goharbor/nginx-photon
 
 # aquasec/trivy
@@ -759,11 +759,11 @@ FROM ghcr.io/external-secrets/external-secrets:v0.10.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.4.4
+FROM registry.k8s.io/csi-secrets-store/driver:v1.4.5
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.4
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.5
 # csi-secrets-store/driver-crds
 
 # kutt/kutt
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.7
+FROM netbirdio/signal:0.28.8
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.7
+FROM netbirdio/management:0.28.8
 # netbirdio/management
 
 # coturn/coturn
@@ -1231,7 +1231,7 @@ FROM supabase/logflare:1.8.2
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.56.1
+FROM supabase/edge-runtime:v1.57.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy
