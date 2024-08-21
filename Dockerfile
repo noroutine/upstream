@@ -715,7 +715,7 @@ FROM goharbor/harbor-portal:v2.11.0
 # goharbor/harbor-portal
 
 # goharbor/harbor-core
-FROM goharbor/harbor-core:v2.11.0
+FROM goharbor/harbor-core:v2.11.1
 # goharbor/harbor-core
 
 # goharbor/harbor-jobservice
