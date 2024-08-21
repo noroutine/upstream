@@ -735,7 +735,7 @@ FROM goharbor/harbor-db:v2.11.0
 # goharbor/harbor-db
 
 # goharbor/harbor-exporter
-FROM goharbor/harbor-exporter:v2.11.0
+FROM goharbor/harbor-exporter:v2.11.1
 # goharbor/harbor-exporter
 
 # goharbor/redis-photon
