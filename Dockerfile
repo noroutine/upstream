@@ -727,7 +727,7 @@ FROM goharbor/registry-photon:v2.11.0
 # goharbor/registry-photon
 
 # goharbor/harbor-registryctl
-FROM goharbor/harbor-registryctl:v2.11.0
+FROM goharbor/harbor-registryctl:v2.11.1
 # goharbor/harbor-registryctl
 
 # goharbor/harbor-db
