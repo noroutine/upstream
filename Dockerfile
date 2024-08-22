@@ -935,7 +935,7 @@ FROM haveagitgat/tdarr:2.24.04
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.24.04
+FROM haveagitgat/tdarr_node:2.24.05
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
