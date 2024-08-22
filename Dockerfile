@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.3.0-ce.0
+FROM gitlab/gitlab-ce:17.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.89.5
+FROM ghost:5.89.6
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.89.5
+FROM bitnami/ghost:5.89.6
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.20.7
+FROM metabase/metabase:v0.50.21.1
 # metabase/metabase
 
 # docker
@@ -931,11 +931,11 @@ FROM jellyfin/jellyfin:10.9.9
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.24.04
+FROM haveagitgat/tdarr:2.24.05
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.24.04
+FROM haveagitgat/tdarr_node:2.24.05
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.55.2
+FROM docker.n8n.io/n8nio/n8n:1.55.3
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1219,7 +1219,7 @@ FROM supabase/realtime:v2.30.25
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.83.2
+FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
