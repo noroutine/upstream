@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.3.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.3.0-ce.0
+FROM gitlab/gitlab-ce:17.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
