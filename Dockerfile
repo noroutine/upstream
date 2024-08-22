@@ -1219,7 +1219,7 @@ FROM supabase/realtime:v2.30.25
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.83.2
+FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
