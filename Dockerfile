@@ -1115,7 +1115,7 @@ FROM docker.n8n.io/n8nio/n8n:1.55.3
 # n8nio/n8n
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.8.2
+FROM cloudflare/cloudflared:2024.8.3
 # cloudflare/cloudflared
 
 # airbyte/webapp
