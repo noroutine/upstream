@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.21.1
+FROM metabase/metabase:v0.50.21.2
 # metabase/metabase
 
 # docker
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.1-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.59.0
+FROM ghcr.io/zitadel/zitadel:v2.59.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
