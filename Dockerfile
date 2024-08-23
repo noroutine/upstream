@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.71.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.32
+FROM squidfunk/mkdocs-material:9.5.33
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.12.1
+FROM quay.io/argoproj/argocd:v2.12.2
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -1099,7 +1099,7 @@ FROM gitea/gitea:1.22.1-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.11.5
+FROM paperlessngx/paperless-ngx:2.11.6
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.10.2
+FROM supabase/storage-api:v1.10.3
 # supabase/storage-api
 
 # supabase/logflare
