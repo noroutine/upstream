@@ -107,11 +107,11 @@ FROM postgres:16.4-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:9.17.2
+FROM atlassian/jira-software:10.0.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:29.0.4-apache
+FROM nextcloud:29.0.5-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -311,11 +311,11 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.20.0
+FROM buildpacksio/lifecycle:0.20.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v17.3.0
+FROM gitlab/gitlab-runner:alpine3.19-v17.3.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -323,7 +323,7 @@ FROM gitlab/gitlab-ce:17.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.3.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.3.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.21.2
+FROM metabase/metabase:v0.50.21.3
 # metabase/metabase
 
 # docker
@@ -1099,7 +1099,7 @@ FROM gitea/gitea:1.22.1-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.11.4
+FROM paperlessngx/paperless-ngx:2.11.5
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1115,7 +1115,7 @@ FROM docker.n8n.io/n8nio/n8n:1.55.3
 # n8nio/n8n
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.8.2
+FROM cloudflare/cloudflared:2024.8.3
 # cloudflare/cloudflared
 
 # airbyte/webapp
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.158.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.25
+FROM supabase/realtime:v2.30.26
 # supabase/realtime
 
 # supabase/postgres-meta
