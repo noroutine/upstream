@@ -695,7 +695,7 @@ FROM bitnami/harbor-exporter:2.11.0
 # bitnami/harbor-exporter
 
 # bitnami/harbor-jobservice
-FROM bitnami/harbor-jobservice:2.11.0
+FROM bitnami/harbor-jobservice:2.11.1
 # bitnami/harbor-jobservice
 
 # bitnami/harbor-portal
