@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.102
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -835,7 +835,7 @@ FROM boky/postfix:v4.2.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.6.1
+FROM cupcakearmy/cryptgeon:2.7.0
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.8
+FROM netbirdio/signal:0.28.9
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.8
+FROM netbirdio/management:0.28.9
 # netbirdio/management
 
 # coturn/coturn
