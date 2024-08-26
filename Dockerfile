@@ -63,7 +63,7 @@ FROM php:8.3.10-apache-bookworm
 # php
 
 # node
-FROM node:22.6.0-bookworm
+FROM node:22.7.0-bookworm
 # node
 
 # python
