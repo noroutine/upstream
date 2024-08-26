@@ -1131,7 +1131,7 @@ FROM airbyte/worker:0.63.19
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.19
+FROM airbyte/metrics-reporter:0.64.0
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
