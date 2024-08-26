@@ -683,7 +683,7 @@ FROM bitnami/kubectl:1.31.0
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
-FROM bitnami/harbor-adapter-trivy:2.11.0
+FROM bitnami/harbor-adapter-trivy:2.11.1
 # bitnami/harbor-adapter-trivy
 
 # bitnami/harbor-core
