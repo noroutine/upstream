@@ -1143,7 +1143,7 @@ FROM airbyte/db:0.63.19
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.19
+FROM airbyte/cron:0.64.0
 # airbyte/cron
 
 # airbyte/connector-builder-server
