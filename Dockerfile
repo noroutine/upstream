@@ -63,7 +63,7 @@ FROM php:8.3.10-apache-bookworm
 # php
 
 # node
-FROM node:22.6.0-bookworm
+FROM node:22.7.0-bookworm
 # node
 
 # python
@@ -259,7 +259,7 @@ FROM wordpress:6.6.1-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.10
+FROM dpage/pgadmin4:8.11
 # dpage/pgadmin4
 
 # adminer
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.89.6
+FROM ghost:5.90.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.89.6
+FROM bitnami/ghost:5.90.0
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.21.3
+FROM metabase/metabase:v0.50.21.4
 # metabase/metabase
 
 # docker
@@ -683,31 +683,31 @@ FROM bitnami/kubectl:1.31.0
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
-FROM bitnami/harbor-adapter-trivy:2.11.0
+FROM bitnami/harbor-adapter-trivy:2.11.1
 # bitnami/harbor-adapter-trivy
 
 # bitnami/harbor-core
-FROM bitnami/harbor-core:2.11.0
+FROM bitnami/harbor-core:2.11.1
 # bitnami/harbor-core
 
 # bitnami/harbor-exporter
-FROM bitnami/harbor-exporter:2.11.0
+FROM bitnami/harbor-exporter:2.11.1
 # bitnami/harbor-exporter
 
 # bitnami/harbor-jobservice
-FROM bitnami/harbor-jobservice:2.11.0
+FROM bitnami/harbor-jobservice:2.11.1
 # bitnami/harbor-jobservice
 
 # bitnami/harbor-portal
-FROM bitnami/harbor-portal:2.11.0
+FROM bitnami/harbor-portal:2.11.1
 # bitnami/harbor-portal
 
 # bitnami/harbor-registry
-FROM bitnami/harbor-registry:2.11.0
+FROM bitnami/harbor-registry:2.11.1
 # bitnami/harbor-registry
 
 # bitnami/harbor-registryctl
-FROM bitnami/harbor-registryctl:2.11.0
+FROM bitnami/harbor-registryctl:2.11.1
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
@@ -1051,7 +1051,7 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
-FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.8.0
+FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.9.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
@@ -1211,7 +1211,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.158.1
+FROM supabase/gotrue:v2.159.1
 # supabase/gotrue
 
 # supabase/realtime
