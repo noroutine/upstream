@@ -603,7 +603,7 @@ FROM bitnami/minio:2024.8.17
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.8.17
+FROM bitnami/minio-client:2024.8.26
 # bitnami/minio-client
 
 # bitnami/os-shell
