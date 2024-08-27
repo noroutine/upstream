@@ -619,7 +619,7 @@ FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.1.5
+FROM bitnami/grafana:11.2.0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.8.3
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.63.19
+FROM airbyte/webapp:0.64.0
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.63.19
+FROM airbyte/server:0.64.0
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.63.19
+FROM airbyte/worker:0.64.0
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.63.19
+FROM airbyte/metrics-reporter:0.64.0
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.63.19
+FROM airbyte/bootloader:0.64.0
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.19
+FROM airbyte/db:0.64.0
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.63.19
+FROM airbyte/cron:0.64.0
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.63.19
+FROM airbyte/connector-builder-server:0.64.0
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.63.19
+FROM airbyte/workload-api-server:0.64.0
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.159.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.26
+FROM supabase/realtime:v2.30.27
 # supabase/realtime
 
 # supabase/postgres-meta
