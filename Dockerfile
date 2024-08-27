@@ -135,7 +135,7 @@ FROM quay.io/coreos/etcd:v3.5.15
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.54.0
+FROM quay.io/prometheus/prometheus:v2.54.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -175,7 +175,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.1.4
+FROM grafana/grafana:11.2.0
 # grafana/grafana
 
 # grafana/loki
@@ -507,7 +507,7 @@ FROM bitnami/spark:3.5.2
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.54.0
+FROM bitnami/prometheus:2.54.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -619,7 +619,7 @@ FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.1.4
+FROM bitnami/grafana:11.1.5
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
