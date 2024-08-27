@@ -579,7 +579,7 @@ FROM bitnami/keycloak-config-cli:6.1.6
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.4.3
+FROM bitnami/mariadb:11.5.2
 # bitnami/mariadb
 
 # bitnami/mongodb
