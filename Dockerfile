@@ -1139,7 +1139,7 @@ FROM airbyte/bootloader:0.63.19
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.63.19
+FROM airbyte/db:0.64.0
 # airbyte/db
 
 # airbyte/cron
