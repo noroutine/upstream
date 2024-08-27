@@ -95,7 +95,7 @@ FROM squidfunk/mkdocs-material:9.5.33
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.5-alpine
+FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
@@ -251,7 +251,7 @@ FROM alerta/alerta-web:9.0.3
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.12-jammy
+FROM mongo:7.0.14-jammy
 # mongo
 
 # wordpress
@@ -435,7 +435,7 @@ FROM ghost:5.90.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.90.0
+FROM bitnami/ghost:5.90.1
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.21.4
+FROM metabase/metabase:v0.50.22
 # metabase/metabase
 
 # docker
@@ -583,7 +583,7 @@ FROM bitnami/mariadb:11.4.3
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.12
+FROM bitnami/mongodb:7.0.14
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -775,7 +775,7 @@ FROM drakkan/sftpgo:v2.6.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.42.0
+FROM hasura/graphql-engine:v2.43.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -927,7 +927,7 @@ FROM syncthing/relaysrv:1.27.10
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.9
+FROM jellyfin/jellyfin:10.9.10
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -1315,7 +1315,7 @@ FROM bitnami/hubble-ui-backend:0.13.1
 # bitnami/hubble-ui-backend
 
 # velero/velero
-FROM velero/velero:v1.14.0
+FROM velero/velero:v1.14.1
 # velero/velero
 
 # velero/velero-plugin-for-csi
@@ -1331,7 +1331,7 @@ FROM velero/velero-plugin-for-gcp:v1.10.0
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.10.0
+FROM velero/velero-plugin-for-microsoft-azure:v1.10.1
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
@@ -1723,7 +1723,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.9.1
+FROM confluentinc/confluent-init-container:2.9.2
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
