@@ -1423,7 +1423,7 @@ FROM quay.io/strimzi/operator:0.42.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.42.0-kafka-3.7.0
+FROM quay.io/strimzi/kafka:0.43.0-kafka-3.7.0
 # strimzi/kafka
 
 # pause
