@@ -1,5 +1,5 @@
 {
-  "version": "f6b1c164",
+  "version": "ff2a4f5f",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -312,7 +312,7 @@
       "supabase/logflare:1.8.2",
       "supabase/edge-runtime:v1.58.0",
       "darthsim/imgproxy:v3.25",
-      "timberio/vector:0.40.0-alpine",
+      "timberio/vector:0.40.1-alpine",
       "kong:3.7.1-ubuntu",
       "quay.io/cilium/clustermesh-apiserver:v1.16.1",
       "quay.io/cilium/cilium:v1.16.1",
@@ -350,7 +350,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.15.3",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
-      "hashicorp/consul:1.19.1",
+      "hashicorp/consul:1.19.2",
       "hashicorp/consul-k8s-control-plane:1.5.1",
       "envoyproxy/envoy-alpine:v1.21.6",
       "hashicorp/vault:1.17.3",
