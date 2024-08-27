@@ -1,5 +1,5 @@
 {
-  "version": "ff2a4f5f",
+  "version": "85242c11",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -147,7 +147,7 @@
       "bitnami/jmx-exporter:1.0.1",
       "bitnami/keycloak:25.0.4",
       "bitnami/keycloak-config-cli:6.1.6",
-      "bitnami/mariadb:11.4.3",
+      "bitnami/mariadb:11.5.2",
       "bitnami/mongodb:7.0.14",
       "bitnami/memcached:1.6.29",
       "bitnami/nginx-ingress-controller:1.11.2",
@@ -162,7 +162,7 @@
       "bitnami/consul:1.19.1",
       "bitnami/nats:2.10.18",
       "bitnami/kube-state-metrics:2.13.0",
-      "bitnami/metrics-server:0.7.1",
+      "bitnami/metrics-server:0.7.2",
       "bitnami/kubeapps-dashboard:2.11.0",
       "bitnami/kubeapps-apprepository-controller:2.11.0",
       "bitnami/kubeapps-asset-syncer:2.11.0",

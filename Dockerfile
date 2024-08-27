@@ -579,7 +579,7 @@ FROM bitnami/keycloak-config-cli:6.1.6
 # bitnami/keycloak-config-cli
 
 # bitnami/mariadb
-FROM bitnami/mariadb:11.4.3
+FROM bitnami/mariadb:11.5.2
 # bitnami/mariadb
 
 # bitnami/mongodb
@@ -639,7 +639,7 @@ FROM bitnami/kube-state-metrics:2.13.0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.7.1
+FROM bitnami/metrics-server:0.7.2
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
