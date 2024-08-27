@@ -583,7 +583,7 @@ FROM bitnami/mariadb:11.4.3
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.12
+FROM bitnami/mongodb:7.0.14
 # bitnami/mongodb
 
 # bitnami/memcached
