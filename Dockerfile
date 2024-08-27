@@ -1315,7 +1315,7 @@ FROM bitnami/hubble-ui-backend:0.13.1
 # bitnami/hubble-ui-backend
 
 # velero/velero
-FROM velero/velero:v1.14.0
+FROM velero/velero:v1.14.1
 # velero/velero
 
 # velero/velero-plugin-for-csi
