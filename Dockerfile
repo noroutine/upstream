@@ -1723,7 +1723,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.0.1
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.9.1
+FROM confluentinc/confluent-init-container:2.9.2
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
