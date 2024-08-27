@@ -1039,7 +1039,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.31.3
+FROM locustio/locust:2.31.4
 # locustio/locust
 
 # postgrest/postgrest
@@ -1727,7 +1727,7 @@ FROM confluentinc/confluent-init-container:2.9.2
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.1033.10
+FROM confluentinc/confluent-operator:0.1033.22
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
