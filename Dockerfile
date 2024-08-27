@@ -119,11 +119,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-08-17T01-24-54Z
+FROM quay.io/minio/minio:RELEASE.2024-08-26T15-33-07Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-08-17T11-33-50Z
+FROM quay.io/minio/mc:RELEASE.2024-08-26T10-49-58Z
 # minio/mc
 
 # minio/console
@@ -599,11 +599,11 @@ FROM bitnami/nginx:1.27.1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.8.17
+FROM bitnami/minio:2024.8.26
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.8.17
+FROM bitnami/minio-client:2024.8.26
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.12.2
+FROM quay.io/argoproj/argocd:v2.12.3
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -835,7 +835,7 @@ FROM boky/postfix:v4.2.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.7.0
+FROM cupcakearmy/cryptgeon:2.8.0
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.473-jdk21
+FROM jenkins/jenkins:2.474-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1231,7 +1231,7 @@ FROM supabase/logflare:1.8.2
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.57.1
+FROM supabase/edge-runtime:v1.58.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1323,11 +1323,11 @@ FROM velero/velero-plugin-for-csi:v0.7.1
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.10.0
+FROM velero/velero-plugin-for-aws:v1.10.1
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.10.0
+FROM velero/velero-plugin-for-gcp:v1.10.1
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
