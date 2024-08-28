@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.90.0
+FROM ghost:5.90.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.90.1
+FROM bitnami/ghost:5.90.2
 # bitnami/ghost
 
 # matomo
@@ -627,11 +627,11 @@ FROM bitnami/grafana-image-renderer:3.11.3
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.19.1
+FROM bitnami/consul:1.19.2
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.18
+FROM bitnami/nats:2.10.19
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -847,7 +847,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.18-alpine
+FROM nats:2.10.19-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.55.3
+FROM docker.n8n.io/n8nio/n8n:1.56.2
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.159.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.27
+FROM supabase/realtime:v2.30.29
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1227,7 +1227,7 @@ FROM supabase/storage-api:v1.10.3
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.2
+FROM supabase/logflare:1.8.4
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1691,7 +1691,7 @@ FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.3.1
 # cloud-provider-vsphere/csi/release/syncer
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.13.1
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.14.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
@@ -1707,7 +1707,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.2
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v5.0.2
+FROM registry.k8s.io/sig-storage/csi-provisioner:v5.1.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
