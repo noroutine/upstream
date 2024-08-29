@@ -443,7 +443,7 @@ FROM matomo:5.1.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.255.0
+FROM nocodb/nocodb:0.255.1
 # nocodb/nocodb
 
 # metabase/metabase
@@ -879,7 +879,7 @@ FROM quay.io/outline/shadowbox:server-v1.6.1
 # outline/shadowbox
 
 # kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.23.1
+FROM gcr.io/kaniko-project/executor:v1.23.2
 # kaniko-project/executor
 
 # iovisor/bpftrace
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.159.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.30
+FROM supabase/realtime:v2.30.33
 # supabase/realtime
 
 # supabase/postgres-meta

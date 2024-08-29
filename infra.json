@@ -1,5 +1,5 @@
 {
-  "version": "8b8e75c0",
+  "version": "617caf92",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -113,7 +113,7 @@
       "ghost:5.90.2",
       "bitnami/ghost:5.90.2",
       "matomo:5.1.1-apache",
-      "nocodb/nocodb:0.255.0",
+      "nocodb/nocodb:0.255.1",
       "metabase/metabase:v0.50.22.2",
       "docker:27.2.0-dind",
       "quay.io/podman/stable:v5.2.2",
@@ -222,7 +222,7 @@
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.8.4-alpine",
       "quay.io/outline/shadowbox:server-v1.6.1",
-      "gcr.io/kaniko-project/executor:v1.23.1",
+      "gcr.io/kaniko-project/executor:v1.23.2",
       "quay.io/iovisor/bpftrace:v0.19.1",
       "pryorda/vmware_exporter:v0.18.4",
       "azul/zulu-openjdk:22.0.2-22.32",
@@ -306,7 +306,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.159.2",
-      "supabase/realtime:v2.30.30",
+      "supabase/realtime:v2.30.33",
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.10.3",
       "supabase/logflare:1.8.5",
