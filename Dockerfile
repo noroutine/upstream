@@ -939,7 +939,7 @@ FROM haveagitgat/tdarr_node:2.24.05
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.24.3
+FROM gravitl/netmaker:v0.25.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
