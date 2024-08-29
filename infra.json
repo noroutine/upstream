@@ -1,5 +1,5 @@
 {
-  "version": "6e612e9b",
+  "version": "09047f2f",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -116,7 +116,7 @@
       "nocodb/nocodb:0.255.0",
       "metabase/metabase:v0.50.22",
       "docker:27.1.2-dind",
-      "quay.io/podman/stable:v5.2.1",
+      "quay.io/podman/stable:v5.2.2",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
@@ -191,7 +191,7 @@
       "goharbor/trivy-adapter-photon:v2.11.1",
       "goharbor/nginx-photon:v2.11.1",
       "aquasec/trivy:0.54.1",
-      "ghcr.io/external-secrets/external-secrets:v0.10.0",
+      "ghcr.io/external-secrets/external-secrets:v0.10.2",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.5",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.5",
       "kutt/kutt:v2.7.4",
@@ -306,10 +306,10 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.159.1",
-      "supabase/realtime:v2.30.29",
+      "supabase/realtime:v2.30.30",
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.10.3",
-      "supabase/logflare:1.8.4",
+      "supabase/logflare:1.8.5",
       "supabase/edge-runtime:v1.58.0",
       "darthsim/imgproxy:v3.25",
       "timberio/vector:0.40.1-alpine",

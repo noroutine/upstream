@@ -455,7 +455,7 @@ FROM docker:27.1.2-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.2.1
+FROM quay.io/podman/stable:v5.2.2
 # podman/stable
 
 # jupyter/base-notebook
@@ -755,7 +755,7 @@ FROM aquasec/trivy:0.54.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.10.0
+FROM ghcr.io/external-secrets/external-secrets:v0.10.2
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.159.1
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.29
+FROM supabase/realtime:v2.30.30
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1227,7 +1227,7 @@ FROM supabase/storage-api:v1.10.3
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.4
+FROM supabase/logflare:1.8.5
 # supabase/logflare
 
 # supabase/edge-runtime
