@@ -447,11 +447,11 @@ FROM nocodb/nocodb:0.255.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.22
+FROM metabase/metabase:v0.50.22.2
 # metabase/metabase
 
 # docker
-FROM docker:27.1.2-dind
+FROM docker:27.2.0-dind
 # docker
 
 # podman/stable
@@ -939,11 +939,11 @@ FROM haveagitgat/tdarr_node:2.24.05
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.24.3
+FROM gravitl/netmaker:v0.25.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.24.3
+FROM gravitl/netmaker-ui:v0.25.0
 # gravitl/netmaker-ui
 
 # kmb32123/youtube-dl-server
@@ -1211,7 +1211,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.159.1
+FROM supabase/gotrue:v2.159.2
 # supabase/gotrue
 
 # supabase/realtime
@@ -1695,11 +1695,11 @@ FROM registry.k8s.io/sig-storage/livenessprobe:v2.14.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.11.1
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.12.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.6.1
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.7.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
@@ -1811,6 +1811,6 @@ FROM nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8
 # nvidia/gpu-feature-discovery
 
 # nvidia/cloud-native/k8s-mig-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.8.0-ubi8
+FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.0-ubi8
 # nvidia/cloud-native/k8s-mig-manager
 

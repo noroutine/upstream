@@ -1,5 +1,5 @@
 {
-  "version": "09047f2f",
+  "version": "59020c8e",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -114,8 +114,8 @@
       "bitnami/ghost:5.90.2",
       "matomo:5.1.1-apache",
       "nocodb/nocodb:0.255.0",
-      "metabase/metabase:v0.50.22",
-      "docker:27.1.2-dind",
+      "metabase/metabase:v0.50.22.2",
+      "docker:27.2.0-dind",
       "quay.io/podman/stable:v5.2.2",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
@@ -237,8 +237,8 @@
       "jellyfin/jellyfin:10.9.10",
       "haveagitgat/tdarr:2.24.05",
       "haveagitgat/tdarr_node:2.24.05",
-      "gravitl/netmaker:v0.24.3",
-      "gravitl/netmaker-ui:v0.24.3",
+      "gravitl/netmaker:v0.25.0",
+      "gravitl/netmaker-ui:v0.25.0",
       "kmb32123/youtube-dl-server:2.0",
       "ghcr.io/voxpupuli/container-puppetserver:8.6.0-v1.5.0",
       "ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0",
@@ -305,7 +305,7 @@
       "chirpstack/chirpstack-rest-api:4.9.0",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.159.1",
+      "supabase/gotrue:v2.159.2",
       "supabase/realtime:v2.30.30",
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.10.3",
@@ -426,8 +426,8 @@
       "gcr.io/cloud-provider-vsphere/csi/release/driver:v3.3.1",
       "gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.3.1",
       "registry.k8s.io/sig-storage/livenessprobe:v2.14.0",
-      "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.11.1",
-      "registry.k8s.io/sig-storage/csi-attacher:v4.6.1",
+      "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.12.0",
+      "registry.k8s.io/sig-storage/csi-attacher:v4.7.0",
       "registry.k8s.io/sig-storage/csi-resizer:v1.11.2",
       "registry.k8s.io/sig-storage/csi-provisioner:v5.1.0",
       "registry.k8s.io/sig-storage/csi-snapshotter:v8.0.1",
@@ -455,7 +455,7 @@
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.7-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.7-3.5.0-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
-      "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.8.0-ubi8"
+      "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.0-ubi8"
     ]
   }
 }
