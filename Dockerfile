@@ -1231,7 +1231,7 @@ FROM supabase/logflare:1.8.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.0
+FROM supabase/edge-runtime:v1.58.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1419,11 +1419,11 @@ FROM hashicorp/terraform-cloud-operator:2.5.0
 # hashicorp/terraform-cloud-operator
 
 # strimzi/operator
-FROM quay.io/strimzi/operator:0.42.0
+FROM quay.io/strimzi/operator:0.43.0
 # strimzi/operator
 
 # strimzi/kafka
-FROM quay.io/strimzi/kafka:0.42.0-kafka-3.7.0
+FROM quay.io/strimzi/kafka:0.43.0-kafka-3.8.0
 # strimzi/kafka
 
 # pause

@@ -1,5 +1,5 @@
 {
-  "version": "59020c8e",
+  "version": "8b8e75c0",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -310,7 +310,7 @@
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.10.3",
       "supabase/logflare:1.8.5",
-      "supabase/edge-runtime:v1.58.0",
+      "supabase/edge-runtime:v1.58.1",
       "darthsim/imgproxy:v3.25",
       "timberio/vector:0.40.1-alpine",
       "kong:3.7.1-ubuntu",
@@ -357,8 +357,8 @@
       "hashicorp/vault-k8s:1.4.2",
       "hashicorp/vault-csi-provider:1.5.0",
       "hashicorp/terraform-cloud-operator:2.5.0",
-      "quay.io/strimzi/operator:0.42.0",
-      "quay.io/strimzi/kafka:0.42.0-kafka-3.7.0",
+      "quay.io/strimzi/operator:0.43.0",
+      "quay.io/strimzi/kafka:0.43.0-kafka-3.8.0",
       "registry.k8s.io/pause:3.10",
       "registry.k8s.io/coredns/coredns:v1.11.3",
       "registry.k8s.io/kube-apiserver:v1.31.0",
