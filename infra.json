@@ -1,5 +1,5 @@
 {
-  "version": "8b8f3172",
+  "version": "2f07f026",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -298,7 +298,7 @@
       "nodemailer/haraka-wildduck:2.8.27",
       "nodemailer/rspamd:2.7.0",
       "rspamd/rspamd:3.9.1",
-      "scylladb/scylla:6.1.0",
+      "scylladb/scylla:6.1.1",
       "scylladb/scylla-manager:3.2.8",
       "scylladb/scylla-operator:1.13.0",
       "chirpstack/chirpstack:4.9.0",
