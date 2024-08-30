@@ -119,7 +119,7 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-08-26T15-33-07Z
+FROM quay.io/minio/minio:RELEASE.2024-08-29T01-40-52Z
 # minio/minio
 
 # minio/mc
@@ -275,7 +275,7 @@ FROM mariadb:11.5.2-noble
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.14.0
+FROM mccutchen/go-httpbin:v2.14.1
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -443,11 +443,11 @@ FROM matomo:5.1.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.255.1
+FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.22.2
+FROM metabase/metabase:v0.50.23.1
 # metabase/metabase
 
 # docker
@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.27.1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.8.26
+FROM bitnami/minio:2024.8.29
 # bitnami/minio
 
 # bitnami/minio-client
@@ -631,7 +631,7 @@ FROM bitnami/consul:1.19.2
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.19
+FROM bitnami/nats:2.10.20
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -783,7 +783,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.121
+FROM stakater/reloader:v1.1.0
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -847,7 +847,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.19-alpine
+FROM nats:2.10.20-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.9
+FROM netboxcommunity/netbox:v4.0.10
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1383,7 +1383,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.15.3
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.1
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -1403,7 +1403,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.17.3
+FROM hashicorp/vault:1.17.4
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -1703,7 +1703,7 @@ FROM registry.k8s.io/sig-storage/csi-attacher:v4.7.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.11.2
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.12.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
