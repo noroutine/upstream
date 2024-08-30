@@ -783,7 +783,7 @@ FROM paulbouwer/hello-kubernetes:1.10.1
 # paulbouwer/hello-kubernetes
 
 # stakater/reloader
-FROM stakater/reloader:v1.0.121
+FROM stakater/reloader:v1.1.0
 # stakater/reloader
 
 # jimmidyson/configmap-reload
