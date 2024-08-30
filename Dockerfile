@@ -443,7 +443,7 @@ FROM matomo:5.1.1-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.255.1
+FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
