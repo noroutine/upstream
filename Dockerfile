@@ -631,7 +631,7 @@ FROM bitnami/consul:1.19.2
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.19
+FROM bitnami/nats:2.10.20
 # bitnami/nats
 
 # bitnami/kube-state-metrics
