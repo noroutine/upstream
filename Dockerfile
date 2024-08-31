@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.71.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.33
+FROM squidfunk/mkdocs-material:9.5.34
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -1039,7 +1039,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.31.4
+FROM locustio/locust:2.31.5
 # locustio/locust
 
 # postgrest/postgrest
