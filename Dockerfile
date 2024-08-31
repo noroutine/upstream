@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
-FROM php:8.3.10-apache-bookworm
+FROM php:8.3.11-apache-bookworm
 # php
 
 # node
@@ -355,7 +355,7 @@ FROM summerwind/actions-runner-dind:v2.319.1-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.18.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.18.1
 # brancz/kube-rbac-proxy
 
 # jupyterhub/k8s-image-cleaner
