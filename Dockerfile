@@ -1103,7 +1103,7 @@ FROM paperlessngx/paperless-ngx:2.11.6
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
-FROM roundcube/roundcubemail:1.6.8-apache
+FROM roundcube/roundcubemail:1.6.9-apache
 # roundcube/roundcubemail
 
 # changemakerstudiosus/papercut-smtp
