@@ -663,7 +663,7 @@ FROM bitnami/kubeapps-pinniped-proxy:2.11.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.18.0
+FROM bitnami/kube-rbac-proxy:0.18.1
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -835,7 +835,7 @@ FROM boky/postfix:v4.2.1
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.8.0
+FROM cupcakearmy/cryptgeon:2.8.1
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -1211,7 +1211,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.159.2
+FROM supabase/gotrue:v2.160.0
 # supabase/gotrue
 
 # supabase/realtime

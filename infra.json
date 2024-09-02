@@ -1,5 +1,5 @@
 {
-  "version": "acedeba4",
+  "version": "98c118d3",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -168,7 +168,7 @@
       "bitnami/kubeapps-asset-syncer:2.11.0",
       "bitnami/kubeapps-apis:2.11.0",
       "bitnami/kubeapps-pinniped-proxy:2.11.0",
-      "bitnami/kube-rbac-proxy:0.18.0",
+      "bitnami/kube-rbac-proxy:0.18.1",
       "bitnami/openldap:2.6.8",
       "bitnami/sealed-secrets-controller:0.27.1",
       "bitnami/trivy:0.54.1",
@@ -211,7 +211,7 @@
       "listmonk/listmonk:v3.0.0",
       "vaultwarden/server:1.32.0",
       "boky/postfix:v4.2.1",
-      "cupcakearmy/cryptgeon:2.8.0",
+      "cupcakearmy/cryptgeon:2.8.1",
       "memcached:1.6.29",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.20-alpine",
@@ -305,7 +305,7 @@
       "chirpstack/chirpstack-rest-api:4.9.0",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.159.2",
+      "supabase/gotrue:v2.160.0",
       "supabase/realtime:v2.30.33",
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.10.3",
