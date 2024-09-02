@@ -1075,7 +1075,7 @@ FROM homeassistant/home-assistant:2024.8
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.39.1
+FROM koenkk/zigbee2mqtt:1.40.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -1103,7 +1103,7 @@ FROM paperlessngx/paperless-ngx:2.11.6
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
-FROM roundcube/roundcubemail:1.6.8-apache
+FROM roundcube/roundcubemail:1.6.9-apache
 # roundcube/roundcubemail
 
 # changemakerstudiosus/papercut-smtp
@@ -1651,7 +1651,7 @@ FROM longhornio/backing-image-manager:v1.7.0
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.11.1
+FROM longhornio/csi-node-driver-registrar:v2.12.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
@@ -1671,11 +1671,11 @@ FROM longhornio/csi-attacher:v4.6.1
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe
-FROM longhornio/livenessprobe:v2.13.1
+FROM longhornio/livenessprobe:v2.14.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.41
+FROM longhornio/support-bundle-kit:v0.0.42
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
