@@ -1675,7 +1675,7 @@ FROM longhornio/livenessprobe:v2.13.1
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.41
+FROM longhornio/support-bundle-kit:v0.0.42
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
