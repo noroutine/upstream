@@ -623,7 +623,7 @@ FROM bitnami/grafana:11.2.0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.11.3
+FROM bitnami/grafana-image-renderer:3.11.4
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -831,7 +831,7 @@ FROM vaultwarden/server:1.32.0
 # vaultwarden/server
 
 # boky/postfix
-FROM boky/postfix:v4.2.1
+FROM boky/postfix:v4.3.0
 # boky/postfix
 
 # cupcakearmy/cryptgeon
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.1-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.59.1
+FROM ghcr.io/zitadel/zitadel:v2.60.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.160.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.33
+FROM supabase/realtime:v2.30.34
 # supabase/realtime
 
 # supabase/postgres-meta

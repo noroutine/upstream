@@ -1,5 +1,5 @@
 {
-  "version": "98c118d3",
+  "version": "0f4fae2b",
   "upstream": {
     "images": [
       "debian:bookworm-20240812-slim",
@@ -158,7 +158,7 @@
       "bitnami/metallb-controller:0.14.8",
       "bitnami/metallb-speaker:0.14.8",
       "bitnami/grafana:11.2.0",
-      "bitnami/grafana-image-renderer:3.11.3",
+      "bitnami/grafana-image-renderer:3.11.4",
       "bitnami/consul:1.19.2",
       "bitnami/nats:2.10.20",
       "bitnami/kube-state-metrics:2.13.0",
@@ -210,7 +210,7 @@
       "redis:7.4.0",
       "listmonk/listmonk:v3.0.0",
       "vaultwarden/server:1.32.0",
-      "boky/postfix:v4.2.1",
+      "boky/postfix:v4.3.0",
       "cupcakearmy/cryptgeon:2.8.1",
       "memcached:1.6.29",
       "connecteverything/nats-operator:0.8.0",
@@ -269,7 +269,7 @@
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.12.1-amd64",
-      "ghcr.io/zitadel/zitadel:v2.59.1",
+      "ghcr.io/zitadel/zitadel:v2.60.0",
       "homeassistant/home-assistant:2024.8",
       "koenkk/zigbee2mqtt:1.40.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.8.0",
@@ -306,7 +306,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.160.0",
-      "supabase/realtime:v2.30.33",
+      "supabase/realtime:v2.30.34",
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.10.3",
       "supabase/logflare:1.8.5",
