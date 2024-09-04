@@ -167,11 +167,11 @@ FROM quay.io/prometheus/pushgateway:v1.9.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.76.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.76.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.23.1
+FROM metabase/metabase:v0.50.24.1
 # metabase/metabase
 
 # docker
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.54.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.76.0
+FROM bitnami/prometheus-operator:0.76.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.160.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.30.34
+FROM supabase/realtime:v2.31.0
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1283,11 +1283,11 @@ FROM quay.io/cilium/hubble-ui-backend:v0.13.1
 # cilium/hubble-ui-backend
 
 # spiffe/spire-server
-FROM ghcr.io/spiffe/spire-server:1.10.1
+FROM ghcr.io/spiffe/spire-server:1.10.2
 # spiffe/spire-server
 
 # spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.10.1
+FROM ghcr.io/spiffe/spire-agent:1.10.2
 # spiffe/spire-agent
 
 # bitnami/cilium
