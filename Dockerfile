@@ -435,7 +435,7 @@ FROM ghost:5.91.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.91.0
+FROM bitnami/ghost:5.93.0
 # bitnami/ghost
 
 # matomo
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.10
+FROM netboxcommunity/netbox:v4.0.11
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1231,7 +1231,7 @@ FROM supabase/logflare:1.8.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.1
+FROM supabase/edge-runtime:v1.58.2
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1395,7 +1395,7 @@ FROM hashicorp/consul:1.19.2
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.5.1
+FROM hashicorp/consul-k8s-control-plane:1.5.3
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
@@ -1627,27 +1627,27 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.4
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.7.0
+FROM longhornio/longhorn-manager:v1.7.1
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.7.0
+FROM longhornio/longhorn-ui:v1.7.1
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.7.0
+FROM longhornio/longhorn-engine:v1.7.1
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.7.0
+FROM longhornio/longhorn-instance-manager:v1.7.1
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.7.0
+FROM longhornio/longhorn-share-manager:v1.7.1
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.7.0
+FROM longhornio/backing-image-manager:v1.7.1
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
