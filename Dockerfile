@@ -1287,7 +1287,7 @@ FROM ghcr.io/spiffe/spire-server:1.10.2
 # spiffe/spire-server
 
 # spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.10.2
+FROM ghcr.io/spiffe/spire-agent:1.10.3
 # spiffe/spire-agent
 
 # bitnami/cilium
