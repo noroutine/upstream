@@ -1119,7 +1119,7 @@ FROM cloudflare/cloudflared:2024.8.3
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.64.1
+FROM airbyte/webapp:0.64.2
 # airbyte/webapp
 
 # airbyte/server
