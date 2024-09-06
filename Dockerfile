@@ -587,7 +587,7 @@ FROM bitnami/mongodb:7.0.14
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.29
+FROM bitnami/memcached:1.6.30
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -915,15 +915,15 @@ FROM outlinewiki/outline:0.78.0
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.11
+FROM syncthing/syncthing:1.27.12
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.11
+FROM syncthing/discosrv:1.27.12
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.11
+FROM syncthing/relaysrv:1.27.12
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.0.11
+FROM netboxcommunity/netbox:v4.1.0
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.160.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.32.4
+FROM supabase/realtime:v2.32.5
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1227,7 +1227,7 @@ FROM supabase/storage-api:v1.10.3
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.7
+FROM supabase/logflare:1.8.8
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1355,7 +1355,7 @@ FROM bitnami/kubectl:1.31.0
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.10.0-python3.12
+FROM apache/airflow:2.10.1-python3.12
 # apache/airflow
 
 # git-sync/git-sync
