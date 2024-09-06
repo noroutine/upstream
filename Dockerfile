@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240812-slim
+FROM debian:bookworm-20240904-slim
 # debian
 
 # ubuntu
@@ -63,7 +63,7 @@ FROM php:8.3.11-apache-bookworm
 # php
 
 # node
-FROM node:22.7.0-bookworm
+FROM node:22.8.0-bookworm
 # node
 
 # python
@@ -87,7 +87,7 @@ FROM traefik:v3.1.2
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.71.0
+FROM sonatype/nexus3:3.72.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -111,7 +111,7 @@ FROM atlassian/jira-software:10.0.0
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:29.0.5-apache
+FROM nextcloud:29.0.6-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -247,7 +247,7 @@ FROM docker.elastic.co/kibana/kibana:8.15.0
 # kibana/kibana
 
 # alerta/alerta-web
-FROM alerta/alerta-web:9.0.3
+FROM alerta/alerta-web:9.0.4
 # alerta/alerta-web
 
 # mongo
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.91.0
+FROM ghost:5.93.0
 # ghost
 
 # bitnami/ghost
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.24.1
+FROM metabase/metabase:v0.50.24.3
 # metabase/metabase
 
 # docker
@@ -751,7 +751,7 @@ FROM goharbor/nginx-photon:v2.11.1
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.54.1
+FROM aquasec/trivy:0.55.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -915,15 +915,15 @@ FROM outlinewiki/outline:0.78.0
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.10
+FROM syncthing/syncthing:1.27.11
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.10
+FROM syncthing/discosrv:1.27.11
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.10
+FROM syncthing/relaysrv:1.27.11
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.474-jdk21
+FROM jenkins/jenkins:2.475-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1067,11 +1067,11 @@ FROM quay.io/cephcsi/cephcsi:v3.12.1-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.60.0
+FROM ghcr.io/zitadel/zitadel:v2.61.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.8
+FROM homeassistant/home-assistant:2024.9
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -1079,7 +1079,7 @@ FROM koenkk/zigbee2mqtt:1.40.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.8.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # spvest/azure-keyvault-controller
@@ -1095,7 +1095,7 @@ FROM spvest/azure-keyvault-env:1.6.0
 # spvest/azure-keyvault-env
 
 # gitea/gitea
-FROM gitea/gitea:1.22.1-rootless
+FROM gitea/gitea:1.22.2-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.8.3
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.64.1
+FROM airbyte/webapp:0.64.2
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.64.1
+FROM airbyte/server:0.64.2
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.64.1
+FROM airbyte/worker:0.64.2
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.64.1
+FROM airbyte/metrics-reporter:0.64.2
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.64.1
+FROM airbyte/bootloader:0.64.2
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.64.1
+FROM airbyte/db:0.64.2
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.64.1
+FROM airbyte/cron:0.64.2
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.64.1
+FROM airbyte/connector-builder-server:0.64.2
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.64.1
+FROM airbyte/workload-api-server:0.64.2
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.160.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.31.0
+FROM supabase/realtime:v2.32.4
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1227,7 +1227,7 @@ FROM supabase/storage-api:v1.10.3
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.5
+FROM supabase/logflare:1.8.7
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1283,11 +1283,11 @@ FROM quay.io/cilium/hubble-ui-backend:v0.13.1
 # cilium/hubble-ui-backend
 
 # spiffe/spire-server
-FROM ghcr.io/spiffe/spire-server:1.10.2
+FROM ghcr.io/spiffe/spire-server:1.10.3
 # spiffe/spire-server
 
 # spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.10.2
+FROM ghcr.io/spiffe/spire-agent:1.10.3
 # spiffe/spire-agent
 
 # bitnami/cilium
@@ -1675,7 +1675,7 @@ FROM longhornio/livenessprobe:v2.14.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.42
+FROM longhornio/support-bundle-kit:v0.0.43
 # longhornio/support-bundle-kit
 
 # cloud-provider-vsphere/cpi/release/manager
