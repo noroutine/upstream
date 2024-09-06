@@ -1123,7 +1123,7 @@ FROM airbyte/webapp:0.64.1
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.64.1
+FROM airbyte/server:0.64.2
 # airbyte/server
 
 # airbyte/worker
