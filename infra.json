@@ -1,5 +1,5 @@
 {
-  "version": "bafc6016",
+  "version": "d0309906",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -21,8 +21,8 @@
       "node:22.8.0-bookworm",
       "python:3.12.5-bookworm",
       "python:3.12.5-slim-bookworm",
-      "golang:1.23.0-bookworm",
-      "golang:1.23.0-alpine",
+      "golang:1.23.1-bookworm",
+      "golang:1.23.1-alpine",
       "traefik:v3.1.2",
       "sonatype/nexus3:3.72.0",
       "squidfunk/mkdocs-material:9.5.34",
@@ -212,7 +212,7 @@
       "vaultwarden/server:1.32.0",
       "boky/postfix:v4.3.0",
       "cupcakearmy/cryptgeon:2.8.1",
-      "memcached:1.6.29",
+      "memcached:1.6.30",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.20-alpine",
       "natsio/prometheus-nats-exporter:0.15.0",

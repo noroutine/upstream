@@ -75,11 +75,11 @@ FROM python:3.12.5-slim-bookworm
 # python
 
 # golang
-FROM golang:1.23.0-bookworm
+FROM golang:1.23.1-bookworm
 # golang
 
 # golang
-FROM golang:1.23.0-alpine
+FROM golang:1.23.1-alpine
 # golang
 
 # traefik
@@ -839,7 +839,7 @@ FROM cupcakearmy/cryptgeon:2.8.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.29
+FROM memcached:1.6.30
 # memcached
 
 # connecteverything/nats-operator
