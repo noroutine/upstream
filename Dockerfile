@@ -971,7 +971,7 @@ FROM curlimages/curl:8.9.1
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.17.0
+FROM restic/restic:0.17.1
 # restic/restic
 
 # coredns/coredns
@@ -1075,7 +1075,7 @@ FROM homeassistant/home-assistant:2024.9
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.40.0
+FROM koenkk/zigbee2mqtt:1.40.1
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
