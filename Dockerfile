@@ -435,7 +435,7 @@ FROM ghost:5.93.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.93.0
+FROM bitnami/ghost:5.94.0
 # bitnami/ghost
 
 # matomo
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.56.2
+FROM docker.n8n.io/n8nio/n8n:1.57.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1119,39 +1119,39 @@ FROM cloudflare/cloudflared:2024.8.3
 # cloudflare/cloudflared
 
 # airbyte/webapp
-FROM airbyte/webapp:0.64.2
+FROM airbyte/webapp:0.64.3
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.64.2
+FROM airbyte/server:0.64.3
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.64.2
+FROM airbyte/worker:0.64.3
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.64.2
+FROM airbyte/metrics-reporter:0.64.3
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.64.2
+FROM airbyte/bootloader:0.64.3
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.64.2
+FROM airbyte/db:0.64.3
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.64.2
+FROM airbyte/cron:0.64.3
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.64.2
+FROM airbyte/connector-builder-server:0.64.3
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.64.2
+FROM airbyte/workload-api-server:0.64.3
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
