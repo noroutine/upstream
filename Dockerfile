@@ -675,7 +675,7 @@ FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.54.1
+FROM bitnami/trivy:0.55.0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -1667,7 +1667,7 @@ FROM longhornio/csi-provisioner:v4.0.1
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
-FROM longhornio/csi-attacher:v4.6.1
+FROM longhornio/csi-attacher:v4.7.0
 # longhornio/csi-attacher
 
 # longhornio/livenessprobe

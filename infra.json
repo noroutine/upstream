@@ -1,5 +1,5 @@
 {
-  "version": "401913e2",
+  "version": "3ce84ba8",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -171,7 +171,7 @@
       "bitnami/kube-rbac-proxy:0.18.1",
       "bitnami/openldap:2.6.8",
       "bitnami/sealed-secrets-controller:0.27.1",
-      "bitnami/trivy:0.54.1",
+      "bitnami/trivy:0.55.0",
       "bitnami/kubectl:1.31.0",
       "bitnami/harbor-adapter-trivy:2.11.1",
       "bitnami/harbor-core:2.11.1",
@@ -419,7 +419,7 @@
       "longhornio/csi-snapshotter:v7.0.2",
       "longhornio/csi-resizer:v1.11.1",
       "longhornio/csi-provisioner:v4.0.1",
-      "longhornio/csi-attacher:v4.6.1",
+      "longhornio/csi-attacher:v4.7.0",
       "longhornio/livenessprobe:v2.14.0",
       "longhornio/support-bundle-kit:v0.0.43",
       "gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.1",
