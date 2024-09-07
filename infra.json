@@ -1,5 +1,5 @@
 {
-  "version": "d0309906",
+  "version": "d643e481",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -268,7 +268,7 @@
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.9.0",
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
-      "quay.io/cephcsi/cephcsi:v3.12.1-amd64",
+      "quay.io/cephcsi/cephcsi:v3.12.2-amd64",
       "ghcr.io/zitadel/zitadel:v2.61.0",
       "homeassistant/home-assistant:2024.9",
       "koenkk/zigbee2mqtt:1.40.0",
@@ -455,7 +455,7 @@
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.7-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.7-3.5.0-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
-      "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.0-ubi8"
+      "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8"
     ]
   }
 }
