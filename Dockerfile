@@ -15,7 +15,7 @@ FROM ubuntu:focal-20240530
 # ubuntu
 
 # alpine
-FROM alpine:3.20.2
+FROM alpine:3.20.3
 # alpine
 
 # busybox
@@ -235,15 +235,15 @@ FROM quay.io/cortexproject/cortex:v1.17.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.15.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.15.0
+FROM docker.elastic.co/logstash/logstash:8.15.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.15.0
+FROM docker.elastic.co/kibana/kibana:8.15.1
 # kibana/kibana
 
 # alerta/alerta-web
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.93.0
+FROM ghost:5.94.0
 # ghost
 
 # bitnami/ghost
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.24.3
+FROM metabase/metabase:v0.50.24.4
 # metabase/metabase
 
 # docker
