@@ -1659,7 +1659,7 @@ FROM longhornio/csi-snapshotter:v7.0.2
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.11.1
+FROM longhornio/csi-resizer:v1.12.0
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
