@@ -1063,7 +1063,7 @@ FROM guacamole/guacd:1.5.5
 # guacamole/guacd
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.12.1-amd64
+FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
