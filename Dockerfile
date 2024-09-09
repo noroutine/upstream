@@ -1155,7 +1155,7 @@ FROM airbyte/workload-api-server:0.64.3
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
-FROM temporalio/auto-setup:1.24.2
+FROM temporalio/auto-setup:1.25.0
 # temporalio/auto-setup
 
 # nodemailer/wildduck
