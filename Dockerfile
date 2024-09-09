@@ -231,7 +231,7 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.17.1
+FROM quay.io/cortexproject/cortex:v1.18.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.102.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.103.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -911,7 +911,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.78.0
+FROM outlinewiki/outline:0.79.1
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -927,7 +927,7 @@ FROM syncthing/relaysrv:1.27.12
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.9.10
+FROM jellyfin/jellyfin:10.9.11
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -1099,7 +1099,7 @@ FROM gitea/gitea:1.22.2-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.11.6
+FROM paperlessngx/paperless-ngx:2.12.0
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1155,7 +1155,7 @@ FROM airbyte/workload-api-server:0.64.3
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
-FROM temporalio/auto-setup:1.24.2
+FROM temporalio/auto-setup:1.25.0
 # temporalio/auto-setup
 
 # nodemailer/wildduck
@@ -1191,7 +1191,7 @@ FROM scylladb/scylla-manager:3.2.8
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.13.0
+FROM scylladb/scylla-operator:1.14
 # scylladb/scylla-operator
 
 # chirpstack/chirpstack
