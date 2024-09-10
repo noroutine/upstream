@@ -171,7 +171,7 @@ FROM quay.io/prometheus-operator/prometheus-operator:v0.76.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
