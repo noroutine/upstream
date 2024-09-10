@@ -447,11 +447,11 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.24.4
+FROM metabase/metabase:v0.50.24.5
 # metabase/metabase
 
 # docker
-FROM docker:27.2.0-dind
+FROM docker:27.2.1-dind
 # docker
 
 # podman/stable
@@ -839,7 +839,7 @@ FROM cupcakearmy/cryptgeon:2.8.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.30
+FROM memcached:1.6.31
 # memcached
 
 # connecteverything/nats-operator
@@ -855,7 +855,7 @@ FROM natsio/prometheus-nats-exporter:0.15.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.15.1
+FROM natsio/nats-server-config-reloader:0.15.2
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.28.9
+FROM netbirdio/signal:0.29.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.28.9
+FROM netbirdio/management:0.29.0
 # netbirdio/management
 
 # coturn/coturn
