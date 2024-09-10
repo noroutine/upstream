@@ -1,5 +1,5 @@
 {
-  "version": "7b4ace7d",
+  "version": "59f0e5a5",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -29,7 +29,7 @@
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:25.0.4",
       "postgres:16.4-bookworm",
-      "atlassian/jira-software:10.0.0",
+      "atlassian/jira-software:10.0.1",
       "nextcloud:29.0.6-apache",
       "haproxytech/haproxy-debian:3.1",
       "quay.io/minio/minio:RELEASE.2024-08-29T01-40-52Z",
@@ -191,7 +191,7 @@
       "goharbor/trivy-adapter-photon:v2.11.1",
       "goharbor/nginx-photon:v2.11.1",
       "aquasec/trivy:0.55.0",
-      "ghcr.io/external-secrets/external-secrets:v0.10.2",
+      "ghcr.io/external-secrets/external-secrets:v0.10.3",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.5",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.5",
       "kutt/kutt:v2.7.4",

@@ -107,7 +107,7 @@ FROM postgres:16.4-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:10.0.0
+FROM atlassian/jira-software:10.0.1
 # atlassian/jira-software
 
 # nextcloud
@@ -755,7 +755,7 @@ FROM aquasec/trivy:0.55.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.10.2
+FROM ghcr.io/external-secrets/external-secrets:v0.10.3
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
