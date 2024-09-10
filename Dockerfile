@@ -67,11 +67,11 @@ FROM node:22.8.0-bookworm
 # node
 
 # python
-FROM python:3.12.5-bookworm
+FROM python:3.12.6-bookworm
 # python
 
 # python
-FROM python:3.12.5-slim-bookworm
+FROM python:3.12.6-slim-bookworm
 # python
 
 # golang
@@ -99,7 +99,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:25.0.4
+FROM quay.io/keycloak/keycloak:25.0.5
 # keycloak/keycloak
 
 # postgres
@@ -571,7 +571,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:25.0.4
+FROM bitnami/keycloak:25.0.5
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.160.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.32.5
+FROM supabase/realtime:v2.32.6
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1231,7 +1231,7 @@ FROM supabase/logflare:1.8.8
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.2
+FROM supabase/edge-runtime:v1.58.3
 # supabase/edge-runtime
 
 # darthsim/imgproxy
