@@ -1239,7 +1239,7 @@ FROM darthsim/imgproxy:v3.25
 # darthsim/imgproxy
 
 # timberio/vector
-FROM timberio/vector:0.40.1-alpine
+FROM timberio/vector:0.41.0-alpine
 # timberio/vector
 
 # kong
