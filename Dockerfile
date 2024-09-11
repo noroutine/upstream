@@ -131,7 +131,7 @@ FROM quay.io/minio/console:v0.30.0
 # minio/console
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.15
+FROM quay.io/coreos/etcd:v3.5.16
 # coreos/etcd
 
 # prometheus/prometheus
@@ -167,11 +167,11 @@ FROM quay.io/prometheus/pushgateway:v1.9.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.76.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.76.2
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -255,7 +255,7 @@ FROM mongo:7.0.14-jammy
 # mongo
 
 # wordpress
-FROM wordpress:6.6.1-apache
+FROM wordpress:6.6.2-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.24.5
+FROM metabase/metabase:v0.50.25
 # metabase/metabase
 
 # docker
@@ -531,7 +531,7 @@ FROM bitnami/redis:7.4.0
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.62.0
+FROM bitnami/redis-exporter:1.63.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.27.1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.8.29
+FROM bitnami/minio:2024.9.9
 # bitnami/minio
 
 # bitnami/minio-client
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.475-jdk21
+FROM jenkins/jenkins:2.476-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1115,7 +1115,7 @@ FROM docker.n8n.io/n8nio/n8n:1.57.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.8.3
+FROM cloudflare/cloudflared:2024.9.1
 # cloudflare/cloudflared
 
 # airbyte/webapp
@@ -1227,7 +1227,7 @@ FROM supabase/storage-api:v1.10.3
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.8
+FROM supabase/logflare:1.8.9
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1239,7 +1239,7 @@ FROM darthsim/imgproxy:v3.25
 # darthsim/imgproxy
 
 # timberio/vector
-FROM timberio/vector:0.40.1-alpine
+FROM timberio/vector:0.41.0-alpine
 # timberio/vector
 
 # kong
