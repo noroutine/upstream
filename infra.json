@@ -1,5 +1,5 @@
 {
-  "version": "506e218f",
+  "version": "ce4a745d",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -244,7 +244,7 @@
       "ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0",
       "ghcr.io/voxpupuli/puppetboard:5.4.0",
       "puppet/r10k:3.15.2",
-      "curlimages/curl:8.9.1",
+      "curlimages/curl:8.10.0",
       "restic/restic:0.17.1",
       "registry.k8s.io/coredns/coredns:v1.11.3",
       "yugabytedb/yugabyte:2.21.0.1-b1",
@@ -308,7 +308,7 @@
       "supabase/gotrue:v2.160.0",
       "supabase/realtime:v2.32.6",
       "supabase/postgres-meta:v0.84.0",
-      "supabase/storage-api:v1.10.3",
+      "supabase/storage-api:v1.11.1",
       "supabase/logflare:1.8.9",
       "supabase/edge-runtime:v1.58.3",
       "darthsim/imgproxy:v3.25",

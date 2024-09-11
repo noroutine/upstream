@@ -967,7 +967,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # curlimages/curl
-FROM curlimages/curl:8.9.1
+FROM curlimages/curl:8.10.0
 # curlimages/curl
 
 # restic/restic
@@ -1223,7 +1223,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.10.3
+FROM supabase/storage-api:v1.11.1
 # supabase/storage-api
 
 # supabase/logflare
