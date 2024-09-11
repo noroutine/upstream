@@ -119,11 +119,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-08-29T01-40-52Z
+FROM quay.io/minio/minio:RELEASE.2024-09-09T16-59-28Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-08-26T10-49-58Z
+FROM quay.io/minio/mc:RELEASE.2024-09-09T07-53-10Z
 # minio/mc
 
 # minio/console
@@ -563,7 +563,7 @@ FROM bitnami/postgresql:16.4.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.28
+FROM bitnami/tomcat:10.1.29
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -603,7 +603,7 @@ FROM bitnami/minio:2024.9.9
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.8.26
+FROM bitnami/minio-client:2024.9.9
 # bitnami/minio-client
 
 # bitnami/os-shell
