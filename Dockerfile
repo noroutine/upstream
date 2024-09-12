@@ -203,7 +203,7 @@ FROM httpd:2.4.62-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.28-jdk21-temurin-jammy
+FROM tomcat:10.1.29-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -1239,7 +1239,7 @@ FROM darthsim/imgproxy:v3.25
 # darthsim/imgproxy
 
 # timberio/vector
-FROM timberio/vector:0.41.0-alpine
+FROM timberio/vector:0.41.1-alpine
 # timberio/vector
 
 # kong

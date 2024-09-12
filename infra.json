@@ -1,5 +1,5 @@
 {
-  "version": "b7dfd2c5",
+  "version": "d80ecb2e",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -53,7 +53,7 @@
       "nginxinc/nginx-unprivileged:1.27.1-alpine-slim",
       "nginxinc/nginx-unprivileged:1.27.1-alpine-slim",
       "httpd:2.4.62-alpine",
-      "tomcat:10.1.28-jdk21-temurin-jammy",
+      "tomcat:10.1.29-jdk21-temurin-jammy",
       "quay.io/m3db/m3coordinator:v1.5.0",
       "quay.io/m3db/m3dbnode:v1.5.0",
       "braedon/prometheus-es-exporter:0.14.1",
@@ -312,7 +312,7 @@
       "supabase/logflare:1.8.9",
       "supabase/edge-runtime:v1.58.3",
       "darthsim/imgproxy:v3.25",
-      "timberio/vector:0.41.0-alpine",
+      "timberio/vector:0.41.1-alpine",
       "kong:3.7.1-ubuntu",
       "quay.io/cilium/clustermesh-apiserver:v1.16.1",
       "quay.io/cilium/cilium:v1.16.1",
