@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.3.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.3.1-ce.0
+FROM gitlab/gitlab-ce:17.3.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.103
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.29.0
+FROM netbirdio/signal:0.29.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.29.0
+FROM netbirdio/management:0.29.1
 # netbirdio/management
 
 # coturn/coturn
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.57.0
+FROM docker.n8n.io/n8nio/n8n:1.58.1
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1435,67 +1435,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.3
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.0
+FROM registry.k8s.io/kube-apiserver:v1.31.1
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.0
+FROM registry.k8s.io/kube-proxy:v1.31.1
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.0
+FROM registry.k8s.io/kube-scheduler:v1.31.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.0
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.30.4
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.30.4
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.30.4
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.30.4
+FROM registry.k8s.io/kube-controller-manager:v1.31.1
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.8
+FROM registry.k8s.io/kube-apiserver:v1.30.5
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.8
+FROM registry.k8s.io/kube-proxy:v1.30.5
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.8
+FROM registry.k8s.io/kube-scheduler:v1.30.5
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.8
+FROM registry.k8s.io/kube-controller-manager:v1.30.5
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.13
+FROM registry.k8s.io/kube-apiserver:v1.29.9
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.13
+FROM registry.k8s.io/kube-proxy:v1.29.9
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.13
+FROM registry.k8s.io/kube-scheduler:v1.29.9
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.13
+FROM registry.k8s.io/kube-controller-manager:v1.29.9
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.28.14
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.28.14
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.28.14
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.28.14
 # kube-controller-manager
 
 # kube-apiserver
