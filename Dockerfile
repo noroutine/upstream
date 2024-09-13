@@ -1243,7 +1243,7 @@ FROM timberio/vector:0.41.1-alpine
 # timberio/vector
 
 # kong
-FROM kong:3.7.1-ubuntu
+FROM kong:3.8.0-ubuntu
 # kong
 
 # cilium/clustermesh-apiserver
