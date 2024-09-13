@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.103.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.104.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -423,7 +423,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.32.1
+FROM verdaccio/verdaccio:5.32.2
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.25
+FROM metabase/metabase:v0.50.25.2
 # metabase/metabase
 
 # docker
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.54.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.76.1
+FROM bitnami/prometheus-operator:0.76.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -675,7 +675,7 @@ FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.55.0
+FROM bitnami/trivy:0.55.1
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -751,7 +751,7 @@ FROM goharbor/nginx-photon:v2.11.1
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.55.0
+FROM aquasec/trivy:0.55.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.29.1
+FROM netbirdio/signal:0.29.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.29.1
+FROM netbirdio/management:0.29.2
 # netbirdio/management
 
 # coturn/coturn
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.58.1
+FROM docker.n8n.io/n8nio/n8n:1.58.2
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1215,7 +1215,7 @@ FROM supabase/gotrue:v2.160.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.32.6
+FROM supabase/realtime:v2.32.8
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1243,7 +1243,7 @@ FROM timberio/vector:0.41.1-alpine
 # timberio/vector
 
 # kong
-FROM kong:3.7.1-ubuntu
+FROM kong:3.8.0-ubuntu
 # kong
 
 # cilium/clustermesh-apiserver
