@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.94.0
+FROM ghost:5.94.1
 # ghost
 
 # bitnami/ghost
@@ -679,7 +679,7 @@ FROM bitnami/trivy:0.55.1
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.0
+FROM bitnami/kubectl:1.31.1
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -855,7 +855,7 @@ FROM natsio/prometheus-nats-exporter:0.15.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.15.2
+FROM natsio/nats-server-config-reloader:0.16.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -1351,7 +1351,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.0
+FROM bitnami/kubectl:1.31.1
 # bitnami/kubectl
 
 # apache/airflow
@@ -1731,39 +1731,39 @@ FROM confluentinc/confluent-operator:0.1033.22
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.7.0
+FROM confluentinc/cp-enterprise-control-center:7.7.1
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.7.0
+FROM confluentinc/cp-enterprise-replicator:7.7.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.7.0
+FROM confluentinc/cp-kafka-rest:7.7.1
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.7.0
+FROM confluentinc/cp-ksqldb-server:7.7.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.7.0
+FROM confluentinc/cp-ksqldb-cli:7.7.1
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.7.0
+FROM confluentinc/cp-schema-registry:7.7.1
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.7.0
+FROM confluentinc/cp-server:7.7.1
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.7.0
+FROM confluentinc/cp-server-connect:7.7.1
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.7.0
+FROM confluentinc/cp-zookeeper:7.7.1
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
