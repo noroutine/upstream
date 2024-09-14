@@ -1,5 +1,5 @@
 {
-  "version": "78c22f37",
+  "version": "553a2ce5",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.94.0",
       "matomo:5.1.1-apache",
       "nocodb/nocodb:0.255.2",
-      "metabase/metabase:v0.50.25.2",
+      "metabase/metabase:v0.50.24.5",
       "docker:27.2.1-dind",
       "quay.io/podman/stable:v5.2.2",
       "jupyter/base-notebook:2023-10-20",
@@ -323,8 +323,8 @@
       "quay.io/cilium/hubble-relay:v1.16.1",
       "quay.io/cilium/hubble-ui:v0.13.1",
       "quay.io/cilium/hubble-ui-backend:v0.13.1",
-      "ghcr.io/spiffe/spire-server:1.10.3",
-      "ghcr.io/spiffe/spire-agent:1.10.3",
+      "ghcr.io/spiffe/spire-server:1.10.4",
+      "ghcr.io/spiffe/spire-agent:1.10.4",
       "bitnami/cilium:1.16.1",
       "bitnami/cilium-proxy:1.29.7",
       "bitnami/cilium-operator:1.16.1",
