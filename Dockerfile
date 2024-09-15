@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.24.5
+FROM metabase/metabase:v0.50.25.3
 # metabase/metabase
 
 # docker
@@ -931,11 +931,11 @@ FROM jellyfin/jellyfin:10.9.11
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.24.05
+FROM haveagitgat/tdarr:2.25.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.24.05
+FROM haveagitgat/tdarr_node:2.25.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.0
+FROM netboxcommunity/netbox:v4.1.1
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1027,7 +1027,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.7.0
+FROM kubernetesui/dashboard-api:1.8.1
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web

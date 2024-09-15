@@ -1,5 +1,5 @@
 {
-  "version": "553a2ce5",
+  "version": "4c41ce4d",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.94.0",
       "matomo:5.1.1-apache",
       "nocodb/nocodb:0.255.2",
-      "metabase/metabase:v0.50.24.5",
+      "metabase/metabase:v0.50.25.3",
       "docker:27.2.1-dind",
       "quay.io/podman/stable:v5.2.2",
       "jupyter/base-notebook:2023-10-20",
@@ -235,8 +235,8 @@
       "syncthing/discosrv:1.27.12",
       "syncthing/relaysrv:1.27.12",
       "jellyfin/jellyfin:10.9.11",
-      "haveagitgat/tdarr:2.24.05",
-      "haveagitgat/tdarr_node:2.24.05",
+      "haveagitgat/tdarr:2.25.01",
+      "haveagitgat/tdarr_node:2.25.01",
       "gravitl/netmaker:v0.25.0",
       "gravitl/netmaker-ui:v0.25.0",
       "kmb32123/youtube-dl-server:2.0",
@@ -257,9 +257,9 @@
       "jenkins/jenkins:2.476-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.1",
-      "netboxcommunity/netbox:v4.1.0",
+      "netboxcommunity/netbox:v4.1.1",
       "kubernetesui/dashboard:v2.7.0",
-      "kubernetesui/dashboard-api:1.7.0",
+      "kubernetesui/dashboard-api:1.8.1",
       "kubernetesui/dashboard-web:1.4.0",
       "kubernetesui/metrics-scraper:v1.0.9",
       "locustio/locust:2.31.5",
