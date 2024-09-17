@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.104
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.3
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
