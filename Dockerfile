@@ -1147,7 +1147,7 @@ FROM airbyte/cron:0.64.4
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.64.4
+FROM airbyte/connector-builder-server:0.64.7
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
