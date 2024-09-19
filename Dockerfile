@@ -563,7 +563,7 @@ FROM bitnami/postgresql:16.4.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.29
+FROM bitnami/tomcat:10.1.30
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
