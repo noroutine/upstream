@@ -751,7 +751,7 @@ FROM goharbor/nginx-photon:v2.11.1
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.55.1
+FROM aquasec/trivy:0.55.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
