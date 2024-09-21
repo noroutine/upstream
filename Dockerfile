@@ -83,7 +83,7 @@ FROM golang:1.23.1-alpine
 # golang
 
 # traefik
-FROM traefik:v3.1.2
+FROM traefik:v3.1.3
 # traefik
 
 # sonatype/nexus3
@@ -119,11 +119,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-09-09T16-59-28Z
+FROM quay.io/minio/minio:RELEASE.2024-09-13T20-26-02Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-09-09T07-53-10Z
+FROM quay.io/minio/mc:RELEASE.2024-09-16T17-43-14Z
 # minio/mc
 
 # minio/console
@@ -203,7 +203,7 @@ FROM httpd:2.4.62-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.29-jdk21-temurin-jammy
+FROM tomcat:10.1.30-jdk21-temurin-jammy
 # tomcat
 
 # m3db/m3coordinator
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.3.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.3.2-ce.0
+FROM gitlab/gitlab-ce:17.4.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.104
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.3.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.4.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -435,7 +435,7 @@ FROM ghost:5.94.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.94.0
+FROM bitnami/ghost:5.94.1
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.25.3
+FROM metabase/metabase:v0.50.26.1
 # metabase/metabase
 
 # docker
@@ -563,7 +563,7 @@ FROM bitnami/postgresql:16.4.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.29
+FROM bitnami/tomcat:10.1.30
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -599,11 +599,11 @@ FROM bitnami/nginx:1.27.1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.9.9
+FROM bitnami/minio:2024.9.13
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.9.9
+FROM bitnami/minio-client:2024.9.16
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -623,7 +623,7 @@ FROM bitnami/grafana:11.2.0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.11.4
+FROM bitnami/grafana-image-renderer:3.11.5
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -675,7 +675,7 @@ FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.55.1
+FROM bitnami/trivy:0.55.2
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -751,7 +751,7 @@ FROM goharbor/nginx-photon:v2.11.1
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.55.1
+FROM aquasec/trivy:0.55.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.29.2
+FROM netbirdio/signal:0.29.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.29.2
+FROM netbirdio/management:0.29.3
 # netbirdio/management
 
 # coturn/coturn
@@ -1022,6 +1022,10 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 FROM netboxcommunity/netbox:v4.1.1
 # netboxcommunity/netbox
 
+# netbox-community/netbox-chart/netbox
+FROM ghcr.io/netbox-community/netbox-chart/netbox:5.0.0-beta.102
+# netbox-community/netbox-chart/netbox
+
 # kubernetesui/dashboard
 FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
@@ -1039,7 +1043,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.31.5
+FROM locustio/locust:2.31.6
 # locustio/locust
 
 # postgrest/postgrest
@@ -1099,7 +1103,7 @@ FROM gitea/gitea:1.22.2-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.12.0
+FROM paperlessngx/paperless-ngx:2.12.1
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1111,47 +1115,51 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.58.2
+FROM docker.n8n.io/n8nio/n8n:1.59.3
 # n8nio/n8n
 
 # cloudflare/cloudflared
 FROM cloudflare/cloudflared:2024.9.1
 # cloudflare/cloudflared
 
+# netsampler/goflow2
+FROM netsampler/goflow2:v2.2.1
+# netsampler/goflow2
+
 # airbyte/webapp
-FROM airbyte/webapp:0.64.4
+FROM airbyte/webapp:0.64.7
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:0.64.4
+FROM airbyte/server:0.64.7
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.64.4
+FROM airbyte/worker:0.64.7
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:0.64.4
+FROM airbyte/metrics-reporter:0.64.7
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:0.64.4
+FROM airbyte/bootloader:0.64.7
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:0.64.4
+FROM airbyte/db:0.64.7
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:0.64.4
+FROM airbyte/cron:0.64.7
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:0.64.4
+FROM airbyte/connector-builder-server:0.64.7
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:0.64.4
+FROM airbyte/workload-api-server:0.64.7
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1215,7 +1223,7 @@ FROM supabase/gotrue:v2.160.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.32.9
+FROM supabase/realtime:v2.32.12
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1223,7 +1231,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.1
+FROM supabase/storage-api:v1.11.3
 # supabase/storage-api
 
 # supabase/logflare
@@ -1231,11 +1239,11 @@ FROM supabase/logflare:1.8.9
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.3
+FROM supabase/edge-runtime:v1.58.4
 # supabase/edge-runtime
 
 # darthsim/imgproxy
-FROM darthsim/imgproxy:v3.25
+FROM darthsim/imgproxy:v3.26
 # darthsim/imgproxy
 
 # timberio/vector
@@ -1295,7 +1303,7 @@ FROM bitnami/cilium:1.16.1
 # bitnami/cilium
 
 # bitnami/cilium-proxy
-FROM bitnami/cilium-proxy:1.29.7
+FROM bitnami/cilium-proxy:1.29.8
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator
@@ -1678,17 +1686,17 @@ FROM longhornio/livenessprobe:v2.14.0
 FROM longhornio/support-bundle-kit:v0.0.43
 # longhornio/support-bundle-kit
 
-# cloud-provider-vsphere/cpi/release/manager
-FROM gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.30.1
-# cloud-provider-vsphere/cpi/release/manager
+# cloud-pv-vsphere/cloud-provider-vsphere
+FROM registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.0
+# cloud-pv-vsphere/cloud-provider-vsphere
 
-# cloud-provider-vsphere/csi/release/driver
-FROM gcr.io/cloud-provider-vsphere/csi/release/driver:v3.3.1
-# cloud-provider-vsphere/csi/release/driver
+# csi-vsphere/driver
+FROM registry.k8s.io/csi-vsphere/driver:v3.3.1
+# csi-vsphere/driver
 
-# cloud-provider-vsphere/csi/release/syncer
-FROM gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.3.1
-# cloud-provider-vsphere/csi/release/syncer
+# csi-vsphere/syncer
+FROM registry.k8s.io/csi-vsphere/syncer:v3.3.1
+# csi-vsphere/syncer
 
 # sig-storage/livenessprobe
 FROM registry.k8s.io/sig-storage/livenessprobe:v2.14.0
@@ -1723,11 +1731,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.0
 # sig-storage/snapshot-validation-webhook
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.9.2
+FROM confluentinc/confluent-init-container:2.9.3
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.1033.22
+FROM confluentinc/confluent-operator:0.1033.33
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
@@ -1783,7 +1791,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.1
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.6.0-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.6.1-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
