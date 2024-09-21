@@ -83,7 +83,7 @@ FROM golang:1.23.1-alpine
 # golang
 
 # traefik
-FROM traefik:v3.1.3
+FROM traefik:v3.1.4
 # traefik
 
 # sonatype/nexus3
@@ -99,7 +99,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:25.0.5
+FROM quay.io/keycloak/keycloak:25.0.6
 # keycloak/keycloak
 
 # postgres
@@ -571,7 +571,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:25.0.5
+FROM bitnami/keycloak:25.0.6
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.29.3
+FROM netbirdio/signal:0.29.4
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.29.3
+FROM netbirdio/management:0.29.4
 # netbirdio/management
 
 # coturn/coturn
@@ -1115,7 +1115,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.59.3
+FROM docker.n8n.io/n8nio/n8n:1.59.4
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1231,7 +1231,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.3
+FROM supabase/storage-api:v1.11.6
 # supabase/storage-api
 
 # supabase/logflare
@@ -1303,7 +1303,7 @@ FROM bitnami/cilium:1.16.1
 # bitnami/cilium
 
 # bitnami/cilium-proxy
-FROM bitnami/cilium-proxy:1.29.8
+FROM bitnami/cilium-proxy:1.29.9
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator
@@ -1363,7 +1363,7 @@ FROM bitnami/kubectl:1.31.1
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.10.1-python3.12
+FROM apache/airflow:2.10.2-python3.12
 # apache/airflow
 
 # git-sync/git-sync
