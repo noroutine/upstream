@@ -1022,10 +1022,6 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 FROM netboxcommunity/netbox:v4.1.1
 # netboxcommunity/netbox
 
-# netbox-community/netbox-chart/netbox
-FROM ghcr.io/netbox-community/netbox-chart/netbox:5.0.0-beta.102
-# netbox-community/netbox-chart/netbox
-
 # kubernetesui/dashboard
 FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
