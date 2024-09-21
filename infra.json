@@ -1,5 +1,5 @@
 {
-  "version": "44d45e53",
+  "version": "a4b0ffd1",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -211,7 +211,7 @@
       "listmonk/listmonk:v3.0.0",
       "vaultwarden/server:1.32.0",
       "boky/postfix:v4.3.0",
-      "cupcakearmy/cryptgeon:2.8.1",
+      "cupcakearmy/cryptgeon:2.8.2",
       "memcached:1.6.31",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.20-alpine",
@@ -244,7 +244,7 @@
       "ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0",
       "ghcr.io/voxpupuli/puppetboard:5.4.0",
       "puppet/r10k:3.15.2",
-      "curlimages/curl:8.10.0",
+      "curlimages/curl:8.10.1",
       "restic/restic:0.17.1",
       "registry.k8s.io/coredns/coredns:v1.11.3",
       "yugabytedb/yugabyte:2.21.0.1-b1",

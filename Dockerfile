@@ -835,7 +835,7 @@ FROM boky/postfix:v4.3.0
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.8.1
+FROM cupcakearmy/cryptgeon:2.8.2
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -967,7 +967,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # curlimages/curl
-FROM curlimages/curl:8.10.0
+FROM curlimages/curl:8.10.1
 # curlimages/curl
 
 # restic/restic
