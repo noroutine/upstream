@@ -1587,47 +1587,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.35.0
+FROM quay.io/tigera/operator:v1.34.5
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.28.1
+FROM calico/typha:v3.28.2
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.28.1
+FROM calico/ctl:v3.28.2
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.28.1
+FROM calico/node:v3.28.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.28.1
+FROM calico/cni:v3.28.2
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.28.1
+FROM calico/apiserver:v3.28.2
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.28.1
+FROM calico/kube-controllers:v3.28.2
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.28.1
+FROM calico/dikastes:v3.28.2
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.28.1
+FROM calico/pod2daemon-flexvol:v3.28.2
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.28.1
+FROM calico/node-driver-registrar:v3.28.2
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.28.1
+FROM calico/csi:v3.28.2
 # calico/csi
 
 # nfd/node-feature-discovery
