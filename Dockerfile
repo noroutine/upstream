@@ -807,15 +807,15 @@ FROM quay.io/argoproj/argo-events:v1.9.2
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.10
+FROM quay.io/argoproj/argocli:v3.5.11
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.10
+FROM quay.io/argoproj/workflow-controller:v3.5.11
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.10
+FROM quay.io/argoproj/argoexec:v3.5.11
 # argoproj/argoexec
 
 # redis
