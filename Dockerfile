@@ -1087,7 +1087,7 @@ FROM spvest/azure-keyvault-controller:1.6.0
 # spvest/azure-keyvault-controller
 
 # spvest/azure-keyvault-webhook
-FROM spvest/azure-keyvault-webhook:1.6.0
+FROM spvest/azure-keyvault-webhook:1.7.0
 # spvest/azure-keyvault-webhook
 
 # spvest/azure-keyvault-env
