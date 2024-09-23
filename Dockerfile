@@ -22,29 +22,29 @@ FROM alpine:3.20.3
 FROM busybox:1.36.1
 # busybox
 
-# distroless/static-debian11
-FROM gcr.io/distroless/static-debian11
-# distroless/static-debian11
+# distroless/static-debian12
+FROM gcr.io/distroless/static-debian12
+# distroless/static-debian12
 
-# distroless/base-debian11
-FROM gcr.io/distroless/base-debian11
-# distroless/base-debian11
+# distroless/base-debian12
+FROM gcr.io/distroless/base-debian12
+# distroless/base-debian12
 
-# distroless/java11-debian11
-FROM gcr.io/distroless/java11-debian11
-# distroless/java11-debian11
+# distroless/java17-debian12
+FROM gcr.io/distroless/java17-debian12
+# distroless/java17-debian12
 
-# distroless/java17-debian11
-FROM gcr.io/distroless/java17-debian11
-# distroless/java17-debian11
+# distroless/java21-debian12
+FROM gcr.io/distroless/java21-debian12
+# distroless/java21-debian12
 
-# distroless/cc-debian11
-FROM gcr.io/distroless/cc-debian11
-# distroless/cc-debian11
+# distroless/cc-debian12
+FROM gcr.io/distroless/cc-debian12
+# distroless/cc-debian12
 
-# distroless/nodejs-debian11
-FROM gcr.io/distroless/nodejs-debian11
-# distroless/nodejs-debian11
+# distroless/nodejs22-debian12
+FROM gcr.io/distroless/nodejs22-debian12
+# distroless/nodejs22-debian12
 
 # buildpack-deps
 FROM buildpack-deps:bionic
@@ -111,7 +111,7 @@ FROM atlassian/jira-software:10.0.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:29.0.7-apache
+FROM nextcloud:30.0.0-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -891,7 +891,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:22.0.2-22.32
+FROM azul/zulu-openjdk:23.0.0-23.28
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.61.1
+FROM ghcr.io/zitadel/zitadel:v2.62.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
