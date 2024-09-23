@@ -451,7 +451,7 @@ FROM metabase/metabase:v0.50.26.1
 # metabase/metabase
 
 # docker
-FROM docker:27.2.1-dind
+FROM docker:27.3.1-dind
 # docker
 
 # podman/stable
