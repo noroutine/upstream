@@ -163,7 +163,7 @@ FROM quay.io/prometheus/memcached-exporter:v0.14.4
 # prometheus/memcached-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.9.0
+FROM quay.io/prometheus/pushgateway:v1.10.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
