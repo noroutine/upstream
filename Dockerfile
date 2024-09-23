@@ -275,7 +275,7 @@ FROM mariadb:11.5.2-noble
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.14.1
+FROM mccutchen/go-httpbin:v2.15.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
