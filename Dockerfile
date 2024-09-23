@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.72.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.34
+FROM squidfunk/mkdocs-material:9.5.36
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -179,15 +179,15 @@ FROM grafana/grafana:11.2.0
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:3.1.1
+FROM grafana/loki:3.2.0
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:3.1.1
+FROM grafana/loki-canary:3.2.0
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:3.1.1
+FROM grafana/promtail:3.2.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -275,7 +275,7 @@ FROM mariadb:11.5.2-noble
 # mariadb
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.14.1
+FROM mccutchen/go-httpbin:v2.15.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -315,7 +315,7 @@ FROM buildpacksio/lifecycle:0.20.1
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v17.3.1
+FROM gitlab/gitlab-runner:alpine3.19-v17.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -323,7 +323,7 @@ FROM gitlab/gitlab-ce:17.4.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.3.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.4.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.104.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.105.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -423,7 +423,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:5.32.2
+FROM verdaccio/verdaccio:6.0.0
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -451,7 +451,7 @@ FROM metabase/metabase:v0.50.26.1
 # metabase/metabase
 
 # docker
-FROM docker:27.2.1-dind
+FROM docker:27.3.1-dind
 # docker
 
 # podman/stable
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.61.0
+FROM ghcr.io/zitadel/zitadel:v2.61.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1083,15 +1083,15 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # spvest/azure-keyvault-controller
-FROM spvest/azure-keyvault-controller:1.6.0
+FROM spvest/azure-keyvault-controller:1.7.0
 # spvest/azure-keyvault-controller
 
 # spvest/azure-keyvault-webhook
-FROM spvest/azure-keyvault-webhook:1.6.0
+FROM spvest/azure-keyvault-webhook:1.7.0
 # spvest/azure-keyvault-webhook
 
 # spvest/azure-keyvault-env
-FROM spvest/azure-keyvault-env:1.6.0
+FROM spvest/azure-keyvault-env:1.7.0
 # spvest/azure-keyvault-env
 
 # gitea/gitea
