@@ -63,7 +63,7 @@ FROM php:8.3.11-apache-bookworm
 # php
 
 # node
-FROM node:22.8.0-bookworm
+FROM node:22.9.0-bookworm
 # node
 
 # python
@@ -163,15 +163,15 @@ FROM quay.io/prometheus/memcached-exporter:v0.14.4
 # prometheus/memcached-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.9.0
+FROM quay.io/prometheus/pushgateway:v1.10.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.76.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.77.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.76.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.77.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -259,7 +259,7 @@ FROM wordpress:6.6.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.11
+FROM dpage/pgadmin4:8.12
 # dpage/pgadmin4
 
 # adminer
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.54.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.76.2
+FROM bitnami/prometheus-operator:0.77.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -911,7 +911,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.79.1
+FROM outlinewiki/outline:0.80.1
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.476-jdk21
+FROM jenkins/jenkins:2.477-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
