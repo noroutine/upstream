@@ -1131,7 +1131,7 @@ FROM airbyte/server:0.64.7
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:0.64.7
+FROM airbyte/worker:1.0.0
 # airbyte/worker
 
 # airbyte/metrics-reporter
