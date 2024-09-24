@@ -1215,7 +1215,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.160.0
+FROM supabase/gotrue:v2.161.0
 # supabase/gotrue
 
 # supabase/realtime
@@ -1227,7 +1227,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.6
+FROM supabase/storage-api:v1.11.7
 # supabase/storage-api
 
 # supabase/logflare
