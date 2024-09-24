@@ -1123,7 +1123,7 @@ FROM netsampler/goflow2:v2.2.1
 # netsampler/goflow2
 
 # airbyte/webapp
-FROM airbyte/webapp:0.64.7
+FROM airbyte/webapp:1.0.0
 # airbyte/webapp
 
 # airbyte/server
