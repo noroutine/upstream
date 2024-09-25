@@ -119,7 +119,7 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-09-13T20-26-02Z
+FROM quay.io/minio/minio:RELEASE.2024-09-22T00-33-43Z
 # minio/minio
 
 # minio/mc
@@ -599,7 +599,7 @@ FROM bitnami/nginx:1.27.1
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.9.13
+FROM bitnami/minio:2024.9.22
 # bitnami/minio
 
 # bitnami/minio-client
@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.477-jdk21
+FROM jenkins/jenkins:2.478-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1187,7 +1187,7 @@ FROM rspamd/rspamd:3.9.1
 # rspamd/rspamd
 
 # scylladb/scylla
-FROM scylladb/scylla:6.1.1
+FROM scylladb/scylla:6.1.2
 # scylladb/scylla
 
 # scylladb/scylla-manager
@@ -1235,7 +1235,7 @@ FROM supabase/logflare:1.8.9
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.4
+FROM supabase/edge-runtime:v1.58.5
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1795,7 +1795,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.10
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.16.1-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.16.2-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
