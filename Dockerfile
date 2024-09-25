@@ -1187,7 +1187,7 @@ FROM rspamd/rspamd:3.9.1
 # rspamd/rspamd
 
 # scylladb/scylla
-FROM scylladb/scylla:6.1.1
+FROM scylladb/scylla:6.1.2
 # scylladb/scylla
 
 # scylladb/scylla-manager
