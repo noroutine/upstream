@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.62.1
+FROM ghcr.io/zitadel/zitadel:v2.62.2
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1235,7 +1235,7 @@ FROM supabase/logflare:1.8.9
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.5
+FROM supabase/edge-runtime:v1.58.6
 # supabase/edge-runtime
 
 # darthsim/imgproxy
