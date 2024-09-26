@@ -1,5 +1,5 @@
 {
-  "version": "3e60965b",
+  "version": "80d9fbf4",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -202,7 +202,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.41.1",
-      "quay.io/argoproj/argocd:v2.12.3",
+      "quay.io/argoproj/argocd:v2.12.4",
       "quay.io/argoproj/argo-events:v1.9.2",
       "quay.io/argoproj/argocli:v3.5.11",
       "quay.io/argoproj/workflow-controller:v3.5.11",
@@ -269,7 +269,7 @@
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.12.2-amd64",
-      "ghcr.io/zitadel/zitadel:v2.62.2",
+      "ghcr.io/zitadel/zitadel:v2.62.3",
       "homeassistant/home-assistant:2024.9",
       "koenkk/zigbee2mqtt:1.40.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.9.0",

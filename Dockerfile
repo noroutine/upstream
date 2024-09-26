@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.12.3
+FROM quay.io/argoproj/argocd:v2.12.4
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.62.2
+FROM ghcr.io/zitadel/zitadel:v2.62.3
 # zitadel/zitadel
 
 # homeassistant/home-assistant
