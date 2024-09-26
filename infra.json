@@ -1,5 +1,5 @@
 {
-  "version": "03c7e329",
+  "version": "3e60965b",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -46,7 +46,7 @@
       "quay.io/prometheus/pushgateway:v1.10.0",
       "quay.io/prometheus-operator/prometheus-operator:v0.77.1",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.77.1",
-      "grafana/grafana:11.2.0",
+      "grafana/grafana:11.2.1",
       "grafana/loki:3.2.0",
       "grafana/loki-canary:3.2.0",
       "grafana/promtail:3.2.0",
@@ -157,10 +157,10 @@
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.14.8",
       "bitnami/metallb-speaker:0.14.8",
-      "bitnami/grafana:11.2.0",
+      "bitnami/grafana:11.2.1",
       "bitnami/grafana-image-renderer:3.11.5",
       "bitnami/consul:1.19.2",
-      "bitnami/nats:2.10.20",
+      "bitnami/nats:2.10.21",
       "bitnami/kube-state-metrics:2.13.0",
       "bitnami/metrics-server:0.7.2",
       "bitnami/kubeapps-dashboard:2.11.0",
