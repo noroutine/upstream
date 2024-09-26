@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.72.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.37
+FROM squidfunk/mkdocs-material:9.5.38
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -311,7 +311,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.20.1
+FROM buildpacksio/lifecycle:0.20.2
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -931,11 +931,11 @@ FROM jellyfin/jellyfin:10.9.11
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.25.01
+FROM haveagitgat/tdarr:2.26.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.25.01
+FROM haveagitgat/tdarr_node:2.26.01
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1295,7 +1295,7 @@ FROM ghcr.io/spiffe/spire-agent:1.10.4
 # spiffe/spire-agent
 
 # bitnami/cilium
-FROM bitnami/cilium:1.16.1
+FROM bitnami/cilium:1.16.2
 # bitnami/cilium
 
 # bitnami/cilium-proxy
@@ -1303,11 +1303,11 @@ FROM bitnami/cilium-proxy:1.29.9
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator
-FROM bitnami/cilium-operator:1.16.1
+FROM bitnami/cilium-operator:1.16.2
 # bitnami/cilium-operator
 
 # bitnami/hubble-relay
-FROM bitnami/hubble-relay:1.16.1
+FROM bitnami/hubble-relay:1.16.2
 # bitnami/hubble-relay
 
 # bitnami/hubble-ui
