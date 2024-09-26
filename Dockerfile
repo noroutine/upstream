@@ -235,7 +235,7 @@ FROM quay.io/cortexproject/cortex:v1.18.0
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.15.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.15.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
