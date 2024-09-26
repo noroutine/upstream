@@ -503,7 +503,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.5.2
+FROM bitnami/spark:3.5.3
 # bitnami/spark
 
 # bitnami/prometheus
