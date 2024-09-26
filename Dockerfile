@@ -1255,7 +1255,7 @@ FROM quay.io/cilium/clustermesh-apiserver:v1.16.1
 # cilium/clustermesh-apiserver
 
 # cilium/cilium
-FROM quay.io/cilium/cilium:v1.16.1
+FROM quay.io/cilium/cilium:v1.16.2
 # cilium/cilium
 
 # cilium/operator
