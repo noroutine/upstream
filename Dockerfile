@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.72.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.36
+FROM squidfunk/mkdocs-material:9.5.37
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -167,11 +167,11 @@ FROM quay.io/prometheus/pushgateway:v1.10.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.77.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.77.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.77.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.77.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.4.0-ce.0
+FROM gitlab/gitlab-ce:17.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.105
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.4.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.4.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.26.1
+FROM metabase/metabase:v0.50.27.1
 # metabase/metabase
 
 # docker
@@ -503,7 +503,7 @@ FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
 # mikecao/umami
 
 # bitnami/spark
-FROM bitnami/spark:3.5.2
+FROM bitnami/spark:3.5.3
 # bitnami/spark
 
 # bitnami/prometheus
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.54.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.77.0
+FROM bitnami/prometheus-operator:0.77.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -755,7 +755,7 @@ FROM aquasec/trivy:0.55.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.10.3
+FROM ghcr.io/external-secrets/external-secrets:v0.10.4
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -775,7 +775,7 @@ FROM drakkan/sftpgo:v2.6.2
 # drakkan/sftpgo
 
 # hasura/graphql-engine
-FROM hasura/graphql-engine:v2.43.0
+FROM hasura/graphql-engine:v2.44.0
 # hasura/graphql-engine
 
 # paulbouwer/hello-kubernetes
@@ -911,7 +911,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.80.1
+FROM outlinewiki/outline:0.80.2
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -1039,7 +1039,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.31.6
+FROM locustio/locust:2.31.7
 # locustio/locust
 
 # postgrest/postgrest
@@ -1363,7 +1363,7 @@ FROM apache/airflow:2.10.2-python3.12
 # apache/airflow
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.2.4
+FROM registry.k8s.io/git-sync/git-sync:v4.3.0
 # git-sync/git-sync
 
 # kedacore/keda
@@ -1407,7 +1407,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.17.5
+FROM hashicorp/vault:1.17.6
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -1779,11 +1779,11 @@ FROM tchiotludo/akhq:0.25.1
 # tchiotludo/akhq
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v24.6.1
+FROM nvcr.io/nvidia/gpu-operator:v24.6.2
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.1
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.2
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
