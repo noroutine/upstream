@@ -799,7 +799,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.12.3
+FROM quay.io/argoproj/argocd:v2.12.4
 # argoproj/argocd
 
 # argoproj/argo-events
