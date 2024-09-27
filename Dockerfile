@@ -439,7 +439,7 @@ FROM bitnami/ghost:5.94.2
 # bitnami/ghost
 
 # matomo
-FROM matomo:5.1.1-apache
+FROM matomo:5.1.2-apache
 # matomo
 
 # nocodb/nocodb
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.27.1
+FROM metabase/metabase:v0.50.27.2
 # metabase/metabase
 
 # docker
@@ -1251,15 +1251,15 @@ FROM kong:3.8.0-ubuntu
 # kong
 
 # cilium/clustermesh-apiserver
-FROM quay.io/cilium/clustermesh-apiserver:v1.16.1
+FROM quay.io/cilium/clustermesh-apiserver:v1.16.2
 # cilium/clustermesh-apiserver
 
 # cilium/cilium
-FROM quay.io/cilium/cilium:v1.16.1
+FROM quay.io/cilium/cilium:v1.16.2
 # cilium/cilium
 
 # cilium/operator
-FROM quay.io/cilium/operator:v1.16.1
+FROM quay.io/cilium/operator:v1.16.2
 # cilium/operator
 
 # cilium/startup-script
@@ -1275,7 +1275,7 @@ FROM quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
-FROM quay.io/cilium/hubble-relay:v1.16.1
+FROM quay.io/cilium/hubble-relay:v1.16.2
 # cilium/hubble-relay
 
 # cilium/hubble-ui
