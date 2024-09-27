@@ -59,7 +59,7 @@ FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
-FROM php:8.3.11-apache-bookworm
+FROM php:8.3.12-apache-bookworm
 # php
 
 # node
@@ -835,7 +835,7 @@ FROM boky/postfix:v4.3.0
 # boky/postfix
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.8.2
+FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
@@ -1231,7 +1231,7 @@ FROM supabase/storage-api:v1.11.7
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.9
+FROM supabase/logflare:1.8.10
 # supabase/logflare
 
 # supabase/edge-runtime

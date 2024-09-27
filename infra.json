@@ -1,5 +1,5 @@
 {
-  "version": "001e0c4e",
+  "version": "0121c6f9",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -17,7 +17,7 @@
       "buildpack-deps:bionic",
       "buildpack-deps:focal",
       "buildpack-deps:jammy",
-      "php:8.3.11-apache-bookworm",
+      "php:8.3.12-apache-bookworm",
       "node:22.9.0-bookworm",
       "python:3.12.6-bookworm",
       "python:3.12.6-slim-bookworm",
@@ -211,7 +211,7 @@
       "listmonk/listmonk:v3.0.0",
       "vaultwarden/server:1.32.0",
       "boky/postfix:v4.3.0",
-      "cupcakearmy/cryptgeon:2.8.2",
+      "cupcakearmy/cryptgeon:2.6.1",
       "memcached:1.6.31",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.21-alpine",
@@ -310,7 +310,7 @@
       "supabase/realtime:v2.32.12",
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.11.7",
-      "supabase/logflare:1.8.9",
+      "supabase/logflare:1.8.10",
       "supabase/edge-runtime:v1.58.6",
       "darthsim/imgproxy:v3.26",
       "timberio/vector:0.41.1-alpine",
