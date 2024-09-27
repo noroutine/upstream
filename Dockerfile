@@ -847,7 +847,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.20-alpine
+FROM nats:2.10.21-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.1
+FROM netboxcommunity/netbox:v4.1.2
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
