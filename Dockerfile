@@ -103,7 +103,7 @@ FROM quay.io/keycloak/keycloak:25.0.6
 # keycloak/keycloak
 
 # postgres
-FROM postgres:16.4-bookworm
+FROM postgres:17.0-bookworm
 # postgres
 
 # atlassian/jira-software
