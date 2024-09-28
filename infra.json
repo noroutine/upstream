@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.352",
+  "version": "ee83e83c",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -28,7 +28,7 @@
       "squidfunk/mkdocs-material:9.5.38",
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:25.0.6",
-      "postgres:16.4-bookworm",
+      "postgres:17.0-bookworm",
       "atlassian/jira-software:10.0.1",
       "nextcloud:30.0.0-apache",
       "haproxytech/haproxy-debian:3.1",
@@ -110,11 +110,11 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:6.0.0",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.94.2",
-      "bitnami/ghost:5.94.2",
+      "ghost:5.95.0",
+      "bitnami/ghost:5.95.0",
       "matomo:5.1.2-apache",
       "nocodb/nocodb:0.255.2",
-      "metabase/metabase:v0.50.27.2",
+      "metabase/metabase:v0.50.27.3",
       "docker:27.3.1-dind",
       "quay.io/podman/stable:v5.2.2",
       "jupyter/base-notebook:2023-10-20",

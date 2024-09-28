@@ -103,7 +103,7 @@ FROM quay.io/keycloak/keycloak:25.0.6
 # keycloak/keycloak
 
 # postgres
-FROM postgres:16.4-bookworm
+FROM postgres:17.0-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.94.2
+FROM ghost:5.95.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.94.2
+FROM bitnami/ghost:5.95.0
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.27.2
+FROM metabase/metabase:v0.50.27.3
 # metabase/metabase
 
 # docker
