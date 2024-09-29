@@ -1,5 +1,5 @@
 {
-  "version": "ee83e83c",
+  "version": "bc2352eb",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -116,7 +116,7 @@
       "nocodb/nocodb:0.255.2",
       "metabase/metabase:v0.50.27.3",
       "docker:27.3.1-dind",
-      "quay.io/podman/stable:v5.2.2",
+      "quay.io/podman/stable:v5.2.3",
       "jupyter/base-notebook:2023-10-20",
       "jupyter/minimal-notebook:2023-10-20",
       "jupyter/r-notebook:2023-10-20",
@@ -262,7 +262,7 @@
       "kubernetesui/dashboard-api:1.8.1",
       "kubernetesui/dashboard-web:1.4.0",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.31.7",
+      "locustio/locust:2.31.8",
       "postgrest/postgrest:v12.2.3",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.9.0",
@@ -306,7 +306,7 @@
       "chirpstack/chirpstack-rest-api:4.9.0",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.161.0",
+      "supabase/gotrue:v2.162.0",
       "supabase/realtime:v2.32.12",
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.11.7",

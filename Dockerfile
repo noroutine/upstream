@@ -455,7 +455,7 @@ FROM docker:27.3.1-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.2.2
+FROM quay.io/podman/stable:v5.2.3
 # podman/stable
 
 # jupyter/base-notebook
@@ -1039,7 +1039,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.31.7
+FROM locustio/locust:2.31.8
 # locustio/locust
 
 # postgrest/postgrest
@@ -1215,7 +1215,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.161.0
+FROM supabase/gotrue:v2.162.0
 # supabase/gotrue
 
 # supabase/realtime
