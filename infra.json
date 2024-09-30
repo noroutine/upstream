@@ -1,5 +1,5 @@
 {
-  "version": "bc2352eb",
+  "version": "dce56539",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -25,7 +25,7 @@
       "golang:1.23.1-alpine",
       "traefik:v3.1.4",
       "sonatype/nexus3:3.72.0",
-      "squidfunk/mkdocs-material:9.5.38",
+      "squidfunk/mkdocs-material:9.5.39",
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:25.0.6",
       "postgres:17.0-bookworm",
@@ -228,7 +228,7 @@
       "azul/zulu-openjdk:23.0.0-23.28",
       "eclipse-temurin:22.0.2_9-jdk-jammy",
       "elastic/eck-operator:2.14.0",
-      "louislam/uptime-kuma:1.23.13-alpine",
+      "louislam/uptime-kuma:1.23.15-alpine",
       "hadolint/hadolint:v2.12.1-beta",
       "outlinewiki/outline:0.80.2",
       "syncthing/syncthing:1.27.12",
@@ -311,7 +311,7 @@
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.11.7",
       "supabase/logflare:1.8.10",
-      "supabase/edge-runtime:v1.58.6",
+      "supabase/edge-runtime:v1.58.8",
       "darthsim/imgproxy:v3.26",
       "timberio/vector:0.41.1-alpine",
       "kong:3.8.0-ubuntu",

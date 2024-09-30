@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.72.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.38
+FROM squidfunk/mkdocs-material:9.5.39
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -903,7 +903,7 @@ FROM elastic/eck-operator:2.14.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.13-alpine
+FROM louislam/uptime-kuma:1.23.15-alpine
 # louislam/uptime-kuma
 
 # hadolint/hadolint
@@ -1235,7 +1235,7 @@ FROM supabase/logflare:1.8.10
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.6
+FROM supabase/edge-runtime:v1.58.8
 # supabase/edge-runtime
 
 # darthsim/imgproxy
