@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.62.3
+FROM ghcr.io/zitadel/zitadel:v2.63.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1083,15 +1083,15 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # spvest/azure-keyvault-controller
-FROM spvest/azure-keyvault-controller:1.7.0
+FROM spvest/azure-keyvault-controller:1.7.1
 # spvest/azure-keyvault-controller
 
 # spvest/azure-keyvault-webhook
-FROM spvest/azure-keyvault-webhook:1.7.0
+FROM spvest/azure-keyvault-webhook:1.7.1
 # spvest/azure-keyvault-webhook
 
 # spvest/azure-keyvault-env
-FROM spvest/azure-keyvault-env:1.7.0
+FROM spvest/azure-keyvault-env:1.7.1
 # spvest/azure-keyvault-env
 
 # gitea/gitea
@@ -1227,7 +1227,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.7
+FROM supabase/storage-api:v1.11.8
 # supabase/storage-api
 
 # supabase/logflare
@@ -1235,7 +1235,7 @@ FROM supabase/logflare:1.8.10
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.8
+FROM supabase/edge-runtime:v1.58.11
 # supabase/edge-runtime
 
 # darthsim/imgproxy
