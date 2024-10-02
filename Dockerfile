@@ -3,15 +3,15 @@ FROM debian:bookworm-20240904-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240801
+FROM ubuntu:noble-20240904.1
 # ubuntu
 
 # ubuntu
-FROM ubuntu:jammy-20240808
+FROM ubuntu:jammy-20240911.1
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240530
+FROM ubuntu:focal-20240918
 # ubuntu
 
 # alpine
@@ -19,7 +19,7 @@ FROM alpine:3.20.3
 # alpine
 
 # busybox
-FROM busybox:1.36.1
+FROM busybox:1.37.0
 # busybox
 
 # distroless/static-debian12
