@@ -1,5 +1,5 @@
 {
-  "version": "32b6d3f5",
+  "version": "602db4b2",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -21,8 +21,8 @@
       "node:22.9.0-bookworm",
       "python:3.12.6-bookworm",
       "python:3.12.6-slim-bookworm",
-      "golang:1.23.1-bookworm",
-      "golang:1.23.1-alpine",
+      "golang:1.23.2-bookworm",
+      "golang:1.23.2-alpine",
       "traefik:v3.1.4",
       "sonatype/nexus3:3.72.0",
       "squidfunk/mkdocs-material:9.5.39",
@@ -271,7 +271,7 @@
       "quay.io/cephcsi/cephcsi:v3.12.2-amd64",
       "ghcr.io/zitadel/zitadel:v2.63.1",
       "homeassistant/home-assistant:2024.9",
-      "koenkk/zigbee2mqtt:1.40.1",
+      "koenkk/zigbee2mqtt:1.40.2",
       "registry.k8s.io/sig-storage/nfsplugin:v4.9.0",
       "spvest/azure-keyvault-controller:1.7.1",
       "spvest/azure-keyvault-webhook:1.7.1",

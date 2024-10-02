@@ -75,11 +75,11 @@ FROM python:3.12.6-slim-bookworm
 # python
 
 # golang
-FROM golang:1.23.1-bookworm
+FROM golang:1.23.2-bookworm
 # golang
 
 # golang
-FROM golang:1.23.1-alpine
+FROM golang:1.23.2-alpine
 # golang
 
 # traefik
@@ -1075,7 +1075,7 @@ FROM homeassistant/home-assistant:2024.9
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.40.1
+FROM koenkk/zigbee2mqtt:1.40.2
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
