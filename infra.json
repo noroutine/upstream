@@ -1,5 +1,5 @@
 {
-  "version": "602db4b2",
+  "version": "bcc6b1b1",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -19,8 +19,8 @@
       "buildpack-deps:jammy",
       "php:8.3.12-apache-bookworm",
       "node:22.9.0-bookworm",
-      "python:3.12.6-bookworm",
-      "python:3.12.6-slim-bookworm",
+      "python:3.12.7-bookworm",
+      "python:3.12.7-slim-bookworm",
       "golang:1.23.2-bookworm",
       "golang:1.23.2-alpine",
       "traefik:v3.1.4",
@@ -309,7 +309,7 @@
       "supabase/gotrue:v2.162.0",
       "supabase/realtime:v2.32.12",
       "supabase/postgres-meta:v0.84.0",
-      "supabase/storage-api:v1.11.8",
+      "supabase/storage-api:v1.11.11",
       "supabase/logflare:1.8.10",
       "supabase/edge-runtime:v1.58.11",
       "darthsim/imgproxy:v3.26",

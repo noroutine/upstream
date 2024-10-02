@@ -67,11 +67,11 @@ FROM node:22.9.0-bookworm
 # node
 
 # python
-FROM python:3.12.6-bookworm
+FROM python:3.12.7-bookworm
 # python
 
 # python
-FROM python:3.12.6-slim-bookworm
+FROM python:3.12.7-slim-bookworm
 # python
 
 # golang
@@ -1227,7 +1227,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.8
+FROM supabase/storage-api:v1.11.11
 # supabase/storage-api
 
 # supabase/logflare
