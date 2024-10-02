@@ -19,7 +19,7 @@ FROM alpine:3.20.3
 # alpine
 
 # busybox
-FROM busybox:1.36.1
+FROM busybox:1.37.0
 # busybox
 
 # distroless/static-debian12
