@@ -175,7 +175,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.77.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.2.1
+FROM grafana/grafana:11.2.2
 # grafana/grafana
 
 # grafana/loki
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.27.3
+FROM metabase/metabase:v0.50.27.4
 # metabase/metabase
 
 # docker
@@ -619,7 +619,7 @@ FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.2.1
+FROM bitnami/grafana:11.2.2
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.63.0
+FROM ghcr.io/zitadel/zitadel:v2.63.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
