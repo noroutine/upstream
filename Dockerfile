@@ -863,7 +863,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.18-openssl
+FROM eclipse-mosquitto:2.0.19-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
