@@ -1183,7 +1183,7 @@ FROM nodemailer/rspamd:2.7.0
 # nodemailer/rspamd
 
 # rspamd/rspamd
-FROM rspamd/rspamd:3.9.1
+FROM rspamd/rspamd:3.10.0
 # rspamd/rspamd
 
 # scylladb/scylla
