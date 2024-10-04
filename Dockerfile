@@ -1083,7 +1083,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # spvest/azure-keyvault-controller
-FROM spvest/azure-keyvault-controller:1.7.1
+FROM spvest/azure-keyvault-controller:1.7.3
 # spvest/azure-keyvault-controller
 
 # spvest/azure-keyvault-webhook
