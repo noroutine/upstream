@@ -1007,7 +1007,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.478-jdk21
+FROM jenkins/jenkins:2.479-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1071,7 +1071,7 @@ FROM ghcr.io/zitadel/zitadel:v2.63.3
 # zitadel/zitadel
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.9
+FROM homeassistant/home-assistant:2024.1
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
