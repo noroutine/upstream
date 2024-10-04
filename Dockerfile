@@ -407,7 +407,7 @@ FROM pihole/pihole:2024.07.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.21.0
+FROM klutchell/unbound:v1.21.1
 # klutchell/unbound
 
 # yandex/clickhouse-server
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.63.2
+FROM ghcr.io/zitadel/zitadel:v2.63.3
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1083,15 +1083,15 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # spvest/azure-keyvault-controller
-FROM spvest/azure-keyvault-controller:1.7.1
+FROM spvest/azure-keyvault-controller:1.7.3
 # spvest/azure-keyvault-controller
 
 # spvest/azure-keyvault-webhook
-FROM spvest/azure-keyvault-webhook:1.7.1
+FROM spvest/azure-keyvault-webhook:1.7.3
 # spvest/azure-keyvault-webhook
 
 # spvest/azure-keyvault-env
-FROM spvest/azure-keyvault-env:1.7.1
+FROM spvest/azure-keyvault-env:1.7.3
 # spvest/azure-keyvault-env
 
 # gitea/gitea
@@ -1111,7 +1111,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.60.1
+FROM docker.n8n.io/n8nio/n8n:1.61.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
