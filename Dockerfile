@@ -83,7 +83,7 @@ FROM golang:1.23.2-alpine
 # golang
 
 # traefik
-FROM traefik:v3.1.4
+FROM traefik:v3.1.5
 # traefik
 
 # sonatype/nexus3
@@ -119,11 +119,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-09-22T00-33-43Z
+FROM quay.io/minio/minio:RELEASE.2024-10-02T17-50-41Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-09-16T17-43-14Z
+FROM quay.io/minio/mc:RELEASE.2024-10-02T08-27-28Z
 # minio/mc
 
 # minio/console
@@ -279,7 +279,7 @@ FROM mccutchen/go-httpbin:v2.15.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.6.0-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # heroku/heroku
@@ -311,7 +311,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.20.2
+FROM buildpacksio/lifecycle:0.20.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.27.4
+FROM metabase/metabase:v0.50.28.2
 # metabase/metabase
 
 # docker
@@ -527,7 +527,7 @@ FROM bitnami/postgres-exporter:0.15.0
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.4.0
+FROM bitnami/redis:7.4.1
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -595,15 +595,15 @@ FROM bitnami/nginx-ingress-controller:1.11.2
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
-FROM bitnami/nginx:1.27.1
+FROM bitnami/nginx:1.27.2
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.9.22
+FROM bitnami/minio:2024.10.2
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.9.16
+FROM bitnami/minio-client:2024.10.2
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -863,7 +863,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.18-openssl
+FROM eclipse-mosquitto:2.0.19-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
@@ -1019,7 +1019,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.2
+FROM netboxcommunity/netbox:v4.1.3
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1067,7 +1067,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.63.1
+FROM ghcr.io/zitadel/zitadel:v2.63.2
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1123,39 +1123,39 @@ FROM netsampler/goflow2:v2.2.1
 # netsampler/goflow2
 
 # airbyte/webapp
-FROM airbyte/webapp:1.0.0
+FROM airbyte/webapp:1.1.0
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:1.0.0
+FROM airbyte/server:1.1.0
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:1.0.0
+FROM airbyte/worker:1.1.0
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:1.0.0
+FROM airbyte/metrics-reporter:1.1.0
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:1.0.0
+FROM airbyte/bootloader:1.1.0
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:1.0.0
+FROM airbyte/db:1.1.0
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:1.0.0
+FROM airbyte/cron:1.1.0
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:1.0.0
+FROM airbyte/connector-builder-server:1.1.0
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:1.0.0
+FROM airbyte/workload-api-server:1.1.0
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1183,7 +1183,7 @@ FROM nodemailer/rspamd:2.7.0
 # nodemailer/rspamd
 
 # rspamd/rspamd
-FROM rspamd/rspamd:3.9.1
+FROM rspamd/rspamd:3.10.0
 # rspamd/rspamd
 
 # scylladb/scylla
@@ -1215,7 +1215,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.162.0
+FROM supabase/gotrue:v2.162.1
 # supabase/gotrue
 
 # supabase/realtime
@@ -1227,7 +1227,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.11
+FROM supabase/storage-api:v1.11.12
 # supabase/storage-api
 
 # supabase/logflare
