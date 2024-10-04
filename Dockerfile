@@ -1091,7 +1091,7 @@ FROM spvest/azure-keyvault-webhook:1.7.1
 # spvest/azure-keyvault-webhook
 
 # spvest/azure-keyvault-env
-FROM spvest/azure-keyvault-env:1.7.1
+FROM spvest/azure-keyvault-env:1.7.3
 # spvest/azure-keyvault-env
 
 # gitea/gitea
