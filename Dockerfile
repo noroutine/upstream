@@ -435,7 +435,7 @@ FROM ghost:5.95.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.95.0
+FROM bitnami/ghost:5.96.0
 # bitnami/ghost
 
 # matomo
@@ -675,7 +675,7 @@ FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.55.2
+FROM bitnami/trivy:0.56.1
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -751,7 +751,7 @@ FROM goharbor/nginx-photon:v2.11.1
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.55.2
+FROM aquasec/trivy:0.56.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -827,7 +827,7 @@ FROM listmonk/listmonk:v3.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.32.0
+FROM vaultwarden/server:1.32.1
 # vaultwarden/server
 
 # boky/postfix
