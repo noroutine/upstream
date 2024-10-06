@@ -562,6 +562,10 @@ FROM bitnami/postgresql:15.8.0
 FROM bitnami/postgresql:16.4.0
 # bitnami/postgresql
 
+# bitnami/postgresql
+FROM bitnami/postgresql:17.0.0
+# bitnami/postgresql
+
 # bitnami/tomcat
 FROM bitnami/tomcat:10.1.30
 # bitnami/tomcat
@@ -583,7 +587,7 @@ FROM bitnami/mariadb:11.5.2
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:7.0.14
+FROM bitnami/mongodb:8.0.0
 # bitnami/mongodb
 
 # bitnami/memcached

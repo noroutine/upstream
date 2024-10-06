@@ -1,5 +1,5 @@
 {
-  "version": "4d51e20a",
+  "version": "e7e50327",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -143,12 +143,13 @@
       "bitnami/postgresql:14.13.0",
       "bitnami/postgresql:15.8.0",
       "bitnami/postgresql:16.4.0",
+      "bitnami/postgresql:17.0.0",
       "bitnami/tomcat:10.1.30",
       "bitnami/jmx-exporter:1.0.1",
       "bitnami/keycloak:25.0.6",
       "bitnami/keycloak-config-cli:6.1.6",
       "bitnami/mariadb:11.5.2",
-      "bitnami/mongodb:7.0.14",
+      "bitnami/mongodb:8.0.0",
       "bitnami/memcached:1.6.31",
       "bitnami/nginx-ingress-controller:1.11.2",
       "bitnami/nginx:1.27.2",
