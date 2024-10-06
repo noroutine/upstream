@@ -1,5 +1,5 @@
 {
-  "version": "d1f65fe4",
+  "version": "aa9ea597",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -306,7 +306,7 @@
       "chirpstack/chirpstack-rest-api:4.9.0",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.162.1",
+      "supabase/gotrue:v2.162.2",
       "supabase/realtime:v2.32.12",
       "supabase/postgres-meta:v0.84.0",
       "supabase/storage-api:v1.11.12",
@@ -346,9 +346,9 @@
       "registry.k8s.io/git-sync/git-sync:v4.3.0",
       "ghcr.io/kedacore/keda:2.15.1",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.15.1",
-      "quay.io/jetstack/cert-manager-controller:v1.15.3",
-      "quay.io/jetstack/cert-manager-cainjector:v1.15.3",
-      "quay.io/jetstack/cert-manager-webhook:v1.15.3",
+      "quay.io/jetstack/cert-manager-controller:v1.16.0",
+      "quay.io/jetstack/cert-manager-cainjector:v1.16.0",
+      "quay.io/jetstack/cert-manager-webhook:v1.16.0",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.1",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "hashicorp/consul:1.19.2",
