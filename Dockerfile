@@ -191,11 +191,11 @@ FROM grafana/promtail:3.2.0
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.27.1-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.27.2-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.27.1-alpine-slim
+FROM nginxinc/nginx-unprivileged:1.27.2-alpine-slim
 # nginxinc/nginx-unprivileged
 
 # httpd
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.28.2
+FROM metabase/metabase:v0.50.28.3
 # metabase/metabase
 
 # docker
@@ -991,11 +991,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.29.4
+FROM netbirdio/signal:0.30.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.29.4
+FROM netbirdio/management:0.30.0
 # netbirdio/management
 
 # coturn/coturn
