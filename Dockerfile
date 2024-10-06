@@ -535,31 +535,31 @@ FROM bitnami/redis-exporter:1.63.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
-FROM bitnami/postgresql:10.23.0
+FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:11.22.0
+FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:12.20.0
+FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.16.0
+FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.13.0
+FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.8.0
+FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.4.0
+FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/tomcat
