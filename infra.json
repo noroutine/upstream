@@ -1,5 +1,5 @@
 {
-  "version": "aa9ea597",
+  "version": "4d51e20a",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -270,7 +270,7 @@
       "guacamole/guacd:1.5.5",
       "quay.io/cephcsi/cephcsi:v3.12.2-amd64",
       "ghcr.io/zitadel/zitadel:v2.63.3",
-      "homeassistant/home-assistant:2024.1",
+      "homeassistant/home-assistant:2024.10",
       "koenkk/zigbee2mqtt:1.40.2",
       "registry.k8s.io/sig-storage/nfsplugin:v4.9.0",
       "spvest/azure-keyvault-controller:1.7.3",
