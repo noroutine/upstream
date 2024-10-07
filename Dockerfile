@@ -1671,7 +1671,7 @@ FROM longhornio/csi-resizer:v1.12.0
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
-FROM longhornio/csi-provisioner:v4.0.1
+FROM longhornio/csi-provisioner:v5.1.0
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
