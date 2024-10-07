@@ -99,7 +99,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:25.0.6
+FROM quay.io/keycloak/keycloak:26.0.0
 # keycloak/keycloak
 
 # postgres
@@ -1663,7 +1663,7 @@ FROM longhornio/csi-node-driver-registrar:v2.12.0
 # longhornio/csi-node-driver-registrar
 
 # longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v7.0.2
+FROM longhornio/csi-snapshotter:v8.1.0
 # longhornio/csi-snapshotter
 
 # longhornio/csi-resizer
@@ -1671,7 +1671,7 @@ FROM longhornio/csi-resizer:v1.12.0
 # longhornio/csi-resizer
 
 # longhornio/csi-provisioner
-FROM longhornio/csi-provisioner:v4.0.1
+FROM longhornio/csi-provisioner:v5.1.0
 # longhornio/csi-provisioner
 
 # longhornio/csi-attacher
