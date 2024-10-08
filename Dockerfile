@@ -67,11 +67,11 @@ FROM node:22.9.0-bookworm
 # node
 
 # python
-FROM python:3.12.7-bookworm
+FROM python:3.13.0-bookworm
 # python
 
 # python
-FROM python:3.12.7-slim-bookworm
+FROM python:3.13.0-slim-bookworm
 # python
 
 # golang
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.95.0
+FROM ghost:5.96.0
 # ghost
 
 # bitnami/ghost
@@ -823,7 +823,7 @@ FROM quay.io/argoproj/argoexec:v3.5.11
 # argoproj/argoexec
 
 # redis
-FROM redis:7.4.0
+FROM redis:7.4.1
 # redis
 
 # listmonk/listmonk
@@ -1071,7 +1071,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.63.3
+FROM ghcr.io/zitadel/zitadel:v2.63.4
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1239,7 +1239,7 @@ FROM supabase/logflare:1.8.10
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.11
+FROM supabase/edge-runtime:v1.58.12
 # supabase/edge-runtime
 
 # darthsim/imgproxy
