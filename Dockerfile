@@ -67,11 +67,11 @@ FROM node:22.9.0-bookworm
 # node
 
 # python
-FROM python:3.12.7-bookworm
+FROM python:3.13.0-bookworm
 # python
 
 # python
-FROM python:3.12.7-slim-bookworm
+FROM python:3.13.0-slim-bookworm
 # python
 
 # golang
