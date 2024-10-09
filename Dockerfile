@@ -1099,7 +1099,7 @@ FROM spvest/azure-keyvault-env:1.7.3
 # spvest/azure-keyvault-env
 
 # gitea/gitea
-FROM gitea/gitea:1.22.2-rootless
+FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
