@@ -575,7 +575,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:25.0.6
+FROM bitnami/keycloak:26.0.0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -595,7 +595,7 @@ FROM bitnami/memcached:1.6.31
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.11.2
+FROM bitnami/nginx-ingress-controller:1.11.3
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
