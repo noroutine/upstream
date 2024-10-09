@@ -1,5 +1,5 @@
 {
-  "version": "1e38f462",
+  "version": "c0de10d2",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -23,7 +23,7 @@
       "python:3.13.0-slim-bookworm",
       "golang:1.23.2-bookworm",
       "golang:1.23.2-alpine",
-      "traefik:v3.1.5",
+      "traefik:v3.1.6",
       "sonatype/nexus3:3.72.0",
       "squidfunk/mkdocs-material:9.5.39",
       "freeradius/freeradius-server:3.2.6-alpine",
