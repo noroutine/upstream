@@ -1,5 +1,5 @@
 {
-  "version": "56af0362",
+  "version": "336aaf88",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -348,9 +348,9 @@
       "registry.k8s.io/git-sync/git-sync:v4.3.0",
       "ghcr.io/kedacore/keda:2.15.1",
       "ghcr.io/kedacore/keda-metrics-apiserver:2.15.1",
-      "quay.io/jetstack/cert-manager-controller:v1.16.0",
-      "quay.io/jetstack/cert-manager-cainjector:v1.16.0",
-      "quay.io/jetstack/cert-manager-webhook:v1.16.0",
+      "quay.io/jetstack/cert-manager-controller:v1.16.1",
+      "quay.io/jetstack/cert-manager-cainjector:v1.16.1",
+      "quay.io/jetstack/cert-manager-webhook:v1.16.1",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.1",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "hashicorp/consul:1.19.2",
