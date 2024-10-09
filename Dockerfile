@@ -279,7 +279,7 @@ FROM mccutchen/go-httpbin:v2.15.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.0-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # heroku/heroku
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.255.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.28.3
+FROM metabase/metabase:v0.50.28.4
 # metabase/metabase
 
 # docker
@@ -531,7 +531,7 @@ FROM bitnami/redis:7.4.1
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.64.0
+FROM bitnami/redis-exporter:1.64.1
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -1011,7 +1011,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.479-jdk21
+FROM jenkins/jenkins:2.480-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1231,7 +1231,7 @@ FROM supabase/postgres-meta:v0.84.0
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.12
+FROM supabase/storage-api:v1.11.13
 # supabase/storage-api
 
 # supabase/logflare
@@ -1411,7 +1411,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.17.6
+FROM hashicorp/vault:1.18.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
