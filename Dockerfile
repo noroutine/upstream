@@ -595,7 +595,7 @@ FROM bitnami/memcached:1.6.31
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.11.2
+FROM bitnami/nginx-ingress-controller:1.11.3
 # bitnami/nginx-ingress-controller
 
 # bitnami/nginx
