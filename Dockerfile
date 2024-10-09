@@ -1031,7 +1031,7 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.8.1
+FROM kubernetesui/dashboard-api:1.9.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
@@ -1099,7 +1099,7 @@ FROM spvest/azure-keyvault-env:1.7.3
 # spvest/azure-keyvault-env
 
 # gitea/gitea
-FROM gitea/gitea:1.22.2-rootless
+FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
