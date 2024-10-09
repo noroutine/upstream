@@ -107,7 +107,7 @@ FROM postgres:17.0-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:10.0.1
+FROM atlassian/jira-software:10.1.1
 # atlassian/jira-software
 
 # nextcloud
@@ -443,7 +443,7 @@ FROM matomo:5.1.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.255.2
+FROM nocodb/nocodb:0.257.0
 # nocodb/nocodb
 
 # metabase/metabase

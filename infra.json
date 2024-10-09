@@ -1,5 +1,5 @@
 {
-  "version": "336aaf88",
+  "version": "e076ec39",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -29,7 +29,7 @@
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:26.0.0",
       "postgres:17.0-bookworm",
-      "atlassian/jira-software:10.0.1",
+      "atlassian/jira-software:10.1.1",
       "nextcloud:30.0.0-apache",
       "haproxytech/haproxy-debian:3.1",
       "quay.io/minio/minio:RELEASE.2024-10-02T17-50-41Z",
@@ -113,7 +113,7 @@
       "ghost:5.96.0",
       "bitnami/ghost:5.96.0",
       "matomo:5.1.2-apache",
-      "nocodb/nocodb:0.255.2",
+      "nocodb/nocodb:0.257.0",
       "metabase/metabase:v0.50.28.4",
       "docker:27.3.1-dind",
       "quay.io/podman/stable:v5.2.3",
