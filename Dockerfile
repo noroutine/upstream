@@ -347,11 +347,11 @@ FROM summerwind/actions-runner-controller:v0.27.6
 # summerwind/actions-runner-controller
 
 # summerwind/actions-runner
-FROM summerwind/actions-runner:v2.319.1-ubuntu-22.04
+FROM summerwind/actions-runner:v2.320.0-ubuntu-22.04
 # summerwind/actions-runner
 
 # summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.319.1-ubuntu-22.04
+FROM summerwind/actions-runner-dind:v2.320.0-ubuntu-22.04
 # summerwind/actions-runner-dind
 
 # brancz/kube-rbac-proxy
@@ -1035,7 +1035,7 @@ FROM kubernetesui/dashboard-api:1.9.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.4.0
+FROM kubernetesui/dashboard-web:1.5.0
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
@@ -1125,6 +1125,10 @@ FROM cloudflare/cloudflared:2024.9.1
 # netsampler/goflow2
 FROM netsampler/goflow2:v2.2.1
 # netsampler/goflow2
+
+# corentinth/it-tools
+FROM ghcr.io/corentinth/it-tools:2024.5.13-a0bc346
+# corentinth/it-tools
 
 # airbyte/webapp
 FROM airbyte/webapp:1.1.0
