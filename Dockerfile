@@ -575,7 +575,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:25.0.6
+FROM bitnami/keycloak:26.0.0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
