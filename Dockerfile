@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.72.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.39
+FROM squidfunk/mkdocs-material:9.5.40
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.105.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.106.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -1115,7 +1115,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.61.0
+FROM docker.n8n.io/n8nio/n8n:1.62.3
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1129,6 +1129,10 @@ FROM netsampler/goflow2:v2.2.1
 # corentinth/it-tools
 FROM ghcr.io/corentinth/it-tools:2024.5.13-a0bc346
 # corentinth/it-tools
+
+# openbgpd/openbgpd
+FROM quay.io/openbgpd/openbgpd:8.6
+# openbgpd/openbgpd
 
 # airbyte/webapp
 FROM airbyte/webapp:1.1.0
