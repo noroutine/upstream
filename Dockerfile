@@ -203,7 +203,7 @@ FROM httpd:2.4.62-alpine
 # httpd
 
 # tomcat
-FROM tomcat:10.1.30-jdk21-temurin-jammy
+FROM tomcat:11.0.0-jdk21-temurin-noble
 # tomcat
 
 # m3db/m3coordinator
@@ -251,7 +251,7 @@ FROM alerta/alerta-web:9.0.4
 # alerta/alerta-web
 
 # mongo
-FROM mongo:8.0.0-noble
+FROM mongo:8.0.1-noble
 # mongo
 
 # wordpress
@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.105
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.4.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.4.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.28.4
+FROM metabase/metabase:v0.50.28.5
 # metabase/metabase
 
 # docker
@@ -763,11 +763,11 @@ FROM ghcr.io/external-secrets/external-secrets:v0.10.4
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.4.5
+FROM registry.k8s.io/csi-secrets-store/driver:v1.4.6
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.5
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.6
 # csi-secrets-store/driver-crds
 
 # kutt/kutt
@@ -899,7 +899,7 @@ FROM azul/zulu-openjdk:23.0.0-23.28
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:22.0.2_9-jdk-jammy
+FROM eclipse-temurin:23-noble
 # eclipse-temurin
 
 # elastic/eck-operator
@@ -1231,7 +1231,7 @@ FROM supabase/realtime:v2.32.12
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.84.0
+FROM supabase/postgres-meta:v0.84.1
 # supabase/postgres-meta
 
 # supabase/storage-api
@@ -1239,7 +1239,7 @@ FROM supabase/storage-api:v1.11.13
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.10
+FROM supabase/logflare:1.8.11
 # supabase/logflare
 
 # supabase/edge-runtime
