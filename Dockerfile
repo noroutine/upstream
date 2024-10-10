@@ -767,7 +767,7 @@ FROM registry.k8s.io/csi-secrets-store/driver:v1.4.5
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.5
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.6
 # csi-secrets-store/driver-crds
 
 # kutt/kutt
