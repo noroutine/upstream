@@ -755,7 +755,7 @@ FROM goharbor/nginx-photon:v2.11.1
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.56.1
+FROM aquasec/trivy:0.56.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -1119,7 +1119,7 @@ FROM docker.n8n.io/n8nio/n8n:1.62.3
 # n8nio/n8n
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.9.1
+FROM cloudflare/cloudflared:2024.10.0
 # cloudflare/cloudflared
 
 # netsampler/goflow2
@@ -1239,7 +1239,7 @@ FROM supabase/postgres-meta:v0.84.1
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.13
+FROM supabase/storage-api:v1.11.14
 # supabase/storage-api
 
 # supabase/logflare
