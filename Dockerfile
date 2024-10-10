@@ -87,7 +87,7 @@ FROM traefik:v3.1.6
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.72.0
+FROM sonatype/nexus3:3.73.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
