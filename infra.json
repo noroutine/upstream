@@ -1,5 +1,5 @@
 {
-  "version": "c0de10d2",
+  "version": "26a19ad9",
   "upstream": {
     "images": [
       "debian:bookworm-20240904-slim",
@@ -65,7 +65,7 @@
       "docker.elastic.co/logstash/logstash:8.15.2",
       "docker.elastic.co/kibana/kibana:8.15.2",
       "alerta/alerta-web:9.0.4",
-      "mongo:7.0.14-jammy",
+      "mongo:8.0.0-noble",
       "wordpress:6.6.2-apache",
       "dpage/pgadmin4:8.12",
       "adminer:4.8.1",
@@ -82,7 +82,7 @@
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.20.3",
       "gitlab/gitlab-runner:alpine3.19-v17.4.0",
-      "gitlab/gitlab-ce:17.4.1-ce.0",
+      "gitlab/gitlab-ce:17.4.2-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.4.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.105.0",
@@ -149,7 +149,7 @@
       "bitnami/keycloak:26.0.0",
       "bitnami/keycloak-config-cli:6.1.6",
       "bitnami/mariadb:11.5.2",
-      "bitnami/mongodb:8.0.0",
+      "bitnami/mongodb:8.0.1",
       "bitnami/memcached:1.6.31",
       "bitnami/nginx-ingress-controller:1.11.3",
       "bitnami/nginx:1.27.2",

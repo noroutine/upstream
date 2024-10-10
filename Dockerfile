@@ -251,7 +251,7 @@ FROM alerta/alerta-web:9.0.4
 # alerta/alerta-web
 
 # mongo
-FROM mongo:7.0.14-jammy
+FROM mongo:8.0.0-noble
 # mongo
 
 # wordpress
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine3.19-v17.4.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.4.1-ce.0
+FROM gitlab/gitlab-ce:17.4.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -587,7 +587,7 @@ FROM bitnami/mariadb:11.5.2
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:8.0.0
+FROM bitnami/mongodb:8.0.1
 # bitnami/mongodb
 
 # bitnami/memcached
