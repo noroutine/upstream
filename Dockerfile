@@ -1119,7 +1119,7 @@ FROM docker.n8n.io/n8nio/n8n:1.62.3
 # n8nio/n8n
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.9.1
+FROM cloudflare/cloudflared:2024.10.0
 # cloudflare/cloudflared
 
 # netsampler/goflow2
