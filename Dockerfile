@@ -251,7 +251,7 @@ FROM alerta/alerta-web:9.0.4
 # alerta/alerta-web
 
 # mongo
-FROM mongo:8.0.0-noble
+FROM mongo:8.0.1-noble
 # mongo
 
 # wordpress
