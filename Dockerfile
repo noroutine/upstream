@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240904-slim
+FROM debian:bookworm-20240926-slim
 # debian
 
 # ubuntu
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.28.5
+FROM metabase/metabase:v0.50.29
 # metabase/metabase
 
 # docker
@@ -1171,7 +1171,7 @@ FROM airbyte/workload-api-server:1.1.0
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
-FROM temporalio/auto-setup:1.25.0
+FROM temporalio/auto-setup:1.25.1
 # temporalio/auto-setup
 
 # nodemailer/wildduck

@@ -1,8 +1,8 @@
 {
-  "version": "c9e58cbe",
+  "version": "11c597b0",
   "upstream": {
     "images": [
-      "debian:bookworm-20240904-slim",
+      "debian:bookworm-20240926-slim",
       "ubuntu:noble-20240904.1",
       "ubuntu:jammy-20240911.1",
       "ubuntu:focal-20240918",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.96.0",
       "matomo:5.1.2-apache",
       "nocodb/nocodb:0.257.0",
-      "metabase/metabase:v0.50.28.5",
+      "metabase/metabase:v0.50.29",
       "docker:27.3.1-dind",
       "quay.io/podman/stable:v5.2.3",
       "jupyter/base-notebook:2023-10-20",
@@ -295,7 +295,7 @@
       "airbyte/cron:1.1.0",
       "airbyte/connector-builder-server:1.1.0",
       "airbyte/workload-api-server:1.1.0",
-      "temporalio/auto-setup:1.25.0",
+      "temporalio/auto-setup:1.25.1",
       "nodemailer/wildduck:1.45.0",
       "nodemailer/wildduck-webmail:1.0.1",
       "nodemailer/zonemta-wildduck:2.4.3",
