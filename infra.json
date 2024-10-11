@@ -1,5 +1,5 @@
 {
-  "version": "11c597b0",
+  "version": "0a0a4a55",
   "upstream": {
     "images": [
       "debian:bookworm-20240926-slim",
@@ -281,7 +281,7 @@
       "paperlessngx/paperless-ngx:2.12.1",
       "roundcube/roundcubemail:1.6.9-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
-      "docker.n8n.io/n8nio/n8n:1.62.3",
+      "docker.n8n.io/n8nio/n8n:1.62.4",
       "cloudflare/cloudflared:2024.10.0",
       "netsampler/goflow2:v2.2.1",
       "ghcr.io/corentinth/it-tools:2024.5.13-a0bc346",
