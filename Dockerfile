@@ -1263,15 +1263,15 @@ FROM kong:3.8.0-ubuntu
 # kong
 
 # cilium/clustermesh-apiserver
-FROM quay.io/cilium/clustermesh-apiserver:v1.16.2
+FROM quay.io/cilium/clustermesh-apiserver:v1.16.3
 # cilium/clustermesh-apiserver
 
 # cilium/cilium
-FROM quay.io/cilium/cilium:v1.16.2
+FROM quay.io/cilium/cilium:v1.16.3
 # cilium/cilium
 
 # cilium/operator
-FROM quay.io/cilium/operator:v1.16.2
+FROM quay.io/cilium/operator:v1.16.3
 # cilium/operator
 
 # cilium/startup-script
@@ -1287,7 +1287,7 @@ FROM quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
-FROM quay.io/cilium/hubble-relay:v1.16.2
+FROM quay.io/cilium/hubble-relay:v1.16.3
 # cilium/hubble-relay
 
 # cilium/hubble-ui

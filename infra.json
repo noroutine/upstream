@@ -1,5 +1,5 @@
 {
-  "version": "0a0a4a55",
+  "version": "1354fca5",
   "upstream": {
     "images": [
       "debian:bookworm-20240926-slim",
@@ -318,13 +318,13 @@
       "darthsim/imgproxy:v3.26",
       "timberio/vector:0.41.1-alpine",
       "kong:3.8.0-ubuntu",
-      "quay.io/cilium/clustermesh-apiserver:v1.16.2",
-      "quay.io/cilium/cilium:v1.16.2",
-      "quay.io/cilium/operator:v1.16.2",
+      "quay.io/cilium/clustermesh-apiserver:v1.16.3",
+      "quay.io/cilium/cilium:v1.16.3",
+      "quay.io/cilium/operator:v1.16.3",
       "quay.io/cilium/startup-script:19fb149fb3d5c7a37d3edfaf10a2be3ab7386661",
       "quay.io/cilium/certgen:v0.2.1",
       "quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6b",
-      "quay.io/cilium/hubble-relay:v1.16.2",
+      "quay.io/cilium/hubble-relay:v1.16.3",
       "quay.io/cilium/hubble-ui:v0.13.1",
       "quay.io/cilium/hubble-ui-backend:v0.13.1",
       "ghcr.io/spiffe/spire-server:1.10.4",
