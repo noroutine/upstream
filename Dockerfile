@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.96.0
+FROM ghost:5.96.1
 # ghost
 
 # bitnami/ghost
@@ -831,7 +831,7 @@ FROM listmonk/listmonk:v3.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.32.1
+FROM vaultwarden/server:1.32.2
 # vaultwarden/server
 
 # boky/postfix
@@ -1115,7 +1115,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.62.4
+FROM docker.n8n.io/n8nio/n8n:1.62.5
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1247,7 +1247,7 @@ FROM supabase/logflare:1.8.11
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.12
+FROM supabase/edge-runtime:v1.58.13
 # supabase/edge-runtime
 
 # darthsim/imgproxy

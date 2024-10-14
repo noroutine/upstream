@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.353",
+  "version": "a79034f9",
   "upstream": {
     "images": [
       "debian:bookworm-20240926-slim",
@@ -110,7 +110,7 @@
       "plausible/analytics:v2.0.0",
       "verdaccio/verdaccio:6.0.0",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.96.0",
+      "ghost:5.96.1",
       "bitnami/ghost:5.96.0",
       "matomo:5.1.2-apache",
       "nocodb/nocodb:0.257.0",
@@ -210,7 +210,7 @@
       "quay.io/argoproj/argoexec:v3.5.11",
       "redis:7.4.1",
       "listmonk/listmonk:v3.0.0",
-      "vaultwarden/server:1.32.1",
+      "vaultwarden/server:1.32.2",
       "boky/postfix:v4.3.0",
       "cupcakearmy/cryptgeon:2.6.1",
       "memcached:1.6.31",
@@ -281,7 +281,7 @@
       "paperlessngx/paperless-ngx:2.12.1",
       "roundcube/roundcubemail:1.6.9-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
-      "docker.n8n.io/n8nio/n8n:1.62.4",
+      "docker.n8n.io/n8nio/n8n:1.62.5",
       "cloudflare/cloudflared:2024.10.0",
       "netsampler/goflow2:v2.2.1",
       "ghcr.io/corentinth/it-tools:2024.5.13-a0bc346",
@@ -314,7 +314,7 @@
       "supabase/postgres-meta:v0.84.1",
       "supabase/storage-api:v1.11.14",
       "supabase/logflare:1.8.11",
-      "supabase/edge-runtime:v1.58.12",
+      "supabase/edge-runtime:v1.58.13",
       "darthsim/imgproxy:v3.26",
       "timberio/vector:0.41.1-alpine",
       "kong:3.8.0-ubuntu",
