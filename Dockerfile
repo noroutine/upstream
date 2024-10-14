@@ -831,7 +831,7 @@ FROM listmonk/listmonk:v3.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.32.1
+FROM vaultwarden/server:1.32.2
 # vaultwarden/server
 
 # boky/postfix
