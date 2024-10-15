@@ -1,5 +1,5 @@
 {
-  "version": "f1f88f35",
+  "version": "e6f8670c",
   "upstream": {
     "images": [
       "debian:bookworm-20240926-slim",
@@ -263,7 +263,7 @@
       "kubernetesui/dashboard-api:1.9.0",
       "kubernetesui/dashboard-web:1.5.0",
       "kubernetesui/metrics-scraper:v1.0.9",
-      "locustio/locust:2.31.8",
+      "locustio/locust:2.32.0",
       "postgrest/postgrest:v12.2.3",
       "mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0",
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.9.0",
@@ -354,7 +354,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.16.1",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.1",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
-      "hashicorp/consul:1.19.2",
+      "hashicorp/consul:1.20.0",
       "hashicorp/consul-k8s-control-plane:1.5.3",
       "envoyproxy/envoy-alpine:v1.21.6",
       "hashicorp/vault:1.18.0",

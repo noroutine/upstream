@@ -1043,7 +1043,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.31.8
+FROM locustio/locust:2.32.0
 # locustio/locust
 
 # postgrest/postgrest
@@ -1407,7 +1407,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.19.2
+FROM hashicorp/consul:1.20.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
