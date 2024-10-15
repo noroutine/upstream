@@ -1799,7 +1799,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.2
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.6.1-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.6.2-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
