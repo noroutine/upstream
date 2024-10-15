@@ -1011,7 +1011,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.480-jdk21
+FROM jenkins/jenkins:2.481-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1803,7 +1803,7 @@ FROM nvcr.io/nvidia/cuda:12.6.2-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.10
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
