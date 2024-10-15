@@ -1,5 +1,5 @@
 {
-  "version": "a79034f9",
+  "version": "f1f88f35",
   "upstream": {
     "images": [
       "debian:bookworm-20240926-slim",
@@ -81,9 +81,9 @@
       "paketobuildpacks/builder:tiny",
       "paketobuildpacks/run:full-cnb",
       "buildpacksio/lifecycle:0.20.3",
-      "gitlab/gitlab-runner:alpine3.19-v17.4.0",
+      "gitlab/gitlab-runner:alpine3.19-v17.4.1",
       "gitlab/gitlab-ce:17.4.2-ce.0",
-      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.4.0",
+      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.4.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.106.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.4.2",
@@ -412,7 +412,7 @@
       "calico/pod2daemon-flexvol:v3.28.2",
       "calico/node-driver-registrar:v3.28.2",
       "calico/csi:v3.28.2",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.16.4",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.16.5",
       "longhornio/longhorn-manager:v1.7.1",
       "longhornio/longhorn-ui:v1.7.1",
       "longhornio/longhorn-engine:v1.7.1",
@@ -452,7 +452,7 @@
       "tchiotludo/akhq:0.25.1",
       "nvcr.io/nvidia/gpu-operator:v24.6.2",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.2",
-      "nvcr.io/nvidia/cuda:12.6.1-base-ubi9",
+      "nvcr.io/nvidia/cuda:12.6.2-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.10",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.16.2-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",

@@ -315,7 +315,7 @@ FROM buildpacksio/lifecycle:0.20.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v17.4.0
+FROM gitlab/gitlab-runner:alpine3.19-v17.4.1
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -323,7 +323,7 @@ FROM gitlab/gitlab-ce:17.4.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.4.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.4.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -1639,7 +1639,7 @@ FROM calico/csi:v3.28.2
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.4
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.5
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
@@ -1799,7 +1799,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.2
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.6.1-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.6.2-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
