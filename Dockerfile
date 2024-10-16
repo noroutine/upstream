@@ -603,7 +603,7 @@ FROM bitnami/nginx:1.27.2
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.10.2
+FROM bitnami/minio:2024.10.13
 # bitnami/minio
 
 # bitnami/minio-client
