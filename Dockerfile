@@ -3,7 +3,7 @@ FROM debian:bookworm-20240926-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20240904.1
+FROM ubuntu:noble-20241011
 # ubuntu
 
 # ubuntu
@@ -11,7 +11,7 @@ FROM ubuntu:jammy-20240911.1
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240918
+FROM ubuntu:focal-20241011
 # ubuntu
 
 # alpine
@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.73.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.40
+FROM squidfunk/mkdocs-material:9.5.41
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -231,7 +231,7 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.18.0
+FROM quay.io/cortexproject/cortex:v1.18.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
@@ -267,7 +267,7 @@ FROM adminer:4.8.1
 # adminer
 
 # mysql
-FROM mysql:9.0.1
+FROM mysql:9.1.0
 # mysql
 
 # mariadb
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.29
+FROM metabase/metabase:v0.50.30
 # metabase/metabase
 
 # docker
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.162.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.32.12
+FROM supabase/realtime:v2.33.0
 # supabase/realtime
 
 # supabase/postgres-meta
