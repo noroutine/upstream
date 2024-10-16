@@ -1315,7 +1315,7 @@ FROM bitnami/cilium-proxy:1.29.9
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator
-FROM bitnami/cilium-operator:1.16.2
+FROM bitnami/cilium-operator:1.16.3
 # bitnami/cilium-operator
 
 # bitnami/hubble-relay
