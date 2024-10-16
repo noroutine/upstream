@@ -11,7 +11,7 @@ FROM ubuntu:jammy-20240911.1
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20240918
+FROM ubuntu:focal-20241011
 # ubuntu
 
 # alpine
