@@ -631,7 +631,7 @@ FROM bitnami/grafana-image-renderer:3.11.5
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.19.2
+FROM bitnami/consul:1.20.0
 # bitnami/consul
 
 # bitnami/nats
@@ -1023,7 +1023,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.3
+FROM netboxcommunity/netbox:v4.1.4
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
