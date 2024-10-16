@@ -1,5 +1,5 @@
 {
-  "version": "6f493c8c",
+  "version": "abbe214a",
   "upstream": {
     "images": [
       "debian:bookworm-20240926-slim",
@@ -86,7 +86,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.4.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.106.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.4.2",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0",
       "summerwind/actions-runner-controller:v0.27.6",
       "summerwind/actions-runner:v2.320.0-ubuntu-22.04",
@@ -331,8 +331,8 @@
       "ghcr.io/spiffe/spire-agent:1.10.4",
       "bitnami/cilium:1.16.2",
       "bitnami/cilium-proxy:1.29.9",
-      "bitnami/cilium-operator:1.16.2",
-      "bitnami/hubble-relay:1.16.2",
+      "bitnami/cilium-operator:1.16.3",
+      "bitnami/hubble-relay:1.16.3",
       "bitnami/hubble-ui:0.13.1",
       "bitnami/hubble-ui-backend:0.13.1",
       "velero/velero:v1.14.1",
