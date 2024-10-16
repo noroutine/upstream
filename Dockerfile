@@ -1319,7 +1319,7 @@ FROM bitnami/cilium-operator:1.16.2
 # bitnami/cilium-operator
 
 # bitnami/hubble-relay
-FROM bitnami/hubble-relay:1.16.2
+FROM bitnami/hubble-relay:1.16.3
 # bitnami/hubble-relay
 
 # bitnami/hubble-ui
