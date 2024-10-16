@@ -267,7 +267,7 @@ FROM adminer:4.8.1
 # adminer
 
 # mysql
-FROM mysql:9.0.1
+FROM mysql:9.1.0
 # mysql
 
 # mariadb
