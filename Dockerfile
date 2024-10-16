@@ -1227,7 +1227,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.162.2
+FROM supabase/gotrue:v2.163.0
 # supabase/gotrue
 
 # supabase/realtime
@@ -1307,7 +1307,7 @@ FROM ghcr.io/spiffe/spire-agent:1.10.4
 # spiffe/spire-agent
 
 # bitnami/cilium
-FROM bitnami/cilium:1.16.2
+FROM bitnami/cilium:1.16.3
 # bitnami/cilium
 
 # bitnami/cilium-proxy
