@@ -423,7 +423,7 @@ FROM plausible/analytics:v2.0.0
 # plausible/analytics
 
 # verdaccio/verdaccio
-FROM verdaccio/verdaccio:6.0.0
+FROM verdaccio/verdaccio:6.0.1
 # verdaccio/verdaccio
 
 # strapi/strapi
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.96.1
+FROM ghost:5.96.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.96.1
+FROM bitnami/ghost:5.96.2
 # bitnami/ghost
 
 # matomo
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.0
+FROM supabase/realtime:v2.33.3
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1239,7 +1239,7 @@ FROM supabase/postgres-meta:v0.84.1
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.14
+FROM supabase/storage-api:v1.11.15
 # supabase/storage-api
 
 # supabase/logflare

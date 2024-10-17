@@ -1,5 +1,5 @@
 {
-  "version": "00df2060",
+  "version": "db77266b",
   "upstream": {
     "images": [
       "debian:bookworm-20240926-slim",
@@ -108,10 +108,10 @@
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v2.0.0",
-      "verdaccio/verdaccio:6.0.0",
+      "verdaccio/verdaccio:6.0.1",
       "strapi/strapi:3.6.8-alpine",
-      "ghost:5.96.1",
-      "bitnami/ghost:5.96.1",
+      "ghost:5.96.2",
+      "bitnami/ghost:5.96.2",
       "matomo:5.1.2-apache",
       "nocodb/nocodb:0.257.2",
       "metabase/metabase:v0.50.30",
@@ -310,9 +310,9 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.163.0",
-      "supabase/realtime:v2.33.0",
+      "supabase/realtime:v2.33.3",
       "supabase/postgres-meta:v0.84.1",
-      "supabase/storage-api:v1.11.14",
+      "supabase/storage-api:v1.11.15",
       "supabase/logflare:1.8.11",
       "supabase/edge-runtime:v1.59.0",
       "darthsim/imgproxy:v3.26",
