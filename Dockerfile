@@ -443,7 +443,7 @@ FROM matomo:5.1.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.257.0
+FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
@@ -567,7 +567,7 @@ FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.30
+FROM bitnami/tomcat:10.1.31
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -679,7 +679,7 @@ FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.56.1
+FROM bitnami/trivy:0.56.2
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -867,7 +867,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.19-openssl
+FROM eclipse-mosquitto:2.0.20-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
@@ -995,11 +995,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.30.1
+FROM netbirdio/signal:0.30.2
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.30.1
+FROM netbirdio/management:0.30.2
 # netbirdio/management
 
 # coturn/coturn
@@ -1195,7 +1195,7 @@ FROM nodemailer/rspamd:2.7.0
 # nodemailer/rspamd
 
 # rspamd/rspamd
-FROM rspamd/rspamd:3.10.0
+FROM rspamd/rspamd:3.10.1
 # rspamd/rspamd
 
 # scylladb/scylla
@@ -1247,7 +1247,7 @@ FROM supabase/logflare:1.8.11
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.58.13
+FROM supabase/edge-runtime:v1.59.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1691,7 +1691,7 @@ FROM longhornio/livenessprobe:v2.14.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.43
+FROM longhornio/support-bundle-kit:v0.0.45
 # longhornio/support-bundle-kit
 
 # cloud-pv-vsphere/cloud-provider-vsphere
