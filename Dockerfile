@@ -1691,7 +1691,7 @@ FROM longhornio/livenessprobe:v2.14.0
 # longhornio/livenessprobe
 
 # longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.43
+FROM longhornio/support-bundle-kit:v0.0.45
 # longhornio/support-bundle-kit
 
 # cloud-pv-vsphere/cloud-provider-vsphere
