@@ -183,7 +183,7 @@ FROM grafana/loki:3.2.0
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:3.2.0
+FROM grafana/loki-canary:3.2.1
 # grafana/loki-canary
 
 # grafana/promtail
