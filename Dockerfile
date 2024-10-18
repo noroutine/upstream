@@ -63,7 +63,7 @@ FROM php:8.3.12-apache-bookworm
 # php
 
 # node
-FROM node:22.9.0-bookworm
+FROM node:23.0.0-bookworm
 # node
 
 # python
@@ -531,7 +531,7 @@ FROM bitnami/redis:7.4.1
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.64.1
+FROM bitnami/redis-exporter:1.65.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -803,7 +803,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.12.4
+FROM quay.io/argoproj/argocd:v2.12.5
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -1411,7 +1411,7 @@ FROM hashicorp/consul:1.20.0
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.5.3
+FROM hashicorp/consul-k8s-control-plane:1.6.0
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine

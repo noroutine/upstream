@@ -1,5 +1,5 @@
 {
-  "version": "7036c1e4",
+  "version": "17ad0cc6",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -18,7 +18,7 @@
       "buildpack-deps:focal",
       "buildpack-deps:jammy",
       "php:8.3.12-apache-bookworm",
-      "node:22.9.0-bookworm",
+      "node:23.0.0-bookworm",
       "python:3.13.0-bookworm",
       "python:3.13.0-slim-bookworm",
       "golang:1.23.2-bookworm",
@@ -135,7 +135,7 @@
       "bitnami/blackbox-exporter:0.25.0",
       "bitnami/postgres-exporter:0.15.0",
       "bitnami/redis:7.4.1",
-      "bitnami/redis-exporter:1.64.1",
+      "bitnami/redis-exporter:1.65.0",
       "bitnami/postgresql:10.23.0",
       "bitnami/postgresql:11.22.0",
       "bitnami/postgresql:12.20.0",
@@ -203,7 +203,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.41.1",
-      "quay.io/argoproj/argocd:v2.12.4",
+      "quay.io/argoproj/argocd:v2.12.5",
       "quay.io/argoproj/argo-events:v1.9.2",
       "quay.io/argoproj/argocli:v3.5.11",
       "quay.io/argoproj/workflow-controller:v3.5.11",
@@ -355,7 +355,7 @@
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.1",
       "zachomedia/cert-manager-webhook-pdns:v2.5.1",
       "hashicorp/consul:1.20.0",
-      "hashicorp/consul-k8s-control-plane:1.5.3",
+      "hashicorp/consul-k8s-control-plane:1.6.0",
       "envoyproxy/envoy-alpine:v1.21.6",
       "hashicorp/vault:1.18.0",
       "hashicorp/vault-k8s:1.4.2",
