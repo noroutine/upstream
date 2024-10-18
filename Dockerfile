@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20240926-slim
+FROM debian:bookworm-20241016-slim
 # debian
 
 # ubuntu
@@ -99,7 +99,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.0.0
+FROM quay.io/keycloak/keycloak:26.0.1
 # keycloak/keycloak
 
 # postgres
@@ -179,15 +179,15 @@ FROM grafana/grafana:11.2.2
 # grafana/grafana
 
 # grafana/loki
-FROM grafana/loki:3.2.0
+FROM grafana/loki:3.2.1
 # grafana/loki
 
 # grafana/loki-canary
-FROM grafana/loki-canary:3.2.0
+FROM grafana/loki-canary:3.2.1
 # grafana/loki-canary
 
 # grafana/promtail
-FROM grafana/promtail:3.2.0
+FROM grafana/promtail:3.2.1
 # grafana/promtail
 
 # nginxinc/nginx-unprivileged
@@ -235,15 +235,15 @@ FROM quay.io/cortexproject/cortex:v1.18.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.15.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.15.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.15.2
+FROM docker.elastic.co/logstash/logstash:8.15.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.15.2
+FROM docker.elastic.co/kibana/kibana:8.15.3
 # kibana/kibana
 
 # alerta/alerta-web
@@ -315,15 +315,15 @@ FROM buildpacksio/lifecycle:0.20.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine3.19-v17.4.1
+FROM gitlab/gitlab-runner:alpine-v17.5.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.4.2-ce.0
+FROM gitlab/gitlab-ce:17.5.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.4.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -575,7 +575,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.0.0
+FROM bitnami/keycloak:26.0.1
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -627,7 +627,7 @@ FROM bitnami/grafana:11.2.2
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.11.5
+FROM bitnami/grafana-image-renderer:3.11.6
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
@@ -635,7 +635,7 @@ FROM bitnami/consul:1.20.0
 # bitnami/consul
 
 # bitnami/nats
-FROM bitnami/nats:2.10.21
+FROM bitnami/nats:2.10.22
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -851,7 +851,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.21-alpine
+FROM nats:2.10.22-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -919,15 +919,15 @@ FROM outlinewiki/outline:0.80.2
 # outlinewiki/outline
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.27.12
+FROM syncthing/syncthing:1.28.0
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.27.12
+FROM syncthing/discosrv:1.28.0
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.27.12
+FROM syncthing/relaysrv:1.28.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -1643,27 +1643,27 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.5
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.7.1
+FROM longhornio/longhorn-manager:v1.7.2
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.7.1
+FROM longhornio/longhorn-ui:v1.7.2
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.7.1
+FROM longhornio/longhorn-engine:v1.7.2
 # longhornio/longhorn-engine
 
 # longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.7.1
+FROM longhornio/longhorn-instance-manager:v1.7.2
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.7.1
+FROM longhornio/longhorn-share-manager:v1.7.2
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.7.1
+FROM longhornio/backing-image-manager:v1.7.2
 # longhornio/backing-image-manager
 
 # longhornio/csi-node-driver-registrar
