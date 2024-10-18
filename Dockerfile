@@ -1659,7 +1659,7 @@ FROM longhornio/longhorn-instance-manager:v1.7.1
 # longhornio/longhorn-instance-manager
 
 # longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.7.1
+FROM longhornio/longhorn-share-manager:v1.7.2
 # longhornio/longhorn-share-manager
 
 # longhornio/backing-image-manager
