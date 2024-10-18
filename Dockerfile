@@ -1647,7 +1647,7 @@ FROM longhornio/longhorn-manager:v1.7.1
 # longhornio/longhorn-manager
 
 # longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.7.1
+FROM longhornio/longhorn-ui:v1.7.2
 # longhornio/longhorn-ui
 
 # longhornio/longhorn-engine
