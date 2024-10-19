@@ -111,7 +111,7 @@ FROM atlassian/jira-software:10.1.1
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:30.0.0-apache
+FROM nextcloud:30.0.1-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.96.2
+FROM ghost:5.97.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.96.2
+FROM bitnami/ghost:5.97.0
 # bitnami/ghost
 
 # matomo
@@ -803,7 +803,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.12.5
+FROM quay.io/argoproj/argocd:v2.12.6
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.4
+FROM supabase/realtime:v2.33.6
 # supabase/realtime
 
 # supabase/postgres-meta
