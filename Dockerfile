@@ -495,7 +495,7 @@ FROM rocker/shiny:4.4.1
 # rocker/shiny
 
 # caprover/caprover
-FROM caprover/caprover:1.12.0
+FROM caprover/caprover:1.13.1
 # caprover/caprover
 
 # mikecao/umami
@@ -935,11 +935,11 @@ FROM jellyfin/jellyfin:10.9.11
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.26.01
+FROM haveagitgat/tdarr:2.27.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.26.01
+FROM haveagitgat/tdarr_node:2.27.02
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
@@ -1231,11 +1231,11 @@ FROM supabase/gotrue:v2.163.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.6
+FROM supabase/realtime:v2.33.7
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.84.1
+FROM supabase/postgres-meta:v0.84.2
 # supabase/postgres-meta
 
 # supabase/storage-api
