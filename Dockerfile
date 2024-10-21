@@ -895,7 +895,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:23.0.0-23.28
+FROM azul/zulu-openjdk:23.0.1-23.30
 # azul/zulu-openjdk
 
 # eclipse-temurin
