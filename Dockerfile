@@ -1203,7 +1203,7 @@ FROM scylladb/scylla:6.1.2
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.2.8
+FROM scylladb/scylla-manager:3.4.0-0.20241023.57538f79e
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
