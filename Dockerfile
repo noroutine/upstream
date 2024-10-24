@@ -843,7 +843,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.31
+FROM memcached:1.6.32
 # memcached
 
 # connecteverything/nats-operator
