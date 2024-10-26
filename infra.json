@@ -1,5 +1,5 @@
 {
-  "version": "5567af10",
+  "version": "1866db4c",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -278,7 +278,7 @@
       "spvest/azure-keyvault-webhook:1.7.3",
       "spvest/azure-keyvault-env:1.7.3",
       "gitea/gitea:1.22.3-rootless",
-      "paperlessngx/paperless-ngx:2.12.1",
+      "paperlessngx/paperless-ngx:2.13.0",
       "roundcube/roundcubemail:1.6.9-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
       "docker.n8n.io/n8nio/n8n:1.63.4",
@@ -401,7 +401,7 @@
       "registry.k8s.io/kube-proxy:v1.23.17",
       "registry.k8s.io/kube-scheduler:v1.23.17",
       "registry.k8s.io/kube-controller-manager:v1.23.17",
-      "quay.io/tigera/operator:v1.34.5",
+      "quay.io/tigera/operator:v1.34.6",
       "calico/typha:v3.28.2",
       "calico/ctl:v3.28.2",
       "calico/node:v3.28.2",

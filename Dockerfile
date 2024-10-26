@@ -1103,7 +1103,7 @@ FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.12.1
+FROM paperlessngx/paperless-ngx:2.13.0
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1595,7 +1595,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.34.5
+FROM quay.io/tigera/operator:v1.34.6
 # tigera/operator
 
 # calico/typha
