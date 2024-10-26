@@ -59,11 +59,11 @@ FROM buildpack-deps:jammy
 # buildpack-deps
 
 # php
-FROM php:8.3.12-apache-bookworm
+FROM php:8.3.13-apache-bookworm
 # php
 
 # node
-FROM node:23.0.0-bookworm
+FROM node:23.1.0-bookworm
 # node
 
 # python

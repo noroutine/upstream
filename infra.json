@@ -1,5 +1,5 @@
 {
-  "version": "fcac30a0",
+  "version": "5567af10",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -17,8 +17,8 @@
       "buildpack-deps:bionic",
       "buildpack-deps:focal",
       "buildpack-deps:jammy",
-      "php:8.3.12-apache-bookworm",
-      "node:23.0.0-bookworm",
+      "php:8.3.13-apache-bookworm",
+      "node:23.1.0-bookworm",
       "python:3.13.0-bookworm",
       "python:3.13.0-slim-bookworm",
       "golang:1.23.2-bookworm",
