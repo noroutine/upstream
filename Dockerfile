@@ -683,7 +683,7 @@ FROM bitnami/trivy:0.56.2
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.1
+FROM bitnami/kubectl:1.31.2
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -1367,7 +1367,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.1
+FROM bitnami/kubectl:1.31.2
 # bitnami/kubectl
 
 # apache/airflow
