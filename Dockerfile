@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.73.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.41
+FROM squidfunk/mkdocs-material:9.5.42
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -99,7 +99,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.0.1
+FROM quay.io/keycloak/keycloak:26.0.2
 # keycloak/keycloak
 
 # postgres
@@ -167,15 +167,15 @@ FROM quay.io/prometheus/pushgateway:v1.10.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.77.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.77.2
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.77.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.77.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.2.2
+FROM grafana/grafana:11.3.0
 # grafana/grafana
 
 # grafana/loki
@@ -315,15 +315,15 @@ FROM buildpacksio/lifecycle:0.20.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.5.0
+FROM gitlab/gitlab-runner:alpine-v17.5.2
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.5.0-ce.0
+FROM gitlab/gitlab-ce:17.5.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.2
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -331,11 +331,11 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.106.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.107.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -407,7 +407,7 @@ FROM pihole/pihole:2024.07.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.21.1
+FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # yandex/clickhouse-server
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.97.0
+FROM ghost:5.97.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.97.0
+FROM bitnami/ghost:5.97.3
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.50.30
+FROM metabase/metabase:v0.51.1.2
 # metabase/metabase
 
 # docker
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.54.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.77.1
+FROM bitnami/prometheus-operator:0.77.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -575,7 +575,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.0.1
+FROM bitnami/keycloak:26.0.2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -591,7 +591,7 @@ FROM bitnami/mongodb:8.0.1
 # bitnami/mongodb
 
 # bitnami/memcached
-FROM bitnami/memcached:1.6.31
+FROM bitnami/memcached:1.6.32
 # bitnami/memcached
 
 # bitnami/nginx-ingress-controller
@@ -623,7 +623,7 @@ FROM bitnami/metallb-speaker:0.14.8
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.2.2
+FROM bitnami/grafana:11.3.0
 # bitnami/grafana
 
 # bitnami/grafana-image-renderer
@@ -843,7 +843,7 @@ FROM cupcakearmy/cryptgeon:2.6.1
 # cupcakearmy/cryptgeon
 
 # memcached
-FROM memcached:1.6.31
+FROM memcached:1.6.32
 # memcached
 
 # connecteverything/nats-operator
@@ -895,7 +895,7 @@ FROM pryorda/vmware_exporter:v0.18.4
 # pryorda/vmware_exporter
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:23.0.0-23.28
+FROM azul/zulu-openjdk:23.0.1-23.30
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -995,11 +995,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.30.2
+FROM netbirdio/signal:0.30.3
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.30.2
+FROM netbirdio/management:0.30.3
 # netbirdio/management
 
 # coturn/coturn
@@ -1011,7 +1011,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.481-jdk21
+FROM jenkins/jenkins:2.482-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1031,11 +1031,11 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.9.0
+FROM kubernetesui/dashboard-api:1.10.0
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.5.0
+FROM kubernetesui/dashboard-web:1.5.1
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
@@ -1055,7 +1055,7 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
-FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.9.0
+FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.10.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
@@ -1071,7 +1071,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.63.4
+FROM ghcr.io/zitadel/zitadel:v2.64.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1119,7 +1119,7 @@ FROM docker.n8n.io/n8nio/n8n:1.63.4
 # n8nio/n8n
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.10.0
+FROM cloudflare/cloudflared:2024.10.1
 # cloudflare/cloudflared
 
 # netsampler/goflow2
@@ -1195,7 +1195,7 @@ FROM nodemailer/rspamd:2.7.0
 # nodemailer/rspamd
 
 # rspamd/rspamd
-FROM rspamd/rspamd:3.10.1
+FROM rspamd/rspamd:3.10.2
 # rspamd/rspamd
 
 # scylladb/scylla
@@ -1227,11 +1227,11 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.163.0
+FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.7
+FROM supabase/realtime:v2.33.9
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1239,11 +1239,11 @@ FROM supabase/postgres-meta:v0.84.2
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.11.16
+FROM supabase/storage-api:v1.12.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.8.11
+FROM supabase/logflare:1.9.0
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1299,11 +1299,11 @@ FROM quay.io/cilium/hubble-ui-backend:v0.13.1
 # cilium/hubble-ui-backend
 
 # spiffe/spire-server
-FROM ghcr.io/spiffe/spire-server:1.10.4
+FROM ghcr.io/spiffe/spire-server:1.11.0
 # spiffe/spire-server
 
 # spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.10.4
+FROM ghcr.io/spiffe/spire-agent:1.11.0
 # spiffe/spire-agent
 
 # bitnami/cilium
@@ -1451,67 +1451,67 @@ FROM registry.k8s.io/coredns/coredns:v1.11.3
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.1
+FROM registry.k8s.io/kube-apiserver:v1.31.2
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.1
+FROM registry.k8s.io/kube-proxy:v1.31.2
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.1
+FROM registry.k8s.io/kube-scheduler:v1.31.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.1
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.30.5
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.30.5
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.30.5
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.30.5
+FROM registry.k8s.io/kube-controller-manager:v1.31.2
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.9
+FROM registry.k8s.io/kube-apiserver:v1.30.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.9
+FROM registry.k8s.io/kube-proxy:v1.30.6
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.9
+FROM registry.k8s.io/kube-scheduler:v1.30.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.9
+FROM registry.k8s.io/kube-controller-manager:v1.30.6
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.14
+FROM registry.k8s.io/kube-apiserver:v1.29.10
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.14
+FROM registry.k8s.io/kube-proxy:v1.29.10
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.14
+FROM registry.k8s.io/kube-scheduler:v1.29.10
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.14
+FROM registry.k8s.io/kube-controller-manager:v1.29.10
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.28.15
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.28.15
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.28.15
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.28.15
 # kube-controller-manager
 
 # kube-apiserver
