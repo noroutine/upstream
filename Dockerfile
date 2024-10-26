@@ -135,7 +135,7 @@ FROM quay.io/coreos/etcd:v3.5.16
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.54.1
+FROM quay.io/prometheus/prometheus:v2.55.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -251,7 +251,7 @@ FROM alerta/alerta-web:9.0.4
 # alerta/alerta-web
 
 # mongo
-FROM mongo:8.0.1-noble
+FROM mongo:8.0.3-noble
 # mongo
 
 # wordpress
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.1.2
+FROM metabase/metabase:v0.51.1.3
 # metabase/metabase
 
 # docker
@@ -507,7 +507,7 @@ FROM bitnami/spark:3.5.3
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.54.1
+FROM bitnami/prometheus:2.55.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -587,7 +587,7 @@ FROM bitnami/mariadb:11.5.2
 # bitnami/mariadb
 
 # bitnami/mongodb
-FROM bitnami/mongodb:8.0.1
+FROM bitnami/mongodb:8.0.3
 # bitnami/mongodb
 
 # bitnami/memcached
@@ -683,7 +683,7 @@ FROM bitnami/trivy:0.56.2
 # bitnami/trivy
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.1
+FROM bitnami/kubectl:1.31.2
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
@@ -759,7 +759,7 @@ FROM aquasec/trivy:0.56.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.10.4
+FROM ghcr.io/external-secrets/external-secrets:v0.10.5
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -1255,7 +1255,7 @@ FROM darthsim/imgproxy:v3.26
 # darthsim/imgproxy
 
 # timberio/vector
-FROM timberio/vector:0.41.1-alpine
+FROM timberio/vector:0.42.0-alpine
 # timberio/vector
 
 # kong
@@ -1367,7 +1367,7 @@ FROM velero/velero-restic-restore-helper:v1.9.7
 # velero/velero-restic-restore-helper
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.1
+FROM bitnami/kubectl:1.31.2
 # bitnami/kubectl
 
 # apache/airflow
