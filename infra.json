@@ -1,5 +1,5 @@
 {
-  "version": "1866db4c",
+  "version": "c348c482",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -235,7 +235,7 @@
       "syncthing/syncthing:1.28.0",
       "syncthing/discosrv:1.28.0",
       "syncthing/relaysrv:1.28.0",
-      "jellyfin/jellyfin:10.9.11",
+      "jellyfin/jellyfin:10.10.0",
       "haveagitgat/tdarr:2.27.02",
       "haveagitgat/tdarr_node:2.27.02",
       "gravitl/netmaker:v0.25.0",
