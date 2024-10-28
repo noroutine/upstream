@@ -1175,7 +1175,7 @@ FROM temporalio/auto-setup:1.25.1
 # temporalio/auto-setup
 
 # nodemailer/wildduck
-FROM nodemailer/wildduck:1.45.0
+FROM nodemailer/wildduck:1.45.1
 # nodemailer/wildduck
 
 # nodemailer/wildduck-webmail
