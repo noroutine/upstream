@@ -827,7 +827,7 @@ FROM redis:7.4.1
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v4.0.0
+FROM listmonk/listmonk:v4.0.1
 # listmonk/listmonk
 
 # vaultwarden/server
