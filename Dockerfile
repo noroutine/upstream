@@ -435,7 +435,7 @@ FROM ghost:5.97.3
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.97.3
+FROM bitnami/ghost:5.98.0
 # bitnami/ghost
 
 # matomo
@@ -827,7 +827,7 @@ FROM redis:7.4.1
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v4.0.0
+FROM listmonk/listmonk:v4.0.1
 # listmonk/listmonk
 
 # vaultwarden/server
@@ -1175,7 +1175,7 @@ FROM temporalio/auto-setup:1.25.1
 # temporalio/auto-setup
 
 # nodemailer/wildduck
-FROM nodemailer/wildduck:1.45.0
+FROM nodemailer/wildduck:1.45.1
 # nodemailer/wildduck
 
 # nodemailer/wildduck-webmail
