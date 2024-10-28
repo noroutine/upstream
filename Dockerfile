@@ -827,7 +827,7 @@ FROM redis:7.4.1
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v3.0.0
+FROM listmonk/listmonk:v4.0.0
 # listmonk/listmonk
 
 # vaultwarden/server
@@ -1031,11 +1031,11 @@ FROM kubernetesui/dashboard:v2.7.0
 # kubernetesui/dashboard
 
 # kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.10.0
+FROM kubernetesui/dashboard-api:1.10.1
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.5.1
+FROM kubernetesui/dashboard-web:1.5.2
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
@@ -1199,7 +1199,7 @@ FROM rspamd/rspamd:3.10.2
 # rspamd/rspamd
 
 # scylladb/scylla
-FROM scylladb/scylla:6.1.2
+FROM scylladb/scylla:6.2.0
 # scylladb/scylla
 
 # scylladb/scylla-manager

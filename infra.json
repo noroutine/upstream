@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.354",
+  "version": "bbb1ebd0",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -209,7 +209,7 @@
       "quay.io/argoproj/workflow-controller:v3.5.11",
       "quay.io/argoproj/argoexec:v3.5.11",
       "redis:7.4.1",
-      "listmonk/listmonk:v3.0.0",
+      "listmonk/listmonk:v4.0.0",
       "vaultwarden/server:1.32.2",
       "boky/postfix:v4.3.0",
       "cupcakearmy/cryptgeon:2.6.1",
@@ -260,8 +260,8 @@
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.1",
       "netboxcommunity/netbox:v4.1.4",
       "kubernetesui/dashboard:v2.7.0",
-      "kubernetesui/dashboard-api:1.10.0",
-      "kubernetesui/dashboard-web:1.5.1",
+      "kubernetesui/dashboard-api:1.10.1",
+      "kubernetesui/dashboard-web:1.5.2",
       "kubernetesui/metrics-scraper:v1.0.9",
       "locustio/locust:2.32.0",
       "postgrest/postgrest:v12.2.3",
@@ -302,7 +302,7 @@
       "nodemailer/haraka-wildduck:2.8.27",
       "nodemailer/rspamd:2.7.0",
       "rspamd/rspamd:3.10.2",
-      "scylladb/scylla:6.1.2",
+      "scylladb/scylla:6.2.0",
       "scylladb/scylla-manager:3.2.8",
       "scylladb/scylla-operator:1.14",
       "chirpstack/chirpstack:4.9.0",
