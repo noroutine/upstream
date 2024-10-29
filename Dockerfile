@@ -1043,7 +1043,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.32.0
+FROM locustio/locust:2.32.1
 # locustio/locust
 
 # postgrest/postgrest
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.9
+FROM supabase/realtime:v2.33.10
 # supabase/realtime
 
 # supabase/postgres-meta
