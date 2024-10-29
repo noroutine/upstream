@@ -1,5 +1,5 @@
 {
-  "version": "90897d19",
+  "version": "88962c48",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -258,7 +258,7 @@
       "jenkins/jenkins:2.482-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.1",
-      "netboxcommunity/netbox:v4.1.4",
+      "netboxcommunity/netbox:v4.1.5",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:1.10.1",
       "kubernetesui/dashboard-web:1.5.2",
@@ -281,7 +281,7 @@
       "paperlessngx/paperless-ngx:2.13.1",
       "roundcube/roundcubemail:1.6.9-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
-      "docker.n8n.io/n8nio/n8n:1.63.4",
+      "docker.n8n.io/n8nio/n8n:1.64.3",
       "cloudflare/cloudflared:2024.10.1",
       "netsampler/goflow2:v2.2.1",
       "ghcr.io/corentinth/it-tools:2024.5.13-a0bc346",
