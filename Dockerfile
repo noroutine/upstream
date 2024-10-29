@@ -83,7 +83,7 @@ FROM golang:1.23.2-alpine
 # golang
 
 # traefik
-FROM traefik:v3.1.6
+FROM traefik:v3.2.0
 # traefik
 
 # sonatype/nexus3
@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.97.3
+FROM ghost:5.98.0
 # ghost
 
 # bitnami/ghost
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.1.3
+FROM metabase/metabase:v0.51.1.4
 # metabase/metabase
 
 # docker
@@ -831,7 +831,7 @@ FROM listmonk/listmonk:v4.0.1
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.32.2
+FROM vaultwarden/server:1.32.3
 # vaultwarden/server
 
 # boky/postfix
@@ -975,7 +975,7 @@ FROM curlimages/curl:8.10.1
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.17.1
+FROM restic/restic:0.17.2
 # restic/restic
 
 # coredns/coredns
@@ -1103,7 +1103,7 @@ FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.13.0
+FROM paperlessngx/paperless-ngx:2.13.1
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1243,7 +1243,7 @@ FROM supabase/storage-api:v1.12.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.9.0
+FROM supabase/logflare:1.9.1
 # supabase/logflare
 
 # supabase/edge-runtime
