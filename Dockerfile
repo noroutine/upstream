@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.98.0
+FROM ghost:5.98.1
 # ghost
 
 # bitnami/ghost
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.1.4
+FROM metabase/metabase:v0.51.1.5
 # metabase/metabase
 
 # docker
@@ -1011,7 +1011,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.482-jdk21
+FROM jenkins/jenkins:2.483-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1103,7 +1103,7 @@ FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.13.1
+FROM paperlessngx/paperless-ngx:2.13.2
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.10
+FROM supabase/realtime:v2.33.14
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1243,7 +1243,7 @@ FROM supabase/storage-api:v1.12.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.9.1
+FROM supabase/logflare:1.9.3
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1595,47 +1595,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.34.6
+FROM quay.io/tigera/operator:v1.36.0
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.28.2
+FROM calico/typha:v3.29.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.28.2
+FROM calico/ctl:v3.29.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.28.2
+FROM calico/node:v3.29.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.28.2
+FROM calico/cni:v3.29.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.28.2
+FROM calico/apiserver:v3.29.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.28.2
+FROM calico/kube-controllers:v3.29.0
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.28.2
+FROM calico/dikastes:v3.29.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.28.2
+FROM calico/pod2daemon-flexvol:v3.29.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.28.2
+FROM calico/node-driver-registrar:v3.29.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.28.2
+FROM calico/csi:v3.29.0
 # calico/csi
 
 # nfd/node-feature-discovery
