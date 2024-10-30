@@ -1611,7 +1611,7 @@ FROM calico/node:v3.28.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.28.2
+FROM calico/cni:v3.29.0
 # calico/cni
 
 # calico/apiserver
