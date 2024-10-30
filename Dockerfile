@@ -1599,7 +1599,7 @@ FROM quay.io/tigera/operator:v1.34.6
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.28.2
+FROM calico/typha:v3.29.0
 # calico/typha
 
 # calico/ctl
