@@ -1619,7 +1619,7 @@ FROM calico/apiserver:v3.28.2
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.28.2
+FROM calico/kube-controllers:v3.29.0
 # calico/kube-controllers
 
 # calico/dikastes
