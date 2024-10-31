@@ -1035,7 +1035,7 @@ FROM kubernetesui/dashboard-api:1.10.1
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.5.2
+FROM kubernetesui/dashboard-web:1.6.0
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
