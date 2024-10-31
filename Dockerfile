@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.73.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.42
+FROM squidfunk/mkdocs-material:9.5.43
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -99,7 +99,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.0.2
+FROM quay.io/keycloak/keycloak:26.0.4
 # keycloak/keycloak
 
 # postgres
@@ -119,11 +119,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-10-13T13-34-11Z
+FROM quay.io/minio/minio:RELEASE.2024-10-29T16-01-48Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-10-08T09-37-26Z
+FROM quay.io/minio/mc:RELEASE.2024-10-29T15-34-59Z
 # minio/mc
 
 # minio/console
@@ -435,7 +435,7 @@ FROM ghost:5.98.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.98.0
+FROM bitnami/ghost:5.98.1
 # bitnami/ghost
 
 # matomo
@@ -575,7 +575,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.0.2
+FROM bitnami/keycloak:26.0.4
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -603,11 +603,11 @@ FROM bitnami/nginx:1.27.2
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.10.13
+FROM bitnami/minio:2024.10.29
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.10.8
+FROM bitnami/minio-client:2024.10.29
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -631,7 +631,7 @@ FROM bitnami/grafana-image-renderer:3.11.6
 # bitnami/grafana-image-renderer
 
 # bitnami/consul
-FROM bitnami/consul:1.20.0
+FROM bitnami/consul:1.20.1
 # bitnami/consul
 
 # bitnami/nats
@@ -1035,7 +1035,7 @@ FROM kubernetesui/dashboard-api:1.10.1
 # kubernetesui/dashboard-api
 
 # kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.5.2
+FROM kubernetesui/dashboard-web:1.6.0
 # kubernetesui/dashboard-web
 
 # kubernetesui/metrics-scraper
@@ -1243,7 +1243,7 @@ FROM supabase/storage-api:v1.12.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.9.3
+FROM supabase/logflare:1.9.4
 # supabase/logflare
 
 # supabase/edge-runtime
@@ -1311,7 +1311,7 @@ FROM bitnami/cilium:1.16.3
 # bitnami/cilium
 
 # bitnami/cilium-proxy
-FROM bitnami/cilium-proxy:1.29.9
+FROM bitnami/cilium-proxy:1.29.10
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator
