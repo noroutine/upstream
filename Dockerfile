@@ -1311,7 +1311,7 @@ FROM bitnami/cilium:1.16.3
 # bitnami/cilium
 
 # bitnami/cilium-proxy
-FROM bitnami/cilium-proxy:1.29.9
+FROM bitnami/cilium-proxy:1.29.10
 # bitnami/cilium-proxy
 
 # bitnami/cilium-operator
