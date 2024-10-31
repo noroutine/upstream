@@ -167,11 +167,11 @@ FROM quay.io/prometheus/pushgateway:v1.10.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.77.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.78.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.77.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.78.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -223,7 +223,7 @@ FROM ribbybibby/ssl-exporter:2.4.3
 # ribbybibby/ssl-exporter
 
 # cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.50.0
+FROM gcr.io/cadvisor/cadvisor:v0.51.0
 # cadvisor/cadvisor
 
 # prymitive/karma
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.1.5
+FROM metabase/metabase:v0.51.1.6
 # metabase/metabase
 
 # docker
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.55.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.77.2
+FROM bitnami/prometheus-operator:0.78.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.14
+FROM supabase/realtime:v2.33.18
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1407,7 +1407,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/consul
-FROM hashicorp/consul:1.20.0
+FROM hashicorp/consul:1.20.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
@@ -1419,7 +1419,7 @@ FROM envoyproxy/envoy-alpine:v1.21.6
 # envoyproxy/envoy-alpine
 
 # hashicorp/vault
-FROM hashicorp/vault:1.18.0
+FROM hashicorp/vault:1.18.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -1639,7 +1639,7 @@ FROM calico/csi:v3.29.0
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.5
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.6
 # nfd/node-feature-discovery
 
 # longhornio/longhorn-manager
