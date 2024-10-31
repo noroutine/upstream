@@ -1243,7 +1243,7 @@ FROM supabase/storage-api:v1.12.1
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.9.3
+FROM supabase/logflare:1.9.4
 # supabase/logflare
 
 # supabase/edge-runtime
