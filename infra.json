@@ -1,5 +1,5 @@
 {
-  "version": "76de0b99",
+  "version": "6dc2a754",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -27,7 +27,7 @@
       "sonatype/nexus3:3.73.0",
       "squidfunk/mkdocs-material:9.5.43",
       "freeradius/freeradius-server:3.2.6-alpine",
-      "quay.io/keycloak/keycloak:26.0.4",
+      "quay.io/keycloak/keycloak:26.0.5",
       "postgres:17.0-bookworm",
       "atlassian/jira-software:10.1.2",
       "nextcloud:30.0.1-apache",
@@ -361,8 +361,8 @@
       "hashicorp/vault-k8s:1.4.2",
       "hashicorp/vault-csi-provider:1.5.0",
       "hashicorp/terraform-cloud-operator:2.5.0",
-      "quay.io/strimzi/operator:0.43.0",
-      "quay.io/strimzi/kafka:0.43.0-kafka-3.8.0",
+      "quay.io/strimzi/operator:0.44.0",
+      "quay.io/strimzi/kafka:0.44.0-kafka-3.8.0",
       "registry.k8s.io/pause:3.10",
       "registry.k8s.io/coredns/coredns:v1.11.3",
       "registry.k8s.io/kube-apiserver:v1.31.2",
