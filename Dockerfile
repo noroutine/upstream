@@ -659,7 +659,7 @@ FROM bitnami/kubeapps-asset-syncer:2.11.0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.11.0
+FROM bitnami/kubeapps-apis:2.12.0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
