@@ -663,7 +663,7 @@ FROM bitnami/kubeapps-apis:2.11.0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.11.0
+FROM bitnami/kubeapps-pinniped-proxy:2.12.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
