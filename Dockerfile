@@ -107,7 +107,7 @@ FROM postgres:17.0-bookworm
 # postgres
 
 # atlassian/jira-software
-FROM atlassian/jira-software:10.1.1
+FROM atlassian/jira-software:10.1.2
 # atlassian/jira-software
 
 # nextcloud
@@ -315,7 +315,7 @@ FROM buildpacksio/lifecycle:0.20.3
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.5.2
+FROM gitlab/gitlab-runner:alpine-v17.5.3
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -323,7 +323,7 @@ FROM gitlab/gitlab-ce:17.5.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.2
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.3
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/auto-build-image
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.1.6
+FROM metabase/metabase:v0.51.1.7
 # metabase/metabase
 
 # docker
@@ -455,7 +455,7 @@ FROM docker:27.3.1-dind
 # docker
 
 # podman/stable
-FROM quay.io/podman/stable:v5.2.3
+FROM quay.io/podman/stable:v5.2.5
 # podman/stable
 
 # jupyter/base-notebook
@@ -491,7 +491,7 @@ FROM jupyter/all-spark-notebook:2023-10-20
 # jupyter/all-spark-notebook
 
 # rocker/shiny
-FROM rocker/shiny:4.4.1
+FROM rocker/shiny:4.4.2
 # rocker/shiny
 
 # caprover/caprover
@@ -531,7 +531,7 @@ FROM bitnami/redis:7.4.1
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.65.0
+FROM bitnami/redis-exporter:1.66.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -647,23 +647,23 @@ FROM bitnami/metrics-server:0.7.2
 # bitnami/metrics-server
 
 # bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.11.0
+FROM bitnami/kubeapps-dashboard:2.12.0
 # bitnami/kubeapps-dashboard
 
 # bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.11.0
+FROM bitnami/kubeapps-apprepository-controller:2.12.0
 # bitnami/kubeapps-apprepository-controller
 
 # bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.11.0
+FROM bitnami/kubeapps-asset-syncer:2.12.0
 # bitnami/kubeapps-asset-syncer
 
 # bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.11.0
+FROM bitnami/kubeapps-apis:2.12.0
 # bitnami/kubeapps-apis
 
 # bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.11.0
+FROM bitnami/kubeapps-pinniped-proxy:2.12.0
 # bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
@@ -811,15 +811,15 @@ FROM quay.io/argoproj/argo-events:v1.9.2
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.11
+FROM quay.io/argoproj/argocli:v3.5.12
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.11
+FROM quay.io/argoproj/workflow-controller:v3.5.12
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.11
+FROM quay.io/argoproj/argoexec:v3.5.12
 # argoproj/argoexec
 
 # redis
@@ -1247,7 +1247,7 @@ FROM supabase/logflare:1.9.4
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.59.0
+FROM supabase/edge-runtime:v1.59.2
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1791,11 +1791,11 @@ FROM tchiotludo/akhq:0.25.1
 # tchiotludo/akhq
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v24.6.2
+FROM nvcr.io/nvidia/gpu-operator:v24.9.0
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.6.2
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.0
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
@@ -1807,7 +1807,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.16.2-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.0-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
