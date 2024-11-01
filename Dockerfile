@@ -1023,7 +1023,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.5
+FROM netboxcommunity/netbox:v4.1.6
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
