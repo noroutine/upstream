@@ -755,7 +755,7 @@ FROM goharbor/nginx-photon:v2.11.1
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.56.2
+FROM aquasec/trivy:0.57.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -1023,7 +1023,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.5
+FROM netboxcommunity/netbox:v4.1.6
 # netboxcommunity/netbox
 
 # kubernetesui/dashboard
@@ -1079,7 +1079,7 @@ FROM homeassistant/home-assistant:2024.10
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.40.2
+FROM koenkk/zigbee2mqtt:1.41.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -1247,7 +1247,7 @@ FROM supabase/logflare:1.9.4
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.59.2
+FROM supabase/edge-runtime:v1.60.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy

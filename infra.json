@@ -1,5 +1,5 @@
 {
-  "version": "ee204d14",
+  "version": "76de0b99",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -191,7 +191,7 @@
       "goharbor/redis-photon:v2.11.1",
       "goharbor/trivy-adapter-photon:v2.11.1",
       "goharbor/nginx-photon:v2.11.1",
-      "aquasec/trivy:0.56.2",
+      "aquasec/trivy:0.57.0",
       "ghcr.io/external-secrets/external-secrets:v0.10.5",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.6",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.6",
@@ -258,7 +258,7 @@
       "jenkins/jenkins:2.483-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.1",
-      "netboxcommunity/netbox:v4.1.5",
+      "netboxcommunity/netbox:v4.1.6",
       "kubernetesui/dashboard:v2.7.0",
       "kubernetesui/dashboard-api:1.10.1",
       "kubernetesui/dashboard-web:1.6.0",
@@ -272,7 +272,7 @@
       "quay.io/cephcsi/cephcsi:v3.12.2-amd64",
       "ghcr.io/zitadel/zitadel:v2.64.1",
       "homeassistant/home-assistant:2024.10",
-      "koenkk/zigbee2mqtt:1.40.2",
+      "koenkk/zigbee2mqtt:1.41.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.9.0",
       "spvest/azure-keyvault-controller:1.7.3",
       "spvest/azure-keyvault-webhook:1.7.3",
@@ -314,7 +314,7 @@
       "supabase/postgres-meta:v0.84.2",
       "supabase/storage-api:v1.12.1",
       "supabase/logflare:1.9.4",
-      "supabase/edge-runtime:v1.59.2",
+      "supabase/edge-runtime:v1.60.1",
       "darthsim/imgproxy:v3.26",
       "timberio/vector:0.42.0-alpine",
       "kong:3.8.0-ubuntu",
