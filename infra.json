@@ -1,5 +1,5 @@
 {
-  "version": "6dc2a754",
+  "version": "91098719",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.98.1",
       "matomo:5.1.2-apache",
       "nocodb/nocodb:0.257.2",
-      "metabase/metabase:v0.51.1.7",
+      "metabase/metabase:v0.51.1.8",
       "docker:27.3.1-dind",
       "quay.io/podman/stable:v5.2.5",
       "jupyter/base-notebook:2023-10-20",
@@ -146,7 +146,7 @@
       "bitnami/postgresql:17.0.0",
       "bitnami/tomcat:10.1.31",
       "bitnami/jmx-exporter:1.0.1",
-      "bitnami/keycloak:26.0.4",
+      "bitnami/keycloak:26.0.5",
       "bitnami/keycloak-config-cli:6.1.6",
       "bitnami/mariadb:11.5.2",
       "bitnami/mongodb:8.0.3",

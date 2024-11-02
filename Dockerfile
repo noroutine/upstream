@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.1.7
+FROM metabase/metabase:v0.51.1.8
 # metabase/metabase
 
 # docker
@@ -575,7 +575,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.0.4
+FROM bitnami/keycloak:26.0.5
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
