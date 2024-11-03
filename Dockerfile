@@ -1635,7 +1635,7 @@ FROM calico/node-driver-registrar:v3.28.2
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.28.2
+FROM calico/csi:v3.29.0
 # calico/csi
 
 # nfd/node-feature-discovery
