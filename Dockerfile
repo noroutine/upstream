@@ -435,7 +435,7 @@ FROM ghost:5.98.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.98.1
+FROM bitnami/ghost:5.99.0
 # bitnami/ghost
 
 # matomo
@@ -679,7 +679,7 @@ FROM bitnami/sealed-secrets-controller:0.27.1
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.56.2
+FROM bitnami/trivy:0.57.0
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -1103,7 +1103,7 @@ FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.13.2
+FROM paperlessngx/paperless-ngx:2.13.3
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail

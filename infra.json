@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.357",
+  "version": "6899492a",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -111,7 +111,7 @@
       "verdaccio/verdaccio:6.0.1",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.98.1",
-      "bitnami/ghost:5.98.1",
+      "bitnami/ghost:5.99.0",
       "matomo:5.1.2-apache",
       "nocodb/nocodb:0.257.2",
       "metabase/metabase:v0.51.1.8",
@@ -172,7 +172,7 @@
       "bitnami/kube-rbac-proxy:0.18.1",
       "bitnami/openldap:2.6.8",
       "bitnami/sealed-secrets-controller:0.27.1",
-      "bitnami/trivy:0.56.2",
+      "bitnami/trivy:0.57.0",
       "bitnami/kubectl:1.31.2",
       "bitnami/harbor-adapter-trivy:2.11.1",
       "bitnami/harbor-core:2.11.1",
@@ -278,7 +278,7 @@
       "spvest/azure-keyvault-webhook:1.7.3",
       "spvest/azure-keyvault-env:1.7.3",
       "gitea/gitea:1.22.3-rootless",
-      "paperlessngx/paperless-ngx:2.13.2",
+      "paperlessngx/paperless-ngx:2.13.3",
       "roundcube/roundcubemail:1.6.9-apache",
       "changemakerstudiosus/papercut-smtp:7.0.0-rc1",
       "docker.n8n.io/n8nio/n8n:1.64.3",
