@@ -1607,7 +1607,7 @@ FROM calico/ctl:v3.28.2
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.28.2
+FROM calico/node:v3.29.0
 # calico/node
 
 # calico/cni
