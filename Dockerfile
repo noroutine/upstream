@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.98.1
+FROM ghost:5.99.0
 # ghost
 
 # bitnami/ghost
@@ -931,7 +931,7 @@ FROM syncthing/relaysrv:1.28.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.10.0
+FROM jellyfin/jellyfin:10.10.1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -995,11 +995,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.30.3
+FROM netbirdio/signal:0.31.0
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.30.3
+FROM netbirdio/management:0.31.0
 # netbirdio/management
 
 # coturn/coturn
@@ -1103,7 +1103,7 @@ FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.13.3
+FROM paperlessngx/paperless-ngx:2.13.4
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
