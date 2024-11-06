@@ -1,5 +1,5 @@
 {
-  "version": "60a09949",
+  "version": "8bef0aac",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -295,7 +295,7 @@
       "airbyte/cron:1.1.0",
       "airbyte/connector-builder-server:1.1.0",
       "airbyte/workload-api-server:1.1.0",
-      "temporalio/auto-setup:1.25.1",
+      "temporalio/auto-setup:1.25.2",
       "nodemailer/wildduck:1.45.3",
       "nodemailer/wildduck-webmail:1.0.1",
       "nodemailer/zonemta-wildduck:2.4.3",
@@ -310,9 +310,9 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.163.2",
-      "supabase/realtime:v2.33.18",
+      "supabase/realtime:v2.33.20",
       "supabase/postgres-meta:v0.84.3",
-      "supabase/storage-api:v1.12.1",
+      "supabase/storage-api:v1.12.2",
       "supabase/logflare:1.9.4",
       "supabase/edge-runtime:v1.60.1",
       "darthsim/imgproxy:v3.26",

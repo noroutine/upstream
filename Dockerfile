@@ -1171,7 +1171,7 @@ FROM airbyte/workload-api-server:1.1.0
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
-FROM temporalio/auto-setup:1.25.1
+FROM temporalio/auto-setup:1.25.2
 # temporalio/auto-setup
 
 # nodemailer/wildduck
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.18
+FROM supabase/realtime:v2.33.20
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1239,7 +1239,7 @@ FROM supabase/postgres-meta:v0.84.3
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.12.1
+FROM supabase/storage-api:v1.12.2
 # supabase/storage-api
 
 # supabase/logflare
