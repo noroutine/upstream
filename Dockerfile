@@ -675,7 +675,7 @@ FROM bitnami/openldap:2.6.8
 # bitnami/openldap
 
 # bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.27.1
+FROM bitnami/sealed-secrets-controller:0.27.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
@@ -1115,7 +1115,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.64.3
+FROM docker.n8n.io/n8nio/n8n:1.65.2
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1175,7 +1175,7 @@ FROM temporalio/auto-setup:1.25.1
 # temporalio/auto-setup
 
 # nodemailer/wildduck
-FROM nodemailer/wildduck:1.45.1
+FROM nodemailer/wildduck:1.45.3
 # nodemailer/wildduck
 
 # nodemailer/wildduck-webmail
@@ -1235,7 +1235,7 @@ FROM supabase/realtime:v2.33.18
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.84.2
+FROM supabase/postgres-meta:v0.84.3
 # supabase/postgres-meta
 
 # supabase/storage-api
@@ -1411,7 +1411,7 @@ FROM hashicorp/consul:1.20.1
 # hashicorp/consul
 
 # hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.6.0
+FROM hashicorp/consul-k8s-control-plane:1.6.1
 # hashicorp/consul-k8s-control-plane
 
 # envoyproxy/envoy-alpine
