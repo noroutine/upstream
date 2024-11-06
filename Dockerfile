@@ -91,7 +91,7 @@ FROM sonatype/nexus3:3.73.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.43
+FROM squidfunk/mkdocs-material:9.5.44
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -167,11 +167,11 @@ FROM quay.io/prometheus/pushgateway:v1.10.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.78.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.78.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.78.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.78.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.1.8
+FROM metabase/metabase:v0.51.2
 # metabase/metabase
 
 # docker
@@ -511,7 +511,7 @@ FROM bitnami/prometheus:2.55.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.78.0
+FROM bitnami/prometheus-operator:0.78.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -1203,7 +1203,7 @@ FROM scylladb/scylla:6.2.0
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.2.8
+FROM scylladb/scylla-manager:3.4.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
@@ -1371,7 +1371,7 @@ FROM bitnami/kubectl:1.31.2
 # bitnami/kubectl
 
 # apache/airflow
-FROM apache/airflow:2.10.2-python3.12
+FROM apache/airflow:2.10.3-python3.12
 # apache/airflow
 
 # git-sync/git-sync
@@ -1595,47 +1595,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.23.17
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.34.6
+FROM quay.io/tigera/operator:v1.36.1
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.28.2
+FROM calico/typha:v3.29.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.28.2
+FROM calico/ctl:v3.29.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.28.2
+FROM calico/node:v3.29.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.28.2
+FROM calico/cni:v3.29.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.28.2
+FROM calico/apiserver:v3.29.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.28.2
+FROM calico/kube-controllers:v3.29.0
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.28.2
+FROM calico/dikastes:v3.29.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.28.2
+FROM calico/pod2daemon-flexvol:v3.29.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.28.2
+FROM calico/node-driver-registrar:v3.29.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.28.2
+FROM calico/csi:v3.29.0
 # calico/csi
 
 # nfd/node-feature-discovery
