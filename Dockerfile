@@ -1695,7 +1695,7 @@ FROM longhornio/support-bundle-kit:v0.0.45
 # longhornio/support-bundle-kit
 
 # cloud-pv-vsphere/cloud-provider-vsphere
-FROM registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.0
+FROM registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.1
 # cloud-pv-vsphere/cloud-provider-vsphere
 
 # csi-vsphere/driver
