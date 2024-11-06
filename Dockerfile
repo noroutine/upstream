@@ -1235,7 +1235,7 @@ FROM supabase/realtime:v2.33.18
 # supabase/realtime
 
 # supabase/postgres-meta
-FROM supabase/postgres-meta:v0.84.2
+FROM supabase/postgres-meta:v0.84.3
 # supabase/postgres-meta
 
 # supabase/storage-api
