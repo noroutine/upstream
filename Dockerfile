@@ -135,7 +135,7 @@ FROM quay.io/coreos/etcd:v3.5.16
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.55.0
+FROM quay.io/prometheus/prometheus:v2.55.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -507,7 +507,7 @@ FROM bitnami/spark:3.5.3
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.55.0
+FROM bitnami/prometheus:2.55.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -1695,7 +1695,7 @@ FROM longhornio/support-bundle-kit:v0.0.45
 # longhornio/support-bundle-kit
 
 # cloud-pv-vsphere/cloud-provider-vsphere
-FROM registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.0
+FROM registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.1
 # cloud-pv-vsphere/cloud-provider-vsphere
 
 # csi-vsphere/driver
