@@ -147,7 +147,7 @@ FROM quay.io/prometheus/node-exporter:v1.8.2
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
-FROM quay.io/prometheus/consul-exporter:v0.12.1
+FROM quay.io/prometheus/consul-exporter:v0.13.0
 # prometheus/consul-exporter
 
 # prometheus/blackbox-exporter
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.2
+FROM metabase/metabase:v0.51.2.2
 # metabase/metabase
 
 # docker
@@ -971,7 +971,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # curlimages/curl
-FROM curlimages/curl:8.10.1
+FROM curlimages/curl:8.11.0
 # curlimages/curl
 
 # restic/restic
@@ -1119,7 +1119,7 @@ FROM docker.n8n.io/n8nio/n8n:1.65.2
 # n8nio/n8n
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.10.1
+FROM cloudflare/cloudflared:2024.11.0
 # cloudflare/cloudflared
 
 # netsampler/goflow2
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.20
+FROM supabase/realtime:v2.33.23
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1247,7 +1247,7 @@ FROM supabase/logflare:1.9.4
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.60.1
+FROM supabase/edge-runtime:v1.61.0
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1339,15 +1339,15 @@ FROM velero/velero-plugin-for-csi:v0.7.1
 # velero/velero-plugin-for-csi
 
 # velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.10.1
+FROM velero/velero-plugin-for-aws:v1.11.0
 # velero/velero-plugin-for-aws
 
 # velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.10.1
+FROM velero/velero-plugin-for-gcp:v1.11.0
 # velero/velero-plugin-for-gcp
 
 # velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.10.1
+FROM velero/velero-plugin-for-microsoft-azure:v1.11.0
 # velero/velero-plugin-for-microsoft-azure
 
 # vsphereveleroplugin/velero-plugin-for-vsphere
