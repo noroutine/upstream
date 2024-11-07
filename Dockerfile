@@ -971,7 +971,7 @@ FROM puppet/r10k:3.15.2
 # puppet/r10k
 
 # curlimages/curl
-FROM curlimages/curl:8.10.1
+FROM curlimages/curl:8.11.0
 # curlimages/curl
 
 # restic/restic
