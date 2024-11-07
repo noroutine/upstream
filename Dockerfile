@@ -75,11 +75,11 @@ FROM python:3.13.0-slim-bookworm
 # python
 
 # golang
-FROM golang:1.23.2-bookworm
+FROM golang:1.23.3-bookworm
 # golang
 
 # golang
-FROM golang:1.23.2-alpine
+FROM golang:1.23.3-alpine
 # golang
 
 # traefik
@@ -1211,7 +1211,7 @@ FROM scylladb/scylla-operator:1.14
 # scylladb/scylla-operator
 
 # chirpstack/chirpstack
-FROM chirpstack/chirpstack:4.9.0
+FROM chirpstack/chirpstack:4.10.1
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.23
+FROM supabase/realtime:v2.33.24
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1243,7 +1243,7 @@ FROM supabase/storage-api:v1.12.2
 # supabase/storage-api
 
 # supabase/logflare
-FROM supabase/logflare:1.9.4
+FROM supabase/logflare:1.9.5
 # supabase/logflare
 
 # supabase/edge-runtime
