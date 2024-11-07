@@ -147,7 +147,7 @@ FROM quay.io/prometheus/node-exporter:v1.8.2
 # prometheus/node-exporter
 
 # prometheus/consul-exporter
-FROM quay.io/prometheus/consul-exporter:v0.12.1
+FROM quay.io/prometheus/consul-exporter:v0.13.0
 # prometheus/consul-exporter
 
 # prometheus/blackbox-exporter
