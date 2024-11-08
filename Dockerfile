@@ -1423,7 +1423,7 @@ FROM hashicorp/vault:1.18.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.4.2
+FROM hashicorp/vault-k8s:1.5.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
