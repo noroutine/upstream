@@ -119,11 +119,11 @@ FROM haproxytech/haproxy-debian:3.1
 # haproxytech/haproxy-debian
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-10-29T16-01-48Z
+FROM quay.io/minio/minio:RELEASE.2024-11-07T00-52-20Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-10-29T15-34-59Z
+FROM quay.io/minio/mc:RELEASE.2024-11-05T11-29-45Z
 # minio/mc
 
 # minio/console
@@ -435,7 +435,7 @@ FROM ghost:5.100.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.100.0
+FROM bitnami/ghost:5.100.1
 # bitnami/ghost
 
 # matomo
@@ -603,11 +603,11 @@ FROM bitnami/nginx:1.27.2
 # bitnami/nginx
 
 # bitnami/minio
-FROM bitnami/minio:2024.10.29
+FROM bitnami/minio:2024.11.7
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.10.29
+FROM bitnami/minio-client:2024.11.5
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -1247,7 +1247,7 @@ FROM supabase/logflare:1.9.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.61.0
+FROM supabase/edge-runtime:v1.61.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1423,7 +1423,7 @@ FROM hashicorp/vault:1.18.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.4.2
+FROM hashicorp/vault-k8s:1.5.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
