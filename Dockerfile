@@ -1167,7 +1167,7 @@ FROM airbyte/connector-builder-server:1.1.0
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:1.1.0
+FROM airbyte/workload-api-server:1.2.0
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
