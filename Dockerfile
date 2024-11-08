@@ -371,7 +371,7 @@ FROM jupyterhub/k8s-hub:3.3.8
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.3.8
+FROM jupyterhub/k8s-secret-sync:4.0.0
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
