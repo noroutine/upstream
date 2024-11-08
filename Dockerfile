@@ -87,7 +87,7 @@ FROM traefik:v3.2.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.73.0
+FROM sonatype/nexus3:3.74.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.107.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.108.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -367,23 +367,23 @@ FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
 # noroutine/k8s-binderhub
 
 # jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:3.3.8
+FROM jupyterhub/k8s-hub:4.0.0
 # jupyterhub/k8s-hub
 
 # jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:3.3.8
+FROM jupyterhub/k8s-secret-sync:4.0.0
 # jupyterhub/k8s-secret-sync
 
 # jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:3.3.8
+FROM jupyterhub/k8s-network-tools:4.0.0
 # jupyterhub/k8s-network-tools
 
 # jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:3.3.8
+FROM jupyterhub/k8s-image-awaiter:4.0.0
 # jupyterhub/k8s-image-awaiter
 
 # jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:3.3.8
+FROM jupyterhub/k8s-singleuser-sample:4.0.0
 # jupyterhub/k8s-singleuser-sample
 
 # jupyterhub/configurable-http-proxy
@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.99.0
+FROM ghost:5.100.0
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.99.0
+FROM bitnami/ghost:5.100.0
 # bitnami/ghost
 
 # matomo
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.2.2
+FROM metabase/metabase:v0.51.2.3
 # metabase/metabase
 
 # docker
@@ -803,7 +803,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.12.6
+FROM quay.io/argoproj/argocd:v2.13.0
 # argoproj/argocd
 
 # argoproj/argo-events
@@ -1075,7 +1075,7 @@ FROM ghcr.io/zitadel/zitadel:v2.64.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.10
+FROM homeassistant/home-assistant:2024.11
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -1135,39 +1135,39 @@ FROM quay.io/openbgpd/openbgpd:8.6
 # openbgpd/openbgpd
 
 # airbyte/webapp
-FROM airbyte/webapp:1.1.0
+FROM airbyte/webapp:1.2.0
 # airbyte/webapp
 
 # airbyte/server
-FROM airbyte/server:1.1.0
+FROM airbyte/server:1.2.0
 # airbyte/server
 
 # airbyte/worker
-FROM airbyte/worker:1.1.0
+FROM airbyte/worker:1.2.0
 # airbyte/worker
 
 # airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:1.1.0
+FROM airbyte/metrics-reporter:1.2.0
 # airbyte/metrics-reporter
 
 # airbyte/bootloader
-FROM airbyte/bootloader:1.1.0
+FROM airbyte/bootloader:1.2.0
 # airbyte/bootloader
 
 # airbyte/db
-FROM airbyte/db:1.1.0
+FROM airbyte/db:1.2.0
 # airbyte/db
 
 # airbyte/cron
-FROM airbyte/cron:1.1.0
+FROM airbyte/cron:1.2.0
 # airbyte/cron
 
 # airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:1.1.0
+FROM airbyte/connector-builder-server:1.2.0
 # airbyte/connector-builder-server
 
 # airbyte/workload-api-server
-FROM airbyte/workload-api-server:1.1.0
+FROM airbyte/workload-api-server:1.2.0
 # airbyte/workload-api-server
 
 # temporalio/auto-setup
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.24
+FROM supabase/realtime:v2.33.27
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1239,7 +1239,7 @@ FROM supabase/postgres-meta:v0.84.3
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.12.2
+FROM supabase/storage-api:v1.12.3
 # supabase/storage-api
 
 # supabase/logflare
@@ -1331,7 +1331,7 @@ FROM bitnami/hubble-ui-backend:0.13.1
 # bitnami/hubble-ui-backend
 
 # velero/velero
-FROM velero/velero:v1.14.1
+FROM velero/velero:v1.15.0
 # velero/velero
 
 # velero/velero-plugin-for-csi
@@ -1379,11 +1379,11 @@ FROM registry.k8s.io/git-sync/git-sync:v4.3.0
 # git-sync/git-sync
 
 # kedacore/keda
-FROM ghcr.io/kedacore/keda:2.15.1
+FROM ghcr.io/kedacore/keda:2.16.0
 # kedacore/keda
 
 # kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.15.1
+FROM ghcr.io/kedacore/keda-metrics-apiserver:2.16.0
 # kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
