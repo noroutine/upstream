@@ -431,7 +431,7 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.100.0
+FROM ghost:5.100.1
 # ghost
 
 # bitnami/ghost
@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.257.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.2.3
+FROM metabase/metabase:v0.51.2.4
 # metabase/metabase
 
 # docker
@@ -1043,7 +1043,7 @@ FROM kubernetesui/metrics-scraper:v1.0.9
 # kubernetesui/metrics-scraper
 
 # locustio/locust
-FROM locustio/locust:2.32.1
+FROM locustio/locust:2.32.2
 # locustio/locust
 
 # postgrest/postgrest
@@ -1115,7 +1115,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.65.2
+FROM docker.n8n.io/n8nio/n8n:1.66.0
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.27
+FROM supabase/realtime:v2.33.29
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1283,7 +1283,7 @@ FROM quay.io/cilium/certgen:v0.2.1
 # cilium/certgen
 
 # cilium/cilium-envoy
-FROM quay.io/cilium/cilium-envoy:v1.28.4-b35188ffa1bbe54d1720d2e392779f7a48e58f6b
+FROM quay.io/cilium/cilium-envoy:v1.30.7-1730965050-cd22d9ffa21eb4f214bf059bcc5d2f40f0c47882
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
