@@ -975,7 +975,7 @@ FROM curlimages/curl:8.11.0
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.17.2
+FROM restic/restic:0.17.3
 # restic/restic
 
 # coredns/coredns
