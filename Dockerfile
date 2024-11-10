@@ -495,7 +495,7 @@ FROM rocker/shiny:4.4.2
 # rocker/shiny
 
 # caprover/caprover
-FROM caprover/caprover:1.13.1
+FROM caprover/caprover:1.13.2
 # caprover/caprover
 
 # mikecao/umami
