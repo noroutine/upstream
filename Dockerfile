@@ -111,7 +111,7 @@ FROM atlassian/jira-software:10.1.2
 # atlassian/jira-software
 
 # nextcloud
-FROM nextcloud:30.0.1-apache
+FROM nextcloud:30.0.2-apache
 # nextcloud
 
 # haproxytech/haproxy-debian
@@ -495,7 +495,7 @@ FROM rocker/shiny:4.4.2
 # rocker/shiny
 
 # caprover/caprover
-FROM caprover/caprover:1.13.1
+FROM caprover/caprover:1.13.2
 # caprover/caprover
 
 # mikecao/umami
@@ -975,7 +975,7 @@ FROM curlimages/curl:8.11.0
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.17.2
+FROM restic/restic:0.17.3
 # restic/restic
 
 # coredns/coredns
@@ -1247,7 +1247,7 @@ FROM supabase/logflare:1.9.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.61.1
+FROM supabase/edge-runtime:v1.61.2
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1807,7 +1807,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.0-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.1-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
