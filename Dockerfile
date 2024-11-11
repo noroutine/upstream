@@ -523,7 +523,7 @@ FROM bitnami/blackbox-exporter:0.25.0
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.15.0
+FROM bitnami/postgres-exporter:0.16.0
 # bitnami/postgres-exporter
 
 # bitnami/redis
