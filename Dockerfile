@@ -639,7 +639,7 @@ FROM bitnami/nats:2.10.22
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.13.0
+FROM bitnami/kube-state-metrics:2.14.0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -831,7 +831,7 @@ FROM listmonk/listmonk:v4.0.1
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.32.3
+FROM vaultwarden/server:1.32.4
 # vaultwarden/server
 
 # boky/postfix
@@ -943,7 +943,7 @@ FROM haveagitgat/tdarr_node:2.27.02
 # haveagitgat/tdarr_node
 
 # gravitl/netmaker
-FROM gravitl/netmaker:v0.25.0
+FROM gravitl/netmaker:v0.26.0
 # gravitl/netmaker
 
 # gravitl/netmaker-ui
@@ -1011,7 +1011,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.483-jdk21
+FROM jenkins/jenkins:2.484-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1103,7 +1103,7 @@ FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.13.4
+FROM paperlessngx/paperless-ngx:2.13.5
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.29
+FROM supabase/realtime:v2.33.30
 # supabase/realtime
 
 # supabase/postgres-meta
