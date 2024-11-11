@@ -735,7 +735,7 @@ FROM goharbor/harbor-registryctl:v2.11.1
 # goharbor/harbor-registryctl
 
 # goharbor/harbor-db
-FROM goharbor/harbor-db:v2.11.1
+FROM goharbor/harbor-db:v2.12.0
 # goharbor/harbor-db
 
 # goharbor/harbor-exporter
