@@ -747,7 +747,7 @@ FROM goharbor/redis-photon:v2.11.1
 # goharbor/redis-photon
 
 # goharbor/trivy-adapter-photon
-FROM goharbor/trivy-adapter-photon:v2.11.1
+FROM goharbor/trivy-adapter-photon:v2.12.0
 # goharbor/trivy-adapter-photon
 
 # goharbor/nginx-photon
