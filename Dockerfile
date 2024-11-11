@@ -751,7 +751,7 @@ FROM goharbor/trivy-adapter-photon:v2.11.1
 # goharbor/trivy-adapter-photon
 
 # goharbor/nginx-photon
-FROM goharbor/nginx-photon:v2.11.1
+FROM goharbor/nginx-photon:v2.12.0
 # goharbor/nginx-photon
 
 # aquasec/trivy
