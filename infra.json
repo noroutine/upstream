@@ -1,5 +1,5 @@
 {
-  "version": "42705a69",
+  "version": "07d93933",
   "upstream": {
     "images": [
       "debian:bookworm-20241016-slim",
@@ -42,7 +42,7 @@
       "quay.io/prometheus/consul-exporter:v0.13.0",
       "quay.io/prometheus/blackbox-exporter:v0.25.0",
       "quay.io/prometheus/snmp-exporter:v0.26.0",
-      "quay.io/prometheus/memcached-exporter:v0.14.4",
+      "quay.io/prometheus/memcached-exporter:v0.15.0",
       "quay.io/prometheus/pushgateway:v1.10.0",
       "quay.io/prometheus-operator/prometheus-operator:v0.78.1",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.78.1",
@@ -239,7 +239,7 @@
       "haveagitgat/tdarr:2.27.02",
       "haveagitgat/tdarr_node:2.27.02",
       "gravitl/netmaker:v0.26.0",
-      "gravitl/netmaker-ui:v0.25.0",
+      "gravitl/netmaker-ui:v0.26.0",
       "kmb32123/youtube-dl-server:2.0",
       "ghcr.io/voxpupuli/container-puppetserver:8.6.0-v1.5.0",
       "ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0",
