@@ -703,7 +703,7 @@ FROM bitnami/harbor-jobservice:2.11.1
 # bitnami/harbor-jobservice
 
 # bitnami/harbor-portal
-FROM bitnami/harbor-portal:2.11.1
+FROM bitnami/harbor-portal:2.12.0
 # bitnami/harbor-portal
 
 # bitnami/harbor-registry
