@@ -1103,7 +1103,7 @@ FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
 # paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.13.4
+FROM paperlessngx/paperless-ngx:2.13.5
 # paperlessngx/paperless-ngx
 
 # roundcube/roundcubemail
