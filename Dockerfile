@@ -159,7 +159,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.26.0
 # prometheus/snmp-exporter
 
 # prometheus/memcached-exporter
-FROM quay.io/prometheus/memcached-exporter:v0.14.4
+FROM quay.io/prometheus/memcached-exporter:v0.15.0
 # prometheus/memcached-exporter
 
 # prometheus/pushgateway
