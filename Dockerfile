@@ -711,7 +711,7 @@ FROM bitnami/harbor-registry:2.11.1
 # bitnami/harbor-registry
 
 # bitnami/harbor-registryctl
-FROM bitnami/harbor-registryctl:2.11.1
+FROM bitnami/harbor-registryctl:2.12.0
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
