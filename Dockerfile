@@ -523,7 +523,7 @@ FROM bitnami/blackbox-exporter:0.25.0
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.15.0
+FROM bitnami/postgres-exporter:0.16.0
 # bitnami/postgres-exporter
 
 # bitnami/redis
@@ -715,43 +715,43 @@ FROM bitnami/harbor-registryctl:2.11.1
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
-FROM goharbor/harbor-portal:v2.11.1
+FROM goharbor/harbor-portal:v2.12.0
 # goharbor/harbor-portal
 
 # goharbor/harbor-core
-FROM goharbor/harbor-core:v2.11.1
+FROM goharbor/harbor-core:v2.12.0
 # goharbor/harbor-core
 
 # goharbor/harbor-jobservice
-FROM goharbor/harbor-jobservice:v2.11.1
+FROM goharbor/harbor-jobservice:v2.12.0
 # goharbor/harbor-jobservice
 
 # goharbor/registry-photon
-FROM goharbor/registry-photon:v2.11.1
+FROM goharbor/registry-photon:v2.12.0
 # goharbor/registry-photon
 
 # goharbor/harbor-registryctl
-FROM goharbor/harbor-registryctl:v2.11.1
+FROM goharbor/harbor-registryctl:v2.12.0
 # goharbor/harbor-registryctl
 
 # goharbor/harbor-db
-FROM goharbor/harbor-db:v2.11.1
+FROM goharbor/harbor-db:v2.12.0
 # goharbor/harbor-db
 
 # goharbor/harbor-exporter
-FROM goharbor/harbor-exporter:v2.11.1
+FROM goharbor/harbor-exporter:v2.12.0
 # goharbor/harbor-exporter
 
 # goharbor/redis-photon
-FROM goharbor/redis-photon:v2.11.1
+FROM goharbor/redis-photon:v2.12.0
 # goharbor/redis-photon
 
 # goharbor/trivy-adapter-photon
-FROM goharbor/trivy-adapter-photon:v2.11.1
+FROM goharbor/trivy-adapter-photon:v2.12.0
 # goharbor/trivy-adapter-photon
 
 # goharbor/nginx-photon
-FROM goharbor/nginx-photon:v2.11.1
+FROM goharbor/nginx-photon:v2.12.0
 # goharbor/nginx-photon
 
 # aquasec/trivy
