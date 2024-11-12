@@ -203,7 +203,7 @@ FROM httpd:2.4.62-alpine
 # httpd
 
 # tomcat
-FROM tomcat:11.0.0-jdk21-temurin-noble
+FROM tomcat:11.0.1-jdk21-temurin-noble
 # tomcat
 
 # m3db/m3coordinator
