@@ -203,7 +203,7 @@ FROM httpd:2.4.62-alpine
 # httpd
 
 # tomcat
-FROM tomcat:11.0.0-jdk21-temurin-noble
+FROM tomcat:11.0.1-jdk21-temurin-noble
 # tomcat
 
 # m3db/m3coordinator
@@ -235,15 +235,15 @@ FROM quay.io/cortexproject/cortex:v1.18.1
 # cortexproject/cortex
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.16.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.15.3
+FROM docker.elastic.co/logstash/logstash:8.16.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.15.3
+FROM docker.elastic.co/kibana/kibana:8.16.0
 # kibana/kibana
 
 # alerta/alerta-web
