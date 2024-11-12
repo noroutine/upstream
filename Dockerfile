@@ -567,7 +567,7 @@ FROM bitnami/postgresql:17.0.0
 # bitnami/postgresql
 
 # bitnami/tomcat
-FROM bitnami/tomcat:10.1.31
+FROM bitnami/tomcat:10.1.33
 # bitnami/tomcat
 
 # bitnami/jmx-exporter
@@ -995,11 +995,11 @@ FROM wiretrustee/dashboard:v1.17.16
 # wiretrustee/dashboard
 
 # netbirdio/signal
-FROM netbirdio/signal:0.31.0
+FROM netbirdio/signal:0.31.1
 # netbirdio/signal
 
 # netbirdio/management
-FROM netbirdio/management:0.31.0
+FROM netbirdio/management:0.31.1
 # netbirdio/management
 
 # coturn/coturn
@@ -1231,7 +1231,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.30
+FROM supabase/realtime:v2.33.36
 # supabase/realtime
 
 # supabase/postgres-meta
