@@ -335,7 +335,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.109
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
@@ -1251,7 +1251,7 @@ FROM supabase/logflare:1.9.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.62.1
+FROM supabase/edge-runtime:v1.62.2
 # supabase/edge-runtime
 
 # darthsim/imgproxy
@@ -1279,7 +1279,7 @@ FROM quay.io/cilium/operator:v1.16.3
 # cilium/operator
 
 # cilium/startup-script
-FROM quay.io/cilium/startup-script:19fb149fb3d5c7a37d3edfaf10a2be3ab7386661
+FROM quay.io/cilium/startup-script:1731057841-8572cc5
 # cilium/startup-script
 
 # cilium/certgen
@@ -1287,7 +1287,7 @@ FROM quay.io/cilium/certgen:v0.2.1
 # cilium/certgen
 
 # cilium/cilium-envoy
-FROM quay.io/cilium/cilium-envoy:v1.30.7-1730965050-cd22d9ffa21eb4f214bf059bcc5d2f40f0c47882
+FROM quay.io/cilium/cilium-envoy:v1.30.7-1731393917-c35cf767a838c41c0363279d5939593e4fd1fc4e
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
