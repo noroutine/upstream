@@ -1283,7 +1283,7 @@ FROM quay.io/cilium/certgen:v0.2.1
 # cilium/certgen
 
 # cilium/cilium-envoy
-FROM quay.io/cilium/cilium-envoy:v1.30.7-1730965050-cd22d9ffa21eb4f214bf059bcc5d2f40f0c47882
+FROM quay.io/cilium/cilium-envoy:v1.30.7-1731393917-c35cf767a838c41c0363279d5939593e4fd1fc4e
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
