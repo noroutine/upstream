@@ -311,7 +311,7 @@ FROM paketobuildpacks/run:full-cnb
 # paketobuildpacks/run
 
 # buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.20.3
+FROM buildpacksio/lifecycle:0.20.4
 # buildpacksio/lifecycle
 
 # gitlab/gitlab-runner
@@ -319,7 +319,7 @@ FROM gitlab/gitlab-runner:alpine-v17.5.3
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.5.1-ce.0
+FROM gitlab/gitlab-ce:17.5.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -1011,7 +1011,7 @@ FROM firezone/firezone:0.7.36
 # firezone/firezone
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.484-jdk21
+FROM jenkins/jenkins:2.485-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -1134,6 +1134,10 @@ FROM ghcr.io/corentinth/it-tools:2024.5.13-a0bc346
 FROM quay.io/openbgpd/openbgpd:8.6
 # openbgpd/openbgpd
 
+# swaggerapi/swagger-ui
+FROM swaggerapi/swagger-ui:v5.18.2
+# swaggerapi/swagger-ui
+
 # airbyte/webapp
 FROM airbyte/webapp:1.2.0
 # airbyte/webapp
@@ -1231,7 +1235,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.36
+FROM supabase/realtime:v2.33.44
 # supabase/realtime
 
 # supabase/postgres-meta
