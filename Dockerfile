@@ -903,7 +903,7 @@ FROM eclipse-temurin:23-noble
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.14.0
+FROM elastic/eck-operator:2.15.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
