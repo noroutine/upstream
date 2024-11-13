@@ -1071,7 +1071,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.64.1
+FROM ghcr.io/zitadel/zitadel:v2.65.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
