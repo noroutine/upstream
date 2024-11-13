@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20241016-slim
+FROM debian:bookworm-20241111-slim
 # debian
 
 # ubuntu
@@ -131,7 +131,7 @@ FROM quay.io/minio/console:v0.30.0
 # minio/console
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.16
+FROM quay.io/coreos/etcd:v3.5.17
 # coreos/etcd
 
 # prometheus/prometheus
@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.108.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.109.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -443,11 +443,11 @@ FROM matomo:5.1.2-apache
 # matomo
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.257.2
+FROM nocodb/nocodb:0.258.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.2.4
+FROM metabase/metabase:v0.51.3.2
 # metabase/metabase
 
 # docker
@@ -827,7 +827,7 @@ FROM redis:7.4.1
 # redis
 
 # listmonk/listmonk
-FROM listmonk/listmonk:v4.0.1
+FROM listmonk/listmonk:v4.1.0
 # listmonk/listmonk
 
 # vaultwarden/server
@@ -903,7 +903,7 @@ FROM eclipse-temurin:23-noble
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.14.0
+FROM elastic/eck-operator:2.15.0
 # elastic/eck-operator
 
 # louislam/uptime-kuma
@@ -915,7 +915,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.80.2
+FROM outlinewiki/outline:0.81.0
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -1055,7 +1055,7 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
 # oss/azure/workload-identity/webhook
 
 # k8s/azureserviceoperator
-FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.10.0
+FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.11.0
 # k8s/azureserviceoperator
 
 # guacamole/guacamole
@@ -1071,7 +1071,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.64.1
+FROM ghcr.io/zitadel/zitadel:v2.65.0
 # zitadel/zitadel
 
 # homeassistant/home-assistant
@@ -1239,7 +1239,7 @@ FROM supabase/postgres-meta:v0.84.3
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.12.3
+FROM supabase/storage-api:v1.13.0
 # supabase/storage-api
 
 # supabase/logflare
@@ -1247,7 +1247,7 @@ FROM supabase/logflare:1.9.5
 # supabase/logflare
 
 # supabase/edge-runtime
-FROM supabase/edge-runtime:v1.61.2
+FROM supabase/edge-runtime:v1.62.1
 # supabase/edge-runtime
 
 # darthsim/imgproxy
