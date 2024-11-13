@@ -707,7 +707,7 @@ FROM bitnami/harbor-portal:2.11.1
 # bitnami/harbor-portal
 
 # bitnami/harbor-registry
-FROM bitnami/harbor-registry:2.11.1
+FROM bitnami/harbor-registry:2.12.0
 # bitnami/harbor-registry
 
 # bitnami/harbor-registryctl
