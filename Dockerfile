@@ -687,31 +687,31 @@ FROM bitnami/kubectl:1.31.2
 # bitnami/kubectl
 
 # bitnami/harbor-adapter-trivy
-FROM bitnami/harbor-adapter-trivy:2.11.1
+FROM bitnami/harbor-adapter-trivy:2.12.0
 # bitnami/harbor-adapter-trivy
 
 # bitnami/harbor-core
-FROM bitnami/harbor-core:2.11.1
+FROM bitnami/harbor-core:2.12.0
 # bitnami/harbor-core
 
 # bitnami/harbor-exporter
-FROM bitnami/harbor-exporter:2.11.1
+FROM bitnami/harbor-exporter:2.12.0
 # bitnami/harbor-exporter
 
 # bitnami/harbor-jobservice
-FROM bitnami/harbor-jobservice:2.11.1
+FROM bitnami/harbor-jobservice:2.12.0
 # bitnami/harbor-jobservice
 
 # bitnami/harbor-portal
-FROM bitnami/harbor-portal:2.11.1
+FROM bitnami/harbor-portal:2.12.0
 # bitnami/harbor-portal
 
 # bitnami/harbor-registry
-FROM bitnami/harbor-registry:2.11.1
+FROM bitnami/harbor-registry:2.12.0
 # bitnami/harbor-registry
 
 # bitnami/harbor-registryctl
-FROM bitnami/harbor-registryctl:2.11.1
+FROM bitnami/harbor-registryctl:2.12.0
 # bitnami/harbor-registryctl
 
 # goharbor/harbor-portal
@@ -979,7 +979,7 @@ FROM restic/restic:0.17.3
 # restic/restic
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.11.3
+FROM registry.k8s.io/coredns/coredns:v1.11.4
 # coredns/coredns
 
 # yugabytedb/yugabyte
@@ -1235,7 +1235,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.46
+FROM supabase/realtime:v2.33.47
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1451,7 +1451,7 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.11.3
+FROM registry.k8s.io/coredns/coredns:v1.11.4
 # coredns/coredns
 
 # kube-apiserver
