@@ -1,5 +1,5 @@
 {
-  "version": "270a4bdf",
+  "version": "b78e15b4",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -67,7 +67,7 @@
       "alerta/alerta-web:9.0.4",
       "mongo:8.0.3-noble",
       "wordpress:6.6.2-apache",
-      "dpage/pgadmin4:8.12",
+      "dpage/pgadmin4:8.13",
       "adminer:4.8.1",
       "mysql:9.1.0",
       "mariadb:11.5.2-noble",
@@ -311,7 +311,7 @@
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
       "supabase/gotrue:v2.163.2",
-      "supabase/realtime:v2.33.45",
+      "supabase/realtime:v2.33.46",
       "supabase/postgres-meta:v0.84.3",
       "supabase/storage-api:v1.13.0",
       "supabase/logflare:1.9.5",

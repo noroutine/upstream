@@ -259,7 +259,7 @@ FROM wordpress:6.6.2-apache
 # wordpress
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.12
+FROM dpage/pgadmin4:8.13
 # dpage/pgadmin4
 
 # adminer
@@ -1235,7 +1235,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.45
+FROM supabase/realtime:v2.33.46
 # supabase/realtime
 
 # supabase/postgres-meta
