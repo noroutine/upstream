@@ -547,23 +547,23 @@ FROM bitnami/postgresql:12.20.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:13.16.0
+FROM bitnami/postgresql:13.17.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.13.0
+FROM bitnami/postgresql:14.14.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.8.0
+FROM bitnami/postgresql:15.9.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.4.0
+FROM bitnami/postgresql:16.5.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:17.0.0
+FROM bitnami/postgresql:17.1.0
 # bitnami/postgresql
 
 # bitnami/tomcat
@@ -1235,7 +1235,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.47
+FROM supabase/realtime:v2.33.48
 # supabase/realtime
 
 # supabase/postgres-meta
