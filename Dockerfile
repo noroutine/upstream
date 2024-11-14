@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.258.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.3.2
+FROM metabase/metabase:v0.51.3.3
 # metabase/metabase
 
 # docker
@@ -1115,7 +1115,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.66.0
+FROM docker.n8n.io/n8nio/n8n:1.67.1
 # n8nio/n8n
 
 # cloudflare/cloudflared
@@ -1203,7 +1203,7 @@ FROM rspamd/rspamd:3.10.2
 # rspamd/rspamd
 
 # scylladb/scylla
-FROM scylladb/scylla:6.2.0
+FROM scylladb/scylla:6.2.1
 # scylladb/scylla
 
 # scylladb/scylla-manager
@@ -1235,7 +1235,7 @@ FROM supabase/gotrue:v2.163.2
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.44
+FROM supabase/realtime:v2.33.45
 # supabase/realtime
 
 # supabase/postgres-meta
