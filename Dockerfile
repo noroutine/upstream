@@ -551,7 +551,7 @@ FROM bitnami/postgresql:13.16.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:14.13.0
+FROM bitnami/postgresql:14.14.0
 # bitnami/postgresql
 
 # bitnami/postgresql
