@@ -255,7 +255,7 @@ FROM mongo:8.0.3-noble
 # mongo
 
 # wordpress
-FROM wordpress:6.6.2-apache
+FROM wordpress:6.7.0-apache
 # wordpress
 
 # dpage/pgadmin4
