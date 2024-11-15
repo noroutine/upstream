@@ -1,5 +1,5 @@
 {
-  "version": "ee07d5fa",
+  "version": "97eef028",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -28,7 +28,7 @@
       "squidfunk/mkdocs-material:9.5.44",
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:26.0.5",
-      "postgres:17.0-bookworm",
+      "postgres:17.1-bookworm",
       "atlassian/jira-software:10.1.2",
       "nextcloud:30.0.2-apache",
       "haproxytech/haproxy-debian:3.1",
@@ -205,9 +205,9 @@
       "ghcr.io/dexidp/dex:v2.41.1",
       "quay.io/argoproj/argocd:v2.13.0",
       "quay.io/argoproj/argo-events:v1.9.2",
-      "quay.io/argoproj/argocli:v3.5.12",
-      "quay.io/argoproj/workflow-controller:v3.5.12",
-      "quay.io/argoproj/argoexec:v3.5.12",
+      "quay.io/argoproj/argocli:v3.6.0",
+      "quay.io/argoproj/workflow-controller:v3.6.0",
+      "quay.io/argoproj/argoexec:v3.6.0",
       "redis:7.4.1",
       "listmonk/listmonk:v4.1.0",
       "vaultwarden/server:1.32.4",

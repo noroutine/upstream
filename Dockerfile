@@ -103,7 +103,7 @@ FROM quay.io/keycloak/keycloak:26.0.5
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.0-bookworm
+FROM postgres:17.1-bookworm
 # postgres
 
 # atlassian/jira-software
@@ -811,15 +811,15 @@ FROM quay.io/argoproj/argo-events:v1.9.2
 # argoproj/argo-events
 
 # argoproj/argocli
-FROM quay.io/argoproj/argocli:v3.5.12
+FROM quay.io/argoproj/argocli:v3.6.0
 # argoproj/argocli
 
 # argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v3.5.12
+FROM quay.io/argoproj/workflow-controller:v3.6.0
 # argoproj/workflow-controller
 
 # argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v3.5.12
+FROM quay.io/argoproj/argoexec:v3.6.0
 # argoproj/argoexec
 
 # redis
