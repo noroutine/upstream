@@ -1219,7 +1219,7 @@ FROM chirpstack/chirpstack:4.10.1
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
-FROM chirpstack/chirpstack-rest-api:4.9.0
+FROM chirpstack/chirpstack-rest-api:4.10.1
 # chirpstack/chirpstack-rest-api
 
 # chirpstack/chirpstack-gateway-bridge
