@@ -331,7 +331,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.109.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.110.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -1071,7 +1071,7 @@ FROM quay.io/cephcsi/cephcsi:v3.12.2-amd64
 # cephcsi/cephcsi
 
 # zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.65.0
+FROM ghcr.io/zitadel/zitadel:v2.65.1
 # zitadel/zitadel
 
 # homeassistant/home-assistant
