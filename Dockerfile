@@ -135,7 +135,7 @@ FROM quay.io/coreos/etcd:v3.5.17
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v2.55.1
+FROM quay.io/prometheus/prometheus:v3.0.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -255,7 +255,7 @@ FROM mongo:8.0.3-noble
 # mongo
 
 # wordpress
-FROM wordpress:6.6.2-apache
+FROM wordpress:6.7.0-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -1219,7 +1219,7 @@ FROM chirpstack/chirpstack:4.10.1
 # chirpstack/chirpstack
 
 # chirpstack/chirpstack-rest-api
-FROM chirpstack/chirpstack-rest-api:4.9.0
+FROM chirpstack/chirpstack-rest-api:4.10.1
 # chirpstack/chirpstack-rest-api
 
 # chirpstack/chirpstack-gateway-bridge
@@ -1231,7 +1231,7 @@ FROM supabase/studio:20240415-304bec8
 # supabase/studio
 
 # supabase/gotrue
-FROM supabase/gotrue:v2.163.2
+FROM supabase/gotrue:v2.164.0
 # supabase/gotrue
 
 # supabase/realtime

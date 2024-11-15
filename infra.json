@@ -1,5 +1,5 @@
 {
-  "version": "d533fa6d",
+  "version": "9872ff22",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -36,7 +36,7 @@
       "quay.io/minio/mc:RELEASE.2024-11-05T11-29-45Z",
       "quay.io/minio/console:v0.30.0",
       "quay.io/coreos/etcd:v3.5.17",
-      "quay.io/prometheus/prometheus:v2.55.1",
+      "quay.io/prometheus/prometheus:v3.0.0",
       "quay.io/prometheus/alertmanager:v0.27.0",
       "quay.io/prometheus/node-exporter:v1.8.2",
       "quay.io/prometheus/consul-exporter:v0.13.0",
@@ -66,7 +66,7 @@
       "docker.elastic.co/kibana/kibana:8.16.0",
       "alerta/alerta-web:9.0.4",
       "mongo:8.0.3-noble",
-      "wordpress:6.6.2-apache",
+      "wordpress:6.7.0-apache",
       "dpage/pgadmin4:8.13",
       "adminer:4.8.1",
       "mysql:9.1.0",
@@ -307,10 +307,10 @@
       "scylladb/scylla-manager:3.4.0-0.20241106.6f6a5a9dc",
       "scylladb/scylla-operator:1.14",
       "chirpstack/chirpstack:4.10.1",
-      "chirpstack/chirpstack-rest-api:4.9.0",
+      "chirpstack/chirpstack-rest-api:4.10.1",
       "chirpstack/chirpstack-gateway-bridge:4.0.11",
       "supabase/studio:20240415-304bec8",
-      "supabase/gotrue:v2.163.2",
+      "supabase/gotrue:v2.164.0",
       "supabase/realtime:v2.33.48",
       "supabase/postgres-meta:v0.84.3",
       "supabase/storage-api:v1.13.0",
