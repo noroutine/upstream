@@ -1,5 +1,5 @@
 {
-  "version": "32330ccb",
+  "version": "d533fa6d",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -304,7 +304,7 @@
       "nodemailer/rspamd:2.7.0",
       "rspamd/rspamd:3.10.2",
       "scylladb/scylla:6.2.1",
-      "scylladb/scylla-manager:3.4.0",
+      "scylladb/scylla-manager:3.4.0-0.20241106.6f6a5a9dc",
       "scylladb/scylla-operator:1.14",
       "chirpstack/chirpstack:4.10.1",
       "chirpstack/chirpstack-rest-api:4.9.0",
