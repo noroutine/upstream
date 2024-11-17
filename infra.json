@@ -1,9 +1,9 @@
 {
-  "version": "4401c7ef",
+  "version": "a715be9c",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
-      "ubuntu:noble-20241011",
+      "ubuntu:noble-20241015",
       "ubuntu:jammy-20240911.1",
       "ubuntu:focal-20241011",
       "alpine:3.20.3",
@@ -108,7 +108,7 @@
       "yandex/clickhouse-server:22.1.3.7-alpine",
       "spoonest/clickhouse-tabix-web-client:stable",
       "plausible/analytics:v2.0.0",
-      "verdaccio/verdaccio:6.0.1",
+      "verdaccio/verdaccio:6.0.2",
       "strapi/strapi:3.6.8-alpine",
       "ghost:5.101.1",
       "bitnami/ghost:5.101.1",
