@@ -3,7 +3,7 @@ FROM debian:bookworm-20241111-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20241011
+FROM ubuntu:noble-20241015
 # ubuntu
 
 # ubuntu
@@ -11,7 +11,7 @@ FROM ubuntu:jammy-20240911.1
 # ubuntu
 
 # ubuntu
-FROM ubuntu:focal-20241011
+FROM ubuntu:24.04
 # ubuntu
 
 # alpine
