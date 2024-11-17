@@ -447,7 +447,7 @@ FROM nocodb/nocodb:0.258.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.3.3
+FROM metabase/metabase:v0.51.3.5
 # metabase/metabase
 
 # docker
@@ -775,7 +775,7 @@ FROM kutt/kutt:v2.7.4
 # kutt/kutt
 
 # drakkan/sftpgo
-FROM drakkan/sftpgo:v2.6.2
+FROM drakkan/sftpgo:v2.6.3
 # drakkan/sftpgo
 
 # hasura/graphql-engine
@@ -931,7 +931,7 @@ FROM syncthing/relaysrv:1.28.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.10.1
+FROM jellyfin/jellyfin:10.10.2
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -1811,7 +1811,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.1-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.2-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin

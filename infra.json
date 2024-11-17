@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.358",
+  "version": "fd6cf3e6",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -114,7 +114,7 @@
       "bitnami/ghost:5.100.1",
       "matomo:5.1.2-apache",
       "nocodb/nocodb:0.258.0",
-      "metabase/metabase:v0.51.3.3",
+      "metabase/metabase:v0.51.3.5",
       "docker:27.3.1-dind",
       "quay.io/podman/stable:v5.2.5",
       "jupyter/base-notebook:2023-10-20",
@@ -196,7 +196,7 @@
       "registry.k8s.io/csi-secrets-store/driver:v1.4.6",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.6",
       "kutt/kutt:v2.7.4",
-      "drakkan/sftpgo:v2.6.2",
+      "drakkan/sftpgo:v2.6.3",
       "hasura/graphql-engine:v2.44.0",
       "paulbouwer/hello-kubernetes:1.10.1",
       "stakater/reloader:v1.1.0",
@@ -235,7 +235,7 @@
       "syncthing/syncthing:1.28.0",
       "syncthing/discosrv:1.28.0",
       "syncthing/relaysrv:1.28.0",
-      "jellyfin/jellyfin:10.10.1",
+      "jellyfin/jellyfin:10.10.2",
       "haveagitgat/tdarr:2.27.02",
       "haveagitgat/tdarr_node:2.27.02",
       "gravitl/netmaker:v0.26.0",
@@ -455,7 +455,7 @@
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.0",
       "nvcr.io/nvidia/cuda:12.6.2-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0",
-      "nvcr.io/nvidia/k8s/container-toolkit:v1.17.1-ubi8",
+      "nvcr.io/nvidia/k8s/container-toolkit:v1.17.2-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.8-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.8-3.6.0-ubi9",
