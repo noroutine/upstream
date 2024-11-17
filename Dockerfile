@@ -431,11 +431,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.100.1
+FROM ghost:5.101.1
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.100.1
+FROM bitnami/ghost:5.101.1
 # bitnami/ghost
 
 # matomo
