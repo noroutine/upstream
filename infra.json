@@ -1,5 +1,5 @@
 {
-  "version": "d6dd18f6",
+  "version": "1c6c4894",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -269,7 +269,7 @@
       "mcr.microsoft.com/k8s/azureserviceoperator:v2.11.0",
       "guacamole/guacamole:1.5.5",
       "guacamole/guacd:1.5.5",
-      "quay.io/cephcsi/cephcsi:v3.12.2-amd64",
+      "quay.io/cephcsi/cephcsi:v3.12.2",
       "ghcr.io/zitadel/zitadel:v2.65.1",
       "homeassistant/home-assistant:2024.11",
       "koenkk/zigbee2mqtt:1.41.0",
