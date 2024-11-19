@@ -214,18 +214,6 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.
 FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.6.0
 # gitlab-org/cluster-integration/cluster-applications
 
-# summerwind/actions-runner-controller
-FROM summerwind/actions-runner-controller:v0.27.6
-# summerwind/actions-runner-controller
-
-# summerwind/actions-runner
-FROM summerwind/actions-runner:v2.320.0-ubuntu-22.04
-# summerwind/actions-runner
-
-# summerwind/actions-runner-dind
-FROM summerwind/actions-runner-dind:v2.320.0-ubuntu-22.04
-# summerwind/actions-runner-dind
-
 # brancz/kube-rbac-proxy
 FROM quay.io/brancz/kube-rbac-proxy:v0.18.1
 # brancz/kube-rbac-proxy
@@ -281,14 +269,6 @@ FROM bitnami/redis:7.4.1
 # bitnami/redis-exporter
 FROM bitnami/redis-exporter:1.66.0
 # bitnami/redis-exporter
-
-# bitnami/postgresql
-FROM bitnami/postgresql:13.17.0
-# bitnami/postgresql
-
-# bitnami/postgresql
-FROM bitnami/postgresql:14.14.0
-# bitnami/postgresql
 
 # bitnami/postgresql
 FROM bitnami/postgresql:15.9.0

@@ -1,5 +1,5 @@
 {
-  "version": "0fdca8a8",
+  "version": "1ee9e74b",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -56,9 +56,6 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.112.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.2",
       "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.6.0",
-      "summerwind/actions-runner-controller:v0.27.6",
-      "summerwind/actions-runner:v2.320.0-ubuntu-22.04",
-      "summerwind/actions-runner-dind:v2.320.0-ubuntu-22.04",
       "quay.io/brancz/kube-rbac-proxy:v0.18.1",
       "pihole/pihole:2024.07.0",
       "klutchell/unbound:v1.22.0",
@@ -73,8 +70,6 @@
       "bitnami/postgres-exporter:0.16.0",
       "bitnami/redis:7.4.1",
       "bitnami/redis-exporter:1.66.0",
-      "bitnami/postgresql:13.17.0",
-      "bitnami/postgresql:14.14.0",
       "bitnami/postgresql:15.9.0",
       "bitnami/postgresql:16.5.0",
       "bitnami/postgresql:17.1.0",
