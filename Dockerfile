@@ -10,10 +10,6 @@ FROM ubuntu:noble-20241015
 FROM ubuntu:jammy-20240911.1
 # ubuntu
 
-# ubuntu
-FROM ubuntu:focal-20241011
-# ubuntu
-
 # alpine
 FROM alpine:3.20.3
 # alpine
@@ -45,18 +41,6 @@ FROM gcr.io/distroless/cc-debian12
 # distroless/nodejs22-debian12
 FROM gcr.io/distroless/nodejs22-debian12
 # distroless/nodejs22-debian12
-
-# buildpack-deps
-FROM buildpack-deps:bionic
-# buildpack-deps
-
-# buildpack-deps
-FROM buildpack-deps:focal
-# buildpack-deps
-
-# buildpack-deps
-FROM buildpack-deps:jammy
-# buildpack-deps
 
 # php
 FROM php:8.3.13-apache-bookworm
@@ -278,22 +262,6 @@ FROM heroku/heroku:24
 FROM heroku/buildpack-procfile:3.1.2
 # heroku/buildpack-procfile
 
-# paketobuildpacks/builder
-FROM paketobuildpacks/builder:full
-# paketobuildpacks/builder
-
-# paketobuildpacks/builder
-FROM paketobuildpacks/builder:base
-# paketobuildpacks/builder
-
-# paketobuildpacks/builder
-FROM paketobuildpacks/builder:tiny
-# paketobuildpacks/builder
-
-# paketobuildpacks/run
-FROM paketobuildpacks/run:full-cnb
-# paketobuildpacks/run
-
 # buildpacksio/lifecycle
 FROM buildpacksio/lifecycle:0.20.4
 # buildpacksio/lifecycle
@@ -342,14 +310,6 @@ FROM summerwind/actions-runner-dind:v2.320.0-ubuntu-22.04
 FROM quay.io/brancz/kube-rbac-proxy:v0.18.1
 # brancz/kube-rbac-proxy
 
-# jupyterhub/k8s-image-cleaner
-FROM jupyterhub/k8s-image-cleaner:0.2.0-n768.h13978ab
-# jupyterhub/k8s-image-cleaner
-
-# noroutine/k8s-binderhub
-FROM noroutine/k8s-binderhub:1.0.0-0.dev.git.3041.h6af741b
-# noroutine/k8s-binderhub
-
 # jupyterhub/k8s-hub
 FROM jupyterhub/k8s-hub:4.0.0
 # jupyterhub/k8s-hub
@@ -382,10 +342,6 @@ FROM registry.k8s.io/kube-scheduler:v1.28.8
 FROM registry.k8s.io/pause:3.10
 # pause
 
-# jupyterhub/repo2docker
-FROM quay.io/jupyterhub/repo2docker:2024.07.0
-# jupyterhub/repo2docker
-
 # pihole/pihole
 FROM pihole/pihole:2024.07.0
 # pihole/pihole
@@ -393,18 +349,6 @@ FROM pihole/pihole:2024.07.0
 # klutchell/unbound
 FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
-
-# yandex/clickhouse-server
-FROM yandex/clickhouse-server:22.1.3.7-alpine
-# yandex/clickhouse-server
-
-# spoonest/clickhouse-tabix-web-client
-FROM spoonest/clickhouse-tabix-web-client:stable
-# spoonest/clickhouse-tabix-web-client
-
-# plausible/analytics
-FROM plausible/analytics:v2.0.0
-# plausible/analytics
 
 # verdaccio/verdaccio
 FROM verdaccio/verdaccio:6.0.2
@@ -1458,86 +1402,6 @@ FROM registry.k8s.io/kube-scheduler:v1.28.15
 FROM registry.k8s.io/kube-controller-manager:v1.28.15
 # kube-controller-manager
 
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.27.16
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.27.16
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.27.16
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.27.16
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.26.15
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.26.15
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.26.15
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.26.15
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.25.16
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.25.16
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.25.16
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.25.16
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.24.17
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.24.17
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.24.17
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.24.17
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.23.17
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.23.17
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.23.17
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.23.17
-# kube-controller-manager
-
 # tigera/operator
 FROM quay.io/tigera/operator:v1.36.1
 # tigera/operator
@@ -1585,58 +1449,6 @@ FROM calico/csi:v3.29.0
 # nfd/node-feature-discovery
 FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.6
 # nfd/node-feature-discovery
-
-# longhornio/longhorn-manager
-FROM longhornio/longhorn-manager:v1.7.2
-# longhornio/longhorn-manager
-
-# longhornio/longhorn-ui
-FROM longhornio/longhorn-ui:v1.7.2
-# longhornio/longhorn-ui
-
-# longhornio/longhorn-engine
-FROM longhornio/longhorn-engine:v1.7.2
-# longhornio/longhorn-engine
-
-# longhornio/longhorn-instance-manager
-FROM longhornio/longhorn-instance-manager:v1.7.2
-# longhornio/longhorn-instance-manager
-
-# longhornio/longhorn-share-manager
-FROM longhornio/longhorn-share-manager:v1.7.2
-# longhornio/longhorn-share-manager
-
-# longhornio/backing-image-manager
-FROM longhornio/backing-image-manager:v1.7.2
-# longhornio/backing-image-manager
-
-# longhornio/csi-node-driver-registrar
-FROM longhornio/csi-node-driver-registrar:v2.12.0
-# longhornio/csi-node-driver-registrar
-
-# longhornio/csi-snapshotter
-FROM longhornio/csi-snapshotter:v8.1.0
-# longhornio/csi-snapshotter
-
-# longhornio/csi-resizer
-FROM longhornio/csi-resizer:v1.12.0
-# longhornio/csi-resizer
-
-# longhornio/csi-provisioner
-FROM longhornio/csi-provisioner:v5.1.0
-# longhornio/csi-provisioner
-
-# longhornio/csi-attacher
-FROM longhornio/csi-attacher:v4.7.0
-# longhornio/csi-attacher
-
-# longhornio/livenessprobe
-FROM longhornio/livenessprobe:v2.14.0
-# longhornio/livenessprobe
-
-# longhornio/support-bundle-kit
-FROM longhornio/support-bundle-kit:v0.0.45
-# longhornio/support-bundle-kit
 
 # cloud-pv-vsphere/cloud-provider-vsphere
 FROM registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.1
