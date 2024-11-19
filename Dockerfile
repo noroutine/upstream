@@ -339,7 +339,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.6.0
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
