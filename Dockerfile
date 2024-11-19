@@ -854,14 +854,6 @@ FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
 FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.11.0
 # k8s/azureserviceoperator
 
-# guacamole/guacamole
-FROM guacamole/guacamole:1.5.5
-# guacamole/guacamole
-
-# guacamole/guacd
-FROM guacamole/guacd:1.5.5
-# guacamole/guacd
-
 # cephcsi/cephcsi
 FROM quay.io/cephcsi/cephcsi:v3.12.2
 # cephcsi/cephcsi
