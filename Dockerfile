@@ -655,7 +655,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.11.0
+FROM cloudflare/cloudflared:2024.11.1
 # cloudflare/cloudflared
 
 # netsampler/goflow2
