@@ -102,10 +102,6 @@ FROM quay.io/prometheus/alertmanager:v0.27.0
 FROM quay.io/prometheus/node-exporter:v1.8.2
 # prometheus/node-exporter
 
-# prometheus/consul-exporter
-FROM quay.io/prometheus/consul-exporter:v0.13.0
-# prometheus/consul-exporter
-
 # prometheus/blackbox-exporter
 FROM quay.io/prometheus/blackbox-exporter:v0.25.0
 # prometheus/blackbox-exporter
@@ -134,22 +130,6 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.78.1
 FROM grafana/grafana:11.3.0
 # grafana/grafana
 
-# grafana/loki
-FROM grafana/loki:3.2.1
-# grafana/loki
-
-# grafana/loki-canary
-FROM grafana/loki-canary:3.2.1
-# grafana/loki-canary
-
-# grafana/promtail
-FROM grafana/promtail:3.2.1
-# grafana/promtail
-
-# nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.27.2-alpine-slim
-# nginxinc/nginx-unprivileged
-
 # nginxinc/nginx-unprivileged
 FROM nginxinc/nginx-unprivileged:1.27.2-alpine-slim
 # nginxinc/nginx-unprivileged
@@ -157,10 +137,6 @@ FROM nginxinc/nginx-unprivileged:1.27.2-alpine-slim
 # ribbybibby/ssl-exporter
 FROM ribbybibby/ssl-exporter:2.4.3
 # ribbybibby/ssl-exporter
-
-# cadvisor/cadvisor
-FROM gcr.io/cadvisor/cadvisor:v0.51.0
-# cadvisor/cadvisor
 
 # prymitive/karma
 FROM ghcr.io/prymitive/karma:v0.120
@@ -274,38 +250,6 @@ FROM summerwind/actions-runner-dind:v2.320.0-ubuntu-22.04
 FROM quay.io/brancz/kube-rbac-proxy:v0.18.1
 # brancz/kube-rbac-proxy
 
-# jupyterhub/k8s-hub
-FROM jupyterhub/k8s-hub:4.0.0
-# jupyterhub/k8s-hub
-
-# jupyterhub/k8s-secret-sync
-FROM jupyterhub/k8s-secret-sync:4.0.0
-# jupyterhub/k8s-secret-sync
-
-# jupyterhub/k8s-network-tools
-FROM jupyterhub/k8s-network-tools:4.0.0
-# jupyterhub/k8s-network-tools
-
-# jupyterhub/k8s-image-awaiter
-FROM jupyterhub/k8s-image-awaiter:4.0.0
-# jupyterhub/k8s-image-awaiter
-
-# jupyterhub/k8s-singleuser-sample
-FROM jupyterhub/k8s-singleuser-sample:4.0.0
-# jupyterhub/k8s-singleuser-sample
-
-# jupyterhub/configurable-http-proxy
-FROM jupyterhub/configurable-http-proxy:4.6.2
-# jupyterhub/configurable-http-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.8
-# kube-scheduler
-
-# pause
-FROM registry.k8s.io/pause:3.10
-# pause
-
 # pihole/pihole
 FROM pihole/pihole:2024.07.0
 # pihole/pihole
@@ -313,18 +257,6 @@ FROM pihole/pihole:2024.07.0
 # klutchell/unbound
 FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
-
-# ghost
-FROM ghost:5.101.2
-# ghost
-
-# bitnami/ghost
-FROM bitnami/ghost:5.101.2
-# bitnami/ghost
-
-# matomo
-FROM matomo:5.1.2-apache
-# matomo
 
 # nocodb/nocodb
 FROM nocodb/nocodb:0.258.0
@@ -337,42 +269,6 @@ FROM metabase/metabase:v0.51.3.6
 # docker
 FROM docker:27.3.1-dind
 # docker
-
-# jupyter/base-notebook
-FROM jupyter/base-notebook:2023-10-20
-# jupyter/base-notebook
-
-# jupyter/minimal-notebook
-FROM jupyter/minimal-notebook:2023-10-20
-# jupyter/minimal-notebook
-
-# jupyter/r-notebook
-FROM jupyter/r-notebook:2023-10-20
-# jupyter/r-notebook
-
-# jupyter/scipy-notebook
-FROM jupyter/scipy-notebook:2023-10-20
-# jupyter/scipy-notebook
-
-# jupyter/tensorflow-notebook
-FROM jupyter/tensorflow-notebook:2023-10-20
-# jupyter/tensorflow-notebook
-
-# jupyter/datascience-notebook
-FROM jupyter/datascience-notebook:2023-10-20
-# jupyter/datascience-notebook
-
-# jupyter/pyspark-notebook
-FROM jupyter/pyspark-notebook:2023-10-20
-# jupyter/pyspark-notebook
-
-# jupyter/all-spark-notebook
-FROM jupyter/all-spark-notebook:2023-10-20
-# jupyter/all-spark-notebook
-
-# mikecao/umami
-FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
-# mikecao/umami
 
 # bitnami/spark
 FROM bitnami/spark:3.5.3
@@ -486,10 +382,6 @@ FROM bitnami/grafana:11.3.0
 FROM bitnami/grafana-image-renderer:3.11.6
 # bitnami/grafana-image-renderer
 
-# bitnami/consul
-FROM bitnami/consul:1.20.1
-# bitnami/consul
-
 # bitnami/nats
 FROM bitnami/nats:2.10.22
 # bitnami/nats
@@ -537,10 +429,6 @@ FROM registry.k8s.io/csi-secrets-store/driver:v1.4.6
 # csi-secrets-store/driver-crds
 FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.6
 # csi-secrets-store/driver-crds
-
-# drakkan/sftpgo
-FROM drakkan/sftpgo:v2.6.3
-# drakkan/sftpgo
 
 # hasura/graphql-engine
 FROM hasura/graphql-engine:v2.44.0
@@ -814,18 +702,6 @@ FROM nodemailer/rspamd:2.7.0
 FROM rspamd/rspamd:3.10.2
 # rspamd/rspamd
 
-# scylladb/scylla
-FROM scylladb/scylla:6.2.1
-# scylladb/scylla
-
-# scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.4.0-0.20241106.6f6a5a9dc
-# scylladb/scylla-manager
-
-# scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.14
-# scylladb/scylla-operator
-
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.16.1
 # jetstack/cert-manager-controller
@@ -846,18 +722,6 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.1
 FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
 # zachomedia/cert-manager-webhook-pdns
 
-# hashicorp/consul
-FROM hashicorp/consul:1.20.1
-# hashicorp/consul
-
-# hashicorp/consul-k8s-control-plane
-FROM hashicorp/consul-k8s-control-plane:1.6.1
-# hashicorp/consul-k8s-control-plane
-
-# envoyproxy/envoy-alpine
-FROM envoyproxy/envoy-alpine:v1.21.6
-# envoyproxy/envoy-alpine
-
 # hashicorp/vault
 FROM hashicorp/vault:1.18.1
 # hashicorp/vault
@@ -869,10 +733,6 @@ FROM hashicorp/vault-k8s:1.5.0
 # hashicorp/vault-csi-provider
 FROM hashicorp/vault-csi-provider:1.5.0
 # hashicorp/vault-csi-provider
-
-# hashicorp/terraform-cloud-operator
-FROM hashicorp/terraform-cloud-operator:2.5.0
-# hashicorp/terraform-cloud-operator
 
 # pause
 FROM registry.k8s.io/pause:3.10
@@ -896,54 +756,6 @@ FROM registry.k8s.io/kube-scheduler:v1.31.2
 
 # kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.31.2
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.30.6
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.30.6
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.30.6
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.30.6
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.29.10
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.29.10
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.29.10
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.29.10
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.28.15
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.28.15
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.28.15
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.28.15
 # kube-controller-manager
 
 # tigera/operator
