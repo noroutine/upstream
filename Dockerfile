@@ -1287,7 +1287,7 @@ FROM ghcr.io/spiffe/spire-agent:1.11.0
 # spiffe/spire-agent
 
 # bitnami/cilium
-FROM bitnami/cilium:1.16.3
+FROM bitnami/cilium:1.16.4
 # bitnami/cilium
 
 # bitnami/cilium-proxy
