@@ -18,30 +18,6 @@ FROM alpine:3.20.3
 FROM busybox:1.37.0
 # busybox
 
-# distroless/static-debian12
-FROM gcr.io/distroless/static-debian12
-# distroless/static-debian12
-
-# distroless/base-debian12
-FROM gcr.io/distroless/base-debian12
-# distroless/base-debian12
-
-# distroless/java17-debian12
-FROM gcr.io/distroless/java17-debian12
-# distroless/java17-debian12
-
-# distroless/java21-debian12
-FROM gcr.io/distroless/java21-debian12
-# distroless/java21-debian12
-
-# distroless/cc-debian12
-FROM gcr.io/distroless/cc-debian12
-# distroless/cc-debian12
-
-# distroless/nodejs22-debian12
-FROM gcr.io/distroless/nodejs22-debian12
-# distroless/nodejs22-debian12
-
 # php
 FROM php:8.3.13-apache-bookworm
 # php
@@ -181,14 +157,6 @@ FROM nginxinc/nginx-unprivileged:1.27.2-alpine-slim
 # nginxinc/nginx-unprivileged
 FROM nginxinc/nginx-unprivileged:1.27.2-alpine-slim
 # nginxinc/nginx-unprivileged
-
-# httpd
-FROM httpd:2.4.62-alpine
-# httpd
-
-# tomcat
-FROM tomcat:11.0.1-jdk21-temurin-noble
-# tomcat
 
 # ribbybibby/ssl-exporter
 FROM ribbybibby/ssl-exporter:2.4.3
@@ -414,10 +382,6 @@ FROM jupyter/pyspark-notebook:2023-10-20
 FROM jupyter/all-spark-notebook:2023-10-20
 # jupyter/all-spark-notebook
 
-# rocker/shiny
-FROM rocker/shiny:4.4.2
-# rocker/shiny
-
 # caprover/caprover
 FROM caprover/caprover:1.13.2
 # caprover/caprover
@@ -489,10 +453,6 @@ FROM bitnami/postgresql:16.5.0
 # bitnami/postgresql
 FROM bitnami/postgresql:17.1.0
 # bitnami/postgresql
-
-# bitnami/tomcat
-FROM bitnami/tomcat:10.1.33
-# bitnami/tomcat
 
 # bitnami/jmx-exporter
 FROM bitnami/jmx-exporter:1.0.1
@@ -569,26 +529,6 @@ FROM bitnami/kube-state-metrics:2.14.0
 # bitnami/metrics-server
 FROM bitnami/metrics-server:0.7.2
 # bitnami/metrics-server
-
-# bitnami/kubeapps-dashboard
-FROM bitnami/kubeapps-dashboard:2.12.0
-# bitnami/kubeapps-dashboard
-
-# bitnami/kubeapps-apprepository-controller
-FROM bitnami/kubeapps-apprepository-controller:2.12.0
-# bitnami/kubeapps-apprepository-controller
-
-# bitnami/kubeapps-asset-syncer
-FROM bitnami/kubeapps-asset-syncer:2.12.0
-# bitnami/kubeapps-asset-syncer
-
-# bitnami/kubeapps-apis
-FROM bitnami/kubeapps-apis:2.12.0
-# bitnami/kubeapps-apis
-
-# bitnami/kubeapps-pinniped-proxy
-FROM bitnami/kubeapps-pinniped-proxy:2.12.0
-# bitnami/kubeapps-pinniped-proxy
 
 # bitnami/kube-rbac-proxy
 FROM bitnami/kube-rbac-proxy:0.18.1
@@ -794,10 +734,6 @@ FROM gcr.io/kaniko-project/executor:v1.23.2
 FROM quay.io/iovisor/bpftrace:v0.19.1
 # iovisor/bpftrace
 
-# pryorda/vmware_exporter
-FROM pryorda/vmware_exporter:v0.18.4
-# pryorda/vmware_exporter
-
 # azul/zulu-openjdk
 FROM azul/zulu-openjdk:23.0.1-23.30
 # azul/zulu-openjdk
@@ -858,22 +794,6 @@ FROM gravitl/netmaker-ui:v0.26.0
 FROM kmb32123/youtube-dl-server:2.0
 # kmb32123/youtube-dl-server
 
-# voxpupuli/container-puppetserver
-FROM ghcr.io/voxpupuli/container-puppetserver:8.6.0-v1.5.0
-# voxpupuli/container-puppetserver
-
-# voxpupuli/container-puppetdb
-FROM ghcr.io/voxpupuli/container-puppetdb:8.5.0-v1.5.0
-# voxpupuli/container-puppetdb
-
-# voxpupuli/puppetboard
-FROM ghcr.io/voxpupuli/puppetboard:5.4.0
-# voxpupuli/puppetboard
-
-# puppet/r10k
-FROM puppet/r10k:3.15.2
-# puppet/r10k
-
 # curlimages/curl
 FROM curlimages/curl:8.11.0
 # curlimages/curl
@@ -885,10 +805,6 @@ FROM restic/restic:0.17.3
 # yugabytedb/yugabyte
 FROM yugabytedb/yugabyte:2.21.0.1-b1
 # yugabytedb/yugabyte
-
-# antelle/keeweb
-FROM antelle/keeweb:1.18.7
-# antelle/keeweb
 
 # wiretrustee/dashboard
 FROM wiretrustee/dashboard:v1.17.16
@@ -1433,18 +1349,6 @@ FROM calico/csi:v3.29.0
 # nfd/node-feature-discovery
 FROM registry.k8s.io/nfd/node-feature-discovery:v0.16.6
 # nfd/node-feature-discovery
-
-# cloud-pv-vsphere/cloud-provider-vsphere
-FROM registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.1
-# cloud-pv-vsphere/cloud-provider-vsphere
-
-# csi-vsphere/driver
-FROM registry.k8s.io/csi-vsphere/driver:v3.3.1
-# csi-vsphere/driver
-
-# csi-vsphere/syncer
-FROM registry.k8s.io/csi-vsphere/syncer:v3.3.1
-# csi-vsphere/syncer
 
 # sig-storage/livenessprobe
 FROM registry.k8s.io/sig-storage/livenessprobe:v2.14.0
