@@ -978,10 +978,6 @@ FROM curlimages/curl:8.11.0
 FROM restic/restic:0.17.3
 # restic/restic
 
-# coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.11.4
-# coredns/coredns
-
 # yugabytedb/yugabyte
 FROM yugabytedb/yugabyte:2.21.0.1-b1
 # yugabytedb/yugabyte
@@ -1353,18 +1349,6 @@ FROM velero/velero-plugin-for-gcp:v1.11.0
 # velero/velero-plugin-for-microsoft-azure
 FROM velero/velero-plugin-for-microsoft-azure:v1.11.0
 # velero/velero-plugin-for-microsoft-azure
-
-# vsphereveleroplugin/velero-plugin-for-vsphere
-FROM vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.4
-# vsphereveleroplugin/velero-plugin-for-vsphere
-
-# vsphereveleroplugin/backup-driver
-FROM vsphereveleroplugin/backup-driver:v1.5.4
-# vsphereveleroplugin/backup-driver
-
-# vsphereveleroplugin/data-manager-for-plugin
-FROM vsphereveleroplugin/data-manager-for-plugin:v1.5.4
-# vsphereveleroplugin/data-manager-for-plugin
 
 # velero/velero-restic-restore-helper
 FROM velero/velero-restic-restore-helper:v1.9.7

@@ -1,5 +1,5 @@
 {
-  "version": "a7e73385",
+  "version": "1e657b40",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -247,7 +247,6 @@
       "puppet/r10k:3.15.2",
       "curlimages/curl:8.11.0",
       "restic/restic:0.17.3",
-      "registry.k8s.io/coredns/coredns:v1.11.4",
       "yugabytedb/yugabyte:2.21.0.1-b1",
       "antelle/keeweb:1.18.7",
       "wiretrustee/dashboard:v1.17.16",
@@ -341,9 +340,6 @@
       "velero/velero-plugin-for-aws:v1.11.0",
       "velero/velero-plugin-for-gcp:v1.11.0",
       "velero/velero-plugin-for-microsoft-azure:v1.11.0",
-      "vsphereveleroplugin/velero-plugin-for-vsphere:v1.5.4",
-      "vsphereveleroplugin/backup-driver:v1.5.4",
-      "vsphereveleroplugin/data-manager-for-plugin:v1.5.4",
       "velero/velero-restic-restore-helper:v1.9.7",
       "bitnami/kubectl:1.31.2",
       "apache/airflow:2.10.3-python3.12",
