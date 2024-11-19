@@ -190,22 +190,6 @@ FROM mccutchen/go-httpbin:v2.15.0
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
-# heroku/heroku
-FROM heroku/heroku:24-build
-# heroku/heroku
-
-# heroku/heroku
-FROM heroku/heroku:24
-# heroku/heroku
-
-# heroku/buildpack-procfile
-FROM heroku/buildpack-procfile:3.1.2
-# heroku/buildpack-procfile
-
-# buildpacksio/lifecycle
-FROM buildpacksio/lifecycle:0.20.4
-# buildpacksio/lifecycle
-
 # gitlab/gitlab-runner
 FROM gitlab/gitlab-runner:alpine-v17.5.3
 # gitlab/gitlab-runner
@@ -445,10 +429,6 @@ FROM quay.io/argoproj/argocd:v2.13.0
 # redis
 FROM redis:7.4.1
 # redis
-
-# listmonk/listmonk
-FROM listmonk/listmonk:v4.1.0
-# listmonk/listmonk
 
 # vaultwarden/server
 FROM vaultwarden/server:1.32.5
