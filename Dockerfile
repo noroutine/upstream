@@ -1055,7 +1055,7 @@ FROM kong:3.8.0-ubuntu
 # kong
 
 # cilium/clustermesh-apiserver
-FROM quay.io/cilium/clustermesh-apiserver:v1.16.3
+FROM quay.io/cilium/clustermesh-apiserver:v1.16.4
 # cilium/clustermesh-apiserver
 
 # cilium/cilium
