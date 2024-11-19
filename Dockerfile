@@ -927,7 +927,7 @@ FROM syncthing/relaysrv:1.28.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.10.2
+FROM jellyfin/jellyfin:10.10.3
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
