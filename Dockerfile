@@ -782,10 +782,6 @@ FROM drakkan/sftpgo:v2.6.3
 FROM hasura/graphql-engine:v2.44.0
 # hasura/graphql-engine
 
-# paulbouwer/hello-kubernetes
-FROM paulbouwer/hello-kubernetes:1.10.1
-# paulbouwer/hello-kubernetes
-
 # stakater/reloader
 FROM stakater/reloader:v1.1.0
 # stakater/reloader
