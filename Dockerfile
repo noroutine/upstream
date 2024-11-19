@@ -1079,7 +1079,7 @@ FROM quay.io/cilium/cilium-envoy:v1.30.7-1731393917-c35cf767a838c41c0363279d5939
 # cilium/cilium-envoy
 
 # cilium/hubble-relay
-FROM quay.io/cilium/hubble-relay:v1.16.3
+FROM quay.io/cilium/hubble-relay:v1.16.4
 # cilium/hubble-relay
 
 # cilium/hubble-ui
