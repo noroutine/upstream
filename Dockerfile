@@ -66,10 +66,6 @@ FROM quay.io/keycloak/keycloak:26.0.5
 FROM postgres:17.1-bookworm
 # postgres
 
-# atlassian/jira-software
-FROM atlassian/jira-software:10.1.2
-# atlassian/jira-software
-
 # nextcloud
 FROM nextcloud:30.0.2-apache
 # nextcloud
@@ -318,10 +314,6 @@ FROM pihole/pihole:2024.07.0
 FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
-# verdaccio/verdaccio
-FROM verdaccio/verdaccio:6.0.2
-# verdaccio/verdaccio
-
 # ghost
 FROM ghost:5.101.2
 # ghost
@@ -345,10 +337,6 @@ FROM metabase/metabase:v0.51.3.6
 # docker
 FROM docker:27.3.1-dind
 # docker
-
-# podman/stable
-FROM quay.io/podman/stable:v5.2.5
-# podman/stable
 
 # jupyter/base-notebook
 FROM jupyter/base-notebook:2023-10-20
@@ -381,10 +369,6 @@ FROM jupyter/pyspark-notebook:2023-10-20
 # jupyter/all-spark-notebook
 FROM jupyter/all-spark-notebook:2023-10-20
 # jupyter/all-spark-notebook
-
-# caprover/caprover
-FROM caprover/caprover:1.13.2
-# caprover/caprover
 
 # mikecao/umami
 FROM ghcr.io/mikecao/umami:postgresql-v1.33.2
@@ -421,18 +405,6 @@ FROM bitnami/redis:7.4.1
 # bitnami/redis-exporter
 FROM bitnami/redis-exporter:1.66.0
 # bitnami/redis-exporter
-
-# bitnami/postgresql
-FROM bitnami/postgresql:10.23.0
-# bitnami/postgresql
-
-# bitnami/postgresql
-FROM bitnami/postgresql:11.22.0
-# bitnami/postgresql
-
-# bitnami/postgresql
-FROM bitnami/postgresql:12.20.0
-# bitnami/postgresql
 
 # bitnami/postgresql
 FROM bitnami/postgresql:13.17.0
@@ -650,10 +622,6 @@ FROM sapcc/mosquitto-exporter:0.8.0
 FROM caddy:2.8.4-alpine
 # caddy
 
-# outline/shadowbox
-FROM quay.io/outline/shadowbox:server-v1.6.1
-# outline/shadowbox
-
 # kaniko-project/executor
 FROM gcr.io/kaniko-project/executor:v1.23.2
 # kaniko-project/executor
@@ -710,14 +678,6 @@ FROM haveagitgat/tdarr:2.27.02
 FROM haveagitgat/tdarr_node:2.27.02
 # haveagitgat/tdarr_node
 
-# gravitl/netmaker
-FROM gravitl/netmaker:v0.26.0
-# gravitl/netmaker
-
-# gravitl/netmaker-ui
-FROM gravitl/netmaker-ui:v0.26.0
-# gravitl/netmaker-ui
-
 # kmb32123/youtube-dl-server
 FROM kmb32123/youtube-dl-server:2.0
 # kmb32123/youtube-dl-server
@@ -750,10 +710,6 @@ FROM netbirdio/management:0.32.0
 FROM coturn/coturn:4.6.2
 # coturn/coturn
 
-# firezone/firezone
-FROM firezone/firezone:0.7.36
-# firezone/firezone
-
 # jenkins/jenkins
 FROM jenkins/jenkins:2.485-jdk21
 # jenkins/jenkins
@@ -773,14 +729,6 @@ FROM netboxcommunity/netbox:v4.1.6
 # postgrest/postgrest
 FROM postgrest/postgrest:v12.2.3
 # postgrest/postgrest
-
-# oss/azure/workload-identity/webhook
-FROM mcr.microsoft.com/oss/azure/workload-identity/webhook:v1.3.0
-# oss/azure/workload-identity/webhook
-
-# k8s/azureserviceoperator
-FROM mcr.microsoft.com/k8s/azureserviceoperator:v2.11.0
-# k8s/azureserviceoperator
 
 # cephcsi/cephcsi
 FROM quay.io/cephcsi/cephcsi:v3.12.2
@@ -802,18 +750,6 @@ FROM koenkk/zigbee2mqtt:1.41.0
 FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
-# spvest/azure-keyvault-controller
-FROM spvest/azure-keyvault-controller:1.7.3
-# spvest/azure-keyvault-controller
-
-# spvest/azure-keyvault-webhook
-FROM spvest/azure-keyvault-webhook:1.7.3
-# spvest/azure-keyvault-webhook
-
-# spvest/azure-keyvault-env
-FROM spvest/azure-keyvault-env:1.7.3
-# spvest/azure-keyvault-env
-
 # gitea/gitea
 FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
@@ -829,10 +765,6 @@ FROM roundcube/roundcubemail:1.6.9-apache
 # changemakerstudiosus/papercut-smtp
 FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
-
-# n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.67.1
-# n8nio/n8n
 
 # cloudflare/cloudflared
 FROM cloudflare/cloudflared:2024.11.0
@@ -854,45 +786,9 @@ FROM quay.io/openbgpd/openbgpd:8.6
 FROM swaggerapi/swagger-ui:v5.18.2
 # swaggerapi/swagger-ui
 
-# airbyte/webapp
-FROM airbyte/webapp:1.2.0
-# airbyte/webapp
-
-# airbyte/server
-FROM airbyte/server:1.2.0
-# airbyte/server
-
-# airbyte/worker
-FROM airbyte/worker:1.2.0
-# airbyte/worker
-
-# airbyte/metrics-reporter
-FROM airbyte/metrics-reporter:1.2.0
-# airbyte/metrics-reporter
-
-# airbyte/bootloader
-FROM airbyte/bootloader:1.2.0
-# airbyte/bootloader
-
-# airbyte/db
-FROM airbyte/db:1.2.0
-# airbyte/db
-
-# airbyte/cron
-FROM airbyte/cron:1.2.0
-# airbyte/cron
-
-# airbyte/connector-builder-server
-FROM airbyte/connector-builder-server:1.2.0
-# airbyte/connector-builder-server
-
-# airbyte/workload-api-server
-FROM airbyte/workload-api-server:1.2.0
-# airbyte/workload-api-server
-
-# temporalio/auto-setup
-FROM temporalio/auto-setup:1.25.2
-# temporalio/auto-setup
+# git-sync/git-sync
+FROM registry.k8s.io/git-sync/git-sync:v4.3.0
+# git-sync/git-sync
 
 # nodemailer/wildduck
 FROM nodemailer/wildduck:1.45.3
@@ -929,102 +825,6 @@ FROM scylladb/scylla-manager:3.4.0-0.20241106.6f6a5a9dc
 # scylladb/scylla-operator
 FROM scylladb/scylla-operator:1.14
 # scylladb/scylla-operator
-
-# chirpstack/chirpstack
-FROM chirpstack/chirpstack:4.10.1
-# chirpstack/chirpstack
-
-# chirpstack/chirpstack-rest-api
-FROM chirpstack/chirpstack-rest-api:4.10.1
-# chirpstack/chirpstack-rest-api
-
-# chirpstack/chirpstack-gateway-bridge
-FROM chirpstack/chirpstack-gateway-bridge:4.0.11
-# chirpstack/chirpstack-gateway-bridge
-
-# supabase/studio
-FROM supabase/studio:20240415-304bec8
-# supabase/studio
-
-# supabase/gotrue
-FROM supabase/gotrue:v2.164.0
-# supabase/gotrue
-
-# supabase/realtime
-FROM supabase/realtime:v2.33.51
-# supabase/realtime
-
-# supabase/postgres-meta
-FROM supabase/postgres-meta:v0.84.3
-# supabase/postgres-meta
-
-# supabase/storage-api
-FROM supabase/storage-api:v1.13.1
-# supabase/storage-api
-
-# supabase/logflare
-FROM supabase/logflare:1.9.5
-# supabase/logflare
-
-# supabase/edge-runtime
-FROM supabase/edge-runtime:v1.62.2
-# supabase/edge-runtime
-
-# darthsim/imgproxy
-FROM darthsim/imgproxy:v3.26
-# darthsim/imgproxy
-
-# timberio/vector
-FROM timberio/vector:0.42.0-alpine
-# timberio/vector
-
-# kong
-FROM kong:3.8.0-ubuntu
-# kong
-
-# velero/velero
-FROM velero/velero:v1.15.0
-# velero/velero
-
-# velero/velero-plugin-for-csi
-FROM velero/velero-plugin-for-csi:v0.7.1
-# velero/velero-plugin-for-csi
-
-# velero/velero-plugin-for-aws
-FROM velero/velero-plugin-for-aws:v1.11.0
-# velero/velero-plugin-for-aws
-
-# velero/velero-plugin-for-gcp
-FROM velero/velero-plugin-for-gcp:v1.11.0
-# velero/velero-plugin-for-gcp
-
-# velero/velero-plugin-for-microsoft-azure
-FROM velero/velero-plugin-for-microsoft-azure:v1.11.0
-# velero/velero-plugin-for-microsoft-azure
-
-# velero/velero-restic-restore-helper
-FROM velero/velero-restic-restore-helper:v1.9.7
-# velero/velero-restic-restore-helper
-
-# bitnami/kubectl
-FROM bitnami/kubectl:1.31.2
-# bitnami/kubectl
-
-# apache/airflow
-FROM apache/airflow:2.10.3-python3.12
-# apache/airflow
-
-# git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.3.0
-# git-sync/git-sync
-
-# kedacore/keda
-FROM ghcr.io/kedacore/keda:2.16.0
-# kedacore/keda
-
-# kedacore/keda-metrics-apiserver
-FROM ghcr.io/kedacore/keda-metrics-apiserver:2.16.0
-# kedacore/keda-metrics-apiserver
 
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.16.1
