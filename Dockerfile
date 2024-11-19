@@ -410,10 +410,6 @@ FROM plausible/analytics:v2.0.0
 FROM verdaccio/verdaccio:6.0.2
 # verdaccio/verdaccio
 
-# strapi/strapi
-FROM strapi/strapi:3.6.8-alpine
-# strapi/strapi
-
 # ghost
 FROM ghost:5.101.2
 # ghost
@@ -1001,26 +997,6 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # netboxcommunity/netbox
 FROM netboxcommunity/netbox:v4.1.6
 # netboxcommunity/netbox
-
-# kubernetesui/dashboard
-FROM kubernetesui/dashboard:v2.7.0
-# kubernetesui/dashboard
-
-# kubernetesui/dashboard-api
-FROM kubernetesui/dashboard-api:1.10.1
-# kubernetesui/dashboard-api
-
-# kubernetesui/dashboard-web
-FROM kubernetesui/dashboard-web:1.6.0
-# kubernetesui/dashboard-web
-
-# kubernetesui/metrics-scraper
-FROM kubernetesui/metrics-scraper:v1.0.9
-# kubernetesui/metrics-scraper
-
-# locustio/locust
-FROM locustio/locust:2.32.3
-# locustio/locust
 
 # postgrest/postgrest
 FROM postgrest/postgrest:v12.2.3
