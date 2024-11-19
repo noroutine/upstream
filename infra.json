@@ -1,10 +1,9 @@
 {
-  "version": "aea2a3c7",
+  "version": "50b1a6f6",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
       "ubuntu:noble-20241015",
-      "ubuntu:jammy-20240911.1",
       "alpine:3.20.3",
       "busybox:1.37.0",
       "php:8.3.13-apache-bookworm",
@@ -136,13 +135,9 @@
       "jellyfin/jellyfin:10.10.3",
       "haveagitgat/tdarr:2.27.02",
       "haveagitgat/tdarr_node:2.27.02",
-      "kmb32123/youtube-dl-server:2.0",
       "curlimages/curl:8.11.0",
       "restic/restic:0.17.3",
       "yugabytedb/yugabyte:2.21.0.1-b1",
-      "wiretrustee/dashboard:v1.17.16",
-      "netbirdio/signal:0.32.0",
-      "netbirdio/management:0.32.0",
       "coturn/coturn:4.6.2",
       "jenkins/jenkins:2.485-jdk21",
       "jenkins/agent:bookworm-jdk21",

@@ -6,10 +6,6 @@ FROM debian:bookworm-20241111-slim
 FROM ubuntu:noble-20241015
 # ubuntu
 
-# ubuntu
-FROM ubuntu:jammy-20240911.1
-# ubuntu
-
 # alpine
 FROM alpine:3.20.3
 # alpine
@@ -534,10 +530,6 @@ FROM haveagitgat/tdarr:2.27.02
 FROM haveagitgat/tdarr_node:2.27.02
 # haveagitgat/tdarr_node
 
-# kmb32123/youtube-dl-server
-FROM kmb32123/youtube-dl-server:2.0
-# kmb32123/youtube-dl-server
-
 # curlimages/curl
 FROM curlimages/curl:8.11.0
 # curlimages/curl
@@ -549,18 +541,6 @@ FROM restic/restic:0.17.3
 # yugabytedb/yugabyte
 FROM yugabytedb/yugabyte:2.21.0.1-b1
 # yugabytedb/yugabyte
-
-# wiretrustee/dashboard
-FROM wiretrustee/dashboard:v1.17.16
-# wiretrustee/dashboard
-
-# netbirdio/signal
-FROM netbirdio/signal:0.32.0
-# netbirdio/signal
-
-# netbirdio/management
-FROM netbirdio/management:0.32.0
-# netbirdio/management
 
 # coturn/coturn
 FROM coturn/coturn:4.6.2
