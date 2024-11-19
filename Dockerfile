@@ -338,10 +338,6 @@ FROM bitnami/keycloak-config-cli:6.1.6
 FROM bitnami/mariadb:11.5.2
 # bitnami/mariadb
 
-# bitnami/mongodb
-FROM bitnami/mongodb:8.0.3
-# bitnami/mongodb
-
 # bitnami/memcached
 FROM bitnami/memcached:1.6.32
 # bitnami/memcached
@@ -378,10 +374,6 @@ FROM bitnami/metallb-speaker:0.14.8
 FROM bitnami/grafana:11.3.0
 # bitnami/grafana
 
-# bitnami/grafana-image-renderer
-FROM bitnami/grafana-image-renderer:3.11.6
-# bitnami/grafana-image-renderer
-
 # bitnami/nats
 FROM bitnami/nats:2.10.22
 # bitnami/nats
@@ -405,10 +397,6 @@ FROM bitnami/openldap:2.6.8
 # bitnami/sealed-secrets-controller
 FROM bitnami/sealed-secrets-controller:0.27.2
 # bitnami/sealed-secrets-controller
-
-# bitnami/trivy
-FROM bitnami/trivy:0.57.1
-# bitnami/trivy
 
 # bitnami/kubectl
 FROM bitnami/kubectl:1.31.2
