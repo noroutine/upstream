@@ -1,5 +1,5 @@
 {
-  "version": "c372dd4e",
+  "version": "79828416",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -184,10 +184,6 @@
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.41.1",
       "quay.io/argoproj/argocd:v2.13.0",
-      "quay.io/argoproj/argo-events:v1.9.2",
-      "quay.io/argoproj/argocli:v3.6.0",
-      "quay.io/argoproj/workflow-controller:v3.6.0",
-      "quay.io/argoproj/argoexec:v3.6.0",
       "redis:7.4.1",
       "listmonk/listmonk:v4.1.0",
       "vaultwarden/server:1.32.5",
