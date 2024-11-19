@@ -550,74 +550,6 @@ FROM bitnami/trivy:0.57.1
 FROM bitnami/kubectl:1.31.2
 # bitnami/kubectl
 
-# bitnami/harbor-adapter-trivy
-FROM bitnami/harbor-adapter-trivy:2.12.0
-# bitnami/harbor-adapter-trivy
-
-# bitnami/harbor-core
-FROM bitnami/harbor-core:2.12.0
-# bitnami/harbor-core
-
-# bitnami/harbor-exporter
-FROM bitnami/harbor-exporter:2.12.0
-# bitnami/harbor-exporter
-
-# bitnami/harbor-jobservice
-FROM bitnami/harbor-jobservice:2.12.0
-# bitnami/harbor-jobservice
-
-# bitnami/harbor-portal
-FROM bitnami/harbor-portal:2.12.0
-# bitnami/harbor-portal
-
-# bitnami/harbor-registry
-FROM bitnami/harbor-registry:2.12.0
-# bitnami/harbor-registry
-
-# bitnami/harbor-registryctl
-FROM bitnami/harbor-registryctl:2.12.0
-# bitnami/harbor-registryctl
-
-# goharbor/harbor-portal
-FROM goharbor/harbor-portal:v2.12.0
-# goharbor/harbor-portal
-
-# goharbor/harbor-core
-FROM goharbor/harbor-core:v2.12.0
-# goharbor/harbor-core
-
-# goharbor/harbor-jobservice
-FROM goharbor/harbor-jobservice:v2.12.0
-# goharbor/harbor-jobservice
-
-# goharbor/registry-photon
-FROM goharbor/registry-photon:v2.12.0
-# goharbor/registry-photon
-
-# goharbor/harbor-registryctl
-FROM goharbor/harbor-registryctl:v2.12.0
-# goharbor/harbor-registryctl
-
-# goharbor/harbor-db
-FROM goharbor/harbor-db:v2.12.0
-# goharbor/harbor-db
-
-# goharbor/harbor-exporter
-FROM goharbor/harbor-exporter:v2.12.0
-# goharbor/harbor-exporter
-
-# goharbor/redis-photon
-FROM goharbor/redis-photon:v2.12.0
-# goharbor/redis-photon
-
-# goharbor/trivy-adapter-photon
-FROM goharbor/trivy-adapter-photon:v2.12.0
-# goharbor/trivy-adapter-photon
-
-# goharbor/nginx-photon
-FROM goharbor/nginx-photon:v2.12.0
-# goharbor/nginx-photon
-
 # aquasec/trivy
 FROM aquasec/trivy:0.57.1
 # aquasec/trivy
@@ -633,10 +565,6 @@ FROM registry.k8s.io/csi-secrets-store/driver:v1.4.6
 # csi-secrets-store/driver-crds
 FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.6
 # csi-secrets-store/driver-crds
-
-# kutt/kutt
-FROM kutt/kutt:v2.7.4
-# kutt/kutt
 
 # drakkan/sftpgo
 FROM drakkan/sftpgo:v2.6.3
@@ -1054,74 +982,6 @@ FROM timberio/vector:0.42.0-alpine
 FROM kong:3.8.0-ubuntu
 # kong
 
-# cilium/clustermesh-apiserver
-FROM quay.io/cilium/clustermesh-apiserver:v1.16.3
-# cilium/clustermesh-apiserver
-
-# cilium/cilium
-FROM quay.io/cilium/cilium:v1.16.3
-# cilium/cilium
-
-# cilium/operator
-FROM quay.io/cilium/operator:v1.16.3
-# cilium/operator
-
-# cilium/startup-script
-FROM quay.io/cilium/startup-script:1731057841-8572cc5
-# cilium/startup-script
-
-# cilium/certgen
-FROM quay.io/cilium/certgen:v0.2.1
-# cilium/certgen
-
-# cilium/cilium-envoy
-FROM quay.io/cilium/cilium-envoy:v1.30.7-1731393917-c35cf767a838c41c0363279d5939593e4fd1fc4e
-# cilium/cilium-envoy
-
-# cilium/hubble-relay
-FROM quay.io/cilium/hubble-relay:v1.16.3
-# cilium/hubble-relay
-
-# cilium/hubble-ui
-FROM quay.io/cilium/hubble-ui:v0.13.1
-# cilium/hubble-ui
-
-# cilium/hubble-ui-backend
-FROM quay.io/cilium/hubble-ui-backend:v0.13.1
-# cilium/hubble-ui-backend
-
-# spiffe/spire-server
-FROM ghcr.io/spiffe/spire-server:1.11.0
-# spiffe/spire-server
-
-# spiffe/spire-agent
-FROM ghcr.io/spiffe/spire-agent:1.11.0
-# spiffe/spire-agent
-
-# bitnami/cilium
-FROM bitnami/cilium:1.16.3
-# bitnami/cilium
-
-# bitnami/cilium-proxy
-FROM bitnami/cilium-proxy:1.29.10
-# bitnami/cilium-proxy
-
-# bitnami/cilium-operator
-FROM bitnami/cilium-operator:1.16.3
-# bitnami/cilium-operator
-
-# bitnami/hubble-relay
-FROM bitnami/hubble-relay:1.16.3
-# bitnami/hubble-relay
-
-# bitnami/hubble-ui
-FROM bitnami/hubble-ui:0.13.1
-# bitnami/hubble-ui
-
-# bitnami/hubble-ui-backend
-FROM bitnami/hubble-ui-backend:0.13.1
-# bitnami/hubble-ui-backend
-
 # velero/velero
 FROM velero/velero:v1.15.0
 # velero/velero
@@ -1213,14 +1073,6 @@ FROM hashicorp/vault-csi-provider:1.5.0
 # hashicorp/terraform-cloud-operator
 FROM hashicorp/terraform-cloud-operator:2.5.0
 # hashicorp/terraform-cloud-operator
-
-# strimzi/operator
-FROM quay.io/strimzi/operator:0.44.0
-# strimzi/operator
-
-# strimzi/kafka
-FROM quay.io/strimzi/kafka:0.44.0-kafka-3.8.0
-# strimzi/kafka
 
 # pause
 FROM registry.k8s.io/pause:3.10
@@ -1373,58 +1225,6 @@ FROM registry.k8s.io/sig-storage/snapshot-controller:v8.1.0
 # sig-storage/snapshot-validation-webhook
 FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.0
 # sig-storage/snapshot-validation-webhook
-
-# confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:2.9.3
-# confluentinc/confluent-init-container
-
-# confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.1033.33
-# confluentinc/confluent-operator
-
-# confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.7.1
-# confluentinc/cp-enterprise-control-center
-
-# confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.7.1
-# confluentinc/cp-enterprise-replicator
-
-# confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.7.1
-# confluentinc/cp-kafka-rest
-
-# confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.7.1
-# confluentinc/cp-ksqldb-server
-
-# confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.7.1
-# confluentinc/cp-ksqldb-cli
-
-# confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.7.1
-# confluentinc/cp-schema-registry
-
-# confluentinc/cp-server
-FROM confluentinc/cp-server:7.7.1
-# confluentinc/cp-server
-
-# confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.7.1
-# confluentinc/cp-server-connect
-
-# confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.7.1
-# confluentinc/cp-zookeeper
-
-# obsidiandynamics/kafdrop
-FROM obsidiandynamics/kafdrop:4.0.2
-# obsidiandynamics/kafdrop
-
-# tchiotludo/akhq
-FROM tchiotludo/akhq:0.25.1
-# tchiotludo/akhq
 
 # nvidia/gpu-operator
 FROM nvcr.io/nvidia/gpu-operator:v24.9.0
