@@ -63,7 +63,7 @@ FROM php:8.3.13-apache-bookworm
 # php
 
 # node
-FROM node:23.1.0-bookworm
+FROM node:23.2.0-bookworm
 # node
 
 # python
@@ -123,7 +123,7 @@ FROM quay.io/minio/minio:RELEASE.2024-11-07T00-52-20Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-11-05T11-29-45Z
+FROM quay.io/minio/mc:RELEASE.2024-11-17T19-35-25Z
 # minio/mc
 
 # minio/console
@@ -206,18 +206,6 @@ FROM httpd:2.4.62-alpine
 FROM tomcat:11.0.1-jdk21-temurin-noble
 # tomcat
 
-# m3db/m3coordinator
-FROM quay.io/m3db/m3coordinator:v1.5.0
-# m3db/m3coordinator
-
-# m3db/m3dbnode
-FROM quay.io/m3db/m3dbnode:v1.5.0
-# m3db/m3dbnode
-
-# braedon/prometheus-es-exporter
-FROM braedon/prometheus-es-exporter:0.14.1
-# braedon/prometheus-es-exporter
-
 # ribbybibby/ssl-exporter
 FROM ribbybibby/ssl-exporter:2.4.3
 # ribbybibby/ssl-exporter
@@ -229,10 +217,6 @@ FROM gcr.io/cadvisor/cadvisor:v0.51.0
 # prymitive/karma
 FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
-
-# cortexproject/cortex
-FROM quay.io/cortexproject/cortex:v1.18.1
-# cortexproject/cortex
 
 # elasticsearch/elasticsearch
 FROM docker.elastic.co/elasticsearch/elasticsearch:8.16.0
@@ -331,7 +315,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
 # gitlab-org/cluster-integration/auto-build-image
 
 # gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.110.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.112.0
 # gitlab-org/cluster-integration/auto-deploy-image
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -339,7 +323,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.4.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.6.0
 # gitlab-org/cluster-integration/cluster-applications
 
 # summerwind/actions-runner-controller
@@ -431,11 +415,11 @@ FROM strapi/strapi:3.6.8-alpine
 # strapi/strapi
 
 # ghost
-FROM ghost:5.101.1
+FROM ghost:5.101.2
 # ghost
 
 # bitnami/ghost
-FROM bitnami/ghost:5.101.1
+FROM bitnami/ghost:5.101.2
 # bitnami/ghost
 
 # matomo
@@ -447,7 +431,7 @@ FROM nocodb/nocodb:0.258.0
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.3.5
+FROM metabase/metabase:v0.51.3.6
 # metabase/metabase
 
 # docker
@@ -607,7 +591,7 @@ FROM bitnami/minio:2024.11.7
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.11.5
+FROM bitnami/minio-client:2024.11.17
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -679,7 +663,7 @@ FROM bitnami/sealed-secrets-controller:0.27.2
 # bitnami/sealed-secrets-controller
 
 # bitnami/trivy
-FROM bitnami/trivy:0.57.0
+FROM bitnami/trivy:0.57.1
 # bitnami/trivy
 
 # bitnami/kubectl
@@ -755,7 +739,7 @@ FROM goharbor/nginx-photon:v2.12.0
 # goharbor/nginx-photon
 
 # aquasec/trivy
-FROM aquasec/trivy:0.57.0
+FROM aquasec/trivy:0.57.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -827,7 +811,7 @@ FROM listmonk/listmonk:v4.1.0
 # listmonk/listmonk
 
 # vaultwarden/server
-FROM vaultwarden/server:1.32.4
+FROM vaultwarden/server:1.32.5
 # vaultwarden/server
 
 # boky/postfix
@@ -927,7 +911,7 @@ FROM syncthing/relaysrv:1.28.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.10.2
+FROM jellyfin/jellyfin:10.10.3
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -1227,7 +1211,7 @@ FROM supabase/gotrue:v2.164.0
 # supabase/gotrue
 
 # supabase/realtime
-FROM supabase/realtime:v2.33.48
+FROM supabase/realtime:v2.33.51
 # supabase/realtime
 
 # supabase/postgres-meta
@@ -1235,7 +1219,7 @@ FROM supabase/postgres-meta:v0.84.3
 # supabase/postgres-meta
 
 # supabase/storage-api
-FROM supabase/storage-api:v1.13.0
+FROM supabase/storage-api:v1.13.1
 # supabase/storage-api
 
 # supabase/logflare
@@ -1799,11 +1783,11 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.8-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.9-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.8-3.6.0-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.9-3.6.1-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
