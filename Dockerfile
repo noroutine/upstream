@@ -123,7 +123,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.78.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.3.0
+FROM grafana/grafana:11.3.1
 # grafana/grafana
 
 # nginxinc/nginx-unprivileged
@@ -359,7 +359,7 @@ FROM hasura/graphql-engine:v2.44.0
 # hasura/graphql-engine
 
 # stakater/reloader
-FROM stakater/reloader:v1.1.0
+FROM stakater/reloader:v1.2.0
 # stakater/reloader
 
 # jimmidyson/configmap-reload

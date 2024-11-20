@@ -1,5 +1,5 @@
 {
-  "version": "d3914c32",
+  "version": "e910a349",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -33,7 +33,7 @@
       "quay.io/prometheus/pushgateway:v1.10.0",
       "quay.io/prometheus-operator/prometheus-operator:v0.78.1",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.78.1",
-      "grafana/grafana:11.3.0",
+      "grafana/grafana:11.3.1",
       "nginxinc/nginx-unprivileged:1.27.2-alpine-slim",
       "ribbybibby/ssl-exporter:2.4.3",
       "ghcr.io/prymitive/karma:v0.120",
@@ -92,7 +92,7 @@
       "registry.k8s.io/csi-secrets-store/driver:v1.4.6",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.6",
       "hasura/graphql-engine:v2.44.0",
-      "stakater/reloader:v1.1.0",
+      "stakater/reloader:v1.2.0",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.41.1",
