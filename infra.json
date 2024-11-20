@@ -1,5 +1,5 @@
 {
-  "version": "b7dd771b",
+  "version": "4347a13f",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -44,7 +44,6 @@
       "mongo:8.0.3-noble",
       "wordpress:6.7.0-apache",
       "dpage/pgadmin4:8.13",
-      "adminer:4.8.1",
       "mysql:9.1.0",
       "mariadb:11.5.2-noble",
       "mccutchen/go-httpbin:v2.15.0",
@@ -52,10 +51,7 @@
       "gitlab/gitlab-runner:alpine-v17.5.3",
       "gitlab/gitlab-ce:17.5.2-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.3",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.112.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.2",
-      "registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.6.0",
       "quay.io/brancz/kube-rbac-proxy:v0.18.1",
       "pihole/pihole:2024.07.0",
       "klutchell/unbound:v1.22.0",

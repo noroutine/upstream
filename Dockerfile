@@ -166,10 +166,6 @@ FROM wordpress:6.7.0-apache
 FROM dpage/pgadmin4:8.13
 # dpage/pgadmin4
 
-# adminer
-FROM adminer:4.8.1
-# adminer
-
 # mysql
 FROM mysql:9.1.0
 # mysql
@@ -198,21 +194,9 @@ FROM gitlab/gitlab-ce:17.5.2-ce.0
 FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.3
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
-# gitlab-org/cluster-integration/auto-build-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v4.4.0
-# gitlab-org/cluster-integration/auto-build-image
-
-# gitlab-org/cluster-integration/auto-deploy-image
-FROM registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v2.112.0
-# gitlab-org/cluster-integration/auto-deploy-image
-
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-
-# gitlab-org/cluster-integration/cluster-applications
-FROM registry.gitlab.com/gitlab-org/cluster-integration/cluster-applications:v2.6.0
-# gitlab-org/cluster-integration/cluster-applications
 
 # brancz/kube-rbac-proxy
 FROM quay.io/brancz/kube-rbac-proxy:v0.18.1
