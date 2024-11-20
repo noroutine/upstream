@@ -459,7 +459,7 @@ FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
 
 # outlinewiki/outline
-FROM outlinewiki/outline:0.81.0
+FROM outlinewiki/outline:0.81.1
 # outlinewiki/outline
 
 # syncthing/syncthing
@@ -647,19 +647,19 @@ FROM registry.k8s.io/coredns/coredns:v1.11.4
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.2
+FROM registry.k8s.io/kube-apiserver:v1.31.3
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.2
+FROM registry.k8s.io/kube-proxy:v1.31.3
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.2
+FROM registry.k8s.io/kube-scheduler:v1.31.3
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.2
+FROM registry.k8s.io/kube-controller-manager:v1.31.3
 # kube-controller-manager
 
 # tigera/operator
