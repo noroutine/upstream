@@ -294,10 +294,6 @@ FROM bitnami/keycloak:26.0.5
 FROM bitnami/keycloak-config-cli:6.1.6
 # bitnami/keycloak-config-cli
 
-# bitnami/mariadb
-FROM bitnami/mariadb:11.5.2
-# bitnami/mariadb
-
 # bitnami/memcached
 FROM bitnami/memcached:1.6.32
 # bitnami/memcached
@@ -353,10 +349,6 @@ FROM bitnami/kube-rbac-proxy:0.18.1
 # bitnami/openldap
 FROM bitnami/openldap:2.6.8
 # bitnami/openldap
-
-# bitnami/sealed-secrets-controller
-FROM bitnami/sealed-secrets-controller:0.27.2
-# bitnami/sealed-secrets-controller
 
 # bitnami/kubectl
 FROM bitnami/kubectl:1.31.2

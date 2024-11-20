@@ -1,5 +1,5 @@
 {
-  "version": "570ad8fd",
+  "version": "b7dd771b",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -76,7 +76,6 @@
       "bitnami/jmx-exporter:1.0.1",
       "bitnami/keycloak:26.0.5",
       "bitnami/keycloak-config-cli:6.1.6",
-      "bitnami/mariadb:11.5.2",
       "bitnami/memcached:1.6.32",
       "bitnami/nginx-ingress-controller:1.11.3",
       "bitnami/nginx:1.27.2",
@@ -91,7 +90,6 @@
       "bitnami/metrics-server:0.7.2",
       "bitnami/kube-rbac-proxy:0.18.1",
       "bitnami/openldap:2.6.8",
-      "bitnami/sealed-secrets-controller:0.27.2",
       "bitnami/kubectl:1.31.2",
       "aquasec/trivy:0.57.1",
       "ghcr.io/external-secrets/external-secrets:v0.10.5",
