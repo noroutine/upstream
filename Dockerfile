@@ -671,7 +671,7 @@ FROM registry.k8s.io/coredns/coredns:v1.11.4
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.2
+FROM registry.k8s.io/kube-apiserver:v1.31.3
 # kube-apiserver
 
 # kube-proxy
