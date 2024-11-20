@@ -123,7 +123,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.78.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.3.0
+FROM grafana/grafana:11.3.1
 # grafana/grafana
 
 # nginxinc/nginx-unprivileged
