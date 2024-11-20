@@ -1,5 +1,5 @@
 {
-  "version": "26c71a7e",
+  "version": "d3914c32",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -14,7 +14,7 @@
       "golang:1.23.3-alpine",
       "traefik:v3.2.0",
       "sonatype/nexus3:3.74.0",
-      "squidfunk/mkdocs-material:9.5.44",
+      "squidfunk/mkdocs-material:9.5.45",
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:26.0.5",
       "postgres:17.1-bookworm",
@@ -51,7 +51,7 @@
       "gitlab/gitlab-runner:alpine-v17.5.3",
       "gitlab/gitlab-ce:17.5.2-ce.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.3",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.5.2",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.6.0",
       "quay.io/brancz/kube-rbac-proxy:v0.18.1",
       "pihole/pihole:2024.07.0",
       "klutchell/unbound:v1.22.0",
