@@ -227,11 +227,11 @@ FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # nocodb/nocodb
-FROM nocodb/nocodb:0.258.0
+FROM nocodb/nocodb:0.258.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.3.6
+FROM metabase/metabase:v0.51.4.1
 # metabase/metabase
 
 # docker
@@ -527,7 +527,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.485-jdk21
+FROM jenkins/jenkins:2.486-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -583,7 +583,7 @@ FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
 # changemakerstudiosus/papercut-smtp
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.11.0
+FROM cloudflare/cloudflared:2024.11.1
 # cloudflare/cloudflared
 
 # netsampler/goflow2
