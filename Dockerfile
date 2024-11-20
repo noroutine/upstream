@@ -359,7 +359,7 @@ FROM hasura/graphql-engine:v2.44.0
 # hasura/graphql-engine
 
 # stakater/reloader
-FROM stakater/reloader:v1.1.0
+FROM stakater/reloader:v1.2.0
 # stakater/reloader
 
 # jimmidyson/configmap-reload
