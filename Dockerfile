@@ -183,7 +183,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.5.3
+FROM gitlab/gitlab-runner:alpine-v17.6.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
