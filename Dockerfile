@@ -607,7 +607,7 @@ FROM rspamd/rspamd:3.10.2
 # rspamd/rspamd
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.16.1
+FROM quay.io/jetstack/cert-manager-controller:v1.16.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
