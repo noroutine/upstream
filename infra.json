@@ -1,5 +1,5 @@
 {
-  "version": "d8a5af7a",
+  "version": "dafc9ed6",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -31,8 +31,8 @@
       "quay.io/prometheus/snmp-exporter:v0.26.0",
       "quay.io/prometheus/memcached-exporter:v0.15.0",
       "quay.io/prometheus/pushgateway:v1.10.0",
-      "quay.io/prometheus-operator/prometheus-operator:v0.78.1",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.78.1",
+      "quay.io/prometheus-operator/prometheus-operator:v0.78.2",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.78.2",
       "grafana/grafana:11.3.1",
       "nginxinc/nginx-unprivileged:1.27.2-alpine-slim",
       "ribbybibby/ssl-exporter:2.4.3",
