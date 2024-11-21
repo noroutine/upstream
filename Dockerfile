@@ -39,7 +39,7 @@ FROM golang:1.23.3-alpine
 # golang
 
 # traefik
-FROM traefik:v3.2.0
+FROM traefik:v3.2.1
 # traefik
 
 # sonatype/nexus3
@@ -183,7 +183,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.5.3
+FROM gitlab/gitlab-runner:alpine-v17.6.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
@@ -191,7 +191,7 @@ FROM gitlab/gitlab-ce:17.5.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.5.3
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.6.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -215,7 +215,7 @@ FROM nocodb/nocodb:0.258.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.4.1
+FROM metabase/metabase:v0.51.4.2
 # metabase/metabase
 
 # docker
@@ -335,7 +335,7 @@ FROM bitnami/openldap:2.6.8
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.2
+FROM bitnami/kubectl:1.31.3
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -607,15 +607,15 @@ FROM rspamd/rspamd:3.10.2
 # rspamd/rspamd
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.16.1
+FROM quay.io/jetstack/cert-manager-controller:v1.16.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.16.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.16.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.16.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.16.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
@@ -663,47 +663,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.3
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.36.1
+FROM quay.io/tigera/operator:v1.36.2
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.29.0
+FROM calico/typha:v3.29.1
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.29.0
+FROM calico/ctl:v3.29.1
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.29.0
+FROM calico/node:v3.29.1
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.29.0
+FROM calico/cni:v3.29.1
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.29.0
+FROM calico/apiserver:v3.29.1
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.29.0
+FROM calico/kube-controllers:v3.29.1
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.29.0
+FROM calico/dikastes:v3.29.1
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.29.0
+FROM calico/pod2daemon-flexvol:v3.29.1
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.29.0
+FROM calico/node-driver-registrar:v3.29.1
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.29.0
+FROM calico/csi:v3.29.1
 # calico/csi
 
 # nfd/node-feature-discovery
