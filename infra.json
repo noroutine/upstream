@@ -1,5 +1,5 @@
 {
-  "version": "86ca3dda",
+  "version": "d8a5af7a",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -37,9 +37,9 @@
       "nginxinc/nginx-unprivileged:1.27.2-alpine-slim",
       "ribbybibby/ssl-exporter:2.4.3",
       "ghcr.io/prymitive/karma:v0.120",
-      "docker.elastic.co/elasticsearch/elasticsearch:8.16.0",
-      "docker.elastic.co/logstash/logstash:8.16.0",
-      "docker.elastic.co/kibana/kibana:8.16.0",
+      "docker.elastic.co/elasticsearch/elasticsearch:8.16.1",
+      "docker.elastic.co/logstash/logstash:8.16.1",
+      "docker.elastic.co/kibana/kibana:8.16.1",
       "alerta/alerta-web:9.0.4",
       "mongo:8.0.3-noble",
       "wordpress:6.7.0-apache",

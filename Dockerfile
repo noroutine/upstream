@@ -139,15 +139,15 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.16.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.16.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.16.0
+FROM docker.elastic.co/logstash/logstash:8.16.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.16.0
+FROM docker.elastic.co/kibana/kibana:8.16.1
 # kibana/kibana
 
 # alerta/alerta-web
