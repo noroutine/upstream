@@ -335,7 +335,7 @@ FROM bitnami/openldap:2.6.8
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.2
+FROM bitnami/kubectl:1.31.3
 # bitnami/kubectl
 
 # aquasec/trivy
