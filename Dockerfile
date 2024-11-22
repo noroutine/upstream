@@ -19,7 +19,7 @@ FROM php:8.3.13-apache-bookworm
 # php
 
 # node
-FROM node:23.2.0-bookworm
+FROM node:23.3.0-bookworm
 # node
 
 # python
