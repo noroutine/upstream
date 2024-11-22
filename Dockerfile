@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # php
-FROM php:8.3.13-apache-bookworm
+FROM php:8.4.1-apache-bookworm
 # php
 
 # node
-FROM node:23.2.0-bookworm
+FROM node:23.3.0-bookworm
 # node
 
 # python
@@ -187,7 +187,7 @@ FROM gitlab/gitlab-runner:alpine-v17.6.0
 # gitlab/gitlab-runner
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.5.2-ce.0
+FROM gitlab/gitlab-ce:17.6.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -215,7 +215,7 @@ FROM nocodb/nocodb:0.258.2
 # nocodb/nocodb
 
 # metabase/metabase
-FROM metabase/metabase:v0.51.4.2
+FROM metabase/metabase:v0.51.4.3
 # metabase/metabase
 
 # docker
@@ -227,11 +227,11 @@ FROM bitnami/spark:3.5.3
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.55.1
+FROM bitnami/prometheus:3.0.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.78.1
+FROM bitnami/prometheus-operator:0.78.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -627,7 +627,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.18.1
+FROM hashicorp/vault:1.18.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
