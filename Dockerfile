@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # php
-FROM php:8.3.13-apache-bookworm
+FROM php:8.4.1-apache-bookworm
 # php
 
 # node
