@@ -231,7 +231,7 @@ FROM bitnami/prometheus:2.55.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.78.1
+FROM bitnami/prometheus-operator:0.78.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
