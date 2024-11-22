@@ -150,6 +150,10 @@ FROM docker.elastic.co/logstash/logstash:8.16.1
 FROM docker.elastic.co/kibana/kibana:8.16.1
 # kibana/kibana
 
+# apm/apm-server
+FROM docker.elastic.co/apm/apm-server:8.16.1
+# apm/apm-server
+
 # alerta/alerta-web
 FROM alerta/alerta-web:9.0.4
 # alerta/alerta-web
