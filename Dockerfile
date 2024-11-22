@@ -227,7 +227,7 @@ FROM bitnami/spark:3.5.3
 # bitnami/spark
 
 # bitnami/prometheus
-FROM bitnami/prometheus:2.55.1
+FROM bitnami/prometheus:3.0.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
