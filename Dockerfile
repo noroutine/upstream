@@ -154,6 +154,10 @@ FROM docker.elastic.co/kibana/kibana:8.16.1
 FROM docker.elastic.co/apm/apm-server:8.16.1
 # apm/apm-server
 
+# beats/elastic-agent
+FROM docker.elastic.co/beats/elastic-agent:8.16.1
+# beats/elastic-agent
+
 # alerta/alerta-web
 FROM alerta/alerta-web:9.0.4
 # alerta/alerta-web
@@ -163,7 +167,7 @@ FROM mongo:8.0.3-noble
 # mongo
 
 # wordpress
-FROM wordpress:6.7.0-apache
+FROM wordpress:6.7.1-apache
 # wordpress
 
 # dpage/pgadmin4
@@ -259,15 +263,15 @@ FROM bitnami/redis-exporter:1.66.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.9.0
+FROM bitnami/postgresql:15.10.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.5.0
+FROM bitnami/postgresql:16.6.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:17.1.0
+FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
 # bitnami/jmx-exporter

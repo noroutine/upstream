@@ -1,5 +1,5 @@
 {
-  "version": "d93a0822",
+  "version": "eaba62a4",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -41,9 +41,10 @@
       "docker.elastic.co/logstash/logstash:8.16.1",
       "docker.elastic.co/kibana/kibana:8.16.1",
       "docker.elastic.co/apm/apm-server:8.16.1",
+      "docker.elastic.co/beats/elastic-agent:8.16.1",
       "alerta/alerta-web:9.0.4",
       "mongo:8.0.3-noble",
-      "wordpress:6.7.0-apache",
+      "wordpress:6.7.1-apache",
       "dpage/pgadmin4:8.13",
       "mysql:9.1.0",
       "mariadb:11.5.2-noble",
@@ -67,9 +68,9 @@
       "bitnami/postgres-exporter:0.16.0",
       "bitnami/redis:7.4.1",
       "bitnami/redis-exporter:1.66.0",
-      "bitnami/postgresql:15.9.0",
-      "bitnami/postgresql:16.5.0",
-      "bitnami/postgresql:17.1.0",
+      "bitnami/postgresql:15.10.0",
+      "bitnami/postgresql:16.6.0",
+      "bitnami/postgresql:17.2.0",
       "bitnami/jmx-exporter:1.0.1",
       "bitnami/keycloak:26.0.6",
       "bitnami/keycloak-config-cli:6.1.6",
