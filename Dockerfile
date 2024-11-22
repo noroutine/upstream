@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.0.5
+FROM quay.io/keycloak/keycloak:26.0.6
 # keycloak/keycloak
 
 # postgres
@@ -271,7 +271,7 @@ FROM bitnami/jmx-exporter:1.0.1
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.0.5
+FROM bitnami/keycloak:26.0.6
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -515,7 +515,7 @@ FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
 # jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.6
+FROM netboxcommunity/netbox:v4.1.7
 # netboxcommunity/netbox
 
 # postgrest/postgrest

@@ -1,5 +1,5 @@
 {
-  "version": "fefa4c31",
+  "version": "f27cfbad",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -16,7 +16,7 @@
       "sonatype/nexus3:3.74.0",
       "squidfunk/mkdocs-material:9.5.45",
       "freeradius/freeradius-server:3.2.6-alpine",
-      "quay.io/keycloak/keycloak:26.0.5",
+      "quay.io/keycloak/keycloak:26.0.6",
       "postgres:17.1-bookworm",
       "nextcloud:30.0.2-apache",
       "haproxytech/haproxy-debian:3.1",
@@ -70,7 +70,7 @@
       "bitnami/postgresql:16.5.0",
       "bitnami/postgresql:17.1.0",
       "bitnami/jmx-exporter:1.0.1",
-      "bitnami/keycloak:26.0.5",
+      "bitnami/keycloak:26.0.6",
       "bitnami/keycloak-config-cli:6.1.6",
       "bitnami/memcached:1.6.32",
       "bitnami/nginx-ingress-controller:1.11.3",
@@ -131,7 +131,7 @@
       "jenkins/jenkins:2.486-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "quay.io/jenkins-kubernetes-operator/operator:v0.8.1",
-      "netboxcommunity/netbox:v4.1.6",
+      "netboxcommunity/netbox:v4.1.7",
       "postgrest/postgrest:v12.2.3",
       "quay.io/cephcsi/cephcsi:v3.12.2",
       "ghcr.io/zitadel/zitadel:v2.65.1",
