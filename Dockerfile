@@ -223,7 +223,7 @@ FROM docker:27.3.1-dind
 # docker
 
 # bitnami/spark
-FROM bitnami/spark:3.5.3
+FROM bitnami/spark:3.1.2-debian-10-r0
 # bitnami/spark
 
 # bitnami/prometheus
@@ -267,7 +267,7 @@ FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
 # bitnami/jmx-exporter
-FROM bitnami/jmx-exporter:1.0.1
+FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
 # bitnami/jmx-exporter
 
 # bitnami/keycloak
@@ -353,10 +353,6 @@ FROM registry.k8s.io/csi-secrets-store/driver:v1.4.6
 # csi-secrets-store/driver-crds
 FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.6
 # csi-secrets-store/driver-crds
-
-# hasura/graphql-engine
-FROM hasura/graphql-engine:v2.44.0
-# hasura/graphql-engine
 
 # stakater/reloader
 FROM stakater/reloader:v1.2.0
@@ -481,10 +477,6 @@ FROM curlimages/curl:8.11.0
 # restic/restic
 FROM restic/restic:0.17.3
 # restic/restic
-
-# yugabytedb/yugabyte
-FROM yugabytedb/yugabyte:2.21.0.1-b1
-# yugabytedb/yugabyte
 
 # coturn/coturn
 FROM coturn/coturn:4.6.2
