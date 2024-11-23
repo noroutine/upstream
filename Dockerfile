@@ -14,10 +14,6 @@ FROM alpine:3.20.3
 FROM busybox:1.37.0
 # busybox
 
-# php
-FROM php:8.4.1-apache-bookworm
-# php
-
 # node
 FROM node:23.3.0-bookworm
 # node
@@ -59,16 +55,8 @@ FROM quay.io/keycloak/keycloak:26.0.6
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.1-bookworm
+FROM postgres:17.2-bookworm
 # postgres
-
-# nextcloud
-FROM nextcloud:30.0.2-apache
-# nextcloud
-
-# haproxytech/haproxy-debian
-FROM haproxytech/haproxy-debian:3.1
-# haproxytech/haproxy-debian
 
 # minio/minio
 FROM quay.io/minio/minio:RELEASE.2024-11-07T00-52-20Z
@@ -106,10 +94,6 @@ FROM quay.io/prometheus/blackbox-exporter:v0.25.0
 FROM quay.io/prometheus/snmp-exporter:v0.26.0
 # prometheus/snmp-exporter
 
-# prometheus/memcached-exporter
-FROM quay.io/prometheus/memcached-exporter:v0.15.0
-# prometheus/memcached-exporter
-
 # prometheus/pushgateway
 FROM quay.io/prometheus/pushgateway:v1.10.0
 # prometheus/pushgateway
@@ -125,14 +109,6 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.78.2
 # grafana/grafana
 FROM grafana/grafana:11.3.1
 # grafana/grafana
-
-# nginxinc/nginx-unprivileged
-FROM nginxinc/nginx-unprivileged:1.27.2-alpine-slim
-# nginxinc/nginx-unprivileged
-
-# ribbybibby/ssl-exporter
-FROM ribbybibby/ssl-exporter:2.4.3
-# ribbybibby/ssl-exporter
 
 # prymitive/karma
 FROM ghcr.io/prymitive/karma:v0.120
@@ -158,29 +134,13 @@ FROM docker.elastic.co/apm/apm-server:8.16.1
 FROM docker.elastic.co/beats/elastic-agent:8.16.1
 # beats/elastic-agent
 
-# alerta/alerta-web
-FROM alerta/alerta-web:9.0.4
-# alerta/alerta-web
-
 # mongo
 FROM mongo:8.0.3-noble
 # mongo
 
-# wordpress
-FROM wordpress:6.7.1-apache
-# wordpress
-
 # dpage/pgadmin4
 FROM dpage/pgadmin4:8.13
 # dpage/pgadmin4
-
-# mysql
-FROM mysql:9.1.0
-# mysql
-
-# mariadb
-FROM mariadb:11.5.2-noble
-# mariadb
 
 # mccutchen/go-httpbin
 FROM mccutchen/go-httpbin:v2.15.0
@@ -190,13 +150,13 @@ FROM mccutchen/go-httpbin:v2.15.0
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
-# gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.6.0
-# gitlab/gitlab-runner
-
 # gitlab/gitlab-ce
 FROM gitlab/gitlab-ce:17.6.0-ce.0
 # gitlab/gitlab-ce
+
+# gitlab/gitlab-runner
+FROM gitlab/gitlab-runner:alpine-v17.6.0
+# gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.6.0
@@ -221,10 +181,6 @@ FROM klutchell/unbound:v1.22.0
 # docker
 FROM docker:27.3.1-dind
 # docker
-
-# bitnami/spark
-FROM bitnami/spark:3.1.2-debian-10-r0
-# bitnami/spark
 
 # bitnami/prometheus
 FROM bitnami/prometheus:3.0.0
@@ -266,10 +222,6 @@ FROM bitnami/postgresql:16.6.0
 FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
-# bitnami/jmx-exporter
-FROM bitnami/jmx-exporter:0.18.0-debian-11-r10
-# bitnami/jmx-exporter
-
 # bitnami/keycloak
 FROM bitnami/keycloak:26.0.6
 # bitnami/keycloak
@@ -278,17 +230,9 @@ FROM bitnami/keycloak:26.0.6
 FROM bitnami/keycloak-config-cli:6.1.6
 # bitnami/keycloak-config-cli
 
-# bitnami/memcached
-FROM bitnami/memcached:1.6.32
-# bitnami/memcached
-
 # bitnami/nginx-ingress-controller
 FROM bitnami/nginx-ingress-controller:1.11.3
 # bitnami/nginx-ingress-controller
-
-# bitnami/nginx
-FROM bitnami/nginx:1.27.2
-# bitnami/nginx
 
 # bitnami/minio
 FROM bitnami/minio:2024.11.7
@@ -343,7 +287,7 @@ FROM aquasec/trivy:0.57.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.10.6
+FROM ghcr.io/external-secrets/external-secrets:v0.10.7
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -378,21 +322,9 @@ FROM quay.io/argoproj/argocd:v2.13.1
 FROM redis:7.4.1
 # redis
 
-# vaultwarden/server
-FROM vaultwarden/server:1.32.5
-# vaultwarden/server
-
 # boky/postfix
 FROM boky/postfix:v4.3.0
 # boky/postfix
-
-# cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.6.1
-# cupcakearmy/cryptgeon
-
-# memcached
-FROM memcached:1.6.32
-# memcached
 
 # connecteverything/nats-operator
 FROM connecteverything/nats-operator:0.8.0
@@ -438,14 +370,6 @@ FROM eclipse-temurin:23-noble
 FROM elastic/eck-operator:2.15.0
 # elastic/eck-operator
 
-# louislam/uptime-kuma
-FROM louislam/uptime-kuma:1.23.15-alpine
-# louislam/uptime-kuma
-
-# hadolint/hadolint
-FROM hadolint/hadolint:v2.12.1-beta
-# hadolint/hadolint
-
 # syncthing/syncthing
 FROM syncthing/syncthing:1.28.0
 # syncthing/syncthing
@@ -489,10 +413,6 @@ FROM jenkins/jenkins:2.486-jdk21
 # jenkins/agent
 FROM jenkins/agent:bookworm-jdk21
 # jenkins/agent
-
-# jenkins-kubernetes-operator/operator
-FROM quay.io/jenkins-kubernetes-operator/operator:v0.8.1
-# jenkins-kubernetes-operator/operator
 
 # netboxcommunity/netbox
 FROM netboxcommunity/netbox:v4.1.7
