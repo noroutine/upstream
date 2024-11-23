@@ -218,14 +218,6 @@ FROM pihole/pihole:2024.07.0
 FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
-# nocodb/nocodb
-FROM nocodb/nocodb:0.258.2
-# nocodb/nocodb
-
-# metabase/metabase
-FROM metabase/metabase:v0.51.4.3
-# metabase/metabase
-
 # docker
 FROM docker:27.3.1-dind
 # docker
@@ -438,14 +430,6 @@ FROM sapcc/mosquitto-exporter:0.8.0
 FROM caddy:2.8.4-alpine
 # caddy
 
-# kaniko-project/executor
-FROM gcr.io/kaniko-project/executor:v1.23.2
-# kaniko-project/executor
-
-# iovisor/bpftrace
-FROM quay.io/iovisor/bpftrace:v0.19.1
-# iovisor/bpftrace
-
 # azul/zulu-openjdk
 FROM azul/zulu-openjdk:23.0.1-23.30
 # azul/zulu-openjdk
@@ -465,10 +449,6 @@ FROM louislam/uptime-kuma:1.23.15-alpine
 # hadolint/hadolint
 FROM hadolint/hadolint:v2.12.1-beta
 # hadolint/hadolint
-
-# outlinewiki/outline
-FROM outlinewiki/outline:0.81.1
-# outlinewiki/outline
 
 # syncthing/syncthing
 FROM syncthing/syncthing:1.28.0

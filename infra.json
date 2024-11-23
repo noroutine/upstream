@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.361",
+  "version": "6433cbd1",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -57,8 +57,6 @@
       "quay.io/brancz/kube-rbac-proxy:v0.18.1",
       "pihole/pihole:2024.07.0",
       "klutchell/unbound:v1.22.0",
-      "nocodb/nocodb:0.258.2",
-      "metabase/metabase:v0.51.4.3",
       "docker:27.3.1-dind",
       "bitnami/spark:3.5.3",
       "bitnami/prometheus:3.0.0",
@@ -112,14 +110,11 @@
       "eclipse-mosquitto:2.0.20-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.8.4-alpine",
-      "gcr.io/kaniko-project/executor:v1.23.2",
-      "quay.io/iovisor/bpftrace:v0.19.1",
       "azul/zulu-openjdk:23.0.1-23.30",
       "eclipse-temurin:23-noble",
       "elastic/eck-operator:2.15.0",
       "louislam/uptime-kuma:1.23.15-alpine",
       "hadolint/hadolint:v2.12.1-beta",
-      "outlinewiki/outline:0.81.1",
       "syncthing/syncthing:1.28.0",
       "syncthing/discosrv:1.28.0",
       "syncthing/relaysrv:1.28.0",
