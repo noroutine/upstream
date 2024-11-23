@@ -426,10 +426,6 @@ FROM postgrest/postgrest:v12.2.3
 FROM quay.io/cephcsi/cephcsi:v3.12.2
 # cephcsi/cephcsi
 
-# zitadel/zitadel
-FROM ghcr.io/zitadel/zitadel:v2.65.1
-# zitadel/zitadel
-
 # homeassistant/home-assistant
 FROM homeassistant/home-assistant:2024.11
 # homeassistant/home-assistant
@@ -446,65 +442,13 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 FROM gitea/gitea:1.22.3-rootless
 # gitea/gitea
 
-# paperlessngx/paperless-ngx
-FROM paperlessngx/paperless-ngx:2.13.5
-# paperlessngx/paperless-ngx
-
-# roundcube/roundcubemail
-FROM roundcube/roundcubemail:1.6.9-apache
-# roundcube/roundcubemail
-
-# changemakerstudiosus/papercut-smtp
-FROM changemakerstudiosus/papercut-smtp:7.0.0-rc1
-# changemakerstudiosus/papercut-smtp
-
 # cloudflare/cloudflared
 FROM cloudflare/cloudflared:2024.11.1
 # cloudflare/cloudflared
 
-# netsampler/goflow2
-FROM netsampler/goflow2:v2.2.1
-# netsampler/goflow2
-
-# corentinth/it-tools
-FROM ghcr.io/corentinth/it-tools:2024.5.13-a0bc346
-# corentinth/it-tools
-
-# openbgpd/openbgpd
-FROM quay.io/openbgpd/openbgpd:8.6
-# openbgpd/openbgpd
-
-# swaggerapi/swagger-ui
-FROM swaggerapi/swagger-ui:v5.18.2
-# swaggerapi/swagger-ui
-
 # git-sync/git-sync
 FROM registry.k8s.io/git-sync/git-sync:v4.3.0
 # git-sync/git-sync
-
-# nodemailer/wildduck
-FROM nodemailer/wildduck:1.45.3
-# nodemailer/wildduck
-
-# nodemailer/wildduck-webmail
-FROM nodemailer/wildduck-webmail:1.0.1
-# nodemailer/wildduck-webmail
-
-# nodemailer/zonemta-wildduck
-FROM nodemailer/zonemta-wildduck:2.4.3
-# nodemailer/zonemta-wildduck
-
-# nodemailer/haraka-wildduck
-FROM nodemailer/haraka-wildduck:2.8.27
-# nodemailer/haraka-wildduck
-
-# nodemailer/rspamd
-FROM nodemailer/rspamd:2.7.0
-# nodemailer/rspamd
-
-# rspamd/rspamd
-FROM rspamd/rspamd:3.10.2
-# rspamd/rspamd
 
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.16.2
