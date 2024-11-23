@@ -179,7 +179,7 @@ FROM mysql:9.1.0
 # mysql
 
 # mariadb
-FROM mariadb:11.5.2-noble
+FROM mariadb:11.6.2-noble
 # mariadb
 
 # mccutchen/go-httpbin
