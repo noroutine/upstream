@@ -59,7 +59,7 @@ FROM quay.io/keycloak/keycloak:26.0.6
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.1-bookworm
+FROM postgres:17.2-bookworm
 # postgres
 
 # nextcloud
