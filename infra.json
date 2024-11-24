@@ -1,5 +1,5 @@
 {
-  "version": "f920d5e0",
+  "version": "v0.0.362",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
