@@ -43,7 +43,7 @@ FROM sonatype/nexus3:3.74.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.45
+FROM squidfunk/mkdocs-material:9.5.46
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -423,7 +423,7 @@ FROM postgrest/postgrest:v12.2.3
 # postgrest/postgrest
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.12.2
+FROM quay.io/cephcsi/cephcsi:v3.12.3
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
@@ -439,7 +439,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.22.3-rootless
+FROM gitea/gitea:1.22.4-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared

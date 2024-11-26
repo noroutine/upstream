@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.362",
+  "version": "a33b53cd",
   "upstream": {
     "images": [
       "debian:bookworm-20241111-slim",
@@ -13,7 +13,7 @@
       "golang:1.23.3-alpine",
       "traefik:v3.2.1",
       "sonatype/nexus3:3.74.0",
-      "squidfunk/mkdocs-material:9.5.45",
+      "squidfunk/mkdocs-material:9.5.46",
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:26.0.6",
       "postgres:17.2-bookworm",
@@ -108,11 +108,11 @@
       "jenkins/agent:bookworm-jdk21",
       "netboxcommunity/netbox:v4.1.7",
       "postgrest/postgrest:v12.2.3",
-      "quay.io/cephcsi/cephcsi:v3.12.2",
+      "quay.io/cephcsi/cephcsi:v3.12.3",
       "homeassistant/home-assistant:2024.11",
       "koenkk/zigbee2mqtt:1.41.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.9.0",
-      "gitea/gitea:1.22.3-rootless",
+      "gitea/gitea:1.22.4-rootless",
       "cloudflare/cloudflared:2024.11.1",
       "registry.k8s.io/git-sync/git-sync:v4.3.0",
       "quay.io/jetstack/cert-manager-controller:v1.16.2",
