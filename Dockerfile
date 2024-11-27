@@ -151,7 +151,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.6.0-ce.0
+FROM gitlab/gitlab-ce:17.6.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.6.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.6.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -275,7 +275,7 @@ FROM bitnami/kube-rbac-proxy:0.18.1
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.8
+FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
@@ -507,7 +507,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.3
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.36.2
+FROM quay.io/tigera/operator:v1.36.3
 # tigera/operator
 
 # calico/typha
