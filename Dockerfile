@@ -275,7 +275,7 @@ FROM bitnami/kube-rbac-proxy:0.18.1
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
-FROM bitnami/openldap:2.6.8
+FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
