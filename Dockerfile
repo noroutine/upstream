@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.18.1
+FROM quay.io/brancz/kube-rbac-proxy:v0.18.2
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
@@ -275,7 +275,7 @@ FROM bitnami/metrics-server:0.7.2
 # bitnami/metrics-server
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.18.1
+FROM bitnami/kube-rbac-proxy:0.18.2
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
