@@ -75,7 +75,7 @@ FROM quay.io/coreos/etcd:v3.5.17
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.0.0
+FROM quay.io/prometheus/prometheus:v3.0.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -178,12 +178,16 @@ FROM pihole/pihole:2024.07.0
 FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
+# nextcloud
+FROM nextcloud:30.0.2-apache
+# nextcloud
+
 # docker
 FROM docker:27.3.1-dind
 # docker
 
 # bitnami/prometheus
-FROM bitnami/prometheus:3.0.0
+FROM bitnami/prometheus:3.0.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -407,7 +411,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.486-jdk21
+FROM jenkins/jenkins:2.487-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -487,7 +491,7 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.11.4
+FROM registry.k8s.io/coredns/coredns:v1.12.0
 # coredns/coredns
 
 # kube-apiserver
