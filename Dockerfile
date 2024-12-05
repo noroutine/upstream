@@ -19,11 +19,11 @@ FROM node:23.3.0-bookworm
 # node
 
 # python
-FROM python:3.13.0-bookworm
+FROM python:3.13.1-bookworm
 # python
 
 # python
-FROM python:3.13.0-slim-bookworm
+FROM python:3.13.1-slim-bookworm
 # python
 
 # golang
