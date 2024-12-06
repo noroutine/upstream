@@ -1,5 +1,5 @@
 {
-  "version": "bc6cf98b",
+  "version": "26f20563",
   "upstream": {
     "images": [
       "debian:bookworm-20241202-slim",
@@ -47,7 +47,7 @@
       "quay.io/brancz/kube-rbac-proxy:v0.18.2",
       "pihole/pihole:2024.07.0",
       "klutchell/unbound:v1.22.0",
-      "nextcloud:30.0.2-apache",
+      "nextcloud:30.0.3-apache",
       "docker:27.3.1-dind",
       "bitnami/prometheus:3.0.1",
       "bitnami/prometheus-operator:0.78.2",
@@ -88,7 +88,7 @@
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.22-alpine",
       "natsio/prometheus-nats-exporter:0.15.0",
-      "natsio/nats-server-config-reloader:0.16.0",
+      "natsio/nats-server-config-reloader:0.16.1",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.20-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
