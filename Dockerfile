@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20241111-slim
+FROM debian:bookworm-20241202-slim
 # debian
 
 # ubuntu
@@ -7,7 +7,7 @@ FROM ubuntu:noble-20241015
 # ubuntu
 
 # alpine
-FROM alpine:3.20.3
+FROM alpine:3.21.0
 # alpine
 
 # busybox
@@ -19,19 +19,19 @@ FROM node:23.3.0-bookworm
 # node
 
 # python
-FROM python:3.13.0-bookworm
+FROM python:3.13.1-bookworm
 # python
 
 # python
-FROM python:3.13.0-slim-bookworm
+FROM python:3.13.1-slim-bookworm
 # python
 
 # golang
-FROM golang:1.23.3-bookworm
+FROM golang:1.23.4-bookworm
 # golang
 
 # golang
-FROM golang:1.23.3-alpine
+FROM golang:1.23.4-alpine
 # golang
 
 # traefik
@@ -39,11 +39,11 @@ FROM traefik:v3.2.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.74.0
+FROM sonatype/nexus3:3.75.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.46
+FROM squidfunk/mkdocs-material:9.5.47
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -51,7 +51,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.0.6
+FROM quay.io/keycloak/keycloak:26.0.7
 # keycloak/keycloak
 
 # postgres
@@ -107,7 +107,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.78.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.3.1
+FROM grafana/grafana:11.4.0
 # grafana/grafana
 
 # prymitive/karma
@@ -227,11 +227,11 @@ FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.0.6
+FROM bitnami/keycloak:26.0.7
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:6.1.6
+FROM bitnami/keycloak-config-cli:6.2.1
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx-ingress-controller
@@ -287,11 +287,11 @@ FROM bitnami/kubectl:1.31.3
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.57.1
+FROM aquasec/trivy:0.58.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.10.7
+FROM ghcr.io/external-secrets/external-secrets:v0.11.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -375,15 +375,15 @@ FROM elastic/eck-operator:2.15.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.28.0
+FROM syncthing/syncthing:1.28.1
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.28.0
+FROM syncthing/discosrv:1.28.1
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.28.0
+FROM syncthing/relaysrv:1.28.1
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -411,7 +411,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.487-jdk21
+FROM jenkins/jenkins:2.488-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -431,11 +431,11 @@ FROM quay.io/cephcsi/cephcsi:v3.12.3
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.11
+FROM homeassistant/home-assistant:2024.12
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.41.0
+FROM koenkk/zigbee2mqtt:1.42.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -479,7 +479,7 @@ FROM hashicorp/vault:1.18.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.5.0
+FROM hashicorp/vault-k8s:1.6.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
@@ -591,15 +591,15 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.0
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v24.9.0
+FROM nvcr.io/nvidia/gpu-operator:v24.9.1
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.0
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.1
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.6.2-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.6.3-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
@@ -607,7 +607,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.2-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.3-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
