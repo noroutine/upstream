@@ -479,7 +479,7 @@ FROM hashicorp/vault:1.18.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.5.0
+FROM hashicorp/vault-k8s:1.6.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
