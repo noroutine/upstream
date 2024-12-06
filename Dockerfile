@@ -595,7 +595,7 @@ FROM nvcr.io/nvidia/gpu-operator:v24.9.0
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.0
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.1
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
