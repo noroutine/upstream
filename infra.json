@@ -1,5 +1,5 @@
 {
-  "version": "e0d9bbaa",
+  "version": "5a7e2807",
   "upstream": {
     "images": [
       "debian:bookworm-20241202-slim",
@@ -87,7 +87,7 @@
       "boky/postfix:v4.3.0",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.22-alpine",
-      "natsio/prometheus-nats-exporter:0.15.0",
+      "natsio/prometheus-nats-exporter:0.16.0",
       "natsio/nats-server-config-reloader:0.16.1",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.20-openssl",
