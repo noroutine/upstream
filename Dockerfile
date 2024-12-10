@@ -43,7 +43,7 @@ FROM sonatype/nexus3:3.75.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.47
+FROM squidfunk/mkdocs-material:9.5.48
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -135,7 +135,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.16.1
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.3-noble
+FROM mongo:8.0.4-noble
 # mongo
 
 # dpage/pgadmin4
@@ -183,7 +183,7 @@ FROM nextcloud:30.0.3-apache
 # nextcloud
 
 # docker
-FROM docker:27.3.1-dind
+FROM docker:27.4.0-dind
 # docker
 
 # bitnami/prometheus

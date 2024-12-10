@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.363",
+  "version": "fa10c23b",
   "upstream": {
     "images": [
       "debian:bookworm-20241202-slim",
@@ -13,7 +13,7 @@
       "golang:1.23.4-alpine",
       "traefik:v3.2.1",
       "sonatype/nexus3:3.75.1",
-      "squidfunk/mkdocs-material:9.5.47",
+      "squidfunk/mkdocs-material:9.5.48",
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:26.0.7",
       "postgres:17.2-bookworm",
@@ -36,7 +36,7 @@
       "docker.elastic.co/kibana/kibana:8.16.1",
       "docker.elastic.co/apm/apm-server:8.16.1",
       "docker.elastic.co/beats/elastic-agent:8.16.1",
-      "mongo:8.0.3-noble",
+      "mongo:8.0.4-noble",
       "dpage/pgadmin4:8.13",
       "mccutchen/go-httpbin:v2.15.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine",
@@ -48,7 +48,7 @@
       "pihole/pihole:2024.07.0",
       "klutchell/unbound:v1.22.0",
       "nextcloud:30.0.3-apache",
-      "docker:27.3.1-dind",
+      "docker:27.4.0-dind",
       "bitnami/prometheus:3.0.1",
       "bitnami/prometheus-operator:0.78.2",
       "bitnami/node-exporter:1.8.2",
