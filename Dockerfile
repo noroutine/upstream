@@ -507,7 +507,7 @@ FROM registry.k8s.io/kube-scheduler:v1.31.3
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.3
+FROM registry.k8s.io/kube-controller-manager:v1.31.4
 # kube-controller-manager
 
 # tigera/operator
