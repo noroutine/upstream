@@ -1,5 +1,5 @@
 {
-  "version": "43a0500a",
+  "version": "d459e335",
   "upstream": {
     "images": [
       "debian:bookworm-20241202-slim",
@@ -40,7 +40,7 @@
       "dpage/pgadmin4:8.13",
       "mccutchen/go-httpbin:v2.15.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine",
-      "gitlab/gitlab-ce:17.6.1-ce.0",
+      "gitlab/gitlab-ce:17.6.2-ce.0",
       "gitlab/gitlab-runner:alpine-v17.6.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.6.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.6.1",
@@ -102,7 +102,7 @@
       "jellyfin/jellyfin:10.10.3",
       "haveagitgat/tdarr:2.27.02",
       "haveagitgat/tdarr_node:2.27.02",
-      "curlimages/curl:8.11.0",
+      "curlimages/curl:8.11.1",
       "restic/restic:0.17.3",
       "coturn/coturn:4.6.2",
       "jenkins/jenkins:2.489-jdk21",

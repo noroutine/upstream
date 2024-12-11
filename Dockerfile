@@ -151,7 +151,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.6.1-ce.0
+FROM gitlab/gitlab-ce:17.6.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -399,7 +399,7 @@ FROM haveagitgat/tdarr_node:2.27.02
 # haveagitgat/tdarr_node
 
 # curlimages/curl
-FROM curlimages/curl:8.11.0
+FROM curlimages/curl:8.11.1
 # curlimages/curl
 
 # restic/restic
