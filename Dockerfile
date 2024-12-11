@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.3.0-bookworm
+FROM node:23.4.0-bookworm
 # node
 
 # python
@@ -35,7 +35,7 @@ FROM golang:1.23.4-alpine
 # golang
 
 # traefik
-FROM traefik:v3.2.1
+FROM traefik:v3.2.2
 # traefik
 
 # sonatype/nexus3
@@ -263,7 +263,7 @@ FROM bitnami/grafana:11.3.0
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.10.22
+FROM bitnami/nats:2.10.23
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -283,7 +283,7 @@ FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.3
+FROM bitnami/kubectl:1.31.4
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -335,7 +335,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.22-alpine
+FROM nats:2.10.23-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -411,7 +411,7 @@ FROM coturn/coturn:4.6.2
 # coturn/coturn
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.488-jdk21
+FROM jenkins/jenkins:2.489-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -427,7 +427,7 @@ FROM postgrest/postgrest:v12.2.3
 # postgrest/postgrest
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.12.3
+FROM quay.io/cephcsi/cephcsi:v3.13.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
@@ -447,7 +447,7 @@ FROM gitea/gitea:1.22.4-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.11.1
+FROM cloudflare/cloudflared:2024.12.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -495,19 +495,19 @@ FROM registry.k8s.io/coredns/coredns:v1.12.0
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.3
+FROM registry.k8s.io/kube-apiserver:v1.31.4
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.3
+FROM registry.k8s.io/kube-proxy:v1.31.4
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.3
+FROM registry.k8s.io/kube-scheduler:v1.31.4
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.3
+FROM registry.k8s.io/kube-controller-manager:v1.31.4
 # kube-controller-manager
 
 # tigera/operator
@@ -579,11 +579,11 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v5.1.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.1.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.2.0
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v8.1.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.2.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
