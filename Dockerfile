@@ -443,7 +443,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.22.4-rootless
+FROM gitea/gitea:1.22.5-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
