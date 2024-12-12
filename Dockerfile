@@ -319,7 +319,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.13.1
+FROM quay.io/argoproj/argocd:v2.13.2
 # argoproj/argocd
 
 # redis
@@ -407,7 +407,7 @@ FROM restic/restic:0.17.3
 # restic/restic
 
 # coturn/coturn
-FROM coturn/coturn:4.6.2
+FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # jenkins/jenkins
@@ -443,7 +443,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.22.4-rootless
+FROM gitea/gitea:1.22.5-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared

@@ -1,5 +1,5 @@
 {
-  "version": "47438cc8",
+  "version": "8baad121",
   "upstream": {
     "images": [
       "debian:bookworm-20241202-slim",
@@ -82,7 +82,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.41.1",
-      "quay.io/argoproj/argocd:v2.13.1",
+      "quay.io/argoproj/argocd:v2.13.2",
       "redis:7.4.1",
       "boky/postfix:v4.3.0",
       "connecteverything/nats-operator:0.8.0",
@@ -104,7 +104,7 @@
       "haveagitgat/tdarr_node:2.27.02",
       "curlimages/curl:8.11.1",
       "restic/restic:0.17.3",
-      "coturn/coturn:4.6.2",
+      "coturn/coturn:4.6.3",
       "jenkins/jenkins:2.489-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "netboxcommunity/netbox:v4.1.7",
@@ -113,7 +113,7 @@
       "homeassistant/home-assistant:2024.12",
       "koenkk/zigbee2mqtt:1.42.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.9.0",
-      "gitea/gitea:1.22.4-rootless",
+      "gitea/gitea:1.22.5-rootless",
       "cloudflare/cloudflared:2024.12.1",
       "registry.k8s.io/git-sync/git-sync:v4.3.0",
       "quay.io/jetstack/cert-manager-controller:v1.16.2",
