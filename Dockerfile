@@ -407,7 +407,7 @@ FROM restic/restic:0.17.3
 # restic/restic
 
 # coturn/coturn
-FROM coturn/coturn:4.6.2
+FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # jenkins/jenkins
