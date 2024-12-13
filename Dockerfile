@@ -131,7 +131,7 @@ FROM docker.elastic.co/apm/apm-server:8.16.1
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.16.1
+FROM docker.elastic.co/beats/elastic-agent:8.17.0
 # beats/elastic-agent
 
 # mongo
