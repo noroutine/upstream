@@ -115,23 +115,23 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.16.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.16.1
+FROM docker.elastic.co/logstash/logstash:8.17.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.16.1
+FROM docker.elastic.co/kibana/kibana:8.17.0
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:8.16.1
+FROM docker.elastic.co/apm/apm-server:8.17.0
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.16.1
+FROM docker.elastic.co/beats/elastic-agent:8.17.0
 # beats/elastic-agent
 
 # mongo
@@ -179,7 +179,7 @@ FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:30.0.3-apache
+FROM nextcloud:30.0.4-apache
 # nextcloud
 
 # docker
