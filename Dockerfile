@@ -451,7 +451,7 @@ FROM cloudflare/cloudflared:2024.12.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.3.0
+FROM registry.k8s.io/git-sync/git-sync:v4.4.0
 # git-sync/git-sync
 
 # jetstack/cert-manager-controller
