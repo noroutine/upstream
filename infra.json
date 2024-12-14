@@ -1,5 +1,5 @@
 {
-  "version": "06e056e4",
+  "version": "1b6f73c0",
   "upstream": {
     "images": [
       "debian:bookworm-20241202-slim",
@@ -115,7 +115,7 @@
       "registry.k8s.io/sig-storage/nfsplugin:v4.9.0",
       "gitea/gitea:1.22.6-rootless",
       "cloudflare/cloudflared:2024.12.1",
-      "registry.k8s.io/git-sync/git-sync:v4.3.0",
+      "registry.k8s.io/git-sync/git-sync:v4.4.0",
       "quay.io/jetstack/cert-manager-controller:v1.16.2",
       "quay.io/jetstack/cert-manager-cainjector:v1.16.2",
       "quay.io/jetstack/cert-manager-webhook:v1.16.2",
