@@ -603,7 +603,7 @@ FROM registry.k8s.io/sig-storage/snapshot-controller:v8.2.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.0
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
