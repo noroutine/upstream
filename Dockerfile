@@ -411,7 +411,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.490-jdk21
+FROM jenkins/jenkins:2.491-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
