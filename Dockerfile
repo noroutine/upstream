@@ -447,7 +447,7 @@ FROM gitea/gitea:1.22.6-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.12.1
+FROM cloudflare/cloudflared:2024.12.2
 # cloudflare/cloudflared
 
 # git-sync/git-sync
