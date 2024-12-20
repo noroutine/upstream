@@ -35,7 +35,7 @@ FROM golang:1.23.4-alpine
 # golang
 
 # traefik
-FROM traefik:v3.2.2
+FROM traefik:v3.2.3
 # traefik
 
 # sonatype/nexus3
@@ -43,7 +43,7 @@ FROM sonatype/nexus3:3.75.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.48
+FROM squidfunk/mkdocs-material:9.5.49
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -59,11 +59,11 @@ FROM postgres:17.2-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-11-07T00-52-20Z
+FROM quay.io/minio/minio:RELEASE.2024-12-18T13-15-44Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-11-17T19-35-25Z
+FROM quay.io/minio/mc:RELEASE.2024-11-21T17-21-54Z
 # minio/mc
 
 # minio/console
@@ -99,11 +99,11 @@ FROM quay.io/prometheus/pushgateway:v1.10.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.79.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.79.2
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.79.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.79.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.6.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.7.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -191,7 +191,7 @@ FROM bitnami/prometheus:3.0.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.79.0
+FROM bitnami/prometheus-operator:0.79.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -211,7 +211,7 @@ FROM bitnami/redis:7.4.1
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.66.0
+FROM bitnami/redis-exporter:1.67.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -239,11 +239,11 @@ FROM bitnami/nginx-ingress-controller:1.11.3
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2024.11.7
+FROM bitnami/minio:2024.12.18
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.11.17
+FROM bitnami/minio-client:2024.11.21
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -251,19 +251,19 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.8
+FROM bitnami/metallb-controller:0.14.9
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.8
+FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.3.0
+FROM bitnami/grafana:11.4.0
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.10.23
+FROM bitnami/nats:2.10.24
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -283,7 +283,7 @@ FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.31.4
+FROM bitnami/kubectl:1.32.0
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -335,7 +335,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.23-alpine
+FROM nats:2.10.24-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -371,7 +371,7 @@ FROM eclipse-temurin:23-noble
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.15.0
+FROM elastic/eck-operator:2.16.0
 # elastic/eck-operator
 
 # syncthing/syncthing
@@ -411,7 +411,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.489-jdk21
+FROM jenkins/jenkins:2.490-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -475,11 +475,11 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.18.2
+FROM hashicorp/vault:1.18.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.6.0
+FROM hashicorp/vault-k8s:1.6.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
@@ -603,7 +603,7 @@ FROM registry.k8s.io/sig-storage/snapshot-controller:v8.2.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
-FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.0
+FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
