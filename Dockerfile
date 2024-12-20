@@ -151,15 +151,15 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.6.2-ce.0
+FROM gitlab/gitlab-ce:17.7.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.6.0
+FROM gitlab/gitlab-runner:alpine-v17.7.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.6.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.7.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -183,7 +183,7 @@ FROM nextcloud:30.0.4-apache
 # nextcloud
 
 # docker
-FROM docker:27.4.0-dind
+FROM docker:27.4.1-dind
 # docker
 
 # bitnami/prometheus
@@ -411,7 +411,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.490-jdk21
+FROM jenkins/jenkins:2.491-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -419,7 +419,7 @@ FROM jenkins/agent:bookworm-jdk21
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.8
+FROM netboxcommunity/netbox:v4.1.9
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -447,7 +447,7 @@ FROM gitea/gitea:1.22.6-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.12.1
+FROM cloudflare/cloudflared:2024.12.2
 # cloudflare/cloudflared
 
 # git-sync/git-sync
