@@ -1,12 +1,12 @@
 {
-  "version": "a2bb3c00",
+  "version": "831a7f9b",
   "upstream": {
     "images": [
       "debian:bookworm-20241202-slim",
       "ubuntu:noble-20241015",
       "alpine:3.21.0",
       "busybox:1.37.0",
-      "node:23.4.0-bookworm",
+      "node:23.5.0-bookworm",
       "python:3.13.1-bookworm",
       "python:3.13.1-slim-bookworm",
       "golang:1.23.4-bookworm",

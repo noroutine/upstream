@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.4.0-bookworm
+FROM node:23.5.0-bookworm
 # node
 
 # python
