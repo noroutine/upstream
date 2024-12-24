@@ -419,7 +419,7 @@ FROM jenkins/agent:bookworm-jdk21
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.9
+FROM netboxcommunity/netbox:v4.1.10
 # netboxcommunity/netbox
 
 # postgrest/postgrest
