@@ -1,5 +1,5 @@
 {
-  "version": "2b14e6c4",
+  "version": "47246dd9",
   "upstream": {
     "images": [
       "debian:bookworm-20241202-slim",
@@ -75,7 +75,7 @@
       "bitnami/openldap:2.6.9",
       "bitnami/kubectl:1.32.0",
       "aquasec/trivy:0.58.0",
-      "ghcr.io/external-secrets/external-secrets:v0.11.0",
+      "ghcr.io/external-secrets/external-secrets:v0.12.1",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.7",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.7",
       "stakater/reloader:v1.2.0",
