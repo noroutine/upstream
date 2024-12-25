@@ -1,9 +1,9 @@
 {
-  "version": "47246dd9",
+  "version": "24a4f9e4",
   "upstream": {
     "images": [
-      "debian:bookworm-20241202-slim",
-      "ubuntu:noble-20241015",
+      "debian:bookworm-20241223-slim",
+      "ubuntu:noble-20241118.1",
       "alpine:3.21.0",
       "busybox:1.37.0",
       "node:23.5.0-bookworm",
@@ -74,7 +74,7 @@
       "bitnami/kube-rbac-proxy:0.18.2",
       "bitnami/openldap:2.6.9",
       "bitnami/kubectl:1.32.0",
-      "aquasec/trivy:0.58.0",
+      "aquasec/trivy:0.58.1",
       "ghcr.io/external-secrets/external-secrets:v0.12.1",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.7",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.7",
@@ -107,7 +107,7 @@
       "coturn/coturn:4.6.3",
       "jenkins/jenkins:2.491-jdk21",
       "jenkins/agent:bookworm-jdk21",
-      "netboxcommunity/netbox:v4.1.9",
+      "netboxcommunity/netbox:v4.1.10",
       "postgrest/postgrest:v12.2.3",
       "quay.io/cephcsi/cephcsi:v3.13.0",
       "homeassistant/home-assistant:2024.12",

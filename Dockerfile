@@ -1,9 +1,9 @@
 # debian
-FROM debian:bookworm-20241202-slim
+FROM debian:bookworm-20241223-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20241015
+FROM ubuntu:noble-20241118.1
 # ubuntu
 
 # alpine
@@ -287,7 +287,7 @@ FROM bitnami/kubectl:1.32.0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.58.0
+FROM aquasec/trivy:0.58.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -419,7 +419,7 @@ FROM jenkins/agent:bookworm-jdk21
 # jenkins/agent
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.9
+FROM netboxcommunity/netbox:v4.1.10
 # netboxcommunity/netbox
 
 # postgrest/postgrest
