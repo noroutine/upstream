@@ -418,6 +418,10 @@ FROM jenkins/jenkins:2.491-jdk21
 FROM jenkins/agent:bookworm-jdk21
 # jenkins/agent
 
+# kiwigrid/k8s-sidecar
+FROM quay.io/kiwigrid/k8s-sidecar:1.28.4
+# kiwigrid/k8s-sidecar
+
 # netboxcommunity/netbox
 FROM netboxcommunity/netbox:v4.1.10
 # netboxcommunity/netbox

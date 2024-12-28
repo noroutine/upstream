@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.365",
+  "version": "ea113a3f",
   "upstream": {
     "images": [
       "debian:bookworm-20241223-slim",
@@ -107,6 +107,7 @@
       "coturn/coturn:4.6.3",
       "jenkins/jenkins:2.491-jdk21",
       "jenkins/agent:bookworm-jdk21",
+      "quay.io/kiwigrid/k8s-sidecar:1.28.4",
       "netboxcommunity/netbox:v4.1.10",
       "postgrest/postgrest:v12.2.3",
       "quay.io/cephcsi/cephcsi:v3.13.0",
