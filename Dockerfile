@@ -410,18 +410,6 @@ FROM restic/restic:0.17.3
 FROM coturn/coturn:4.6.3
 # coturn/coturn
 
-# jenkins/jenkins
-FROM jenkins/jenkins:2.491-jdk21
-# jenkins/jenkins
-
-# jenkins/agent
-FROM jenkins/agent:bookworm-jdk21
-# jenkins/agent
-
-# kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.28.4
-# kiwigrid/k8s-sidecar
-
 # netboxcommunity/netbox
 FROM netboxcommunity/netbox:v4.1.10
 # netboxcommunity/netbox
@@ -457,6 +445,22 @@ FROM cloudflare/cloudflared:2024.12.2
 # git-sync/git-sync
 FROM registry.k8s.io/git-sync/git-sync:v4.4.0
 # git-sync/git-sync
+
+# jenkins/jenkins
+FROM jenkins/jenkins:2.491-jdk21
+# jenkins/jenkins
+
+# jenkins/agent
+FROM jenkins/agent:bookworm-jdk21
+# jenkins/agent
+
+# jenkins/inbound-agent
+FROM jenkins/inbound-agent:bookworm-jdk21
+# jenkins/inbound-agent
+
+# kiwigrid/k8s-sidecar
+FROM quay.io/kiwigrid/k8s-sidecar:1.28.4
+# kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.16.2
