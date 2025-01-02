@@ -235,7 +235,7 @@ FROM bitnami/keycloak-config-cli:6.2.1
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.11.3
+FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
@@ -303,7 +303,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.7
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.2.0
+FROM stakater/reloader:v1.2.1
 # stakater/reloader
 
 # jimmidyson/configmap-reload
