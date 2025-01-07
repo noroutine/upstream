@@ -35,7 +35,7 @@ FROM golang:1.23.4-alpine
 # golang
 
 # traefik
-FROM traefik:v3.2.3
+FROM traefik:v3.3.0
 # traefik
 
 # sonatype/nexus3
@@ -91,7 +91,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.25.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.26.0
+FROM quay.io/prometheus/snmp-exporter:v0.27.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
@@ -207,7 +207,7 @@ FROM bitnami/postgres-exporter:0.16.0
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.4.1
+FROM bitnami/redis:7.4.2
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -319,11 +319,11 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.13.2
+FROM quay.io/argoproj/argocd:v2.13.3
 # argoproj/argocd
 
 # redis
-FROM redis:7.4.1
+FROM redis:7.4.2
 # redis
 
 # boky/postfix
@@ -375,15 +375,15 @@ FROM elastic/eck-operator:2.16.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.28.1
+FROM syncthing/syncthing:1.29.0
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.28.1
+FROM syncthing/discosrv:1.29.0
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.28.1
+FROM syncthing/relaysrv:1.29.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -411,7 +411,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.10
+FROM netboxcommunity/netbox:v4.1.11
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -423,11 +423,11 @@ FROM quay.io/cephcsi/cephcsi:v3.13.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2024.12
+FROM homeassistant/home-assistant:2025.1
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:1.42.0
+FROM koenkk/zigbee2mqtt:2.0.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
