@@ -383,7 +383,7 @@ FROM syncthing/discosrv:1.28.1
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.28.1
+FROM syncthing/relaysrv:1.29.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
