@@ -447,7 +447,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.4.0
 # git-sync/git-sync
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.491-jdk21
+FROM jenkins/jenkins:2.492-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
