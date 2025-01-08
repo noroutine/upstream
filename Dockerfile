@@ -7,7 +7,7 @@ FROM ubuntu:noble-20241118.1
 # ubuntu
 
 # alpine
-FROM alpine:3.21.0
+FROM alpine:3.21.1
 # alpine
 
 # busybox
@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.5.0-bookworm
+FROM node:23.6.0-bookworm
 # node
 
 # python
@@ -35,11 +35,11 @@ FROM golang:1.23.4-alpine
 # golang
 
 # traefik
-FROM traefik:v3.3.0
+FROM traefik:v3.3.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.75.1
+FROM sonatype/nexus3:3.76.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -411,7 +411,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.11
+FROM netboxcommunity/netbox:v4.2.0
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -439,7 +439,7 @@ FROM gitea/gitea:1.22.6-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2024.12.2
+FROM cloudflare/cloudflared:2025.1.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -447,7 +447,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.4.0
 # git-sync/git-sync
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.491-jdk21
+FROM jenkins/jenkins:2.492-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -583,15 +583,15 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.0
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.14.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.15.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.12.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.7.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.8.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
