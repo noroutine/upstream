@@ -151,7 +151,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.7.0-ce.0
+FROM gitlab/gitlab-ce:17.7.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.7.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.7.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
