@@ -435,7 +435,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.23.0-rootless
+FROM gitea/gitea:1.23.1-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
@@ -459,7 +459,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.28.4
+FROM quay.io/kiwigrid/k8s-sidecar:1.29.0
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller

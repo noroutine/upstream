@@ -1,5 +1,5 @@
 {
-  "version": "c697b43f",
+  "version": "5983651c",
   "upstream": {
     "images": [
       "debian:bookworm-20241223-slim",
@@ -111,13 +111,13 @@
       "homeassistant/home-assistant:2025.1",
       "koenkk/zigbee2mqtt:2.0.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.9.0",
-      "gitea/gitea:1.23.0-rootless",
+      "gitea/gitea:1.23.1-rootless",
       "cloudflare/cloudflared:2025.1.0",
       "registry.k8s.io/git-sync/git-sync:v4.4.0",
       "jenkins/jenkins:2.492-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
-      "quay.io/kiwigrid/k8s-sidecar:1.28.4",
+      "quay.io/kiwigrid/k8s-sidecar:1.29.0",
       "quay.io/jetstack/cert-manager-controller:v1.16.2",
       "quay.io/jetstack/cert-manager-cainjector:v1.16.2",
       "quay.io/jetstack/cert-manager-webhook:v1.16.2",
