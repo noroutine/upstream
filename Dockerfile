@@ -95,7 +95,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.27.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.10.0
+FROM quay.io/prometheus/pushgateway:v1.11.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -359,7 +359,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.8.4-alpine
+FROM caddy:2.9.1-alpine
 # caddy
 
 # azul/zulu-openjdk
@@ -375,15 +375,15 @@ FROM elastic/eck-operator:2.16.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.0
+FROM syncthing/syncthing:1.29.1
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.0
+FROM syncthing/discosrv:1.29.1
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.29.0
+FROM syncthing/relaysrv:1.29.1
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -435,7 +435,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.22.6-rootless
+FROM gitea/gitea:1.23.0-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
