@@ -7,7 +7,7 @@ FROM ubuntu:noble-20241118.1
 # ubuntu
 
 # alpine
-FROM alpine:3.21.1
+FROM alpine:3.21.2
 # alpine
 
 # busybox
@@ -411,7 +411,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.2.0
+FROM netboxcommunity/netbox:v4.2.1
 # netboxcommunity/netbox
 
 # postgrest/postgrest

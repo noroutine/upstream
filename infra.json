@@ -1,10 +1,10 @@
 {
-  "version": "4d314d9e",
+  "version": "b4396a17",
   "upstream": {
     "images": [
       "debian:bookworm-20241223-slim",
       "ubuntu:noble-20241118.1",
-      "alpine:3.21.1",
+      "alpine:3.21.2",
       "busybox:1.37.0",
       "node:23.6.0-bookworm",
       "python:3.13.1-bookworm",
@@ -105,7 +105,7 @@
       "curlimages/curl:8.11.1",
       "restic/restic:0.17.3",
       "coturn/coturn:4.6.3",
-      "netboxcommunity/netbox:v4.2.0",
+      "netboxcommunity/netbox:v4.2.1",
       "postgrest/postgrest:v12.2.3",
       "quay.io/cephcsi/cephcsi:v3.13.0",
       "homeassistant/home-assistant:2025.1",
