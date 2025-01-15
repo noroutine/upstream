@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20241223-slim
+FROM debian:bookworm-20250113-slim
 # debian
 
 # ubuntu
@@ -35,7 +35,7 @@ FROM golang:1.23.4-alpine
 # golang
 
 # traefik
-FROM traefik:v3.3.1
+FROM traefik:v3.3.2
 # traefik
 
 # sonatype/nexus3
@@ -51,7 +51,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.0.7
+FROM quay.io/keycloak/keycloak:26.0.8
 # keycloak/keycloak
 
 # postgres
@@ -147,11 +147,11 @@ FROM mccutchen/go-httpbin:v2.15.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.7.1-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.7.1-ce.0
+FROM gitlab/gitlab-ce:17.7.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.7.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.7.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -183,7 +183,7 @@ FROM nextcloud:30.0.4-apache
 # nextcloud
 
 # docker
-FROM docker:27.4.1-dind
+FROM docker:27.5.0-dind
 # docker
 
 # bitnami/prometheus
@@ -227,7 +227,7 @@ FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.0.7
+FROM bitnami/keycloak:26.0.8
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -287,7 +287,7 @@ FROM bitnami/kubectl:1.32.0
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.58.1
+FROM aquasec/trivy:0.58.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -375,15 +375,15 @@ FROM elastic/eck-operator:2.16.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.1
+FROM syncthing/syncthing:1.29.2
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.1
+FROM syncthing/discosrv:1.29.2
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.29.1
+FROM syncthing/relaysrv:1.29.2
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -445,6 +445,10 @@ FROM cloudflare/cloudflared:2025.1.0
 # git-sync/git-sync
 FROM registry.k8s.io/git-sync/git-sync:v4.4.0
 # git-sync/git-sync
+
+# sj26/mailcatcher
+FROM sj26/mailcatcher:v0.10.0
+# sj26/mailcatcher
 
 # jenkins/jenkins
 FROM jenkins/jenkins:2.492-jdk21
@@ -579,7 +583,7 @@ FROM calico/csi:v3.29.1
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.0
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.1
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
@@ -595,7 +599,7 @@ FROM registry.k8s.io/sig-storage/csi-attacher:v4.8.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.12.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.13.1
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
