@@ -183,7 +183,7 @@ FROM nextcloud:30.0.4-apache
 # nextcloud
 
 # docker
-FROM docker:27.4.1-dind
+FROM docker:27.5.0-dind
 # docker
 
 # bitnami/prometheus
