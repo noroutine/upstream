@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.7.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.8.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -451,7 +451,7 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.492-jdk21
+FROM jenkins/jenkins:2.493-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -647,7 +647,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.9-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:3.3.9-3.6.1-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.0.0-4.0.1-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
