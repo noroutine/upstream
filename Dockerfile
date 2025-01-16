@@ -507,7 +507,7 @@ FROM registry.k8s.io/coredns/coredns:v1.12.0
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.0
+FROM registry.k8s.io/kube-apiserver:v1.32.1
 # kube-apiserver
 
 # kube-proxy
@@ -523,7 +523,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.32.0
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.4
+FROM registry.k8s.io/kube-apiserver:v1.32.1
 # kube-apiserver
 
 # kube-proxy
