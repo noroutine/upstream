@@ -51,7 +51,7 @@ FROM freeradius/freeradius-server:3.2.6-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.0.8
+FROM quay.io/keycloak/keycloak:26.1.0
 # keycloak/keycloak
 
 # postgres
@@ -79,7 +79,7 @@ FROM quay.io/prometheus/prometheus:v3.1.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.27.0
+FROM quay.io/prometheus/alertmanager:v0.28.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
@@ -227,7 +227,7 @@ FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.0.8
+FROM bitnami/keycloak:26.1.0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -507,19 +507,19 @@ FROM registry.k8s.io/coredns/coredns:v1.12.0
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.0
+FROM registry.k8s.io/kube-apiserver:v1.32.1
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.0
+FROM registry.k8s.io/kube-proxy:v1.32.1
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.32.0
+FROM registry.k8s.io/kube-scheduler:v1.32.1
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.0
+FROM registry.k8s.io/kube-controller-manager:v1.32.1
 # kube-controller-manager
 
 # kube-apiserver
