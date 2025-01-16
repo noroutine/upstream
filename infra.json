@@ -1,5 +1,5 @@
 {
-  "version": "3cd35809",
+  "version": "1313362e",
   "upstream": {
     "images": [
       "debian:bookworm-20250113-slim",
@@ -39,7 +39,7 @@
       "mongo:8.0.4-noble",
       "dpage/pgadmin4:8.14",
       "mccutchen/go-httpbin:v2.15.0",
-      "quay.io/oauth2-proxy/oauth2-proxy:v7.8.0-alpine",
+      "quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine",
       "gitlab/gitlab-ce:17.7.2-ce.0",
       "gitlab/gitlab-runner:alpine-v17.7.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.7.0",
@@ -73,7 +73,7 @@
       "bitnami/metrics-server:0.7.2",
       "bitnami/kube-rbac-proxy:0.18.2",
       "bitnami/openldap:2.6.9",
-      "bitnami/kubectl:1.32.0",
+      "bitnami/kubectl:1.32.1",
       "aquasec/trivy:0.58.2",
       "ghcr.io/external-secrets/external-secrets:v0.12.1",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.7",

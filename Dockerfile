@@ -147,7 +147,7 @@ FROM mccutchen/go-httpbin:v2.15.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.0-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
@@ -283,7 +283,7 @@ FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.32.0
+FROM bitnami/kubectl:1.32.1
 # bitnami/kubectl
 
 # aquasec/trivy
