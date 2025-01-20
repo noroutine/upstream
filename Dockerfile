@@ -327,7 +327,7 @@ FROM redis:7.4.2
 # redis
 
 # boky/postfix
-FROM boky/postfix:v4.3.0
+FROM boky/postfix:4.4.0
 # boky/postfix
 
 # connecteverything/nats-operator
