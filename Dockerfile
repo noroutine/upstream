@@ -479,7 +479,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.16.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.1
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.2
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
