@@ -451,7 +451,7 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.493-jdk21
+FROM jenkins/jenkins:2.494-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
