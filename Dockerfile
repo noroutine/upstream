@@ -535,7 +535,7 @@ FROM registry.k8s.io/kube-proxy:v1.31.4
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.4
+FROM registry.k8s.io/kube-scheduler:v1.32.1
 # kube-scheduler
 
 # kube-controller-manager
