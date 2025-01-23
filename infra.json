@@ -1,5 +1,5 @@
 {
-  "version": "bede81a7",
+  "version": "17163e10",
   "upstream": {
     "images": [
       "debian:bookworm-20250113-slim",
@@ -162,7 +162,7 @@
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.1",
       "nvcr.io/nvidia/cuda:12.6.3-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0",
-      "nvcr.io/nvidia/k8s/container-toolkit:v1.17.3-ubi8",
+      "nvcr.io/nvidia/k8s/container-toolkit:v1.17.4-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
       "nvcr.io/nvidia/cloud-native/dcgm:3.3.9-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:4.0.0-4.0.1-ubi9",
