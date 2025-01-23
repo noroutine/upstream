@@ -639,7 +639,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.3-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.4-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
