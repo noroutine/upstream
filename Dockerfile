@@ -415,7 +415,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.1.11
+FROM netboxcommunity/netbox:v4.2.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
