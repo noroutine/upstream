@@ -363,7 +363,7 @@ FROM caddy:2.9.1-alpine
 # caddy
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:23.0.1-23.30
+FROM azul/zulu-openjdk:23.0.2-23.32
 # azul/zulu-openjdk
 
 # eclipse-temurin
