@@ -15,7 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.6.0-bookworm
+FROM node:23.6.1-bookworm
+# node
+
+# node
+FROM node:23.6.1-alpine
 # node
 
 # python
@@ -27,11 +31,11 @@ FROM python:3.13.1-slim-bookworm
 # python
 
 # golang
-FROM golang:1.23.4-bookworm
+FROM golang:1.23.5-bookworm
 # golang
 
 # golang
-FROM golang:1.23.4-alpine
+FROM golang:1.23.5-alpine
 # golang
 
 # traefik
@@ -43,7 +47,7 @@ FROM sonatype/nexus3:3.76.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.49
+FROM squidfunk/mkdocs-material:9.5.50
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -115,23 +119,23 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.17.0
+FROM docker.elastic.co/logstash/logstash:8.17.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.17.0
+FROM docker.elastic.co/kibana/kibana:8.17.1
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:8.17.0
+FROM docker.elastic.co/apm/apm-server:8.17.1
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.17.0
+FROM docker.elastic.co/beats/elastic-agent:8.17.1
 # beats/elastic-agent
 
 # mongo
@@ -151,19 +155,19 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.7.2-ce.0
+FROM gitlab/gitlab-ce:17.8.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.7.0
+FROM gitlab/gitlab-runner:alpine-v17.8.2
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.7.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.8.2
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.8.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.8.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -179,11 +183,11 @@ FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:30.0.4-apache
+FROM nextcloud:30.0.5-apache
 # nextcloud
 
 # docker
-FROM docker:27.5.0-dind
+FROM docker:27.5.1-dind
 # docker
 
 # bitnami/prometheus
@@ -327,7 +331,7 @@ FROM redis:7.4.2
 # redis
 
 # boky/postfix
-FROM boky/postfix:v4.3.0
+FROM boky/postfix:v4.4.0
 # boky/postfix
 
 # connecteverything/nats-operator
@@ -363,7 +367,7 @@ FROM caddy:2.9.1-alpine
 # caddy
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:23.0.1-23.30
+FROM azul/zulu-openjdk:23.0.2-23.32
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -371,7 +375,7 @@ FROM eclipse-temurin:23-noble
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.16.0
+FROM elastic/eck-operator:2.16.1
 # elastic/eck-operator
 
 # syncthing/syncthing
@@ -387,15 +391,15 @@ FROM syncthing/relaysrv:1.29.2
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.10.3
+FROM jellyfin/jellyfin:10.10.4
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.27.02
+FROM haveagitgat/tdarr:2.28.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.27.02
+FROM haveagitgat/tdarr_node:2.28.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -411,11 +415,11 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.2.1
+FROM netboxcommunity/netbox:v4.2.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.3
+FROM postgrest/postgrest:v12.2.5
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -451,7 +455,7 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.493-jdk21
+FROM jenkins/jenkins:2.494-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -467,19 +471,19 @@ FROM quay.io/kiwigrid/k8s-sidecar:1.29.0
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.16.2
+FROM quay.io/jetstack/cert-manager-controller:v1.16.3
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.16.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.16.3
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.16.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.16.3
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.1
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.2
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -603,7 +607,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.13.1
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v5.1.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v5.2.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
