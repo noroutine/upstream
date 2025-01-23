@@ -1,5 +1,5 @@
 {
-  "version": "96eae6f7",
+  "version": "bede81a7",
   "upstream": {
     "images": [
       "debian:bookworm-20250113-slim",
@@ -76,7 +76,7 @@
       "bitnami/openldap:2.6.9",
       "bitnami/kubectl:1.32.1",
       "aquasec/trivy:0.58.2",
-      "ghcr.io/external-secrets/external-secrets:v0.12.1",
+      "ghcr.io/external-secrets/external-secrets:v0.13.0",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.7",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.7",
       "stakater/reloader:v1.2.1",
@@ -134,10 +134,10 @@
       "registry.k8s.io/kube-proxy:v1.32.1",
       "registry.k8s.io/kube-scheduler:v1.32.1",
       "registry.k8s.io/kube-controller-manager:v1.32.1",
-      "registry.k8s.io/kube-apiserver:v1.31.4",
-      "registry.k8s.io/kube-proxy:v1.31.4",
-      "registry.k8s.io/kube-scheduler:v1.31.4",
-      "registry.k8s.io/kube-controller-manager:v1.31.4",
+      "registry.k8s.io/kube-apiserver:v1.31.5",
+      "registry.k8s.io/kube-proxy:v1.31.5",
+      "registry.k8s.io/kube-scheduler:v1.31.5",
+      "registry.k8s.io/kube-controller-manager:v1.31.5",
       "quay.io/tigera/operator:v1.36.3",
       "calico/typha:v3.29.1",
       "calico/ctl:v3.29.1",

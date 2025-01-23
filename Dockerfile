@@ -295,7 +295,7 @@ FROM aquasec/trivy:0.58.2
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.12.1
+FROM ghcr.io/external-secrets/external-secrets:v0.13.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -527,19 +527,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.32.1
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.4
+FROM registry.k8s.io/kube-apiserver:v1.31.5
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.4
+FROM registry.k8s.io/kube-proxy:v1.31.5
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.4
+FROM registry.k8s.io/kube-scheduler:v1.31.5
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.4
+FROM registry.k8s.io/kube-controller-manager:v1.31.5
 # kube-controller-manager
 
 # tigera/operator
