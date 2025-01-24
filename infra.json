@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.370",
+  "version": "a9ed2edd",
   "upstream": {
     "images": [
       "debian:bookworm-20250113-slim",
@@ -13,7 +13,7 @@
       "golang:1.23.5-bookworm",
       "golang:1.23.5-alpine",
       "traefik:v3.3.2",
-      "sonatype/nexus3:3.76.0",
+      "sonatype/nexus3:3.76.1",
       "squidfunk/mkdocs-material:9.5.50",
       "freeradius/freeradius-server:3.2.6-alpine",
       "quay.io/keycloak/keycloak:26.1.0",
@@ -42,8 +42,8 @@
       "mccutchen/go-httpbin:v2.15.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine",
       "gitlab/gitlab-ce:17.8.1-ce.0",
-      "gitlab/gitlab-runner:alpine-v17.8.2",
-      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.8.2",
+      "gitlab/gitlab-runner:alpine-v17.8.3",
+      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.8.3",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.8.1",
       "quay.io/brancz/kube-rbac-proxy:v0.18.2",
       "pihole/pihole:2024.07.0",
@@ -87,7 +87,7 @@
       "redis:7.4.2",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
-      "nats:2.10.24-alpine",
+      "nats:2.10.25-alpine",
       "natsio/prometheus-nats-exporter:0.16.0",
       "natsio/nats-server-config-reloader:0.16.1",
       "masipcat/wireguard-go:0.0.20230223",

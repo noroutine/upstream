@@ -43,7 +43,7 @@ FROM traefik:v3.3.2
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.76.0
+FROM sonatype/nexus3:3.76.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -159,11 +159,11 @@ FROM gitlab/gitlab-ce:17.8.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.8.2
+FROM gitlab/gitlab-runner:alpine-v17.8.3
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.8.2
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.8.3
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -339,7 +339,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.24-alpine
+FROM nats:2.10.25-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
