@@ -63,11 +63,11 @@ FROM postgres:17.2-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2024-12-18T13-15-44Z
+FROM quay.io/minio/minio:RELEASE.2025-01-20T14-49-07Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2024-11-21T17-21-54Z
+FROM quay.io/minio/mc:RELEASE.2025-01-17T23-25-50Z
 # minio/mc
 
 # minio/console
@@ -75,7 +75,7 @@ FROM quay.io/minio/console:v0.30.0
 # minio/console
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.17
+FROM quay.io/coreos/etcd:v3.5.18
 # coreos/etcd
 
 # prometheus/prometheus
@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.79.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.4.0
+FROM grafana/grafana:11.5.0
 # grafana/grafana
 
 # prymitive/karma
@@ -147,7 +147,7 @@ FROM dpage/pgadmin4:8.14
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.15.0
+FROM mccutchen/go-httpbin:v2.16.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -243,11 +243,11 @@ FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2024.12.18
+FROM bitnami/minio:2025.1.20
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2024.11.21
+FROM bitnami/minio-client:2025.1.17
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -263,11 +263,11 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.4.0
+FROM bitnami/grafana:11.5.0
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.10.24
+FROM bitnami/nats:2.10.25
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -299,11 +299,11 @@ FROM ghcr.io/external-secrets/external-secrets:v0.13.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.4.7
+FROM registry.k8s.io/csi-secrets-store/driver:v1.4.8
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.7
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
@@ -323,7 +323,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.13.3
+FROM quay.io/argoproj/argocd:v2.13.4
 # argoproj/argocd
 
 # redis
@@ -391,15 +391,15 @@ FROM syncthing/relaysrv:1.29.2
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.10.4
+FROM jellyfin/jellyfin:10.10.5
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.28.01
+FROM haveagitgat/tdarr:2.29.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.28.01
+FROM haveagitgat/tdarr_node:2.29.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -419,7 +419,7 @@ FROM netboxcommunity/netbox:v4.2.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.5
+FROM postgrest/postgrest:v12.2.6
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -435,7 +435,7 @@ FROM koenkk/zigbee2mqtt:2.0.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.9.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.10.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
@@ -454,8 +454,16 @@ FROM registry.k8s.io/git-sync/git-sync:v4.4.0
 FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
+# fatedier/frps
+FROM fatedier/frps:v0.61.1
+# fatedier/frps
+
+# fatedier/frpc
+FROM fatedier/frpc:v0.61.1
+# fatedier/frpc
+
 # jenkins/jenkins
-FROM jenkins/jenkins:2.494-jdk21
+FROM jenkins/jenkins:2.495-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -467,7 +475,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.29.0
+FROM quay.io/kiwigrid/k8s-sidecar:1.29.1
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
@@ -623,15 +631,15 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v24.9.1
+FROM nvcr.io/nvidia/gpu-operator:v24.9.2
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.1
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.2
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.6.3-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.8.0-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
