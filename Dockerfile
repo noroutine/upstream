@@ -291,7 +291,7 @@ FROM bitnami/kubectl:1.32.1
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.58.2
+FROM aquasec/trivy:0.59.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -443,7 +443,7 @@ FROM gitea/gitea:1.23.1-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.1.0
+FROM cloudflare/cloudflared:2025.1.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -499,7 +499,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.18.3
+FROM hashicorp/vault:1.18.4
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -551,7 +551,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.5
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.36.3
+FROM quay.io/tigera/operator:v1.36.4
 # tigera/operator
 
 # calico/typha
@@ -643,7 +643,7 @@ FROM nvcr.io/nvidia/cuda:12.8.0-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
