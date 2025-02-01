@@ -1,5 +1,5 @@
 {
-  "version": "2222a5ea",
+  "version": "2efc618a",
   "upstream": {
     "images": [
       "debian:bookworm-20250113-slim",
@@ -12,10 +12,10 @@
       "python:3.13.1-slim-bookworm",
       "golang:1.23.5-bookworm",
       "golang:1.23.5-alpine",
-      "traefik:v3.3.2",
+      "traefik:v3.3.3",
       "sonatype/nexus3:3.76.1",
       "squidfunk/mkdocs-material:9.5.50",
-      "freeradius/freeradius-server:3.2.6-alpine",
+      "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.1.0",
       "postgres:17.2-bookworm",
       "quay.io/minio/minio:RELEASE.2025-01-20T14-49-07Z",
