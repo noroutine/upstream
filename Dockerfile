@@ -51,7 +51,7 @@ FROM squidfunk/mkdocs-material:9.5.50
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.6-alpine
+FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
