@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.6.1-bookworm
+FROM node:23.7.0-bookworm
 # node
 
 # node
-FROM node:23.6.1-alpine
+FROM node:23.7.0-alpine
 # node
 
 # python
@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.76.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.5.50
+FROM squidfunk/mkdocs-material:9.6.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -395,11 +395,11 @@ FROM jellyfin/jellyfin:10.10.5
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.29.01
+FROM haveagitgat/tdarr:2.30.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.29.01
+FROM haveagitgat/tdarr_node:2.30.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
