@@ -235,7 +235,7 @@ FROM bitnami/keycloak:26.1.0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:6.2.1
+FROM bitnami/keycloak-config-cli:6.3.0
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx-ingress-controller
