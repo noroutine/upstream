@@ -419,7 +419,7 @@ FROM netboxcommunity/netbox:v4.2.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.6
+FROM postgrest/postgrest:v12.2.7
 # postgrest/postgrest
 
 # cephcsi/cephcsi
