@@ -323,7 +323,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.13.4
+FROM quay.io/argoproj/argocd:v2.14.1
 # argoproj/argocd
 
 # redis
