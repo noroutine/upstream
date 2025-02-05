@@ -243,7 +243,7 @@ FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.1.20
+FROM bitnami/minio:2025.2.3
 # bitnami/minio
 
 # bitnami/minio-client
