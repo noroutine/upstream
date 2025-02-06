@@ -291,7 +291,7 @@ FROM bitnami/kubectl:1.32.1
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.59.0
+FROM aquasec/trivy:0.59.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
