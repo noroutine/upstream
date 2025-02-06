@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250113-slim
+FROM debian:bookworm-20250203-slim
 # debian
 
 # ubuntu
@@ -31,11 +31,11 @@ FROM python:3.13.1-slim-bookworm
 # python
 
 # golang
-FROM golang:1.23.5-bookworm
+FROM golang:1.23.6-bookworm
 # golang
 
 # golang
-FROM golang:1.23.5-alpine
+FROM golang:1.23.6-alpine
 # golang
 
 # traefik
@@ -43,11 +43,11 @@ FROM traefik:v3.3.3
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.76.1
+FROM sonatype/nexus3:3.77.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.1
+FROM squidfunk/mkdocs-material:9.6.2
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.1.0
+FROM quay.io/keycloak/keycloak:26.1.1
 # keycloak/keycloak
 
 # postgres
@@ -63,11 +63,11 @@ FROM postgres:17.2-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-01-20T14-49-07Z
+FROM quay.io/minio/minio:RELEASE.2025-02-03T21-03-04Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-01-17T23-25-50Z
+FROM quay.io/minio/mc:RELEASE.2025-02-04T04-57-50Z
 # minio/mc
 
 # minio/console
@@ -103,15 +103,15 @@ FROM quay.io/prometheus/pushgateway:v1.11.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.79.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.80.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.79.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.80.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.5.0
+FROM grafana/grafana:11.5.1
 # grafana/grafana
 
 # prymitive/karma
@@ -195,7 +195,7 @@ FROM bitnami/prometheus:3.0.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.79.2
+FROM bitnami/prometheus-operator:0.80.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -231,11 +231,11 @@ FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.1.0
+FROM bitnami/keycloak:26.1.1
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:6.2.1
+FROM bitnami/keycloak-config-cli:6.3.0
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx-ingress-controller
@@ -243,11 +243,11 @@ FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.1.20
+FROM bitnami/minio:2025.2.3
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.1.17
+FROM bitnami/minio-client:2025.2.4
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -263,7 +263,7 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.5.0
+FROM bitnami/grafana:11.5.1
 # bitnami/grafana
 
 # bitnami/nats
@@ -271,7 +271,7 @@ FROM bitnami/nats:2.10.25
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.14.0
+FROM bitnami/kube-state-metrics:2.15.0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
@@ -291,11 +291,11 @@ FROM bitnami/kubectl:1.32.1
 # bitnami/kubectl
 
 # aquasec/trivy
-FROM aquasec/trivy:0.59.0
+FROM aquasec/trivy:0.59.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.13.0
+FROM ghcr.io/external-secrets/external-secrets:v0.14.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -323,7 +323,7 @@ FROM ghcr.io/dexidp/dex:v2.41.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.13.4
+FROM quay.io/argoproj/argocd:v2.14.2
 # argoproj/argocd
 
 # redis
@@ -395,11 +395,11 @@ FROM jellyfin/jellyfin:10.10.5
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.30.01
+FROM haveagitgat/tdarr:2.31.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.30.01
+FROM haveagitgat/tdarr_node:2.31.02
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -415,11 +415,11 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.2.2
+FROM netboxcommunity/netbox:v4.2.3
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.6
+FROM postgrest/postgrest:v12.2.7
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -427,7 +427,7 @@ FROM quay.io/cephcsi/cephcsi:v3.13.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.1
+FROM homeassistant/home-assistant:2025.2
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -439,11 +439,11 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.10.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.23.1-rootless
+FROM gitea/gitea:1.23.2-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.1.1
+FROM cloudflare/cloudflared:2025.2.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -463,7 +463,7 @@ FROM fatedier/frpc:v0.61.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.495-jdk21
+FROM jenkins/jenkins:2.496-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -475,19 +475,19 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.29.1
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.0
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.16.3
+FROM quay.io/jetstack/cert-manager-controller:v1.17.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.16.3
+FROM quay.io/jetstack/cert-manager-cainjector:v1.17.0
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.16.3
+FROM quay.io/jetstack/cert-manager-webhook:v1.17.0
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
