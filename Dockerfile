@@ -443,7 +443,7 @@ FROM gitea/gitea:1.23.1-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.1.1
+FROM cloudflare/cloudflared:2025.2.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
