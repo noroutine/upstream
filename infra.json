@@ -1,5 +1,5 @@
 {
-  "version": "6fd944c9",
+  "version": "8a2bd3f2",
   "upstream": {
     "images": [
       "debian:bookworm-20250203-slim",
@@ -112,7 +112,7 @@
       "homeassistant/home-assistant:2025.2",
       "koenkk/zigbee2mqtt:2.1.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.10.0",
-      "gitea/gitea:1.23.2-rootless",
+      "gitea/gitea:1.23.3-rootless",
       "cloudflare/cloudflared:2025.2.0",
       "registry.k8s.io/git-sync/git-sync:v4.4.0",
       "sj26/mailcatcher:v0.10.0",
