@@ -3,7 +3,7 @@ FROM debian:bookworm-20250203-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20241118.1
+FROM ubuntu:noble-20250127
 # ubuntu
 
 # alpine
@@ -23,11 +23,11 @@ FROM node:23.7.0-alpine
 # node
 
 # python
-FROM python:3.13.1-bookworm
+FROM python:3.13.2-bookworm
 # python
 
 # python
-FROM python:3.13.1-slim-bookworm
+FROM python:3.13.2-slim-bookworm
 # python
 
 # golang
@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.77.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.2
+FROM squidfunk/mkdocs-material:9.6.3
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
