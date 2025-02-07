@@ -3,7 +3,7 @@ FROM debian:bookworm-20250203-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20241118.1
+FROM ubuntu:noble-20250127
 # ubuntu
 
 # alpine
