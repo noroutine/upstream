@@ -43,7 +43,7 @@ FROM traefik:v3.3.3
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.77.0
+FROM sonatype/nexus3:3.77.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -95,7 +95,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.25.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.27.0
+FROM quay.io/prometheus/snmp-exporter:v0.28.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
@@ -143,7 +143,7 @@ FROM mongo:8.0.4-noble
 # mongo
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:8.14
+FROM dpage/pgadmin4:9.0
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -403,7 +403,7 @@ FROM haveagitgat/tdarr_node:2.31.02
 # haveagitgat/tdarr_node
 
 # curlimages/curl
-FROM curlimages/curl:8.11.1
+FROM curlimages/curl:8.12.0
 # curlimages/curl
 
 # restic/restic
@@ -431,7 +431,7 @@ FROM homeassistant/home-assistant:2025.2
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.1.0
+FROM koenkk/zigbee2mqtt:2.1.1
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -551,47 +551,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.5
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.36.4
+FROM quay.io/tigera/operator:v1.36.5
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.29.1
+FROM calico/typha:v3.29.2
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.29.1
+FROM calico/ctl:v3.29.2
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.29.1
+FROM calico/node:v3.29.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.29.1
+FROM calico/cni:v3.29.2
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.29.1
+FROM calico/apiserver:v3.29.2
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.29.1
+FROM calico/kube-controllers:v3.29.2
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.29.1
+FROM calico/dikastes:v3.29.2
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.29.1
+FROM calico/pod2daemon-flexvol:v3.29.2
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.29.1
+FROM calico/node-driver-registrar:v3.29.2
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.29.1
+FROM calico/csi:v3.29.2
 # calico/csi
 
 # nfd/node-feature-discovery
