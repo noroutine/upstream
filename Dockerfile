@@ -63,11 +63,11 @@ FROM postgres:17.2-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-02-03T21-03-04Z
+FROM quay.io/minio/minio:RELEASE.2025-02-07T23-21-09Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-02-04T04-57-50Z
+FROM quay.io/minio/mc:RELEASE.2025-02-08T19-14-21Z
 # minio/mc
 
 # minio/console
@@ -243,11 +243,11 @@ FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.2.3
+FROM bitnami/minio:2025.2.7
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.2.4
+FROM bitnami/minio-client:2025.2.8
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -295,7 +295,7 @@ FROM aquasec/trivy:0.59.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.14.0
+FROM ghcr.io/external-secrets/external-secrets:v0.14.1
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -395,11 +395,11 @@ FROM jellyfin/jellyfin:10.10.5
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.31.02
+FROM haveagitgat/tdarr:2.32.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.31.02
+FROM haveagitgat/tdarr_node:2.32.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
