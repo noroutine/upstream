@@ -231,7 +231,7 @@ FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.1.1
+FROM bitnami/keycloak:26.1.2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
