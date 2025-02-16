@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.382",
+  "version": "e2aa2796",
   "upstream": {
     "images": [
       "debian:bookworm-20250203-slim",
@@ -59,7 +59,7 @@
       "bitnami/redis-exporter:1.67.0",
       "bitnami/postgresql:15.10.0",
       "bitnami/postgresql:16.6.0",
-      "bitnami/postgresql:17.2.0",
+      "bitnami/postgresql:17.3.0",
       "bitnami/keycloak:26.1.2",
       "bitnami/keycloak-config-cli:6.3.0",
       "bitnami/nginx-ingress-controller:1.12.0",

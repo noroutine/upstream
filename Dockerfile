@@ -227,7 +227,7 @@ FROM bitnami/postgresql:16.6.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:17.2.0
+FROM bitnami/postgresql:17.3.0
 # bitnami/postgresql
 
 # bitnami/keycloak
