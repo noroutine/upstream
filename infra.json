@@ -1,5 +1,5 @@
 {
-  "version": "27e7fb24",
+  "version": "ec4f6952",
   "upstream": {
     "images": [
       "debian:bookworm-20250203-slim",
@@ -11,7 +11,7 @@
       "python:3.13.2-bookworm",
       "python:3.13.2-slim-bookworm",
       "golang:1.24.0-bookworm",
-      "golang:1.23.6-alpine",
+      "golang:1.24.0-alpine",
       "traefik:v3.3.3",
       "sonatype/nexus3:3.77.1",
       "squidfunk/mkdocs-material:9.6.4",

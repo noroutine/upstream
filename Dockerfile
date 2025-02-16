@@ -35,7 +35,7 @@ FROM golang:1.24.0-bookworm
 # golang
 
 # golang
-FROM golang:1.23.6-alpine
+FROM golang:1.24.0-alpine
 # golang
 
 # traefik
