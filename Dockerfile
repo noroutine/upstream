@@ -19,7 +19,7 @@ FROM node:23.8.0-bookworm
 # node
 
 # node
-FROM node:23.7.0-alpine
+FROM node:23.8.0-alpine
 # node
 
 # python
@@ -31,7 +31,7 @@ FROM python:3.13.2-slim-bookworm
 # python
 
 # golang
-FROM golang:1.23.6-bookworm
+FROM golang:1.24.0-bookworm
 # golang
 
 # golang
@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.1.1
+FROM quay.io/keycloak/keycloak:26.1.2
 # keycloak/keycloak
 
 # postgres
@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.8.1-ce.0
+FROM gitlab/gitlab-ce:17.8.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.8.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.8.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -231,7 +231,7 @@ FROM bitnami/postgresql:17.2.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.1.1
+FROM bitnami/keycloak:26.1.2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -419,7 +419,7 @@ FROM netboxcommunity/netbox:v4.2.3
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.7
+FROM postgrest/postgrest:v12.2.8
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -463,7 +463,7 @@ FROM fatedier/frpc:v0.61.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.496-jdk21
+FROM jenkins/jenkins:2.497-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -519,35 +519,35 @@ FROM registry.k8s.io/coredns/coredns:v1.12.0
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.1
+FROM registry.k8s.io/kube-apiserver:v1.32.2
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.1
+FROM registry.k8s.io/kube-proxy:v1.32.2
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.32.1
+FROM registry.k8s.io/kube-scheduler:v1.32.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.1
+FROM registry.k8s.io/kube-controller-manager:v1.32.2
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.5
+FROM registry.k8s.io/kube-apiserver:v1.31.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.5
+FROM registry.k8s.io/kube-proxy:v1.31.6
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.5
+FROM registry.k8s.io/kube-scheduler:v1.31.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.5
+FROM registry.k8s.io/kube-controller-manager:v1.31.6
 # kube-controller-manager
 
 # tigera/operator
@@ -655,7 +655,7 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:3.3.9-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:4.1.0-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
