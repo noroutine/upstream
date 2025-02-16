@@ -7,7 +7,7 @@ FROM ubuntu:noble-20250127
 # ubuntu
 
 # alpine
-FROM alpine:3.21.2
+FROM alpine:3.21.3
 # alpine
 
 # busybox
@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.7.0-bookworm
+FROM node:23.8.0-bookworm
 # node
 
 # node
@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.77.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.3
+FROM squidfunk/mkdocs-material:9.6.4
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -59,7 +59,7 @@ FROM quay.io/keycloak/keycloak:26.1.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.2-bookworm
+FROM postgres:17.3-bookworm
 # postgres
 
 # minio/minio
@@ -119,23 +119,23 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.17.1
+FROM docker.elastic.co/logstash/logstash:8.17.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.17.1
+FROM docker.elastic.co/kibana/kibana:8.17.2
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:8.17.1
+FROM docker.elastic.co/apm/apm-server:8.17.2
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.17.1
+FROM docker.elastic.co/beats/elastic-agent:8.17.2
 # beats/elastic-agent
 
 # mongo
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:30.0.5-apache
+FROM nextcloud:30.0.6-apache
 # nextcloud
 
 # docker
@@ -287,7 +287,7 @@ FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.32.1
+FROM bitnami/kubectl:1.32.2
 # bitnami/kubectl
 
 # aquasec/trivy
@@ -295,7 +295,7 @@ FROM aquasec/trivy:0.59.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.14.1
+FROM ghcr.io/external-secrets/external-secrets:v0.14.2
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -403,7 +403,7 @@ FROM haveagitgat/tdarr_node:2.32.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
-FROM curlimages/curl:8.12.0
+FROM curlimages/curl:8.12.1
 # curlimages/curl
 
 # restic/restic
@@ -479,15 +479,15 @@ FROM quay.io/kiwigrid/k8s-sidecar:1.30.0
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.17.0
+FROM quay.io/jetstack/cert-manager-controller:v1.17.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.17.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.17.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.17.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.17.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
