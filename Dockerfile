@@ -547,7 +547,7 @@ FROM registry.k8s.io/kube-scheduler:v1.31.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.6
+FROM registry.k8s.io/kube-controller-manager:v1.32.2
 # kube-controller-manager
 
 # tigera/operator
