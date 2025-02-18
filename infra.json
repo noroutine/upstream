@@ -1,5 +1,5 @@
 {
-  "version": "e2aa2796",
+  "version": "1d0fc7cb",
   "upstream": {
     "images": [
       "debian:bookworm-20250203-slim",
@@ -100,7 +100,7 @@
       "syncthing/syncthing:1.29.2",
       "syncthing/discosrv:1.29.2",
       "syncthing/relaysrv:1.29.2",
-      "jellyfin/jellyfin:10.10.5",
+      "jellyfin/jellyfin:10.10.6",
       "haveagitgat/tdarr:2.32.01",
       "haveagitgat/tdarr_node:2.32.01",
       "curlimages/curl:8.12.1",
