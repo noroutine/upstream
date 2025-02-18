@@ -87,7 +87,7 @@ FROM quay.io/prometheus/alertmanager:v0.28.0
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.8.2
+FROM quay.io/prometheus/node-exporter:v1.9.0
 # prometheus/node-exporter
 
 # prometheus/blackbox-exporter
@@ -171,7 +171,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.18.2
+FROM quay.io/brancz/kube-rbac-proxy:v0.19.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
@@ -199,7 +199,7 @@ FROM bitnami/prometheus-operator:0.80.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.8.2
+FROM bitnami/node-exporter:1.9.0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
@@ -307,7 +307,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.2.1
+FROM stakater/reloader:v1.3.0
 # stakater/reloader
 
 # jimmidyson/configmap-reload
