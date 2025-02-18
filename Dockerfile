@@ -199,7 +199,7 @@ FROM bitnami/prometheus-operator:0.80.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.8.2
+FROM bitnami/node-exporter:1.9.0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
