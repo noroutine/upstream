@@ -103,7 +103,7 @@ FROM quay.io/prometheus/pushgateway:v1.11.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.80.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.80.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
