@@ -1,5 +1,5 @@
 {
-  "version": "e5391057",
+  "version": "ddebee21",
   "upstream": {
     "images": [
       "debian:bookworm-20250203-slim",
@@ -46,7 +46,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.9.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.9.0",
       "quay.io/brancz/kube-rbac-proxy:v0.19.0",
-      "pihole/pihole:2025.02.3",
+      "pihole/pihole:2025.02.4",
       "klutchell/unbound:v1.22.0",
       "nextcloud:30.0.6-apache",
       "docker:28.0.0-dind",
@@ -121,7 +121,7 @@
       "jenkins/jenkins:2.498-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
-      "quay.io/kiwigrid/k8s-sidecar:1.30.0",
+      "quay.io/kiwigrid/k8s-sidecar:1.30.1",
       "quay.io/jetstack/cert-manager-controller:v1.17.1",
       "quay.io/jetstack/cert-manager-cainjector:v1.17.1",
       "quay.io/jetstack/cert-manager-webhook:v1.17.1",

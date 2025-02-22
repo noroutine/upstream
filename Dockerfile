@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.02.3
+FROM pihole/pihole:2025.02.4
 # pihole/pihole
 
 # klutchell/unbound
@@ -475,7 +475,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.0
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.1
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
