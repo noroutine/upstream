@@ -207,7 +207,7 @@ FROM bitnami/blackbox-exporter:0.25.0
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.16.0
+FROM bitnami/postgres-exporter:0.17.0
 # bitnami/postgres-exporter
 
 # bitnami/redis
@@ -235,7 +235,7 @@ FROM bitnami/keycloak:26.1.2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:6.3.0
+FROM bitnami/keycloak-config-cli:6.4.0
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx-ingress-controller

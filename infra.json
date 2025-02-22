@@ -1,5 +1,5 @@
 {
-  "version": "64b6ea9c",
+  "version": "b47bc7fb",
   "upstream": {
     "images": [
       "debian:bookworm-20250203-slim",
@@ -54,14 +54,14 @@
       "bitnami/prometheus-operator:0.80.1",
       "bitnami/node-exporter:1.9.0",
       "bitnami/blackbox-exporter:0.25.0",
-      "bitnami/postgres-exporter:0.16.0",
+      "bitnami/postgres-exporter:0.17.0",
       "bitnami/redis:7.4.2",
       "bitnami/redis-exporter:1.67.0",
       "bitnami/postgresql:15.10.0",
       "bitnami/postgresql:16.6.0",
       "bitnami/postgresql:17.4.0",
       "bitnami/keycloak:26.1.2",
-      "bitnami/keycloak-config-cli:6.3.0",
+      "bitnami/keycloak-config-cli:6.4.0",
       "bitnami/nginx-ingress-controller:1.12.0",
       "bitnami/minio:2025.2.18",
       "bitnami/minio-client:2025.2.15",
