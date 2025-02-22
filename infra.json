@@ -1,5 +1,5 @@
 {
-  "version": "ddebee21",
+  "version": "64b6ea9c",
   "upstream": {
     "images": [
       "debian:bookworm-20250203-slim",
@@ -106,7 +106,7 @@
       "curlimages/curl:8.12.1",
       "restic/restic:0.17.3",
       "coturn/coturn:4.6.3",
-      "netboxcommunity/netbox:v4.2.3",
+      "netboxcommunity/netbox:v4.2.4",
       "postgrest/postgrest:v12.2.8",
       "quay.io/cephcsi/cephcsi:v3.13.0",
       "homeassistant/home-assistant:2025.2",
@@ -151,7 +151,7 @@
       "calico/pod2daemon-flexvol:v3.29.2",
       "calico/node-driver-registrar:v3.29.2",
       "calico/csi:v3.29.2",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.17.1",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.17.2",
       "registry.k8s.io/sig-storage/livenessprobe:v2.15.0",
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0",
       "registry.k8s.io/sig-storage/csi-attacher:v4.8.0",

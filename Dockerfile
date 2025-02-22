@@ -415,7 +415,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.2.3
+FROM netboxcommunity/netbox:v4.2.4
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -595,7 +595,7 @@ FROM calico/csi:v3.29.2
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.1
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.2
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
