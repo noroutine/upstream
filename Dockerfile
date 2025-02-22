@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.77.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.4
+FROM squidfunk/mkdocs-material:9.6.5
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -59,15 +59,15 @@ FROM quay.io/keycloak/keycloak:26.1.2
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.3-bookworm
+FROM postgres:17.4-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-02-07T23-21-09Z
+FROM quay.io/minio/minio:RELEASE.2025-02-18T16-25-55Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-02-08T19-14-21Z
+FROM quay.io/minio/mc:RELEASE.2025-02-15T10-36-16Z
 # minio/mc
 
 # minio/console
@@ -79,7 +79,7 @@ FROM quay.io/coreos/etcd:v3.5.18
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.1.0
+FROM quay.io/prometheus/prometheus:v3.2.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -103,15 +103,15 @@ FROM quay.io/prometheus/pushgateway:v1.11.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.80.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.80.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.80.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.80.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.5.1
+FROM grafana/grafana:11.5.2
 # grafana/grafana
 
 # prymitive/karma
@@ -155,19 +155,19 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.8.2-ce.0
+FROM gitlab/gitlab-ce:17.9.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.8.3
+FROM gitlab/gitlab-runner:alpine-v17.9.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.8.3
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.9.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.8.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.9.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2024.07.0
+FROM pihole/pihole:2025.02.3
 # pihole/pihole
 
 # klutchell/unbound
@@ -187,7 +187,7 @@ FROM nextcloud:30.0.6-apache
 # nextcloud
 
 # docker
-FROM docker:27.5.1-dind
+FROM docker:28.0.0-dind
 # docker
 
 # bitnami/prometheus
@@ -195,7 +195,7 @@ FROM bitnami/prometheus:3.0.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.80.0
+FROM bitnami/prometheus-operator:0.80.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -227,7 +227,7 @@ FROM bitnami/postgresql:16.6.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:17.3.0
+FROM bitnami/postgresql:17.4.0
 # bitnami/postgresql
 
 # bitnami/keycloak
@@ -243,11 +243,11 @@ FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.2.7
+FROM bitnami/minio:2025.2.18
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.2.8
+FROM bitnami/minio-client:2025.2.15
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -263,7 +263,7 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.5.1
+FROM bitnami/grafana:11.5.2
 # bitnami/grafana
 
 # bitnami/nats
@@ -319,7 +319,7 @@ FROM registry:2.8.3
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.41.1
+FROM ghcr.io/dexidp/dex:v2.42.0
 # dexidp/dex
 
 # argoproj/argocd
@@ -439,7 +439,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.10.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.23.3-rootless
+FROM gitea/gitea:1.23.4-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
@@ -463,7 +463,7 @@ FROM fatedier/frpc:v0.61.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.497-jdk21
+FROM jenkins/jenkins:2.498-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -495,7 +495,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.2
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.5.1
+FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
@@ -655,11 +655,11 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:4.1.0-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:4.1.1-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.1.0-4.0.2-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.1.1-4.0.4-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
