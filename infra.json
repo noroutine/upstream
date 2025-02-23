@@ -1,5 +1,5 @@
 {
-  "version": "b47bc7fb",
+  "version": "f186601a",
   "upstream": {
     "images": [
       "debian:bookworm-20250203-slim",
@@ -89,7 +89,7 @@
       "connecteverything/nats-operator:0.8.0",
       "nats:2.10.25-alpine",
       "natsio/prometheus-nats-exporter:0.16.0",
-      "natsio/nats-server-config-reloader:0.16.1",
+      "natsio/nats-server-config-reloader:0.17.1",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.20-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
@@ -101,8 +101,8 @@
       "syncthing/discosrv:1.29.2",
       "syncthing/relaysrv:1.29.2",
       "jellyfin/jellyfin:10.10.6",
-      "haveagitgat/tdarr:2.32.01",
-      "haveagitgat/tdarr_node:2.32.01",
+      "haveagitgat/tdarr:2.33.01",
+      "haveagitgat/tdarr_node:2.33.01",
       "curlimages/curl:8.12.1",
       "restic/restic:0.17.3",
       "coturn/coturn:4.6.3",

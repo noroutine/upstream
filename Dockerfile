@@ -347,7 +347,7 @@ FROM natsio/prometheus-nats-exporter:0.16.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.16.1
+FROM natsio/nats-server-config-reloader:0.17.1
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -395,11 +395,11 @@ FROM jellyfin/jellyfin:10.10.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.32.01
+FROM haveagitgat/tdarr:2.33.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.32.01
+FROM haveagitgat/tdarr_node:2.33.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
