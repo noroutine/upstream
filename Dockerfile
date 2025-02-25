@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250203-slim
+FROM debian:bookworm-20250224-slim
 # debian
 
 # ubuntu
@@ -139,7 +139,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.17.2
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.4-noble
+FROM mongo:8.0.5-noble
 # mongo
 
 # dpage/pgadmin4
@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.02.4
+FROM pihole/pihole:2025.02.6
 # pihole/pihole
 
 # klutchell/unbound
@@ -499,7 +499,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.18.4
+FROM hashicorp/vault:1.18.5
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -551,7 +551,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.6
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.36.5
+FROM quay.io/tigera/operator:v1.37.1
 # tigera/operator
 
 # calico/typha
