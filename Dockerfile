@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250203-slim
+FROM debian:bookworm-20250224-slim
 # debian
 
 # ubuntu
