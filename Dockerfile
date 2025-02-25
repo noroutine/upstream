@@ -238,6 +238,10 @@ FROM bitnami/keycloak:26.1.2
 FROM bitnami/keycloak-config-cli:6.4.0
 # bitnami/keycloak-config-cli
 
+# bitnami/nginx
+FROM bitnami/nginx:1.27.4
+# bitnami/nginx
+
 # bitnami/nginx-ingress-controller
 FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
