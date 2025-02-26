@@ -343,7 +343,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.25-alpine
+FROM nats:2.10.26-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
