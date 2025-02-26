@@ -39,11 +39,11 @@ FROM golang:1.24.0-alpine
 # golang
 
 # traefik
-FROM traefik:v3.3.3
+FROM traefik:v3.3.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.77.1
+FROM sonatype/nexus3:3.77.2
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -271,7 +271,7 @@ FROM bitnami/grafana:11.5.2
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.10.25
+FROM bitnami/nats:2.10.26
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -343,7 +343,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.25-alpine
+FROM nats:2.10.26-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -467,7 +467,7 @@ FROM fatedier/frpc:v0.61.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.498-jdk21
+FROM jenkins/jenkins:2.499-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
