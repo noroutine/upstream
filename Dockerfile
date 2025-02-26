@@ -79,7 +79,7 @@ FROM quay.io/coreos/etcd:v3.5.18
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.2.0
+FROM quay.io/prometheus/prometheus:v3.2.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:30.0.6-apache
+FROM nextcloud:31.0.0-apache
 # nextcloud
 
 # docker
