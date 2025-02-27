@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.8.0-bookworm
+FROM node:23.9.0-bookworm
 # node
 
 # node
-FROM node:23.8.0-alpine
+FROM node:23.9.0-alpine
 # node
 
 # python
@@ -91,7 +91,7 @@ FROM quay.io/prometheus/node-exporter:v1.9.0
 # prometheus/node-exporter
 
 # prometheus/blackbox-exporter
-FROM quay.io/prometheus/blackbox-exporter:v0.25.0
+FROM quay.io/prometheus/blackbox-exporter:v0.26.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.9.0-ce.0
+FROM gitlab/gitlab-ce:17.9.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.9.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.9.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -187,7 +187,7 @@ FROM nextcloud:31.0.0-apache
 # nextcloud
 
 # docker
-FROM docker:28.0.0-dind
+FROM docker:28.0.1-dind
 # docker
 
 # bitnami/prometheus
@@ -203,11 +203,11 @@ FROM bitnami/node-exporter:1.9.0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.25.0
+FROM bitnami/blackbox-exporter:0.26.0
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.17.0
+FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
@@ -299,7 +299,7 @@ FROM aquasec/trivy:0.59.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.14.2
+FROM ghcr.io/external-secrets/external-secrets:v0.14.3
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -399,11 +399,11 @@ FROM jellyfin/jellyfin:10.10.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.33.01
+FROM haveagitgat/tdarr:2.34.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.33.01
+FROM haveagitgat/tdarr_node:2.34.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -507,7 +507,7 @@ FROM hashicorp/vault:1.18.5
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.6.1
+FROM hashicorp/vault-k8s:1.6.2
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
