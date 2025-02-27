@@ -203,7 +203,7 @@ FROM bitnami/node-exporter:1.9.0
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.25.0
+FROM bitnami/blackbox-exporter:0.26.0
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
