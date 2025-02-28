@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.1.2
+FROM quay.io/keycloak/keycloak:26.1.3
 # keycloak/keycloak
 
 # postgres
@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.02.6
+FROM pihole/pihole:2025.02.7
 # pihole/pihole
 
 # klutchell/unbound
@@ -231,7 +231,7 @@ FROM bitnami/postgresql:17.4.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.1.2
+FROM bitnami/keycloak:26.1.3
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -627,11 +627,11 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v5.2.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.2.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.2.1
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v8.2.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.2.1
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
