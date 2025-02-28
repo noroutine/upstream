@@ -283,7 +283,7 @@ FROM bitnami/metrics-server:0.7.2
 # bitnami/metrics-server
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.18.2
+FROM bitnami/kube-rbac-proxy:0.19.0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
@@ -327,7 +327,7 @@ FROM ghcr.io/dexidp/dex:v2.42.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.14.2
+FROM quay.io/argoproj/argocd:v2.14.3
 # argoproj/argocd
 
 # redis
@@ -447,7 +447,7 @@ FROM gitea/gitea:1.23.4-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.2.0
+FROM cloudflare/cloudflared:2025.2.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync

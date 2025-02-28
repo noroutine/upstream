@@ -1,5 +1,5 @@
 {
-  "version": "a08b66a4",
+  "version": "b1483553",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -73,7 +73,7 @@
       "bitnami/nats:2.10.26",
       "bitnami/kube-state-metrics:2.15.0",
       "bitnami/metrics-server:0.7.2",
-      "bitnami/kube-rbac-proxy:0.18.2",
+      "bitnami/kube-rbac-proxy:0.19.0",
       "bitnami/openldap:2.6.9",
       "bitnami/kubectl:1.32.2",
       "aquasec/trivy:0.59.1",
@@ -84,7 +84,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.42.0",
-      "quay.io/argoproj/argocd:v2.14.2",
+      "quay.io/argoproj/argocd:v2.14.3",
       "redis:7.4.2",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
@@ -114,7 +114,7 @@
       "koenkk/zigbee2mqtt:2.1.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.10.0",
       "gitea/gitea:1.23.4-rootless",
-      "cloudflare/cloudflared:2025.2.0",
+      "cloudflare/cloudflared:2025.2.1",
       "registry.k8s.io/git-sync/git-sync:v4.4.0",
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.61.1",
