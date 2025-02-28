@@ -1,5 +1,5 @@
 {
-  "version": "b1483553",
+  "version": "58d5bd6b",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -155,8 +155,8 @@
       "registry.k8s.io/nfd/node-feature-discovery:v0.17.2",
       "registry.k8s.io/sig-storage/livenessprobe:v2.15.0",
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0",
-      "registry.k8s.io/sig-storage/csi-attacher:v4.8.0",
-      "registry.k8s.io/sig-storage/csi-resizer:v1.13.1",
+      "registry.k8s.io/sig-storage/csi-attacher:v4.8.1",
+      "registry.k8s.io/sig-storage/csi-resizer:v1.13.2",
       "registry.k8s.io/sig-storage/csi-provisioner:v5.2.0",
       "registry.k8s.io/sig-storage/csi-snapshotter:v8.2.0",
       "registry.k8s.io/sig-storage/snapshot-controller:v8.2.0",
