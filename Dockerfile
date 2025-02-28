@@ -283,7 +283,7 @@ FROM bitnami/metrics-server:0.7.2
 # bitnami/metrics-server
 
 # bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.18.2
+FROM bitnami/kube-rbac-proxy:0.19.0
 # bitnami/kube-rbac-proxy
 
 # bitnami/openldap
