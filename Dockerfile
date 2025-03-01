@@ -63,11 +63,11 @@ FROM postgres:17.4-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-02-18T16-25-55Z
+FROM quay.io/minio/minio:RELEASE.2025-02-28T09-55-16Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-02-15T10-36-16Z
+FROM quay.io/minio/mc:RELEASE.2025-02-21T16-00-46Z
 # minio/mc
 
 # minio/console
@@ -251,11 +251,11 @@ FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.2.18
+FROM bitnami/minio:2025.2.28
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.2.15
+FROM bitnami/minio-client:2025.2.21
 # bitnami/minio-client
 
 # bitnami/os-shell
