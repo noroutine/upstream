@@ -1,5 +1,5 @@
 {
-  "version": "0b8af05d",
+  "version": "3aa34894",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -77,6 +77,8 @@
       "bitnami/kube-rbac-proxy:0.19.0",
       "bitnami/openldap:2.6.9",
       "bitnami/kubectl:1.32.2",
+      "haproxytech/haproxy-alpine:3.1.5",
+      "haproxytech/kubernetes-ingress:3.1.2",
       "aquasec/trivy:0.59.1",
       "ghcr.io/external-secrets/external-secrets:v0.14.3",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.8",

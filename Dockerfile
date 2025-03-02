@@ -298,6 +298,14 @@ FROM bitnami/openldap:2.6.9
 FROM bitnami/kubectl:1.32.2
 # bitnami/kubectl
 
+# haproxytech/haproxy-alpine
+FROM haproxytech/haproxy-alpine:3.1.5
+# haproxytech/haproxy-alpine
+
+# haproxytech/kubernetes-ingress
+FROM haproxytech/kubernetes-ingress:3.1.2
+# haproxytech/kubernetes-ingress
+
 # aquasec/trivy
 FROM aquasec/trivy:0.59.1
 # aquasec/trivy
