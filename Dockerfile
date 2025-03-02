@@ -439,7 +439,7 @@ FROM homeassistant/home-assistant:2025.2
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.1.2
+FROM koenkk/zigbee2mqtt:2.1.3
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
