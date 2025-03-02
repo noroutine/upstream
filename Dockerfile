@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.77.2
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.5
+FROM squidfunk/mkdocs-material:9.6.6
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -403,11 +403,11 @@ FROM jellyfin/jellyfin:10.10.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.34.01
+FROM haveagitgat/tdarr:2.35.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.34.01
+FROM haveagitgat/tdarr_node:2.35.02
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -439,7 +439,7 @@ FROM homeassistant/home-assistant:2025.2
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.1.1
+FROM koenkk/zigbee2mqtt:2.1.2
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
