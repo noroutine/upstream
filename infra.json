@@ -1,5 +1,5 @@
 {
-  "version": "4bf29947",
+  "version": "a229966e",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -79,7 +79,7 @@
       "bitnami/kubectl:1.32.2",
       "haproxytech/haproxy-alpine:3.1.5",
       "haproxytech/kubernetes-ingress:3.1.2",
-      "aquasec/trivy:0.59.1",
+      "aquasec/trivy:0.60.0",
       "ghcr.io/external-secrets/external-secrets:v0.14.3",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.8",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8",
