@@ -31,11 +31,11 @@ FROM python:3.13.2-slim-bookworm
 # python
 
 # golang
-FROM golang:1.24.0-bookworm
+FROM golang:1.24.1-bookworm
 # golang
 
 # golang
-FROM golang:1.24.0-alpine
+FROM golang:1.24.1-alpine
 # golang
 
 # traefik
@@ -43,7 +43,7 @@ FROM traefik:v3.3.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.77.2
+FROM sonatype/nexus3:3.78.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -119,23 +119,23 @@ FROM ghcr.io/prymitive/karma:v0.120
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.17.2
+FROM docker.elastic.co/logstash/logstash:8.17.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.17.2
+FROM docker.elastic.co/kibana/kibana:8.17.3
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:8.17.2
+FROM docker.elastic.co/apm/apm-server:8.17.3
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.17.2
+FROM docker.elastic.co/beats/elastic-agent:8.17.3
 # beats/elastic-agent
 
 # mongo
@@ -147,7 +147,7 @@ FROM dpage/pgadmin4:9.1
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:v2.16.0
+FROM mccutchen/go-httpbin:v2.16.1
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.02.7
+FROM pihole/pihole:2025.03.0
 # pihole/pihole
 
 # klutchell/unbound
@@ -455,7 +455,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.10.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.23.4-rootless
+FROM gitea/gitea:1.23.5-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
