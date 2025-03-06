@@ -1,5 +1,5 @@
 {
-  "version": "a229966e",
+  "version": "8f17eacc",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -21,7 +21,7 @@
       "quay.io/minio/minio:RELEASE.2025-02-28T09-55-16Z",
       "quay.io/minio/mc:RELEASE.2025-02-21T16-00-46Z",
       "quay.io/minio/console:v0.30.0",
-      "quay.io/coreos/etcd:v3.5.18",
+      "quay.io/coreos/etcd:v3.5.19",
       "quay.io/prometheus/prometheus:v3.2.1",
       "quay.io/prometheus/alertmanager:v0.28.0",
       "quay.io/prometheus/node-exporter:v1.9.0",
@@ -113,7 +113,7 @@
       "netboxcommunity/netbox:v4.2.4",
       "postgrest/postgrest:v12.2.8",
       "quay.io/cephcsi/cephcsi:v3.13.0",
-      "homeassistant/home-assistant:2025.2",
+      "homeassistant/home-assistant:2025.3",
       "koenkk/zigbee2mqtt:2.1.3",
       "registry.k8s.io/sig-storage/nfsplugin:v4.10.0",
       "gitea/gitea:1.23.5-rootless",
@@ -122,7 +122,7 @@
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.61.1",
       "fatedier/frpc:v0.61.1",
-      "jenkins/jenkins:2.499-jdk21",
+      "jenkins/jenkins:2.500-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
       "quay.io/kiwigrid/k8s-sidecar:1.30.1",
@@ -131,7 +131,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.17.1",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.2",
       "zachomedia/cert-manager-webhook-pdns:v2.5.2",
-      "hashicorp/vault:1.18.5",
+      "hashicorp/vault:1.19.0",
       "hashicorp/vault-k8s:1.6.2",
       "hashicorp/vault-csi-provider:1.5.0",
       "registry.k8s.io/pause:3.10",

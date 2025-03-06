@@ -75,7 +75,7 @@ FROM quay.io/minio/console:v0.30.0
 # minio/console
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.18
+FROM quay.io/coreos/etcd:v3.5.19
 # coreos/etcd
 
 # prometheus/prometheus
@@ -443,7 +443,7 @@ FROM quay.io/cephcsi/cephcsi:v3.13.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.2
+FROM homeassistant/home-assistant:2025.3
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -479,7 +479,7 @@ FROM fatedier/frpc:v0.61.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.499-jdk21
+FROM jenkins/jenkins:2.500-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -515,7 +515,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.18.5
+FROM hashicorp/vault:1.19.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s
