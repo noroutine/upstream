@@ -303,7 +303,7 @@ FROM haproxytech/haproxy-alpine:3.1.5
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.2
+FROM haproxytech/kubernetes-ingress:3.1.3
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -371,7 +371,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.20-openssl
+FROM eclipse-mosquitto:2.0.21-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
@@ -439,7 +439,7 @@ FROM postgrest/postgrest:v12.2.8
 # postgrest/postgrest
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.13.0
+FROM quay.io/cephcsi/cephcsi:v3.13.1
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
