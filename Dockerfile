@@ -43,7 +43,7 @@ FROM traefik:v3.3.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.78.0
+FROM sonatype/nexus3:3.78.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -83,7 +83,7 @@ FROM quay.io/prometheus/prometheus:v3.2.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.28.0
+FROM quay.io/prometheus/alertmanager:v0.28.1
 # prometheus/alertmanager
 
 # prometheus/node-exporter
@@ -303,7 +303,7 @@ FROM haproxytech/haproxy-alpine:3.1.5
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.3
+FROM haproxytech/kubernetes-ingress:3.1.4
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
