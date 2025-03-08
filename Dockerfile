@@ -471,7 +471,7 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # fatedier/frps
-FROM fatedier/frps:v0.61.1
+FROM fatedier/frps:v0.61.2
 # fatedier/frps
 
 # fatedier/frpc
