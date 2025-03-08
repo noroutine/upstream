@@ -83,7 +83,7 @@ FROM quay.io/prometheus/prometheus:v3.2.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.28.0
+FROM quay.io/prometheus/alertmanager:v0.28.1
 # prometheus/alertmanager
 
 # prometheus/node-exporter
