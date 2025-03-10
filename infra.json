@@ -1,5 +1,5 @@
 {
-  "version": "ba14678d",
+  "version": "85c89aad",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -42,8 +42,8 @@
       "mccutchen/go-httpbin:2.17.1",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine",
       "gitlab/gitlab-ce:17.9.1-ce.0",
-      "gitlab/gitlab-runner:alpine-v17.9.0",
-      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.9.0",
+      "gitlab/gitlab-runner:alpine-v17.9.1",
+      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.9.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.9.1",
       "quay.io/brancz/kube-rbac-proxy:v0.19.0",
       "pihole/pihole:2025.03.0",
