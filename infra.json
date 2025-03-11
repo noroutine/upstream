@@ -1,5 +1,5 @@
 {
-  "version": "164709f3",
+  "version": "0c1322c1",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -87,7 +87,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.42.0",
-      "quay.io/argoproj/argocd:v2.14.4",
+      "quay.io/argoproj/argocd:v2.14.5",
       "redis:7.4.2",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
