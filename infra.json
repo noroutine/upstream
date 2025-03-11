@@ -1,5 +1,5 @@
 {
-  "version": "dd737453",
+  "version": "164709f3",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -80,7 +80,7 @@
       "haproxytech/haproxy-alpine:3.1.5",
       "haproxytech/kubernetes-ingress:3.1.4",
       "aquasec/trivy:0.60.0",
-      "ghcr.io/external-secrets/external-secrets:v0.14.3",
+      "ghcr.io/external-secrets/external-secrets:v0.14.4",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.8",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8",
       "stakater/reloader:v1.3.0",
