@@ -103,11 +103,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.0
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.80.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.81.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.80.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -195,7 +195,7 @@ FROM bitnami/prometheus:3.0.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.80.1
+FROM bitnami/prometheus-operator:0.81.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -479,7 +479,7 @@ FROM fatedier/frpc:v0.61.2
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.500-jdk21
+FROM jenkins/jenkins:2.501-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -535,35 +535,35 @@ FROM registry.k8s.io/coredns/coredns:v1.12.0
 # coredns/coredns
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.2
+FROM registry.k8s.io/kube-apiserver:v1.32.3
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.2
+FROM registry.k8s.io/kube-proxy:v1.32.3
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.32.2
+FROM registry.k8s.io/kube-scheduler:v1.32.3
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.2
+FROM registry.k8s.io/kube-controller-manager:v1.32.3
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.6
+FROM registry.k8s.io/kube-apiserver:v1.31.7
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.6
+FROM registry.k8s.io/kube-proxy:v1.31.7
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.6
+FROM registry.k8s.io/kube-scheduler:v1.31.7
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.6
+FROM registry.k8s.io/kube-controller-manager:v1.31.7
 # kube-controller-manager
 
 # tigera/operator
@@ -663,7 +663,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.4-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.5-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
