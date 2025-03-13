@@ -551,7 +551,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.32.3
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.7
+FROM registry.k8s.io/kube-apiserver:v1.32.3
 # kube-apiserver
 
 # kube-proxy
