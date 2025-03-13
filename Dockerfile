@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.9.1-ce.0
+FROM gitlab/gitlab-ce:17.9.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
