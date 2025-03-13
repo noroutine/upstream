@@ -295,7 +295,7 @@ FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.32.2
+FROM bitnami/kubectl:1.32.3
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
