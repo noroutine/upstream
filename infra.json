@@ -1,5 +1,5 @@
 {
-  "version": "a2114839",
+  "version": "815d550e",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -16,7 +16,7 @@
       "sonatype/nexus3:3.78.1",
       "squidfunk/mkdocs-material:9.6.7",
       "freeradius/freeradius-server:3.2.7-alpine",
-      "quay.io/keycloak/keycloak:26.1.3",
+      "quay.io/keycloak/keycloak:26.1.4",
       "postgres:17.4-bookworm",
       "quay.io/minio/minio:RELEASE.2025-03-12T18-04-18Z",
       "quay.io/minio/mc:RELEASE.2025-03-12T17-29-24Z",
@@ -166,7 +166,7 @@
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1",
       "nvcr.io/nvidia/gpu-operator:v24.9.2",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.2",
-      "nvcr.io/nvidia/cuda:12.8.0-base-ubi9",
+      "nvcr.io/nvidia/cuda:12.8.1-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.17.5-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
