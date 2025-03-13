@@ -63,11 +63,11 @@ FROM postgres:17.4-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-02-28T09-55-16Z
+FROM quay.io/minio/minio:RELEASE.2025-03-12T18-04-18Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-02-21T16-00-46Z
+FROM quay.io/minio/mc:RELEASE.2025-03-12T17-29-24Z
 # minio/mc
 
 # minio/console
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.9.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.9.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -251,11 +251,11 @@ FROM bitnami/nginx-ingress-controller:1.12.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.2.28
+FROM bitnami/minio:2025.3.12
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.2.21
+FROM bitnami/minio-client:2025.3.12
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -295,7 +295,7 @@ FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.32.2
+FROM bitnami/kubectl:1.32.3
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
@@ -395,15 +395,15 @@ FROM elastic/eck-operator:2.16.1
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.2
+FROM syncthing/syncthing:1.29.3
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.2
+FROM syncthing/discosrv:1.29.3
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.29.2
+FROM syncthing/relaysrv:1.29.3
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
