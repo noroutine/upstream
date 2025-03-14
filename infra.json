@@ -1,5 +1,5 @@
 {
-  "version": "7c838a54",
+  "version": "87383e6e",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -170,7 +170,7 @@
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.17.5-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
-      "nvcr.io/nvidia/cloud-native/dcgm:4.1.1-1-ubi9",
+      "nvcr.io/nvidia/cloud-native/dcgm:4.1.1-2-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:4.1.1-4.0.4-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8"
