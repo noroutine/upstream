@@ -1,5 +1,5 @@
 {
-  "version": "815d550e",
+  "version": "7c838a54",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
@@ -14,7 +14,7 @@
       "golang:1.24.1-alpine",
       "traefik:v3.3.4",
       "sonatype/nexus3:3.78.1",
-      "squidfunk/mkdocs-material:9.6.7",
+      "squidfunk/mkdocs-material:9.6.8",
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.1.4",
       "postgres:17.4-bookworm",
@@ -60,7 +60,7 @@
       "bitnami/postgresql:15.10.0",
       "bitnami/postgresql:16.6.0",
       "bitnami/postgresql:17.4.0",
-      "bitnami/keycloak:26.1.3",
+      "bitnami/keycloak:26.1.4",
       "bitnami/keycloak-config-cli:6.4.0",
       "bitnami/nginx:1.27.4",
       "bitnami/haproxy:3.1.5",

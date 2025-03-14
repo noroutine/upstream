@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.78.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.7
+FROM squidfunk/mkdocs-material:9.6.8
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -231,7 +231,7 @@ FROM bitnami/postgresql:17.4.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.1.3
+FROM bitnami/keycloak:26.1.4
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
