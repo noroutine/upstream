@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.9.0-bookworm
+FROM node:23.10.0-bookworm
 # node
 
 # node
-FROM node:23.9.0-alpine
+FROM node:23.10.0-alpine
 # node
 
 # python
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.0-apache
+FROM nextcloud:31.0.1-apache
 # nextcloud
 
 # docker

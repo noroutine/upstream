@@ -1,13 +1,13 @@
 {
-  "version": "87383e6e",
+  "version": "dd382c45",
   "upstream": {
     "images": [
       "debian:bookworm-20250224-slim",
       "ubuntu:noble-20250127",
       "alpine:3.21.3",
       "busybox:1.37.0",
-      "node:23.9.0-bookworm",
-      "node:23.9.0-alpine",
+      "node:23.10.0-bookworm",
+      "node:23.10.0-alpine",
       "python:3.13.2-bookworm",
       "python:3.13.2-slim-bookworm",
       "golang:1.24.1-bookworm",
@@ -48,7 +48,7 @@
       "quay.io/brancz/kube-rbac-proxy:v0.19.0",
       "pihole/pihole:2025.03.0",
       "klutchell/unbound:v1.22.0",
-      "nextcloud:31.0.0-apache",
+      "nextcloud:31.0.1-apache",
       "docker:28.0.1-dind",
       "bitnami/prometheus:3.0.1",
       "bitnami/prometheus-operator:0.81.0",
