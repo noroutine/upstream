@@ -1,8 +1,8 @@
 {
-  "version": "v0.0.388",
+  "version": "849441e6",
   "upstream": {
     "images": [
-      "debian:bookworm-20250224-slim",
+      "debian:bookworm-20250317-slim",
       "ubuntu:noble-20250127",
       "alpine:3.21.3",
       "busybox:1.37.0",
@@ -14,7 +14,7 @@
       "golang:1.24.1-alpine",
       "traefik:v3.3.4",
       "sonatype/nexus3:3.78.1",
-      "squidfunk/mkdocs-material:9.6.8",
+      "squidfunk/mkdocs-material:9.6.9",
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.1.4",
       "postgres:17.4-bookworm",
