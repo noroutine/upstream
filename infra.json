@@ -1,5 +1,5 @@
 {
-  "version": "ae7c366a",
+  "version": "4355a084",
   "upstream": {
     "images": [
       "debian:bookworm-20250317-slim",
@@ -71,7 +71,7 @@
       "bitnami/metallb-controller:0.14.9",
       "bitnami/metallb-speaker:0.14.9",
       "bitnami/grafana:11.5.2",
-      "bitnami/nats:2.10.26",
+      "bitnami/nats:2.11.0",
       "bitnami/kube-state-metrics:2.15.0",
       "bitnami/metrics-server:0.7.2",
       "bitnami/kube-rbac-proxy:0.19.0",
@@ -80,14 +80,14 @@
       "haproxytech/haproxy-alpine:3.1.5",
       "haproxytech/kubernetes-ingress:3.1.4",
       "aquasec/trivy:0.60.0",
-      "ghcr.io/external-secrets/external-secrets:v0.14.4",
+      "ghcr.io/external-secrets/external-secrets:v0.15.0",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.8",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8",
       "stakater/reloader:v1.3.0",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:2.8.3",
       "ghcr.io/dexidp/dex:v2.42.0",
-      "quay.io/argoproj/argocd:v2.14.6",
+      "quay.io/argoproj/argocd:v2.14.7",
       "redis:7.4.2",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",

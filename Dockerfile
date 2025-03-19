@@ -275,7 +275,7 @@ FROM bitnami/grafana:11.5.2
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.10.26
+FROM bitnami/nats:2.11.0
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -311,7 +311,7 @@ FROM aquasec/trivy:0.60.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.14.4
+FROM ghcr.io/external-secrets/external-secrets:v0.15.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -339,7 +339,7 @@ FROM ghcr.io/dexidp/dex:v2.42.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.14.6
+FROM quay.io/argoproj/argocd:v2.14.7
 # argoproj/argocd
 
 # redis
