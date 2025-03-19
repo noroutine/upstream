@@ -1,5 +1,5 @@
 {
-  "version": "88d00817",
+  "version": "ae7c366a",
   "upstream": {
     "images": [
       "debian:bookworm-20250317-slim",
@@ -13,7 +13,7 @@
       "golang:1.24.1-bookworm",
       "golang:1.24.1-alpine",
       "traefik:v3.3.4",
-      "sonatype/nexus3:3.78.1",
+      "sonatype/nexus3:3.78.2",
       "squidfunk/mkdocs-material:9.6.9",
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.1.4",
@@ -98,7 +98,7 @@
       "eclipse-mosquitto:2.0.21-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.9.1-alpine",
-      "azul/zulu-openjdk:23.0.2-23.32",
+      "azul/zulu-openjdk:24.0.0-24.28",
       "eclipse-temurin:23-noble",
       "elastic/eck-operator:2.16.1",
       "syncthing/syncthing:1.29.3",
@@ -122,7 +122,7 @@
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.61.2",
       "fatedier/frpc:v0.61.2",
-      "jenkins/jenkins:2.501-jdk21",
+      "jenkins/jenkins:2.502-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
       "quay.io/kiwigrid/k8s-sidecar:1.30.2",

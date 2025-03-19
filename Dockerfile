@@ -43,7 +43,7 @@ FROM traefik:v3.3.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.78.1
+FROM sonatype/nexus3:3.78.2
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -383,7 +383,7 @@ FROM caddy:2.9.1-alpine
 # caddy
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:23.0.2-23.32
+FROM azul/zulu-openjdk:24.0.0-24.28
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -479,7 +479,7 @@ FROM fatedier/frpc:v0.61.2
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.501-jdk21
+FROM jenkins/jenkins:2.502-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
