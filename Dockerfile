@@ -159,11 +159,11 @@ FROM gitlab/gitlab-ce:17.9.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.9.1
+FROM gitlab/gitlab-runner:alpine-v17.10.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.9.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.1-apache
+FROM nextcloud:31.0.2-apache
 # nextcloud
 
 # docker
@@ -355,7 +355,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.26-alpine
+FROM nats:2.11.0-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
