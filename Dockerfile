@@ -355,7 +355,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.10.26-alpine
+FROM nats:2.11.0-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
