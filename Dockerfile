@@ -147,7 +147,7 @@ FROM dpage/pgadmin4:9.1
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:2.17.1
+FROM mccutchen/go-httpbin:2.18.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.9.2-ce.0
+FROM gitlab/gitlab-ce:17.10.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -187,7 +187,7 @@ FROM nextcloud:31.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:28.0.1-dind
+FROM docker:28.0.2-dind
 # docker
 
 # bitnami/prometheus
@@ -243,7 +243,7 @@ FROM bitnami/nginx:1.27.4
 # bitnami/nginx
 
 # bitnami/haproxy
-FROM bitnami/haproxy:3.1.5
+FROM bitnami/haproxy:3.1.6
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
@@ -299,7 +299,7 @@ FROM bitnami/kubectl:1.32.3
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.1.5
+FROM haproxytech/haproxy-alpine:3.1.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
