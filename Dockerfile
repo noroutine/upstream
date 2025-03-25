@@ -139,7 +139,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.17.3
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.5-noble
+FROM mongo:8.0.6-noble
 # mongo
 
 # dpage/pgadmin4
