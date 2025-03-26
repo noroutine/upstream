@@ -123,7 +123,7 @@ FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.17.3
+FROM docker.elastic.co/logstash/logstash:8.17.4
 # logstash/logstash
 
 # kibana/kibana
