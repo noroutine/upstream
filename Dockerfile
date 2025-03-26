@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.5.2
+FROM grafana/grafana:11.6.0
 # grafana/grafana
 
 # prymitive/karma
@@ -119,27 +119,27 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.4
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.17.3
+FROM docker.elastic.co/logstash/logstash:8.17.4
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.17.3
+FROM docker.elastic.co/kibana/kibana:8.17.4
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:8.17.3
+FROM docker.elastic.co/apm/apm-server:8.17.4
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.17.3
+FROM docker.elastic.co/beats/elastic-agent:8.17.4
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.5-noble
+FROM mongo:8.0.6-noble
 # mongo
 
 # dpage/pgadmin4
@@ -151,7 +151,7 @@ FROM mccutchen/go-httpbin:2.18.0
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.1-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.2-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
@@ -187,7 +187,7 @@ FROM nextcloud:31.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:28.0.2-dind
+FROM docker:28.0.4-dind
 # docker
 
 # bitnami/prometheus
@@ -247,7 +247,7 @@ FROM bitnami/haproxy:3.1.6
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.12.0
+FROM bitnami/nginx-ingress-controller:1.12.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
@@ -271,7 +271,7 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.5.2
+FROM bitnami/grafana:11.5.3
 # bitnami/grafana
 
 # bitnami/nats
@@ -339,7 +339,7 @@ FROM ghcr.io/dexidp/dex:v2.42.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.14.7
+FROM quay.io/argoproj/argocd:v2.14.8
 # argoproj/argocd
 
 # redis
@@ -387,7 +387,7 @@ FROM azul/zulu-openjdk:24.0.0-24.28
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:23-noble
+FROM eclipse-temurin:24-noble
 # eclipse-temurin
 
 # elastic/eck-operator
@@ -411,11 +411,11 @@ FROM jellyfin/jellyfin:10.10.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.35.02
+FROM haveagitgat/tdarr:2.36.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.35.02
+FROM haveagitgat/tdarr_node:2.36.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -455,7 +455,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.23.5-rootless
+FROM gitea/gitea:1.23.6-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
@@ -479,7 +479,7 @@ FROM fatedier/frpc:v0.61.2
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.502-jdk21
+FROM jenkins/jenkins:2.503-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
