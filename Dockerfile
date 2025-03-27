@@ -303,7 +303,7 @@ FROM haproxytech/haproxy-alpine:3.1.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.4
+FROM haproxytech/kubernetes-ingress:3.1.5
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
