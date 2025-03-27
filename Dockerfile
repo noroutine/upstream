@@ -155,19 +155,19 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.2-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.10.0-ce.0
+FROM gitlab/gitlab-ce:17.10.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.10.0
+FROM gitlab/gitlab-runner:alpine-v17.10.1
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -303,7 +303,7 @@ FROM haproxytech/haproxy-alpine:3.1.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.4
+FROM haproxytech/kubernetes-ingress:3.1.5
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -567,47 +567,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.7
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.37.1
+FROM quay.io/tigera/operator:v1.36.7
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.29.2
+FROM calico/typha:v3.29.3
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.29.2
+FROM calico/ctl:v3.29.3
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.29.2
+FROM calico/node:v3.29.3
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.29.2
+FROM calico/cni:v3.29.3
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.29.2
+FROM calico/apiserver:v3.29.3
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.29.2
+FROM calico/kube-controllers:v3.29.3
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.29.2
+FROM calico/dikastes:v3.29.3
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.29.2
+FROM calico/pod2daemon-flexvol:v3.29.3
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.29.2
+FROM calico/node-driver-registrar:v3.29.3
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.29.2
+FROM calico/csi:v3.29.3
 # calico/csi
 
 # nfd/node-feature-discovery
@@ -647,11 +647,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v24.9.2
+FROM nvcr.io/nvidia/gpu-operator:v25.3.0
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.2
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.0
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
