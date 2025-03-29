@@ -491,7 +491,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.2
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.3
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
