@@ -1,5 +1,5 @@
 {
-  "version": "e312be10",
+  "version": "5e490157",
   "upstream": {
     "images": [
       "debian:bookworm-20250317-slim",
@@ -21,7 +21,7 @@
       "quay.io/minio/minio:RELEASE.2025-03-12T18-04-18Z",
       "quay.io/minio/mc:RELEASE.2025-03-12T17-29-24Z",
       "quay.io/minio/console:v0.30.0",
-      "quay.io/coreos/etcd:v3.5.20",
+      "quay.io/coreos/etcd:v3.5.21",
       "quay.io/prometheus/prometheus:v3.2.1",
       "quay.io/prometheus/alertmanager:v0.28.1",
       "quay.io/prometheus/node-exporter:v1.9.0",
@@ -70,7 +70,7 @@
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.14.9",
       "bitnami/metallb-speaker:0.14.9",
-      "bitnami/grafana:11.5.3",
+      "bitnami/grafana:11.6.0",
       "bitnami/nats:2.11.0",
       "bitnami/kube-state-metrics:2.15.0",
       "bitnami/metrics-server:0.7.2",
@@ -108,7 +108,7 @@
       "haveagitgat/tdarr:2.36.01",
       "haveagitgat/tdarr_node:2.36.01",
       "curlimages/curl:8.12.1",
-      "restic/restic:0.17.3",
+      "restic/restic:0.18.0",
       "coturn/coturn:4.6.3",
       "netboxcommunity/netbox:v4.2.6",
       "postgrest/postgrest:v12.2.8",

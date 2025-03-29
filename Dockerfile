@@ -75,7 +75,7 @@ FROM quay.io/minio/console:v0.30.0
 # minio/console
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.20
+FROM quay.io/coreos/etcd:v3.5.21
 # coreos/etcd
 
 # prometheus/prometheus
@@ -271,7 +271,7 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.5.3
+FROM bitnami/grafana:11.6.0
 # bitnami/grafana
 
 # bitnami/nats
@@ -423,7 +423,7 @@ FROM curlimages/curl:8.12.1
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.17.3
+FROM restic/restic:0.18.0
 # restic/restic
 
 # coturn/coturn
