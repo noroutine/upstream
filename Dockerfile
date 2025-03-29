@@ -307,7 +307,7 @@ FROM haproxytech/kubernetes-ingress:3.1.6
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.60.0
+FROM aquasec/trivy:0.61.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -491,7 +491,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.2
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.3
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller

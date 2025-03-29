@@ -1,5 +1,5 @@
 {
-  "version": "a834bfc7",
+  "version": "8df3ae4f",
   "upstream": {
     "images": [
       "debian:bookworm-20250317-slim",
@@ -79,7 +79,7 @@
       "bitnami/kubectl:1.32.3",
       "haproxytech/haproxy-alpine:3.1.6",
       "haproxytech/kubernetes-ingress:3.1.6",
-      "aquasec/trivy:0.60.0",
+      "aquasec/trivy:0.61.0",
       "ghcr.io/external-secrets/external-secrets:v0.15.1",
       "registry.k8s.io/csi-secrets-store/driver:v1.4.8",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8",
@@ -125,7 +125,7 @@
       "jenkins/jenkins:2.503-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
-      "quay.io/kiwigrid/k8s-sidecar:1.30.2",
+      "quay.io/kiwigrid/k8s-sidecar:1.30.3",
       "quay.io/jetstack/cert-manager-controller:v1.17.1",
       "quay.io/jetstack/cert-manager-cainjector:v1.17.1",
       "quay.io/jetstack/cert-manager-webhook:v1.17.1",
