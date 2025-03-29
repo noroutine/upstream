@@ -303,7 +303,7 @@ FROM haproxytech/haproxy-alpine:3.1.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.5
+FROM haproxytech/kubernetes-ingress:3.1.6
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -311,7 +311,7 @@ FROM aquasec/trivy:0.60.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.15.0
+FROM ghcr.io/external-secrets/external-secrets:v0.15.1
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
