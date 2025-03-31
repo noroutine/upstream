@@ -415,7 +415,7 @@ FROM haveagitgat/tdarr:2.36.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.36.01
+FROM haveagitgat/tdarr_node:2.37.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
