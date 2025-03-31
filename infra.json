@@ -1,5 +1,5 @@
 {
-  "version": "8df3ae4f",
+  "version": "9df1dc57",
   "upstream": {
     "images": [
       "debian:bookworm-20250317-slim",
@@ -14,7 +14,7 @@
       "golang:1.24.1-alpine",
       "traefik:v3.3.4",
       "sonatype/nexus3:3.78.2",
-      "squidfunk/mkdocs-material:9.6.9",
+      "squidfunk/mkdocs-material:9.6.10",
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.1.4",
       "postgres:17.4-bookworm",
@@ -46,7 +46,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.1",
       "quay.io/brancz/kube-rbac-proxy:v0.19.0",
-      "pihole/pihole:2025.03.0",
+      "pihole/pihole:2025.03.1",
       "klutchell/unbound:v1.22.0",
       "nextcloud:31.0.2-apache",
       "docker:28.0.4-dind",
@@ -105,8 +105,8 @@
       "syncthing/discosrv:1.29.3",
       "syncthing/relaysrv:1.29.3",
       "jellyfin/jellyfin:10.10.6",
-      "haveagitgat/tdarr:2.36.01",
-      "haveagitgat/tdarr_node:2.36.01",
+      "haveagitgat/tdarr:2.37.01",
+      "haveagitgat/tdarr_node:2.37.01",
       "curlimages/curl:8.12.1",
       "restic/restic:0.18.0",
       "coturn/coturn:4.6.3",

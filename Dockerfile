@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.78.2
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.9
+FROM squidfunk/mkdocs-material:9.6.10
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.03.0
+FROM pihole/pihole:2025.03.1
 # pihole/pihole
 
 # klutchell/unbound
@@ -411,11 +411,11 @@ FROM jellyfin/jellyfin:10.10.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.36.01
+FROM haveagitgat/tdarr:2.37.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.36.01
+FROM haveagitgat/tdarr_node:2.37.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
