@@ -39,7 +39,7 @@ FROM golang:1.24.1-alpine
 # golang
 
 # traefik
-FROM traefik:v3.3.4
+FROM traefik:v3.3.5
 # traefik
 
 # sonatype/nexus3
@@ -359,7 +359,7 @@ FROM nats:2.11.0-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.16.0
+FROM natsio/prometheus-nats-exporter:0.17.2
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
