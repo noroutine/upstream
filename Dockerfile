@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.10.0-bookworm
+FROM node:23.11.0-bookworm
 # node
 
 # node
-FROM node:23.10.0-alpine
+FROM node:23.11.0-alpine
 # node
 
 # python
@@ -31,11 +31,11 @@ FROM python:3.13.2-slim-bookworm
 # python
 
 # golang
-FROM golang:1.24.1-bookworm
+FROM golang:1.24.2-bookworm
 # golang
 
 # golang
-FROM golang:1.24.1-alpine
+FROM golang:1.24.2-alpine
 # golang
 
 # traefik
@@ -43,11 +43,11 @@ FROM traefik:v3.3.5
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.78.2
+FROM sonatype/nexus3:3.79.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.10
+FROM squidfunk/mkdocs-material:9.6.11
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -87,7 +87,7 @@ FROM quay.io/prometheus/alertmanager:v0.28.1
 # prometheus/alertmanager
 
 # prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.9.0
+FROM quay.io/prometheus/node-exporter:v1.9.1
 # prometheus/node-exporter
 
 # prometheus/blackbox-exporter
@@ -199,7 +199,7 @@ FROM bitnami/prometheus-operator:0.81.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
-FROM bitnami/node-exporter:1.9.0
+FROM bitnami/node-exporter:1.9.1
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
@@ -395,15 +395,15 @@ FROM elastic/eck-operator:2.16.1
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.3
+FROM syncthing/syncthing:1.29.4
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.3
+FROM syncthing/discosrv:1.29.4
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.29.3
+FROM syncthing/relaysrv:1.29.4
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -447,7 +447,7 @@ FROM homeassistant/home-assistant:2025.3
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.1.3
+FROM koenkk/zigbee2mqtt:2.2.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
