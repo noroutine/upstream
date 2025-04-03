@@ -479,7 +479,7 @@ FROM fatedier/frpc:v0.61.2
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.503-jdk21
+FROM jenkins/jenkins:2.504-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
