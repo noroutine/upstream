@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.2-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.10.1-ce.0
+FROM gitlab/gitlab-ce:17.10.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.3
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -339,7 +339,7 @@ FROM ghcr.io/dexidp/dex:v2.42.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.14.8
+FROM quay.io/argoproj/argocd:v2.14.9
 # argoproj/argocd
 
 # redis
@@ -443,7 +443,7 @@ FROM quay.io/cephcsi/cephcsi:v3.13.1
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.3
+FROM homeassistant/home-assistant:2025.4
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -459,7 +459,7 @@ FROM gitea/gitea:1.23.6-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.2.1
+FROM cloudflare/cloudflared:2025.4.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -479,7 +479,7 @@ FROM fatedier/frpc:v0.61.2
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.503-jdk21
+FROM jenkins/jenkins:2.504-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -567,7 +567,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.7
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.36.7
+FROM quay.io/tigera/operator:v1.36.8
 # tigera/operator
 
 # calico/typha
