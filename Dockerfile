@@ -331,7 +331,7 @@ FROM jimmidyson/configmap-reload:v0.9.0
 # jimmidyson/configmap-reload
 
 # registry
-FROM registry:2.8.3
+FROM registry:3.0.0
 # registry
 
 # dexidp/dex
