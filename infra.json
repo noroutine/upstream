@@ -1,5 +1,5 @@
 {
-  "version": "81fb844c",
+  "version": "631d8ad0",
   "upstream": {
     "images": [
       "debian:bookworm-20250317-slim",
@@ -18,7 +18,7 @@
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.1.4",
       "postgres:17.4-bookworm",
-      "quay.io/minio/minio:RELEASE.2025-03-12T18-04-18Z",
+      "quay.io/minio/minio:RELEASE.2025-04-03T14-56-28Z",
       "quay.io/minio/mc:RELEASE.2025-03-12T17-29-24Z",
       "quay.io/minio/console:v0.30.0",
       "quay.io/coreos/etcd:v3.5.21",
@@ -65,8 +65,8 @@
       "bitnami/nginx:1.27.4",
       "bitnami/haproxy:3.1.6",
       "bitnami/nginx-ingress-controller:1.12.1",
-      "bitnami/minio:2025.3.12",
-      "bitnami/minio-client:2025.3.12",
+      "bitnami/minio:2025.4.3",
+      "bitnami/minio-client:2025.4.3",
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.14.9",
       "bitnami/metallb-speaker:0.14.9",
@@ -85,7 +85,7 @@
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8",
       "stakater/reloader:v1.3.0",
       "jimmidyson/configmap-reload:v0.9.0",
-      "registry:2.8.3",
+      "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.42.0",
       "quay.io/argoproj/argocd:v2.14.9",
       "redis:7.4.2",

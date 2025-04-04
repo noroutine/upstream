@@ -63,7 +63,7 @@ FROM postgres:17.4-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-03-12T18-04-18Z
+FROM quay.io/minio/minio:RELEASE.2025-04-03T14-56-28Z
 # minio/minio
 
 # minio/mc
@@ -251,11 +251,11 @@ FROM bitnami/nginx-ingress-controller:1.12.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.3.12
+FROM bitnami/minio:2025.4.3
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.3.12
+FROM bitnami/minio-client:2025.4.3
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -331,7 +331,7 @@ FROM jimmidyson/configmap-reload:v0.9.0
 # jimmidyson/configmap-reload
 
 # registry
-FROM registry:2.8.3
+FROM registry:3.0.0
 # registry
 
 # dexidp/dex
