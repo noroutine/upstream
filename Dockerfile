@@ -147,7 +147,7 @@ FROM dpage/pgadmin4:9.2
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:2.18.0
+FROM mccutchen/go-httpbin:2.18.1
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -515,7 +515,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.19.0
+FROM hashicorp/vault:1.19.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s

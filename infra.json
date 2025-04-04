@@ -1,5 +1,5 @@
 {
-  "version": "631d8ad0",
+  "version": "6f07776c",
   "upstream": {
     "images": [
       "debian:bookworm-20250317-slim",
@@ -39,7 +39,7 @@
       "docker.elastic.co/beats/elastic-agent:8.17.4",
       "mongo:8.0.6-noble",
       "dpage/pgadmin4:9.2",
-      "mccutchen/go-httpbin:2.18.0",
+      "mccutchen/go-httpbin:2.18.1",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.8.2-alpine",
       "gitlab/gitlab-ce:17.10.3-ce.0",
       "gitlab/gitlab-runner:alpine-v17.10.1",
@@ -131,7 +131,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.17.1",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.2",
       "zachomedia/cert-manager-webhook-pdns:v2.5.2",
-      "hashicorp/vault:1.19.0",
+      "hashicorp/vault:1.19.1",
       "hashicorp/vault-k8s:1.6.2",
       "hashicorp/vault-csi-provider:1.5.0",
       "registry.k8s.io/pause:3.10",
