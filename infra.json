@@ -1,5 +1,5 @@
 {
-  "version": "fc4d10f3",
+  "version": "b9a933a9",
   "upstream": {
     "images": [
       "debian:bookworm-20250317-slim",
@@ -46,7 +46,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.3",
       "quay.io/brancz/kube-rbac-proxy:v0.19.0",
-      "pihole/pihole:2025.03.1",
+      "pihole/pihole:2025.04.0",
       "klutchell/unbound:v1.22.0",
       "nextcloud:31.0.2-apache",
       "docker:28.0.4-dind",
@@ -114,7 +114,7 @@
       "postgrest/postgrest:v12.2.8",
       "quay.io/cephcsi/cephcsi:v3.13.1",
       "homeassistant/home-assistant:2025.4",
-      "koenkk/zigbee2mqtt:2.2.0",
+      "koenkk/zigbee2mqtt:2.2.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
       "gitea/gitea:1.23.6-rootless",
       "cloudflare/cloudflared:2025.4.0",

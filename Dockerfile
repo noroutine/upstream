@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.03.1
+FROM pihole/pihole:2025.04.0
 # pihole/pihole
 
 # klutchell/unbound
@@ -447,7 +447,7 @@ FROM homeassistant/home-assistant:2025.4
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.2.0
+FROM koenkk/zigbee2mqtt:2.2.1
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
