@@ -407,7 +407,7 @@ FROM syncthing/relaysrv:1.29.4
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.10.6
+FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -419,7 +419,7 @@ FROM haveagitgat/tdarr_node:2.37.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
-FROM curlimages/curl:8.12.1
+FROM curlimages/curl:8.13.0
 # curlimages/curl
 
 # restic/restic
