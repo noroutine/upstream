@@ -1,8 +1,8 @@
 {
-  "version": "e6510ccb",
+  "version": "71909553",
   "upstream": {
     "images": [
-      "debian:bookworm-20250317-slim",
+      "debian:bookworm-20250407-slim",
       "ubuntu:noble-20250127",
       "alpine:3.21.3",
       "busybox:1.37.0",
@@ -116,7 +116,7 @@
       "homeassistant/home-assistant:2025.4",
       "koenkk/zigbee2mqtt:2.2.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
-      "gitea/gitea:1.23.6-rootless",
+      "gitea/gitea:1.23.7-rootless",
       "cloudflare/cloudflared:2025.4.0",
       "registry.k8s.io/git-sync/git-sync:v4.4.0",
       "sj26/mailcatcher:v0.10.0",
@@ -170,8 +170,8 @@
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.17.5-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
-      "nvcr.io/nvidia/cloud-native/dcgm:4.1.1-2-ubi9",
-      "nvcr.io/nvidia/k8s/dcgm-exporter:4.1.1-4.0.4-ubi9",
+      "nvcr.io/nvidia/cloud-native/dcgm:4.2.0-1-ubi9",
+      "nvcr.io/nvidia/k8s/dcgm-exporter:4.2.0-4.1.0-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8"
     ]
