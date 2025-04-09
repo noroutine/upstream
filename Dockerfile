@@ -3,7 +3,7 @@ FROM debian:bookworm-20250407-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20250127
+FROM ubuntu:noble-20250404
 # ubuntu
 
 # alpine
@@ -23,11 +23,11 @@ FROM node:23.11.0-alpine
 # node
 
 # python
-FROM python:3.13.2-bookworm
+FROM python:3.13.3-bookworm
 # python
 
 # python
-FROM python:3.13.2-slim-bookworm
+FROM python:3.13.3-slim-bookworm
 # python
 
 # golang
@@ -63,16 +63,12 @@ FROM postgres:17.4-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-04-03T14-56-28Z
+FROM quay.io/minio/minio:RELEASE.2025-04-08T15-41-24Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-03-12T17-29-24Z
+FROM quay.io/minio/mc:RELEASE.2025-04-08T15-39-49Z
 # minio/mc
-
-# minio/console
-FROM quay.io/minio/console:v0.30.0
-# minio/console
 
 # coreos/etcd
 FROM quay.io/coreos/etcd:v3.5.21
@@ -251,11 +247,11 @@ FROM bitnami/nginx-ingress-controller:1.12.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.4.3
+FROM bitnami/minio:2025.4.8
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.4.3
+FROM bitnami/minio-client:2025.4.8
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -275,7 +271,7 @@ FROM bitnami/grafana:11.6.0
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.11.0
+FROM bitnami/nats:2.11.1
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -355,7 +351,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.0-alpine
+FROM nats:2.11.1-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -479,7 +475,7 @@ FROM fatedier/frpc:v0.61.2
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.504-jdk21
+FROM jenkins/jenkins:2.505-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -531,7 +527,7 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.12.0
+FROM registry.k8s.io/coredns/coredns:v1.12.1
 # coredns/coredns
 
 # kube-apiserver
