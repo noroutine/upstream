@@ -95,7 +95,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.28.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.11.0
+FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
