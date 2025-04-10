@@ -315,7 +315,7 @@ FROM registry.k8s.io/csi-secrets-store/driver:v1.4.8
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.0
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
