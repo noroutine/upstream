@@ -95,7 +95,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.28.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.11.0
+FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -151,7 +151,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.2-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.10.3-ce.0
+FROM gitlab/gitlab-ce:17.10.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.3
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.4
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -311,11 +311,11 @@ FROM ghcr.io/external-secrets/external-secrets:v0.15.1
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.4.8
+FROM registry.k8s.io/csi-secrets-store/driver:v1.5.0
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.4.8
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.0
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
