@@ -43,7 +43,7 @@ FROM traefik:v3.3.5
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.79.0
+FROM sonatype/nexus3:3.79.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -435,7 +435,7 @@ FROM postgrest/postgrest:v12.2.8
 # postgrest/postgrest
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.13.1
+FROM quay.io/cephcsi/cephcsi:v3.14.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant

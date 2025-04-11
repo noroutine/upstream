@@ -1,5 +1,5 @@
 {
-  "version": "21b983d4",
+  "version": "c1bb87c6",
   "upstream": {
     "images": [
       "debian:bookworm-20250407-slim",
@@ -13,7 +13,7 @@
       "golang:1.24.2-bookworm",
       "golang:1.24.2-alpine",
       "traefik:v3.3.5",
-      "sonatype/nexus3:3.79.0",
+      "sonatype/nexus3:3.79.1",
       "squidfunk/mkdocs-material:9.6.11",
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.1.4",
@@ -111,7 +111,7 @@
       "coturn/coturn:4.6.3",
       "netboxcommunity/netbox:v4.2.6",
       "postgrest/postgrest:v12.2.8",
-      "quay.io/cephcsi/cephcsi:v3.13.1",
+      "quay.io/cephcsi/cephcsi:v3.14.0",
       "homeassistant/home-assistant:2025.4",
       "koenkk/zigbee2mqtt:2.2.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
