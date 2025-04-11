@@ -435,7 +435,7 @@ FROM postgrest/postgrest:v12.2.8
 # postgrest/postgrest
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.13.1
+FROM quay.io/cephcsi/cephcsi:v3.14.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
