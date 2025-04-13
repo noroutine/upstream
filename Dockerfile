@@ -391,15 +391,15 @@ FROM elastic/eck-operator:2.16.1
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.4
+FROM syncthing/syncthing:1.29.5
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.4
+FROM syncthing/discosrv:1.29.5
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.29.4
+FROM syncthing/relaysrv:1.29.5
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
