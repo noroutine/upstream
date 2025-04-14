@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.1.5
+FROM quay.io/keycloak/keycloak:26.2.0
 # keycloak/keycloak
 
 # postgres
@@ -211,7 +211,7 @@ FROM bitnami/redis:7.4.2
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.69.0
+FROM bitnami/redis-exporter:1.70.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -227,7 +227,7 @@ FROM bitnami/postgresql:17.4.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.1.4
+FROM bitnami/keycloak:26.2.0
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli

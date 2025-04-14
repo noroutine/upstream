@@ -1,5 +1,5 @@
 {
-  "version": "42ad8834",
+  "version": "a62194f1",
   "upstream": {
     "images": [
       "debian:bookworm-20250407-slim",
@@ -16,7 +16,7 @@
       "sonatype/nexus3:3.79.1",
       "squidfunk/mkdocs-material:9.6.11",
       "freeradius/freeradius-server:3.2.7-alpine",
-      "quay.io/keycloak/keycloak:26.1.5",
+      "quay.io/keycloak/keycloak:26.2.0",
       "postgres:17.4-bookworm",
       "quay.io/minio/minio:RELEASE.2025-04-08T15-41-24Z",
       "quay.io/minio/mc:RELEASE.2025-04-08T15-39-49Z",
@@ -55,11 +55,11 @@
       "bitnami/blackbox-exporter:0.26.0",
       "bitnami/postgres-exporter:0.17.1",
       "bitnami/redis:7.4.2",
-      "bitnami/redis-exporter:1.69.0",
+      "bitnami/redis-exporter:1.70.0",
       "bitnami/postgresql:15.10.0",
       "bitnami/postgresql:16.6.0",
       "bitnami/postgresql:17.4.0",
-      "bitnami/keycloak:26.1.4",
+      "bitnami/keycloak:26.2.0",
       "bitnami/keycloak-config-cli:6.4.0",
       "bitnami/nginx:1.27.4",
       "bitnami/haproxy:3.1.6",
