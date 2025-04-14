@@ -211,7 +211,7 @@ FROM bitnami/redis:7.4.2
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.69.0
+FROM bitnami/redis-exporter:1.70.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
