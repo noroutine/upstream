@@ -75,7 +75,7 @@ FROM quay.io/coreos/etcd:v3.5.21
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.2.1
+FROM quay.io/prometheus/prometheus:v3.3.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -115,27 +115,27 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.4
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:8.17.4
+FROM docker.elastic.co/logstash/logstash:9.0.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:8.17.4
+FROM docker.elastic.co/kibana/kibana:9.0.0
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:8.17.4
+FROM docker.elastic.co/apm/apm-server:9.0.0
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.17.4
+FROM docker.elastic.co/beats/elastic-agent:8.18.0
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.6-noble
+FROM mongo:8.0.8-noble
 # mongo
 
 # dpage/pgadmin4
@@ -307,7 +307,7 @@ FROM aquasec/trivy:0.61.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.15.1
+FROM ghcr.io/external-secrets/external-secrets:v0.16.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -331,11 +331,11 @@ FROM registry:3.0.0
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.42.0
+FROM ghcr.io/dexidp/dex:v2.42.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.14.9
+FROM quay.io/argoproj/argocd:v2.14.10
 # argoproj/argocd
 
 # redis
@@ -387,7 +387,7 @@ FROM eclipse-temurin:24-noble
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:2.16.1
+FROM elastic/eck-operator:3.0.0
 # elastic/eck-operator
 
 # syncthing/syncthing
@@ -407,11 +407,11 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.37.01
+FROM haveagitgat/tdarr:2.39.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.37.01
+FROM haveagitgat/tdarr_node:2.39.02
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -475,7 +475,7 @@ FROM fatedier/frpc:v0.61.2
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.505-jdk21
+FROM jenkins/jenkins:2.506-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
