@@ -471,7 +471,7 @@ FROM fatedier/frps:v0.61.2
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.61.2
+FROM fatedier/frpc:v0.62.0
 # fatedier/frpc
 
 # jenkins/jenkins
