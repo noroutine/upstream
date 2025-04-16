@@ -307,7 +307,7 @@ FROM aquasec/trivy:0.61.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.16.0
+FROM ghcr.io/external-secrets/external-secrets:v0.16.1
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -467,11 +467,11 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # fatedier/frps
-FROM fatedier/frps:v0.61.2
+FROM fatedier/frps:v0.62.0
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.61.2
+FROM fatedier/frpc:v0.62.0
 # fatedier/frpc
 
 # jenkins/jenkins

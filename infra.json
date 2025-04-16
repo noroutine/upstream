@@ -1,5 +1,5 @@
 {
-  "version": "014bc1e7",
+  "version": "eee7f94f",
   "upstream": {
     "images": [
       "debian:bookworm-20250407-slim",
@@ -79,7 +79,7 @@
       "haproxytech/haproxy-alpine:3.1.6",
       "haproxytech/kubernetes-ingress:3.1.6",
       "aquasec/trivy:0.61.0",
-      "ghcr.io/external-secrets/external-secrets:v0.16.0",
+      "ghcr.io/external-secrets/external-secrets:v0.16.1",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.0",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.5.0",
       "stakater/reloader:v1.4.0",
@@ -119,8 +119,8 @@
       "cloudflare/cloudflared:2025.4.0",
       "registry.k8s.io/git-sync/git-sync:v4.4.0",
       "sj26/mailcatcher:v0.10.0",
-      "fatedier/frps:v0.61.2",
-      "fatedier/frpc:v0.61.2",
+      "fatedier/frps:v0.62.0",
+      "fatedier/frpc:v0.62.0",
       "jenkins/jenkins:2.506-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
