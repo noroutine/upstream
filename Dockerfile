@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.79.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.11
+FROM squidfunk/mkdocs-material:9.6.12
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -99,11 +99,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.81.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.82.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.82.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -151,15 +151,15 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.8.2-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.10.4-ce.0
+FROM gitlab/gitlab-ce:17.11.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.10.1
+FROM gitlab/gitlab-runner:alpine-v17.11.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.11.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -183,7 +183,7 @@ FROM nextcloud:31.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:28.0.4-dind
+FROM docker:28.1.0-dind
 # docker
 
 # bitnami/prometheus
@@ -235,7 +235,7 @@ FROM bitnami/keycloak-config-cli:6.4.0
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx
-FROM bitnami/nginx:1.27.4
+FROM bitnami/nginx:1.27.5
 # bitnami/nginx
 
 # bitnami/haproxy
@@ -295,7 +295,7 @@ FROM bitnami/kubectl:1.32.3
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.1.6
+FROM haproxytech/haproxy-alpine:3.1.7
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -379,7 +379,7 @@ FROM caddy:2.9.1-alpine
 # caddy
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:24.0.0-24.28
+FROM azul/zulu-openjdk:24.0.1-24.30
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -407,11 +407,11 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.39.02
+FROM haveagitgat/tdarr:2.40.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.39.02
+FROM haveagitgat/tdarr_node:2.40.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -431,7 +431,7 @@ FROM netboxcommunity/netbox:v4.2.7
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.8
+FROM postgrest/postgrest:v12.2.9
 # postgrest/postgrest
 
 # cephcsi/cephcsi
