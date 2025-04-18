@@ -191,7 +191,7 @@ FROM bitnami/prometheus:3.0.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.81.0
+FROM bitnami/prometheus-operator:0.82.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -239,7 +239,7 @@ FROM bitnami/nginx:1.27.5
 # bitnami/nginx
 
 # bitnami/haproxy
-FROM bitnami/haproxy:3.1.6
+FROM bitnami/haproxy:3.1.7
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
@@ -303,7 +303,7 @@ FROM haproxytech/kubernetes-ingress:3.1.6
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.61.0
+FROM aquasec/trivy:0.61.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
