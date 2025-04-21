@@ -39,7 +39,7 @@ FROM golang:1.24.2-alpine
 # golang
 
 # traefik
-FROM traefik:v3.3.5
+FROM traefik:v3.3.6
 # traefik
 
 # sonatype/nexus3
@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.10.4
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.11.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -183,7 +183,7 @@ FROM nextcloud:31.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:28.1.0-dind
+FROM docker:28.1.1-dind
 # docker
 
 # bitnami/prometheus
@@ -319,7 +319,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.0
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.0
+FROM stakater/reloader:v1.4.1
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -431,7 +431,7 @@ FROM netboxcommunity/netbox:v4.2.7
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.9
+FROM postgrest/postgrest:v12.2.10
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -511,7 +511,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.19.1
+FROM hashicorp/vault:1.19.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
