@@ -1,5 +1,5 @@
 {
-  "version": "975315f7",
+  "version": "29477ac2",
   "upstream": {
     "images": [
       "debian:bookworm-20250407-slim",
@@ -47,7 +47,7 @@
       "quay.io/brancz/kube-rbac-proxy:v0.19.0",
       "pihole/pihole:2025.04.0",
       "klutchell/unbound:v1.22.0",
-      "nextcloud:31.0.2-apache",
+      "nextcloud:31.0.4-apache",
       "docker:28.1.1-dind",
       "bitnami/prometheus:3.0.1",
       "bitnami/prometheus-operator:0.82.0",
@@ -96,7 +96,7 @@
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.21-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
-      "caddy:2.9.1-alpine",
+      "caddy:2.10.0-alpine",
       "azul/zulu-openjdk:24.0.1-24.30",
       "eclipse-temurin:24-noble",
       "elastic/eck-operator:3.0.0",
@@ -110,7 +110,7 @@
       "restic/restic:0.18.0",
       "coturn/coturn:4.6.3",
       "netboxcommunity/netbox:v4.2.7",
-      "postgrest/postgrest:v12.2.10",
+      "postgrest/postgrest:v12.2.11",
       "quay.io/cephcsi/cephcsi:v3.14.0",
       "homeassistant/home-assistant:2025.4",
       "koenkk/zigbee2mqtt:2.2.1",

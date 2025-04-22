@@ -179,7 +179,7 @@ FROM klutchell/unbound:v1.22.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.2-apache
+FROM nextcloud:31.0.4-apache
 # nextcloud
 
 # docker
@@ -375,7 +375,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.9.1-alpine
+FROM caddy:2.10.0-alpine
 # caddy
 
 # azul/zulu-openjdk
@@ -431,7 +431,7 @@ FROM netboxcommunity/netbox:v4.2.7
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.10
+FROM postgrest/postgrest:v12.2.11
 # postgrest/postgrest
 
 # cephcsi/cephcsi
