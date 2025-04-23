@@ -1,5 +1,5 @@
 {
-  "version": "c4f45197",
+  "version": "5d283237",
   "upstream": {
     "images": [
       "debian:bookworm-20250407-slim",
@@ -75,7 +75,7 @@
       "bitnami/metrics-server:0.7.2",
       "bitnami/kube-rbac-proxy:0.19.0",
       "bitnami/openldap:2.6.9",
-      "bitnami/kubectl:1.32.3",
+      "bitnami/kubectl:1.32.4",
       "haproxytech/haproxy-alpine:3.1.7",
       "haproxytech/kubernetes-ingress:3.1.7",
       "aquasec/trivy:0.61.1",
