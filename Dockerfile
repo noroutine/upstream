@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.2.0
+FROM quay.io/keycloak/keycloak:26.2.1
 # keycloak/keycloak
 
 # postgres
@@ -227,7 +227,7 @@ FROM bitnami/postgresql:17.4.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.2.0
+FROM bitnami/keycloak:26.2.1
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -427,7 +427,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.2.7
+FROM netboxcommunity/netbox:v4.2.8
 # netboxcommunity/netbox
 
 # postgrest/postgrest

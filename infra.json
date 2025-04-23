@@ -1,5 +1,5 @@
 {
-  "version": "5d283237",
+  "version": "976aa26c",
   "upstream": {
     "images": [
       "debian:bookworm-20250407-slim",
@@ -16,7 +16,7 @@
       "sonatype/nexus3:3.79.1",
       "squidfunk/mkdocs-material:9.6.12",
       "freeradius/freeradius-server:3.2.7-alpine",
-      "quay.io/keycloak/keycloak:26.2.0",
+      "quay.io/keycloak/keycloak:26.2.1",
       "postgres:17.4-bookworm",
       "quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z",
       "quay.io/minio/mc:RELEASE.2025-04-16T18-13-26Z",
@@ -59,7 +59,7 @@
       "bitnami/postgresql:15.10.0",
       "bitnami/postgresql:16.6.0",
       "bitnami/postgresql:17.4.0",
-      "bitnami/keycloak:26.2.0",
+      "bitnami/keycloak:26.2.1",
       "bitnami/keycloak-config-cli:6.4.0",
       "bitnami/nginx:1.27.5",
       "bitnami/haproxy:3.1.7",
@@ -109,7 +109,7 @@
       "curlimages/curl:8.13.0",
       "restic/restic:0.18.0",
       "coturn/coturn:4.6.3",
-      "netboxcommunity/netbox:v4.2.7",
+      "netboxcommunity/netbox:v4.2.8",
       "postgrest/postgrest:v12.2.11",
       "quay.io/cephcsi/cephcsi:v3.14.0",
       "homeassistant/home-assistant:2025.4",
