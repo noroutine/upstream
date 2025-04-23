@@ -63,11 +63,11 @@ FROM postgres:17.4-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-04-08T15-41-24Z
+FROM quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-04-08T15-39-49Z
+FROM quay.io/minio/mc:RELEASE.2025-04-16T18-13-26Z
 # minio/mc
 
 # coreos/etcd
@@ -247,11 +247,11 @@ FROM bitnami/nginx-ingress-controller:1.12.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.4.8
+FROM bitnami/minio:2025.4.22
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.4.8
+FROM bitnami/minio-client:2025.4.16
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -299,7 +299,7 @@ FROM haproxytech/haproxy-alpine:3.1.7
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.6
+FROM haproxytech/kubernetes-ingress:3.1.7
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -335,7 +335,7 @@ FROM ghcr.io/dexidp/dex:v2.42.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.14.10
+FROM quay.io/argoproj/argocd:v2.14.11
 # argoproj/argocd
 
 # redis
@@ -475,7 +475,7 @@ FROM fatedier/frpc:v0.62.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.506-jdk21
+FROM jenkins/jenkins:2.507-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -531,6 +531,22 @@ FROM registry.k8s.io/coredns/coredns:v1.12.1
 # coredns/coredns
 
 # kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.32.4
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.32.4
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.32.4
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.32.4
+# kube-controller-manager
+
+# kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.32.3
 # kube-apiserver
 
@@ -544,6 +560,22 @@ FROM registry.k8s.io/kube-scheduler:v1.32.3
 
 # kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.32.3
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.31.8
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.31.8
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.31.8
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.31.8
 # kube-controller-manager
 
 # kube-apiserver
