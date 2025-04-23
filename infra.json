@@ -1,5 +1,5 @@
 {
-  "version": "56304ad2",
+  "version": "c4f45197",
   "upstream": {
     "images": [
       "debian:bookworm-20250407-slim",
@@ -40,7 +40,7 @@
       "dpage/pgadmin4:9.2",
       "mccutchen/go-httpbin:2.18.1",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.8.2-alpine",
-      "gitlab/gitlab-ce:17.11.0-ce.0",
+      "gitlab/gitlab-ce:17.11.1-ce.0",
       "gitlab/gitlab-runner:alpine-v17.11.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.11.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.11.0",
