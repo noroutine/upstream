@@ -91,7 +91,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.26.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.28.0
+FROM quay.io/prometheus/snmp-exporter:v0.29.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
@@ -107,7 +107,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.82.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.6.0
+FROM grafana/grafana:11.6.1
 # grafana/grafana
 
 # prymitive/karma
@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.11.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.11.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -267,7 +267,7 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.6.0
+FROM bitnami/grafana:11.6.1
 # bitnami/grafana
 
 # bitnami/nats
@@ -531,6 +531,22 @@ FROM registry.k8s.io/coredns/coredns:v1.12.1
 # coredns/coredns
 
 # kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.33.0
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.33.0
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.33.0
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.33.0
+# kube-controller-manager
+
+# kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.32.4
 # kube-apiserver
 
@@ -691,7 +707,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.5-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.6-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
