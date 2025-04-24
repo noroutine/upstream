@@ -267,7 +267,7 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.6.0
+FROM bitnami/grafana:11.6.1
 # bitnami/grafana
 
 # bitnami/nats
