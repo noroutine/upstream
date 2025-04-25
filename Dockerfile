@@ -491,7 +491,7 @@ FROM quay.io/kiwigrid/k8s-sidecar:1.30.3
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.17.1
+FROM quay.io/jetstack/cert-manager-controller:v1.17.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
