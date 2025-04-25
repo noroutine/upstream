@@ -175,7 +175,7 @@ FROM pihole/pihole:2025.04.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.22.0
+FROM klutchell/unbound:v1.23.0
 # klutchell/unbound
 
 # nextcloud
@@ -207,7 +207,7 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.4.2
+FROM bitnami/redis:7.4.3
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -235,7 +235,7 @@ FROM bitnami/keycloak-config-cli:6.4.0
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx
-FROM bitnami/nginx:1.27.5
+FROM bitnami/nginx:1.28.0
 # bitnami/nginx
 
 # bitnami/haproxy
@@ -291,7 +291,7 @@ FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.32.4
+FROM bitnami/kubectl:1.33.0
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
@@ -339,7 +339,7 @@ FROM quay.io/argoproj/argocd:v2.14.11
 # argoproj/argocd
 
 # redis
-FROM redis:7.4.2
+FROM redis:7.4.3
 # redis
 
 # boky/postfix
@@ -491,15 +491,15 @@ FROM quay.io/kiwigrid/k8s-sidecar:1.30.3
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.17.1
+FROM quay.io/jetstack/cert-manager-controller:v1.17.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.17.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.17.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.17.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.17.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
@@ -655,7 +655,7 @@ FROM calico/csi:v3.29.3
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.2
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.3
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
