@@ -1,5 +1,5 @@
 {
-  "version": "0f027bd5",
+  "version": "2643613f",
   "upstream": {
     "images": [
       "debian:bookworm-20250407-slim",
@@ -44,7 +44,7 @@
       "gitlab/gitlab-runner:alpine-v17.11.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.11.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.11.1",
-      "quay.io/brancz/kube-rbac-proxy:v0.19.0",
+      "quay.io/brancz/kube-rbac-proxy:v0.19.1",
       "pihole/pihole:2025.04.0",
       "klutchell/unbound:v1.23.0",
       "nextcloud:31.0.4-apache",
@@ -70,10 +70,10 @@
       "bitnami/metallb-controller:0.14.9",
       "bitnami/metallb-speaker:0.14.9",
       "bitnami/grafana:11.6.1",
-      "bitnami/nats:2.11.1",
+      "bitnami/nats:2.11.2",
       "bitnami/kube-state-metrics:2.15.0",
       "bitnami/metrics-server:0.7.2",
-      "bitnami/kube-rbac-proxy:0.19.0",
+      "bitnami/kube-rbac-proxy:0.19.1",
       "bitnami/openldap:2.6.9",
       "bitnami/kubectl:1.33.0",
       "haproxytech/haproxy-alpine:3.1.7",
