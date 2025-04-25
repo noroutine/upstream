@@ -655,7 +655,7 @@ FROM calico/csi:v3.29.3
 # calico/csi
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.2
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.3
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
