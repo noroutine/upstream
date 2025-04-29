@@ -1,8 +1,8 @@
 {
-  "version": "325d970f",
+  "version": "5579b008",
   "upstream": {
     "images": [
-      "debian:bookworm-20250407-slim",
+      "debian:bookworm-20250428-slim",
       "ubuntu:noble-20250404",
       "alpine:3.21.3",
       "busybox:1.37.0",
@@ -39,7 +39,7 @@
       "mongo:8.0.8-noble",
       "dpage/pgadmin4:9.2",
       "mccutchen/go-httpbin:2.18.1",
-      "quay.io/oauth2-proxy/oauth2-proxy:v7.8.2-alpine",
+      "quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine",
       "gitlab/gitlab-ce:17.11.1-ce.0",
       "gitlab/gitlab-runner:alpine-v17.11.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.11.0",
