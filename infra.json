@@ -1,5 +1,5 @@
 {
-  "version": "5579b008",
+  "version": "610b0ec7",
   "upstream": {
     "images": [
       "debian:bookworm-20250428-slim",
@@ -49,7 +49,7 @@
       "klutchell/unbound:v1.23.0",
       "nextcloud:31.0.4-apache",
       "docker:28.1.1-dind",
-      "bitnami/prometheus:3.0.1",
+      "bitnami/prometheus:3.3.0",
       "bitnami/prometheus-operator:0.82.0",
       "bitnami/node-exporter:1.9.1",
       "bitnami/blackbox-exporter:0.26.0",
