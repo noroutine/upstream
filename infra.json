@@ -1,5 +1,5 @@
 {
-  "version": "dd0362fe",
+  "version": "b4a7dd47",
   "upstream": {
     "images": [
       "debian:bookworm-20250428-slim",
@@ -63,7 +63,7 @@
       "bitnami/keycloak-config-cli:6.4.0",
       "bitnami/nginx:1.28.0",
       "bitnami/haproxy:3.1.7",
-      "bitnami/nginx-ingress-controller:1.12.1",
+      "bitnami/nginx-ingress-controller:1.12.2",
       "bitnami/minio:2025.4.22",
       "bitnami/minio-client:2025.4.16",
       "bitnami/os-shell:12",
@@ -116,7 +116,7 @@
       "koenkk/zigbee2mqtt:2.2.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
       "gitea/gitea:1.23.7-rootless",
-      "cloudflare/cloudflared:2025.4.0",
+      "cloudflare/cloudflared:2025.4.2",
       "registry.k8s.io/git-sync/git-sync:v4.4.0",
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.62.1",

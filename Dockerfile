@@ -243,7 +243,7 @@ FROM bitnami/haproxy:3.1.7
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.12.1
+FROM bitnami/nginx-ingress-controller:1.12.2
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
@@ -455,7 +455,7 @@ FROM gitea/gitea:1.23.7-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.4.0
+FROM cloudflare/cloudflared:2025.4.2
 # cloudflare/cloudflared
 
 # git-sync/git-sync
