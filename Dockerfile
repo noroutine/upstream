@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.2.1
+FROM quay.io/keycloak/keycloak:26.2.2
 # keycloak/keycloak
 
 # postgres
@@ -227,7 +227,7 @@ FROM bitnami/postgresql:17.4.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.2.1
+FROM bitnami/keycloak:26.2.2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -319,7 +319,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.0
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.1
+FROM stakater/reloader:v1.4.2
 # stakater/reloader
 
 # jimmidyson/configmap-reload
