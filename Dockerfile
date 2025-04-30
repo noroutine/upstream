@@ -243,7 +243,7 @@ FROM bitnami/haproxy:3.1.7
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.12.1
+FROM bitnami/nginx-ingress-controller:1.12.2
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
