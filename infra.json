@@ -1,5 +1,5 @@
 {
-  "version": "5c26d95c",
+  "version": "dd0362fe",
   "upstream": {
     "images": [
       "debian:bookworm-20250428-slim",
@@ -37,7 +37,7 @@
       "docker.elastic.co/apm/apm-server:9.0.0",
       "docker.elastic.co/beats/elastic-agent:8.18.0",
       "mongo:8.0.8-noble",
-      "dpage/pgadmin4:9.2",
+      "dpage/pgadmin4:9.3",
       "mccutchen/go-httpbin:2.18.1",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine",
       "gitlab/gitlab-ce:17.11.1-ce.0",

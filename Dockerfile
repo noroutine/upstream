@@ -139,7 +139,7 @@ FROM mongo:8.0.8-noble
 # mongo
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.2
+FROM dpage/pgadmin4:9.3
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
