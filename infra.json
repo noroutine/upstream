@@ -1,5 +1,5 @@
 {
-  "version": "610b0ec7",
+  "version": "cc753103",
   "upstream": {
     "images": [
       "debian:bookworm-20250428-slim",
@@ -121,7 +121,7 @@
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.62.1",
       "fatedier/frpc:v0.62.1",
-      "jenkins/jenkins:2.507-jdk21",
+      "jenkins/jenkins:2.508-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
       "quay.io/kiwigrid/k8s-sidecar:1.30.3",
