@@ -1,5 +1,5 @@
 {
-  "version": "043a5445",
+  "version": "2a7e7e98",
   "upstream": {
     "images": [
       "debian:bookworm-20250428-slim",
@@ -109,7 +109,7 @@
       "curlimages/curl:8.13.0",
       "restic/restic:0.18.0",
       "coturn/coturn:4.6.3",
-      "netboxcommunity/netbox:v4.2.8",
+      "netboxcommunity/netbox:v4.2.9",
       "postgrest/postgrest:v12.2.11",
       "quay.io/cephcsi/cephcsi:v3.14.0",
       "homeassistant/home-assistant:2025.4",
