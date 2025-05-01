@@ -303,7 +303,7 @@ FROM haproxytech/kubernetes-ingress:3.1.7
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.61.1
+FROM aquasec/trivy:0.62.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -511,7 +511,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.19.2
+FROM hashicorp/vault:1.19.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
