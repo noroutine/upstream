@@ -135,7 +135,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.18.0
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.8-noble
+FROM mongo:8.0.9-noble
 # mongo
 
 # dpage/pgadmin4
@@ -271,7 +271,7 @@ FROM bitnami/grafana:11.6.1
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.11.2
+FROM bitnami/nats:2.11.3
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -351,7 +351,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.2-alpine
+FROM nats:2.11.3-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -431,7 +431,7 @@ FROM netboxcommunity/netbox:v4.2.9
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.11
+FROM postgrest/postgrest:v12.2.12
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -443,7 +443,7 @@ FROM homeassistant/home-assistant:2025.4
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.2.1
+FROM koenkk/zigbee2mqtt:2.3.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
