@@ -271,7 +271,7 @@ FROM bitnami/grafana:11.6.1
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.11.2
+FROM bitnami/nats:2.11.3
 # bitnami/nats
 
 # bitnami/kube-state-metrics
