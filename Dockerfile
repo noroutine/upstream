@@ -3,7 +3,7 @@ FROM debian:bookworm-20250428-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20250404
+FROM ubuntu:noble-20250415.1
 # ubuntu
 
 # alpine
@@ -75,7 +75,7 @@ FROM quay.io/coreos/etcd:v3.5.21
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.3.0
+FROM quay.io/prometheus/prometheus:v3.3.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -187,7 +187,7 @@ FROM docker:28.1.1-dind
 # docker
 
 # bitnami/prometheus
-FROM bitnami/prometheus:3.3.0
+FROM bitnami/prometheus:3.3.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -211,7 +211,7 @@ FROM bitnami/redis:7.4.3
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.70.0
+FROM bitnami/redis-exporter:1.71.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
