@@ -123,7 +123,7 @@ FROM docker.elastic.co/logstash/logstash:9.0.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.0.0
+FROM docker.elastic.co/kibana/kibana:9.0.1
 # kibana/kibana
 
 # apm/apm-server
