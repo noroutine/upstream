@@ -359,7 +359,7 @@ FROM natsio/prometheus-nats-exporter:0.17.2
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.17.1
+FROM natsio/nats-server-config-reloader:0.17.2
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
