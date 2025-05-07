@@ -355,7 +355,7 @@ FROM nats:2.11.3-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.17.2
+FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
