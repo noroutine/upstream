@@ -1,5 +1,5 @@
 {
-  "version": "6d078920",
+  "version": "99e67904",
   "upstream": {
     "images": [
       "debian:bookworm-20250428-slim",
@@ -54,7 +54,7 @@
       "bitnami/node-exporter:1.9.1",
       "bitnami/blackbox-exporter:0.26.0",
       "bitnami/postgres-exporter:0.17.1",
-      "bitnami/redis:7.4.3",
+      "bitnami/redis:8.0.0",
       "bitnami/redis-exporter:1.71.0",
       "bitnami/postgresql:15.10.0",
       "bitnami/postgresql:16.6.0",
@@ -86,7 +86,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.42.1",
-      "quay.io/argoproj/argocd:v2.14.11",
+      "quay.io/argoproj/argocd:v3.0.0",
       "redis:8.0.0",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
@@ -177,7 +177,7 @@
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1",
       "nvcr.io/nvidia/gpu-operator:v25.3.0",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.0",
-      "nvcr.io/nvidia/cuda:12.8.1-base-ubi9",
+      "nvcr.io/nvidia/cuda:12.9.0-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.17.6-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",

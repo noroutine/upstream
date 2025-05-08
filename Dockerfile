@@ -207,7 +207,7 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:7.4.3
+FROM bitnami/redis:8.0.0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -335,7 +335,7 @@ FROM ghcr.io/dexidp/dex:v2.42.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v2.14.11
+FROM quay.io/argoproj/argocd:v3.0.0
 # argoproj/argocd
 
 # redis
@@ -699,7 +699,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.0
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.8.1-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.9.0-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
