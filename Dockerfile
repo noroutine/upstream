@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:23.11.0-bookworm
+FROM node:24.0.0-bookworm
 # node
 
 # node
-FROM node:23.11.0-alpine
+FROM node:24.0.0-alpine
 # node
 
 # python
@@ -31,19 +31,19 @@ FROM python:3.13.3-slim-bookworm
 # python
 
 # golang
-FROM golang:1.24.2-bookworm
+FROM golang:1.24.3-bookworm
 # golang
 
 # golang
-FROM golang:1.24.2-alpine
+FROM golang:1.24.3-alpine
 # golang
 
 # traefik
-FROM traefik:v3.3.6
+FROM traefik:v3.4.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.79.1
+FROM sonatype/nexus3:3.80.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.2.2
+FROM quay.io/keycloak/keycloak:26.2.3
 # keycloak/keycloak
 
 # postgres
@@ -99,15 +99,15 @@ FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.82.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.82.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.82.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.82.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:11.6.1
+FROM grafana/grafana:12.0.0
 # grafana/grafana
 
 # prymitive/karma
@@ -115,23 +115,23 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.0.0
+FROM docker.elastic.co/logstash/logstash:9.0.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.0.0
+FROM docker.elastic.co/kibana/kibana:9.0.1
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.0.0
+FROM docker.elastic.co/apm/apm-server:9.0.1
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.18.0
+FROM docker.elastic.co/beats/elastic-agent:8.18.1
 # beats/elastic-agent
 
 # mongo
@@ -151,19 +151,19 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.11.1-ce.0
+FROM gitlab/gitlab-ce:17.11.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.11.0
+FROM gitlab/gitlab-runner:alpine-v17.11.1
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.11.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.11.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.11.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.11.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -191,7 +191,7 @@ FROM bitnami/prometheus:3.3.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.82.0
+FROM bitnami/prometheus-operator:0.82.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -227,7 +227,7 @@ FROM bitnami/postgresql:17.4.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.2.2
+FROM bitnami/keycloak:26.2.3
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -303,11 +303,11 @@ FROM haproxytech/kubernetes-ingress:3.1.7
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.62.0
+FROM aquasec/trivy:0.62.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.16.1
+FROM ghcr.io/external-secrets/external-secrets:v0.16.2
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -339,7 +339,7 @@ FROM quay.io/argoproj/argocd:v2.14.11
 # argoproj/argocd
 
 # redis
-FROM redis:7.4.3
+FROM redis:8.0.0
 # redis
 
 # boky/postfix
@@ -355,11 +355,11 @@ FROM nats:2.11.3-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.17.2
+FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.17.1
+FROM natsio/nats-server-config-reloader:0.17.2
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -391,15 +391,15 @@ FROM elastic/eck-operator:3.0.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.5
+FROM syncthing/syncthing:1.29.6
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.5
+FROM syncthing/discosrv:1.29.6
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.29.5
+FROM syncthing/relaysrv:1.29.6
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -439,7 +439,7 @@ FROM quay.io/cephcsi/cephcsi:v3.14.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.4
+FROM homeassistant/home-assistant:2025.5
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -475,7 +475,7 @@ FROM fatedier/frpc:v0.62.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.508-jdk21
+FROM jenkins/jenkins:2.509-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -503,7 +503,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.17.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.2
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.3
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -611,47 +611,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.7
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.36.8
+FROM quay.io/tigera/operator:v1.38.0
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.29.3
+FROM calico/typha:v3.30.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.29.3
+FROM calico/ctl:v3.30.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.29.3
+FROM calico/node:v3.30.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.29.3
+FROM calico/cni:v3.30.0
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.29.3
+FROM calico/apiserver:v3.30.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.29.3
+FROM calico/kube-controllers:v3.30.0
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.29.3
+FROM calico/dikastes:v3.30.0
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.29.3
+FROM calico/pod2daemon-flexvol:v3.30.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.29.3
+FROM calico/node-driver-registrar:v3.30.0
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.29.3
+FROM calico/csi:v3.30.0
 # calico/csi
 
 # nfd/node-feature-discovery
