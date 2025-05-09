@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.0.0-bookworm
+FROM node:24.0.1-bookworm
 # node
 
 # node
-FROM node:24.0.0-alpine
+FROM node:24.0.1-alpine
 # node
 
 # python
@@ -55,11 +55,11 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.2.3
+FROM quay.io/keycloak/keycloak:26.2.4
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.4-bookworm
+FROM postgres:17.5-bookworm
 # postgres
 
 # minio/minio
@@ -223,11 +223,11 @@ FROM bitnami/postgresql:16.6.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:17.4.0
+FROM bitnami/postgresql:17.5.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.2.3
+FROM bitnami/keycloak:26.2.4
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -431,7 +431,7 @@ FROM netboxcommunity/netbox:v4.3.0
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v12.2.12
+FROM postgrest/postgrest:v13.0.0
 # postgrest/postgrest
 
 # cephcsi/cephcsi
