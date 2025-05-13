@@ -207,7 +207,7 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:8.0.1
+FROM bitnami/redis:8.0.0
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -339,7 +339,7 @@ FROM quay.io/argoproj/argocd:v3.0.0
 # argoproj/argocd
 
 # redis
-FROM redis:8.0.1
+FROM redis:8.0.0
 # redis
 
 # boky/postfix
