@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.80.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.13
+FROM squidfunk/mkdocs-material:9.6.14
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -207,7 +207,7 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:8.0.0
+FROM bitnami/redis:8.0.1
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -339,7 +339,7 @@ FROM quay.io/argoproj/argocd:v3.0.0
 # argoproj/argocd
 
 # redis
-FROM redis:8.0.0
+FROM redis:8.0.1
 # redis
 
 # boky/postfix
@@ -475,7 +475,7 @@ FROM fatedier/frpc:v0.62.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.509-jdk21
+FROM jenkins/jenkins:2.510-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -715,7 +715,7 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:4.2.0-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:4.2.3-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
