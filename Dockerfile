@@ -99,11 +99,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.82.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.82.2
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.82.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.82.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -191,7 +191,7 @@ FROM bitnami/prometheus:3.3.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.82.1
+FROM bitnami/prometheus-operator:0.82.2
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -267,7 +267,7 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:11.6.1
+FROM bitnami/grafana:12.0.0
 # bitnami/grafana
 
 # bitnami/nats
@@ -451,7 +451,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.23.7-rootless
+FROM gitea/gitea:1.23.8-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
