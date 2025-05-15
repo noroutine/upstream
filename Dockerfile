@@ -163,7 +163,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v17.11.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.0.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -207,7 +207,7 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:8.0.0
+FROM bitnami/redis:8.0.1
 # bitnami/redis
 
 # bitnami/redis-exporter
@@ -307,7 +307,7 @@ FROM aquasec/trivy:0.62.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.16.2
+FROM ghcr.io/external-secrets/external-secrets:v0.17.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -335,11 +335,11 @@ FROM ghcr.io/dexidp/dex:v2.42.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.0
+FROM quay.io/argoproj/argocd:v3.0.1
 # argoproj/argocd
 
 # redis
-FROM redis:8.0.0
+FROM redis:8.0.1
 # redis
 
 # boky/postfix
@@ -427,7 +427,7 @@ FROM coturn/coturn:4.6.3
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.3.0
+FROM netboxcommunity/netbox:v4.3.1
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -719,7 +719,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:4.2.3-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.2.0-4.1.0-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.2.3-4.1.1-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
