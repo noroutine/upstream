@@ -71,7 +71,7 @@ FROM quay.io/minio/mc:RELEASE.2025-04-16T18-13-26Z
 # minio/mc
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.21
+FROM quay.io/coreos/etcd:v3.6.0
 # coreos/etcd
 
 # prometheus/prometheus
