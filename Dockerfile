@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.0.1-bookworm
+FROM node:24.0.2-bookworm
 # node
 
 # node
-FROM node:24.0.1-alpine
+FROM node:24.0.2-alpine
 # node
 
 # python
@@ -72,6 +72,10 @@ FROM quay.io/minio/mc:RELEASE.2025-04-16T18-13-26Z
 
 # coreos/etcd
 FROM quay.io/coreos/etcd:v3.5.21
+# coreos/etcd
+
+# coreos/etcd
+FROM quay.io/coreos/etcd:v3.6.0
 # coreos/etcd
 
 # prometheus/prometheus
@@ -151,15 +155,15 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:17.11.2-ce.0
+FROM gitlab/gitlab-ce:18.0.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v17.11.1
+FROM gitlab/gitlab-runner:alpine-v18.0.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.11.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -291,7 +295,7 @@ FROM bitnami/openldap:2.6.9
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.33.0
+FROM bitnami/kubectl:1.33.1
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
@@ -455,7 +459,7 @@ FROM gitea/gitea:1.23.8-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.4.2
+FROM cloudflare/cloudflared:2025.5.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -531,6 +535,22 @@ FROM registry.k8s.io/coredns/coredns:v1.12.1
 # coredns/coredns
 
 # kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.33.1
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.33.1
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.33.1
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.33.1
+# kube-controller-manager
+
+# kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.33.0
 # kube-apiserver
 
@@ -544,6 +564,22 @@ FROM registry.k8s.io/kube-scheduler:v1.33.0
 
 # kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.33.0
+# kube-controller-manager
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.32.5
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.32.5
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.32.5
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.32.5
 # kube-controller-manager
 
 # kube-apiserver
@@ -563,19 +599,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.32.4
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.3
+FROM registry.k8s.io/kube-apiserver:v1.31.9
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.3
+FROM registry.k8s.io/kube-proxy:v1.31.9
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.32.3
+FROM registry.k8s.io/kube-scheduler:v1.31.9
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.3
+FROM registry.k8s.io/kube-controller-manager:v1.31.9
 # kube-controller-manager
 
 # kube-apiserver
@@ -592,22 +628,6 @@ FROM registry.k8s.io/kube-scheduler:v1.31.8
 
 # kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.31.8
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.7
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.7
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.7
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.7
 # kube-controller-manager
 
 # tigera/operator
