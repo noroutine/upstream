@@ -1,5 +1,5 @@
 {
-  "version": "4b05f763",
+  "version": "4268ca85",
   "upstream": {
     "images": [
       "debian:bookworm-20250428-slim",
@@ -118,7 +118,7 @@
       "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
       "gitea/gitea:1.23.8-rootless",
       "cloudflare/cloudflared:2025.5.0",
-      "registry.k8s.io/git-sync/git-sync:v4.4.0",
+      "registry.k8s.io/git-sync/git-sync:v4.4.1",
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.62.1",
       "fatedier/frpc:v0.62.1",
@@ -184,7 +184,7 @@
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.0",
       "nvcr.io/nvidia/cuda:12.9.0-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0",
-      "nvcr.io/nvidia/k8s/container-toolkit:v1.17.6-ubi8",
+      "nvcr.io/nvidia/k8s/container-toolkit:v1.17.7-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
       "nvcr.io/nvidia/cloud-native/dcgm:4.2.3-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:4.2.3-4.1.1-ubi9",

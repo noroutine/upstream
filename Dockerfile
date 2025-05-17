@@ -463,7 +463,7 @@ FROM cloudflare/cloudflared:2025.5.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.4.0
+FROM registry.k8s.io/git-sync/git-sync:v4.4.1
 # git-sync/git-sync
 
 # sj26/mailcatcher
@@ -727,7 +727,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.6-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.7-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
