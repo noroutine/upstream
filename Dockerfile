@@ -79,7 +79,7 @@ FROM quay.io/coreos/etcd:v3.6.0
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.3.1
+FROM quay.io/prometheus/prometheus:v3.4.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -191,7 +191,7 @@ FROM docker:28.1.1-dind
 # docker
 
 # bitnami/prometheus
-FROM bitnami/prometheus:3.3.1
+FROM bitnami/prometheus:3.4.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator

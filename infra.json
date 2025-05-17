@@ -1,5 +1,5 @@
 {
-  "version": "4268ca85",
+  "version": "ad152e58",
   "upstream": {
     "images": [
       "debian:bookworm-20250428-slim",
@@ -22,7 +22,7 @@
       "quay.io/minio/mc:RELEASE.2025-04-16T18-13-26Z",
       "quay.io/coreos/etcd:v3.5.21",
       "quay.io/coreos/etcd:v3.6.0",
-      "quay.io/prometheus/prometheus:v3.3.1",
+      "quay.io/prometheus/prometheus:v3.4.0",
       "quay.io/prometheus/alertmanager:v0.28.1",
       "quay.io/prometheus/node-exporter:v1.9.1",
       "quay.io/prometheus/blackbox-exporter:v0.26.0",
@@ -50,7 +50,7 @@
       "klutchell/unbound:v1.23.0",
       "nextcloud:31.0.5-apache",
       "docker:28.1.1-dind",
-      "bitnami/prometheus:3.3.1",
+      "bitnami/prometheus:3.4.0",
       "bitnami/prometheus-operator:0.82.2",
       "bitnami/node-exporter:1.9.1",
       "bitnami/blackbox-exporter:0.26.0",
