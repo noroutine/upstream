@@ -463,7 +463,7 @@ FROM cloudflare/cloudflared:2025.5.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.4.0
+FROM registry.k8s.io/git-sync/git-sync:v4.4.1
 # git-sync/git-sync
 
 # sj26/mailcatcher
