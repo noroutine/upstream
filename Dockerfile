@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.23.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.4-apache
+FROM nextcloud:31.0.5-apache
 # nextcloud
 
 # docker
@@ -515,7 +515,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.19.3
+FROM hashicorp/vault:1.19.4
 # hashicorp/vault
 
 # hashicorp/vault-k8s
