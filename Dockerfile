@@ -159,11 +159,11 @@ FROM gitlab/gitlab-ce:18.0.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.0.0
+FROM gitlab/gitlab-runner:alpine-v18.0.1
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -215,7 +215,7 @@ FROM bitnami/redis:8.0.1
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.72.0
+FROM bitnami/redis-exporter:1.72.1
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -315,11 +315,11 @@ FROM ghcr.io/external-secrets/external-secrets:v0.17.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.5.0
+FROM registry.k8s.io/csi-secrets-store/driver:v1.5.1
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.0
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.1
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
@@ -335,11 +335,11 @@ FROM registry:3.0.0
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.42.1
+FROM ghcr.io/dexidp/dex:v2.43.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.1
+FROM quay.io/argoproj/argocd:v3.0.2
 # argoproj/argocd
 
 # redis
