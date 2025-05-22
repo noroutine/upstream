@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250428-slim
+FROM debian:bookworm-20250520-slim
 # debian
 
 # ubuntu
@@ -155,19 +155,19 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.0.0-ce.0
+FROM gitlab/gitlab-ce:18.0.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.0.1
+FROM gitlab/gitlab-runner:alpine-v18.0.2
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.2
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.0.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.0.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -339,7 +339,7 @@ FROM ghcr.io/dexidp/dex:v2.43.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.2
+FROM quay.io/argoproj/argocd:v3.0.3
 # argoproj/argocd
 
 # redis
@@ -479,7 +479,7 @@ FROM fatedier/frpc:v0.62.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.510-jdk21
+FROM jenkins/jenkins:2.511-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
