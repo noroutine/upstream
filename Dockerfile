@@ -215,7 +215,7 @@ FROM bitnami/redis:8.0.1
 # bitnami/redis
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.72.1
+FROM bitnami/redis-exporter:1.73.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -335,7 +335,7 @@ FROM registry:3.0.0
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.43.0
+FROM ghcr.io/dexidp/dex:v2.43.1
 # dexidp/dex
 
 # argoproj/argocd
