@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.82.2
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:12.0.0
+FROM grafana/grafana:12.0.1
 # grafana/grafana
 
 # prymitive/karma
@@ -271,11 +271,11 @@ FROM bitnami/metallb-speaker:0.14.9
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:12.0.0
+FROM bitnami/grafana:12.0.1
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.11.3
+FROM bitnami/nats:2.11.4
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -355,7 +355,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.3-alpine
+FROM nats:2.11.4-alpine
 # nats
 
 # natsio/prometheus-nats-exporter

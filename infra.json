@@ -1,5 +1,5 @@
 {
-  "version": "1a5fe2b4",
+  "version": "d5a15a8e",
   "upstream": {
     "images": [
       "debian:bookworm-20250520-slim",
@@ -30,7 +30,7 @@
       "quay.io/prometheus/pushgateway:v1.11.1",
       "quay.io/prometheus-operator/prometheus-operator:v0.82.2",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.82.2",
-      "grafana/grafana:12.0.0",
+      "grafana/grafana:12.0.1",
       "ghcr.io/prymitive/karma:v0.121",
       "docker.elastic.co/elasticsearch/elasticsearch:9.0.1",
       "docker.elastic.co/logstash/logstash:9.0.1",
@@ -70,8 +70,8 @@
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.14.9",
       "bitnami/metallb-speaker:0.14.9",
-      "bitnami/grafana:12.0.0",
-      "bitnami/nats:2.11.3",
+      "bitnami/grafana:12.0.1",
+      "bitnami/nats:2.11.4",
       "bitnami/kube-state-metrics:2.15.0",
       "bitnami/metrics-server:0.7.2",
       "bitnami/kube-rbac-proxy:0.19.1",
@@ -91,7 +91,7 @@
       "redis:8.0.1",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
-      "nats:2.11.3-alpine",
+      "nats:2.11.4-alpine",
       "natsio/prometheus-nats-exporter:0.17.3",
       "natsio/nats-server-config-reloader:0.17.2",
       "masipcat/wireguard-go:0.0.20230223",
