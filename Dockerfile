@@ -299,7 +299,7 @@ FROM bitnami/kubectl:1.33.1
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.1.7
+FROM haproxytech/haproxy-alpine:3.2.0
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
