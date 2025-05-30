@@ -643,7 +643,7 @@ FROM calico/ctl:v3.30.0
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.30.0
+FROM calico/node:v3.30.1
 # calico/node
 
 # calico/cni
