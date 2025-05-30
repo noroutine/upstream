@@ -655,7 +655,7 @@ FROM calico/apiserver:v3.30.0
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.30.0
+FROM calico/kube-controllers:v3.30.1
 # calico/kube-controllers
 
 # calico/dikastes
