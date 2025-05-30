@@ -635,7 +635,7 @@ FROM quay.io/tigera/operator:v1.38.0
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.30.0
+FROM calico/typha:v3.30.1
 # calico/typha
 
 # calico/ctl
