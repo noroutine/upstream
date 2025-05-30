@@ -667,7 +667,7 @@ FROM calico/pod2daemon-flexvol:v3.30.0
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.30.0
+FROM calico/node-driver-registrar:v3.30.1
 # calico/node-driver-registrar
 
 # calico/csi
