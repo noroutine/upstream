@@ -211,8 +211,12 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:8.0.1
+FROM bitnami/redis:8.0.2
 # bitnami/redis
+
+# bitnami/valkey
+FROM bitnami/valkey:8.1.1
+# bitnami/valkey
 
 # bitnami/redis-exporter
 FROM bitnami/redis-exporter:1.73.0
@@ -343,7 +347,7 @@ FROM quay.io/argoproj/argocd:v3.0.5
 # argoproj/argocd
 
 # redis
-FROM redis:8.0.1
+FROM redis:8.0.2
 # redis
 
 # boky/postfix
@@ -727,7 +731,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.7-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.8-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
