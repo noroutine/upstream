@@ -639,7 +639,7 @@ FROM calico/typha:v3.30.0
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.30.0
+FROM calico/ctl:v3.30.1
 # calico/ctl
 
 # calico/node
