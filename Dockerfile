@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.0.2-bookworm
+FROM node:24.1.0-bookworm
 # node
 
 # node
-FROM node:24.0.2-alpine
+FROM node:24.1.0-alpine
 # node
 
 # python
@@ -39,7 +39,7 @@ FROM golang:1.24.3-alpine
 # golang
 
 # traefik
-FROM traefik:v3.4.0
+FROM traefik:v3.4.1
 # traefik
 
 # sonatype/nexus3
@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.2.4
+FROM quay.io/keycloak/keycloak:26.2.5
 # keycloak/keycloak
 
 # postgres
@@ -63,11 +63,11 @@ FROM postgres:17.5-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z
+FROM quay.io/minio/minio:RELEASE.2025-05-24T17-08-30Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-04-16T18-13-26Z
+FROM quay.io/minio/mc:RELEASE.2025-05-21T01-59-54Z
 # minio/mc
 
 # coreos/etcd
@@ -135,7 +135,7 @@ FROM docker.elastic.co/apm/apm-server:9.0.1
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.18.1
+FROM docker.elastic.co/beats/elastic-agent:8.18.2
 # beats/elastic-agent
 
 # mongo
@@ -143,7 +143,7 @@ FROM mongo:8.0.9-noble
 # mongo
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.3
+FROM dpage/pgadmin4:9.4
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -187,7 +187,7 @@ FROM nextcloud:31.0.5-apache
 # nextcloud
 
 # docker
-FROM docker:28.1.1-dind
+FROM docker:28.2.1-dind
 # docker
 
 # bitnami/prometheus
@@ -231,7 +231,7 @@ FROM bitnami/postgresql:17.5.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.2.4
+FROM bitnami/keycloak:26.2.5
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -243,7 +243,7 @@ FROM bitnami/nginx:1.28.0
 # bitnami/nginx
 
 # bitnami/haproxy
-FROM bitnami/haproxy:3.1.7
+FROM bitnami/haproxy:3.2.0
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
@@ -251,11 +251,11 @@ FROM bitnami/nginx-ingress-controller:1.12.2
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.4.22
+FROM bitnami/minio:2025.5.24
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.4.16
+FROM bitnami/minio-client:2025.5.21
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -299,7 +299,7 @@ FROM bitnami/kubectl:1.33.1
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.1.7
+FROM haproxytech/haproxy-alpine:3.2.0
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -307,7 +307,7 @@ FROM haproxytech/kubernetes-ingress:3.1.7
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.62.1
+FROM aquasec/trivy:0.63.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -339,7 +339,7 @@ FROM ghcr.io/dexidp/dex:v2.43.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.3
+FROM quay.io/argoproj/argocd:v3.0.5
 # argoproj/argocd
 
 # redis
@@ -479,7 +479,7 @@ FROM fatedier/frpc:v0.62.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.511-jdk21
+FROM jenkins/jenkins:2.512-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -515,7 +515,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.19.4
+FROM hashicorp/vault:1.19.5
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -631,47 +631,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.8
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.38.0
+FROM quay.io/tigera/operator:v1.38.1
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.30.0
+FROM calico/typha:v3.30.1
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.30.0
+FROM calico/ctl:v3.30.1
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.30.0
+FROM calico/node:v3.30.1
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.30.0
+FROM calico/cni:v3.30.1
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.30.0
+FROM calico/apiserver:v3.30.1
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.30.0
+FROM calico/kube-controllers:v3.30.1
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.30.0
+FROM calico/dikastes:v3.30.1
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.30.0
+FROM calico/pod2daemon-flexvol:v3.30.1
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.30.0
+FROM calico/node-driver-registrar:v3.30.1
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.30.0
+FROM calico/csi:v3.30.1
 # calico/csi
 
 # nfd/node-feature-discovery
