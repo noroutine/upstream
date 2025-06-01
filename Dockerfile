@@ -195,7 +195,7 @@ FROM bitnami/prometheus:3.4.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.82.2
+FROM bitnami/prometheus-operator:0.83.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
