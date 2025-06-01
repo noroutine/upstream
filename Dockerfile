@@ -7,7 +7,7 @@ FROM ubuntu:noble-20250415.1
 # ubuntu
 
 # alpine
-FROM alpine:3.21.3
+FROM alpine:3.22.0
 # alpine
 
 # busybox
@@ -103,11 +103,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.82.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.83.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.82.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.83.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -195,7 +195,7 @@ FROM bitnami/prometheus:3.4.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.82.2
+FROM bitnami/prometheus-operator:0.83.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
