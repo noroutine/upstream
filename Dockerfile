@@ -79,7 +79,7 @@ FROM quay.io/coreos/etcd:v3.6.0
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.4.0
+FROM quay.io/prometheus/prometheus:v3.4.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -187,11 +187,11 @@ FROM nextcloud:31.0.5-apache
 # nextcloud
 
 # docker
-FROM docker:28.2.1-dind
+FROM docker:28.2.2-dind
 # docker
 
 # bitnami/prometheus
-FROM bitnami/prometheus:3.4.0
+FROM bitnami/prometheus:3.4.1
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
