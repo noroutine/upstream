@@ -1,5 +1,5 @@
 {
-  "version": "2969e6c8",
+  "version": "d3891137",
   "upstream": {
     "images": [
       "debian:bookworm-20250520-slim",
@@ -110,7 +110,7 @@
       "haveagitgat/tdarr_node:2.42.01",
       "curlimages/curl:8.13.0",
       "restic/restic:0.18.0",
-      "coturn/coturn:4.6.3",
+      "coturn/coturn:4.7.0",
       "netboxcommunity/netbox:v4.3.1",
       "postgrest/postgrest:v13.0.1",
       "quay.io/cephcsi/cephcsi:v3.14.0",
