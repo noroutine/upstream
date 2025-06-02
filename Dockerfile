@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.1
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.04.0
+FROM pihole/pihole:2025.05.0
 # pihole/pihole
 
 # klutchell/unbound
@@ -415,11 +415,11 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.40.01
+FROM haveagitgat/tdarr:2.42.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.40.01
+FROM haveagitgat/tdarr_node:2.42.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -439,7 +439,7 @@ FROM netboxcommunity/netbox:v4.3.1
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.0
+FROM postgrest/postgrest:v13.0.1
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -451,7 +451,7 @@ FROM homeassistant/home-assistant:2025.5
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.3.0
+FROM koenkk/zigbee2mqtt:2.4.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
