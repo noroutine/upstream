@@ -683,7 +683,7 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.3
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.15.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.16.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
