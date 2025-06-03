@@ -119,7 +119,7 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
