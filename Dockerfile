@@ -399,15 +399,15 @@ FROM elastic/eck-operator:3.0.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.6
+FROM syncthing/syncthing:1.29.7
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.6
+FROM syncthing/discosrv:1.29.7
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.29.6
+FROM syncthing/relaysrv:1.29.7
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -439,7 +439,7 @@ FROM netboxcommunity/netbox:v4.3.1
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.1
+FROM postgrest/postgrest:v13.0.2
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -683,15 +683,15 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.3
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.15.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.16.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.14.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.8.1
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.9.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
@@ -699,7 +699,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v1.13.2
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v5.2.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v5.3.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
