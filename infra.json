@@ -1,5 +1,5 @@
 {
-  "version": "39220d6f",
+  "version": "c9ff55a0",
   "upstream": {
     "images": [
       "debian:bookworm-20250520-slim",
@@ -32,10 +32,10 @@
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.83.0",
       "grafana/grafana:12.0.1",
       "ghcr.io/prymitive/karma:v0.121",
-      "docker.elastic.co/elasticsearch/elasticsearch:9.0.1",
-      "docker.elastic.co/logstash/logstash:9.0.1",
-      "docker.elastic.co/kibana/kibana:9.0.1",
-      "docker.elastic.co/apm/apm-server:9.0.1",
+      "docker.elastic.co/elasticsearch/elasticsearch:9.0.2",
+      "docker.elastic.co/logstash/logstash:9.0.2",
+      "docker.elastic.co/kibana/kibana:9.0.2",
+      "docker.elastic.co/apm/apm-server:9.0.2",
       "docker.elastic.co/beats/elastic-agent:8.18.2",
       "mongo:8.0.9-noble",
       "dpage/pgadmin4:9.4",

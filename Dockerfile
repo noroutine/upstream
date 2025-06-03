@@ -119,19 +119,19 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.0.1
+FROM docker.elastic.co/logstash/logstash:9.0.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.0.1
+FROM docker.elastic.co/kibana/kibana:9.0.2
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.0.1
+FROM docker.elastic.co/apm/apm-server:9.0.2
 # apm/apm-server
 
 # beats/elastic-agent
