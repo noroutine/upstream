@@ -1,9 +1,9 @@
 {
-  "version": "c9ff55a0",
+  "version": "734a3d9b",
   "upstream": {
     "images": [
       "debian:bookworm-20250520-slim",
-      "ubuntu:noble-20250415.1",
+      "ubuntu:noble-20250529",
       "alpine:3.22.0",
       "busybox:1.37.0",
       "node:24.1.0-bookworm",
@@ -94,7 +94,7 @@
       "connecteverything/nats-operator:0.8.0",
       "nats:2.11.4-alpine",
       "natsio/prometheus-nats-exporter:0.17.3",
-      "natsio/nats-server-config-reloader:0.17.2",
+      "natsio/nats-server-config-reloader:0.18.0",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.21-openssl",
       "sapcc/mosquitto-exporter:0.8.0",

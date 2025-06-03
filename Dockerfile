@@ -3,7 +3,7 @@ FROM debian:bookworm-20250520-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20250415.1
+FROM ubuntu:noble-20250529
 # ubuntu
 
 # alpine
@@ -367,7 +367,7 @@ FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.17.2
+FROM natsio/nats-server-config-reloader:0.18.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
