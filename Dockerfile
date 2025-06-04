@@ -139,7 +139,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.18.2
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.9-noble
+FROM mongo:8.0.10-noble
 # mongo
 
 # dpage/pgadmin4
@@ -267,11 +267,11 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.14.9
+FROM bitnami/metallb-controller:0.15.0
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.14.9
+FROM bitnami/metallb-speaker:0.15.0
 # bitnami/metallb-speaker
 
 # bitnami/grafana
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.62.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.512-jdk21
+FROM jenkins/jenkins:2.513-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -635,7 +635,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.8
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.38.1
+FROM quay.io/tigera/operator:v1.38.2
 # tigera/operator
 
 # calico/typha
