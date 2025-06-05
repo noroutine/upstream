@@ -23,11 +23,11 @@ FROM node:24.1.0-alpine
 # node
 
 # python
-FROM python:3.13.3-bookworm
+FROM python:3.13.4-bookworm
 # python
 
 # python
-FROM python:3.13.3-slim-bookworm
+FROM python:3.13.4-slim-bookworm
 # python
 
 # golang
@@ -267,11 +267,11 @@ FROM bitnami/os-shell:12
 # bitnami/os-shell
 
 # bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.15.0
+FROM bitnami/metallb-controller:0.15.2
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.15.0
+FROM bitnami/metallb-speaker:0.15.2
 # bitnami/metallb-speaker
 
 # bitnami/grafana

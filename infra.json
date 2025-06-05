@@ -1,5 +1,5 @@
 {
-  "version": "daa62552",
+  "version": "25331390",
   "upstream": {
     "images": [
       "debian:bookworm-20250520-slim",
@@ -8,8 +8,8 @@
       "busybox:1.37.0",
       "node:24.1.0-bookworm",
       "node:24.1.0-alpine",
-      "python:3.13.3-bookworm",
-      "python:3.13.3-slim-bookworm",
+      "python:3.13.4-bookworm",
+      "python:3.13.4-slim-bookworm",
       "golang:1.24.3-bookworm",
       "golang:1.24.3-alpine",
       "traefik:v3.4.1",
@@ -69,8 +69,8 @@
       "bitnami/minio:2025.5.24",
       "bitnami/minio-client:2025.5.21",
       "bitnami/os-shell:12",
-      "bitnami/metallb-controller:0.15.0",
-      "bitnami/metallb-speaker:0.15.0",
+      "bitnami/metallb-controller:0.15.2",
+      "bitnami/metallb-speaker:0.15.2",
       "bitnami/grafana:12.0.1",
       "bitnami/nats:2.11.4",
       "bitnami/kube-state-metrics:2.15.0",
