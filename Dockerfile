@@ -271,7 +271,7 @@ FROM bitnami/metallb-controller:0.15.0
 # bitnami/metallb-controller
 
 # bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.15.0
+FROM bitnami/metallb-speaker:0.15.2
 # bitnami/metallb-speaker
 
 # bitnami/grafana
