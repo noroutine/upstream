@@ -31,11 +31,11 @@ FROM python:3.13.4-slim-bookworm
 # python
 
 # golang
-FROM golang:1.24.3-bookworm
+FROM golang:1.24.4-bookworm
 # golang
 
 # golang
-FROM golang:1.24.3-alpine
+FROM golang:1.24.4-alpine
 # golang
 
 # traefik
