@@ -31,11 +31,11 @@ FROM python:3.13.4-slim-bookworm
 # python
 
 # golang
-FROM golang:1.24.3-bookworm
+FROM golang:1.24.4-bookworm
 # golang
 
 # golang
-FROM golang:1.24.3-alpine
+FROM golang:1.24.4-alpine
 # golang
 
 # traefik
@@ -251,7 +251,7 @@ FROM bitnami/haproxy:3.2.0
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.12.2
+FROM bitnami/nginx-ingress-controller:1.12.3
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
@@ -743,7 +743,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:4.2.3-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.2.3-4.1.1-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.2.3-4.1.3-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
