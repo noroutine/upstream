@@ -219,7 +219,7 @@ FROM bitnami/valkey:8.1.1
 # bitnami/valkey
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.73.0
+FROM bitnami/redis-exporter:1.74.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
