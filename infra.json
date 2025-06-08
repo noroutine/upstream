@@ -1,5 +1,5 @@
 {
-  "version": "12516a7f",
+  "version": "9d276a96",
   "upstream": {
     "images": [
       "debian:bookworm-20250520-slim",
@@ -46,7 +46,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.2",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.0.1",
       "quay.io/brancz/kube-rbac-proxy:v0.19.1",
-      "pihole/pihole:2025.05.1",
+      "pihole/pihole:2025.06.1",
       "klutchell/unbound:v1.23.0",
       "nextcloud:31.0.5-apache",
       "docker:28.2.2-dind",
@@ -57,7 +57,7 @@
       "bitnami/postgres-exporter:0.17.1",
       "bitnami/redis:8.0.2",
       "bitnami/valkey:8.1.1",
-      "bitnami/redis-exporter:1.73.0",
+      "bitnami/redis-exporter:1.74.0",
       "bitnami/postgresql:15.10.0",
       "bitnami/postgresql:16.6.0",
       "bitnami/postgresql:17.5.0",

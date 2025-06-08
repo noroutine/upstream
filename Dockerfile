@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.1
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.05.1
+FROM pihole/pihole:2025.06.1
 # pihole/pihole
 
 # klutchell/unbound
@@ -219,7 +219,7 @@ FROM bitnami/valkey:8.1.1
 # bitnami/valkey
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.73.0
+FROM bitnami/redis-exporter:1.74.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
