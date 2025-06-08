@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.396",
+  "version": "12516a7f",
   "upstream": {
     "images": [
       "debian:bookworm-20250520-slim",
@@ -21,7 +21,7 @@
       "quay.io/minio/minio:RELEASE.2025-05-24T17-08-30Z",
       "quay.io/minio/mc:RELEASE.2025-05-21T01-59-54Z",
       "quay.io/coreos/etcd:v3.5.21",
-      "quay.io/coreos/etcd:v3.6.0",
+      "quay.io/coreos/etcd:v3.6.1",
       "quay.io/prometheus/prometheus:v3.4.1",
       "quay.io/prometheus/alertmanager:v0.28.1",
       "quay.io/prometheus/node-exporter:v1.9.1",
@@ -111,7 +111,7 @@
       "curlimages/curl:8.13.0",
       "restic/restic:0.18.0",
       "coturn/coturn:4.7.0",
-      "netboxcommunity/netbox:v4.3.1",
+      "netboxcommunity/netbox:v4.3.2",
       "postgrest/postgrest:v13.0.2",
       "quay.io/cephcsi/cephcsi:v3.14.0",
       "homeassistant/home-assistant:2025.5",

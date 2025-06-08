@@ -75,7 +75,7 @@ FROM quay.io/coreos/etcd:v3.5.21
 # coreos/etcd
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.0
+FROM quay.io/coreos/etcd:v3.6.1
 # coreos/etcd
 
 # prometheus/prometheus
@@ -435,7 +435,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.3.1
+FROM netboxcommunity/netbox:v4.3.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
