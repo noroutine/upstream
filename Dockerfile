@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.1.0-bookworm
+FROM node:24.2.0-bookworm
 # node
 
 # node
-FROM node:24.1.0-alpine
+FROM node:24.2.0-alpine
 # node
 
 # python
@@ -343,7 +343,7 @@ FROM ghcr.io/dexidp/dex:v2.43.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.5
+FROM quay.io/argoproj/argocd:v3.0.6
 # argoproj/argocd
 
 # redis
@@ -367,7 +367,7 @@ FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.18.0
+FROM natsio/nats-server-config-reloader:0.18.1
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -459,7 +459,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.23.8-rootless
+FROM gitea/gitea:1.24.0-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
