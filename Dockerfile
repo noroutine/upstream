@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250520-slim
+FROM debian:bookworm-20250610-slim
 # debian
 
 # ubuntu
@@ -43,7 +43,7 @@ FROM traefik:v3.4.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.80.0
+FROM sonatype/nexus3:3.81.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -367,7 +367,7 @@ FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.18.1
+FROM natsio/nats-server-config-reloader:0.18.2
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.62.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.513-jdk21
+FROM jenkins/jenkins:2.514-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -499,15 +499,15 @@ FROM quay.io/kiwigrid/k8s-sidecar:1.30.3
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.17.2
+FROM quay.io/jetstack/cert-manager-controller:v1.18.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.17.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.18.0
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.17.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.18.0
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
