@@ -147,7 +147,7 @@ FROM dpage/pgadmin4:9.4
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:2.18.1
+FROM mccutchen/go-httpbin:2.18.2
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
