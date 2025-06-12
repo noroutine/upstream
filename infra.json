@@ -1,5 +1,5 @@
 {
-  "version": "172f4b0c",
+  "version": "0807dd7c",
   "upstream": {
     "images": [
       "debian:bookworm-20250610-slim",
@@ -106,8 +106,8 @@
       "syncthing/discosrv:1.29.7",
       "syncthing/relaysrv:1.29.7",
       "jellyfin/jellyfin:10.10.7",
-      "haveagitgat/tdarr:2.42.01",
-      "haveagitgat/tdarr_node:2.42.01",
+      "haveagitgat/tdarr:2.43.01",
+      "haveagitgat/tdarr_node:2.43.01",
       "curlimages/curl:8.13.0",
       "restic/restic:0.18.0",
       "coturn/coturn:4.7.0",
