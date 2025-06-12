@@ -43,7 +43,7 @@ FROM traefik:v3.4.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.81.0
+FROM sonatype/nexus3:3.81.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -155,19 +155,19 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.0.1-ce.0
+FROM gitlab/gitlab-ce:18.0.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.0.2
+FROM gitlab/gitlab-runner:alpine-v18.0.3
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.2
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.3
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.0.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.0.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -215,7 +215,7 @@ FROM bitnami/redis:8.0.2
 # bitnami/redis
 
 # bitnami/valkey
-FROM bitnami/valkey:8.1.1
+FROM bitnami/valkey:8.1.2
 # bitnami/valkey
 
 # bitnami/redis-exporter
@@ -247,7 +247,7 @@ FROM bitnami/nginx:1.28.0
 # bitnami/nginx
 
 # bitnami/haproxy
-FROM bitnami/haproxy:3.2.0
+FROM bitnami/haproxy:3.2.1
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
@@ -303,7 +303,7 @@ FROM bitnami/kubectl:1.33.1
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.0
+FROM haproxytech/haproxy-alpine:3.2.1
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -447,7 +447,7 @@ FROM quay.io/cephcsi/cephcsi:v3.14.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.5
+FROM homeassistant/home-assistant:2025.6
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -463,7 +463,7 @@ FROM gitea/gitea:1.24.0-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.5.0
+FROM cloudflare/cloudflared:2025.6.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
