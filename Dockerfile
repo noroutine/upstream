@@ -23,11 +23,11 @@ FROM node:24.2.0-alpine
 # node
 
 # python
-FROM python:3.13.4-bookworm
+FROM python:3.13.5-bookworm
 # python
 
 # python
-FROM python:3.13.4-slim-bookworm
+FROM python:3.13.5-slim-bookworm
 # python
 
 # golang
@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.1
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.06.1
+FROM pihole/pihole:2025.06.2
 # pihole/pihole
 
 # klutchell/unbound
@@ -715,11 +715,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v25.3.0
+FROM nvcr.io/nvidia/gpu-operator:v25.3.1
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.0
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.1
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
