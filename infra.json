@@ -1,5 +1,5 @@
 {
-  "version": "7c3185a6",
+  "version": "97ef4137",
   "upstream": {
     "images": [
       "debian:bookworm-20250610-slim",
@@ -39,7 +39,7 @@
       "docker.elastic.co/beats/elastic-agent:8.18.2",
       "mongo:8.0.10-noble",
       "dpage/pgadmin4:9.4",
-      "mccutchen/go-httpbin:2.18.2",
+      "mccutchen/go-httpbin:2.18.3",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine",
       "gitlab/gitlab-ce:18.0.2-ce.0",
       "gitlab/gitlab-runner:alpine-v18.0.3",
@@ -48,7 +48,7 @@
       "quay.io/brancz/kube-rbac-proxy:v0.19.1",
       "pihole/pihole:2025.06.2",
       "klutchell/unbound:v1.23.0",
-      "nextcloud:31.0.5-apache",
+      "nextcloud:31.0.6-apache",
       "docker:28.2.2-dind",
       "bitnami/prometheus:3.4.1",
       "bitnami/prometheus-operator:0.83.0",

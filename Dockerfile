@@ -147,7 +147,7 @@ FROM dpage/pgadmin4:9.4
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:2.18.2
+FROM mccutchen/go-httpbin:2.18.3
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.23.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.5-apache
+FROM nextcloud:31.0.6-apache
 # nextcloud
 
 # docker
