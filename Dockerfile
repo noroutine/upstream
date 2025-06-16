@@ -423,7 +423,7 @@ FROM haveagitgat/tdarr_node:2.43.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
-FROM curlimages/curl:8.13.0
+FROM curlimages/curl:8.14.1
 # curlimages/curl
 
 # restic/restic
