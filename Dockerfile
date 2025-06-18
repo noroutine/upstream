@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.83.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:12.0.1
+FROM grafana/grafana:12.0.2
 # grafana/grafana
 
 # prymitive/karma
@@ -307,7 +307,7 @@ FROM haproxytech/haproxy-alpine:3.2.1
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.7
+FROM haproxytech/kubernetes-ingress:3.1.8
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -315,7 +315,7 @@ FROM aquasec/trivy:0.63.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.17.0
+FROM ghcr.io/external-secrets/external-secrets:v0.18.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -343,7 +343,7 @@ FROM ghcr.io/dexidp/dex:v2.43.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.6
+FROM quay.io/argoproj/argocd:v3.0.9
 # argoproj/argocd
 
 # redis
@@ -415,15 +415,15 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.43.01
+FROM haveagitgat/tdarr:2.44.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.43.01
+FROM haveagitgat/tdarr_node:2.44.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
-FROM curlimages/curl:8.13.0
+FROM curlimages/curl:8.14.1
 # curlimages/curl
 
 # restic/restic
@@ -439,7 +439,7 @@ FROM netboxcommunity/netbox:v4.3.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.2
+FROM postgrest/postgrest:v13.0.4
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -463,7 +463,7 @@ FROM gitea/gitea:1.24.0-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.6.0
+FROM cloudflare/cloudflared:2025.6.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.62.1
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.514-jdk21
+FROM jenkins/jenkins:2.515-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -535,7 +535,7 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.12.1
+FROM registry.k8s.io/coredns/coredns:v1.12.2
 # coredns/coredns
 
 # kube-apiserver
@@ -723,7 +723,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.1
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.9.0-base-ubi9
+FROM nvcr.io/nvidia/cuda:12.9.1-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
