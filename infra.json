@@ -1,5 +1,5 @@
 {
-  "version": "00f49393",
+  "version": "9b1cdf99",
   "upstream": {
     "images": [
       "debian:bookworm-20250610-slim",
@@ -127,9 +127,9 @@
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
       "quay.io/kiwigrid/k8s-sidecar:1.30.3",
-      "quay.io/jetstack/cert-manager-controller:v1.18.0",
-      "quay.io/jetstack/cert-manager-cainjector:v1.18.0",
-      "quay.io/jetstack/cert-manager-webhook:v1.18.0",
+      "quay.io/jetstack/cert-manager-controller:v1.18.1",
+      "quay.io/jetstack/cert-manager-cainjector:v1.18.1",
+      "quay.io/jetstack/cert-manager-webhook:v1.18.1",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.3",
       "zachomedia/cert-manager-webhook-pdns:v2.5.2",
       "hashicorp/vault:1.19.5",
