@@ -439,7 +439,7 @@ FROM netboxcommunity/netbox:v4.3.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.2
+FROM postgrest/postgrest:v13.0.4
 # postgrest/postgrest
 
 # cephcsi/cephcsi
