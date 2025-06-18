@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.0.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.1.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -327,7 +327,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.1
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.2
+FROM stakater/reloader:v1.4.4
 # stakater/reloader
 
 # jimmidyson/configmap-reload
