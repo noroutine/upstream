@@ -463,7 +463,7 @@ FROM gitea/gitea:1.24.0-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.6.0
+FROM cloudflare/cloudflared:2025.6.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
