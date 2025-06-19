@@ -539,6 +539,22 @@ FROM registry.k8s.io/coredns/coredns:v1.12.2
 # coredns/coredns
 
 # kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.33.2
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.33.2
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.33.2
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.33.2
+# kube-controller-manager
+
+# kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.33.1
 # kube-apiserver
 
@@ -555,19 +571,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.33.1
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.33.0
+FROM registry.k8s.io/kube-apiserver:v1.32.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.33.0
+FROM registry.k8s.io/kube-proxy:v1.32.6
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.33.0
+FROM registry.k8s.io/kube-scheduler:v1.32.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.33.0
+FROM registry.k8s.io/kube-controller-manager:v1.32.6
 # kube-controller-manager
 
 # kube-apiserver
@@ -587,19 +603,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.32.5
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.4
+FROM registry.k8s.io/kube-apiserver:v1.31.10
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.4
+FROM registry.k8s.io/kube-proxy:v1.31.10
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.32.4
+FROM registry.k8s.io/kube-scheduler:v1.31.10
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.4
+FROM registry.k8s.io/kube-controller-manager:v1.31.10
 # kube-controller-manager
 
 # kube-apiserver
@@ -616,22 +632,6 @@ FROM registry.k8s.io/kube-scheduler:v1.31.9
 
 # kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.31.9
-# kube-controller-manager
-
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.8
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.8
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.8
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.8
 # kube-controller-manager
 
 # tigera/operator
