@@ -559,7 +559,7 @@ FROM registry.k8s.io/kube-apiserver:v1.33.1
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.33.1
+FROM registry.k8s.io/kube-proxy:v1.33.2
 # kube-proxy
 
 # kube-scheduler
@@ -575,7 +575,7 @@ FROM registry.k8s.io/kube-apiserver:v1.32.6
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.6
+FROM registry.k8s.io/kube-proxy:v1.33.2
 # kube-proxy
 
 # kube-scheduler
@@ -591,7 +591,7 @@ FROM registry.k8s.io/kube-apiserver:v1.32.5
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.5
+FROM registry.k8s.io/kube-proxy:v1.33.2
 # kube-proxy
 
 # kube-scheduler
@@ -607,7 +607,7 @@ FROM registry.k8s.io/kube-apiserver:v1.31.10
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.10
+FROM registry.k8s.io/kube-proxy:v1.33.2
 # kube-proxy
 
 # kube-scheduler
@@ -623,7 +623,7 @@ FROM registry.k8s.io/kube-apiserver:v1.31.9
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.9
+FROM registry.k8s.io/kube-proxy:v1.33.2
 # kube-proxy
 
 # kube-scheduler
