@@ -155,15 +155,15 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.0.2-ce.0
+FROM gitlab/gitlab-ce:18.1.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.0.3
+FROM gitlab/gitlab-runner:alpine-v18.1.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.0.3
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.1.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -415,11 +415,11 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.44.01
+FROM haveagitgat/tdarr:2.45.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.44.01
+FROM haveagitgat/tdarr_node:2.45.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -459,7 +459,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.24.0-rootless
+FROM gitea/gitea:1.24.1-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
@@ -635,47 +635,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.9
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.38.2
+FROM quay.io/tigera/operator:v1.38.3
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.30.1
+FROM calico/typha:v3.30.2
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.30.1
+FROM calico/ctl:v3.30.2
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.30.1
+FROM calico/node:v3.30.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.30.1
+FROM calico/cni:v3.30.2
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.30.1
+FROM calico/apiserver:v3.30.2
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.30.1
+FROM calico/kube-controllers:v3.30.2
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.30.1
+FROM calico/dikastes:v3.30.2
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.30.1
+FROM calico/pod2daemon-flexvol:v3.30.2
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.30.1
+FROM calico/node-driver-registrar:v3.30.2
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.30.1
+FROM calico/csi:v3.30.2
 # calico/csi
 
 # nfd/node-feature-discovery
@@ -707,7 +707,7 @@ FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.3.0
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v8.2.1
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.3.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
