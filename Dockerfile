@@ -639,7 +639,7 @@ FROM quay.io/tigera/operator:v1.38.2
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.30.1
+FROM calico/typha:v3.30.2
 # calico/typha
 
 # calico/ctl
