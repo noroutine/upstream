@@ -459,7 +459,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.24.1-rootless
+FROM gitea/gitea:1.24.2-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
