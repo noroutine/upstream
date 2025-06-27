@@ -319,7 +319,7 @@ FROM ghcr.io/external-secrets/external-secrets:v0.18.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.5.1
+FROM registry.k8s.io/csi-secrets-store/driver:v1.5.2
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
