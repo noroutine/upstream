@@ -135,7 +135,7 @@ FROM docker.elastic.co/apm/apm-server:9.0.3
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.18.2
+FROM docker.elastic.co/beats/elastic-agent:8.18.3
 # beats/elastic-agent
 
 # mongo
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.1.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.1.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -435,7 +435,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.3.2
+FROM netboxcommunity/netbox:v4.3.3
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -519,7 +519,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.19.5
+FROM hashicorp/vault:1.20.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s

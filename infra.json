@@ -1,5 +1,5 @@
 {
-  "version": "c584c4e8",
+  "version": "b83be000",
   "upstream": {
     "images": [
       "debian:bookworm-20250610-slim",
@@ -36,7 +36,7 @@
       "docker.elastic.co/logstash/logstash:9.0.3",
       "docker.elastic.co/kibana/kibana:9.0.3",
       "docker.elastic.co/apm/apm-server:9.0.3",
-      "docker.elastic.co/beats/elastic-agent:8.18.2",
+      "docker.elastic.co/beats/elastic-agent:8.18.3",
       "mongo:8.0.10-noble",
       "dpage/pgadmin4:9.4",
       "mccutchen/go-httpbin:2.18.3",
@@ -44,7 +44,7 @@
       "gitlab/gitlab-ce:18.1.1-ce.0",
       "gitlab/gitlab-runner:alpine-v18.1.1",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.1.1",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.1.0",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.1.1",
       "quay.io/brancz/kube-rbac-proxy:v0.19.1",
       "pihole/pihole:2025.06.2",
       "klutchell/unbound:v1.23.0",
@@ -111,7 +111,7 @@
       "curlimages/curl:8.14.1",
       "restic/restic:0.18.0",
       "coturn/coturn:4.7.0",
-      "netboxcommunity/netbox:v4.3.2",
+      "netboxcommunity/netbox:v4.3.3",
       "postgrest/postgrest:v13.0.4",
       "quay.io/cephcsi/cephcsi:v3.14.1",
       "homeassistant/home-assistant:2025.6",
@@ -132,7 +132,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.18.1",
       "quay.io/jetstack/cert-manager-csi-driver:v0.10.4",
       "zachomedia/cert-manager-webhook-pdns:v2.5.2",
-      "hashicorp/vault:1.19.5",
+      "hashicorp/vault:1.20.0",
       "hashicorp/vault-k8s:1.7.0",
       "hashicorp/vault-csi-provider:1.5.0",
       "registry.k8s.io/pause:3.10",
