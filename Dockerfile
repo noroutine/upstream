@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.2.0-bookworm
+FROM node:24.3.0-bookworm
 # node
 
 # node
-FROM node:24.2.0-alpine
+FROM node:24.3.0-alpine
 # node
 
 # python
@@ -39,7 +39,7 @@ FROM golang:1.24.4-alpine
 # golang
 
 # traefik
-FROM traefik:v3.4.1
+FROM traefik:v3.4.3
 # traefik
 
 # sonatype/nexus3
@@ -79,7 +79,7 @@ FROM quay.io/coreos/etcd:v3.6.1
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.4.1
+FROM quay.io/prometheus/prometheus:v3.4.2
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -119,19 +119,19 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.0.2
+FROM docker.elastic.co/logstash/logstash:9.0.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.0.2
+FROM docker.elastic.co/kibana/kibana:9.0.3
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.0.2
+FROM docker.elastic.co/apm/apm-server:9.0.3
 # apm/apm-server
 
 # beats/elastic-agent
@@ -155,15 +155,15 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.1.0-ce.0
+FROM gitlab/gitlab-ce:18.1.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.1.0
+FROM gitlab/gitlab-runner:alpine-v18.1.1
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.1.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.1.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -187,7 +187,7 @@ FROM nextcloud:31.0.6-apache
 # nextcloud
 
 # docker
-FROM docker:28.2.2-dind
+FROM docker:28.3.0-dind
 # docker
 
 # bitnami/prometheus
@@ -315,15 +315,15 @@ FROM aquasec/trivy:0.63.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.18.0
+FROM ghcr.io/external-secrets/external-secrets:v0.18.1
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.5.1
+FROM registry.k8s.io/csi-secrets-store/driver:v1.5.2
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.1
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.2
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
@@ -359,7 +359,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.4-alpine
+FROM nats:2.11.5-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -443,7 +443,7 @@ FROM postgrest/postgrest:v13.0.4
 # postgrest/postgrest
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.14.0
+FROM quay.io/cephcsi/cephcsi:v3.14.1
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
@@ -459,7 +459,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.24.1-rootless
+FROM gitea/gitea:1.24.2-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
@@ -467,7 +467,7 @@ FROM cloudflare/cloudflared:2025.6.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.4.1
+FROM registry.k8s.io/git-sync/git-sync:v4.4.2
 # git-sync/git-sync
 
 # sj26/mailcatcher
@@ -475,15 +475,15 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # fatedier/frps
-FROM fatedier/frps:v0.62.1
+FROM fatedier/frps:v0.63.0
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.62.1
+FROM fatedier/frpc:v0.63.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.515-jdk21
+FROM jenkins/jenkins:2.516-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -495,7 +495,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.3
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.5
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
@@ -511,7 +511,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.18.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.3
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.4
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -523,7 +523,7 @@ FROM hashicorp/vault:1.19.5
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.6.2
+FROM hashicorp/vault-k8s:1.7.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
