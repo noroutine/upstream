@@ -243,7 +243,7 @@ FROM bitnami/keycloak-config-cli:6.4.0
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx
-FROM bitnami/nginx:1.28.0
+FROM bitnami/nginx:1.29.0
 # bitnami/nginx
 
 # bitnami/haproxy
