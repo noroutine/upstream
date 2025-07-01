@@ -91,7 +91,7 @@ FROM quay.io/prometheus/node-exporter:v1.9.1
 # prometheus/node-exporter
 
 # prometheus/blackbox-exporter
-FROM quay.io/prometheus/blackbox-exporter:v0.26.0
+FROM quay.io/prometheus/blackbox-exporter:v0.27.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
