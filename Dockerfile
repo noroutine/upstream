@@ -1,9 +1,9 @@
 # debian
-FROM debian:bookworm-20250610-slim
+FROM debian:bookworm-20250630-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20250529
+FROM ubuntu:noble-20250619
 # ubuntu
 
 # alpine
@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.81.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.14
+FROM squidfunk/mkdocs-material:9.6.15
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -91,7 +91,7 @@ FROM quay.io/prometheus/node-exporter:v1.9.1
 # prometheus/node-exporter
 
 # prometheus/blackbox-exporter
-FROM quay.io/prometheus/blackbox-exporter:v0.26.0
+FROM quay.io/prometheus/blackbox-exporter:v0.27.0
 # prometheus/blackbox-exporter
 
 # prometheus/snmp-exporter
@@ -139,11 +139,11 @@ FROM docker.elastic.co/beats/elastic-agent:8.18.3
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.10-noble
+FROM mongo:8.0.11-noble
 # mongo
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.4
+FROM dpage/pgadmin4:9.5
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -203,7 +203,7 @@ FROM bitnami/node-exporter:1.9.1
 # bitnami/node-exporter
 
 # bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.26.0
+FROM bitnami/blackbox-exporter:0.27.0
 # bitnami/blackbox-exporter
 
 # bitnami/postgres-exporter
@@ -279,7 +279,7 @@ FROM bitnami/grafana:12.0.1
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.11.4
+FROM bitnami/nats:2.11.6
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -311,7 +311,7 @@ FROM haproxytech/kubernetes-ingress:3.1.8
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.63.0
+FROM aquasec/trivy:0.64.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -359,7 +359,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.5-alpine
+FROM nats:2.11.6-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -399,15 +399,15 @@ FROM elastic/eck-operator:3.0.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.7
+FROM syncthing/syncthing:1.30.0
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.7
+FROM syncthing/discosrv:1.30.0
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.29.7
+FROM syncthing/relaysrv:1.30.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -451,7 +451,7 @@ FROM homeassistant/home-assistant:2025.6
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.4.0
+FROM koenkk/zigbee2mqtt:2.5.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.63.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.516-jdk21
+FROM jenkins/jenkins:2.517-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
