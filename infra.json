@@ -1,5 +1,5 @@
 {
-  "version": "40970ae5",
+  "version": "dab5d6d1",
   "upstream": {
     "images": [
       "debian:bookworm-20250630-slim",
@@ -63,7 +63,7 @@
       "bitnami/postgresql:17.5.0",
       "bitnami/keycloak:26.2.5",
       "bitnami/keycloak-config-cli:6.4.0",
-      "bitnami/nginx:1.28.0",
+      "bitnami/nginx:1.29.0",
       "bitnami/haproxy:3.2.1",
       "bitnami/nginx-ingress-controller:1.12.3",
       "bitnami/minio:2025.5.24",
