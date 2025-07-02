@@ -399,7 +399,7 @@ FROM elastic/eck-operator:3.0.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.29.7
+FROM syncthing/syncthing:1.30.0
 # syncthing/syncthing
 
 # syncthing/discosrv
