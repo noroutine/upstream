@@ -403,7 +403,7 @@ FROM syncthing/syncthing:1.29.7
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.29.7
+FROM syncthing/discosrv:1.30.0
 # syncthing/discosrv
 
 # syncthing/relaysrv
