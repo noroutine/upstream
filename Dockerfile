@@ -287,7 +287,7 @@ FROM bitnami/kube-state-metrics:2.15.0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.7.2
+FROM bitnami/metrics-server:0.8.0
 # bitnami/metrics-server
 
 # bitnami/kube-rbac-proxy
