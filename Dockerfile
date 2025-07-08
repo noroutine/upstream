@@ -215,7 +215,7 @@ FROM bitnami/redis:8.0.2
 # bitnami/redis
 
 # bitnami/valkey
-FROM bitnami/valkey:8.1.2
+FROM bitnami/valkey:8.1.3
 # bitnami/valkey
 
 # bitnami/redis-exporter
