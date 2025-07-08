@@ -327,7 +327,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.2
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.4
+FROM stakater/reloader:v1.4.5
 # stakater/reloader
 
 # jimmidyson/configmap-reload
