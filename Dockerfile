@@ -283,7 +283,7 @@ FROM bitnami/nats:2.11.6
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.15.0
+FROM bitnami/kube-state-metrics:2.16.0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
