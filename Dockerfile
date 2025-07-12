@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.3.0-bookworm
+FROM node:24.4.0-bookworm
 # node
 
 # node
-FROM node:24.3.0-alpine
+FROM node:24.4.0-alpine
 # node
 
 # python
@@ -31,11 +31,11 @@ FROM python:3.13.5-slim-bookworm
 # python
 
 # golang
-FROM golang:1.24.4-bookworm
+FROM golang:1.24.5-bookworm
 # golang
 
 # golang
-FROM golang:1.24.4-alpine
+FROM golang:1.24.5-alpine
 # golang
 
 # traefik
@@ -43,7 +43,7 @@ FROM traefik:v3.4.3
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.81.1
+FROM sonatype/nexus3:3.82.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.2.5
+FROM quay.io/keycloak/keycloak:26.3.1
 # keycloak/keycloak
 
 # postgres
@@ -75,7 +75,7 @@ FROM quay.io/coreos/etcd:v3.5.21
 # coreos/etcd
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.1
+FROM quay.io/coreos/etcd:v3.6.2
 # coreos/etcd
 
 # prometheus/prometheus
@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.1.1-ce.0
+FROM gitlab/gitlab-ce:18.1.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.1.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.1.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -187,11 +187,11 @@ FROM nextcloud:31.0.6-apache
 # nextcloud
 
 # docker
-FROM docker:28.3.0-dind
+FROM docker:28.3.1-dind
 # docker
 
 # bitnami/prometheus
-FROM bitnami/prometheus:3.4.1
+FROM bitnami/prometheus:3.4.2
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
@@ -211,11 +211,11 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:8.0.2
+FROM bitnami/redis:8.0.3
 # bitnami/redis
 
 # bitnami/valkey
-FROM bitnami/valkey:8.1.2
+FROM bitnami/valkey:8.1.3
 # bitnami/valkey
 
 # bitnami/redis-exporter
@@ -235,7 +235,7 @@ FROM bitnami/postgresql:17.5.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.2.5
+FROM bitnami/keycloak:26.3.1
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -247,11 +247,11 @@ FROM bitnami/nginx:1.29.0
 # bitnami/nginx
 
 # bitnami/haproxy
-FROM bitnami/haproxy:3.2.1
+FROM bitnami/haproxy:3.2.3
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.12.3
+FROM bitnami/nginx-ingress-controller:1.13.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
@@ -275,7 +275,7 @@ FROM bitnami/metallb-speaker:0.15.2
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:12.0.1
+FROM bitnami/grafana:12.0.2
 # bitnami/grafana
 
 # bitnami/nats
@@ -283,11 +283,11 @@ FROM bitnami/nats:2.11.6
 # bitnami/nats
 
 # bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.15.0
+FROM bitnami/kube-state-metrics:2.16.0
 # bitnami/kube-state-metrics
 
 # bitnami/metrics-server
-FROM bitnami/metrics-server:0.7.2
+FROM bitnami/metrics-server:0.8.0
 # bitnami/metrics-server
 
 # bitnami/kube-rbac-proxy
@@ -299,23 +299,23 @@ FROM bitnami/openldap:2.6.10
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.33.1
+FROM bitnami/kubectl:1.33.2
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.1
+FROM haproxytech/haproxy-alpine:3.2.2
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.8
+FROM haproxytech/kubernetes-ingress:3.1.10
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.64.0
+FROM aquasec/trivy:0.64.1
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.18.1
+FROM ghcr.io/external-secrets/external-secrets:v0.18.2
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -327,7 +327,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.2
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.4
+FROM stakater/reloader:v1.4.5
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -343,11 +343,11 @@ FROM ghcr.io/dexidp/dex:v2.43.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.9
+FROM quay.io/argoproj/argocd:v3.0.11
 # argoproj/argocd
 
 # redis
-FROM redis:8.0.2
+FROM redis:8.0.3
 # redis
 
 # boky/postfix
@@ -447,11 +447,11 @@ FROM quay.io/cephcsi/cephcsi:v3.14.1
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.6
+FROM homeassistant/home-assistant:2025.7
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.5.0
+FROM koenkk/zigbee2mqtt:2.5.1
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -463,7 +463,7 @@ FROM gitea/gitea:1.24.2-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.6.1
+FROM cloudflare/cloudflared:2025.7.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.63.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.517-jdk21
+FROM jenkins/jenkins:2.518-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -495,19 +495,19 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.5
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.7
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.18.1
+FROM quay.io/jetstack/cert-manager-controller:v1.18.2
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.18.1
+FROM quay.io/jetstack/cert-manager-cainjector:v1.18.2
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.18.1
+FROM quay.io/jetstack/cert-manager-webhook:v1.18.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
