@@ -1,5 +1,5 @@
 {
-  "version": "1fd8c651",
+  "version": "ba080e06",
   "upstream": {
     "images": [
       "debian:bookworm-20250630-slim",
@@ -18,7 +18,7 @@
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.3.1",
       "postgres:17.5-bookworm",
-      "quay.io/minio/minio:RELEASE.2025-05-24T17-08-30Z",
+      "quay.io/minio/minio:RELEASE.2025-06-13T11-33-47Z",
       "quay.io/minio/mc:RELEASE.2025-05-21T01-59-54Z",
       "quay.io/coreos/etcd:v3.5.21",
       "quay.io/coreos/etcd:v3.6.2",
@@ -48,7 +48,7 @@
       "quay.io/brancz/kube-rbac-proxy:v0.19.1",
       "pihole/pihole:2025.06.2",
       "klutchell/unbound:v1.23.0",
-      "nextcloud:31.0.6-apache",
+      "nextcloud:31.0.7-apache",
       "docker:28.3.1-dind",
       "bitnami/prometheus:3.4.2",
       "bitnami/prometheus-operator:0.83.0",
@@ -66,7 +66,7 @@
       "bitnami/nginx:1.29.0",
       "bitnami/haproxy:3.2.3",
       "bitnami/nginx-ingress-controller:1.13.0",
-      "bitnami/minio:2025.5.24",
+      "bitnami/minio:2025.6.13",
       "bitnami/minio-client:2025.5.21",
       "bitnami/os-shell:12",
       "bitnami/metallb-controller:0.15.2",
@@ -96,7 +96,7 @@
       "natsio/prometheus-nats-exporter:0.17.3",
       "natsio/nats-server-config-reloader:0.18.2",
       "masipcat/wireguard-go:0.0.20230223",
-      "eclipse-mosquitto:2.0.21-openssl",
+      "eclipse-mosquitto:2.0.22-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.10.0-alpine",
       "azul/zulu-openjdk:24.0.1-24.30",

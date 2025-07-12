@@ -63,7 +63,7 @@ FROM postgres:17.5-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-05-24T17-08-30Z
+FROM quay.io/minio/minio:RELEASE.2025-06-13T11-33-47Z
 # minio/minio
 
 # minio/mc
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.23.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.6-apache
+FROM nextcloud:31.0.7-apache
 # nextcloud
 
 # docker
@@ -255,7 +255,7 @@ FROM bitnami/nginx-ingress-controller:1.13.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.5.24
+FROM bitnami/minio:2025.6.13
 # bitnami/minio
 
 # bitnami/minio-client
@@ -375,7 +375,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.21-openssl
+FROM eclipse-mosquitto:2.0.22-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
