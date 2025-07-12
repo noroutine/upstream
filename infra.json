@@ -1,5 +1,5 @@
 {
-  "version": "ba080e06",
+  "version": "6e75b78a",
   "upstream": {
     "images": [
       "debian:bookworm-20250630-slim",
@@ -12,7 +12,7 @@
       "python:3.13.5-slim-bookworm",
       "golang:1.24.5-bookworm",
       "golang:1.24.5-alpine",
-      "traefik:v3.4.3",
+      "traefik:v3.4.4",
       "sonatype/nexus3:3.82.0",
       "squidfunk/mkdocs-material:9.6.15",
       "freeradius/freeradius-server:3.2.7-alpine",
@@ -49,7 +49,7 @@
       "pihole/pihole:2025.06.2",
       "klutchell/unbound:v1.23.0",
       "nextcloud:31.0.7-apache",
-      "docker:28.3.1-dind",
+      "docker:28.3.2-dind",
       "bitnami/prometheus:3.4.2",
       "bitnami/prometheus-operator:0.83.0",
       "bitnami/node-exporter:1.9.1",

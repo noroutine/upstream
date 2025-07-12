@@ -39,7 +39,7 @@ FROM golang:1.24.5-alpine
 # golang
 
 # traefik
-FROM traefik:v3.4.3
+FROM traefik:v3.4.4
 # traefik
 
 # sonatype/nexus3
@@ -187,7 +187,7 @@ FROM nextcloud:31.0.7-apache
 # nextcloud
 
 # docker
-FROM docker:28.3.1-dind
+FROM docker:28.3.2-dind
 # docker
 
 # bitnami/prometheus
