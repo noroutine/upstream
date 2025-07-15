@@ -191,7 +191,7 @@ FROM docker:28.3.2-dind
 # docker
 
 # bitnami/prometheus
-FROM bitnami/prometheus:3.4.2
+FROM bitnami/prometheus:3.5.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
