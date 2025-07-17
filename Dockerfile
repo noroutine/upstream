@@ -387,7 +387,7 @@ FROM caddy:2.10.0-alpine
 # caddy
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:24.0.1-24.30
+FROM azul/zulu-openjdk:24.0.2-24.32
 # azul/zulu-openjdk
 
 # eclipse-temurin
