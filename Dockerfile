@@ -567,7 +567,7 @@ FROM registry.k8s.io/kube-scheduler:v1.33.2
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.33.2
+FROM registry.k8s.io/kube-controller-manager:v1.33.3
 # kube-controller-manager
 
 # kube-apiserver
@@ -583,7 +583,7 @@ FROM registry.k8s.io/kube-scheduler:v1.32.7
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.7
+FROM registry.k8s.io/kube-controller-manager:v1.33.3
 # kube-controller-manager
 
 # kube-apiserver
@@ -599,7 +599,7 @@ FROM registry.k8s.io/kube-scheduler:v1.32.6
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.6
+FROM registry.k8s.io/kube-controller-manager:v1.33.3
 # kube-controller-manager
 
 # kube-apiserver
@@ -615,7 +615,7 @@ FROM registry.k8s.io/kube-scheduler:v1.31.11
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.11
+FROM registry.k8s.io/kube-controller-manager:v1.33.3
 # kube-controller-manager
 
 # kube-apiserver
@@ -631,7 +631,7 @@ FROM registry.k8s.io/kube-scheduler:v1.31.10
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.10
+FROM registry.k8s.io/kube-controller-manager:v1.33.3
 # kube-controller-manager
 
 # tigera/operator
