@@ -555,7 +555,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.33.3
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.33.2
+FROM registry.k8s.io/kube-apiserver:v1.33.3
 # kube-apiserver
 
 # kube-proxy
@@ -571,7 +571,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.33.2
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.7
+FROM registry.k8s.io/kube-apiserver:v1.33.3
 # kube-apiserver
 
 # kube-proxy
@@ -587,7 +587,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.32.7
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.6
+FROM registry.k8s.io/kube-apiserver:v1.33.3
 # kube-apiserver
 
 # kube-proxy
@@ -603,7 +603,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.32.6
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.11
+FROM registry.k8s.io/kube-apiserver:v1.33.3
 # kube-apiserver
 
 # kube-proxy
@@ -619,7 +619,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.11
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.10
+FROM registry.k8s.io/kube-apiserver:v1.33.3
 # kube-apiserver
 
 # kube-proxy
