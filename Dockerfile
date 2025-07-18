@@ -191,11 +191,11 @@ FROM docker:28.3.2-dind
 # docker
 
 # bitnami/prometheus
-FROM bitnami/prometheus:3.4.2
+FROM bitnami/prometheus:3.5.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.83.0
+FROM bitnami/prometheus-operator:0.84.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -635,7 +635,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.10
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.38.3
+FROM quay.io/tigera/operator:v1.38.4
 # tigera/operator
 
 # calico/typha
