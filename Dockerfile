@@ -151,7 +151,7 @@ FROM mccutchen/go-httpbin:2.18.3
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.9.0-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.10.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
