@@ -259,7 +259,7 @@ FROM bitnami/minio:2025.6.13
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.5.21
+FROM bitnami/minio-client:2025.7.21
 # bitnami/minio-client
 
 # bitnami/os-shell
