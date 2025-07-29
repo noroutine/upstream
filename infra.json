@@ -1,5 +1,5 @@
 {
-  "version": "6c91d596",
+  "version": "7b55539c",
   "upstream": {
     "images": [
       "debian:bookworm-20250721-slim",
@@ -101,7 +101,7 @@
       "caddy:2.10.0-alpine",
       "azul/zulu-openjdk:24.0.2-24.32",
       "eclipse-temurin:24-noble",
-      "elastic/eck-operator:3.0.0",
+      "elastic/eck-operator:3.1.0",
       "syncthing/syncthing:1.30.0",
       "syncthing/discosrv:1.30.0",
       "syncthing/relaysrv:1.30.0",
