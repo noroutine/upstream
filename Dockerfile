@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250630-slim
+FROM debian:bookworm-20250721-slim
 # debian
 
 # ubuntu
@@ -39,7 +39,7 @@ FROM golang:1.24.5-alpine
 # golang
 
 # traefik
-FROM traefik:v3.4.4
+FROM traefik:v3.5.0
 # traefik
 
 # sonatype/nexus3
@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.82.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.15
+FROM squidfunk/mkdocs-material:9.6.16
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.7-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.3.1
+FROM quay.io/keycloak/keycloak:26.3.2
 # keycloak/keycloak
 
 # postgres
@@ -63,19 +63,19 @@ FROM postgres:17.5-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-06-13T11-33-47Z
+FROM quay.io/minio/minio:RELEASE.2025-07-23T15-54-02Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-05-21T01-59-54Z
+FROM quay.io/minio/mc:RELEASE.2025-07-21T05-28-08Z
 # minio/mc
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.21
+FROM quay.io/coreos/etcd:v3.5.22
 # coreos/etcd
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.2
+FROM quay.io/coreos/etcd:v3.6.4
 # coreos/etcd
 
 # prometheus/prometheus
@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.84.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:12.0.2
+FROM grafana/grafana:12.1.0
 # grafana/grafana
 
 # prymitive/karma
@@ -119,19 +119,19 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.0.4
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.0.3
+FROM docker.elastic.co/logstash/logstash:9.0.4
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.0.3
+FROM docker.elastic.co/kibana/kibana:9.0.4
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.0.3
+FROM docker.elastic.co/apm/apm-server:9.0.4
 # apm/apm-server
 
 # beats/elastic-agent
@@ -139,11 +139,11 @@ FROM docker.elastic.co/beats/elastic-agent:8.18.3
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.11-noble
+FROM mongo:8.0.12-noble
 # mongo
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.5
+FROM dpage/pgadmin4:9.6
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -155,19 +155,19 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.10.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.2.0-ce.0
+FROM gitlab/gitlab-ce:18.2.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.2.0
+FROM gitlab/gitlab-runner:alpine-v18.2.1
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.2.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.2.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.2.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.2.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -235,7 +235,7 @@ FROM bitnami/postgresql:17.5.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.3.1
+FROM bitnami/keycloak:26.3.2
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -255,11 +255,11 @@ FROM bitnami/nginx-ingress-controller:1.13.0
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
-FROM bitnami/minio:2025.6.13
+FROM bitnami/minio:2025.7.23
 # bitnami/minio
 
 # bitnami/minio-client
-FROM bitnami/minio-client:2025.5.21
+FROM bitnami/minio-client:2025.7.21
 # bitnami/minio-client
 
 # bitnami/os-shell
@@ -275,7 +275,7 @@ FROM bitnami/metallb-speaker:0.15.2
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:12.0.2
+FROM bitnami/grafana:12.1.0
 # bitnami/grafana
 
 # bitnami/nats
@@ -319,11 +319,11 @@ FROM ghcr.io/external-secrets/external-secrets:v0.18.2
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.5.2
+FROM registry.k8s.io/csi-secrets-store/driver:v1.5.3
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.2
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.3
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
@@ -343,7 +343,7 @@ FROM ghcr.io/dexidp/dex:v2.43.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.11
+FROM quay.io/argoproj/argocd:v3.0.12
 # argoproj/argocd
 
 # redis
@@ -367,7 +367,7 @@ FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.18.2
+FROM natsio/nats-server-config-reloader:0.18.3
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.63.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.519-jdk21
+FROM jenkins/jenkins:2.520-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -519,7 +519,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.20.0
+FROM hashicorp/vault:1.20.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -715,11 +715,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v25.3.1
+FROM nvcr.io/nvidia/gpu-operator:v25.3.2
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.1
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.2
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
@@ -743,7 +743,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:4.2.3-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.2.3-4.2.0-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.2.3-4.3.0-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
