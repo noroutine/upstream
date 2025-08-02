@@ -151,7 +151,7 @@ FROM mccutchen/go-httpbin:2.18.3
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.10.0-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.11.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
@@ -187,7 +187,7 @@ FROM nextcloud:31.0.7-apache
 # nextcloud
 
 # docker
-FROM docker:28.3.2-dind
+FROM docker:28.3.3-dind
 # docker
 
 # bitnami/prometheus
@@ -311,7 +311,7 @@ FROM haproxytech/kubernetes-ingress:3.1.10
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.64.1
+FROM aquasec/trivy:0.65.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -327,7 +327,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.3
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.5
+FROM stakater/reloader:v1.4.6
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -435,7 +435,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.3.4
+FROM netboxcommunity/netbox:v4.3.5
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.63.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.520-jdk21
+FROM jenkins/jenkins:2.521-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
