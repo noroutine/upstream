@@ -1,5 +1,5 @@
 {
-  "version": "d3dee8d6",
+  "version": "b7f22b4b",
   "upstream": {
     "images": [
       "debian:bookworm-20250721-slim",
@@ -72,7 +72,7 @@
       "bitnami/metallb-controller:0.15.2",
       "bitnami/metallb-speaker:0.15.2",
       "bitnami/grafana:12.1.0",
-      "bitnami/nats:2.11.6",
+      "bitnami/nats:2.11.7",
       "bitnami/kube-state-metrics:2.16.0",
       "bitnami/metrics-server:0.8.0",
       "bitnami/kube-rbac-proxy:0.19.1",
@@ -115,7 +115,7 @@
       "postgrest/postgrest:v13.0.4",
       "quay.io/cephcsi/cephcsi:v3.14.2",
       "homeassistant/home-assistant:2025.7",
-      "koenkk/zigbee2mqtt:2.5.1",
+      "koenkk/zigbee2mqtt:2.6.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
       "gitea/gitea:1.24.3-rootless",
       "cloudflare/cloudflared:2025.7.0",

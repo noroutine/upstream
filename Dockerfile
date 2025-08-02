@@ -279,7 +279,7 @@ FROM bitnami/grafana:12.1.0
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.11.6
+FROM bitnami/nats:2.11.7
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -451,7 +451,7 @@ FROM homeassistant/home-assistant:2025.7
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.5.1
+FROM koenkk/zigbee2mqtt:2.6.0
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
