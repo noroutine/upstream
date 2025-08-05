@@ -347,7 +347,7 @@ FROM quay.io/argoproj/argocd:v3.0.12
 # argoproj/argocd
 
 # redis
-FROM redis:8.0.3
+FROM redis:8.2.0
 # redis
 
 # boky/postfix
