@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.1
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.07.1
+FROM pihole/pihole:2025.08.0
 # pihole/pihole
 
 # klutchell/unbound
