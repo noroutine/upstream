@@ -447,7 +447,7 @@ FROM quay.io/cephcsi/cephcsi:v3.14.2
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.7
+FROM homeassistant/home-assistant:2025.8
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
