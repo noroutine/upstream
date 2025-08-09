@@ -15,27 +15,27 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.4.1-bookworm
+FROM node:24.5.0-bookworm
 # node
 
 # node
-FROM node:24.4.1-alpine
+FROM node:24.5.0-alpine
 # node
 
 # python
-FROM python:3.13.5-bookworm
+FROM python:3.13.6-bookworm
 # python
 
 # python
-FROM python:3.13.5-slim-bookworm
+FROM python:3.13.6-slim-bookworm
 # python
 
 # golang
-FROM golang:1.24.5-bookworm
+FROM golang:1.24.6-bookworm
 # golang
 
 # golang
-FROM golang:1.24.5-alpine
+FROM golang:1.24.6-alpine
 # golang
 
 # traefik
@@ -103,11 +103,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.84.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.84.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.84.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.84.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -119,19 +119,19 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.1
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.1.0
+FROM docker.elastic.co/logstash/logstash:9.1.1
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.1.0
+FROM docker.elastic.co/kibana/kibana:9.1.1
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.1.0
+FROM docker.elastic.co/apm/apm-server:9.1.1
 # apm/apm-server
 
 # beats/elastic-agent
@@ -175,7 +175,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.19.1
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.07.1
+FROM pihole/pihole:2025.08.0
 # pihole/pihole
 
 # klutchell/unbound
@@ -195,7 +195,7 @@ FROM bitnami/prometheus:3.5.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.84.0
+FROM bitnami/prometheus-operator:0.84.1
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -303,7 +303,7 @@ FROM bitnami/kubectl:1.33.3
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.2
+FROM haproxytech/haproxy-alpine:3.2.3
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -315,7 +315,7 @@ FROM aquasec/trivy:0.65.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.18.2
+FROM ghcr.io/external-secrets/external-secrets:v0.19.0
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -359,7 +359,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.6-alpine
+FROM nats:2.11.7-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -447,7 +447,7 @@ FROM quay.io/cephcsi/cephcsi:v3.14.2
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.7
+FROM homeassistant/home-assistant:2025.8
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -459,7 +459,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.24.3-rootless
+FROM gitea/gitea:1.24.4-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.63.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.521-jdk21
+FROM jenkins/jenkins:2.522-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -519,7 +519,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.20.1
+FROM hashicorp/vault:1.20.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -635,7 +635,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.10
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.38.4
+FROM quay.io/tigera/operator:v1.39.0
 # tigera/operator
 
 # calico/typha
@@ -739,11 +739,11 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:4.2.3-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:4.3.1-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.2.3-4.3.0-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.3.1-4.4.0-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
