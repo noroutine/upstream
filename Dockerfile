@@ -515,7 +515,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.4
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
+FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
