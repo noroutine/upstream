@@ -219,7 +219,7 @@ FROM bitnami/valkey:8.1.3
 # bitnami/valkey
 
 # bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.74.0
+FROM bitnami/redis-exporter:1.75.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
@@ -463,7 +463,7 @@ FROM gitea/gitea:1.24.4-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.7.0
+FROM cloudflare/cloudflared:2025.8.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync

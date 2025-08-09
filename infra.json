@@ -1,5 +1,5 @@
 {
-  "version": "e1a1229c",
+  "version": "1ab2fef8",
   "upstream": {
     "images": [
       "debian:bookworm-20250721-slim",
@@ -57,7 +57,7 @@
       "bitnami/postgres-exporter:0.17.1",
       "bitnami/redis:8.2.0",
       "bitnami/valkey:8.1.3",
-      "bitnami/redis-exporter:1.74.0",
+      "bitnami/redis-exporter:1.75.0",
       "bitnami/postgresql:15.10.0",
       "bitnami/postgresql:16.6.0",
       "bitnami/postgresql:17.5.0",
@@ -118,7 +118,7 @@
       "koenkk/zigbee2mqtt:2.6.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
       "gitea/gitea:1.24.4-rootless",
-      "cloudflare/cloudflared:2025.7.0",
+      "cloudflare/cloudflared:2025.8.0",
       "registry.k8s.io/git-sync/git-sync:v4.4.2",
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.63.0",
