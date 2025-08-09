@@ -135,7 +135,7 @@ FROM docker.elastic.co/apm/apm-server:9.1.1
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.0
+FROM docker.elastic.co/beats/elastic-agent:8.19.1
 # beats/elastic-agent
 
 # mongo
@@ -211,7 +211,7 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:8.0.3
+FROM bitnami/redis:8.2.0
 # bitnami/redis
 
 # bitnami/valkey
@@ -315,7 +315,7 @@ FROM aquasec/trivy:0.65.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.19.0
+FROM ghcr.io/external-secrets/external-secrets:v0.19.1
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -347,7 +347,7 @@ FROM quay.io/argoproj/argocd:v3.0.12
 # argoproj/argocd
 
 # redis
-FROM redis:8.0.3
+FROM redis:8.2.0
 # redis
 
 # boky/postfix
@@ -515,7 +515,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.4
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.5.2
+FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
