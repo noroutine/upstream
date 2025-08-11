@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.400",
+  "version": "fdf83e63",
   "upstream": {
     "images": [
       "debian:bookworm-20250721-slim",
@@ -121,8 +121,8 @@
       "cloudflare/cloudflared:2025.8.0",
       "registry.k8s.io/git-sync/git-sync:v4.4.2",
       "sj26/mailcatcher:v0.10.0",
-      "fatedier/frps:v0.63.0",
-      "fatedier/frpc:v0.63.0",
+      "fatedier/frps:v0.64.0",
+      "fatedier/frpc:v0.64.0",
       "jenkins/jenkins:2.522-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",

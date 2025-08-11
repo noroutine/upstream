@@ -475,11 +475,11 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # fatedier/frps
-FROM fatedier/frps:v0.63.0
+FROM fatedier/frps:v0.64.0
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.63.0
+FROM fatedier/frpc:v0.64.0
 # fatedier/frpc
 
 # jenkins/jenkins
