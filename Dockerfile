@@ -511,7 +511,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.18.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.4
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.11.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
