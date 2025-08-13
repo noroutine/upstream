@@ -1,9 +1,9 @@
 # debian
-FROM debian:bookworm-20250721-slim
+FROM debian:bookworm-20250811-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20250714
+FROM ubuntu:noble-20250716
 # ubuntu
 
 # alpine
@@ -43,7 +43,7 @@ FROM traefik:v3.5.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.82.0
+FROM sonatype/nexus3:3.83.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -119,23 +119,23 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.2
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.1.1
+FROM docker.elastic.co/logstash/logstash:9.1.2
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.1.1
+FROM docker.elastic.co/kibana/kibana:9.1.2
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.1.1
+FROM docker.elastic.co/apm/apm-server:9.1.2
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.1
+FROM docker.elastic.co/beats/elastic-agent:8.19.2
 # beats/elastic-agent
 
 # mongo
@@ -251,7 +251,7 @@ FROM bitnami/haproxy:3.2.3
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.13.0
+FROM bitnami/nginx-ingress-controller:1.13.1
 # bitnami/nginx-ingress-controller
 
 # bitnami/minio
@@ -399,15 +399,15 @@ FROM elastic/eck-operator:3.1.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:1.30.0
+FROM syncthing/syncthing:2.0.0
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:1.30.0
+FROM syncthing/discosrv:2.0.0
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:1.30.0
+FROM syncthing/relaysrv:2.0.0
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.64.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.522-jdk21
+FROM jenkins/jenkins:2.523-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -511,7 +511,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.18.2
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.10.4
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.11.0
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -723,7 +723,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.2
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:12.9.1-base-ubi9
+FROM nvcr.io/nvidia/cuda:13.0.0-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
