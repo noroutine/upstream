@@ -59,7 +59,7 @@ FROM quay.io/keycloak/keycloak:26.3.2
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.5-bookworm
+FROM postgres:17.6-bookworm
 # postgres
 
 # minio/minio
