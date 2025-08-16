@@ -31,11 +31,11 @@ FROM python:3.13.6-slim-bookworm
 # python
 
 # golang
-FROM golang:1.24.6-bookworm
+FROM golang:1.25.0-bookworm
 # golang
 
 # golang
-FROM golang:1.24.6-alpine
+FROM golang:1.25.0-alpine
 # golang
 
 # traefik
@@ -59,7 +59,7 @@ FROM quay.io/keycloak/keycloak:26.3.2
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.5-bookworm
+FROM postgres:17.6-bookworm
 # postgres
 
 # minio/minio
@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.84.1
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:12.1.0
+FROM grafana/grafana:12.1.1
 # grafana/grafana
 
 # prymitive/karma
@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.11.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.2.1-ce.0
+FROM gitlab/gitlab-ce:18.2.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.23.1
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.7-apache
+FROM nextcloud:31.0.8-apache
 # nextcloud
 
 # docker
@@ -243,11 +243,11 @@ FROM bitnami/keycloak-config-cli:6.4.0
 # bitnami/keycloak-config-cli
 
 # bitnami/nginx
-FROM bitnami/nginx:1.29.0
+FROM bitnami/nginx:1.29.1
 # bitnami/nginx
 
 # bitnami/haproxy
-FROM bitnami/haproxy:3.2.3
+FROM bitnami/haproxy:3.2.4
 # bitnami/haproxy
 
 # bitnami/nginx-ingress-controller
@@ -275,11 +275,11 @@ FROM bitnami/metallb-speaker:0.15.2
 # bitnami/metallb-speaker
 
 # bitnami/grafana
-FROM bitnami/grafana:12.1.0
+FROM bitnami/grafana:12.1.1
 # bitnami/grafana
 
 # bitnami/nats
-FROM bitnami/nats:2.11.7
+FROM bitnami/nats:2.11.8
 # bitnami/nats
 
 # bitnami/kube-state-metrics
@@ -299,15 +299,15 @@ FROM bitnami/openldap:2.6.10
 # bitnami/openldap
 
 # bitnami/kubectl
-FROM bitnami/kubectl:1.33.3
+FROM bitnami/kubectl:1.33.4
 # bitnami/kubectl
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.3
+FROM haproxytech/haproxy-alpine:3.2.4
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.10
+FROM haproxytech/kubernetes-ingress:3.1.11
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -315,7 +315,7 @@ FROM aquasec/trivy:0.65.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.19.1
+FROM ghcr.io/external-secrets/external-secrets:v0.19.2
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
@@ -343,7 +343,7 @@ FROM ghcr.io/dexidp/dex:v2.43.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.0.12
+FROM quay.io/argoproj/argocd:v3.1.0
 # argoproj/argocd
 
 # redis
@@ -359,7 +359,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.7-alpine
+FROM nats:2.11.8-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -399,15 +399,15 @@ FROM elastic/eck-operator:3.1.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.0
+FROM syncthing/syncthing:2.0.1
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.0
+FROM syncthing/discosrv:2.0.1
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.0
+FROM syncthing/relaysrv:2.0.1
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -435,7 +435,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.3.5
+FROM netboxcommunity/netbox:v4.3.6
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -459,7 +459,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.24.4-rootless
+FROM gitea/gitea:1.24.5-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
@@ -495,7 +495,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.7
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.8
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
@@ -539,6 +539,22 @@ FROM registry.k8s.io/coredns/coredns:v1.12.2
 # coredns/coredns
 
 # kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.33.4
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.33.4
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.33.4
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.33.4
+# kube-controller-manager
+
+# kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.33.3
 # kube-apiserver
 
@@ -555,19 +571,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.33.3
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.33.2
+FROM registry.k8s.io/kube-apiserver:v1.32.8
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.33.2
+FROM registry.k8s.io/kube-proxy:v1.32.8
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.33.2
+FROM registry.k8s.io/kube-scheduler:v1.32.8
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.33.2
+FROM registry.k8s.io/kube-controller-manager:v1.32.8
 # kube-controller-manager
 
 # kube-apiserver
@@ -587,19 +603,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.32.7
 # kube-controller-manager
 
 # kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.6
+FROM registry.k8s.io/kube-apiserver:v1.31.12
 # kube-apiserver
 
 # kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.6
+FROM registry.k8s.io/kube-proxy:v1.31.12
 # kube-proxy
 
 # kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.32.6
+FROM registry.k8s.io/kube-scheduler:v1.31.12
 # kube-scheduler
 
 # kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.6
+FROM registry.k8s.io/kube-controller-manager:v1.31.12
 # kube-controller-manager
 
 # kube-apiserver
@@ -618,24 +634,8 @@ FROM registry.k8s.io/kube-scheduler:v1.31.11
 FROM registry.k8s.io/kube-controller-manager:v1.31.11
 # kube-controller-manager
 
-# kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.10
-# kube-apiserver
-
-# kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.10
-# kube-proxy
-
-# kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.10
-# kube-scheduler
-
-# kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.10
-# kube-controller-manager
-
 # tigera/operator
-FROM quay.io/tigera/operator:v1.39.0
+FROM quay.io/tigera/operator:v1.39.1
 # tigera/operator
 
 # calico/typha
