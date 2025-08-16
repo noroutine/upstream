@@ -23,11 +23,11 @@ FROM node:24.5.0-alpine
 # node
 
 # python
-FROM python:3.13.6-bookworm
+FROM python:3.13.7-bookworm
 # python
 
 # python
-FROM python:3.13.6-slim-bookworm
+FROM python:3.13.7-slim-bookworm
 # python
 
 # golang
