@@ -223,11 +223,11 @@ FROM bitnami/redis-exporter:1.75.0
 # bitnami/redis-exporter
 
 # bitnami/postgresql
-FROM bitnami/postgresql:15.10.0
+FROM bitnami/postgresql:17.6.0
 # bitnami/postgresql
 
 # bitnami/postgresql
-FROM bitnami/postgresql:16.6.0
+FROM bitnami/postgresql:17.6.0
 # bitnami/postgresql
 
 # bitnami/postgresql
