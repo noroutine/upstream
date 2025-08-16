@@ -407,7 +407,7 @@ FROM syncthing/discosrv:2.0.1
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.1
+FROM syncthing/relaysrv:2.0.2
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
