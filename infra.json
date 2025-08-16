@@ -1,5 +1,5 @@
 {
-  "version": "cabc32b1",
+  "version": "ecf03cf7",
   "upstream": {
     "images": [
       "debian:bookworm-20250811-slim",
@@ -14,7 +14,7 @@
       "golang:1.25.0-alpine",
       "traefik:v3.5.0",
       "sonatype/nexus3:3.83.0",
-      "squidfunk/mkdocs-material:9.6.16",
+      "squidfunk/mkdocs-material:9.6.17",
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.3.2",
       "postgres:17.6-bookworm",
@@ -102,9 +102,9 @@
       "azul/zulu-openjdk:24.0.2-24.32",
       "eclipse-temurin:24-noble",
       "elastic/eck-operator:3.1.0",
-      "syncthing/syncthing:2.0.1",
-      "syncthing/discosrv:2.0.1",
-      "syncthing/relaysrv:2.0.1",
+      "syncthing/syncthing:2.0.2",
+      "syncthing/discosrv:2.0.2",
+      "syncthing/relaysrv:2.0.2",
       "jellyfin/jellyfin:10.10.7",
       "haveagitgat/tdarr:2.45.01",
       "haveagitgat/tdarr_node:2.45.01",

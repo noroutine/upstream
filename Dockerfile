@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.83.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.16
+FROM squidfunk/mkdocs-material:9.6.17
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -399,15 +399,15 @@ FROM elastic/eck-operator:3.1.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.1
+FROM syncthing/syncthing:2.0.2
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.1
+FROM syncthing/discosrv:2.0.2
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.1
+FROM syncthing/relaysrv:2.0.2
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
