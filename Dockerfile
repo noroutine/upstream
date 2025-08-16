@@ -23,11 +23,11 @@ FROM node:24.5.0-alpine
 # node
 
 # python
-FROM python:3.13.6-bookworm
+FROM python:3.13.7-bookworm
 # python
 
 # python
-FROM python:3.13.6-slim-bookworm
+FROM python:3.13.7-slim-bookworm
 # python
 
 # golang
@@ -495,7 +495,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.8
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.9
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
@@ -677,6 +677,18 @@ FROM calico/node-driver-registrar:v3.30.2
 # calico/csi
 FROM calico/csi:v3.30.2
 # calico/csi
+
+# istio/pilot
+FROM istio/pilot:1.27.0
+# istio/pilot
+
+# istio/proxyv2
+FROM istio/proxyv2:1.27.0
+# istio/proxyv2
+
+# istio/ztunnel
+FROM istio/ztunnel:1.27.0
+# istio/ztunnel
 
 # nfd/node-feature-discovery
 FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.3

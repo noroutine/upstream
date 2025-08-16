@@ -1,5 +1,5 @@
 {
-  "version": "6752c7fd",
+  "version": "cabc32b1",
   "upstream": {
     "images": [
       "debian:bookworm-20250811-slim",
@@ -8,8 +8,8 @@
       "busybox:1.37.0",
       "node:24.5.0-bookworm",
       "node:24.5.0-alpine",
-      "python:3.13.6-bookworm",
-      "python:3.13.6-slim-bookworm",
+      "python:3.13.7-bookworm",
+      "python:3.13.7-slim-bookworm",
       "golang:1.25.0-bookworm",
       "golang:1.25.0-alpine",
       "traefik:v3.5.0",
@@ -126,7 +126,7 @@
       "jenkins/jenkins:2.523-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
-      "quay.io/kiwigrid/k8s-sidecar:1.30.8",
+      "quay.io/kiwigrid/k8s-sidecar:1.30.9",
       "quay.io/jetstack/cert-manager-controller:v1.18.2",
       "quay.io/jetstack/cert-manager-cainjector:v1.18.2",
       "quay.io/jetstack/cert-manager-webhook:v1.18.2",
@@ -172,6 +172,9 @@
       "calico/pod2daemon-flexvol:v3.30.2",
       "calico/node-driver-registrar:v3.30.2",
       "calico/csi:v3.30.2",
+      "istio/pilot:1.27.0",
+      "istio/proxyv2:1.27.0",
+      "istio/ztunnel:1.27.0",
       "registry.k8s.io/nfd/node-feature-discovery:v0.17.3",
       "registry.k8s.io/sig-storage/livenessprobe:v2.16.0",
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.14.0",
