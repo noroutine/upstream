@@ -151,11 +151,11 @@ FROM mccutchen/go-httpbin:2.18.3
 # mccutchen/go-httpbin
 
 # oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.11.0-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.2.2-ce.0
+FROM gitlab/gitlab-ce:18.2.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -211,7 +211,7 @@ FROM bitnami/postgres-exporter:0.17.1
 # bitnami/postgres-exporter
 
 # bitnami/redis
-FROM bitnami/redis:8.2.0
+FROM bitnami/redis:8.2.1
 # bitnami/redis
 
 # bitnami/valkey
@@ -347,7 +347,7 @@ FROM quay.io/argoproj/argocd:v3.1.0
 # argoproj/argocd
 
 # redis
-FROM redis:8.2.0
+FROM redis:8.2.1
 # redis
 
 # boky/postfix
@@ -367,7 +367,7 @@ FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.19.0
+FROM natsio/nats-server-config-reloader:0.19.1
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -443,7 +443,7 @@ FROM postgrest/postgrest:v13.0.4
 # postgrest/postgrest
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.14.2
+FROM quay.io/cephcsi/cephcsi:v3.15.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.64.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.523-jdk21
+FROM jenkins/jenkins:2.524-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -755,7 +755,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:4.3.1-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.3.1-4.4.0-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.3.1-4.4.1-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
