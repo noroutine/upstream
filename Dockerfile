@@ -443,7 +443,7 @@ FROM postgrest/postgrest:v13.0.4
 # postgrest/postgrest
 
 # cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.14.2
+FROM quay.io/cephcsi/cephcsi:v3.15.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
