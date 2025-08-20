@@ -1,5 +1,5 @@
 {
-  "version": "6bb7a06d",
+  "version": "2fd0693f",
   "upstream": {
     "images": [
       "debian:bookworm-20250811-slim",
@@ -13,7 +13,7 @@
       "golang:1.25.0-bookworm",
       "golang:1.25.0-alpine",
       "traefik:v3.5.0",
-      "sonatype/nexus3:3.83.0",
+      "sonatype/nexus3:3.83.1",
       "squidfunk/mkdocs-material:9.6.17",
       "freeradius/freeradius-server:3.2.7-alpine",
       "quay.io/keycloak/keycloak:26.3.2",
@@ -44,7 +44,7 @@
       "gitlab/gitlab-ce:18.2.4-ce.0",
       "gitlab/gitlab-runner:alpine-v18.2.1",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.2.1",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.2.1",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.3.0",
       "quay.io/brancz/kube-rbac-proxy:v0.19.1",
       "pihole/pihole:2025.08.0",
       "klutchell/unbound:v1.23.1",
@@ -190,8 +190,8 @@
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.17.8-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
-      "nvcr.io/nvidia/cloud-native/dcgm:4.3.1-1-ubi9",
-      "nvcr.io/nvidia/k8s/dcgm-exporter:4.3.1-4.4.1-ubi9",
+      "nvcr.io/nvidia/cloud-native/dcgm:4.4.0-1-ubi9",
+      "nvcr.io/nvidia/k8s/dcgm-exporter:4.4.0-4.5.0-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8"
     ]

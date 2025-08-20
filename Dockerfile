@@ -43,7 +43,7 @@ FROM traefik:v3.5.0
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.83.0
+FROM sonatype/nexus3:3.83.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.2.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.3.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -751,11 +751,11 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:4.3.1-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.0-1-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.3.1-4.4.1-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.0-4.5.0-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
