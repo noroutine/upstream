@@ -103,11 +103,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.84.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.85.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.84.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.85.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
@@ -635,47 +635,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.11
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.39.1
+FROM quay.io/tigera/operator:v1.38.6
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.30.2
+FROM calico/typha:v3.30.3
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.30.2
+FROM calico/ctl:v3.30.3
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.30.2
+FROM calico/node:v3.30.3
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.30.2
+FROM calico/cni:v3.30.3
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.30.2
+FROM calico/apiserver:v3.30.3
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.30.2
+FROM calico/kube-controllers:v3.30.3
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.30.2
+FROM calico/dikastes:v3.30.3
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.30.2
+FROM calico/pod2daemon-flexvol:v3.30.3
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.30.2
+FROM calico/node-driver-registrar:v3.30.3
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.30.2
+FROM calico/csi:v3.30.3
 # calico/csi
 
 # istio/pilot
