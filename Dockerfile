@@ -51,11 +51,11 @@ FROM squidfunk/mkdocs-material:9.6.17
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.7-alpine
+FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.3.2
+FROM quay.io/keycloak/keycloak:26.3.3
 # keycloak/keycloak
 
 # postgres
@@ -139,11 +139,11 @@ FROM docker.elastic.co/beats/elastic-agent:8.19.2
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.12-noble
+FROM mongo:8.0.13-noble
 # mongo
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.6
+FROM dpage/pgadmin4:9.7
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -155,15 +155,15 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.2.4-ce.0
+FROM gitlab/gitlab-ce:18.3.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.2.1
+FROM gitlab/gitlab-runner:alpine-v18.3.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.2.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.3.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -195,7 +195,7 @@ FROM bitnami/prometheus:3.5.0
 # bitnami/prometheus
 
 # bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.84.1
+FROM bitnami/prometheus-operator:0.85.0
 # bitnami/prometheus-operator
 
 # bitnami/node-exporter
@@ -235,7 +235,7 @@ FROM bitnami/postgresql:17.6.0
 # bitnami/postgresql
 
 # bitnami/keycloak
-FROM bitnami/keycloak:26.3.2
+FROM bitnami/keycloak:26.3.3
 # bitnami/keycloak
 
 # bitnami/keycloak-config-cli
@@ -463,7 +463,7 @@ FROM gitea/gitea:1.24.5-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.8.0
+FROM cloudflare/cloudflared:2025.8.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
