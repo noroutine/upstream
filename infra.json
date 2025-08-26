@@ -1,5 +1,5 @@
 {
-  "version": "1d604543",
+  "version": "4b5d5fac",
   "upstream": {
     "images": [
       "debian:bookworm-20250811-slim",
@@ -112,7 +112,7 @@
       "restic/restic:0.18.0",
       "coturn/coturn:4.7.0",
       "netboxcommunity/netbox:v4.3.6",
-      "postgrest/postgrest:v13.0.4",
+      "postgrest/postgrest:v13.0.5",
       "quay.io/cephcsi/cephcsi:v3.15.0",
       "homeassistant/home-assistant:2025.8",
       "koenkk/zigbee2mqtt:2.6.0",
