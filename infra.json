@@ -1,5 +1,5 @@
 {
-  "version": "4b5d5fac",
+  "version": "e6b52c34",
   "upstream": {
     "images": [
       "debian:bookworm-20250811-slim",
@@ -88,7 +88,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.43.1",
-      "quay.io/argoproj/argocd:v3.1.0",
+      "quay.io/argoproj/argocd:v3.1.1",
       "redis:8.2.1",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
@@ -98,7 +98,7 @@
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.22-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
-      "caddy:2.10.0-alpine",
+      "caddy:2.10.2-alpine",
       "azul/zulu-openjdk:24.0.2-24.32",
       "eclipse-temurin:24-noble",
       "elastic/eck-operator:3.1.0",

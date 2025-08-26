@@ -343,7 +343,7 @@ FROM ghcr.io/dexidp/dex:v2.43.1
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.1.0
+FROM quay.io/argoproj/argocd:v3.1.1
 # argoproj/argocd
 
 # redis
@@ -383,7 +383,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.10.0-alpine
+FROM caddy:2.10.2-alpine
 # caddy
 
 # azul/zulu-openjdk
