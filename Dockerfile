@@ -327,7 +327,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.3
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.6
+FROM stakater/reloader:v1.4.7
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -483,7 +483,7 @@ FROM fatedier/frpc:v0.64.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.524-jdk21
+FROM jenkins/jenkins:2.525-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
