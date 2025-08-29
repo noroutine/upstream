@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.6.0-bookworm
+FROM node:24.7.0-bookworm
 # node
 
 # node
-FROM node:24.6.0-alpine
+FROM node:24.7.0-alpine
 # node
 
 # python
@@ -39,7 +39,7 @@ FROM golang:1.25.0-alpine
 # golang
 
 # traefik
-FROM traefik:v3.5.0
+FROM traefik:v3.5.1
 # traefik
 
 # sonatype/nexus3
@@ -119,23 +119,23 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.3
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.1.2
+FROM docker.elastic.co/logstash/logstash:9.1.3
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.1.2
+FROM docker.elastic.co/kibana/kibana:9.1.3
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.1.2
+FROM docker.elastic.co/apm/apm-server:9.1.3
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.2
+FROM docker.elastic.co/beats/elastic-agent:8.19.3
 # beats/elastic-agent
 
 # mongo
@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.3.0-ce.0
+FROM gitlab/gitlab-ce:18.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.3.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.3.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -189,118 +189,6 @@ FROM nextcloud:31.0.8-apache
 # docker
 FROM docker:28.3.3-dind
 # docker
-
-# bitnami/prometheus
-FROM bitnami/prometheus:3.5.0
-# bitnami/prometheus
-
-# bitnami/prometheus-operator
-FROM bitnami/prometheus-operator:0.85.0
-# bitnami/prometheus-operator
-
-# bitnami/node-exporter
-FROM bitnami/node-exporter:1.9.1
-# bitnami/node-exporter
-
-# bitnami/blackbox-exporter
-FROM bitnami/blackbox-exporter:0.27.0
-# bitnami/blackbox-exporter
-
-# bitnami/postgres-exporter
-FROM bitnami/postgres-exporter:0.17.1
-# bitnami/postgres-exporter
-
-# bitnami/redis
-FROM bitnami/redis:8.2.1
-# bitnami/redis
-
-# bitnami/valkey
-FROM bitnami/valkey:8.1.3
-# bitnami/valkey
-
-# bitnami/redis-exporter
-FROM bitnami/redis-exporter:1.76.0
-# bitnami/redis-exporter
-
-# bitnami/postgresql
-FROM bitnami/postgresql:15.10.0
-# bitnami/postgresql
-
-# bitnami/postgresql
-FROM bitnami/postgresql:16.6.0
-# bitnami/postgresql
-
-# bitnami/postgresql
-FROM bitnami/postgresql:17.6.0
-# bitnami/postgresql
-
-# bitnami/keycloak
-FROM bitnami/keycloak:26.3.3
-# bitnami/keycloak
-
-# bitnami/keycloak-config-cli
-FROM bitnami/keycloak-config-cli:6.4.0
-# bitnami/keycloak-config-cli
-
-# bitnami/nginx
-FROM bitnami/nginx:1.29.1
-# bitnami/nginx
-
-# bitnami/haproxy
-FROM bitnami/haproxy:3.2.4
-# bitnami/haproxy
-
-# bitnami/nginx-ingress-controller
-FROM bitnami/nginx-ingress-controller:1.13.1
-# bitnami/nginx-ingress-controller
-
-# bitnami/minio
-FROM bitnami/minio:2025.7.23
-# bitnami/minio
-
-# bitnami/minio-client
-FROM bitnami/minio-client:2025.7.21
-# bitnami/minio-client
-
-# bitnami/os-shell
-FROM bitnami/os-shell:12
-# bitnami/os-shell
-
-# bitnami/metallb-controller
-FROM bitnami/metallb-controller:0.15.2
-# bitnami/metallb-controller
-
-# bitnami/metallb-speaker
-FROM bitnami/metallb-speaker:0.15.2
-# bitnami/metallb-speaker
-
-# bitnami/grafana
-FROM bitnami/grafana:12.1.1
-# bitnami/grafana
-
-# bitnami/nats
-FROM bitnami/nats:2.11.8
-# bitnami/nats
-
-# bitnami/kube-state-metrics
-FROM bitnami/kube-state-metrics:2.16.0
-# bitnami/kube-state-metrics
-
-# bitnami/metrics-server
-FROM bitnami/metrics-server:0.8.0
-# bitnami/metrics-server
-
-# bitnami/kube-rbac-proxy
-FROM bitnami/kube-rbac-proxy:0.19.1
-# bitnami/kube-rbac-proxy
-
-# bitnami/openldap
-FROM bitnami/openldap:2.6.10
-# bitnami/openldap
-
-# bitnami/kubectl
-FROM bitnami/kubectl:1.33.4
-# bitnami/kubectl
 
 # haproxytech/haproxy-alpine
 FROM haproxytech/haproxy-alpine:3.2.4
@@ -435,7 +323,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.3.6
+FROM netboxcommunity/netbox:v4.3.7
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -495,7 +383,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.9
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.10
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
@@ -535,8 +423,24 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.12.2
+FROM registry.k8s.io/coredns/coredns:v1.12.3
 # coredns/coredns
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.34.0
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.34.0
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.34.0
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.34.0
+# kube-controller-manager
 
 # kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.33.4
