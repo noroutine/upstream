@@ -287,7 +287,7 @@ FROM elastic/eck-operator:3.1.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.3
+FROM syncthing/syncthing:2.0.5
 # syncthing/syncthing
 
 # syncthing/discosrv
