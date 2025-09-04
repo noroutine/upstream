@@ -591,7 +591,7 @@ FROM istio/proxyv2:1.27.0
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.27.0
+FROM istio/ztunnel:1.27.1
 # istio/ztunnel
 
 # nfd/node-feature-discovery
