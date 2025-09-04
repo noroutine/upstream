@@ -415,7 +415,7 @@ FROM hashicorp/vault-k8s:1.7.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.5.1
+FROM hashicorp/vault-csi-provider:1.6.0
 # hashicorp/vault-csi-provider
 
 # pause
