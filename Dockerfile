@@ -187,7 +187,7 @@ FROM nextcloud:31.0.8-apache
 # nextcloud
 
 # docker
-FROM docker:28.3.3-dind
+FROM docker:28.4.0-dind
 # docker
 
 # haproxytech/haproxy-alpine
