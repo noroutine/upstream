@@ -1,5 +1,5 @@
 {
-  "version": "5056a1a4",
+  "version": "3488fec9",
   "upstream": {
     "images": [
       "debian:bookworm-20250811-slim",
@@ -74,9 +74,9 @@
       "azul/zulu-openjdk:24.0.2-24.32",
       "eclipse-temurin:24-noble",
       "elastic/eck-operator:3.1.0",
-      "syncthing/syncthing:2.0.6",
-      "syncthing/discosrv:2.0.6",
-      "syncthing/relaysrv:2.0.6",
+      "syncthing/syncthing:2.0.7",
+      "syncthing/discosrv:2.0.7",
+      "syncthing/relaysrv:2.0.7",
       "jellyfin/jellyfin:10.10.7",
       "haveagitgat/tdarr:2.46.01",
       "haveagitgat/tdarr_node:2.46.01",
