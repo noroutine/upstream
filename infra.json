@@ -1,5 +1,5 @@
 {
-  "version": "a0d0b942",
+  "version": "5056a1a4",
   "upstream": {
     "images": [
       "debian:bookworm-20250811-slim",
@@ -10,8 +10,8 @@
       "node:24.7.0-alpine",
       "python:3.13.7-bookworm",
       "python:3.13.7-slim-bookworm",
-      "golang:1.25.0-bookworm",
-      "golang:1.25.0-alpine",
+      "golang:1.25.1-bookworm",
+      "golang:1.25.1-alpine",
       "traefik:v3.5.1",
       "sonatype/nexus3:3.83.2",
       "squidfunk/mkdocs-material:9.6.18",
@@ -52,7 +52,7 @@
       "docker:28.4.0-dind",
       "haproxytech/haproxy-alpine:3.2.4",
       "haproxytech/kubernetes-ingress:3.1.11",
-      "aquasec/trivy:0.65.0",
+      "aquasec/trivy:0.66.0",
       "ghcr.io/external-secrets/external-secrets:v0.19.2",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.3",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.5.3",

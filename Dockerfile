@@ -31,11 +31,11 @@ FROM python:3.13.7-slim-bookworm
 # python
 
 # golang
-FROM golang:1.25.0-bookworm
+FROM golang:1.25.1-bookworm
 # golang
 
 # golang
-FROM golang:1.25.0-alpine
+FROM golang:1.25.1-alpine
 # golang
 
 # traefik
@@ -199,7 +199,7 @@ FROM haproxytech/kubernetes-ingress:3.1.11
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.65.0
+FROM aquasec/trivy:0.66.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
