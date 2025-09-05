@@ -3,7 +3,7 @@ FROM debian:bookworm-20250811-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20250716
+FROM ubuntu:noble-20250805
 # ubuntu
 
 # alpine
@@ -43,7 +43,7 @@ FROM traefik:v3.5.1
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.83.1
+FROM sonatype/nexus3:3.83.2
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -143,7 +143,7 @@ FROM mongo:8.0.13-noble
 # mongo
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.7
+FROM dpage/pgadmin4:9.8
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -159,11 +159,11 @@ FROM gitlab/gitlab-ce:18.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.3.0
+FROM gitlab/gitlab-runner:alpine-v18.3.1
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.3.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.3.1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -187,7 +187,7 @@ FROM nextcloud:31.0.8-apache
 # nextcloud
 
 # docker
-FROM docker:28.3.3-dind
+FROM docker:28.4.0-dind
 # docker
 
 # haproxytech/haproxy-alpine
@@ -227,11 +227,11 @@ FROM registry:3.0.0
 # registry
 
 # dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.43.1
+FROM ghcr.io/dexidp/dex:v2.44.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.1.1
+FROM quay.io/argoproj/argocd:v3.1.3
 # argoproj/argocd
 
 # redis
@@ -255,7 +255,7 @@ FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.19.1
+FROM natsio/nats-server-config-reloader:0.19.2
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -287,15 +287,15 @@ FROM elastic/eck-operator:3.1.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.3
+FROM syncthing/syncthing:2.0.6
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.3
+FROM syncthing/discosrv:2.0.6
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.3
+FROM syncthing/relaysrv:2.0.6
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -303,11 +303,11 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.45.01
+FROM haveagitgat/tdarr:2.46.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.45.01
+FROM haveagitgat/tdarr_node:2.46.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -323,11 +323,11 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.3.7
+FROM netboxcommunity/netbox:v4.4.0
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.5
+FROM postgrest/postgrest:v13.0.6
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -335,11 +335,11 @@ FROM quay.io/cephcsi/cephcsi:v3.15.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.8
+FROM homeassistant/home-assistant:2025.9
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.6.0
+FROM koenkk/zigbee2mqtt:2.6.1
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -355,7 +355,7 @@ FROM cloudflare/cloudflared:2025.8.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.4.2
+FROM registry.k8s.io/git-sync/git-sync:v4.4.3
 # git-sync/git-sync
 
 # sj26/mailcatcher
@@ -371,7 +371,7 @@ FROM fatedier/frpc:v0.64.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.525-jdk21
+FROM jenkins/jenkins:2.526-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -415,7 +415,7 @@ FROM hashicorp/vault-k8s:1.7.0
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.5.1
+FROM hashicorp/vault-csi-provider:1.6.0
 # hashicorp/vault-csi-provider
 
 # pause
@@ -583,15 +583,15 @@ FROM calico/csi:v3.30.3
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.27.0
+FROM istio/pilot:1.27.1
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.27.0
+FROM istio/proxyv2:1.27.1
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.27.0
+FROM istio/ztunnel:1.27.1
 # istio/ztunnel
 
 # nfd/node-feature-discovery
@@ -643,7 +643,7 @@ FROM nvcr.io/nvidia/cuda:13.0.0-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.0
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.1
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
