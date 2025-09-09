@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250811-slim
+FROM debian:bookworm-20250908-slim
 # debian
 
 # ubuntu
@@ -287,15 +287,15 @@ FROM elastic/eck-operator:3.1.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.7
+FROM syncthing/syncthing:2.0.8
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.7
+FROM syncthing/discosrv:2.0.8
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.7
+FROM syncthing/relaysrv:2.0.8
 # syncthing/relaysrv
 
 # jellyfin/jellyfin

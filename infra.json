@@ -1,8 +1,8 @@
 {
-  "version": "3c6417c1",
+  "version": "a3a15474",
   "upstream": {
     "images": [
-      "debian:bookworm-20250811-slim",
+      "debian:bookworm-20250908-slim",
       "ubuntu:noble-20250805",
       "alpine:3.22.1",
       "busybox:1.37.0",
@@ -74,9 +74,9 @@
       "azul/zulu-openjdk:24.0.2-24.32",
       "eclipse-temurin:24-noble",
       "elastic/eck-operator:3.1.0",
-      "syncthing/syncthing:2.0.7",
-      "syncthing/discosrv:2.0.7",
-      "syncthing/relaysrv:2.0.7",
+      "syncthing/syncthing:2.0.8",
+      "syncthing/discosrv:2.0.8",
+      "syncthing/relaysrv:2.0.8",
       "jellyfin/jellyfin:10.10.7",
       "haveagitgat/tdarr:2.46.01",
       "haveagitgat/tdarr_node:2.46.01",
