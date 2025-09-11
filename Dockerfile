@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.7.0-bookworm
+FROM node:24.8.0-bookworm
 # node
 
 # node
-FROM node:24.7.0-alpine
+FROM node:24.8.0-alpine
 # node
 
 # python
@@ -39,11 +39,11 @@ FROM golang:1.25.1-alpine
 # golang
 
 # traefik
-FROM traefik:v3.5.1
+FROM traefik:v3.5.2
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.83.2
+FROM sonatype/nexus3:3.84.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -155,7 +155,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.3.1-ce.0
+FROM gitlab/gitlab-ce:18.3.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -167,7 +167,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.3.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.3.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -231,7 +231,7 @@ FROM ghcr.io/dexidp/dex:v2.44.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.1.4
+FROM quay.io/argoproj/argocd:v3.1.5
 # argoproj/argocd
 
 # redis
@@ -247,7 +247,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.8-alpine
+FROM nats:2.11.9-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -371,7 +371,7 @@ FROM fatedier/frpc:v0.64.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.526-jdk21
+FROM jenkins/jenkins:2.527-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -423,8 +423,24 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.12.3
+FROM registry.k8s.io/coredns/coredns:v1.12.4
 # coredns/coredns
+
+# kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.34.1
+# kube-apiserver
+
+# kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.34.1
+# kube-proxy
+
+# kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.34.1
+# kube-scheduler
+
+# kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.34.1
+# kube-controller-manager
 
 # kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.34.0
@@ -631,15 +647,15 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v25.3.2
+FROM nvcr.io/nvidia/gpu-operator:v25.3.3
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.2
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.3
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
-FROM nvcr.io/nvidia/cuda:13.0.0-base-ubi9
+FROM nvcr.io/nvidia/cuda:13.0.1-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
