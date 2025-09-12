@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.3.3
+FROM quay.io/keycloak/keycloak:26.3.4
 # keycloak/keycloak
 
 # postgres
@@ -311,7 +311,7 @@ FROM haveagitgat/tdarr_node:2.46.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
-FROM curlimages/curl:8.15.0
+FROM curlimages/curl:8.16.0
 # curlimages/curl
 
 # restic/restic
@@ -347,7 +347,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
-FROM gitea/gitea:1.24.5-rootless
+FROM gitea/gitea:1.24.6-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared

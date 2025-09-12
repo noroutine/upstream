@@ -1,5 +1,5 @@
 {
-  "version": "82594ca0",
+  "version": "b958dfae",
   "upstream": {
     "images": [
       "debian:bookworm-20250908-slim",
@@ -16,7 +16,7 @@
       "sonatype/nexus3:3.84.0",
       "squidfunk/mkdocs-material:9.6.19",
       "freeradius/freeradius-server:3.2.8-alpine",
-      "quay.io/keycloak/keycloak:26.3.3",
+      "quay.io/keycloak/keycloak:26.3.4",
       "postgres:17.6-bookworm",
       "quay.io/minio/minio:RELEASE.2025-07-23T15-54-02Z",
       "quay.io/minio/mc:RELEASE.2025-07-21T05-28-08Z",
@@ -80,7 +80,7 @@
       "jellyfin/jellyfin:10.10.7",
       "haveagitgat/tdarr:2.46.01",
       "haveagitgat/tdarr_node:2.46.01",
-      "curlimages/curl:8.15.0",
+      "curlimages/curl:8.16.0",
       "restic/restic:0.18.0",
       "coturn/coturn:4.7.0",
       "netboxcommunity/netbox:v4.4.0",
@@ -89,7 +89,7 @@
       "homeassistant/home-assistant:2025.9",
       "koenkk/zigbee2mqtt:2.6.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
-      "gitea/gitea:1.24.5-rootless",
+      "gitea/gitea:1.24.6-rootless",
       "cloudflare/cloudflared:2025.8.1",
       "registry.k8s.io/git-sync/git-sync:v4.4.3",
       "sj26/mailcatcher:v0.10.0",
