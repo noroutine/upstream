@@ -355,7 +355,7 @@ FROM cloudflare/cloudflared:2025.8.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.4.3
+FROM registry.k8s.io/git-sync/git-sync:v4.5.0
 # git-sync/git-sync
 
 # sj26/mailcatcher
