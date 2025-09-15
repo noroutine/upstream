@@ -287,15 +287,15 @@ FROM elastic/eck-operator:3.1.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.8
+FROM syncthing/syncthing:2.0.9
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.8
+FROM syncthing/discosrv:2.0.9
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.8
+FROM syncthing/relaysrv:2.0.9
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -327,7 +327,7 @@ FROM netboxcommunity/netbox:v4.4.0
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.6
+FROM postgrest/postgrest:v13.0.7
 # postgrest/postgrest
 
 # cephcsi/cephcsi
@@ -355,7 +355,7 @@ FROM cloudflare/cloudflared:2025.8.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.4.3
+FROM registry.k8s.io/git-sync/git-sync:v4.5.0
 # git-sync/git-sync
 
 # sj26/mailcatcher
