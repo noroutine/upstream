@@ -327,7 +327,7 @@ FROM netboxcommunity/netbox:v4.4.0
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.6
+FROM postgrest/postgrest:v13.0.7
 # postgrest/postgrest
 
 # cephcsi/cephcsi
