@@ -1,9 +1,9 @@
 {
-  "version": "ce925391",
+  "version": "36b49d28",
   "upstream": {
     "images": [
       "debian:bookworm-20250908-slim",
-      "ubuntu:noble-20250805",
+      "ubuntu:noble-20250910",
       "alpine:3.22.1",
       "busybox:1.37.0",
       "node:24.8.0-bookworm",
@@ -14,7 +14,7 @@
       "golang:1.25.1-alpine",
       "traefik:v3.5.2",
       "sonatype/nexus3:3.84.0",
-      "squidfunk/mkdocs-material:9.6.19",
+      "squidfunk/mkdocs-material:9.6.20",
       "freeradius/freeradius-server:3.2.8-alpine",
       "quay.io/keycloak/keycloak:26.3.4",
       "postgres:17.6-bookworm",
@@ -48,7 +48,7 @@
       "quay.io/brancz/kube-rbac-proxy:v0.19.1",
       "pihole/pihole:2025.08.0",
       "klutchell/unbound:v1.23.1",
-      "nextcloud:31.0.8-apache",
+      "nextcloud:31.0.9-apache",
       "docker:28.4.0-dind",
       "haproxytech/haproxy-alpine:3.2.4",
       "haproxytech/kubernetes-ingress:3.1.11",
@@ -56,7 +56,7 @@
       "ghcr.io/external-secrets/external-secrets:v0.19.2",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.3",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.5.3",
-      "stakater/reloader:v1.4.7",
+      "stakater/reloader:v1.4.8",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.44.0",

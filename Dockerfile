@@ -3,7 +3,7 @@ FROM debian:bookworm-20250908-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20250805
+FROM ubuntu:noble-20250910
 # ubuntu
 
 # alpine
@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.84.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.19
+FROM squidfunk/mkdocs-material:9.6.20
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.23.1
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.8-apache
+FROM nextcloud:31.0.9-apache
 # nextcloud
 
 # docker
@@ -215,7 +215,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.3
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.7
+FROM stakater/reloader:v1.4.8
 # stakater/reloader
 
 # jimmidyson/configmap-reload
