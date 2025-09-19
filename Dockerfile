@@ -159,7 +159,7 @@ FROM gitlab/gitlab-ce:18.3.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.3.1
+FROM gitlab/gitlab-runner:alpine-v18.4.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
