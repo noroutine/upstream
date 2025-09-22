@@ -647,7 +647,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v25.3.3
+FROM nvcr.io/nvidia/gpu-operator:v25.3.4
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
