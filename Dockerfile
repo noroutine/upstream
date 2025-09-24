@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.85.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:12.1.1
+FROM grafana/grafana:12.2.0
 # grafana/grafana
 
 # prymitive/karma
