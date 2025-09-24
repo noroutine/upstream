@@ -191,7 +191,7 @@ FROM docker:28.4.0-dind
 # docker
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.4
+FROM haproxytech/haproxy-alpine:3.2.5
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
