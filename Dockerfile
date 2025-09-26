@@ -279,7 +279,7 @@ FROM azul/zulu-openjdk:24.0.2-24.32
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:24-noble
+FROM eclipse-temurin:25-noble
 # eclipse-temurin
 
 # elastic/eck-operator
