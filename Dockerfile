@@ -43,7 +43,7 @@ FROM traefik:v3.5.2
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.84.0
+FROM sonatype/nexus3:3.84.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -55,11 +55,11 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.3.4
+FROM quay.io/keycloak/keycloak:26.3.5
 # keycloak/keycloak
 
 # postgres
-FROM postgres:17.6-bookworm
+FROM postgres:18.0-bookworm
 # postgres
 
 # minio/minio
@@ -71,15 +71,15 @@ FROM quay.io/minio/mc:RELEASE.2025-07-21T05-28-08Z
 # minio/mc
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.22
+FROM quay.io/coreos/etcd:v3.5.23
 # coreos/etcd
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.4
+FROM quay.io/coreos/etcd:v3.6.5
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.5.0
+FROM quay.io/prometheus/prometheus:v3.6.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.85.0
 # prometheus-operator/prometheus-config-reloader
 
 # grafana/grafana
-FROM grafana/grafana:12.1.1
+FROM grafana/grafana:12.2.0
 # grafana/grafana
 
 # prymitive/karma
@@ -119,27 +119,27 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.4
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.1.3
+FROM docker.elastic.co/logstash/logstash:9.1.4
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.1.3
+FROM docker.elastic.co/kibana/kibana:9.1.4
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.1.3
+FROM docker.elastic.co/apm/apm-server:9.1.4
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.3
+FROM docker.elastic.co/beats/elastic-agent:8.19.4
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.13-noble
+FROM mongo:8.0.14-noble
 # mongo
 
 # dpage/pgadmin4
@@ -155,23 +155,23 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.3.2-ce.0
+FROM gitlab/gitlab-ce:18.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.3.1
+FROM gitlab/gitlab-runner:alpine-v18.4.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.3.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.4.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.3.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.4.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.19.1
+FROM quay.io/brancz/kube-rbac-proxy:v0.20.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
@@ -179,7 +179,7 @@ FROM pihole/pihole:2025.08.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.23.1
+FROM klutchell/unbound:v1.24.0
 # klutchell/unbound
 
 # nextcloud
@@ -191,7 +191,7 @@ FROM docker:28.4.0-dind
 # docker
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.4
+FROM haproxytech/haproxy-alpine:3.2.5
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -231,7 +231,7 @@ FROM ghcr.io/dexidp/dex:v2.44.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.1.5
+FROM quay.io/argoproj/argocd:v3.1.7
 # argoproj/argocd
 
 # redis
@@ -247,7 +247,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.11.9-alpine
+FROM nats:2.12.0-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -275,11 +275,11 @@ FROM caddy:2.10.2-alpine
 # caddy
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:24.0.2-24.32
+FROM azul/zulu-openjdk:25.0.0-25.28
 # azul/zulu-openjdk
 
 # eclipse-temurin
-FROM eclipse-temurin:24-noble
+FROM eclipse-temurin:25-noble
 # eclipse-temurin
 
 # elastic/eck-operator
@@ -287,15 +287,15 @@ FROM elastic/eck-operator:3.1.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.9
+FROM syncthing/syncthing:2.0.10
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.9
+FROM syncthing/discosrv:2.0.10
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.9
+FROM syncthing/relaysrv:2.0.10
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -315,7 +315,7 @@ FROM curlimages/curl:8.16.0
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.18.0
+FROM restic/restic:0.18.1
 # restic/restic
 
 # coturn/coturn
@@ -323,7 +323,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.4.0
+FROM netboxcommunity/netbox:v4.4.1
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -351,7 +351,7 @@ FROM gitea/gitea:1.24.6-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.8.1
+FROM cloudflare/cloudflared:2025.9.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
@@ -363,15 +363,15 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # fatedier/frps
-FROM fatedier/frps:v0.64.0
+FROM fatedier/frps:v0.65.0
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.64.0
+FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.527-jdk21
+FROM jenkins/jenkins:2.529-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -407,7 +407,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.20.3
+FROM hashicorp/vault:1.20.4
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -611,19 +611,19 @@ FROM istio/ztunnel:1.27.1
 # istio/ztunnel
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.3
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.4
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.16.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.17.0
 # sig-storage/livenessprobe
 
 # sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.14.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.15.0
 # sig-storage/csi-node-driver-registrar
 
 # sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.9.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.10.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
@@ -647,11 +647,11 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v25.3.3
+FROM nvcr.io/nvidia/gpu-operator:v25.3.4
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator
-FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.3
+FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.4
 # nvidia/cloud-native/gpu-operator-validator
 
 # nvidia/cuda
@@ -671,11 +671,11 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvidia/k8s-device-plugin
 
 # nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.0-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.1-2-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.0-4.5.0-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.1-4.5.2-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
