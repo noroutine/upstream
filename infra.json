@@ -1,5 +1,5 @@
 {
-  "version": "7ef3c9fb",
+  "version": "44d166d8",
   "upstream": {
     "images": [
       "debian:bookworm-20250908-slim",
@@ -12,7 +12,7 @@
       "python:3.13.7-slim-bookworm",
       "golang:1.25.1-bookworm",
       "golang:1.25.1-alpine",
-      "traefik:v3.5.2",
+      "traefik:v3.5.3",
       "sonatype/nexus3:3.84.1",
       "squidfunk/mkdocs-material:9.6.20",
       "freeradius/freeradius-server:3.2.8-alpine",
@@ -53,7 +53,7 @@
       "haproxytech/haproxy-alpine:3.2.5",
       "haproxytech/kubernetes-ingress:3.1.11",
       "aquasec/trivy:0.66.0",
-      "ghcr.io/external-secrets/external-secrets:v0.19.2",
+      "ghcr.io/external-secrets/external-secrets:v0.20.1",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.3",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.5.3",
       "stakater/reloader:v1.4.8",

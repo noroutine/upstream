@@ -39,7 +39,7 @@ FROM golang:1.25.1-alpine
 # golang
 
 # traefik
-FROM traefik:v3.5.2
+FROM traefik:v3.5.3
 # traefik
 
 # sonatype/nexus3
@@ -203,7 +203,7 @@ FROM aquasec/trivy:0.66.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.19.2
+FROM ghcr.io/external-secrets/external-secrets:v0.20.1
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
