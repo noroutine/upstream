@@ -71,7 +71,7 @@ FROM quay.io/minio/mc:RELEASE.2025-07-21T05-28-08Z
 # minio/mc
 
 # coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.23
+FROM quay.io/coreos/etcd:v3.6.5
 # coreos/etcd
 
 # coreos/etcd
