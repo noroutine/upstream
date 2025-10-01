@@ -686,3 +686,63 @@ FROM nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8
 FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8
 # nvidia/cloud-native/k8s-mig-manager
 
+# strimzi/operator
+FROM quay.io/strimzi/operator:0.48.0
+# strimzi/operator
+
+# strimzi/kafka
+FROM quay.io/strimzi/kafka:0.48.0-kafka-4.1.0
+# strimzi/kafka
+
+# confluentinc/confluent-init-container
+FROM confluentinc/confluent-init-container:3.0.1
+# confluentinc/confluent-init-container
+
+# confluentinc/confluent-operator
+FROM confluentinc/confluent-operator:0.1263.34
+# confluentinc/confluent-operator
+
+# confluentinc/cp-enterprise-control-center
+FROM confluentinc/cp-enterprise-control-center:7.7.5
+# confluentinc/cp-enterprise-control-center
+
+# confluentinc/cp-enterprise-replicator
+FROM confluentinc/cp-enterprise-replicator:7.7.5
+# confluentinc/cp-enterprise-replicator
+
+# confluentinc/cp-kafka-rest
+FROM confluentinc/cp-kafka-rest:7.7.5
+# confluentinc/cp-kafka-rest
+
+# confluentinc/cp-ksqldb-server
+FROM confluentinc/cp-ksqldb-server:7.7.5
+# confluentinc/cp-ksqldb-server
+
+# confluentinc/cp-ksqldb-cli
+FROM confluentinc/cp-ksqldb-cli:7.7.5
+# confluentinc/cp-ksqldb-cli
+
+# confluentinc/cp-schema-registry
+FROM confluentinc/cp-schema-registry:7.7.5
+# confluentinc/cp-schema-registry
+
+# confluentinc/cp-server
+FROM confluentinc/cp-server:7.7.5
+# confluentinc/cp-server
+
+# confluentinc/cp-server-connect
+FROM confluentinc/cp-server-connect:7.7.5
+# confluentinc/cp-server-connect
+
+# confluentinc/cp-zookeeper
+FROM confluentinc/cp-zookeeper:7.7.5
+# confluentinc/cp-zookeeper
+
+# obsidiandynamics/kafdrop
+FROM obsidiandynamics/kafdrop:4.0.2
+# obsidiandynamics/kafdrop
+
+# tchiotludo/akhq
+FROM tchiotludo/akhq:0.25.1
+# tchiotludo/akhq
+
