@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250908-slim
+FROM debian:bookworm-20250929-slim
 # debian
 
 # ubuntu
@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.8.0-bookworm
+FROM node:24.9.0-bookworm
 # node
 
 # node
-FROM node:24.8.0-alpine
+FROM node:24.9.0-alpine
 # node
 
 # python
@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.84.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.20
+FROM squidfunk/mkdocs-material:9.6.21
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.3.5
+FROM quay.io/keycloak/keycloak:26.4.0
 # keycloak/keycloak
 
 # postgres
@@ -183,7 +183,7 @@ FROM klutchell/unbound:v1.24.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:31.0.9-apache
+FROM nextcloud:32.0.0-apache
 # nextcloud
 
 # docker
@@ -195,11 +195,11 @@ FROM haproxytech/haproxy-alpine:3.2.5
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.11
+FROM haproxytech/kubernetes-ingress:3.1.12
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.66.0
+FROM aquasec/trivy:0.67.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
@@ -231,7 +231,7 @@ FROM ghcr.io/dexidp/dex:v2.44.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.1.7
+FROM quay.io/argoproj/argocd:v3.1.8
 # argoproj/argocd
 
 # redis
@@ -303,11 +303,11 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.46.01
+FROM haveagitgat/tdarr:2.47.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.46.01
+FROM haveagitgat/tdarr_node:2.47.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -371,7 +371,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.529-jdk21
+FROM jenkins/jenkins:2.530-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
