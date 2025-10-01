@@ -199,7 +199,7 @@ FROM haproxytech/kubernetes-ingress:3.1.11
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.66.0
+FROM aquasec/trivy:0.67.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
