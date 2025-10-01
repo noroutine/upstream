@@ -375,19 +375,19 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.67.1
+FROM docker.n8n.io/n8nio/n8n:1.114.0
 # n8nio/n8n
 
 # netsampler/goflow2
-FROM netsampler/goflow2:v2.2.1
+FROM netsampler/goflow2:v2.2.3
 # netsampler/goflow2
 
 # corentinth/it-tools
-FROM ghcr.io/corentinth/it-tools:2024.5.13-a0bc346
+FROM ghcr.io/corentinth/it-tools:2024.10.22-7ca5933
 # corentinth/it-tools
 
 # openbgpd/openbgpd
-FROM quay.io/openbgpd/openbgpd:8.6
+FROM quay.io/openbgpd/openbgpd:8.9
 # openbgpd/openbgpd
 
 # jenkins/jenkins
@@ -706,6 +706,10 @@ FROM nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8
 FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8
 # nvidia/cloud-native/k8s-mig-manager
 
+# apache/kafka
+FROM apache/kafka:4.1.0
+# apache/kafka
+
 # strimzi/operator
 FROM quay.io/strimzi/operator:0.48.0
 # strimzi/operator
@@ -759,22 +763,22 @@ FROM confluentinc/cp-zookeeper:7.9.3
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
-FROM obsidiandynamics/kafdrop:4.0.2
+FROM obsidiandynamics/kafdrop:4.2.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.25.1
+FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:6.2.1
+FROM scylladb/scylla:6.2.3
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.4.0-0.20241106.6f6a5a9dc
+FROM scylladb/scylla-manager:3.6.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.14
+FROM scylladb/scylla-operator:1.18
 # scylladb/scylla-operator
 
