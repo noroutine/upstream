@@ -207,11 +207,11 @@ FROM ghcr.io/external-secrets/external-secrets:v0.20.1
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.5.3
+FROM registry.k8s.io/csi-secrets-store/driver:v1.5.4
 # csi-secrets-store/driver
 
 # csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.3
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.4
 # csi-secrets-store/driver-crds
 
 # stakater/reloader
@@ -323,7 +323,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.4.1
+FROM netboxcommunity/netbox:v4.4.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -339,7 +339,7 @@ FROM homeassistant/home-assistant:2025.9
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.6.1
+FROM koenkk/zigbee2mqtt:2.6.2
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
@@ -358,6 +358,10 @@ FROM cloudflare/cloudflared:2025.9.1
 FROM registry.k8s.io/git-sync/git-sync:v4.5.0
 # git-sync/git-sync
 
+# apache/airflow
+FROM apache/airflow:2.10.3-python3.12
+# apache/airflow
+
 # sj26/mailcatcher
 FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
@@ -369,6 +373,22 @@ FROM fatedier/frps:v0.65.0
 # fatedier/frpc
 FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
+
+# n8nio/n8n
+FROM docker.n8n.io/n8nio/n8n:1.67.1
+# n8nio/n8n
+
+# netsampler/goflow2
+FROM netsampler/goflow2:v2.2.1
+# netsampler/goflow2
+
+# corentinth/it-tools
+FROM ghcr.io/corentinth/it-tools:2024.5.13-a0bc346
+# corentinth/it-tools
+
+# openbgpd/openbgpd
+FROM quay.io/openbgpd/openbgpd:8.6
+# openbgpd/openbgpd
 
 # jenkins/jenkins
 FROM jenkins/jenkins:2.530-jdk21
@@ -703,39 +723,39 @@ FROM confluentinc/confluent-operator:0.1263.34
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.7.5
+FROM confluentinc/cp-enterprise-control-center:7.9.3
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.7.5
+FROM confluentinc/cp-enterprise-replicator:7.9.3
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.7.5
+FROM confluentinc/cp-kafka-rest:7.9.3
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.7.5
+FROM confluentinc/cp-ksqldb-server:7.9.3
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.7.5
+FROM confluentinc/cp-ksqldb-cli:7.9.3
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.7.5
+FROM confluentinc/cp-schema-registry:7.9.3
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.7.5
+FROM confluentinc/cp-server:7.9.3
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.7.5
+FROM confluentinc/cp-server-connect:7.9.3
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.7.5
+FROM confluentinc/cp-zookeeper:7.9.3
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
@@ -745,4 +765,16 @@ FROM obsidiandynamics/kafdrop:4.0.2
 # tchiotludo/akhq
 FROM tchiotludo/akhq:0.25.1
 # tchiotludo/akhq
+
+# scylladb/scylla
+FROM scylladb/scylla:6.2.1
+# scylladb/scylla
+
+# scylladb/scylla-manager
+FROM scylladb/scylla-manager:3.4.0-0.20241106.6f6a5a9dc
+# scylladb/scylla-manager
+
+# scylladb/scylla-operator
+FROM scylladb/scylla-operator:1.14
+# scylladb/scylla-operator
 
