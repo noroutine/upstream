@@ -379,7 +379,7 @@ FROM docker.n8n.io/n8nio/n8n:1.67.1
 # n8nio/n8n
 
 # netsampler/goflow2
-FROM netsampler/goflow2:v2.2.1
+FROM netsampler/goflow2:v2.2.3
 # netsampler/goflow2
 
 # corentinth/it-tools
