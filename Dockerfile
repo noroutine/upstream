@@ -783,6 +783,6 @@ FROM clickhouse:25.8
 # clickhouse
 
 # altinity/clickhouse-operator
-FROM altinity/clickhouse-operator:0.25.4
+FROM altinity/clickhouse-operator:0.25.5
 # altinity/clickhouse-operator
 
