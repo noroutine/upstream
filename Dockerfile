@@ -739,7 +739,7 @@ FROM confluentinc/cp-kafka-rest:7.9.3
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.9.3
+FROM confluentinc/cp-ksqldb-server:8.0.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
