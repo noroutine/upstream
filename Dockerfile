@@ -767,7 +767,7 @@ FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:6.2.3
+FROM scylladb/scylla:2025.3.1
 # scylladb/scylla
 
 # scylladb/scylla-manager
@@ -783,6 +783,6 @@ FROM clickhouse:25.8
 # clickhouse
 
 # altinity/clickhouse-operator
-FROM altinity/clickhouse-operator:0.25.4
+FROM altinity/clickhouse-operator:0.25.5
 # altinity/clickhouse-operator
 
