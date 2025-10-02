@@ -3,7 +3,7 @@ FROM debian:bookworm-20250929-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20250910
+FROM ubuntu:noble-20250925
 # ubuntu
 
 # alpine
@@ -335,7 +335,7 @@ FROM quay.io/cephcsi/cephcsi:v3.15.0
 # cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.9
+FROM homeassistant/home-assistant:2025.10
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -359,7 +359,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.5.0
 # git-sync/git-sync
 
 # apache/airflow
-FROM apache/airflow:2.10.3-python3.12
+FROM apache/airflow:3.1.0-python3.13
 # apache/airflow
 
 # sj26/mailcatcher
@@ -727,39 +727,39 @@ FROM confluentinc/confluent-operator:0.1263.34
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.9.3
+FROM confluentinc/cp-enterprise-control-center:7.8.4
 # confluentinc/cp-enterprise-control-center
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.9.3
+FROM confluentinc/cp-enterprise-replicator:7.8.4
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.9.3
+FROM confluentinc/cp-kafka-rest:7.8.4
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.9.3
+FROM confluentinc/cp-ksqldb-server:7.8.4
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.9.3
+FROM confluentinc/cp-ksqldb-cli:7.8.4
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.9.3
+FROM confluentinc/cp-schema-registry:7.8.4
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.9.3
+FROM confluentinc/cp-server:7.8.4
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.9.3
+FROM confluentinc/cp-server-connect:7.8.4
 # confluentinc/cp-server-connect
 
 # confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.9.3
+FROM confluentinc/cp-zookeeper:7.8.4
 # confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
