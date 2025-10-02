@@ -359,7 +359,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.5.0
 # git-sync/git-sync
 
 # apache/airflow
-FROM apache/airflow:2.10.3-python3.12
+FROM apache/airflow:3.1.0-python3.12
 # apache/airflow
 
 # sj26/mailcatcher
