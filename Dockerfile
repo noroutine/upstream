@@ -631,7 +631,7 @@ FROM istio/ztunnel:1.27.1
 # istio/ztunnel
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.17.4
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.18.0
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
@@ -726,41 +726,37 @@ FROM confluentinc/confluent-init-container:3.0.1
 FROM confluentinc/confluent-operator:0.1263.34
 # confluentinc/confluent-operator
 
-# confluentinc/cp-enterprise-control-center
-FROM confluentinc/cp-enterprise-control-center:7.9.3
-# confluentinc/cp-enterprise-control-center
+# confluentinc/cp-enterprise-control-center-next-gen
+FROM confluentinc/cp-enterprise-control-center-next-gen:2.2.1
+# confluentinc/cp-enterprise-control-center-next-gen
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:7.9.3
+FROM confluentinc/cp-enterprise-replicator:8.0.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:7.9.3
+FROM confluentinc/cp-kafka-rest:8.0.1
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:7.9.3
+FROM confluentinc/cp-ksqldb-server:8.0.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:7.9.3
+FROM confluentinc/cp-ksqldb-cli:8.0.1
 # confluentinc/cp-ksqldb-cli
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:7.9.3
+FROM confluentinc/cp-schema-registry:8.0.1
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:7.9.3
+FROM confluentinc/cp-server:8.0.1
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:7.9.3
+FROM confluentinc/cp-server-connect:8.0.1
 # confluentinc/cp-server-connect
-
-# confluentinc/cp-zookeeper
-FROM confluentinc/cp-zookeeper:7.9.3
-# confluentinc/cp-zookeeper
 
 # obsidiandynamics/kafdrop
 FROM obsidiandynamics/kafdrop:4.2.0
@@ -785,4 +781,8 @@ FROM scylladb/scylla-operator:1.18.1
 # clickhouse
 FROM clickhouse:25.8
 # clickhouse
+
+# altinity/clickhouse-operator
+FROM altinity/clickhouse-operator:0.25.4
+# altinity/clickhouse-operator
 
