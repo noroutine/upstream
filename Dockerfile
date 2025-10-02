@@ -779,6 +779,6 @@ FROM scylladb/scylla-manager:3.6.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.18
+FROM scylladb/scylla-operator:1.18.1.1
 # scylladb/scylla-operator
 
