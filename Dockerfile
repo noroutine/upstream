@@ -187,7 +187,7 @@ FROM nextcloud:32.0.0-apache
 # nextcloud
 
 # docker
-FROM docker:28.4.0-dind
+FROM docker:28.5.0-dind
 # docker
 
 # metallb/controller
