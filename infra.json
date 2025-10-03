@@ -1,5 +1,5 @@
 {
-  "version": "bc989d1c",
+  "version": "9a171671",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -37,7 +37,7 @@
       "docker.elastic.co/kibana/kibana:9.1.4",
       "docker.elastic.co/apm/apm-server:9.1.4",
       "docker.elastic.co/beats/elastic-agent:8.19.4",
-      "mongo:8.0.14-noble",
+      "mongo:8.0.15-noble",
       "dpage/pgadmin4:9.8",
       "mccutchen/go-httpbin:2.18.3",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine",
