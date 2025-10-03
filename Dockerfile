@@ -114,6 +114,10 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.85.0
 FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0
 # kube-state-metrics/kube-state-metrics
 
+# metrics-server/metrics-server
+FROM registry.k8s.io/metrics-server/metrics-server:v0.8.0
+# metrics-server/metrics-server
+
 # grafana/grafana
 FROM grafana/grafana:12.2.0
 # grafana/grafana
@@ -191,7 +195,7 @@ FROM nextcloud:32.0.0-apache
 # nextcloud
 
 # docker
-FROM docker:28.4.0-dind
+FROM docker:28.5.0-dind
 # docker
 
 # metallb/controller
@@ -203,7 +207,7 @@ FROM quay.io/metallb/speaker:v0.15.2
 # metallb/speaker
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.5
+FROM haproxytech/haproxy-alpine:3.2.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -215,7 +219,7 @@ FROM aquasec/trivy:0.67.0
 # aquasec/trivy
 
 # external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.20.1
+FROM ghcr.io/external-secrets/external-secrets:v0.20.2
 # external-secrets/external-secrets
 
 # csi-secrets-store/driver

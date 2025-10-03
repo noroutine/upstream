@@ -1,5 +1,5 @@
 {
-  "version": "15faaf86",
+  "version": "ce57139a",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -31,6 +31,7 @@
       "quay.io/prometheus-operator/prometheus-operator:v0.85.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.85.0",
       "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0",
+      "registry.k8s.io/metrics-server/metrics-server:v0.8.0",
       "grafana/grafana:12.2.0",
       "ghcr.io/prymitive/karma:v0.121",
       "docker.elastic.co/elasticsearch/elasticsearch:9.1.4",
@@ -50,13 +51,13 @@
       "pihole/pihole:2025.08.0",
       "klutchell/unbound:v1.24.0",
       "nextcloud:32.0.0-apache",
-      "docker:28.4.0-dind",
+      "docker:28.5.0-dind",
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
-      "haproxytech/haproxy-alpine:3.2.5",
+      "haproxytech/haproxy-alpine:3.2.6",
       "haproxytech/kubernetes-ingress:3.1.12",
       "aquasec/trivy:0.67.0",
-      "ghcr.io/external-secrets/external-secrets:v0.20.1",
+      "ghcr.io/external-secrets/external-secrets:v0.20.2",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.4",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.5.4",
       "stakater/reloader:v1.4.8",
