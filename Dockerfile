@@ -190,6 +190,14 @@ FROM nextcloud:32.0.0-apache
 FROM docker:28.4.0-dind
 # docker
 
+# metallb/controller
+FROM quay.io/metallb/controller:v0.15.2
+# metallb/controller
+
+# metallb/speaker
+FROM quay.io/metallb/speaker:v0.15.2
+# metallb/speaker
+
 # haproxytech/haproxy-alpine
 FROM haproxytech/haproxy-alpine:3.2.5
 # haproxytech/haproxy-alpine

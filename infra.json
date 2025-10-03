@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.403",
+  "version": "8e205403",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -50,6 +50,8 @@
       "klutchell/unbound:v1.24.0",
       "nextcloud:32.0.0-apache",
       "docker:28.4.0-dind",
+      "quay.io/metallb/controller:v0.15.2",
+      "quay.io/metallb/speaker:v0.15.2",
       "haproxytech/haproxy-alpine:3.2.5",
       "haproxytech/kubernetes-ingress:3.1.12",
       "aquasec/trivy:0.67.0",
