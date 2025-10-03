@@ -1,5 +1,5 @@
 {
-  "version": "8e205403",
+  "version": "15faaf86",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -30,6 +30,7 @@
       "quay.io/prometheus/pushgateway:v1.11.1",
       "quay.io/prometheus-operator/prometheus-operator:v0.85.0",
       "quay.io/prometheus-operator/prometheus-config-reloader:v0.85.0",
+      "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0",
       "grafana/grafana:12.2.0",
       "ghcr.io/prymitive/karma:v0.121",
       "docker.elastic.co/elasticsearch/elasticsearch:9.1.4",

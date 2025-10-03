@@ -110,6 +110,10 @@ FROM quay.io/prometheus-operator/prometheus-operator:v0.85.0
 FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.85.0
 # prometheus-operator/prometheus-config-reloader
 
+# kube-state-metrics/kube-state-metrics
+FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0
+# kube-state-metrics/kube-state-metrics
+
 # grafana/grafana
 FROM grafana/grafana:12.2.0
 # grafana/grafana
