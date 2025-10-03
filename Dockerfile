@@ -199,7 +199,7 @@ FROM quay.io/metallb/speaker:v0.15.2
 # metallb/speaker
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.5
+FROM haproxytech/haproxy-alpine:3.2.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
