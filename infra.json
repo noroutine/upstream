@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.402",
+  "version": "bc989d1c",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -197,7 +197,7 @@
       "scylladb/scylla:2025.3.1",
       "scylladb/scylla-manager:3.6.0",
       "scylladb/scylla-operator:1.18.1",
-      "clickhouse:25.8",
+      "clickhouse:25.9",
       "altinity/clickhouse-operator:0.25.5"
     ]
   }
