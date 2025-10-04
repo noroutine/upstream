@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.404",
+  "version": "f3b0b31a",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -18,8 +18,8 @@
       "freeradius/freeradius-server:3.2.8-alpine",
       "quay.io/keycloak/keycloak:26.4.0",
       "postgres:18.0-bookworm",
-      "quay.io/minio/minio:RELEASE.2025-07-23T15-54-02Z",
-      "quay.io/minio/mc:RELEASE.2025-07-21T05-28-08Z",
+      "quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z",
+      "quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z",
       "quay.io/coreos/etcd:v3.5.23",
       "quay.io/coreos/etcd:v3.6.5",
       "quay.io/prometheus/prometheus:v3.6.0",
@@ -52,6 +52,7 @@
       "klutchell/unbound:v1.24.0",
       "nextcloud:32.0.0-apache",
       "docker:28.5.0-dind",
+      "registry.k8s.io/ingress-nginx/controller:v1.13.3",
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
       "haproxytech/haproxy-alpine:3.2.6",
@@ -65,7 +66,7 @@
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.44.0",
       "quay.io/argoproj/argocd:v3.1.8",
-      "redis:8.2.1",
+      "redis:8.2.2",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.12.0-alpine",

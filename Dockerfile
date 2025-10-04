@@ -63,11 +63,11 @@ FROM postgres:18.0-bookworm
 # postgres
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-07-23T15-54-02Z
+FROM quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
 # minio/minio
 
 # minio/mc
-FROM quay.io/minio/mc:RELEASE.2025-07-21T05-28-08Z
+FROM quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z
 # minio/mc
 
 # coreos/etcd
@@ -198,6 +198,10 @@ FROM nextcloud:32.0.0-apache
 FROM docker:28.5.0-dind
 # docker
 
+# ingress-nginx/controller
+FROM registry.k8s.io/ingress-nginx/controller:v1.13.3
+# ingress-nginx/controller
+
 # metallb/controller
 FROM quay.io/metallb/controller:v0.15.2
 # metallb/controller
@@ -251,7 +255,7 @@ FROM quay.io/argoproj/argocd:v3.1.8
 # argoproj/argocd
 
 # redis
-FROM redis:8.2.1
+FROM redis:8.2.2
 # redis
 
 # boky/postfix
