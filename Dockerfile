@@ -202,6 +202,10 @@ FROM docker:28.5.0-dind
 FROM registry.k8s.io/ingress-nginx/controller:v1.13.3
 # ingress-nginx/controller
 
+# ingress-nginx/kube-webhook-certgen
+FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.3
+# ingress-nginx/kube-webhook-certgen
+
 # metallb/controller
 FROM quay.io/metallb/controller:v0.15.2
 # metallb/controller

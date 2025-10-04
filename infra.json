@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.405",
+  "version": "60b01873",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -53,6 +53,7 @@
       "nextcloud:32.0.0-apache",
       "docker:28.5.0-dind",
       "registry.k8s.io/ingress-nginx/controller:v1.13.3",
+      "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.3",
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
       "haproxytech/haproxy-alpine:3.2.6",
