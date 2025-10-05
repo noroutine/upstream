@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.406",
+  "version": "af6b90f3",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -56,6 +56,7 @@
       "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.3",
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
+      "quay.io/frrouting/frr:9.1.0",
       "haproxytech/haproxy-alpine:3.2.6",
       "haproxytech/kubernetes-ingress:3.1.12",
       "aquasec/trivy:0.67.0",
@@ -67,7 +68,9 @@
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.44.0",
       "quay.io/argoproj/argocd:v3.1.8",
+      "valkey/valkey:8.1.4",
       "redis:8.2.2",
+      "oliver006/redis_exporter:v1.77.0",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.12.0-alpine",

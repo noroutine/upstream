@@ -214,6 +214,10 @@ FROM quay.io/metallb/controller:v0.15.2
 FROM quay.io/metallb/speaker:v0.15.2
 # metallb/speaker
 
+# frrouting/frr
+FROM quay.io/frrouting/frr:9.1.0
+# frrouting/frr
+
 # haproxytech/haproxy-alpine
 FROM haproxytech/haproxy-alpine:3.2.6
 # haproxytech/haproxy-alpine
@@ -258,9 +262,17 @@ FROM ghcr.io/dexidp/dex:v2.44.0
 FROM quay.io/argoproj/argocd:v3.1.8
 # argoproj/argocd
 
+# valkey/valkey
+FROM valkey/valkey:8.1.4
+# valkey/valkey
+
 # redis
 FROM redis:8.2.2
 # redis
+
+# oliver006/redis_exporter
+FROM oliver006/redis_exporter:v1.77.0
+# oliver006/redis_exporter
 
 # boky/postfix
 FROM boky/postfix:v4.4.0
