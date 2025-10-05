@@ -62,6 +62,10 @@ FROM quay.io/keycloak/keycloak:26.4.0
 FROM postgres:18.0-bookworm
 # postgres
 
+# prometheuscommunity/postgres-exporter
+FROM prometheuscommunity/postgres-exporter:v0.18.1
+# prometheuscommunity/postgres-exporter
+
 # minio/minio
 FROM quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
 # minio/minio
@@ -149,6 +153,10 @@ FROM docker.elastic.co/beats/elastic-agent:8.19.4
 # mongo
 FROM mongo:8.0.15-noble
 # mongo
+
+# percona/mongodb_exporter
+FROM percona/mongodb_exporter:0.47.1
+# percona/mongodb_exporter
 
 # dpage/pgadmin4
 FROM dpage/pgadmin4:9.8
