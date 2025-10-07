@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.407",
+  "version": "cacf88bc",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -35,11 +35,11 @@
       "registry.k8s.io/metrics-server/metrics-server:v0.8.0",
       "grafana/grafana:12.2.0",
       "ghcr.io/prymitive/karma:v0.121",
-      "docker.elastic.co/elasticsearch/elasticsearch:9.1.4",
-      "docker.elastic.co/logstash/logstash:9.1.4",
-      "docker.elastic.co/kibana/kibana:9.1.4",
-      "docker.elastic.co/apm/apm-server:9.1.4",
-      "docker.elastic.co/beats/elastic-agent:8.19.4",
+      "docker.elastic.co/elasticsearch/elasticsearch:9.1.5",
+      "docker.elastic.co/logstash/logstash:9.1.5",
+      "docker.elastic.co/kibana/kibana:9.1.5",
+      "docker.elastic.co/apm/apm-server:9.1.5",
+      "docker.elastic.co/beats/elastic-agent:8.19.5",
       "mongo:8.0.15-noble",
       "percona/mongodb_exporter:0.47.1",
       "dpage/pgadmin4:9.8",
@@ -72,7 +72,7 @@
       "quay.io/argoproj/argocd:v3.1.8",
       "valkey/valkey:8.1.4",
       "redis:8.2.2",
-      "oliver006/redis_exporter:v1.77.0",
+      "oliver006/redis_exporter:v1.78.0",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.12.0-alpine",
@@ -89,8 +89,8 @@
       "syncthing/discosrv:2.0.10",
       "syncthing/relaysrv:2.0.10",
       "jellyfin/jellyfin:10.10.7",
-      "haveagitgat/tdarr:2.47.01",
-      "haveagitgat/tdarr_node:2.47.01",
+      "haveagitgat/tdarr:2.48.01",
+      "haveagitgat/tdarr_node:2.48.01",
       "curlimages/curl:8.16.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
@@ -107,7 +107,7 @@
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.65.0",
       "fatedier/frpc:v0.65.0",
-      "docker.n8n.io/n8nio/n8n:1.114.0",
+      "docker.n8n.io/n8nio/n8n:1.114.4",
       "netsampler/goflow2:v2.2.3",
       "ghcr.io/corentinth/it-tools:2024.10.22-7ca5933",
       "quay.io/openbgpd/openbgpd:8.9",
@@ -209,7 +209,9 @@
       "scylladb/scylla-manager:3.6.0",
       "scylladb/scylla-operator:1.18.1",
       "clickhouse:25.9",
-      "altinity/clickhouse-operator:0.25.5"
+      "altinity/clickhouse-operator:0.25.5",
+      "rabbitmq:4.1.4",
+      "kbudde/rabbitmq-exporter:1.0.0"
     ]
   }
 }

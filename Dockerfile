@@ -131,23 +131,23 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.4
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.5
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.1.4
+FROM docker.elastic.co/logstash/logstash:9.1.5
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.1.4
+FROM docker.elastic.co/kibana/kibana:9.1.5
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.1.4
+FROM docker.elastic.co/apm/apm-server:9.1.5
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.4
+FROM docker.elastic.co/beats/elastic-agent:8.19.5
 # beats/elastic-agent
 
 # mongo
@@ -279,7 +279,7 @@ FROM redis:8.2.2
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.77.0
+FROM oliver006/redis_exporter:v1.78.0
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -347,11 +347,11 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.47.01
+FROM haveagitgat/tdarr:2.48.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.47.01
+FROM haveagitgat/tdarr_node:2.48.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -419,7 +419,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.114.0
+FROM docker.n8n.io/n8nio/n8n:1.114.4
 # n8nio/n8n
 
 # netsampler/goflow2
@@ -829,4 +829,12 @@ FROM clickhouse:25.9
 # altinity/clickhouse-operator
 FROM altinity/clickhouse-operator:0.25.5
 # altinity/clickhouse-operator
+
+# rabbitmq
+FROM rabbitmq:4.1.4
+# rabbitmq
+
+# kbudde/rabbitmq-exporter
+FROM kbudde/rabbitmq-exporter:1.0.0
+# kbudde/rabbitmq-exporter
 
