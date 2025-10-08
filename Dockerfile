@@ -23,19 +23,19 @@ FROM node:24.9.0-alpine
 # node
 
 # python
-FROM python:3.13.7-bookworm
+FROM python:3.14.0-bookworm
 # python
 
 # python
-FROM python:3.13.7-slim-bookworm
+FROM python:3.14.0-slim-bookworm
 # python
 
 # golang
-FROM golang:1.25.1-bookworm
+FROM golang:1.25.2-bookworm
 # golang
 
 # golang
-FROM golang:1.25.1-alpine
+FROM golang:1.25.2-alpine
 # golang
 
 # traefik
@@ -43,7 +43,7 @@ FROM traefik:v3.5.3
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.84.1
+FROM sonatype/nexus3:3.85.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -107,11 +107,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.85.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.86.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.85.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.86.0
 # prometheus-operator/prometheus-config-reloader
 
 # kube-state-metrics/kube-state-metrics
@@ -435,7 +435,7 @@ FROM quay.io/openbgpd/openbgpd:8.9
 # openbgpd/openbgpd
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.530-jdk21
+FROM jenkins/jenkins:2.531-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -451,15 +451,15 @@ FROM quay.io/kiwigrid/k8s-sidecar:1.30.10
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.18.2
+FROM quay.io/jetstack/cert-manager-controller:v1.19.0
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.18.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.19.0
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.18.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.19.0
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
@@ -675,7 +675,7 @@ FROM istio/ztunnel:1.27.1
 # istio/ztunnel
 
 # nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.18.0
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.18.1
 # nfd/node-feature-discovery
 
 # sig-storage/livenessprobe
