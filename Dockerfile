@@ -7,7 +7,7 @@ FROM ubuntu:noble-20250925
 # ubuntu
 
 # alpine
-FROM alpine:3.22.1
+FROM alpine:3.22.2
 # alpine
 
 # busybox
@@ -171,7 +171,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.4.1-ce.0
+FROM gitlab/gitlab-ce:18.4.2-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -183,7 +183,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.4.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.4.2
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -203,7 +203,7 @@ FROM nextcloud:32.0.0-apache
 # nextcloud
 
 # docker
-FROM docker:28.5.0-dind
+FROM docker:28.5.1-dind
 # docker
 
 # ingress-nginx/controller
@@ -231,7 +231,7 @@ FROM haproxytech/haproxy-alpine:3.2.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.12
+FROM haproxytech/kubernetes-ingress:3.1.13
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
