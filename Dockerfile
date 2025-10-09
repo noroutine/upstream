@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.9.0-bookworm
+FROM node:24.10.0-bookworm
 # node
 
 # node
-FROM node:24.9.0-alpine
+FROM node:24.10.0-alpine
 # node
 
 # python
