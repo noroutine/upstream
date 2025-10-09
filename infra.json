@@ -1,13 +1,13 @@
 {
-  "version": "e5014fee",
+  "version": "d2eb2917",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
       "ubuntu:noble-20250925",
       "alpine:3.22.2",
       "busybox:1.37.0",
-      "node:24.9.0-bookworm",
-      "node:24.9.0-alpine",
+      "node:24.10.0-bookworm",
+      "node:24.10.0-alpine",
       "python:3.14.0-bookworm",
       "python:3.14.0-slim-bookworm",
       "golang:1.25.2-bookworm",
@@ -99,7 +99,7 @@
       "quay.io/cephcsi/cephcsi:v3.15.0",
       "homeassistant/home-assistant:2025.10",
       "koenkk/zigbee2mqtt:2.6.2",
-      "registry.k8s.io/sig-storage/nfsplugin:v4.11.0",
+      "registry.k8s.io/sig-storage/nfsplugin:v4.12.0",
       "gitea/gitea:1.24.6-rootless",
       "cloudflare/cloudflared:2025.9.1",
       "registry.k8s.io/git-sync/git-sync:v4.5.0",

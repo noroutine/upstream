@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.9.0-bookworm
+FROM node:24.10.0-bookworm
 # node
 
 # node
-FROM node:24.9.0-alpine
+FROM node:24.10.0-alpine
 # node
 
 # python
@@ -387,7 +387,7 @@ FROM koenkk/zigbee2mqtt:2.6.2
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.11.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.0
 # sig-storage/nfsplugin
 
 # gitea/gitea
