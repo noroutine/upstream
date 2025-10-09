@@ -347,11 +347,11 @@ FROM jellyfin/jellyfin:10.10.7
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.48.01
+FROM haveagitgat/tdarr:2.49.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.48.01
+FROM haveagitgat/tdarr_node:2.49.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
