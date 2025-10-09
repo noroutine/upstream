@@ -203,7 +203,7 @@ FROM nextcloud:32.0.0-apache
 # nextcloud
 
 # docker
-FROM docker:28.5.0-dind
+FROM docker:28.5.1-dind
 # docker
 
 # ingress-nginx/controller
