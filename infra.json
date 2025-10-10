@@ -1,9 +1,9 @@
 {
-  "version": "v0.0.408",
+  "version": "ed787533",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
-      "ubuntu:noble-20250925",
+      "ubuntu:noble-20251001",
       "alpine:3.22.2",
       "busybox:1.37.0",
       "node:24.10.0-bookworm",
