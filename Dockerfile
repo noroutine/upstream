@@ -779,7 +779,7 @@ FROM confluentinc/cp-enterprise-replicator:8.0.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:8.0.1
+FROM confluentinc/cp-kafka-rest:8.0.2
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
