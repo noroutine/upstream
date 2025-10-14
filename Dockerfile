@@ -31,11 +31,11 @@ FROM python:3.14.0-slim-bookworm
 # python
 
 # golang
-FROM golang:1.25.2-bookworm
+FROM golang:1.25.3-bookworm
 # golang
 
 # golang
-FROM golang:1.25.2-alpine
+FROM golang:1.25.3-alpine
 # golang
 
 # traefik
@@ -107,11 +107,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.1
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.86.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.86.1
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.86.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.86.1
 # prometheus-operator/prometheus-config-reloader
 
 # kube-state-metrics/kube-state-metrics
@@ -299,7 +299,7 @@ FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.19.2
+FROM natsio/nats-server-config-reloader:0.20.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -447,7 +447,7 @@ FROM jenkins/inbound-agent:bookworm-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:1.30.10
+FROM quay.io/kiwigrid/k8s-sidecar:1.30.11
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
@@ -663,15 +663,15 @@ FROM calico/csi:v3.30.3
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.27.1
+FROM istio/pilot:1.27.2
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.27.1
+FROM istio/proxyv2:1.27.2
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.27.1
+FROM istio/ztunnel:1.27.2
 # istio/ztunnel
 
 # nfd/node-feature-discovery
@@ -739,7 +739,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.1-2-ubi9
 # nvidia/cloud-native/dcgm
 
 # nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.1-4.5.2-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.1-4.6.0-ubi9
 # nvidia/k8s/dcgm-exporter
 
 # nvidia/gpu-feature-discovery
