@@ -387,7 +387,7 @@ FROM koenkk/zigbee2mqtt:2.6.2
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.1
 # sig-storage/nfsplugin
 
 # gitea/gitea
