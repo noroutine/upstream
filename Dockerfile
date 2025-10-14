@@ -387,7 +387,7 @@ FROM koenkk/zigbee2mqtt:2.6.2
 # koenkk/zigbee2mqtt
 
 # sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.1
 # sig-storage/nfsplugin
 
 # gitea/gitea
@@ -435,7 +435,7 @@ FROM quay.io/openbgpd/openbgpd:8.9
 # openbgpd/openbgpd
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.531-jdk21
+FROM jenkins/jenkins:2.532-jdk21
 # jenkins/jenkins
 
 # jenkins/agent

@@ -1,5 +1,5 @@
 {
-  "version": "22effecf",
+  "version": "b53605a2",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -99,7 +99,7 @@
       "quay.io/cephcsi/cephcsi:v3.15.0",
       "homeassistant/home-assistant:2025.10",
       "koenkk/zigbee2mqtt:2.6.2",
-      "registry.k8s.io/sig-storage/nfsplugin:v4.12.0",
+      "registry.k8s.io/sig-storage/nfsplugin:v4.12.1",
       "gitea/gitea:1.24.6-rootless",
       "cloudflare/cloudflared:2025.9.1",
       "registry.k8s.io/git-sync/git-sync:v4.5.0",
@@ -111,7 +111,7 @@
       "netsampler/goflow2:v2.2.3",
       "ghcr.io/corentinth/it-tools:2024.10.22-7ca5933",
       "quay.io/openbgpd/openbgpd:8.9",
-      "jenkins/jenkins:2.531-jdk21",
+      "jenkins/jenkins:2.532-jdk21",
       "jenkins/agent:bookworm-jdk21",
       "jenkins/inbound-agent:bookworm-jdk21",
       "quay.io/kiwigrid/k8s-sidecar:1.30.11",
