@@ -395,7 +395,7 @@ FROM gitea/gitea:1.24.6-rootless
 # gitea/gitea
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.9.1
+FROM cloudflare/cloudflared:2025.10.0
 # cloudflare/cloudflared
 
 # git-sync/git-sync
