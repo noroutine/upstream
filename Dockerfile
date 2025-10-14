@@ -111,7 +111,7 @@ FROM quay.io/prometheus-operator/prometheus-operator:v0.86.0
 # prometheus-operator/prometheus-operator
 
 # prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.86.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.86.1
 # prometheus-operator/prometheus-config-reloader
 
 # kube-state-metrics/kube-state-metrics
