@@ -367,7 +367,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.4.2
+FROM netboxcommunity/netbox:v4.4.3
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -419,7 +419,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.114.4
+FROM docker.n8n.io/n8nio/n8n:1.115.3
 # n8nio/n8n
 
 # netsampler/goflow2
@@ -727,7 +727,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.1
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
-FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.8-ubi8
+FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.9-ubi8
 # nvidia/k8s/container-toolkit
 
 # nvidia/k8s-device-plugin
