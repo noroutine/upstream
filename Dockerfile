@@ -451,15 +451,15 @@ FROM quay.io/kiwigrid/k8s-sidecar:1.30.11
 # kiwigrid/k8s-sidecar
 
 # jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.19.0
+FROM quay.io/jetstack/cert-manager-controller:v1.19.1
 # jetstack/cert-manager-controller
 
 # jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.19.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.19.1
 # jetstack/cert-manager-cainjector
 
 # jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.19.0
+FROM quay.io/jetstack/cert-manager-webhook:v1.19.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
