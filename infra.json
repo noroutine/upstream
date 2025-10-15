@@ -1,5 +1,5 @@
 {
-  "version": "b53605a2",
+  "version": "4fe71987",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -75,7 +75,7 @@
       "oliver006/redis_exporter:v1.78.0",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
-      "nats:2.12.0-alpine",
+      "nats:2.12.1-alpine",
       "natsio/prometheus-nats-exporter:0.17.3",
       "natsio/nats-server-config-reloader:0.20.0",
       "masipcat/wireguard-go:0.0.20230223",
@@ -101,7 +101,7 @@
       "koenkk/zigbee2mqtt:2.6.2",
       "registry.k8s.io/sig-storage/nfsplugin:v4.12.1",
       "gitea/gitea:1.24.6-rootless",
-      "cloudflare/cloudflared:2025.9.1",
+      "cloudflare/cloudflared:2025.10.0",
       "registry.k8s.io/git-sync/git-sync:v4.5.0",
       "apache/airflow:3.1.0-python3.13",
       "sj26/mailcatcher:v0.10.0",
