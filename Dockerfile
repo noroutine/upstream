@@ -659,7 +659,7 @@ FROM calico/node-driver-registrar:v3.30.3
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.30.3
+FROM calico/csi:v3.30.4
 # calico/csi
 
 # istio/pilot
