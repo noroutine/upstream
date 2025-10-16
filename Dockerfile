@@ -799,7 +799,7 @@ FROM confluentinc/cp-server:8.0.2
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:8.0.2
+FROM confluentinc/cp-server-connect:8.1.0
 # confluentinc/cp-server-connect
 
 # obsidiandynamics/kafdrop
