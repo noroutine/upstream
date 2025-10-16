@@ -639,7 +639,7 @@ FROM calico/cni:v3.30.3
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.30.3
+FROM calico/apiserver:v3.30.4
 # calico/apiserver
 
 # calico/kube-controllers
