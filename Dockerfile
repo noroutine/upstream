@@ -643,7 +643,7 @@ FROM calico/apiserver:v3.30.3
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.30.3
+FROM calico/kube-controllers:v3.30.4
 # calico/kube-controllers
 
 # calico/dikastes
