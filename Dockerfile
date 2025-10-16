@@ -647,7 +647,7 @@ FROM calico/kube-controllers:v3.30.3
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.30.3
+FROM calico/dikastes:v3.30.4
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
