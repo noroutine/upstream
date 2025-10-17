@@ -1,5 +1,5 @@
 {
-  "version": "e4d1acf4",
+  "version": "ac328772",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -23,7 +23,7 @@
       "quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z",
       "quay.io/coreos/etcd:v3.5.23",
       "quay.io/coreos/etcd:v3.6.5",
-      "quay.io/prometheus/prometheus:v3.6.0",
+      "quay.io/prometheus/prometheus:v3.7.0",
       "quay.io/prometheus/alertmanager:v0.28.1",
       "quay.io/prometheus/node-exporter:v1.9.1",
       "quay.io/prometheus/blackbox-exporter:v0.27.0",
@@ -107,7 +107,7 @@
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.65.0",
       "fatedier/frpc:v0.65.0",
-      "docker.n8n.io/n8nio/n8n:1.115.3",
+      "docker.n8n.io/n8nio/n8n:1.116.1",
       "netsampler/goflow2:v2.2.3",
       "ghcr.io/corentinth/it-tools:2024.10.22-7ca5933",
       "quay.io/openbgpd/openbgpd:8.9",
@@ -118,7 +118,7 @@
       "quay.io/jetstack/cert-manager-controller:v1.19.1",
       "quay.io/jetstack/cert-manager-cainjector:v1.19.1",
       "quay.io/jetstack/cert-manager-webhook:v1.19.1",
-      "quay.io/jetstack/cert-manager-csi-driver:v0.11.0",
+      "quay.io/jetstack/cert-manager-csi-driver:v0.11.1",
       "zachomedia/cert-manager-webhook-pdns:v2.5.3",
       "hashicorp/vault:1.20.4",
       "hashicorp/vault-k8s:1.7.0",
@@ -193,7 +193,7 @@
       "apache/kafka:4.1.0",
       "quay.io/strimzi/operator:0.48.0",
       "quay.io/strimzi/kafka:0.48.0-kafka-4.1.0",
-      "confluentinc/confluent-init-container:3.0.1",
+      "confluentinc/confluent-init-container:3.1.0",
       "confluentinc/confluent-operator:0.1351.24",
       "confluentinc/cp-enterprise-control-center-next-gen:2.2.1",
       "confluentinc/cp-enterprise-replicator:8.1.0",

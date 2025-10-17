@@ -83,7 +83,7 @@ FROM quay.io/coreos/etcd:v3.6.5
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.6.0
+FROM quay.io/prometheus/prometheus:v3.7.0
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -419,7 +419,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.115.3
+FROM docker.n8n.io/n8nio/n8n:1.116.1
 # n8nio/n8n
 
 # netsampler/goflow2
@@ -463,7 +463,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.19.1
 # jetstack/cert-manager-webhook
 
 # jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.11.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.11.1
 # jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -763,7 +763,7 @@ FROM quay.io/strimzi/kafka:0.48.0-kafka-4.1.0
 # strimzi/kafka
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:3.0.1
+FROM confluentinc/confluent-init-container:3.1.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
