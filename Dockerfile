@@ -763,7 +763,7 @@ FROM quay.io/strimzi/kafka:0.48.0-kafka-4.1.0
 # strimzi/kafka
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:3.0.1
+FROM confluentinc/confluent-init-container:3.1.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
