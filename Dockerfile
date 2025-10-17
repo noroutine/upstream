@@ -15,11 +15,11 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:24.10.0-bookworm
+FROM node:25.0.0-bookworm
 # node
 
 # node
-FROM node:24.10.0-alpine
+FROM node:25.0.0-alpine
 # node
 
 # python
@@ -47,7 +47,7 @@ FROM sonatype/nexus3:3.85.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.21
+FROM squidfunk/mkdocs-material:9.6.22
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.4.0
+FROM quay.io/keycloak/keycloak:26.4.1
 # keycloak/keycloak
 
 # postgres
@@ -159,7 +159,7 @@ FROM percona/mongodb_exporter:0.47.1
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.8
+FROM dpage/pgadmin4:9.9
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -171,7 +171,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.4.2-ce.0
+FROM gitlab/gitlab-ce:18.5.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -183,7 +183,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.4.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.0
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -367,7 +367,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.4.3
+FROM netboxcommunity/netbox:v4.4.4
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -487,7 +487,7 @@ FROM registry.k8s.io/pause:3.10
 # pause
 
 # coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.12.4
+FROM registry.k8s.io/coredns/coredns:v1.13.0
 # coredns/coredns
 
 # kube-apiserver
@@ -619,47 +619,47 @@ FROM registry.k8s.io/kube-controller-manager:v1.31.11
 # kube-controller-manager
 
 # tigera/operator
-FROM quay.io/tigera/operator:v1.38.6
+FROM quay.io/tigera/operator:v1.38.7
 # tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.30.3
+FROM calico/typha:v3.30.4
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.30.3
+FROM calico/ctl:v3.30.4
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.30.3
+FROM calico/node:v3.30.4
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.30.3
+FROM calico/cni:v3.30.4
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.30.3
+FROM calico/apiserver:v3.30.4
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.30.3
+FROM calico/kube-controllers:v3.30.4
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.30.3
+FROM calico/dikastes:v3.30.4
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.30.3
+FROM calico/pod2daemon-flexvol:v3.30.4
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.30.3
+FROM calico/node-driver-registrar:v3.30.4
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.30.3
+FROM calico/csi:v3.30.4
 # calico/csi
 
 # istio/pilot
@@ -767,7 +767,7 @@ FROM confluentinc/confluent-init-container:3.0.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.1263.34
+FROM confluentinc/confluent-operator:0.1351.24
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center-next-gen
@@ -775,31 +775,27 @@ FROM confluentinc/cp-enterprise-control-center-next-gen:2.2.1
 # confluentinc/cp-enterprise-control-center-next-gen
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:8.0.2
+FROM confluentinc/cp-enterprise-replicator:8.1.0
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:8.0.2
+FROM confluentinc/cp-kafka-rest:8.1.0
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:8.0.2
+FROM confluentinc/cp-ksqldb-server:8.1.0
 # confluentinc/cp-ksqldb-server
 
-# confluentinc/cp-ksqldb-cli
-FROM confluentinc/cp-ksqldb-cli:8.0.2
-# confluentinc/cp-ksqldb-cli
-
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:8.0.2
+FROM confluentinc/cp-schema-registry:8.1.0
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:8.0.2
+FROM confluentinc/cp-server:8.1.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:8.0.2
+FROM confluentinc/cp-server-connect:8.1.0
 # confluentinc/cp-server-connect
 
 # obsidiandynamics/kafdrop
@@ -811,7 +807,7 @@ FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2025.3.1
+FROM scylladb/scylla:2025.3.2
 # scylladb/scylla
 
 # scylladb/scylla-manager
