@@ -67,7 +67,7 @@ FROM prometheuscommunity/postgres-exporter:v0.18.1
 # prometheuscommunity/postgres-exporter
 
 # minio/minio
-FROM quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
+FROM quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z
 # minio/minio
 
 # minio/mc
