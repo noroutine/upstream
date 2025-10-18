@@ -83,7 +83,7 @@ FROM quay.io/coreos/etcd:v3.6.5
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.7.0
+FROM quay.io/prometheus/prometheus:v3.7.1
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -267,7 +267,7 @@ FROM ghcr.io/dexidp/dex:v2.44.0
 # dexidp/dex
 
 # argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.1.8
+FROM quay.io/argoproj/argocd:v3.1.9
 # argoproj/argocd
 
 # valkey/valkey
@@ -279,7 +279,7 @@ FROM redis:8.2.2
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.78.0
+FROM oliver006/redis_exporter:v1.79.0
 # oliver006/redis_exporter
 
 # boky/postfix

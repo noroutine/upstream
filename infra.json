@@ -1,5 +1,5 @@
 {
-  "version": "77df31f4",
+  "version": "29c1a1d4",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -23,7 +23,7 @@
       "quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z",
       "quay.io/coreos/etcd:v3.5.23",
       "quay.io/coreos/etcd:v3.6.5",
-      "quay.io/prometheus/prometheus:v3.7.0",
+      "quay.io/prometheus/prometheus:v3.7.1",
       "quay.io/prometheus/alertmanager:v0.28.1",
       "quay.io/prometheus/node-exporter:v1.9.1",
       "quay.io/prometheus/blackbox-exporter:v0.27.0",
@@ -69,10 +69,10 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.44.0",
-      "quay.io/argoproj/argocd:v3.1.8",
+      "quay.io/argoproj/argocd:v3.1.9",
       "valkey/valkey:8.1.4",
       "redis:8.2.2",
-      "oliver006/redis_exporter:v1.78.0",
+      "oliver006/redis_exporter:v1.79.0",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.12.1-alpine",
