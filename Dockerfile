@@ -618,6 +618,10 @@ FROM registry.k8s.io/kube-scheduler:v1.31.11
 FROM registry.k8s.io/kube-controller-manager:v1.31.11
 # kube-controller-manager
 
+# rancher/kubectl
+FROM rancher/kubectl:v1.34.1
+# rancher/kubectl
+
 # tigera/operator
 FROM quay.io/tigera/operator:v1.38.7
 # tigera/operator
