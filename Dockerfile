@@ -175,11 +175,11 @@ FROM gitlab/gitlab-ce:18.5.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.4.0
+FROM gitlab/gitlab-runner:alpine-v18.5.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.4.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.5.0
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -343,7 +343,7 @@ FROM syncthing/relaysrv:2.0.10
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.10.7
+FROM jellyfin/jellyfin:10.11.0
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -837,4 +837,16 @@ FROM rabbitmq:4.1.4
 # kbudde/rabbitmq-exporter
 FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
+
+# prefecthq/prefect
+FROM prefecthq/prefect:3.4.24-python3.13
+# prefecthq/prefect
+
+# prefecthq/prefect
+FROM prefecthq/prefect:3.4.24-python3.13-kubernetes
+# prefecthq/prefect
+
+# prefecthq/prometheus-prefect-exporter
+FROM prefecthq/prometheus-prefect-exporter:3.0.0
+# prefecthq/prometheus-prefect-exporter
 

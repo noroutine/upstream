@@ -1,5 +1,5 @@
 {
-  "version": "29c1a1d4",
+  "version": "a51c23b1",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -46,8 +46,8 @@
       "mccutchen/go-httpbin:2.18.3",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine",
       "gitlab/gitlab-ce:18.5.0-ce.0",
-      "gitlab/gitlab-runner:alpine-v18.4.0",
-      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.4.0",
+      "gitlab/gitlab-runner:alpine-v18.5.0",
+      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.5.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.0",
       "quay.io/brancz/kube-rbac-proxy:v0.20.0",
       "pihole/pihole:2025.08.0",
@@ -88,7 +88,7 @@
       "syncthing/syncthing:2.0.10",
       "syncthing/discosrv:2.0.10",
       "syncthing/relaysrv:2.0.10",
-      "jellyfin/jellyfin:10.10.7",
+      "jellyfin/jellyfin:10.11.0",
       "haveagitgat/tdarr:2.49.01",
       "haveagitgat/tdarr_node:2.49.01",
       "curlimages/curl:8.16.0",
@@ -211,7 +211,10 @@
       "clickhouse:25.9",
       "altinity/clickhouse-operator:0.25.5",
       "rabbitmq:4.1.4",
-      "kbudde/rabbitmq-exporter:1.0.0"
+      "kbudde/rabbitmq-exporter:1.0.0",
+      "prefecthq/prefect:3.4.24-python3.13",
+      "prefecthq/prefect:3.4.24-python3.13-kubernetes",
+      "prefecthq/prometheus-prefect-exporter:3.0.0"
     ]
   }
 }
