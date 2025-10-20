@@ -1,5 +1,5 @@
 {
-  "version": "a51c23b1",
+  "version": "19b50c7e",
   "upstream": {
     "images": [
       "debian:bookworm-20250929-slim",
@@ -172,7 +172,7 @@
       "istio/pilot:1.27.2",
       "istio/proxyv2:1.27.2",
       "istio/ztunnel:1.27.2",
-      "registry.k8s.io/nfd/node-feature-discovery:v0.18.1",
+      "registry.k8s.io/nfd/node-feature-discovery:v0.18.2",
       "registry.k8s.io/sig-storage/livenessprobe:v2.17.0",
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.15.0",
       "registry.k8s.io/sig-storage/csi-attacher:v4.10.0",
