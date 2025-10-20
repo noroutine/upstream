@@ -175,7 +175,7 @@ FROM gitlab/gitlab-ce:18.5.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.4.0
+FROM gitlab/gitlab-runner:alpine-v18.5.0
 # gitlab/gitlab-runner
 
 # gitlab-org/gitlab-runner/gitlab-runner-helper
