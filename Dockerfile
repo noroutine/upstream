@@ -1,5 +1,5 @@
 # debian
-FROM debian:bookworm-20250929-slim
+FROM debian:trixie-20251020-slim
 # debian
 
 # ubuntu
@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:25.0.0-bookworm
+FROM node:25.0.0-trixie
 # node
 
 # node
@@ -23,15 +23,15 @@ FROM node:25.0.0-alpine
 # node
 
 # python
-FROM python:3.14.0-bookworm
+FROM python:3.14.0-trixie
 # python
 
 # python
-FROM python:3.14.0-slim-bookworm
+FROM python:3.14.0-slim-trixie
 # python
 
 # golang
-FROM golang:1.25.3-bookworm
+FROM golang:1.25.3-trixie
 # golang
 
 # golang
@@ -59,7 +59,7 @@ FROM quay.io/keycloak/keycloak:26.4.1
 # keycloak/keycloak
 
 # postgres
-FROM postgres:18.0-bookworm
+FROM postgres:18.0-trixie
 # postgres
 
 # prometheuscommunity/postgres-exporter
@@ -439,11 +439,11 @@ FROM jenkins/jenkins:2.532-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
-FROM jenkins/agent:bookworm-jdk21
+FROM jenkins/agent:trixie-jdk21
 # jenkins/agent
 
 # jenkins/inbound-agent
-FROM jenkins/inbound-agent:bookworm-jdk21
+FROM jenkins/inbound-agent:trixie-jdk21
 # jenkins/inbound-agent
 
 # kiwigrid/k8s-sidecar
@@ -667,15 +667,15 @@ FROM calico/csi:v3.30.4
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.27.2
+FROM istio/pilot:1.27.3
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.27.2
+FROM istio/proxyv2:1.27.3
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.27.2
+FROM istio/ztunnel:1.27.3
 # istio/ztunnel
 
 # nfd/node-feature-discovery
