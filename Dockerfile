@@ -390,10 +390,6 @@ FROM koenkk/zigbee2mqtt:2.6.2
 FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.1
 # sig-storage/nfsplugin
 
-# gitea/gitea
-FROM gitea/gitea:1.24.6-rootless
-# gitea/gitea
-
 # cloudflare/cloudflared
 FROM cloudflare/cloudflared:2025.10.0
 # cloudflare/cloudflared
@@ -849,4 +845,12 @@ FROM prefecthq/prefect:3.4.24-python3.13-kubernetes
 # prefecthq/prometheus-prefect-exporter
 FROM prefecthq/prometheus-prefect-exporter:3.0.0
 # prefecthq/prometheus-prefect-exporter
+
+# forgejo/forgejo
+FROM codeberg.org/forgejo/forgejo:13.0.1
+# forgejo/forgejo
+
+# forgejo/runner
+FROM code.forgejo.org/forgejo/runner:11.2.0
+# forgejo/runner
 

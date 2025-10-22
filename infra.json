@@ -1,5 +1,5 @@
 {
-  "version": "ac4fead6",
+  "version": "34b8d222",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -100,7 +100,6 @@
       "homeassistant/home-assistant:2025.10",
       "koenkk/zigbee2mqtt:2.6.2",
       "registry.k8s.io/sig-storage/nfsplugin:v4.12.1",
-      "gitea/gitea:1.24.6-rootless",
       "cloudflare/cloudflared:2025.10.0",
       "registry.k8s.io/git-sync/git-sync:v4.5.0",
       "apache/airflow:3.1.0-python3.13",
@@ -214,7 +213,9 @@
       "kbudde/rabbitmq-exporter:1.0.0",
       "prefecthq/prefect:3.4.24-python3.13",
       "prefecthq/prefect:3.4.24-python3.13-kubernetes",
-      "prefecthq/prometheus-prefect-exporter:3.0.0"
+      "prefecthq/prometheus-prefect-exporter:3.0.0",
+      "codeberg.org/forgejo/forgejo:13.0.1",
+      "code.forgejo.org/forgejo/runner:11.2.0"
     ]
   }
 }
