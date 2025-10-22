@@ -123,7 +123,7 @@ FROM registry.k8s.io/metrics-server/metrics-server:v0.8.0
 # metrics-server/metrics-server
 
 # grafana/grafana
-FROM grafana/grafana:12.2.0
+FROM grafana/grafana:12.2.1
 # grafana/grafana
 
 # prymitive/karma
@@ -171,7 +171,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
 # oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.5.0-ce.0
+FROM gitlab/gitlab-ce:18.5.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -183,7 +183,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.1
 # gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # brancz/kube-rbac-proxy
@@ -271,7 +271,7 @@ FROM quay.io/argoproj/argocd:v3.1.9
 # argoproj/argocd
 
 # valkey/valkey
-FROM valkey/valkey:8.1.4
+FROM valkey/valkey:9.0.0
 # valkey/valkey
 
 # redis
@@ -319,7 +319,7 @@ FROM caddy:2.10.2-alpine
 # caddy
 
 # azul/zulu-openjdk
-FROM azul/zulu-openjdk:25.0.0-25.28
+FROM azul/zulu-openjdk:25.0.1-25.30
 # azul/zulu-openjdk
 
 # eclipse-temurin
@@ -419,7 +419,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.116.1
+FROM docker.n8n.io/n8nio/n8n:1.116.2
 # n8nio/n8n
 
 # netsampler/goflow2
@@ -435,7 +435,7 @@ FROM quay.io/openbgpd/openbgpd:8.9
 # openbgpd/openbgpd
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.532-jdk21
+FROM jenkins/jenkins:2.533-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -727,7 +727,7 @@ FROM nvcr.io/nvidia/cuda:13.0.1-base-ubi9
 # nvidia/cuda
 
 # nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.8.1
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.9.0
 # nvidia/cloud-native/k8s-driver-manager
 
 # nvidia/k8s/container-toolkit
