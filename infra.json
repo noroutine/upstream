@@ -1,5 +1,5 @@
 {
-  "version": "8331c97b",
+  "version": "7fc462dd",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -51,7 +51,7 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.1",
       "quay.io/brancz/kube-rbac-proxy:v0.20.0",
       "pihole/pihole:2025.08.0",
-      "klutchell/unbound:v1.24.0",
+      "klutchell/unbound:v1.24.1",
       "nextcloud:32.0.0-apache",
       "docker:28.5.1-dind",
       "registry.k8s.io/ingress-nginx/controller:v1.13.3",
@@ -60,7 +60,7 @@
       "quay.io/metallb/speaker:v0.15.2",
       "quay.io/frrouting/frr:9.1.0",
       "haproxytech/haproxy-alpine:3.2.6",
-      "haproxytech/kubernetes-ingress:3.1.13",
+      "haproxytech/kubernetes-ingress:3.1.14",
       "aquasec/trivy:0.67.2",
       "ghcr.io/external-secrets/external-secrets:v0.20.3",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.4",

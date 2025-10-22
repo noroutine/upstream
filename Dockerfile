@@ -195,7 +195,7 @@ FROM pihole/pihole:2025.08.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.24.0
+FROM klutchell/unbound:v1.24.1
 # klutchell/unbound
 
 # nextcloud
@@ -231,7 +231,7 @@ FROM haproxytech/haproxy-alpine:3.2.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.1.13
+FROM haproxytech/kubernetes-ingress:3.1.14
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
