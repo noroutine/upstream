@@ -195,7 +195,7 @@ FROM pihole/pihole:2025.08.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.24.0
+FROM klutchell/unbound:1.24.1
 # klutchell/unbound
 
 # nextcloud
