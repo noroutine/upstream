@@ -1,5 +1,5 @@
 {
-  "version": "7fc462dd",
+  "version": "daae4570",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -23,7 +23,7 @@
       "quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z",
       "quay.io/coreos/etcd:v3.5.23",
       "quay.io/coreos/etcd:v3.6.5",
-      "quay.io/prometheus/prometheus:v3.7.1",
+      "quay.io/prometheus/prometheus:v3.7.2",
       "quay.io/prometheus/alertmanager:v0.28.1",
       "quay.io/prometheus/node-exporter:v1.9.1",
       "quay.io/prometheus/blackbox-exporter:v0.27.0",
@@ -195,7 +195,7 @@
       "quay.io/strimzi/kafka:0.48.0-kafka-4.1.0",
       "confluentinc/confluent-init-container:3.1.0",
       "confluentinc/confluent-operator:0.1351.24",
-      "confluentinc/cp-enterprise-control-center-next-gen:2.2.1",
+      "confluentinc/cp-enterprise-control-center-next-gen:2.3.0",
       "confluentinc/cp-enterprise-replicator:8.1.0",
       "confluentinc/cp-kafka-rest:8.1.0",
       "confluentinc/cp-ksqldb-server:8.1.0",
