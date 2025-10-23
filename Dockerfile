@@ -299,7 +299,7 @@ FROM natsio/prometheus-nats-exporter:0.17.3
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.20.0
+FROM natsio/nats-server-config-reloader:0.20.1
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -467,7 +467,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.20.4
+FROM hashicorp/vault:1.21.0
 # hashicorp/vault
 
 # hashicorp/vault-k8s

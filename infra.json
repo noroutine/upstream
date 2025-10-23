@@ -1,5 +1,5 @@
 {
-  "version": "daae4570",
+  "version": "62b20b20",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -77,7 +77,7 @@
       "connecteverything/nats-operator:0.8.0",
       "nats:2.12.1-alpine",
       "natsio/prometheus-nats-exporter:0.17.3",
-      "natsio/nats-server-config-reloader:0.20.0",
+      "natsio/nats-server-config-reloader:0.20.1",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.22-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
@@ -119,7 +119,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.19.1",
       "quay.io/jetstack/cert-manager-csi-driver:v0.11.1",
       "zachomedia/cert-manager-webhook-pdns:v2.5.3",
-      "hashicorp/vault:1.20.4",
+      "hashicorp/vault:1.21.0",
       "hashicorp/vault-k8s:1.7.0",
       "hashicorp/vault-csi-provider:1.6.0",
       "registry.k8s.io/pause:3.10",
