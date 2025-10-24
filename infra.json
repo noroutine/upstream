@@ -1,5 +1,5 @@
 {
-  "version": "62b20b20",
+  "version": "d02ff515",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -16,7 +16,7 @@
       "sonatype/nexus3:3.85.0",
       "squidfunk/mkdocs-material:9.6.22",
       "freeradius/freeradius-server:3.2.8-alpine",
-      "quay.io/keycloak/keycloak:26.4.1",
+      "quay.io/keycloak/keycloak:26.4.2",
       "postgres:18.0-trixie",
       "prometheuscommunity/postgres-exporter:v0.18.1",
       "quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z",
@@ -35,11 +35,11 @@
       "registry.k8s.io/metrics-server/metrics-server:v0.8.0",
       "grafana/grafana:12.2.1",
       "ghcr.io/prymitive/karma:v0.121",
-      "docker.elastic.co/elasticsearch/elasticsearch:9.1.5",
-      "docker.elastic.co/logstash/logstash:9.1.5",
-      "docker.elastic.co/kibana/kibana:9.1.5",
-      "docker.elastic.co/apm/apm-server:9.1.5",
-      "docker.elastic.co/beats/elastic-agent:8.19.5",
+      "docker.elastic.co/elasticsearch/elasticsearch:9.2.0",
+      "docker.elastic.co/logstash/logstash:9.2.0",
+      "docker.elastic.co/kibana/kibana:9.2.0",
+      "docker.elastic.co/apm/apm-server:9.2.0",
+      "docker.elastic.co/beats/elastic-agent:8.19.6",
       "mongo:8.0.15-noble",
       "percona/mongodb_exporter:0.47.1",
       "dpage/pgadmin4:9.9",
@@ -59,7 +59,7 @@
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
       "quay.io/frrouting/frr:9.1.0",
-      "haproxytech/haproxy-alpine:3.2.6",
+      "haproxytech/haproxy-alpine:3.2.7",
       "haproxytech/kubernetes-ingress:3.1.14",
       "aquasec/trivy:0.67.2",
       "ghcr.io/external-secrets/external-secrets:v0.20.3",
@@ -89,8 +89,8 @@
       "syncthing/discosrv:2.0.10",
       "syncthing/relaysrv:2.0.10",
       "jellyfin/jellyfin:10.11.0",
-      "haveagitgat/tdarr:2.49.01",
-      "haveagitgat/tdarr_node:2.49.01",
+      "haveagitgat/tdarr:2.50.01",
+      "haveagitgat/tdarr_node:2.50.01",
       "curlimages/curl:8.16.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
@@ -211,11 +211,13 @@
       "altinity/clickhouse-operator:0.25.5",
       "rabbitmq:4.1.4",
       "kbudde/rabbitmq-exporter:1.0.0",
-      "prefecthq/prefect:3.4.24-python3.13",
-      "prefecthq/prefect:3.4.24-python3.13-kubernetes",
+      "prefecthq/prefect:3.4.25-python3.13",
+      "prefecthq/prefect:3.4.25-python3.13-kubernetes",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.1",
-      "code.forgejo.org/forgejo/runner:11.2.0"
+      "code.forgejo.org/forgejo/runner:11.2.0",
+      "ghcr.io/catthehacker/ubuntu:act-24.04",
+      "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   }
 }

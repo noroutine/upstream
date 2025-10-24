@@ -55,7 +55,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.4.1
+FROM quay.io/keycloak/keycloak:26.4.2
 # keycloak/keycloak
 
 # postgres
@@ -131,23 +131,23 @@ FROM ghcr.io/prymitive/karma:v0.121
 # prymitive/karma
 
 # elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.1.5
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.2.0
 # elasticsearch/elasticsearch
 
 # logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.1.5
+FROM docker.elastic.co/logstash/logstash:9.2.0
 # logstash/logstash
 
 # kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.1.5
+FROM docker.elastic.co/kibana/kibana:9.2.0
 # kibana/kibana
 
 # apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.1.5
+FROM docker.elastic.co/apm/apm-server:9.2.0
 # apm/apm-server
 
 # beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.5
+FROM docker.elastic.co/beats/elastic-agent:8.19.6
 # beats/elastic-agent
 
 # mongo
@@ -227,7 +227,7 @@ FROM quay.io/frrouting/frr:9.1.0
 # frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.6
+FROM haproxytech/haproxy-alpine:3.2.7
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -347,11 +347,11 @@ FROM jellyfin/jellyfin:10.11.0
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.49.01
+FROM haveagitgat/tdarr:2.50.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.49.01
+FROM haveagitgat/tdarr_node:2.50.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -835,11 +835,11 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.4.24-python3.13
+FROM prefecthq/prefect:3.4.25-python3.13
 # prefecthq/prefect
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.4.24-python3.13-kubernetes
+FROM prefecthq/prefect:3.4.25-python3.13-kubernetes
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
@@ -853,4 +853,12 @@ FROM codeberg.org/forgejo/forgejo:13.0.1
 # forgejo/runner
 FROM code.forgejo.org/forgejo/runner:11.2.0
 # forgejo/runner
+
+# catthehacker/ubuntu
+FROM ghcr.io/catthehacker/ubuntu:act-24.04
+# catthehacker/ubuntu
+
+# catthehacker/ubuntu
+FROM ghcr.io/catthehacker/ubuntu:runner-24.04
+# catthehacker/ubuntu
 
