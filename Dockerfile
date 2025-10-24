@@ -835,11 +835,11 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.4.25-python3.13
+FROM prefecthq/prefect:3.4.26.dev1-python3.13
 # prefecthq/prefect
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.4.25-python3.13-kubernetes
+FROM prefecthq/prefect:3.4.26.dev1-python3.13-kubernetes
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
