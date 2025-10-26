@@ -1,5 +1,5 @@
 {
-  "version": "e3f33496",
+  "version": "e7740dce",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -89,8 +89,8 @@
       "syncthing/discosrv:2.0.10",
       "syncthing/relaysrv:2.0.10",
       "jellyfin/jellyfin:10.11.0",
-      "haveagitgat/tdarr:2.50.01",
-      "haveagitgat/tdarr_node:2.50.01",
+      "haveagitgat/tdarr:2.50.02",
+      "haveagitgat/tdarr_node:2.50.02",
       "curlimages/curl:8.16.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
