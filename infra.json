@@ -1,5 +1,5 @@
 {
-  "version": "888d6cef",
+  "version": "4bb9c7f3",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -25,7 +25,7 @@
       "quay.io/coreos/etcd:v3.6.5",
       "quay.io/prometheus/prometheus:v3.7.2",
       "quay.io/prometheus/alertmanager:v0.28.1",
-      "quay.io/prometheus/node-exporter:v1.9.1",
+      "quay.io/prometheus/node-exporter:v1.10.2",
       "quay.io/prometheus/blackbox-exporter:v0.27.0",
       "quay.io/prometheus/snmp-exporter:v0.29.0",
       "quay.io/prometheus/pushgateway:v1.11.1",
