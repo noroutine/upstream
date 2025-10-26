@@ -191,7 +191,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.20.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.08.0
+FROM pihole/pihole:2025.10.0
 # pihole/pihole
 
 # klutchell/unbound
@@ -711,7 +711,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # sig-storage/snapshot-validation-webhook
 
 # nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v25.3.4
+FROM nvcr.io/nvidia/gpu-operator:v25.10.0
 # nvidia/gpu-operator
 
 # nvidia/cloud-native/gpu-operator-validator

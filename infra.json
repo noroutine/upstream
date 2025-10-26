@@ -1,5 +1,5 @@
 {
-  "version": "03da944d",
+  "version": "888d6cef",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -50,7 +50,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.5.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.1",
       "quay.io/brancz/kube-rbac-proxy:v0.20.0",
-      "pihole/pihole:2025.08.0",
+      "pihole/pihole:2025.10.0",
       "klutchell/unbound:v1.24.1",
       "nextcloud:32.0.1-apache",
       "docker:28.5.1-dind",
@@ -180,7 +180,7 @@
       "registry.k8s.io/sig-storage/csi-snapshotter:v8.3.0",
       "registry.k8s.io/sig-storage/snapshot-controller:v8.3.0",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1",
-      "nvcr.io/nvidia/gpu-operator:v25.3.4",
+      "nvcr.io/nvidia/gpu-operator:v25.10.0",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.4",
       "nvcr.io/nvidia/cuda:13.0.1-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.9.0",
