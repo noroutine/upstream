@@ -199,7 +199,7 @@ FROM klutchell/unbound:v1.24.1
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:32.0.0-apache
+FROM nextcloud:32.0.1-apache
 # nextcloud
 
 # docker
@@ -371,7 +371,7 @@ FROM netboxcommunity/netbox:v4.4.4
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.7
+FROM postgrest/postgrest:v13.0.8
 # postgrest/postgrest
 
 # cephcsi/cephcsi
