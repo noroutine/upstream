@@ -191,7 +191,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.20.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.10.0
+FROM pihole/pihole:2025.10.1
 # pihole/pihole
 
 # klutchell/unbound
@@ -343,7 +343,7 @@ FROM syncthing/relaysrv:2.0.10
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.11.0
+FROM jellyfin/jellyfin:10.11.1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -371,7 +371,7 @@ FROM netboxcommunity/netbox:v4.4.4
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v13.0.8
+FROM postgrest/postgrest:v14.0
 # postgrest/postgrest
 
 # cephcsi/cephcsi

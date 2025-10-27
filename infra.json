@@ -1,5 +1,5 @@
 {
-  "version": "4bb9c7f3",
+  "version": "e6aa04cf",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -50,7 +50,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.5.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.1",
       "quay.io/brancz/kube-rbac-proxy:v0.20.0",
-      "pihole/pihole:2025.10.0",
+      "pihole/pihole:2025.10.1",
       "klutchell/unbound:v1.24.1",
       "nextcloud:32.0.1-apache",
       "docker:28.5.1-dind",
@@ -88,14 +88,14 @@
       "syncthing/syncthing:2.0.10",
       "syncthing/discosrv:2.0.10",
       "syncthing/relaysrv:2.0.10",
-      "jellyfin/jellyfin:10.11.0",
+      "jellyfin/jellyfin:10.11.1",
       "haveagitgat/tdarr:2.50.02",
       "haveagitgat/tdarr_node:2.50.02",
       "curlimages/curl:8.16.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
       "netboxcommunity/netbox:v4.4.4",
-      "postgrest/postgrest:v13.0.8",
+      "postgrest/postgrest:v14.0",
       "quay.io/cephcsi/cephcsi:v3.15.0",
       "homeassistant/home-assistant:2025.10",
       "koenkk/zigbee2mqtt:2.6.2",
