@@ -1,5 +1,5 @@
 {
-  "version": "e6aa04cf",
+  "version": "7d7c86f3",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -123,7 +123,7 @@
       "hashicorp/vault-k8s:1.7.0",
       "hashicorp/vault-csi-provider:1.6.0",
       "registry.k8s.io/pause:3.10",
-      "registry.k8s.io/coredns/coredns:v1.13.0",
+      "registry.k8s.io/coredns/coredns:v1.13.1",
       "registry.k8s.io/kube-apiserver:v1.34.1",
       "registry.k8s.io/kube-proxy:v1.34.1",
       "registry.k8s.io/kube-scheduler:v1.34.1",
