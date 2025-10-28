@@ -191,7 +191,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.20.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.10.1
+FROM pihole/pihole:2025.10.2
 # pihole/pihole
 
 # klutchell/unbound
@@ -347,11 +347,11 @@ FROM jellyfin/jellyfin:10.11.1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.50.02
+FROM haveagitgat/tdarr:2.51.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.50.02
+FROM haveagitgat/tdarr_node:2.51.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -399,7 +399,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.5.0
 # git-sync/git-sync
 
 # apache/airflow
-FROM apache/airflow:3.1.0-python3.13
+FROM apache/airflow:3.1.1-python3.13
 # apache/airflow
 
 # sj26/mailcatcher
@@ -691,19 +691,19 @@ FROM registry.k8s.io/sig-storage/csi-attacher:v4.10.0
 # sig-storage/csi-attacher
 
 # sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v1.14.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v2.0.0
 # sig-storage/csi-resizer
 
 # sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v5.3.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v6.0.0
 # sig-storage/csi-provisioner
 
 # sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.3.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.4.0
 # sig-storage/csi-snapshotter
 
 # sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v8.3.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.4.0
 # sig-storage/snapshot-controller
 
 # sig-storage/snapshot-validation-webhook
@@ -827,7 +827,7 @@ FROM altinity/clickhouse-operator:0.25.5
 # altinity/clickhouse-operator
 
 # rabbitmq
-FROM rabbitmq:4.1.4
+FROM rabbitmq:4.2.0
 # rabbitmq
 
 # kbudde/rabbitmq-exporter
