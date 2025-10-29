@@ -39,7 +39,7 @@ FROM golang:1.25.3-alpine
 # golang
 
 # traefik
-FROM traefik:v3.5.3
+FROM traefik:v3.5.4
 # traefik
 
 # sonatype/nexus3
@@ -151,7 +151,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.19.6
 # beats/elastic-agent
 
 # mongo
-FROM mongo:8.0.15-noble
+FROM mongo:8.2.1-noble
 # mongo
 
 # percona/mongodb_exporter
@@ -191,7 +191,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.20.0
 # brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.10.2
+FROM pihole/pihole:2025.10.3
 # pihole/pihole
 
 # klutchell/unbound
@@ -347,11 +347,11 @@ FROM jellyfin/jellyfin:10.11.1
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.51.01
+FROM haveagitgat/tdarr:2.51.03
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.51.01
+FROM haveagitgat/tdarr_node:2.51.03
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -431,7 +431,7 @@ FROM quay.io/openbgpd/openbgpd:8.9
 # openbgpd/openbgpd
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.533-jdk21
+FROM jenkins/jenkins:2.534-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
@@ -811,7 +811,7 @@ FROM scylladb/scylla:2025.3.2
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.6.0
+FROM scylladb/scylla-manager:3.7.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
