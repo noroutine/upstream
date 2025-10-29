@@ -1,5 +1,5 @@
 {
-  "version": "c5eff617",
+  "version": "213d95d1",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -94,7 +94,7 @@
       "curlimages/curl:8.16.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
-      "netboxcommunity/netbox:v4.4.4",
+      "netboxcommunity/netbox:v4.4.5",
       "postgrest/postgrest:v14.0",
       "quay.io/cephcsi/cephcsi:v3.15.0",
       "homeassistant/home-assistant:2025.10",
@@ -113,7 +113,7 @@
       "jenkins/jenkins:2.534-jdk21",
       "jenkins/agent:trixie-jdk21",
       "jenkins/inbound-agent:trixie-jdk21",
-      "quay.io/kiwigrid/k8s-sidecar:1.30.11",
+      "quay.io/kiwigrid/k8s-sidecar:2.0.3",
       "quay.io/jetstack/cert-manager-controller:v1.19.1",
       "quay.io/jetstack/cert-manager-cainjector:v1.19.1",
       "quay.io/jetstack/cert-manager-webhook:v1.19.1",
