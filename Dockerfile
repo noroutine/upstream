@@ -431,7 +431,7 @@ FROM quay.io/openbgpd/openbgpd:8.9
 # openbgpd/openbgpd
 
 # jenkins/jenkins
-FROM jenkins/jenkins:2.533-jdk21
+FROM jenkins/jenkins:2.534-jdk21
 # jenkins/jenkins
 
 # jenkins/agent
