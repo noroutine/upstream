@@ -211,7 +211,7 @@ FROM registry.k8s.io/ingress-nginx/controller:v1.13.3
 # ingress-nginx/controller
 
 # ingress-nginx/kube-webhook-certgen
-FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.3
+FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4
 # ingress-nginx/kube-webhook-certgen
 
 # metallb/controller
