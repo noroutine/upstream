@@ -1,5 +1,5 @@
 {
-  "version": "c9e7722f",
+  "version": "6a2cb7f2",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -23,7 +23,7 @@
       "quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z",
       "quay.io/coreos/etcd:v3.5.23",
       "quay.io/coreos/etcd:v3.6.5",
-      "quay.io/prometheus/prometheus:v3.7.2",
+      "quay.io/prometheus/prometheus:v3.7.3",
       "quay.io/prometheus/alertmanager:v0.28.1",
       "quay.io/prometheus/node-exporter:v1.10.2",
       "quay.io/prometheus/blackbox-exporter:v0.27.0",
@@ -55,7 +55,7 @@
       "nextcloud:32.0.1-apache",
       "docker:28.5.1-dind",
       "registry.k8s.io/ingress-nginx/controller:v1.13.3",
-      "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.3",
+      "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4",
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
       "quay.io/frrouting/frr:9.1.0",
@@ -106,7 +106,7 @@
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.65.0",
       "fatedier/frpc:v0.65.0",
-      "docker.n8n.io/n8nio/n8n:1.116.2",
+      "docker.n8n.io/n8nio/n8n:1.117.3",
       "netsampler/goflow2:v2.2.3",
       "ghcr.io/corentinth/it-tools:2024.10.22-7ca5933",
       "quay.io/openbgpd/openbgpd:8.9",

@@ -83,7 +83,7 @@ FROM quay.io/coreos/etcd:v3.6.5
 # coreos/etcd
 
 # prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.7.2
+FROM quay.io/prometheus/prometheus:v3.7.3
 # prometheus/prometheus
 
 # prometheus/alertmanager
@@ -211,7 +211,7 @@ FROM registry.k8s.io/ingress-nginx/controller:v1.13.3
 # ingress-nginx/controller
 
 # ingress-nginx/kube-webhook-certgen
-FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.3
+FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4
 # ingress-nginx/kube-webhook-certgen
 
 # metallb/controller
@@ -415,7 +415,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.116.2
+FROM docker.n8n.io/n8nio/n8n:1.117.3
 # n8nio/n8n
 
 # netsampler/goflow2
