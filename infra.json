@@ -1,13 +1,13 @@
 {
-  "version": "213d95d1",
+  "version": "c9e7722f",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
       "ubuntu:noble-20251001",
       "alpine:3.22.2",
       "busybox:1.37.0",
-      "node:25.0.0-trixie",
-      "node:25.0.0-alpine",
+      "node:25.1.0-trixie",
+      "node:22.4.1-bookworm",
       "python:3.14.0-trixie",
       "python:3.14.0-slim-trixie",
       "golang:1.25.3-trixie",
