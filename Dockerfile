@@ -103,7 +103,7 @@ FROM quay.io/prometheus/snmp-exporter:v0.29.0
 # prometheus/snmp-exporter
 
 # prometheus/pushgateway
-FROM quay.io/prometheus/pushgateway:v1.11.1
+FROM quay.io/prometheus/pushgateway:v1.11.2
 # prometheus/pushgateway
 
 # prometheus-operator/prometheus-operator
@@ -127,7 +127,7 @@ FROM grafana/grafana:12.2.1
 # grafana/grafana
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.121
+FROM ghcr.io/prymitive/karma:v0.122
 # prymitive/karma
 
 # elasticsearch/elasticsearch
@@ -327,7 +327,7 @@ FROM eclipse-temurin:25-noble
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:3.1.0
+FROM elastic/eck-operator:3.2.0
 # elastic/eck-operator
 
 # syncthing/syncthing
@@ -391,7 +391,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.1
 # sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.10.0
+FROM cloudflare/cloudflared:2025.10.1
 # cloudflare/cloudflared
 
 # git-sync/git-sync
