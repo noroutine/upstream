@@ -19,7 +19,7 @@ FROM node:25.1.0-trixie
 # node
 
 # node
-FROM node:22.4.1-bookworm
+FROM node:25.1.0-bookworm
 # node
 
 # python
