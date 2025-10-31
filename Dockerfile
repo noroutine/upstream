@@ -18,10 +18,6 @@ FROM busybox:1.37.0
 FROM node:25.1.0-trixie
 # node
 
-# node
-FROM node:22.4.1-bookworm
-# node
-
 # python
 FROM python:3.14.0-trixie
 # python
