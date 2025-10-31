@@ -127,7 +127,7 @@ FROM grafana/grafana:12.2.1
 # grafana/grafana
 
 # prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.121
+FROM ghcr.io/prymitive/karma:v0.122
 # prymitive/karma
 
 # elasticsearch/elasticsearch
