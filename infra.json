@@ -41,7 +41,7 @@
       "mongo:8.2.1-noble",
       "percona/mongodb_exporter:0.47.1",
       "dpage/pgadmin4:9.9",
-      "mccutchen/go-httpbin:2.18.3",
+      "mccutchen/go-httpbin:2.19.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine",
       "gitlab/gitlab-ce:18.5.1-ce.0",
       "gitlab/gitlab-runner:alpine-v18.5.0",
@@ -209,8 +209,8 @@
       "altinity/clickhouse-operator:0.25.5",
       "rabbitmq:4.2.0",
       "kbudde/rabbitmq-exporter:1.0.0",
-      "prefecthq/prefect:3.4.25-python3.13",
-      "prefecthq/prefect:3.4.25-python3.13-kubernetes",
+      "prefecthq/prefect:3.5.0-python3.13",
+      "prefecthq/prefect:3.5.0-python3.13-kubernetes",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.2",
       "code.forgejo.org/forgejo/runner:11.2.0",
@@ -218,5 +218,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "60cf5a70"
+  "version": "e892752c"
 }
