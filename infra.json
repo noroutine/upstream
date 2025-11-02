@@ -12,7 +12,7 @@
       "golang:1.25.3-alpine",
       "traefik:v3.5.4",
       "sonatype/nexus3:3.85.0",
-      "squidfunk/mkdocs-material:9.6.22",
+      "squidfunk/mkdocs-material:9.6.23",
       "freeradius/freeradius-server:3.2.8-alpine",
       "quay.io/keycloak/keycloak:26.4.2",
       "postgres:18.0-trixie",
@@ -96,7 +96,7 @@
       "postgrest/postgrest:v14.0",
       "quay.io/cephcsi/cephcsi:v3.15.0",
       "homeassistant/home-assistant:2025.10",
-      "koenkk/zigbee2mqtt:2.6.2",
+      "koenkk/zigbee2mqtt:2.6.3",
       "registry.k8s.io/sig-storage/nfsplugin:v4.12.1",
       "cloudflare/cloudflared:2025.10.1",
       "registry.k8s.io/git-sync/git-sync:v4.5.0",
@@ -218,5 +218,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "6f26fb04"
+  "version": "60cf5a70"
 }
