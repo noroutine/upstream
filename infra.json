@@ -218,5 +218,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "master"
+  "version": "0efcc34c"
 }
