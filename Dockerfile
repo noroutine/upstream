@@ -314,9 +314,9 @@ FROM sapcc/mosquitto-exporter:0.8.0
 FROM caddy:2.10.2-alpine
 # caddy
 
-# azul/zulu-openjdk
-FROM azul/zulu-openjdk:25.0.1-25.30
-# azul/zulu-openjdk
+# azul/zulu-openjdk-debian
+FROM azul/zulu-openjdk-debian:25.0.1-25.30
+# azul/zulu-openjdk-debian
 
 # eclipse-temurin
 FROM eclipse-temurin:25-noble

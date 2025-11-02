@@ -80,7 +80,7 @@
       "eclipse-mosquitto:2.0.22-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
       "caddy:2.10.2-alpine",
-      "azul/zulu-openjdk:25.0.1-25.30",
+      "azul/zulu-openjdk-debian:25.0.1-25.30",
       "eclipse-temurin:25-noble",
       "elastic/eck-operator:3.2.0",
       "syncthing/syncthing:2.0.10",
@@ -218,5 +218,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "7f4c420f"
+  "version": "50e32139"
 }
