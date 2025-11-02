@@ -50,9 +50,9 @@ FROM squidfunk/mkdocs-material:9.6.22
 FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
-# keycloak/keycloak
+# quay.io/keycloak/keycloak
 FROM quay.io/keycloak/keycloak:26.4.2
-# keycloak/keycloak
+# quay.io/keycloak/keycloak
 
 # postgres
 FROM postgres:18.0-trixie
@@ -62,89 +62,89 @@ FROM postgres:18.0-trixie
 FROM prometheuscommunity/postgres-exporter:v0.18.1
 # prometheuscommunity/postgres-exporter
 
-# minio/minio
+# quay.io/minio/minio
 FROM quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z
-# minio/minio
+# quay.io/minio/minio
 
-# minio/mc
+# quay.io/minio/mc
 FROM quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z
-# minio/mc
+# quay.io/minio/mc
 
-# coreos/etcd
+# quay.io/coreos/etcd
 FROM quay.io/coreos/etcd:v3.5.23
-# coreos/etcd
+# quay.io/coreos/etcd
 
-# coreos/etcd
+# quay.io/coreos/etcd
 FROM quay.io/coreos/etcd:v3.6.5
-# coreos/etcd
+# quay.io/coreos/etcd
 
-# prometheus/prometheus
+# quay.io/prometheus/prometheus
 FROM quay.io/prometheus/prometheus:v3.7.3
-# prometheus/prometheus
+# quay.io/prometheus/prometheus
 
-# prometheus/alertmanager
+# quay.io/prometheus/alertmanager
 FROM quay.io/prometheus/alertmanager:v0.28.1
-# prometheus/alertmanager
+# quay.io/prometheus/alertmanager
 
-# prometheus/node-exporter
+# quay.io/prometheus/node-exporter
 FROM quay.io/prometheus/node-exporter:v1.10.2
-# prometheus/node-exporter
+# quay.io/prometheus/node-exporter
 
-# prometheus/blackbox-exporter
+# quay.io/prometheus/blackbox-exporter
 FROM quay.io/prometheus/blackbox-exporter:v0.27.0
-# prometheus/blackbox-exporter
+# quay.io/prometheus/blackbox-exporter
 
-# prometheus/snmp-exporter
+# quay.io/prometheus/snmp-exporter
 FROM quay.io/prometheus/snmp-exporter:v0.29.0
-# prometheus/snmp-exporter
+# quay.io/prometheus/snmp-exporter
 
-# prometheus/pushgateway
+# quay.io/prometheus/pushgateway
 FROM quay.io/prometheus/pushgateway:v1.11.2
-# prometheus/pushgateway
+# quay.io/prometheus/pushgateway
 
-# prometheus-operator/prometheus-operator
+# quay.io/prometheus-operator/prometheus-operator
 FROM quay.io/prometheus-operator/prometheus-operator:v0.86.1
-# prometheus-operator/prometheus-operator
+# quay.io/prometheus-operator/prometheus-operator
 
-# prometheus-operator/prometheus-config-reloader
+# quay.io/prometheus-operator/prometheus-config-reloader
 FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.86.1
-# prometheus-operator/prometheus-config-reloader
+# quay.io/prometheus-operator/prometheus-config-reloader
 
-# kube-state-metrics/kube-state-metrics
+# registry.k8s.io/kube-state-metrics/kube-state-metrics
 FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0
-# kube-state-metrics/kube-state-metrics
+# registry.k8s.io/kube-state-metrics/kube-state-metrics
 
-# metrics-server/metrics-server
+# registry.k8s.io/metrics-server/metrics-server
 FROM registry.k8s.io/metrics-server/metrics-server:v0.8.0
-# metrics-server/metrics-server
+# registry.k8s.io/metrics-server/metrics-server
 
 # grafana/grafana
 FROM grafana/grafana:12.2.1
 # grafana/grafana
 
-# prymitive/karma
+# ghcr.io/prymitive/karma
 FROM ghcr.io/prymitive/karma:v0.122
-# prymitive/karma
+# ghcr.io/prymitive/karma
 
-# elasticsearch/elasticsearch
+# docker.elastic.co/elasticsearch/elasticsearch
 FROM docker.elastic.co/elasticsearch/elasticsearch:9.2.0
-# elasticsearch/elasticsearch
+# docker.elastic.co/elasticsearch/elasticsearch
 
-# logstash/logstash
+# docker.elastic.co/logstash/logstash
 FROM docker.elastic.co/logstash/logstash:9.2.0
-# logstash/logstash
+# docker.elastic.co/logstash/logstash
 
-# kibana/kibana
+# docker.elastic.co/kibana/kibana
 FROM docker.elastic.co/kibana/kibana:9.2.0
-# kibana/kibana
+# docker.elastic.co/kibana/kibana
 
-# apm/apm-server
+# docker.elastic.co/apm/apm-server
 FROM docker.elastic.co/apm/apm-server:9.2.0
-# apm/apm-server
+# docker.elastic.co/apm/apm-server
 
-# beats/elastic-agent
+# docker.elastic.co/beats/elastic-agent
 FROM docker.elastic.co/beats/elastic-agent:8.19.6
-# beats/elastic-agent
+# docker.elastic.co/beats/elastic-agent
 
 # mongo
 FROM mongo:8.2.1-noble
@@ -162,9 +162,9 @@ FROM dpage/pgadmin4:9.9
 FROM mccutchen/go-httpbin:2.18.3
 # mccutchen/go-httpbin
 
-# oauth2-proxy/oauth2-proxy
+# quay.io/oauth2-proxy/oauth2-proxy
 FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
-# oauth2-proxy/oauth2-proxy
+# quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
 FROM gitlab/gitlab-ce:18.5.1-ce.0
@@ -174,17 +174,17 @@ FROM gitlab/gitlab-ce:18.5.1-ce.0
 FROM gitlab/gitlab-runner:alpine-v18.5.0
 # gitlab/gitlab-runner
 
-# gitlab-org/gitlab-runner/gitlab-runner-helper
+# registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.5.0
-# gitlab-org/gitlab-runner/gitlab-runner-helper
+# registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
-# gitlab-org/cluster-integration/gitlab-agent/agentk
+# registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
 FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.1
-# gitlab-org/cluster-integration/gitlab-agent/agentk
+# registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
 
-# brancz/kube-rbac-proxy
+# quay.io/brancz/kube-rbac-proxy
 FROM quay.io/brancz/kube-rbac-proxy:v0.20.0
-# brancz/kube-rbac-proxy
+# quay.io/brancz/kube-rbac-proxy
 
 # pihole/pihole
 FROM pihole/pihole:2025.10.3
@@ -202,25 +202,25 @@ FROM nextcloud:32.0.1-apache
 FROM docker:28.5.1-dind
 # docker
 
-# ingress-nginx/controller
+# registry.k8s.io/ingress-nginx/controller
 FROM registry.k8s.io/ingress-nginx/controller:v1.13.3
-# ingress-nginx/controller
+# registry.k8s.io/ingress-nginx/controller
 
-# ingress-nginx/kube-webhook-certgen
+# registry.k8s.io/ingress-nginx/kube-webhook-certgen
 FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4
-# ingress-nginx/kube-webhook-certgen
+# registry.k8s.io/ingress-nginx/kube-webhook-certgen
 
-# metallb/controller
+# quay.io/metallb/controller
 FROM quay.io/metallb/controller:v0.15.2
-# metallb/controller
+# quay.io/metallb/controller
 
-# metallb/speaker
+# quay.io/metallb/speaker
 FROM quay.io/metallb/speaker:v0.15.2
-# metallb/speaker
+# quay.io/metallb/speaker
 
-# frrouting/frr
+# quay.io/frrouting/frr
 FROM quay.io/frrouting/frr:9.1.0
-# frrouting/frr
+# quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
 FROM haproxytech/haproxy-alpine:3.2.7
@@ -234,17 +234,17 @@ FROM haproxytech/kubernetes-ingress:3.1.14
 FROM aquasec/trivy:0.67.2
 # aquasec/trivy
 
-# external-secrets/external-secrets
+# ghcr.io/external-secrets/external-secrets
 FROM ghcr.io/external-secrets/external-secrets:v0.20.4
-# external-secrets/external-secrets
+# ghcr.io/external-secrets/external-secrets
 
-# csi-secrets-store/driver
+# registry.k8s.io/csi-secrets-store/driver
 FROM registry.k8s.io/csi-secrets-store/driver:v1.5.4
-# csi-secrets-store/driver
+# registry.k8s.io/csi-secrets-store/driver
 
-# csi-secrets-store/driver-crds
+# registry.k8s.io/csi-secrets-store/driver-crds
 FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.4
-# csi-secrets-store/driver-crds
+# registry.k8s.io/csi-secrets-store/driver-crds
 
 # stakater/reloader
 FROM stakater/reloader:v1.4.8
@@ -258,13 +258,13 @@ FROM jimmidyson/configmap-reload:v0.9.0
 FROM registry:3.0.0
 # registry
 
-# dexidp/dex
+# ghcr.io/dexidp/dex
 FROM ghcr.io/dexidp/dex:v2.44.0
-# dexidp/dex
+# ghcr.io/dexidp/dex
 
-# argoproj/argocd
+# quay.io/argoproj/argocd
 FROM quay.io/argoproj/argocd:v3.1.9
-# argoproj/argocd
+# quay.io/argoproj/argocd
 
 # valkey/valkey
 FROM valkey/valkey:9.0.0
@@ -370,9 +370,9 @@ FROM netboxcommunity/netbox:v4.4.5
 FROM postgrest/postgrest:v14.0
 # postgrest/postgrest
 
-# cephcsi/cephcsi
+# quay.io/cephcsi/cephcsi
 FROM quay.io/cephcsi/cephcsi:v3.15.0
-# cephcsi/cephcsi
+# quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
 FROM homeassistant/home-assistant:2025.10
@@ -382,17 +382,17 @@ FROM homeassistant/home-assistant:2025.10
 FROM koenkk/zigbee2mqtt:2.6.2
 # koenkk/zigbee2mqtt
 
-# sig-storage/nfsplugin
+# registry.k8s.io/sig-storage/nfsplugin
 FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.1
-# sig-storage/nfsplugin
+# registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
 FROM cloudflare/cloudflared:2025.10.1
 # cloudflare/cloudflared
 
-# git-sync/git-sync
+# registry.k8s.io/git-sync/git-sync
 FROM registry.k8s.io/git-sync/git-sync:v4.5.0
-# git-sync/git-sync
+# registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
 FROM apache/airflow:3.1.1-python3.13
@@ -410,21 +410,21 @@ FROM fatedier/frps:v0.65.0
 FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
-# n8nio/n8n
+# docker.n8n.io/n8nio/n8n
 FROM docker.n8n.io/n8nio/n8n:1.117.3
-# n8nio/n8n
+# docker.n8n.io/n8nio/n8n
 
 # netsampler/goflow2
 FROM netsampler/goflow2:v2.2.3
 # netsampler/goflow2
 
-# corentinth/it-tools
+# ghcr.io/corentinth/it-tools
 FROM ghcr.io/corentinth/it-tools:2024.10.22-7ca5933
-# corentinth/it-tools
+# ghcr.io/corentinth/it-tools
 
-# openbgpd/openbgpd
+# quay.io/openbgpd/openbgpd
 FROM quay.io/openbgpd/openbgpd:8.9
-# openbgpd/openbgpd
+# quay.io/openbgpd/openbgpd
 
 # jenkins/jenkins
 FROM jenkins/jenkins:2.534-jdk21
@@ -438,25 +438,25 @@ FROM jenkins/agent:trixie-jdk21
 FROM jenkins/inbound-agent:trixie-jdk21
 # jenkins/inbound-agent
 
-# kiwigrid/k8s-sidecar
+# quay.io/kiwigrid/k8s-sidecar
 FROM quay.io/kiwigrid/k8s-sidecar:2.0.3
-# kiwigrid/k8s-sidecar
+# quay.io/kiwigrid/k8s-sidecar
 
-# jetstack/cert-manager-controller
+# quay.io/jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.19.1
-# jetstack/cert-manager-controller
+# quay.io/jetstack/cert-manager-controller
 
-# jetstack/cert-manager-cainjector
+# quay.io/jetstack/cert-manager-cainjector
 FROM quay.io/jetstack/cert-manager-cainjector:v1.19.1
-# jetstack/cert-manager-cainjector
+# quay.io/jetstack/cert-manager-cainjector
 
-# jetstack/cert-manager-webhook
+# quay.io/jetstack/cert-manager-webhook
 FROM quay.io/jetstack/cert-manager-webhook:v1.19.1
-# jetstack/cert-manager-webhook
+# quay.io/jetstack/cert-manager-webhook
 
-# jetstack/cert-manager-csi-driver
+# quay.io/jetstack/cert-manager-csi-driver
 FROM quay.io/jetstack/cert-manager-csi-driver:v0.11.1
-# jetstack/cert-manager-csi-driver
+# quay.io/jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
 FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
@@ -474,149 +474,149 @@ FROM hashicorp/vault-k8s:1.7.0
 FROM hashicorp/vault-csi-provider:1.6.0
 # hashicorp/vault-csi-provider
 
-# pause
+# registry.k8s.io/pause
 FROM registry.k8s.io/pause:3.10
-# pause
+# registry.k8s.io/pause
 
-# coredns/coredns
+# registry.k8s.io/coredns/coredns
 FROM registry.k8s.io/coredns/coredns:v1.13.1
-# coredns/coredns
+# registry.k8s.io/coredns/coredns
 
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.34.1
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 
-# kube-proxy
+# registry.k8s.io/kube-proxy
 FROM registry.k8s.io/kube-proxy:v1.34.1
-# kube-proxy
+# registry.k8s.io/kube-proxy
 
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 FROM registry.k8s.io/kube-scheduler:v1.34.1
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.34.1
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.34.0
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 
-# kube-proxy
+# registry.k8s.io/kube-proxy
 FROM registry.k8s.io/kube-proxy:v1.34.0
-# kube-proxy
+# registry.k8s.io/kube-proxy
 
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 FROM registry.k8s.io/kube-scheduler:v1.34.0
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.34.0
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.33.4
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 
-# kube-proxy
+# registry.k8s.io/kube-proxy
 FROM registry.k8s.io/kube-proxy:v1.33.4
-# kube-proxy
+# registry.k8s.io/kube-proxy
 
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 FROM registry.k8s.io/kube-scheduler:v1.33.4
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.33.4
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.33.3
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 
-# kube-proxy
+# registry.k8s.io/kube-proxy
 FROM registry.k8s.io/kube-proxy:v1.33.3
-# kube-proxy
+# registry.k8s.io/kube-proxy
 
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 FROM registry.k8s.io/kube-scheduler:v1.33.3
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.33.3
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.32.8
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 
-# kube-proxy
+# registry.k8s.io/kube-proxy
 FROM registry.k8s.io/kube-proxy:v1.32.8
-# kube-proxy
+# registry.k8s.io/kube-proxy
 
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 FROM registry.k8s.io/kube-scheduler:v1.32.8
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.32.8
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.32.7
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 
-# kube-proxy
+# registry.k8s.io/kube-proxy
 FROM registry.k8s.io/kube-proxy:v1.32.7
-# kube-proxy
+# registry.k8s.io/kube-proxy
 
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 FROM registry.k8s.io/kube-scheduler:v1.32.7
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.32.7
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.31.12
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 
-# kube-proxy
+# registry.k8s.io/kube-proxy
 FROM registry.k8s.io/kube-proxy:v1.31.12
-# kube-proxy
+# registry.k8s.io/kube-proxy
 
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 FROM registry.k8s.io/kube-scheduler:v1.31.12
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.31.12
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.31.11
-# kube-apiserver
+# registry.k8s.io/kube-apiserver
 
-# kube-proxy
+# registry.k8s.io/kube-proxy
 FROM registry.k8s.io/kube-proxy:v1.31.11
-# kube-proxy
+# registry.k8s.io/kube-proxy
 
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 FROM registry.k8s.io/kube-scheduler:v1.31.11
-# kube-scheduler
+# registry.k8s.io/kube-scheduler
 
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.31.11
-# kube-controller-manager
+# registry.k8s.io/kube-controller-manager
 
 # rancher/kubectl
 FROM rancher/kubectl:v1.34.1
 # rancher/kubectl
 
-# tigera/operator
+# quay.io/tigera/operator
 FROM quay.io/tigera/operator:v1.40.0
-# tigera/operator
+# quay.io/tigera/operator
 
 # calico/typha
 FROM calico/typha:v3.31.0
@@ -670,93 +670,93 @@ FROM istio/proxyv2:1.27.3
 FROM istio/ztunnel:1.27.3
 # istio/ztunnel
 
-# nfd/node-feature-discovery
+# registry.k8s.io/nfd/node-feature-discovery
 FROM registry.k8s.io/nfd/node-feature-discovery:v0.18.2
-# nfd/node-feature-discovery
+# registry.k8s.io/nfd/node-feature-discovery
 
-# sig-storage/livenessprobe
+# registry.k8s.io/sig-storage/livenessprobe
 FROM registry.k8s.io/sig-storage/livenessprobe:v2.17.0
-# sig-storage/livenessprobe
+# registry.k8s.io/sig-storage/livenessprobe
 
-# sig-storage/csi-node-driver-registrar
+# registry.k8s.io/sig-storage/csi-node-driver-registrar
 FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.15.0
-# sig-storage/csi-node-driver-registrar
+# registry.k8s.io/sig-storage/csi-node-driver-registrar
 
-# sig-storage/csi-attacher
+# registry.k8s.io/sig-storage/csi-attacher
 FROM registry.k8s.io/sig-storage/csi-attacher:v4.10.0
-# sig-storage/csi-attacher
+# registry.k8s.io/sig-storage/csi-attacher
 
-# sig-storage/csi-resizer
+# registry.k8s.io/sig-storage/csi-resizer
 FROM registry.k8s.io/sig-storage/csi-resizer:v2.0.0
-# sig-storage/csi-resizer
+# registry.k8s.io/sig-storage/csi-resizer
 
-# sig-storage/csi-provisioner
+# registry.k8s.io/sig-storage/csi-provisioner
 FROM registry.k8s.io/sig-storage/csi-provisioner:v6.0.0
-# sig-storage/csi-provisioner
+# registry.k8s.io/sig-storage/csi-provisioner
 
-# sig-storage/csi-snapshotter
+# registry.k8s.io/sig-storage/csi-snapshotter
 FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.4.0
-# sig-storage/csi-snapshotter
+# registry.k8s.io/sig-storage/csi-snapshotter
 
-# sig-storage/snapshot-controller
+# registry.k8s.io/sig-storage/snapshot-controller
 FROM registry.k8s.io/sig-storage/snapshot-controller:v8.4.0
-# sig-storage/snapshot-controller
+# registry.k8s.io/sig-storage/snapshot-controller
 
-# sig-storage/snapshot-validation-webhook
+# registry.k8s.io/sig-storage/snapshot-validation-webhook
 FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
-# sig-storage/snapshot-validation-webhook
+# registry.k8s.io/sig-storage/snapshot-validation-webhook
 
-# nvidia/gpu-operator
+# nvcr.io/nvidia/gpu-operator
 FROM nvcr.io/nvidia/gpu-operator:v25.10.0
-# nvidia/gpu-operator
+# nvcr.io/nvidia/gpu-operator
 
-# nvidia/cloud-native/gpu-operator-validator
+# nvcr.io/nvidia/cloud-native/gpu-operator-validator
 FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.4
-# nvidia/cloud-native/gpu-operator-validator
+# nvcr.io/nvidia/cloud-native/gpu-operator-validator
 
-# nvidia/cuda
+# nvcr.io/nvidia/cuda
 FROM nvcr.io/nvidia/cuda:13.0.1-base-ubi9
-# nvidia/cuda
+# nvcr.io/nvidia/cuda
 
-# nvidia/cloud-native/k8s-driver-manager
+# nvcr.io/nvidia/cloud-native/k8s-driver-manager
 FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.9.0
-# nvidia/cloud-native/k8s-driver-manager
+# nvcr.io/nvidia/cloud-native/k8s-driver-manager
 
-# nvidia/k8s/container-toolkit
+# nvcr.io/nvidia/k8s/container-toolkit
 FROM nvcr.io/nvidia/k8s/container-toolkit:v1.17.9-ubi8
-# nvidia/k8s/container-toolkit
+# nvcr.io/nvidia/k8s/container-toolkit
 
-# nvidia/k8s-device-plugin
+# nvcr.io/nvidia/k8s-device-plugin
 FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
-# nvidia/k8s-device-plugin
+# nvcr.io/nvidia/k8s-device-plugin
 
-# nvidia/cloud-native/dcgm
+# nvcr.io/nvidia/cloud-native/dcgm
 FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.1-2-ubi9
-# nvidia/cloud-native/dcgm
+# nvcr.io/nvidia/cloud-native/dcgm
 
-# nvidia/k8s/dcgm-exporter
+# nvcr.io/nvidia/k8s/dcgm-exporter
 FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.1-4.6.0-ubi9
-# nvidia/k8s/dcgm-exporter
+# nvcr.io/nvidia/k8s/dcgm-exporter
 
-# nvidia/gpu-feature-discovery
+# nvcr.io/nvidia/gpu-feature-discovery
 FROM nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8
-# nvidia/gpu-feature-discovery
+# nvcr.io/nvidia/gpu-feature-discovery
 
-# nvidia/cloud-native/k8s-mig-manager
+# nvcr.io/nvidia/cloud-native/k8s-mig-manager
 FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8
-# nvidia/cloud-native/k8s-mig-manager
+# nvcr.io/nvidia/cloud-native/k8s-mig-manager
 
 # apache/kafka
 FROM apache/kafka:4.1.0
 # apache/kafka
 
-# strimzi/operator
+# quay.io/strimzi/operator
 FROM quay.io/strimzi/operator:0.48.0
-# strimzi/operator
+# quay.io/strimzi/operator
 
-# strimzi/kafka
+# quay.io/strimzi/kafka
 FROM quay.io/strimzi/kafka:0.48.0-kafka-4.1.0
-# strimzi/kafka
+# quay.io/strimzi/kafka
 
 # confluentinc/confluent-init-container
 FROM confluentinc/confluent-init-container:3.1.0
@@ -842,19 +842,19 @@ FROM prefecthq/prefect:3.4.25-python3.13-kubernetes
 FROM prefecthq/prometheus-prefect-exporter:3.0.0
 # prefecthq/prometheus-prefect-exporter
 
-# forgejo/forgejo
+# codeberg.org/forgejo/forgejo
 FROM codeberg.org/forgejo/forgejo:13.0.2
-# forgejo/forgejo
+# codeberg.org/forgejo/forgejo
 
-# forgejo/runner
+# code.forgejo.org/forgejo/runner
 FROM code.forgejo.org/forgejo/runner:11.2.0
-# forgejo/runner
+# code.forgejo.org/forgejo/runner
 
-# catthehacker/ubuntu
+# ghcr.io/catthehacker/ubuntu
 FROM ghcr.io/catthehacker/ubuntu:act-24.04
-# catthehacker/ubuntu
+# ghcr.io/catthehacker/ubuntu
 
-# catthehacker/ubuntu
+# ghcr.io/catthehacker/ubuntu
 FROM ghcr.io/catthehacker/ubuntu:runner-24.04
-# catthehacker/ubuntu
+# ghcr.io/catthehacker/ubuntu
 

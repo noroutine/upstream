@@ -1,5 +1,4 @@
 {
-  "version": "fa2a57bc",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
@@ -218,5 +217,6 @@
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
-  }
+  },
+  "version": "master"
 }
