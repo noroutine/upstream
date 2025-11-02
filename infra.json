@@ -1,5 +1,5 @@
 {
-  "version": "3a02583c",
+  "version": "fa2a57bc",
   "upstream": {
     "images": [
       "debian:trixie-20251020-slim",
