@@ -203,7 +203,7 @@ FROM docker:28.5.1-dind
 # docker
 
 # registry.k8s.io/ingress-nginx/controller
-FROM registry.k8s.io/ingress-nginx/controller:v1.13.3
+FROM registry.k8s.io/ingress-nginx/controller:v1.14.0
 # registry.k8s.io/ingress-nginx/controller
 
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen

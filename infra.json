@@ -52,7 +52,7 @@
       "klutchell/unbound:v1.24.1",
       "nextcloud:32.0.1-apache",
       "docker:28.5.1-dind",
-      "registry.k8s.io/ingress-nginx/controller:v1.13.3",
+      "registry.k8s.io/ingress-nginx/controller:v1.14.0",
       "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4",
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
@@ -218,5 +218,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "e892752c"
+  "version": "fa44aebc"
 }
