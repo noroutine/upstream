@@ -275,7 +275,7 @@ FROM redis:8.2.2
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.79.0
+FROM oliver006/redis_exporter:v1.80.0
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -339,7 +339,7 @@ FROM syncthing/relaysrv:2.0.10
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.11.1
+FROM jellyfin/jellyfin:10.11.2
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -425,22 +425,6 @@ FROM ghcr.io/corentinth/it-tools:2024.10.22-7ca5933
 # quay.io/openbgpd/openbgpd
 FROM quay.io/openbgpd/openbgpd:8.9
 # quay.io/openbgpd/openbgpd
-
-# jenkins/jenkins
-FROM jenkins/jenkins:2.534-jdk21
-# jenkins/jenkins
-
-# jenkins/agent
-FROM jenkins/agent:trixie-jdk21
-# jenkins/agent
-
-# jenkins/inbound-agent
-FROM jenkins/inbound-agent:trixie-jdk21
-# jenkins/inbound-agent
-
-# quay.io/kiwigrid/k8s-sidecar
-FROM quay.io/kiwigrid/k8s-sidecar:2.0.3
-# quay.io/kiwigrid/k8s-sidecar
 
 # quay.io/jetstack/cert-manager-controller
 FROM quay.io/jetstack/cert-manager-controller:v1.19.1
@@ -544,70 +528,6 @@ FROM registry.k8s.io/kube-scheduler:v1.33.3
 
 # registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.33.3
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.8
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.8
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.32.8
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.8
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.32.7
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.32.7
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.32.7
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.32.7
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.12
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.12
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.12
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.12
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.31.11
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.31.11
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.31.11
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.31.11
 # registry.k8s.io/kube-controller-manager
 
 # rancher/kubectl
