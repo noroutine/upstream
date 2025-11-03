@@ -190,7 +190,6 @@
       "rabbitmq:4.2.0",
       "kbudde/rabbitmq-exporter:1.0.0",
       "prefecthq/prefect:3.5.0-python3.13",
-      "prefecthq/prefect:3.5.0-python3.13-kubernetes",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.2",
       "code.forgejo.org/forgejo/runner:11.2.0",
@@ -198,5 +197,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "c4db0891"
+  "version": "9a0c15a1"
 }
