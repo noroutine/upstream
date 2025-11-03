@@ -22,16 +22,8 @@ FROM node:25.1.0-trixie
 FROM python:3.14.0-trixie
 # python
 
-# python
-FROM python:3.14.0-slim-trixie
-# python
-
 # golang
 FROM golang:1.25.3-trixie
-# golang
-
-# golang
-FROM golang:1.25.3-alpine
 # golang
 
 # traefik

@@ -7,9 +7,7 @@
       "busybox:1.37.0",
       "node:25.1.0-trixie",
       "python:3.14.0-trixie",
-      "python:3.14.0-slim-trixie",
       "golang:1.25.3-trixie",
-      "golang:1.25.3-alpine",
       "traefik:v3.5.4",
       "sonatype/nexus3:3.85.0",
       "squidfunk/mkdocs-material:9.6.23",
@@ -197,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "d3eada94"
+  "version": "6d435d1d"
 }
