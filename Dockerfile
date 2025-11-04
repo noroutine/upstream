@@ -1,5 +1,5 @@
 # debian
-FROM debian:trixie-20251020-slim
+FROM debian:trixie-20251103-slim
 # debian
 
 # ubuntu
@@ -239,7 +239,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.4
 # registry.k8s.io/csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.8
+FROM stakater/reloader:v1.4.9
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -263,7 +263,7 @@ FROM valkey/valkey:9.0.0
 # valkey/valkey
 
 # redis
-FROM redis:8.2.2
+FROM redis:8.2.3
 # redis
 
 # oliver006/redis_exporter

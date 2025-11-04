@@ -1,7 +1,7 @@
 {
   "upstream": {
     "images": [
-      "debian:trixie-20251020-slim",
+      "debian:trixie-20251103-slim",
       "ubuntu:noble-20251001",
       "alpine:3.22.2",
       "busybox:1.37.0",
@@ -61,13 +61,13 @@
       "ghcr.io/external-secrets/external-secrets:v0.20.4",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.4",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.5.4",
-      "stakater/reloader:v1.4.8",
+      "stakater/reloader:v1.4.9",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.44.0",
       "quay.io/argoproj/argocd:v3.1.9",
       "valkey/valkey:9.0.0",
-      "redis:8.2.2",
+      "redis:8.2.3",
       "oliver006/redis_exporter:v1.80.0",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
@@ -195,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "54d5d9ec"
+  "version": "b2532597"
 }
