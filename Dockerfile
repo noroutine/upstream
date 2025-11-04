@@ -403,7 +403,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # docker.n8n.io/n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.117.3
+FROM docker.n8n.io/n8nio/n8n:1.118.1
 # docker.n8n.io/n8nio/n8n
 
 # netsampler/goflow2
