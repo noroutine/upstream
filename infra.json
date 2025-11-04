@@ -81,9 +81,9 @@
       "azul/zulu-openjdk-debian:25.0.1-25.30",
       "eclipse-temurin:25-noble",
       "elastic/eck-operator:3.2.0",
-      "syncthing/syncthing:2.0.10",
-      "syncthing/discosrv:2.0.10",
-      "syncthing/relaysrv:2.0.10",
+      "syncthing/syncthing:2.0.11",
+      "syncthing/discosrv:2.0.11",
+      "syncthing/relaysrv:2.0.11",
       "jellyfin/jellyfin:10.11.2",
       "haveagitgat/tdarr:2.51.03",
       "haveagitgat/tdarr_node:2.51.03",
@@ -180,7 +180,7 @@
       "confluentinc/cp-server-connect:8.1.0",
       "obsidiandynamics/kafdrop:4.2.0",
       "tchiotludo/akhq:0.26.0",
-      "scylladb/scylla:2025.3.2",
+      "scylladb/scylla:2025.3.3",
       "scylladb/scylla-manager:3.7.0",
       "scylladb/scylla-operator:1.18.1",
       "clickhouse:25.9",
@@ -195,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "b2532597"
+  "version": "39931a54"
 }

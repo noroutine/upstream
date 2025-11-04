@@ -319,15 +319,15 @@ FROM elastic/eck-operator:3.2.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.10
+FROM syncthing/syncthing:2.0.11
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.10
+FROM syncthing/discosrv:2.0.11
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.10
+FROM syncthing/relaysrv:2.0.11
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -715,7 +715,7 @@ FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2025.3.2
+FROM scylladb/scylla:2025.3.3
 # scylladb/scylla
 
 # scylladb/scylla-manager
