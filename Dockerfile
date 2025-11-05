@@ -755,7 +755,7 @@ FROM codeberg.org/forgejo/forgejo:13.0.2
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:11.2.0
+FROM code.forgejo.org/forgejo/runner:11.3.0
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
