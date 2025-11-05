@@ -20,7 +20,7 @@
       "quay.io/coreos/etcd:v3.5.23",
       "quay.io/coreos/etcd:v3.6.5",
       "quay.io/prometheus/prometheus:v3.7.3",
-      "quay.io/prometheus/alertmanager:v0.28.1",
+      "quay.io/prometheus/alertmanager:v0.29.0",
       "quay.io/prometheus/node-exporter:v1.10.2",
       "quay.io/prometheus/blackbox-exporter:v0.27.0",
       "quay.io/prometheus/snmp-exporter:v0.29.0",
@@ -46,7 +46,7 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.5.0",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.1",
       "quay.io/brancz/kube-rbac-proxy:v0.20.0",
-      "pihole/pihole:2025.10.3",
+      "pihole/pihole:2025.11.0",
       "klutchell/unbound:v1.24.1",
       "nextcloud:32.0.1-apache",
       "docker:28.5.1-dind",
@@ -65,7 +65,7 @@
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.44.0",
-      "quay.io/argoproj/argocd:v3.1.9",
+      "quay.io/argoproj/argocd:v3.2.0",
       "valkey/valkey:9.0.0",
       "redis:8.2.3",
       "oliver006/redis_exporter:v1.80.0",
@@ -190,10 +190,10 @@
       "prefecthq/prefect:3.5.0-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.2",
-      "code.forgejo.org/forgejo/runner:11.2.0",
+      "code.forgejo.org/forgejo/runner:11.3.0",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "39931a54"
+  "version": "ab03a175"
 }

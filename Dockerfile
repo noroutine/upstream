@@ -75,7 +75,7 @@ FROM quay.io/prometheus/prometheus:v3.7.3
 # quay.io/prometheus/prometheus
 
 # quay.io/prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.28.1
+FROM quay.io/prometheus/alertmanager:v0.29.0
 # quay.io/prometheus/alertmanager
 
 # quay.io/prometheus/node-exporter
@@ -179,7 +179,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.20.0
 # quay.io/brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.10.3
+FROM pihole/pihole:2025.11.0
 # pihole/pihole
 
 # klutchell/unbound
@@ -255,7 +255,7 @@ FROM ghcr.io/dexidp/dex:v2.44.0
 # ghcr.io/dexidp/dex
 
 # quay.io/argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.1.9
+FROM quay.io/argoproj/argocd:v3.2.0
 # quay.io/argoproj/argocd
 
 # valkey/valkey
@@ -755,7 +755,7 @@ FROM codeberg.org/forgejo/forgejo:13.0.2
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:11.2.0
+FROM code.forgejo.org/forgejo/runner:11.3.0
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
