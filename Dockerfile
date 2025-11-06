@@ -23,7 +23,7 @@ FROM python:3.14.0-trixie
 # python
 
 # golang
-FROM golang:1.25.3-trixie
+FROM golang:1.25.4-trixie
 # golang
 
 # traefik
@@ -31,7 +31,7 @@ FROM traefik:v3.5.4
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.85.0
+FROM sonatype/nexus3:3.86.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -191,7 +191,7 @@ FROM nextcloud:32.0.1-apache
 # nextcloud
 
 # docker
-FROM docker:28.5.1-dind
+FROM docker:28.5.2-dind
 # docker
 
 # registry.k8s.io/ingress-nginx/controller
@@ -239,7 +239,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.4
 # registry.k8s.io/csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.9
+FROM stakater/reloader:v1.4.10
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -343,7 +343,7 @@ FROM haveagitgat/tdarr_node:2.51.03
 # haveagitgat/tdarr_node
 
 # curlimages/curl
-FROM curlimages/curl:8.16.0
+FROM curlimages/curl:8.17.0
 # curlimages/curl
 
 # restic/restic
@@ -359,7 +359,7 @@ FROM netboxcommunity/netbox:v4.4.5
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v14.0
+FROM postgrest/postgrest:v14.1
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
@@ -367,7 +367,7 @@ FROM quay.io/cephcsi/cephcsi:v3.15.0
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.10
+FROM homeassistant/home-assistant:2025.11
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -387,7 +387,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.5.0
 # registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
-FROM apache/airflow:3.1.1-python3.13
+FROM apache/airflow:3.1.2-python3.13
 # apache/airflow
 
 # sj26/mailcatcher
@@ -403,7 +403,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # docker.n8n.io/n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.117.3
+FROM docker.n8n.io/n8nio/n8n:1.118.2
 # docker.n8n.io/n8nio/n8n
 
 # netsampler/goflow2
@@ -571,19 +571,19 @@ FROM calico/csi:v3.31.0
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.27.3
+FROM istio/pilot:1.28.0
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.27.3
+FROM istio/proxyv2:1.28.0
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.27.3
+FROM istio/ztunnel:1.28.0
 # istio/ztunnel
 
 # registry.k8s.io/nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.18.2
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.18.3
 # registry.k8s.io/nfd/node-feature-discovery
 
 # registry.k8s.io/sig-storage/livenessprobe
