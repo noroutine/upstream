@@ -583,7 +583,7 @@ FROM istio/ztunnel:1.27.3
 # istio/ztunnel
 
 # registry.k8s.io/nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.18.2
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.18.3
 # registry.k8s.io/nfd/node-feature-discovery
 
 # registry.k8s.io/sig-storage/livenessprobe
