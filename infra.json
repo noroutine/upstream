@@ -158,7 +158,7 @@
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1",
       "nvcr.io/nvidia/gpu-operator:v25.10.0",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.4",
-      "nvcr.io/nvidia/cuda:13.0.1-base-ubi9",
+      "nvcr.io/nvidia/cuda:13.0.2-base-ubi9",
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.9.0",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.17.9-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
@@ -183,7 +183,7 @@
       "scylladb/scylla:2025.3.3",
       "scylladb/scylla-manager:3.7.0",
       "scylladb/scylla-operator:1.18.1",
-      "clickhouse:25.9",
+      "clickhouse:25.10",
       "altinity/clickhouse-operator:0.25.5",
       "rabbitmq:4.2.0",
       "kbudde/rabbitmq-exporter:1.0.0",
@@ -195,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "1bd22abc"
+  "version": "7924f5a6"
 }
