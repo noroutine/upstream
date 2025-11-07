@@ -12,7 +12,7 @@
       "sonatype/nexus3:3.86.0",
       "squidfunk/mkdocs-material:9.6.23",
       "freeradius/freeradius-server:3.2.8-alpine",
-      "quay.io/keycloak/keycloak:26.4.2",
+      "quay.io/keycloak/keycloak:26.4.4",
       "postgres:18.0-trixie",
       "prometheuscommunity/postgres-exporter:v0.18.1",
       "quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z",
@@ -55,7 +55,7 @@
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
       "quay.io/frrouting/frr:9.1.0",
-      "haproxytech/haproxy-alpine:3.2.7",
+      "haproxytech/haproxy-alpine:3.2.8",
       "haproxytech/kubernetes-ingress:3.1.14",
       "aquasec/trivy:0.67.2",
       "ghcr.io/external-secrets/external-secrets:v0.20.4",
@@ -195,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "7924f5a6"
+  "version": "c8ca6adf"
 }

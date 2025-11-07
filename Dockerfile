@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.4.2
+FROM quay.io/keycloak/keycloak:26.4.4
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -215,7 +215,7 @@ FROM quay.io/frrouting/frr:9.1.0
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.7
+FROM haproxytech/haproxy-alpine:3.2.8
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
