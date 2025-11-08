@@ -25,8 +25,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.27.0",
       "quay.io/prometheus/snmp-exporter:v0.29.0",
       "quay.io/prometheus/pushgateway:v1.11.2",
-      "quay.io/prometheus-operator/prometheus-operator:v0.86.1",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.86.1",
+      "quay.io/prometheus-operator/prometheus-operator:v0.86.2",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.86.2",
       "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0",
       "registry.k8s.io/metrics-server/metrics-server:v0.8.0",
       "grafana/grafana:12.2.1",
@@ -195,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "12e586f5"
+  "version": "e27bef57"
 }
