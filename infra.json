@@ -190,10 +190,10 @@
       "prefecthq/prefect:3.5.0-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.2",
-      "code.forgejo.org/forgejo/runner:11.3.0",
+      "code.forgejo.org/forgejo/runner:11.3.1",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "c8ca6adf"
+  "version": "12e586f5"
 }
