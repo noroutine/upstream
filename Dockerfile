@@ -723,7 +723,7 @@ FROM scylladb/scylla-manager:3.7.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.18.1
+FROM scylladb/scylla-operator:1.19
 # scylladb/scylla-operator
 
 # clickhouse
