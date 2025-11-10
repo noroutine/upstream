@@ -27,7 +27,7 @@ FROM golang:1.25.4-trixie
 # golang
 
 # traefik
-FROM traefik:v3.5.4
+FROM traefik:v3.6.0
 # traefik
 
 # sonatype/nexus3
@@ -155,7 +155,7 @@ FROM mccutchen/go-httpbin:2.19.0
 # mccutchen/go-httpbin
 
 # quay.io/oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.12.0-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.13.0-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
@@ -227,7 +227,7 @@ FROM aquasec/trivy:0.67.2
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v0.20.4
+FROM ghcr.io/external-secrets/external-secrets:v1.0.0
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
@@ -335,11 +335,11 @@ FROM jellyfin/jellyfin:10.11.2
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.51.03
+FROM haveagitgat/tdarr:2.53.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.51.03
+FROM haveagitgat/tdarr_node:2.53.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -379,7 +379,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.1
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.10.1
+FROM cloudflare/cloudflared:2025.11.1
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
@@ -723,7 +723,7 @@ FROM scylladb/scylla-manager:3.7.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.18.1
+FROM scylladb/scylla-operator:1.19
 # scylladb/scylla-operator
 
 # clickhouse
@@ -743,7 +743,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.5.0-python3.13
+FROM prefecthq/prefect:3.6.0-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
