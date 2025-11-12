@@ -12,7 +12,7 @@
       "sonatype/nexus3:3.86.0",
       "squidfunk/mkdocs-material:9.7.0",
       "freeradius/freeradius-server:3.2.8-alpine",
-      "quay.io/keycloak/keycloak:26.4.4",
+      "quay.io/keycloak/keycloak:26.4.5",
       "postgres:18.0-trixie",
       "prometheuscommunity/postgres-exporter:v0.18.1",
       "quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z",
@@ -41,10 +41,10 @@
       "dpage/pgadmin4:9.9",
       "mccutchen/go-httpbin:2.19.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.13.0-alpine",
-      "gitlab/gitlab-ce:18.5.1-ce.0",
+      "gitlab/gitlab-ce:18.5.2-ce.0",
       "gitlab/gitlab-runner:alpine-v18.5.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.5.0",
-      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.1",
+      "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.2",
       "quay.io/brancz/kube-rbac-proxy:v0.20.0",
       "pihole/pihole:2025.11.0",
       "klutchell/unbound:v1.24.1",
@@ -195,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "47d01644"
+  "version": "2150be81"
 }
