@@ -35,7 +35,7 @@ FROM sonatype/nexus3:3.86.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.6.23
+FROM squidfunk/mkdocs-material:9.7.0
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -119,23 +119,23 @@ FROM ghcr.io/prymitive/karma:v0.122
 # ghcr.io/prymitive/karma
 
 # docker.elastic.co/elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.2.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.2.1
 # docker.elastic.co/elasticsearch/elasticsearch
 
 # docker.elastic.co/logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.2.0
+FROM docker.elastic.co/logstash/logstash:9.2.1
 # docker.elastic.co/logstash/logstash
 
 # docker.elastic.co/kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.2.0
+FROM docker.elastic.co/kibana/kibana:9.2.1
 # docker.elastic.co/kibana/kibana
 
 # docker.elastic.co/apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.2.0
+FROM docker.elastic.co/apm/apm-server:9.2.1
 # docker.elastic.co/apm/apm-server
 
 # docker.elastic.co/beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.6
+FROM docker.elastic.co/beats/elastic-agent:8.19.7
 # docker.elastic.co/beats/elastic-agent
 
 # mongo
@@ -191,7 +191,7 @@ FROM nextcloud:32.0.1-apache
 # nextcloud
 
 # docker
-FROM docker:28.5.2-dind
+FROM docker:29.0.0-dind
 # docker
 
 # registry.k8s.io/ingress-nginx/controller
@@ -335,11 +335,11 @@ FROM jellyfin/jellyfin:10.11.2
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.53.01
+FROM haveagitgat/tdarr:2.54.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.53.01
+FROM haveagitgat/tdarr_node:2.54.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -459,6 +459,22 @@ FROM registry.k8s.io/coredns/coredns:v1.13.1
 # registry.k8s.io/coredns/coredns
 
 # registry.k8s.io/kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.34.2
+# registry.k8s.io/kube-apiserver
+
+# registry.k8s.io/kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.34.2
+# registry.k8s.io/kube-proxy
+
+# registry.k8s.io/kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.34.2
+# registry.k8s.io/kube-scheduler
+
+# registry.k8s.io/kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.34.2
+# registry.k8s.io/kube-controller-manager
+
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.34.1
 # registry.k8s.io/kube-apiserver
 
@@ -475,51 +491,35 @@ FROM registry.k8s.io/kube-controller-manager:v1.34.1
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.34.0
+FROM registry.k8s.io/kube-apiserver:v1.33.6
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.34.0
+FROM registry.k8s.io/kube-proxy:v1.33.6
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.34.0
+FROM registry.k8s.io/kube-scheduler:v1.33.6
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.34.0
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.33.4
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.33.4
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.33.4
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.33.4
+FROM registry.k8s.io/kube-controller-manager:v1.33.6
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.33.3
+FROM registry.k8s.io/kube-apiserver:v1.33.5
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.33.3
+FROM registry.k8s.io/kube-proxy:v1.33.5
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.33.3
+FROM registry.k8s.io/kube-scheduler:v1.33.5
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.33.3
+FROM registry.k8s.io/kube-controller-manager:v1.33.5
 # registry.k8s.io/kube-controller-manager
 
 # rancher/kubectl
@@ -743,7 +743,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.0-python3.13
+FROM prefecthq/prefect:3.6.1-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
