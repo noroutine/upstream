@@ -67,7 +67,7 @@ FROM quay.io/coreos/etcd:v3.5.23
 # quay.io/coreos/etcd
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.5
+FROM quay.io/coreos/etcd:v3.6.6
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
@@ -211,7 +211,7 @@ FROM quay.io/metallb/speaker:v0.15.2
 # quay.io/metallb/speaker
 
 # quay.io/frrouting/frr
-FROM quay.io/frrouting/frr:9.1.0
+FROM quay.io/frrouting/frr:10.5.0
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
@@ -355,7 +355,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.4.5
+FROM netboxcommunity/netbox:v4.4.6
 # netboxcommunity/netbox
 
 # postgrest/postgrest

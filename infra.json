@@ -18,7 +18,7 @@
       "quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z",
       "quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z",
       "quay.io/coreos/etcd:v3.5.23",
-      "quay.io/coreos/etcd:v3.6.5",
+      "quay.io/coreos/etcd:v3.6.6",
       "quay.io/prometheus/prometheus:v3.7.3",
       "quay.io/prometheus/alertmanager:v0.29.0",
       "quay.io/prometheus/node-exporter:v1.10.2",
@@ -54,7 +54,7 @@
       "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4",
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
-      "quay.io/frrouting/frr:9.1.0",
+      "quay.io/frrouting/frr:10.5.0",
       "haproxytech/haproxy-alpine:3.2.8",
       "haproxytech/kubernetes-ingress:3.1.14",
       "aquasec/trivy:0.67.2",
@@ -90,7 +90,7 @@
       "curlimages/curl:8.17.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
-      "netboxcommunity/netbox:v4.4.5",
+      "netboxcommunity/netbox:v4.4.6",
       "postgrest/postgrest:v14.1",
       "quay.io/cephcsi/cephcsi:v3.15.0",
       "homeassistant/home-assistant:2025.11",
@@ -195,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "93ddbb07"
+  "version": "b442c4d0"
 }
