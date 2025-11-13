@@ -659,7 +659,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8
 # nvcr.io/nvidia/cloud-native/k8s-mig-manager
 
 # apache/kafka
-FROM apache/kafka:4.1.0
+FROM apache/kafka:4.1.1
 # apache/kafka
 
 # quay.io/strimzi/operator
