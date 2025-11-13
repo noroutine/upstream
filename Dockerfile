@@ -147,7 +147,7 @@ FROM percona/mongodb_exporter:0.47.1
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.9
+FROM dpage/pgadmin4:9.10
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -659,7 +659,7 @@ FROM nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8
 # nvcr.io/nvidia/cloud-native/k8s-mig-manager
 
 # apache/kafka
-FROM apache/kafka:4.1.0
+FROM apache/kafka:4.1.1
 # apache/kafka
 
 # quay.io/strimzi/operator
@@ -767,6 +767,6 @@ FROM ghcr.io/catthehacker/ubuntu:runner-24.04
 # ghcr.io/catthehacker/ubuntu
 
 # influxdb
-FROM influxdb:1.12
+FROM influxdb:1.12.2
 # influxdb
 

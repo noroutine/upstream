@@ -38,7 +38,7 @@
       "docker.elastic.co/beats/elastic-agent:8.19.7",
       "mongo:8.2.1-noble",
       "percona/mongodb_exporter:0.47.1",
-      "dpage/pgadmin4:9.9",
+      "dpage/pgadmin4:9.10",
       "mccutchen/go-httpbin:2.19.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.13.0-alpine",
       "gitlab/gitlab-ce:18.5.2-ce.0",
@@ -166,7 +166,7 @@
       "nvcr.io/nvidia/k8s/dcgm-exporter:4.4.1-4.6.0-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8",
-      "apache/kafka:4.1.0",
+      "apache/kafka:4.1.1",
       "quay.io/strimzi/operator:0.48.0",
       "quay.io/strimzi/kafka:0.48.0-kafka-4.1.0",
       "confluentinc/confluent-init-container:3.1.0",
@@ -193,8 +193,8 @@
       "code.forgejo.org/forgejo/runner:11.3.1",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
-      "influxdb:1.12"
+      "influxdb:1.12.2"
     ]
   },
-  "version": "d5a83399"
+  "version": "83d3e4fa"
 }
