@@ -766,3 +766,7 @@ FROM ghcr.io/catthehacker/ubuntu:act-24.04
 FROM ghcr.io/catthehacker/ubuntu:runner-24.04
 # ghcr.io/catthehacker/ubuntu
 
+# influxdb
+FROM influxdb:1.12
+# influxdb
+

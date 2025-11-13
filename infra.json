@@ -192,8 +192,9 @@
       "codeberg.org/forgejo/forgejo:13.0.2",
       "code.forgejo.org/forgejo/runner:11.3.1",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
-      "ghcr.io/catthehacker/ubuntu:runner-24.04"
+      "ghcr.io/catthehacker/ubuntu:runner-24.04",
+      "influxdb:1.12"
     ]
   },
-  "version": "bb35e56c"
+  "version": "d5a83399"
 }
