@@ -102,7 +102,7 @@
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.65.0",
       "fatedier/frpc:v0.65.0",
-      "docker.n8n.io/n8nio/n8n:1.118.2",
+      "docker.n8n.io/n8nio/n8n:1.119.1",
       "netsampler/goflow2:v2.2.3",
       "ghcr.io/corentinth/it-tools:2024.10.22-7ca5933",
       "quay.io/openbgpd/openbgpd:8.9",
@@ -195,5 +195,5 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04"
     ]
   },
-  "version": "7b04b5db"
+  "version": "bb35e56c"
 }
