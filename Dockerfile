@@ -3,7 +3,7 @@ FROM debian:trixie-20251103-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20251001
+FROM ubuntu:noble-20251013
 # ubuntu
 
 # alpine
@@ -27,7 +27,7 @@ FROM golang:1.25.4-trixie
 # golang
 
 # traefik
-FROM traefik:v3.6.0
+FROM traefik:v3.6.1
 # traefik
 
 # sonatype/nexus3
@@ -47,7 +47,7 @@ FROM quay.io/keycloak/keycloak:26.4.5
 # quay.io/keycloak/keycloak
 
 # postgres
-FROM postgres:18.0-trixie
+FROM postgres:18.1-trixie
 # postgres
 
 # prometheuscommunity/postgres-exporter
@@ -279,7 +279,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.12.1-alpine
+FROM nats:2.12.2-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -743,7 +743,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.1-python3.13
+FROM prefecthq/prefect:3.6.2-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter

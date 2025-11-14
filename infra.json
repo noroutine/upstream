@@ -2,18 +2,18 @@
   "upstream": {
     "images": [
       "debian:trixie-20251103-slim",
-      "ubuntu:noble-20251001",
+      "ubuntu:noble-20251013",
       "alpine:3.22.2",
       "busybox:1.37.0",
       "node:25.2.0-trixie",
       "python:3.14.0-trixie",
       "golang:1.25.4-trixie",
-      "traefik:v3.6.0",
+      "traefik:v3.6.1",
       "sonatype/nexus3:3.86.2",
       "squidfunk/mkdocs-material:9.7.0",
       "freeradius/freeradius-server:3.2.8-alpine",
       "quay.io/keycloak/keycloak:26.4.5",
-      "postgres:18.0-trixie",
+      "postgres:18.1-trixie",
       "prometheuscommunity/postgres-exporter:v0.18.1",
       "quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z",
       "quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z",
@@ -71,7 +71,7 @@
       "oliver006/redis_exporter:v1.80.0",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
-      "nats:2.12.1-alpine",
+      "nats:2.12.2-alpine",
       "natsio/prometheus-nats-exporter:0.17.3",
       "natsio/nats-server-config-reloader:0.20.1",
       "masipcat/wireguard-go:0.0.20230223",
@@ -187,7 +187,7 @@
       "altinity/clickhouse-operator:0.25.5",
       "rabbitmq:4.2.0",
       "kbudde/rabbitmq-exporter:1.0.0",
-      "prefecthq/prefect:3.6.1-python3.13",
+      "prefecthq/prefect:3.6.2-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.2",
       "code.forgejo.org/forgejo/runner:11.3.1",
@@ -196,5 +196,5 @@
       "influxdb:1.12.2"
     ]
   },
-  "version": "83d3e4fa"
+  "version": "9030e720"
 }
