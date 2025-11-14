@@ -191,7 +191,7 @@ FROM nextcloud:32.0.1-apache
 # nextcloud
 
 # docker
-FROM docker:29.0.0-dind
+FROM docker:29.0.1-dind
 # docker
 
 # registry.k8s.io/ingress-nginx/controller
@@ -387,7 +387,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.5.0
 # registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
-FROM apache/airflow:3.1.2-python3.13
+FROM apache/airflow:3.1.3-python3.13
 # apache/airflow
 
 # sj26/mailcatcher
