@@ -133,17 +133,17 @@
       "registry.k8s.io/kube-scheduler:v1.33.5",
       "registry.k8s.io/kube-controller-manager:v1.33.5",
       "rancher/kubectl:v1.34.1",
-      "quay.io/tigera/operator:v1.40.0",
-      "calico/typha:v3.31.0",
-      "calico/ctl:v3.31.0",
-      "calico/node:v3.31.0",
-      "calico/cni:v3.31.0",
-      "calico/apiserver:v3.31.0",
-      "calico/kube-controllers:v3.31.0",
-      "calico/dikastes:v3.31.0",
-      "calico/pod2daemon-flexvol:v3.31.0",
-      "calico/node-driver-registrar:v3.31.0",
-      "calico/csi:v3.31.0",
+      "quay.io/tigera/operator:v1.40.1",
+      "calico/typha:v3.31.1",
+      "calico/ctl:v3.31.1",
+      "calico/node:v3.31.1",
+      "calico/cni:v3.31.1",
+      "calico/apiserver:v3.31.1",
+      "calico/kube-controllers:v3.31.1",
+      "calico/dikastes:v3.31.1",
+      "calico/pod2daemon-flexvol:v3.31.1",
+      "calico/node-driver-registrar:v3.31.1",
+      "calico/csi:v3.31.1",
       "istio/pilot:1.28.0",
       "istio/proxyv2:1.28.0",
       "istio/ztunnel:1.28.0",
@@ -199,5 +199,5 @@
       "timescale/timescaledb-ha:pg17-ts2.23"
     ]
   },
-  "version": "120ab1a7"
+  "version": "312a93f3"
 }
