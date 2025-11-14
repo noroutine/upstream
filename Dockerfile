@@ -770,3 +770,15 @@ FROM ghcr.io/catthehacker/ubuntu:runner-24.04
 FROM influxdb:1.12.2
 # influxdb
 
+# influxdb
+FROM influxdb:2.7.12
+# influxdb
+
+# influxdb
+FROM influxdb:3.6.0-core
+# influxdb
+
+# timescale/timescaledb-ha
+FROM timescale/timescaledb-ha:pg17-ts2.23
+# timescale/timescaledb-ha
+

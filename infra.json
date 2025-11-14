@@ -193,8 +193,11 @@
       "code.forgejo.org/forgejo/runner:11.3.1",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
-      "influxdb:1.12.2"
+      "influxdb:1.12.2",
+      "influxdb:2.7.12",
+      "influxdb:3.6.0-core",
+      "timescale/timescaledb-ha:pg17-ts2.23"
     ]
   },
-  "version": "9030e720"
+  "version": "120ab1a7"
 }
