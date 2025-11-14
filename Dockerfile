@@ -543,7 +543,7 @@ FROM calico/node:v3.31.0
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.31.0
+FROM calico/cni:v3.31.1
 # calico/cni
 
 # calico/apiserver
