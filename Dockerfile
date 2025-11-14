@@ -3,7 +3,7 @@ FROM debian:trixie-20251103-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20251001
+FROM ubuntu:noble-20251013
 # ubuntu
 
 # alpine
