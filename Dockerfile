@@ -767,7 +767,7 @@ FROM ghcr.io/catthehacker/ubuntu:runner-24.04
 # ghcr.io/catthehacker/ubuntu
 
 # influxdb
-FROM influxdb:1.12.2
+FROM influxdb:2.7.12
 # influxdb
 
 # influxdb
