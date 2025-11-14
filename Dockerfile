@@ -191,7 +191,7 @@ FROM nextcloud:32.0.1-apache
 # nextcloud
 
 # docker
-FROM docker:29.0.0-dind
+FROM docker:29.0.1-dind
 # docker
 
 # registry.k8s.io/ingress-nginx/controller
