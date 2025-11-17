@@ -84,9 +84,9 @@
       "syncthing/syncthing:2.0.11",
       "syncthing/discosrv:2.0.11",
       "syncthing/relaysrv:2.0.11",
-      "jellyfin/jellyfin:10.11.2",
-      "haveagitgat/tdarr:2.55.01",
-      "haveagitgat/tdarr_node:2.55.01",
+      "jellyfin/jellyfin:10.11.3",
+      "haveagitgat/tdarr:2.56.01",
+      "haveagitgat/tdarr_node:2.56.01",
       "curlimages/curl:8.17.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
@@ -199,5 +199,5 @@
       "timescale/timescaledb-ha:pg17-ts2.23"
     ]
   },
-  "version": "v0.0.416"
+  "version": "7fa0c12e"
 }

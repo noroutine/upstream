@@ -331,15 +331,15 @@ FROM syncthing/relaysrv:2.0.11
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.11.2
+FROM jellyfin/jellyfin:10.11.3
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.55.01
+FROM haveagitgat/tdarr:2.56.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.55.01
+FROM haveagitgat/tdarr_node:2.56.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
