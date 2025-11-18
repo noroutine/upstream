@@ -567,7 +567,7 @@ FROM calico/node-driver-registrar:v3.31.1
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.31.1
+FROM calico/csi:v3.31.2
 # calico/csi
 
 # istio/pilot
