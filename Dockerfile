@@ -782,3 +782,7 @@ FROM influxdb:3.6.0-core
 FROM timescale/timescaledb-ha:pg17-ts2.23
 # timescale/timescaledb-ha
 
+# poweradmin/poweradmin
+FROM poweradmin/poweradmin:4.0.4
+# poweradmin/poweradmin
+
