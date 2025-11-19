@@ -1,5 +1,5 @@
 # debian
-FROM debian:trixie-20251103-slim
+FROM debian:trixie-20251117-slim
 # debian
 
 # ubuntu
@@ -191,7 +191,7 @@ FROM nextcloud:32.0.1-apache
 # nextcloud
 
 # docker
-FROM docker:29.0.1-dind
+FROM docker:29.0.2-dind
 # docker
 
 # registry.k8s.io/ingress-nginx/controller
@@ -527,47 +527,47 @@ FROM rancher/kubectl:v1.34.2
 # rancher/kubectl
 
 # quay.io/tigera/operator
-FROM quay.io/tigera/operator:v1.40.1
+FROM quay.io/tigera/operator:v1.40.2
 # quay.io/tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.31.1
+FROM calico/typha:v3.31.2
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.31.1
+FROM calico/ctl:v3.31.2
 # calico/ctl
 
 # calico/node
-FROM calico/node:v3.31.1
+FROM calico/node:v3.31.2
 # calico/node
 
 # calico/cni
-FROM calico/cni:v3.31.1
+FROM calico/cni:v3.31.2
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.31.1
+FROM calico/apiserver:v3.31.2
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.31.1
+FROM calico/kube-controllers:v3.31.2
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.31.1
+FROM calico/dikastes:v3.31.2
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.31.1
+FROM calico/pod2daemon-flexvol:v3.31.2
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.31.1
+FROM calico/node-driver-registrar:v3.31.2
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.31.1
+FROM calico/csi:v3.31.2
 # calico/csi
 
 # istio/pilot

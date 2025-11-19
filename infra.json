@@ -1,7 +1,7 @@
 {
   "upstream": {
     "images": [
-      "debian:trixie-20251103-slim",
+      "debian:trixie-20251117-slim",
       "ubuntu:noble-20251013",
       "alpine:3.22.2",
       "busybox:1.37.0",
@@ -49,7 +49,7 @@
       "pihole/pihole:2025.11.0",
       "klutchell/unbound:v1.24.1",
       "nextcloud:32.0.1-apache",
-      "docker:29.0.1-dind",
+      "docker:29.0.2-dind",
       "registry.k8s.io/ingress-nginx/controller:v1.14.0",
       "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4",
       "quay.io/metallb/controller:v0.15.2",
@@ -133,17 +133,17 @@
       "registry.k8s.io/kube-scheduler:v1.33.5",
       "registry.k8s.io/kube-controller-manager:v1.33.5",
       "rancher/kubectl:v1.34.2",
-      "quay.io/tigera/operator:v1.40.1",
-      "calico/typha:v3.31.1",
-      "calico/ctl:v3.31.1",
-      "calico/node:v3.31.1",
-      "calico/cni:v3.31.1",
-      "calico/apiserver:v3.31.1",
-      "calico/kube-controllers:v3.31.1",
-      "calico/dikastes:v3.31.1",
-      "calico/pod2daemon-flexvol:v3.31.1",
-      "calico/node-driver-registrar:v3.31.1",
-      "calico/csi:v3.31.1",
+      "quay.io/tigera/operator:v1.40.2",
+      "calico/typha:v3.31.2",
+      "calico/ctl:v3.31.2",
+      "calico/node:v3.31.2",
+      "calico/cni:v3.31.2",
+      "calico/apiserver:v3.31.2",
+      "calico/kube-controllers:v3.31.2",
+      "calico/dikastes:v3.31.2",
+      "calico/pod2daemon-flexvol:v3.31.2",
+      "calico/node-driver-registrar:v3.31.2",
+      "calico/csi:v3.31.2",
       "istio/pilot:1.28.0",
       "istio/proxyv2:1.28.0",
       "istio/ztunnel:1.28.0",
@@ -199,5 +199,5 @@
       "timescale/timescaledb-ha:pg17-ts2.23"
     ]
   },
-  "version": "7fa0c12e"
+  "version": "443b7505"
 }
