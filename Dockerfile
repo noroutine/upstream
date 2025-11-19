@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:25.2.0-trixie
+FROM node:25.2.1-trixie
 # node
 
 # python
@@ -363,7 +363,7 @@ FROM postgrest/postgrest:v14.1
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.15.0
+FROM quay.io/cephcsi/cephcsi:v3.15.1
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
@@ -403,7 +403,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # docker.n8n.io/n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.119.2
+FROM docker.n8n.io/n8nio/n8n:1.121.0
 # docker.n8n.io/n8nio/n8n
 
 # netsampler/goflow2
@@ -735,7 +735,7 @@ FROM altinity/clickhouse-operator:0.25.5
 # altinity/clickhouse-operator
 
 # rabbitmq
-FROM rabbitmq:4.2.0
+FROM rabbitmq:4.2.1
 # rabbitmq
 
 # kbudde/rabbitmq-exporter

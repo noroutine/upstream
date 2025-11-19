@@ -5,7 +5,7 @@
       "ubuntu:noble-20251013",
       "alpine:3.22.2",
       "busybox:1.37.0",
-      "node:25.2.0-trixie",
+      "node:25.2.1-trixie",
       "python:3.14.0-trixie",
       "golang:1.25.4-trixie",
       "traefik:v3.6.1",
@@ -92,7 +92,7 @@
       "coturn/coturn:4.7.0",
       "netboxcommunity/netbox:v4.4.6",
       "postgrest/postgrest:v14.1",
-      "quay.io/cephcsi/cephcsi:v3.15.0",
+      "quay.io/cephcsi/cephcsi:v3.15.1",
       "homeassistant/home-assistant:2025.11",
       "koenkk/zigbee2mqtt:2.6.3",
       "registry.k8s.io/sig-storage/nfsplugin:v4.12.1",
@@ -102,7 +102,7 @@
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.65.0",
       "fatedier/frpc:v0.65.0",
-      "docker.n8n.io/n8nio/n8n:1.119.2",
+      "docker.n8n.io/n8nio/n8n:1.121.0",
       "netsampler/goflow2:v2.2.3",
       "ghcr.io/corentinth/it-tools:2024.10.22-7ca5933",
       "quay.io/openbgpd/openbgpd:8.9",
@@ -185,7 +185,7 @@
       "scylladb/scylla-operator:1.19",
       "clickhouse:25.10",
       "altinity/clickhouse-operator:0.25.5",
-      "rabbitmq:4.2.0",
+      "rabbitmq:4.2.1",
       "kbudde/rabbitmq-exporter:1.0.0",
       "prefecthq/prefect:3.6.2-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
@@ -199,5 +199,5 @@
       "timescale/timescaledb-ha:pg17-ts2.23"
     ]
   },
-  "version": "443b7505"
+  "version": "26b66d34"
 }
