@@ -27,7 +27,7 @@ FROM golang:1.25.4-trixie
 # golang
 
 # traefik
-FROM traefik:v3.6.1
+FROM traefik:v3.6.2
 # traefik
 
 # sonatype/nexus3
@@ -263,7 +263,7 @@ FROM valkey/valkey:9.0.0
 # valkey/valkey
 
 # redis
-FROM redis:8.2.3
+FROM redis:8.4.0
 # redis
 
 # oliver006/redis_exporter
@@ -335,11 +335,11 @@ FROM jellyfin/jellyfin:10.11.3
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.56.01
+FROM haveagitgat/tdarr:2.57.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.56.01
+FROM haveagitgat/tdarr_node:2.57.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -643,7 +643,7 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvcr.io/nvidia/k8s-device-plugin
 
 # nvcr.io/nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.1-2-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.2-1-ubi9
 # nvcr.io/nvidia/cloud-native/dcgm
 
 # nvcr.io/nvidia/k8s/dcgm-exporter

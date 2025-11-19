@@ -8,7 +8,7 @@
       "node:25.2.1-trixie",
       "python:3.14.0-trixie",
       "golang:1.25.4-trixie",
-      "traefik:v3.6.1",
+      "traefik:v3.6.2",
       "sonatype/nexus3:3.86.2",
       "squidfunk/mkdocs-material:9.7.0",
       "freeradius/freeradius-server:3.2.8-alpine",
@@ -67,7 +67,7 @@
       "ghcr.io/dexidp/dex:v2.44.0",
       "quay.io/argoproj/argocd:v3.2.0",
       "valkey/valkey:9.0.0",
-      "redis:8.2.3",
+      "redis:8.4.0",
       "oliver006/redis_exporter:v1.80.0",
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
@@ -85,8 +85,8 @@
       "syncthing/discosrv:2.0.11",
       "syncthing/relaysrv:2.0.11",
       "jellyfin/jellyfin:10.11.3",
-      "haveagitgat/tdarr:2.56.01",
-      "haveagitgat/tdarr_node:2.56.01",
+      "haveagitgat/tdarr:2.57.01",
+      "haveagitgat/tdarr_node:2.57.01",
       "curlimages/curl:8.17.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
@@ -162,7 +162,7 @@
       "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.9.0",
       "nvcr.io/nvidia/k8s/container-toolkit:v1.17.9-ubi8",
       "nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8",
-      "nvcr.io/nvidia/cloud-native/dcgm:4.4.1-2-ubi9",
+      "nvcr.io/nvidia/cloud-native/dcgm:4.4.2-1-ubi9",
       "nvcr.io/nvidia/k8s/dcgm-exporter:4.4.1-4.6.0-ubi9",
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8",
@@ -199,5 +199,5 @@
       "timescale/timescaledb-ha:pg17-ts2.23"
     ]
   },
-  "version": "26b66d34"
+  "version": "26805896"
 }
