@@ -111,7 +111,7 @@ FROM registry.k8s.io/metrics-server/metrics-server:v0.8.0
 # registry.k8s.io/metrics-server/metrics-server
 
 # grafana/grafana
-FROM grafana/grafana:12.2.1
+FROM grafana/grafana:12.3.0
 # grafana/grafana
 
 # ghcr.io/prymitive/karma
@@ -139,7 +139,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.19.7
 # docker.elastic.co/beats/elastic-agent
 
 # mongo
-FROM mongo:8.2.1-noble
+FROM mongo:8.2.2-noble
 # mongo
 
 # percona/mongodb_exporter
@@ -171,7 +171,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.5.2
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.6.0
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # quay.io/brancz/kube-rbac-proxy
@@ -439,7 +439,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.21.0
+FROM hashicorp/vault:1.21.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -647,7 +647,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.2-1-ubi9
 # nvcr.io/nvidia/cloud-native/dcgm
 
 # nvcr.io/nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.1-4.6.0-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.2-4.7.0-ubi9
 # nvcr.io/nvidia/k8s/dcgm-exporter
 
 # nvcr.io/nvidia/gpu-feature-discovery
@@ -743,7 +743,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.2-python3.13
+FROM prefecthq/prefect:3.6.3-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
