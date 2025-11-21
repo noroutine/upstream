@@ -775,7 +775,7 @@ FROM influxdb:2.7.12
 # influxdb
 
 # influxdb
-FROM influxdb:3.6.0-core
+FROM influxdb:3.7.0-core
 # influxdb
 
 # timescale/timescaledb-ha
