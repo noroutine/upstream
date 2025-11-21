@@ -603,7 +603,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v2.0.0
 # registry.k8s.io/sig-storage/csi-resizer
 
 # registry.k8s.io/sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v6.0.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v6.1.0
 # registry.k8s.io/sig-storage/csi-provisioner
 
 # registry.k8s.io/sig-storage/csi-snapshotter
