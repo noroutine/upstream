@@ -187,7 +187,7 @@ FROM klutchell/unbound:v1.24.1
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:32.0.1-apache
+FROM nextcloud:32.0.2-apache
 # nextcloud
 
 # docker
@@ -215,7 +215,7 @@ FROM quay.io/frrouting/frr:10.5.0
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.8
+FROM haproxytech/haproxy-alpine:3.2.9
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
