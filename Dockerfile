@@ -215,7 +215,7 @@ FROM quay.io/frrouting/frr:10.5.0
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.8
+FROM haproxytech/haproxy-alpine:3.2.9
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
