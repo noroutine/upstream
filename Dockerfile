@@ -767,7 +767,7 @@ FROM ghcr.io/catthehacker/ubuntu:runner-24.04
 # ghcr.io/catthehacker/ubuntu
 
 # influxdb
-FROM influxdb:1.12.2
+FROM influxdb:2.7.12
 # influxdb
 
 # influxdb
@@ -775,7 +775,7 @@ FROM influxdb:2.7.12
 # influxdb
 
 # influxdb
-FROM influxdb:3.6.0-core
+FROM influxdb:3.7.0-core
 # influxdb
 
 # timescale/timescaledb-ha
