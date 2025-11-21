@@ -159,15 +159,15 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.13.0-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.5.2-ce.0
+FROM gitlab/gitlab-ce:18.6.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.5.0
+FROM gitlab/gitlab-runner:alpine-v18.6.0
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.5.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.0
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -335,11 +335,11 @@ FROM jellyfin/jellyfin:10.11.3
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.57.01
+FROM haveagitgat/tdarr:2.58.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.57.01
+FROM haveagitgat/tdarr_node:2.58.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -603,7 +603,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v2.0.0
 # registry.k8s.io/sig-storage/csi-resizer
 
 # registry.k8s.io/sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v6.0.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v6.1.0
 # registry.k8s.io/sig-storage/csi-provisioner
 
 # registry.k8s.io/sig-storage/csi-snapshotter
