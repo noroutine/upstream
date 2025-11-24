@@ -227,7 +227,7 @@ FROM aquasec/trivy:0.67.2
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v1.0.0
+FROM ghcr.io/external-secrets/external-secrets:v1.1.0
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
@@ -267,7 +267,7 @@ FROM redis:8.4.0
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.80.0
+FROM oliver006/redis_exporter:v1.80.1
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -335,11 +335,11 @@ FROM jellyfin/jellyfin:10.11.3
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.58.01
+FROM haveagitgat/tdarr:2.58.02
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.58.01
+FROM haveagitgat/tdarr_node:2.58.02
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -743,7 +743,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.3-python3.13
+FROM prefecthq/prefect:3.6.4-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
@@ -751,7 +751,7 @@ FROM prefecthq/prometheus-prefect-exporter:3.0.0
 # prefecthq/prometheus-prefect-exporter
 
 # codeberg.org/forgejo/forgejo
-FROM codeberg.org/forgejo/forgejo:13.0.2
+FROM codeberg.org/forgejo/forgejo:13.0.3
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
@@ -775,7 +775,7 @@ FROM influxdb:2.7.12
 # influxdb
 
 # influxdb
-FROM influxdb:3.6.0-core
+FROM influxdb:3.7.0-core
 # influxdb
 
 # timescale/timescaledb-ha
