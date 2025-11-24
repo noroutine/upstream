@@ -25,8 +25,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.27.0",
       "quay.io/prometheus/snmp-exporter:v0.29.0",
       "quay.io/prometheus/pushgateway:v1.11.2",
-      "quay.io/prometheus-operator/prometheus-operator:v0.86.2",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.86.2",
+      "quay.io/prometheus-operator/prometheus-operator:v0.87.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.87.0",
       "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0",
       "registry.k8s.io/metrics-server/metrics-server:v0.8.0",
       "grafana/grafana:12.3.0",
@@ -42,8 +42,8 @@
       "mccutchen/go-httpbin:2.19.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.13.0-alpine",
       "gitlab/gitlab-ce:18.6.0-ce.0",
-      "gitlab/gitlab-runner:alpine-v18.6.0",
-      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.0",
+      "gitlab/gitlab-runner:alpine-v18.6.1",
+      "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.6.0",
       "quay.io/brancz/kube-rbac-proxy:v0.20.0",
       "pihole/pihole:2025.11.0",
@@ -72,7 +72,7 @@
       "boky/postfix:v4.4.0",
       "connecteverything/nats-operator:0.8.0",
       "nats:2.12.2-alpine",
-      "natsio/prometheus-nats-exporter:0.17.3",
+      "natsio/prometheus-nats-exporter:0.18.0",
       "natsio/nats-server-config-reloader:0.20.1",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.22-openssl",
@@ -167,8 +167,8 @@
       "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
       "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.9.1-ubi8",
       "apache/kafka:4.1.1",
-      "quay.io/strimzi/operator:0.48.0",
-      "quay.io/strimzi/kafka:0.48.0-kafka-4.1.0",
+      "quay.io/strimzi/operator:0.49.0",
+      "quay.io/strimzi/kafka:0.49.0-kafka-4.1.1",
       "confluentinc/confluent-init-container:3.1.0",
       "confluentinc/confluent-operator:0.1351.24",
       "confluentinc/cp-enterprise-control-center-next-gen:2.3.0",
@@ -190,7 +190,7 @@
       "prefecthq/prefect:3.6.4-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.3",
-      "code.forgejo.org/forgejo/runner:11.3.1",
+      "code.forgejo.org/forgejo/runner:12.0.1",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
       "influxdb:1.12.2",
@@ -200,5 +200,5 @@
       "poweradmin/poweradmin:4.0.4"
     ]
   },
-  "version": "22cf02af"
+  "version": "7968840d"
 }

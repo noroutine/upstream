@@ -95,11 +95,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.2
 # quay.io/prometheus/pushgateway
 
 # quay.io/prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.86.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.87.0
 # quay.io/prometheus-operator/prometheus-operator
 
 # quay.io/prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.86.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.87.0
 # quay.io/prometheus-operator/prometheus-config-reloader
 
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
@@ -163,11 +163,11 @@ FROM gitlab/gitlab-ce:18.6.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.6.0
+FROM gitlab/gitlab-runner:alpine-v18.6.1
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.1
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -283,7 +283,7 @@ FROM nats:2.12.2-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.17.3
+FROM natsio/prometheus-nats-exporter:0.18.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
@@ -663,11 +663,11 @@ FROM apache/kafka:4.1.1
 # apache/kafka
 
 # quay.io/strimzi/operator
-FROM quay.io/strimzi/operator:0.48.0
+FROM quay.io/strimzi/operator:0.49.0
 # quay.io/strimzi/operator
 
 # quay.io/strimzi/kafka
-FROM quay.io/strimzi/kafka:0.48.0-kafka-4.1.0
+FROM quay.io/strimzi/kafka:0.49.0-kafka-4.1.1
 # quay.io/strimzi/kafka
 
 # confluentinc/confluent-init-container
@@ -755,7 +755,7 @@ FROM codeberg.org/forgejo/forgejo:13.0.3
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:11.3.1
+FROM code.forgejo.org/forgejo/runner:12.0.1
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
