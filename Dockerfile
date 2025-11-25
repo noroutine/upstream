@@ -191,8 +191,12 @@ FROM nextcloud:32.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:29.0.2-dind
+FROM docker:29.0.4-dind
 # docker
+
+# registry
+FROM registry:3.0.0
+# registry
 
 # registry.k8s.io/ingress-nginx/controller
 FROM registry.k8s.io/ingress-nginx/controller:v1.14.0
@@ -403,7 +407,7 @@ FROM fatedier/frpc:v0.65.0
 # fatedier/frpc
 
 # docker.n8n.io/n8nio/n8n
-FROM docker.n8n.io/n8nio/n8n:1.121.0
+FROM docker.n8n.io/n8nio/n8n:1.120.4
 # docker.n8n.io/n8nio/n8n
 
 # netsampler/goflow2
@@ -715,7 +719,7 @@ FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2025.3.3
+FROM scylladb/scylla:2025.3.4
 # scylladb/scylla
 
 # scylladb/scylla-manager
