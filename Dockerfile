@@ -715,7 +715,7 @@ FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2025.3.3
+FROM scylladb/scylla:2025.3.4
 # scylladb/scylla
 
 # scylladb/scylla-manager
