@@ -159,7 +159,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.13.0-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.6.0-ce.0
+FROM gitlab/gitlab-ce:18.6.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -183,7 +183,7 @@ FROM pihole/pihole:2025.11.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.24.1
+FROM klutchell/unbound:v1.24.2
 # klutchell/unbound
 
 # nextcloud
@@ -359,7 +359,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.4.6
+FROM netboxcommunity/netbox:v4.4.7
 # netboxcommunity/netbox
 
 # postgrest/postgrest
