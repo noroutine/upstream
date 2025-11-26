@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.4.5
+FROM quay.io/keycloak/keycloak:26.4.6
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -143,7 +143,7 @@ FROM mongo:8.2.2-noble
 # mongo
 
 # percona/mongodb_exporter
-FROM percona/mongodb_exporter:0.47.1
+FROM percona/mongodb_exporter:0.47.2
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
@@ -163,11 +163,11 @@ FROM gitlab/gitlab-ce:18.6.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.6.1
+FROM gitlab/gitlab-runner:alpine-v18.6.2
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.1
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.2
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -175,7 +175,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # quay.io/brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.20.0
+FROM quay.io/brancz/kube-rbac-proxy:v0.20.1
 # quay.io/brancz/kube-rbac-proxy
 
 # pihole/pihole
@@ -735,7 +735,7 @@ FROM clickhouse:25.10
 # clickhouse
 
 # altinity/clickhouse-operator
-FROM altinity/clickhouse-operator:0.25.5
+FROM altinity/clickhouse-operator:0.25.6
 # altinity/clickhouse-operator
 
 # rabbitmq
