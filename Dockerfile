@@ -143,7 +143,7 @@ FROM mongo:8.2.2-noble
 # mongo
 
 # percona/mongodb_exporter
-FROM percona/mongodb_exporter:0.47.1
+FROM percona/mongodb_exporter:0.47.2
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
