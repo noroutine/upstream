@@ -735,7 +735,7 @@ FROM clickhouse:25.10
 # clickhouse
 
 # altinity/clickhouse-operator
-FROM altinity/clickhouse-operator:0.25.5
+FROM altinity/clickhouse-operator:0.25.6
 # altinity/clickhouse-operator
 
 # rabbitmq
