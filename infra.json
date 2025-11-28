@@ -46,13 +46,13 @@
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.2",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.6.1",
       "quay.io/brancz/kube-rbac-proxy:v0.20.1",
-      "pihole/pihole:2025.11.0",
+      "pihole/pihole:2025.11.1",
       "klutchell/unbound:v1.24.2",
       "nextcloud:32.0.2-apache",
       "docker:29.0.4-dind",
       "registry:3.0.0",
       "registry.k8s.io/ingress-nginx/controller:v1.14.0",
-      "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4",
+      "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5",
       "quay.io/metallb/controller:v0.15.2",
       "quay.io/metallb/speaker:v0.15.2",
       "quay.io/frrouting/frr:10.5.0",
@@ -201,5 +201,5 @@
       "poweradmin/poweradmin:4.0.4"
     ]
   },
-  "version": "20d74115"
+  "version": "00690db4"
 }

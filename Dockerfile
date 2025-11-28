@@ -179,7 +179,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.20.1
 # quay.io/brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2025.11.0
+FROM pihole/pihole:2025.11.1
 # pihole/pihole
 
 # klutchell/unbound
@@ -203,7 +203,7 @@ FROM registry.k8s.io/ingress-nginx/controller:v1.14.0
 # registry.k8s.io/ingress-nginx/controller
 
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen
-FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4
+FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen
 
 # quay.io/metallb/controller
