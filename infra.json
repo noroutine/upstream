@@ -191,7 +191,7 @@
       "prefecthq/prefect:3.6.4-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.3",
-      "code.forgejo.org/forgejo/runner:12.0.1",
+      "code.forgejo.org/forgejo/runner:12.1.0",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
       "influxdb:1.12.2",
@@ -201,5 +201,5 @@
       "poweradmin/poweradmin:4.0.4"
     ]
   },
-  "version": "v0.0.420"
+  "version": "ee164ad3"
 }
