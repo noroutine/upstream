@@ -789,4 +789,3 @@ FROM timescale/timescaledb-ha:pg17-ts2.23
 # poweradmin/poweradmin
 FROM poweradmin/poweradmin:4.0.4
 # poweradmin/poweradmin
-
