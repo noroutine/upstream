@@ -789,3 +789,7 @@ FROM timescale/timescaledb-ha:pg17-ts2.23
 # poweradmin/poweradmin
 FROM poweradmin/poweradmin:4.0.4
 # poweradmin/poweradmin
+
+# cupcakearmy/cryptgeon
+FROM cupcakearmy/cryptgeon:2.9.1
+# cupcakearmy/cryptgeon
