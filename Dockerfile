@@ -23,7 +23,7 @@ FROM python:3.14.0-trixie
 # python
 
 # golang
-FROM golang:1.25.4-trixie
+FROM golang:1.25.5-trixie
 # golang
 
 # traefik
@@ -31,7 +31,7 @@ FROM traefik:v3.6.2
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.86.2
+FROM sonatype/nexus3:3.87.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.4.6
+FROM quay.io/keycloak/keycloak:26.4.7
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -71,7 +71,7 @@ FROM quay.io/coreos/etcd:v3.6.6
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.7.3
+FROM quay.io/prometheus/prometheus:v3.8.0
 # quay.io/prometheus/prometheus
 
 # quay.io/prometheus/alertmanager
@@ -119,23 +119,23 @@ FROM ghcr.io/prymitive/karma:v0.122
 # ghcr.io/prymitive/karma
 
 # docker.elastic.co/elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.2.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.2.2
 # docker.elastic.co/elasticsearch/elasticsearch
 
 # docker.elastic.co/logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.2.1
+FROM docker.elastic.co/logstash/logstash:9.2.2
 # docker.elastic.co/logstash/logstash
 
 # docker.elastic.co/kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.2.1
+FROM docker.elastic.co/kibana/kibana:9.2.2
 # docker.elastic.co/kibana/kibana
 
 # docker.elastic.co/apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.2.1
+FROM docker.elastic.co/apm/apm-server:9.2.2
 # docker.elastic.co/apm/apm-server
 
 # docker.elastic.co/beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.7
+FROM docker.elastic.co/beats/elastic-agent:8.19.8
 # docker.elastic.co/beats/elastic-agent
 
 # mongo
@@ -163,11 +163,11 @@ FROM gitlab/gitlab-ce:18.6.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.6.2
+FROM gitlab/gitlab-runner:alpine-v18.6.3
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.2
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.3
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
@@ -191,7 +191,7 @@ FROM nextcloud:32.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:29.0.4-dind
+FROM docker:29.1.1-dind
 # docker
 
 # registry
@@ -219,7 +219,7 @@ FROM quay.io/frrouting/frr:10.5.0
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.2.9
+FROM haproxytech/haproxy-alpine:3.3.0
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -323,19 +323,19 @@ FROM elastic/eck-operator:3.2.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.11
+FROM syncthing/syncthing:2.0.12
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.11
+FROM syncthing/discosrv:2.0.12
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.11
+FROM syncthing/relaysrv:2.0.12
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.11.3
+FROM jellyfin/jellyfin:10.11.4
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -375,7 +375,7 @@ FROM homeassistant/home-assistant:2025.11
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.6.3
+FROM koenkk/zigbee2mqtt:2.7.0
 # koenkk/zigbee2mqtt
 
 # registry.k8s.io/sig-storage/nfsplugin
@@ -447,7 +447,7 @@ FROM hashicorp/vault:1.21.1
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.7.0
+FROM hashicorp/vault-k8s:1.7.1
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
@@ -635,7 +635,7 @@ FROM nvcr.io/nvidia/cuda:13.0.2-base-ubi9
 # nvcr.io/nvidia/cuda
 
 # nvcr.io/nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.9.0
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.9.1
 # nvcr.io/nvidia/cloud-native/k8s-driver-manager
 
 # nvcr.io/nvidia/k8s/container-toolkit
@@ -731,7 +731,7 @@ FROM scylladb/scylla-operator:1.19
 # scylladb/scylla-operator
 
 # clickhouse
-FROM clickhouse:25.10
+FROM clickhouse:25.11
 # clickhouse
 
 # altinity/clickhouse-operator
