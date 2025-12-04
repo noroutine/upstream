@@ -227,7 +227,7 @@ FROM haproxytech/kubernetes-ingress:3.1.14
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.67.2
+FROM aquasec/trivy:0.68.1
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
