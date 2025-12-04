@@ -707,7 +707,7 @@ FROM confluentinc/cp-server:8.1.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:8.1.0
+FROM confluentinc/cp-server-connect:8.1.1
 # confluentinc/cp-server-connect
 
 # obsidiandynamics/kafdrop
