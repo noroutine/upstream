@@ -703,7 +703,7 @@ FROM confluentinc/cp-schema-registry:8.1.0
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:8.1.0
+FROM confluentinc/cp-server:8.1.1
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
