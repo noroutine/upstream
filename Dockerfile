@@ -7,7 +7,7 @@ FROM ubuntu:noble-20251013
 # ubuntu
 
 # alpine
-FROM alpine:3.22.2
+FROM alpine:3.23.0
 # alpine
 
 # busybox
@@ -19,7 +19,7 @@ FROM node:25.2.1-trixie
 # node
 
 # python
-FROM python:3.14.0-trixie
+FROM python:3.14.1-trixie
 # python
 
 # golang
@@ -191,7 +191,7 @@ FROM nextcloud:32.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:29.1.1-dind
+FROM docker:29.1.2-dind
 # docker
 
 # registry
@@ -227,7 +227,7 @@ FROM haproxytech/kubernetes-ingress:3.1.14
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.67.2
+FROM aquasec/trivy:0.68.1
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
@@ -371,7 +371,7 @@ FROM quay.io/cephcsi/cephcsi:v3.15.1
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2025.11
+FROM homeassistant/home-assistant:2025.12
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -575,15 +575,15 @@ FROM calico/csi:v3.31.2
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.28.0
+FROM istio/pilot:1.28.1
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.28.0
+FROM istio/proxyv2:1.28.1
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.28.0
+FROM istio/ztunnel:1.28.1
 # istio/ztunnel
 
 # registry.k8s.io/nfd/node-feature-discovery
@@ -623,7 +623,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # registry.k8s.io/sig-storage/snapshot-validation-webhook
 
 # nvcr.io/nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v25.10.0
+FROM nvcr.io/nvidia/gpu-operator:v25.10.1
 # nvcr.io/nvidia/gpu-operator
 
 # nvcr.io/nvidia/cloud-native/gpu-operator-validator
@@ -687,27 +687,27 @@ FROM confluentinc/cp-enterprise-control-center-next-gen:2.3.0
 # confluentinc/cp-enterprise-control-center-next-gen
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:8.1.0
+FROM confluentinc/cp-enterprise-replicator:8.1.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:8.1.0
+FROM confluentinc/cp-kafka-rest:8.1.1
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:8.1.0
+FROM confluentinc/cp-ksqldb-server:8.1.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:8.1.0
+FROM confluentinc/cp-schema-registry:8.1.1
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:8.1.0
+FROM confluentinc/cp-server:8.1.1
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:8.1.0
+FROM confluentinc/cp-server-connect:8.1.1
 # confluentinc/cp-server-connect
 
 # obsidiandynamics/kafdrop
