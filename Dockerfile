@@ -695,7 +695,7 @@ FROM confluentinc/cp-kafka-rest:8.1.0
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:8.1.0
+FROM confluentinc/cp-ksqldb-server:8.1.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-schema-registry
