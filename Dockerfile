@@ -199,7 +199,7 @@ FROM registry:3.0.0
 # registry
 
 # registry.k8s.io/ingress-nginx/controller
-FROM registry.k8s.io/ingress-nginx/controller:v1.14.0
+FROM registry.k8s.io/ingress-nginx/controller:v1.14.1
 # registry.k8s.io/ingress-nginx/controller
 
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen
@@ -207,11 +207,11 @@ FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen
 
 # quay.io/metallb/controller
-FROM quay.io/metallb/controller:v0.15.2
+FROM quay.io/metallb/controller:v0.15.3
 # quay.io/metallb/controller
 
 # quay.io/metallb/speaker
-FROM quay.io/metallb/speaker:v0.15.2
+FROM quay.io/metallb/speaker:v0.15.3
 # quay.io/metallb/speaker
 
 # quay.io/frrouting/frr
@@ -747,7 +747,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.4-python3.13
+FROM prefecthq/prefect:3.6.5-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter

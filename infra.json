@@ -1,5 +1,5 @@
 {
-  "version": "aaca24df",
+  "version": "986a3ae8",
   "upstream": {
     "images": [
       "debian:trixie-20251117-slim",
@@ -52,10 +52,10 @@
       "nextcloud:32.0.2-apache",
       "docker:29.1.2-dind",
       "registry:3.0.0",
-      "registry.k8s.io/ingress-nginx/controller:v1.14.0",
+      "registry.k8s.io/ingress-nginx/controller:v1.14.1",
       "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5",
-      "quay.io/metallb/controller:v0.15.2",
-      "quay.io/metallb/speaker:v0.15.2",
+      "quay.io/metallb/controller:v0.15.3",
+      "quay.io/metallb/speaker:v0.15.3",
       "quay.io/frrouting/frr:10.5.0",
       "haproxytech/haproxy-alpine:3.3.0",
       "haproxytech/kubernetes-ingress:3.1.14",
@@ -189,7 +189,7 @@
       "altinity/clickhouse-operator:0.25.6",
       "rabbitmq:4.2.1",
       "kbudde/rabbitmq-exporter:1.0.0",
-      "prefecthq/prefect:3.6.4-python3.13",
+      "prefecthq/prefect:3.6.5-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.3",
       "code.forgejo.org/forgejo/runner:12.1.0",
