@@ -793,3 +793,7 @@ FROM poweradmin/poweradmin:4.0.4
 # cupcakearmy/cryptgeon
 FROM cupcakearmy/cryptgeon:2.9.1
 # cupcakearmy/cryptgeon
+
+# cr.noroutine.me/catalyst/tls-leech
+FROM cr.noroutine.me/catalyst/tls-leech:v0.1.1
+# cr.noroutine.me/catalyst/tls-leech
