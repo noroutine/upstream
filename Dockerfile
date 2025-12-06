@@ -231,7 +231,7 @@ FROM aquasec/trivy:0.68.1
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v1.1.0
+FROM ghcr.io/external-secrets/external-secrets:v1.1.1
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
@@ -291,7 +291,7 @@ FROM natsio/prometheus-nats-exporter:0.18.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.20.1
+FROM natsio/nats-server-config-reloader:0.21.0
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -667,11 +667,11 @@ FROM apache/kafka:4.1.1
 # apache/kafka
 
 # quay.io/strimzi/operator
-FROM quay.io/strimzi/operator:0.49.0
+FROM quay.io/strimzi/operator:0.49.1
 # quay.io/strimzi/operator
 
 # quay.io/strimzi/kafka
-FROM quay.io/strimzi/kafka:0.49.0-kafka-4.1.1
+FROM quay.io/strimzi/kafka:0.49.1-kafka-4.1.1
 # quay.io/strimzi/kafka
 
 # confluentinc/confluent-init-container
@@ -759,7 +759,7 @@ FROM codeberg.org/forgejo/forgejo:13.0.3
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:12.1.0
+FROM code.forgejo.org/forgejo/runner:12.1.1
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
