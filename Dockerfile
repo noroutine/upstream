@@ -27,7 +27,7 @@ FROM golang:1.25.5-trixie
 # golang
 
 # traefik
-FROM traefik:v3.6.2
+FROM traefik:v3.6.4
 # traefik
 
 # sonatype/nexus3
@@ -291,7 +291,7 @@ FROM natsio/prometheus-nats-exporter:0.18.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.21.0
+FROM natsio/nats-server-config-reloader:0.21.1
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go

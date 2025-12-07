@@ -1,5 +1,5 @@
 {
-  "version": "17c066c8",
+  "version": "7cf9ce82",
   "upstream": {
     "images": [
       "debian:trixie-20251117-slim",
@@ -9,7 +9,7 @@
       "node:25.2.1-trixie",
       "python:3.14.1-trixie",
       "golang:1.25.5-trixie",
-      "traefik:v3.6.2",
+      "traefik:v3.6.4",
       "sonatype/nexus3:3.87.0",
       "squidfunk/mkdocs-material:9.7.0",
       "freeradius/freeradius-server:3.2.8-alpine",
@@ -75,7 +75,7 @@
       "connecteverything/nats-operator:0.8.0",
       "nats:2.12.2-alpine",
       "natsio/prometheus-nats-exporter:0.18.0",
-      "natsio/nats-server-config-reloader:0.21.0",
+      "natsio/nats-server-config-reloader:0.21.1",
       "masipcat/wireguard-go:0.0.20230223",
       "eclipse-mosquitto:2.0.22-openssl",
       "sapcc/mosquitto-exporter:0.8.0",
