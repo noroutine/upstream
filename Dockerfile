@@ -83,7 +83,7 @@ FROM quay.io/prometheus/node-exporter:v1.10.2
 # quay.io/prometheus/node-exporter
 
 # quay.io/prometheus/blackbox-exporter
-FROM quay.io/prometheus/blackbox-exporter:v0.27.0
+FROM quay.io/prometheus/blackbox-exporter:v0.28.0
 # quay.io/prometheus/blackbox-exporter
 
 # quay.io/prometheus/snmp-exporter
@@ -375,7 +375,7 @@ FROM homeassistant/home-assistant:2025.12
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.7.0
+FROM koenkk/zigbee2mqtt:2.7.1
 # koenkk/zigbee2mqtt
 
 # registry.k8s.io/sig-storage/nfsplugin
@@ -759,7 +759,7 @@ FROM codeberg.org/forgejo/forgejo:13.0.3
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:12.1.1
+FROM code.forgejo.org/forgejo/runner:12.1.2
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu

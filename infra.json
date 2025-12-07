@@ -1,5 +1,5 @@
 {
-  "version": "7cf9ce82",
+  "version": "cf95c61d",
   "upstream": {
     "images": [
       "debian:trixie-20251117-slim",
@@ -23,7 +23,7 @@
       "quay.io/prometheus/prometheus:v3.8.0",
       "quay.io/prometheus/alertmanager:v0.29.0",
       "quay.io/prometheus/node-exporter:v1.10.2",
-      "quay.io/prometheus/blackbox-exporter:v0.27.0",
+      "quay.io/prometheus/blackbox-exporter:v0.28.0",
       "quay.io/prometheus/snmp-exporter:v0.29.0",
       "quay.io/prometheus/pushgateway:v1.11.2",
       "quay.io/prometheus-operator/prometheus-operator:v0.87.0",
@@ -96,7 +96,7 @@
       "postgrest/postgrest:v14.1",
       "quay.io/cephcsi/cephcsi:v3.15.1",
       "homeassistant/home-assistant:2025.12",
-      "koenkk/zigbee2mqtt:2.7.0",
+      "koenkk/zigbee2mqtt:2.7.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.12.1",
       "cloudflare/cloudflared:2025.11.1",
       "registry.k8s.io/git-sync/git-sync:v4.5.0",
@@ -192,7 +192,7 @@
       "prefecthq/prefect:3.6.5-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.3",
-      "code.forgejo.org/forgejo/runner:12.1.1",
+      "code.forgejo.org/forgejo/runner:12.1.2",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
       "influxdb:1.12.2",
