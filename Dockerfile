@@ -163,11 +163,11 @@ FROM gitlab/gitlab-ce:18.6.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.6.3
+FROM gitlab/gitlab-runner:alpine-v18.6.5
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.3
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.6.5
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
