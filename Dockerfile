@@ -463,7 +463,7 @@ FROM registry.k8s.io/coredns/coredns:v1.13.1
 # registry.k8s.io/coredns/coredns
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.34.2
+FROM registry.k8s.io/kube-apiserver:v1.34.3
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
@@ -479,7 +479,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.34.2
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.34.1
+FROM registry.k8s.io/kube-apiserver:v1.34.3
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
@@ -495,7 +495,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.34.1
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.33.6
+FROM registry.k8s.io/kube-apiserver:v1.34.3
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
@@ -511,7 +511,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.33.6
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.33.5
+FROM registry.k8s.io/kube-apiserver:v1.34.3
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
