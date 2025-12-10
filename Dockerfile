@@ -423,7 +423,7 @@ FROM quay.io/openbgpd/openbgpd:8.9
 # quay.io/openbgpd/openbgpd
 
 # quay.io/jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.19.1
+FROM quay.io/jetstack/cert-manager-controller:v1.19.2
 # quay.io/jetstack/cert-manager-controller
 
 # quay.io/jetstack/cert-manager-cainjector
