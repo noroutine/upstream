@@ -71,7 +71,7 @@ FROM quay.io/coreos/etcd:v3.6.6
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.8.0
+FROM quay.io/prometheus/prometheus:v3.8.1
 # quay.io/prometheus/prometheus
 
 # quay.io/prometheus/alertmanager
@@ -463,6 +463,22 @@ FROM registry.k8s.io/coredns/coredns:v1.13.2
 # registry.k8s.io/coredns/coredns
 
 # registry.k8s.io/kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.34.3
+# registry.k8s.io/kube-apiserver
+
+# registry.k8s.io/kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.34.3
+# registry.k8s.io/kube-proxy
+
+# registry.k8s.io/kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.34.3
+# registry.k8s.io/kube-scheduler
+
+# registry.k8s.io/kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.34.3
+# registry.k8s.io/kube-controller-manager
+
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.34.2
 # registry.k8s.io/kube-apiserver
 
@@ -479,19 +495,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.34.2
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.34.1
+FROM registry.k8s.io/kube-apiserver:v1.33.7
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.34.1
+FROM registry.k8s.io/kube-proxy:v1.33.7
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.34.1
+FROM registry.k8s.io/kube-scheduler:v1.33.7
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.34.1
+FROM registry.k8s.io/kube-controller-manager:v1.33.7
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -508,22 +524,6 @@ FROM registry.k8s.io/kube-scheduler:v1.33.6
 
 # registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.33.6
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.34.3
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.34.3
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.34.3
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.34.3
 # registry.k8s.io/kube-controller-manager
 
 # rancher/kubectl
@@ -747,7 +747,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.5-python3.13
+FROM prefecthq/prefect:3.6.6-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
@@ -775,11 +775,11 @@ FROM influxdb:1.12.2
 # influxdb
 
 # influxdb
-FROM influxdb:2.7.12
+FROM influxdb:2.8.0
 # influxdb
 
 # influxdb
-FROM influxdb:2.8.0
+FROM influxdb:3.7.0-core
 # influxdb
 
 # timescale/timescaledb-ha
