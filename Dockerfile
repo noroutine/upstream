@@ -491,7 +491,7 @@ FROM registry.k8s.io/kube-scheduler:v1.34.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.34.2
+FROM registry.k8s.io/kube-controller-manager:v1.34.3
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -507,7 +507,7 @@ FROM registry.k8s.io/kube-scheduler:v1.33.7
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.33.7
+FROM registry.k8s.io/kube-controller-manager:v1.34.3
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -523,7 +523,7 @@ FROM registry.k8s.io/kube-scheduler:v1.33.6
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.33.6
+FROM registry.k8s.io/kube-controller-manager:v1.34.3
 # registry.k8s.io/kube-controller-manager
 
 # rancher/kubectl
