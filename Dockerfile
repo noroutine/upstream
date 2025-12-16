@@ -235,7 +235,7 @@ FROM ghcr.io/external-secrets/external-secrets:v1.1.1
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
-FROM registry.k8s.io/csi-secrets-store/driver:v1.5.4
+FROM registry.k8s.io/csi-secrets-store/driver:v1.5.5
 # registry.k8s.io/csi-secrets-store/driver
 
 # registry.k8s.io/csi-secrets-store/driver-crds
