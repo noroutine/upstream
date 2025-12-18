@@ -63,11 +63,11 @@ FROM quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z
 # quay.io/minio/mc
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.25
+FROM quay.io/coreos/etcd:v3.6.7
 # quay.io/coreos/etcd
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.6
+FROM quay.io/coreos/etcd:v3.6.7
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
