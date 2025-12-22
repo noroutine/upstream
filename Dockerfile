@@ -527,7 +527,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.33.6
 # registry.k8s.io/kube-controller-manager
 
 # rancher/kubectl
-FROM rancher/kubectl:v1.34.3
+FROM rancher/kubectl:v1.35.0
 # rancher/kubectl
 
 # quay.io/tigera/operator
