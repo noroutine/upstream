@@ -723,7 +723,7 @@ FROM scylladb/scylla:2025.3.5
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.7.0
+FROM scylladb/scylla-manager:3.8.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
