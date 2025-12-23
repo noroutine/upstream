@@ -583,7 +583,7 @@ FROM istio/proxyv2:1.28.1
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.28.1
+FROM istio/ztunnel:1.28.2
 # istio/ztunnel
 
 # registry.k8s.io/nfd/node-feature-discovery
