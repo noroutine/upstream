@@ -359,7 +359,7 @@ FROM coturn/coturn:4.7.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.4.8
+FROM netboxcommunity/netbox:v4.4.9
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -811,7 +811,7 @@ FROM influxdb:2.8.0
 # influxdb
 
 # influxdb
-FROM influxdb:3.7.0-core
+FROM influxdb:3.8.0-core
 # influxdb
 
 # timescale/timescaledb-ha

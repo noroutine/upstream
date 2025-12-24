@@ -1,5 +1,5 @@
 {
-  "version": "515f121d",
+  "version": "c4caaea9",
   "upstream": {
     "images": [
       "debian:trixie-20251208-slim",
@@ -92,7 +92,7 @@
       "curlimages/curl:8.17.0",
       "restic/restic:0.18.1",
       "coturn/coturn:4.7.0",
-      "netboxcommunity/netbox:v4.4.8",
+      "netboxcommunity/netbox:v4.4.9",
       "postgrest/postgrest:v14.2",
       "quay.io/cephcsi/cephcsi:v3.15.1",
       "homeassistant/home-assistant:2025.12",
@@ -205,7 +205,7 @@
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
       "influxdb:1.12.2",
       "influxdb:2.8.0",
-      "influxdb:3.7.0-core",
+      "influxdb:3.8.0-core",
       "timescale/timescaledb-ha:pg17-ts2.23",
       "poweradmin/poweradmin:4.0.4",
       "cupcakearmy/cryptgeon:2.9.1",
