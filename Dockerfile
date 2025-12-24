@@ -811,7 +811,7 @@ FROM influxdb:2.8.0
 # influxdb
 
 # influxdb
-FROM influxdb:3.7.0-core
+FROM influxdb:3.8.0-core
 # influxdb
 
 # timescale/timescaledb-ha
