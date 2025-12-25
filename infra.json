@@ -1,5 +1,5 @@
 {
-  "version": "fe10486f",
+  "version": "23bc7982",
   "upstream": {
     "images": [
       "debian:trixie-20251208-slim",
@@ -58,7 +58,7 @@
       "quay.io/metallb/speaker:v0.15.3",
       "quay.io/frrouting/frr:10.5.0",
       "haproxytech/haproxy-alpine:3.3.1",
-      "haproxytech/kubernetes-ingress:3.2.2",
+      "haproxytech/kubernetes-ingress:3.2.3",
       "aquasec/trivy:0.68.2",
       "ghcr.io/external-secrets/external-secrets:v1.2.0",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.5",
@@ -197,10 +197,10 @@
       "altinity/clickhouse-operator:0.26.0",
       "rabbitmq:4.2.2",
       "kbudde/rabbitmq-exporter:1.0.0",
-      "prefecthq/prefect:3.6.7-python3.13",
+      "prefecthq/prefect:3.6.8-python3.13",
       "prefecthq/prometheus-prefect-exporter:3.0.0",
       "codeberg.org/forgejo/forgejo:13.0.3",
-      "code.forgejo.org/forgejo/runner:12.3.0",
+      "code.forgejo.org/forgejo/runner:12.3.1",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
       "influxdb:1.12.2",

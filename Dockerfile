@@ -223,7 +223,7 @@ FROM haproxytech/haproxy-alpine:3.3.1
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.2.2
+FROM haproxytech/kubernetes-ingress:3.2.3
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -779,7 +779,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.7-python3.13
+FROM prefecthq/prefect:3.6.8-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
@@ -791,7 +791,7 @@ FROM codeberg.org/forgejo/forgejo:13.0.3
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:12.3.0
+FROM code.forgejo.org/forgejo/runner:12.3.1
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
