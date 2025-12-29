@@ -411,7 +411,7 @@ FROM n8nio/n8n:stable
 # n8nio/n8n
 
 # netsampler/goflow2
-FROM netsampler/goflow2:v2.2.3
+FROM netsampler/goflow2:v2.2.6
 # netsampler/goflow2
 
 # ghcr.io/corentinth/it-tools
