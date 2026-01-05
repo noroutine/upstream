@@ -275,7 +275,7 @@ FROM oliver006/redis_exporter:v1.80.1
 # oliver006/redis_exporter
 
 # boky/postfix
-FROM boky/postfix:5.0.1
+FROM boky/postfix:5.1.0
 # boky/postfix
 
 # connecteverything/nats-operator
