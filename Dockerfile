@@ -87,7 +87,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.28.0
 # quay.io/prometheus/blackbox-exporter
 
 # quay.io/prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.29.0
+FROM quay.io/prometheus/snmp-exporter:v0.30.0
 # quay.io/prometheus/snmp-exporter
 
 # quay.io/prometheus/pushgateway
