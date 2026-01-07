@@ -71,7 +71,7 @@ FROM quay.io/coreos/etcd:v3.6.7
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.8.1
+FROM quay.io/prometheus/prometheus:v3.9.0
 # quay.io/prometheus/prometheus
 
 # quay.io/prometheus/alertmanager
