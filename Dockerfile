@@ -327,7 +327,7 @@ FROM syncthing/syncthing:2.0.12
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.12
+FROM syncthing/discosrv:2.0.13
 # syncthing/discosrv
 
 # syncthing/relaysrv
