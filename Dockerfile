@@ -163,7 +163,7 @@ FROM gitlab/gitlab-ce:18.7.0-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v18.7.1
+FROM gitlab/gitlab-runner:alpine-v18.7.2
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
