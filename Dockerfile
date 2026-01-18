@@ -787,7 +787,7 @@ FROM prefecthq/prometheus-prefect-exporter:3.0.0
 # prefecthq/prometheus-prefect-exporter
 
 # codeberg.org/forgejo/forgejo
-FROM codeberg.org/forgejo/forgejo:14.0.0
+FROM codeberg.org/forgejo/forgejo:14.0.1
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
