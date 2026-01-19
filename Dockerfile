@@ -699,7 +699,7 @@ FROM apache/kafka:4.1.1
 # apache/kafka
 
 # quay.io/strimzi/operator
-FROM quay.io/strimzi/operator:0.49.1
+FROM quay.io/strimzi/operator:0.50.0
 # quay.io/strimzi/operator
 
 # quay.io/strimzi/kafka
