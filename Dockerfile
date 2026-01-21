@@ -383,7 +383,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.1
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.11.1
+FROM cloudflare/cloudflared:2026.1.1
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
