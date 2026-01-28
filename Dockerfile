@@ -271,7 +271,7 @@ FROM redis:8.4.0
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.80.1
+FROM oliver006/redis_exporter:v1.80.2
 # oliver006/redis_exporter
 
 # boky/postfix
