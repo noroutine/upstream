@@ -107,7 +107,7 @@ FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
 
 # registry.k8s.io/metrics-server/metrics-server
-FROM registry.k8s.io/metrics-server/metrics-server:v0.8.0
+FROM registry.k8s.io/metrics-server/metrics-server:v0.8.1
 # registry.k8s.io/metrics-server/metrics-server
 
 # grafana/grafana
