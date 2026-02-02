@@ -399,7 +399,7 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # fatedier/frps
-FROM fatedier/frps:v0.66.0
+FROM fatedier/frps:v0.67.0
 # fatedier/frps
 
 # fatedier/frpc
