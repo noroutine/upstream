@@ -199,7 +199,7 @@ FROM registry:3.0.0
 # registry
 
 # registry.k8s.io/ingress-nginx/controller
-FROM registry.k8s.io/ingress-nginx/controller:v1.14.1
+FROM registry.k8s.io/ingress-nginx/controller:v1.14.3
 # registry.k8s.io/ingress-nginx/controller
 
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen
