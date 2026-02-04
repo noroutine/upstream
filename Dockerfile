@@ -331,7 +331,7 @@ FROM syncthing/discosrv:2.0.13
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.13
+FROM syncthing/relaysrv:2.0.14
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
