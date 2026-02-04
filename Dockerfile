@@ -131,7 +131,7 @@ FROM docker.elastic.co/kibana/kibana:9.2.4
 # docker.elastic.co/kibana/kibana
 
 # docker.elastic.co/apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.2.4
+FROM docker.elastic.co/apm/apm-server:9.3.0
 # docker.elastic.co/apm/apm-server
 
 # docker.elastic.co/beats/elastic-agent
