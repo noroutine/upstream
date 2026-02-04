@@ -319,7 +319,7 @@ FROM eclipse-temurin:25-noble
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:3.2.0
+FROM elastic/eck-operator:3.3.0
 # elastic/eck-operator
 
 # syncthing/syncthing
