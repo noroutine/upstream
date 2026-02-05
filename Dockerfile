@@ -1,5 +1,5 @@
 # debian
-FROM debian:trixie-20260112-slim
+FROM debian:trixie-20260202-slim
 # debian
 
 # ubuntu
@@ -7,7 +7,7 @@ FROM ubuntu:noble-20260113
 # ubuntu
 
 # alpine
-FROM alpine:3.23.2
+FROM alpine:3.23.3
 # alpine
 
 # busybox
@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:25.3.0-trixie
+FROM node:25.6.0-trixie
 # node
 
 # python
@@ -23,7 +23,7 @@ FROM python:3.14.2-trixie
 # python
 
 # golang
-FROM golang:1.26rc2-trixie
+FROM golang:1.25.7-trixie
 # golang
 
 # traefik
@@ -31,7 +31,7 @@ FROM traefik:3.6.7
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.88.0
+FROM sonatype/nexus3:3.89.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.5.1
+FROM quay.io/keycloak/keycloak:26.5.2
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -51,7 +51,7 @@ FROM postgres:18.1-trixie
 # postgres
 
 # prometheuscommunity/postgres-exporter
-FROM prometheuscommunity/postgres-exporter:v0.18.1
+FROM prometheuscommunity/postgres-exporter:v0.19.0
 # prometheuscommunity/postgres-exporter
 
 # quay.io/minio/minio
@@ -75,7 +75,7 @@ FROM quay.io/prometheus/prometheus:v3.9.1
 # quay.io/prometheus/prometheus
 
 # quay.io/prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.30.1
+FROM quay.io/prometheus/alertmanager:v0.31.0
 # quay.io/prometheus/alertmanager
 
 # quay.io/prometheus/node-exporter
@@ -95,23 +95,23 @@ FROM quay.io/prometheus/pushgateway:v1.11.2
 # quay.io/prometheus/pushgateway
 
 # quay.io/prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.88.0
+FROM quay.io/prometheus-operator/prometheus-operator:v0.88.1
 # quay.io/prometheus-operator/prometheus-operator
 
 # quay.io/prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.88.0
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.88.1
 # quay.io/prometheus-operator/prometheus-config-reloader
 
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
-FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0
+FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
 
 # registry.k8s.io/metrics-server/metrics-server
-FROM registry.k8s.io/metrics-server/metrics-server:v0.8.0
+FROM registry.k8s.io/metrics-server/metrics-server:v0.8.1
 # registry.k8s.io/metrics-server/metrics-server
 
 # grafana/grafana
-FROM grafana/grafana:12.3.1
+FROM grafana/grafana:12.3.2
 # grafana/grafana
 
 # ghcr.io/prymitive/karma
@@ -119,27 +119,27 @@ FROM ghcr.io/prymitive/karma:v0.122
 # ghcr.io/prymitive/karma
 
 # docker.elastic.co/elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.2.4
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.3.0
 # docker.elastic.co/elasticsearch/elasticsearch
 
 # docker.elastic.co/logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.2.4
+FROM docker.elastic.co/logstash/logstash:9.3.0
 # docker.elastic.co/logstash/logstash
 
 # docker.elastic.co/kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.2.4
+FROM docker.elastic.co/kibana/kibana:9.3.0
 # docker.elastic.co/kibana/kibana
 
 # docker.elastic.co/apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.2.4
+FROM docker.elastic.co/apm/apm-server:9.3.0
 # docker.elastic.co/apm/apm-server
 
 # docker.elastic.co/beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.10
+FROM docker.elastic.co/beats/elastic-agent:8.19.11
 # docker.elastic.co/beats/elastic-agent
 
 # mongo
-FROM mongo:8.2.3-noble
+FROM mongo:8.2.4-noble
 # mongo
 
 # percona/mongodb_exporter
@@ -155,11 +155,11 @@ FROM mccutchen/go-httpbin:2.20.0
 # mccutchen/go-httpbin
 
 # quay.io/oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.13.0-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.14.2-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.8.0-ce.0
+FROM gitlab/gitlab-ce:18.8.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -171,7 +171,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.8.0
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.8.3
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # quay.io/brancz/kube-rbac-proxy
@@ -187,11 +187,11 @@ FROM klutchell/unbound:v1.24.2
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:32.0.4-apache
+FROM nextcloud:32.0.5-apache
 # nextcloud
 
 # docker
-FROM docker:29.1.4-dind
+FROM docker:29.2.1-dind
 # docker
 
 # registry
@@ -199,11 +199,11 @@ FROM registry:3.0.0
 # registry
 
 # registry.k8s.io/ingress-nginx/controller
-FROM registry.k8s.io/ingress-nginx/controller:v1.14.1
+FROM registry.k8s.io/ingress-nginx/controller:v1.14.3
 # registry.k8s.io/ingress-nginx/controller
 
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen
-FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5
+FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.7
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen
 
 # quay.io/metallb/controller
@@ -219,19 +219,19 @@ FROM quay.io/frrouting/frr:10.5.1
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.3.1
+FROM haproxytech/haproxy-alpine:3.3.2
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.2.4
+FROM haproxytech/kubernetes-ingress:3.2.5
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.68.2
+FROM aquasec/trivy:0.69.0
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v1.2.1
+FROM ghcr.io/external-secrets/external-secrets:v1.3.2
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
@@ -259,11 +259,11 @@ FROM ghcr.io/dexidp/dex:v2.44.0
 # ghcr.io/dexidp/dex
 
 # quay.io/argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.2.5
+FROM quay.io/argoproj/argocd:v3.3.0
 # quay.io/argoproj/argocd
 
 # valkey/valkey
-FROM valkey/valkey:9.0.1
+FROM valkey/valkey:9.0.2
 # valkey/valkey
 
 # redis
@@ -271,7 +271,7 @@ FROM redis:8.4.0
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.80.1
+FROM oliver006/redis_exporter:v1.80.2
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -283,15 +283,15 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.12.3-alpine
+FROM nats:2.12.4-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.18.0
+FROM natsio/prometheus-nats-exporter:0.19.0
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.21.1
+FROM natsio/nats-server-config-reloader:0.22.1
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -311,7 +311,7 @@ FROM caddy:2.10.2-alpine
 # caddy
 
 # azul/zulu-openjdk-debian
-FROM azul/zulu-openjdk-debian:25.0.1-25.30
+FROM azul/zulu-openjdk-debian:25.0.2-25.32
 # azul/zulu-openjdk-debian
 
 # eclipse-temurin
@@ -319,23 +319,23 @@ FROM eclipse-temurin:25-noble
 # eclipse-temurin
 
 # elastic/eck-operator
-FROM elastic/eck-operator:3.2.0
+FROM elastic/eck-operator:3.3.0
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.13
+FROM syncthing/syncthing:2.0.14
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.13
+FROM syncthing/discosrv:2.0.14
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.13
+FROM syncthing/relaysrv:2.0.14
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
-FROM jellyfin/jellyfin:10.11.5
+FROM jellyfin/jellyfin:10.11.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
@@ -359,11 +359,11 @@ FROM coturn/coturn:4.8.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.5.0
+FROM netboxcommunity/netbox:v4.5.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v14.3
+FROM postgrest/postgrest:v14.4
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
@@ -371,19 +371,19 @@ FROM quay.io/cephcsi/cephcsi:v3.16.0
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2026.1
+FROM homeassistant/home-assistant:2026.2
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.7.2
+FROM koenkk/zigbee2mqtt:2.8.0
 # koenkk/zigbee2mqtt
 
 # registry.k8s.io/sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.12.1
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.0
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2025.11.1
+FROM cloudflare/cloudflared:2026.1.2
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
@@ -391,7 +391,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.5.1
 # registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
-FROM apache/airflow:3.1.6-python3.13
+FROM apache/airflow:3.1.7-python3.13
 # apache/airflow
 
 # sj26/mailcatcher
@@ -399,11 +399,11 @@ FROM sj26/mailcatcher:v0.10.0
 # sj26/mailcatcher
 
 # fatedier/frps
-FROM fatedier/frps:v0.66.0
+FROM fatedier/frps:v0.67.0
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.66.0
+FROM fatedier/frpc:v0.67.0
 # fatedier/frpc
 
 # n8nio/n8n
@@ -423,15 +423,15 @@ FROM quay.io/openbgpd/openbgpd:9.0
 # quay.io/openbgpd/openbgpd
 
 # quay.io/jetstack/cert-manager-controller
-FROM quay.io/jetstack/cert-manager-controller:v1.19.2
+FROM quay.io/jetstack/cert-manager-controller:v1.19.3
 # quay.io/jetstack/cert-manager-controller
 
 # quay.io/jetstack/cert-manager-cainjector
-FROM quay.io/jetstack/cert-manager-cainjector:v1.19.2
+FROM quay.io/jetstack/cert-manager-cainjector:v1.19.3
 # quay.io/jetstack/cert-manager-cainjector
 
 # quay.io/jetstack/cert-manager-webhook
-FROM quay.io/jetstack/cert-manager-webhook:v1.19.2
+FROM quay.io/jetstack/cert-manager-webhook:v1.19.3
 # quay.io/jetstack/cert-manager-webhook
 
 # quay.io/jetstack/cert-manager-csi-driver
@@ -443,7 +443,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.21.2
+FROM hashicorp/vault:1.21.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -459,7 +459,7 @@ FROM registry.k8s.io/pause:3.10
 # registry.k8s.io/pause
 
 # registry.k8s.io/coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.13.2
+FROM registry.k8s.io/coredns/coredns:v1.14.1
 # registry.k8s.io/coredns/coredns
 
 # registry.k8s.io/kube-apiserver
@@ -563,7 +563,7 @@ FROM rancher/kubectl:v1.35.0
 # rancher/kubectl
 
 # quay.io/tigera/operator
-FROM quay.io/tigera/operator:v1.40.4
+FROM quay.io/tigera/operator:v1.40.5
 # quay.io/tigera/operator
 
 # calico/typha
@@ -607,15 +607,15 @@ FROM calico/csi:v3.31.3
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.28.2
+FROM istio/pilot:1.28.3
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.28.2
+FROM istio/proxyv2:1.28.3
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.28.2
+FROM istio/ztunnel:1.28.3
 # istio/ztunnel
 
 # registry.k8s.io/nfd/node-feature-discovery
@@ -663,7 +663,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.4
 # nvcr.io/nvidia/cloud-native/gpu-operator-validator
 
 # nvcr.io/nvidia/cuda
-FROM nvcr.io/nvidia/cuda:13.1.0-base-ubi9
+FROM nvcr.io/nvidia/cuda:13.1.1-base-ubi9
 # nvcr.io/nvidia/cuda
 
 # nvcr.io/nvidia/cloud-native/k8s-driver-manager
@@ -679,7 +679,7 @@ FROM nvcr.io/nvidia/k8s-device-plugin:v0.16.2-ubi8
 # nvcr.io/nvidia/k8s-device-plugin
 
 # nvcr.io/nvidia/cloud-native/dcgm
-FROM nvcr.io/nvidia/cloud-native/dcgm:4.4.2-1-ubi9
+FROM nvcr.io/nvidia/cloud-native/dcgm:4.5.1-1-ubi9
 # nvcr.io/nvidia/cloud-native/dcgm
 
 # nvcr.io/nvidia/k8s/dcgm-exporter
@@ -699,11 +699,11 @@ FROM apache/kafka:4.1.1
 # apache/kafka
 
 # quay.io/strimzi/operator
-FROM quay.io/strimzi/operator:0.49.1
+FROM quay.io/strimzi/operator:0.50.0
 # quay.io/strimzi/operator
 
 # quay.io/strimzi/kafka
-FROM quay.io/strimzi/kafka:0.49.1-kafka-4.1.1
+FROM quay.io/strimzi/kafka:0.50.0-kafka-4.1.1
 # quay.io/strimzi/kafka
 
 # confluentinc/confluent-init-container
@@ -715,7 +715,7 @@ FROM confluentinc/confluent-operator:0.1351.59
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center-next-gen
-FROM confluentinc/cp-enterprise-control-center-next-gen:2.3.1
+FROM confluentinc/cp-enterprise-control-center-next-gen:2.4.0
 # confluentinc/cp-enterprise-control-center-next-gen
 
 # confluentinc/cp-enterprise-replicator
@@ -751,7 +751,7 @@ FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2025.4.1
+FROM scylladb/scylla:2025.4.2
 # scylladb/scylla
 
 # scylladb/scylla-manager
@@ -759,11 +759,11 @@ FROM scylladb/scylla-manager:3.8.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.19
+FROM scylladb/scylla-operator:1.19.1
 # scylladb/scylla-operator
 
 # clickhouse
-FROM clickhouse:25.12
+FROM clickhouse:26.1
 # clickhouse
 
 # altinity/clickhouse-operator
@@ -771,7 +771,7 @@ FROM altinity/clickhouse-operator:0.26.0
 # altinity/clickhouse-operator
 
 # rabbitmq
-FROM rabbitmq:4.2.2
+FROM rabbitmq:4.2.3
 # rabbitmq
 
 # kbudde/rabbitmq-exporter
@@ -787,11 +787,11 @@ FROM prefecthq/prometheus-prefect-exporter:3.0.0
 # prefecthq/prometheus-prefect-exporter
 
 # codeberg.org/forgejo/forgejo
-FROM codeberg.org/forgejo/forgejo:14.0.0
+FROM codeberg.org/forgejo/forgejo:14.0.2
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:12.5.2
+FROM code.forgejo.org/forgejo/runner:12.6.3
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
@@ -819,7 +819,7 @@ FROM timescale/timescaledb-ha:pg17-ts2.23
 # timescale/timescaledb-ha
 
 # poweradmin/poweradmin
-FROM poweradmin/poweradmin:4.0.4
+FROM poweradmin/poweradmin:4.0.6
 # poweradmin/poweradmin
 
 # cupcakearmy/cryptgeon
