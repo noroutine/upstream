@@ -19,7 +19,7 @@ FROM node:25.3.0-trixie
 # node
 
 # python
-FROM python:3.14.2-trixie
+FROM python:3.15.0a5-trixie
 # python
 
 # golang
