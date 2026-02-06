@@ -147,7 +147,7 @@ FROM percona/mongodb_exporter:0.47.2
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.11
+FROM dpage/pgadmin4:9.12
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -227,7 +227,7 @@ FROM haproxytech/kubernetes-ingress:3.2.5
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.69.0
+FROM aquasec/trivy:0.69.1
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
@@ -287,7 +287,7 @@ FROM nats:2.12.4-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.19.0
+FROM natsio/prometheus-nats-exporter:0.19.1
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
@@ -779,7 +779,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.11-python3.13
+FROM prefecthq/prefect:3.6.16-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
