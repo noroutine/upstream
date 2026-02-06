@@ -1,5 +1,5 @@
 {
-  "version": "b52bb6b9",
+  "version": "633fb718",
   "upstream": {
     "images": [
       "debian:trixie-20260202-slim",
@@ -7,7 +7,7 @@
       "alpine:3.23.3",
       "busybox:1.37.0",
       "node:25.6.0-trixie",
-      "python:3.14.2-trixie",
+      "python:3.14.3-trixie",
       "golang:1.25.7-trixie",
       "traefik:3.6.7",
       "sonatype/nexus3:3.89.0",
@@ -26,8 +26,8 @@
       "quay.io/prometheus/blackbox-exporter:v0.28.0",
       "quay.io/prometheus/snmp-exporter:v0.30.1",
       "quay.io/prometheus/pushgateway:v1.11.2",
-      "quay.io/prometheus-operator/prometheus-operator:v0.88.1",
-      "quay.io/prometheus-operator/prometheus-config-reloader:v0.88.1",
+      "quay.io/prometheus-operator/prometheus-operator:v0.89.0",
+      "quay.io/prometheus-operator/prometheus-config-reloader:v0.89.0",
       "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0",
       "registry.k8s.io/metrics-server/metrics-server:v0.8.1",
       "grafana/grafana:12.3.2",

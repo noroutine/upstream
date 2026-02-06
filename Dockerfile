@@ -19,7 +19,7 @@ FROM node:25.6.0-trixie
 # node
 
 # python
-FROM python:3.14.2-trixie
+FROM python:3.14.3-trixie
 # python
 
 # golang
@@ -95,11 +95,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.2
 # quay.io/prometheus/pushgateway
 
 # quay.io/prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.88.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.89.0
 # quay.io/prometheus-operator/prometheus-operator
 
 # quay.io/prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.88.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.89.0
 # quay.io/prometheus-operator/prometheus-config-reloader
 
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
