@@ -819,7 +819,7 @@ FROM timescale/timescaledb-ha:pg17-ts2.23
 # timescale/timescaledb-ha
 
 # poweradmin/poweradmin
-FROM poweradmin/poweradmin:4.0.6
+FROM poweradmin/poweradmin:4.1.0
 # poweradmin/poweradmin
 
 # cupcakearmy/cryptgeon
