@@ -31,7 +31,7 @@ FROM traefik:3.6.7
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.89.0
+FROM sonatype/nexus3:3.89.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -143,7 +143,7 @@ FROM mongo:8.2.5-noble
 # mongo
 
 # percona/mongodb_exporter
-FROM percona/mongodb_exporter:0.47.2
+FROM percona/mongodb_exporter:0.48.0
 # percona/mongodb_exporter
 
 # dpage/pgadmin4

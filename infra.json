@@ -1,5 +1,5 @@
 {
-  "version": "2d815ed6",
+  "version": "101aca29",
   "upstream": {
     "images": [
       "debian:trixie-20260202-slim",
@@ -10,7 +10,7 @@
       "python:3.14.3-trixie",
       "golang:1.26.0-trixie",
       "traefik:3.6.7",
-      "sonatype/nexus3:3.89.0",
+      "sonatype/nexus3:3.89.1",
       "squidfunk/mkdocs-material:9.7.1",
       "freeradius/freeradius-server:3.2.8-alpine",
       "quay.io/keycloak/keycloak:26.5.3",
@@ -38,7 +38,7 @@
       "docker.elastic.co/apm/apm-server:9.3.0",
       "docker.elastic.co/beats/elastic-agent:8.19.11",
       "mongo:8.2.5-noble",
-      "percona/mongodb_exporter:0.47.2",
+      "percona/mongodb_exporter:0.48.0",
       "dpage/pgadmin4:9.12",
       "mccutchen/go-httpbin:2.20.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.14.2-alpine",
