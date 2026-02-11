@@ -23,7 +23,7 @@ FROM python:3.14.3-trixie
 # python
 
 # golang
-FROM golang:1.25.7-trixie
+FROM golang:1.26.0-trixie
 # golang
 
 # traefik
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.5.2
+FROM quay.io/keycloak/keycloak:26.5.3
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -139,7 +139,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.19.11
 # docker.elastic.co/beats/elastic-agent
 
 # mongo
-FROM mongo:8.2.4-noble
+FROM mongo:8.2.5-noble
 # mongo
 
 # percona/mongodb_exporter
@@ -159,7 +159,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.14.2-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:18.8.3-ce.0
+FROM gitlab/gitlab-ce:18.8.4-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -171,7 +171,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.8.3
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v18.8.4
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # quay.io/brancz/kube-rbac-proxy
@@ -231,7 +231,7 @@ FROM aquasec/trivy:0.69.1
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v1.3.2
+FROM ghcr.io/external-secrets/external-secrets:v2.0.0
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
@@ -267,7 +267,7 @@ FROM valkey/valkey:9.0.2
 # valkey/valkey
 
 # redis
-FROM redis:8.4.0
+FROM redis:8.6.0
 # redis
 
 # oliver006/redis_exporter
@@ -291,7 +291,7 @@ FROM natsio/prometheus-nats-exporter:0.19.1
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
-FROM natsio/nats-server-config-reloader:0.22.1
+FROM natsio/nats-server-config-reloader:0.22.2
 # natsio/nats-server-config-reloader
 
 # masipcat/wireguard-go
@@ -367,7 +367,7 @@ FROM postgrest/postgrest:v14.4
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.16.0
+FROM quay.io/cephcsi/cephcsi:v3.16.1
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
@@ -379,11 +379,11 @@ FROM koenkk/zigbee2mqtt:2.8.0
 # koenkk/zigbee2mqtt
 
 # registry.k8s.io/sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.0
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.1
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2026.1.2
+FROM cloudflare/cloudflared:2026.2.0
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
@@ -463,6 +463,22 @@ FROM registry.k8s.io/coredns/coredns:v1.14.1
 # registry.k8s.io/coredns/coredns
 
 # registry.k8s.io/kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.35.1
+# registry.k8s.io/kube-apiserver
+
+# registry.k8s.io/kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.35.1
+# registry.k8s.io/kube-proxy
+
+# registry.k8s.io/kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.35.1
+# registry.k8s.io/kube-scheduler
+
+# registry.k8s.io/kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.35.1
+# registry.k8s.io/kube-controller-manager
+
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.35.0
 # registry.k8s.io/kube-apiserver
 
@@ -479,19 +495,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.35.0
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.35.0
+FROM registry.k8s.io/kube-apiserver:v1.34.4
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.35.0
+FROM registry.k8s.io/kube-proxy:v1.34.4
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.35.0
+FROM registry.k8s.io/kube-scheduler:v1.34.4
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.35.0
+FROM registry.k8s.io/kube-controller-manager:v1.34.4
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -511,19 +527,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.34.3
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.34.2
+FROM registry.k8s.io/kube-apiserver:v1.33.8
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.34.2
+FROM registry.k8s.io/kube-proxy:v1.33.8
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.34.2
+FROM registry.k8s.io/kube-scheduler:v1.33.8
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.34.2
+FROM registry.k8s.io/kube-controller-manager:v1.33.8
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -540,22 +556,6 @@ FROM registry.k8s.io/kube-scheduler:v1.33.7
 
 # registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.33.7
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.33.6
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.33.6
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.33.6
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.33.6
 # registry.k8s.io/kube-controller-manager
 
 # rancher/kubectl
@@ -751,7 +751,7 @@ FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2025.4.2
+FROM scylladb/scylla:2025.4.3
 # scylladb/scylla
 
 # scylladb/scylla-manager
@@ -759,7 +759,7 @@ FROM scylladb/scylla-manager:3.8.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.19.1
+FROM scylladb/scylla-operator:1.20
 # scylladb/scylla-operator
 
 # clickhouse
@@ -791,7 +791,7 @@ FROM codeberg.org/forgejo/forgejo:14.0.2
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:12.6.3
+FROM code.forgejo.org/forgejo/runner:12.6.4
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
@@ -819,7 +819,7 @@ FROM timescale/timescaledb-ha:pg17-ts2.23
 # timescale/timescaledb-ha
 
 # poweradmin/poweradmin
-FROM poweradmin/poweradmin:4.0.6
+FROM poweradmin/poweradmin:4.1.0
 # poweradmin/poweradmin
 
 # cupcakearmy/cryptgeon
