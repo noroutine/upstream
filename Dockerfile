@@ -63,11 +63,11 @@ FROM quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z
 # quay.io/minio/mc
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.26
+FROM quay.io/coreos/etcd:v3.5.27
 # quay.io/coreos/etcd
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.7
+FROM quay.io/coreos/etcd:v3.6.8
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
@@ -187,7 +187,7 @@ FROM klutchell/unbound:v1.24.2
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:32.0.5-apache
+FROM nextcloud:32.0.6-apache
 # nextcloud
 
 # docker
@@ -559,7 +559,7 @@ FROM registry.k8s.io/kube-controller-manager:v1.33.7
 # registry.k8s.io/kube-controller-manager
 
 # rancher/kubectl
-FROM rancher/kubectl:v1.35.0
+FROM rancher/kubectl:v1.35.1
 # rancher/kubectl
 
 # quay.io/tigera/operator

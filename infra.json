@@ -1,5 +1,5 @@
 {
-  "version": "444f9dff",
+  "version": "8fdfa56c",
   "upstream": {
     "images": [
       "debian:trixie-20260202-slim",
@@ -18,8 +18,8 @@
       "prometheuscommunity/postgres-exporter:v0.19.0",
       "quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z",
       "quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z",
-      "quay.io/coreos/etcd:v3.5.26",
-      "quay.io/coreos/etcd:v3.6.7",
+      "quay.io/coreos/etcd:v3.5.27",
+      "quay.io/coreos/etcd:v3.6.8",
       "quay.io/prometheus/prometheus:v3.9.1",
       "quay.io/prometheus/alertmanager:v0.31.1",
       "quay.io/prometheus/node-exporter:v1.10.2",
@@ -49,7 +49,7 @@
       "quay.io/brancz/kube-rbac-proxy:v0.20.2",
       "pihole/pihole:2025.11.1",
       "klutchell/unbound:v1.24.2",
-      "nextcloud:32.0.5-apache",
+      "nextcloud:32.0.6-apache",
       "docker:29.2.1-dind",
       "registry:3.0.0",
       "registry.k8s.io/ingress-nginx/controller:v1.14.3",
@@ -142,7 +142,7 @@
       "registry.k8s.io/kube-proxy:v1.33.7",
       "registry.k8s.io/kube-scheduler:v1.33.7",
       "registry.k8s.io/kube-controller-manager:v1.33.7",
-      "rancher/kubectl:v1.35.0",
+      "rancher/kubectl:v1.35.1",
       "quay.io/tigera/operator:v1.40.5",
       "calico/typha:v3.31.3",
       "calico/ctl:v3.31.3",
