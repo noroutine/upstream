@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:25.6.0-trixie
+FROM node:25.6.1-trixie
 # node
 
 # python
@@ -27,7 +27,7 @@ FROM golang:1.26.0-trixie
 # golang
 
 # traefik
-FROM traefik:3.6.7
+FROM traefik:3.6.8
 # traefik
 
 # sonatype/nexus3
@@ -47,7 +47,7 @@ FROM quay.io/keycloak/keycloak:26.5.3
 # quay.io/keycloak/keycloak
 
 # postgres
-FROM postgres:18.1-trixie
+FROM postgres:18.2-trixie
 # postgres
 
 # prometheuscommunity/postgres-exporter
@@ -75,7 +75,7 @@ FROM quay.io/prometheus/prometheus:v3.9.1
 # quay.io/prometheus/prometheus
 
 # quay.io/prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.31.0
+FROM quay.io/prometheus/alertmanager:v0.31.1
 # quay.io/prometheus/alertmanager
 
 # quay.io/prometheus/node-exporter
@@ -111,7 +111,7 @@ FROM registry.k8s.io/metrics-server/metrics-server:v0.8.1
 # registry.k8s.io/metrics-server/metrics-server
 
 # grafana/grafana
-FROM grafana/grafana:12.3.2
+FROM grafana/grafana:12.3.3
 # grafana/grafana
 
 # ghcr.io/prymitive/karma
@@ -219,7 +219,7 @@ FROM quay.io/frrouting/frr:10.5.1
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.3.2
+FROM haproxytech/haproxy-alpine:3.3.3
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -271,7 +271,7 @@ FROM redis:8.6.0
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.80.2
+FROM oliver006/redis_exporter:v1.81.0
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -363,7 +363,7 @@ FROM netboxcommunity/netbox:v4.5.2
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v14.4
+FROM postgrest/postgrest:v14.5
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
@@ -683,7 +683,7 @@ FROM nvcr.io/nvidia/cloud-native/dcgm:4.5.1-1-ubi9
 # nvcr.io/nvidia/cloud-native/dcgm
 
 # nvcr.io/nvidia/k8s/dcgm-exporter
-FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.4.2-4.7.1-ubi9
+FROM nvcr.io/nvidia/k8s/dcgm-exporter:4.5.2-4.8.1-ubi9
 # nvcr.io/nvidia/k8s/dcgm-exporter
 
 # nvcr.io/nvidia/gpu-feature-discovery
@@ -779,7 +779,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.16-python3.13
+FROM prefecthq/prefect:3.6.17-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
