@@ -1,5 +1,5 @@
 {
-  "version": "8fdfa56c",
+  "version": "551e2738",
   "upstream": {
     "images": [
       "debian:trixie-20260202-slim",
@@ -63,7 +63,7 @@
       "ghcr.io/external-secrets/external-secrets:v2.0.0",
       "registry.k8s.io/csi-secrets-store/driver:v1.5.5",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.5.5",
-      "stakater/reloader:v1.4.12",
+      "stakater/reloader:v1.4.13",
       "jimmidyson/configmap-reload:v0.9.0",
       "registry:3.0.0",
       "ghcr.io/dexidp/dex:v2.44.0",
@@ -99,7 +99,7 @@
       "koenkk/zigbee2mqtt:2.8.0",
       "registry.k8s.io/sig-storage/nfsplugin:v4.13.1",
       "cloudflare/cloudflared:2026.2.0",
-      "registry.k8s.io/git-sync/git-sync:v4.5.1",
+      "registry.k8s.io/git-sync/git-sync:v4.6.0",
       "apache/airflow:3.1.7-python3.13",
       "sj26/mailcatcher:v0.10.0",
       "fatedier/frps:v0.67.0",
@@ -161,8 +161,8 @@
       "registry.k8s.io/sig-storage/livenessprobe:v2.17.0",
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.15.0",
       "registry.k8s.io/sig-storage/csi-attacher:v4.10.0",
-      "registry.k8s.io/sig-storage/csi-resizer:v2.0.0",
-      "registry.k8s.io/sig-storage/csi-provisioner:v6.1.0",
+      "registry.k8s.io/sig-storage/csi-resizer:v2.1.0",
+      "registry.k8s.io/sig-storage/csi-provisioner:v6.1.1",
       "registry.k8s.io/sig-storage/csi-snapshotter:v8.4.0",
       "registry.k8s.io/sig-storage/snapshot-controller:v8.4.0",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1",

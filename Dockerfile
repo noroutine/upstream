@@ -243,7 +243,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.5
 # registry.k8s.io/csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.12
+FROM stakater/reloader:v1.4.13
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -387,7 +387,7 @@ FROM cloudflare/cloudflared:2026.2.0
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.5.1
+FROM registry.k8s.io/git-sync/git-sync:v4.6.0
 # registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
@@ -635,11 +635,11 @@ FROM registry.k8s.io/sig-storage/csi-attacher:v4.10.0
 # registry.k8s.io/sig-storage/csi-attacher
 
 # registry.k8s.io/sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v2.0.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v2.1.0
 # registry.k8s.io/sig-storage/csi-resizer
 
 # registry.k8s.io/sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v6.1.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v6.1.1
 # registry.k8s.io/sig-storage/csi-provisioner
 
 # registry.k8s.io/sig-storage/csi-snapshotter
