@@ -563,7 +563,7 @@ FROM rancher/kubectl:v1.35.1
 # rancher/kubectl
 
 # quay.io/tigera/operator
-FROM quay.io/tigera/operator:v1.40.5
+FROM quay.io/tigera/operator:v1.41.1
 # quay.io/tigera/operator
 
 # calico/typha
