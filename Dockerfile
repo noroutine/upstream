@@ -387,7 +387,7 @@ FROM cloudflare/cloudflared:2026.2.0
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.5.1
+FROM registry.k8s.io/git-sync/git-sync:v4.6.0
 # registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
