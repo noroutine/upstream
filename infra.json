@@ -1,5 +1,5 @@
 {
-  "version": "551e2738",
+  "version": "ea532bd8",
   "upstream": {
     "images": [
       "debian:trixie-20260202-slim",
@@ -163,8 +163,8 @@
       "registry.k8s.io/sig-storage/csi-attacher:v4.10.0",
       "registry.k8s.io/sig-storage/csi-resizer:v2.1.0",
       "registry.k8s.io/sig-storage/csi-provisioner:v6.1.1",
-      "registry.k8s.io/sig-storage/csi-snapshotter:v8.4.0",
-      "registry.k8s.io/sig-storage/snapshot-controller:v8.4.0",
+      "registry.k8s.io/sig-storage/csi-snapshotter:v8.5.0",
+      "registry.k8s.io/sig-storage/snapshot-controller:v8.5.0",
       "registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1",
       "nvcr.io/nvidia/gpu-operator:v25.10.1",
       "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.4",
