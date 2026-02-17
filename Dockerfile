@@ -755,7 +755,7 @@ FROM scylladb/scylla:2025.4.3
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.8.0
+FROM scylladb/scylla-manager:3.8.1
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
