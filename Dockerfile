@@ -307,7 +307,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.10.2-alpine
+FROM caddy:2.11.1-alpine
 # caddy
 
 # azul/zulu-openjdk-debian
