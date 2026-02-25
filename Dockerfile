@@ -355,7 +355,7 @@ FROM restic/restic:0.18.1
 # restic/restic
 
 # coturn/coturn
-FROM coturn/coturn:4.8.0
+FROM coturn/coturn:4.9.0
 # coturn/coturn
 
 # netboxcommunity/netbox
