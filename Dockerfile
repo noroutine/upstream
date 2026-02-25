@@ -115,7 +115,7 @@ FROM grafana/grafana:12.3.3
 # grafana/grafana
 
 # ghcr.io/prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.122
+FROM ghcr.io/prymitive/karma:v0.125
 # ghcr.io/prymitive/karma
 
 # docker.elastic.co/elasticsearch/elasticsearch
