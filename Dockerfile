@@ -187,7 +187,7 @@ FROM klutchell/unbound:v1.24.2
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:32.0.6-apache
+FROM nextcloud:33.0.0-apache
 # nextcloud
 
 # docker
