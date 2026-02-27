@@ -47,7 +47,7 @@ FROM quay.io/keycloak/keycloak:26.5.3
 # quay.io/keycloak/keycloak
 
 # postgres
-FROM postgres:18.2-trixie
+FROM postgres:18.3-trixie
 # postgres
 
 # prometheuscommunity/postgres-exporter
