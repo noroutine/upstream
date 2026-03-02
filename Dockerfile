@@ -375,7 +375,7 @@ FROM homeassistant/home-assistant:2026.2
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.9.0
+FROM koenkk/zigbee2mqtt:2.9.1
 # koenkk/zigbee2mqtt
 
 # registry.k8s.io/sig-storage/nfsplugin
@@ -563,7 +563,7 @@ FROM rancher/kubectl:v1.35.2
 # rancher/kubectl
 
 # quay.io/tigera/operator
-FROM quay.io/tigera/operator:v1.41.1
+FROM quay.io/tigera/operator:v1.40.7
 # quay.io/tigera/operator
 
 # calico/typha
@@ -811,7 +811,7 @@ FROM influxdb:2.8.0
 # influxdb
 
 # influxdb
-FROM influxdb:3.8.0-core
+FROM influxdb:3.8.3-core
 # influxdb
 
 # timescale/timescaledb-ha
