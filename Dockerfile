@@ -723,7 +723,7 @@ FROM confluentinc/cp-enterprise-replicator:8.1.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:8.1.1
+FROM confluentinc/cp-kafka-rest:8.2.0
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
