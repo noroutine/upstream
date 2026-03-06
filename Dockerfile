@@ -447,7 +447,7 @@ FROM hashicorp/vault:1.21.3
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.7.2
+FROM hashicorp/vault-k8s:1.7.3
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
