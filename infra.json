@@ -1,9 +1,9 @@
 {
-  "version": "b3bae643",
+  "version": "a6e75d4b",
   "upstream": {
     "images": [
       "debian:trixie-20260223-slim",
-      "ubuntu:noble-20260113",
+      "ubuntu:noble-20260210.1",
       "alpine:3.23.3",
       "busybox:1.37.0",
       "node:25.8.0-trixie",
@@ -38,7 +38,7 @@
       "docker.elastic.co/apm/apm-server:9.3.1",
       "docker.elastic.co/beats/elastic-agent:8.19.12",
       "mongo:8.2.5-noble",
-      "percona/mongodb_exporter:0.48.0",
+      "percona/mongodb_exporter:0.49.0",
       "dpage/pgadmin4:9.13",
       "mccutchen/go-httpbin:2.21.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.14.3-alpine",

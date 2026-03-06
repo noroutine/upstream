@@ -3,7 +3,7 @@ FROM debian:trixie-20260223-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20260113
+FROM ubuntu:noble-20260210.1
 # ubuntu
 
 # alpine
@@ -143,7 +143,7 @@ FROM mongo:8.2.5-noble
 # mongo
 
 # percona/mongodb_exporter
-FROM percona/mongodb_exporter:0.48.0
+FROM percona/mongodb_exporter:0.49.0
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
