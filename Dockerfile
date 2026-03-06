@@ -191,7 +191,7 @@ FROM nextcloud:33.0.0-apache
 # nextcloud
 
 # docker
-FROM docker:29.2.1-dind
+FROM docker:29.3.0-dind
 # docker
 
 # registry
