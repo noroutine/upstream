@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:25.7.0-trixie
+FROM node:25.8.0-trixie
 # node
 
 # python
@@ -23,7 +23,7 @@ FROM python:3.14.3-trixie
 # python
 
 # golang
-FROM golang:1.26.0-trixie
+FROM golang:1.26.1-trixie
 # golang
 
 # traefik
@@ -31,11 +31,11 @@ FROM traefik:3.6.9
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.89.1
+FROM sonatype/nexus3:3.90.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.7.3
+FROM squidfunk/mkdocs-material:9.7.4
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.8-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.5.4
+FROM quay.io/keycloak/keycloak:26.5.5
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -115,7 +115,7 @@ FROM grafana/grafana:12.4.0
 # grafana/grafana
 
 # ghcr.io/prymitive/karma
-FROM ghcr.io/prymitive/karma:v0.125
+FROM ghcr.io/prymitive/karma:v0.126
 # ghcr.io/prymitive/karma
 
 # docker.elastic.co/elasticsearch/elasticsearch
@@ -147,7 +147,7 @@ FROM percona/mongodb_exporter:0.48.0
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.12
+FROM dpage/pgadmin4:9.13
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
@@ -191,7 +191,7 @@ FROM nextcloud:33.0.0-apache
 # nextcloud
 
 # docker
-FROM docker:29.2.1-dind
+FROM docker:29.3.0-dind
 # docker
 
 # registry
@@ -227,7 +227,7 @@ FROM haproxytech/kubernetes-ingress:3.2.6
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.69.2
+FROM aquasec/trivy:0.69.3
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
@@ -243,7 +243,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.5.6
 # registry.k8s.io/csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.13
+FROM stakater/reloader:v1.4.14
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -255,7 +255,7 @@ FROM registry:3.0.0
 # registry
 
 # ghcr.io/dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.45.0
+FROM ghcr.io/dexidp/dex:v2.45.1
 # ghcr.io/dexidp/dex
 
 # quay.io/argoproj/argocd
@@ -323,15 +323,15 @@ FROM elastic/eck-operator:3.3.1
 # elastic/eck-operator
 
 # syncthing/syncthing
-FROM syncthing/syncthing:2.0.14
+FROM syncthing/syncthing:2.0.15
 # syncthing/syncthing
 
 # syncthing/discosrv
-FROM syncthing/discosrv:2.0.14
+FROM syncthing/discosrv:2.0.15
 # syncthing/discosrv
 
 # syncthing/relaysrv
-FROM syncthing/relaysrv:2.0.14
+FROM syncthing/relaysrv:2.0.15
 # syncthing/relaysrv
 
 # jellyfin/jellyfin
@@ -339,11 +339,11 @@ FROM jellyfin/jellyfin:10.11.6
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.59.03
+FROM haveagitgat/tdarr:2.61.01
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.59.03
+FROM haveagitgat/tdarr_node:2.61.01
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -359,7 +359,7 @@ FROM coturn/coturn:4.9.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.5.3
+FROM netboxcommunity/netbox:v4.5.4
 # netboxcommunity/netbox
 
 # postgrest/postgrest
@@ -371,7 +371,7 @@ FROM quay.io/cephcsi/cephcsi:v3.16.1
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2026.2
+FROM homeassistant/home-assistant:2026.3
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -443,11 +443,11 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:1.21.3
+FROM hashicorp/vault:1.21.4
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.7.2
+FROM hashicorp/vault-k8s:1.7.3
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
@@ -639,7 +639,7 @@ FROM registry.k8s.io/sig-storage/csi-resizer:v2.1.0
 # registry.k8s.io/sig-storage/csi-resizer
 
 # registry.k8s.io/sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v6.1.1
+FROM registry.k8s.io/sig-storage/csi-provisioner:v6.2.0
 # registry.k8s.io/sig-storage/csi-provisioner
 
 # registry.k8s.io/sig-storage/csi-snapshotter
@@ -699,11 +699,11 @@ FROM apache/kafka:4.2.0
 # apache/kafka
 
 # quay.io/strimzi/operator
-FROM quay.io/strimzi/operator:0.50.1
+FROM quay.io/strimzi/operator:0.51.0
 # quay.io/strimzi/operator
 
 # quay.io/strimzi/kafka
-FROM quay.io/strimzi/kafka:0.50.1-kafka-4.1.1
+FROM quay.io/strimzi/kafka:0.51.0-kafka-4.2.0
 # quay.io/strimzi/kafka
 
 # confluentinc/confluent-init-container
@@ -719,27 +719,27 @@ FROM confluentinc/cp-enterprise-control-center-next-gen:2.4.0
 # confluentinc/cp-enterprise-control-center-next-gen
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:8.1.1
+FROM confluentinc/cp-enterprise-replicator:8.2.0
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:8.1.1
+FROM confluentinc/cp-kafka-rest:8.2.0
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:8.1.1
+FROM confluentinc/cp-ksqldb-server:8.2.0
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:8.1.1
+FROM confluentinc/cp-schema-registry:8.2.0
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:8.1.1
+FROM confluentinc/cp-server:8.2.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:8.1.1
+FROM confluentinc/cp-server-connect:8.2.0
 # confluentinc/cp-server-connect
 
 # obsidiandynamics/kafdrop
@@ -751,7 +751,7 @@ FROM tchiotludo/akhq:0.26.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2025.4.3
+FROM scylladb/scylla:2025.4.5
 # scylladb/scylla
 
 # scylladb/scylla-manager
@@ -779,7 +779,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.17-python3.13
+FROM prefecthq/prefect:3.6.21-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
