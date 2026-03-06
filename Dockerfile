@@ -147,7 +147,7 @@ FROM percona/mongodb_exporter:0.48.0
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
-FROM dpage/pgadmin4:9.12
+FROM dpage/pgadmin4:9.13
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
