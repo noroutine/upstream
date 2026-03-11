@@ -35,7 +35,7 @@ FROM sonatype/nexus3:3.90.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.7.4
+FROM squidfunk/mkdocs-material:9.7.5
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
