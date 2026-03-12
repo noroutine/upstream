@@ -711,7 +711,7 @@ FROM confluentinc/confluent-init-container:3.1.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.1351.59
+FROM confluentinc/confluent-operator:0.1514.1
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center-next-gen
