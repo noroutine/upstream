@@ -367,7 +367,7 @@ FROM postgrest/postgrest:v14.5
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
-FROM quay.io/cephcsi/cephcsi:v3.16.1
+FROM quay.io/cephcsi/cephcsi:v3.16.2
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
