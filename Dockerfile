@@ -783,7 +783,7 @@ FROM prefecthq/prefect:3.6.21-python3.13
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
-FROM prefecthq/prometheus-prefect-exporter:3.1.0
+FROM prefecthq/prometheus-prefect-exporter:3.2.0
 # prefecthq/prometheus-prefect-exporter
 
 # codeberg.org/forgejo/forgejo
