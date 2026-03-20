@@ -311,7 +311,7 @@ FROM caddy:2.11.1-alpine
 # caddy
 
 # azul/zulu-openjdk-debian
-FROM azul/zulu-openjdk-debian:25.0.2-25.32
+FROM azul/zulu-openjdk-debian:26.0.0-26.28
 # azul/zulu-openjdk-debian
 
 # eclipse-temurin
