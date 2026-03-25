@@ -267,7 +267,7 @@ FROM valkey/valkey:9.0.3
 # valkey/valkey
 
 # redis
-FROM redis:8.6.1
+FROM redis:8.6.2
 # redis
 
 # oliver006/redis_exporter
