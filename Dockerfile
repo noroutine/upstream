@@ -259,7 +259,7 @@ FROM ghcr.io/dexidp/dex:v2.45.1
 # ghcr.io/dexidp/dex
 
 # quay.io/argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.3.2
+FROM quay.io/argoproj/argocd:v3.3.6
 # quay.io/argoproj/argocd
 
 # valkey/valkey
