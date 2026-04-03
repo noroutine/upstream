@@ -15,7 +15,7 @@ FROM busybox:1.37.0
 # busybox
 
 # node
-FROM node:25.8.0-trixie
+FROM node:25.9.0-trixie
 # node
 
 # python
