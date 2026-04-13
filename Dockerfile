@@ -231,7 +231,7 @@ FROM aquasec/trivy:0.69.3
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v2.0.1
+FROM ghcr.io/external-secrets/external-secrets:v2.3.0
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
