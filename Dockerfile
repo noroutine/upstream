@@ -403,7 +403,7 @@ FROM fatedier/frps:v0.67.0
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.67.0
+FROM fatedier/frpc:v0.68.1
 # fatedier/frpc
 
 # n8nio/n8n
