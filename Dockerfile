@@ -151,7 +151,7 @@ FROM dpage/pgadmin4:9.13
 # dpage/pgadmin4
 
 # mccutchen/go-httpbin
-FROM mccutchen/go-httpbin:2.21.0
+FROM mccutchen/go-httpbin:2.22.1
 # mccutchen/go-httpbin
 
 # quay.io/oauth2-proxy/oauth2-proxy
