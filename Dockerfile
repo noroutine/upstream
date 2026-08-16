@@ -383,7 +383,7 @@ FROM koenkk/zigbee2mqtt:2.9.2
 # koenkk/zigbee2mqtt
 
 # registry.k8s.io/sig-storage/nfsplugin
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.1
+FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.4
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
