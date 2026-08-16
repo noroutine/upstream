@@ -607,7 +607,7 @@ FROM calico/typha:v3.31.5
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.31.5
+FROM calico/ctl:v3.32.1
 # calico/ctl
 
 # calico/node
