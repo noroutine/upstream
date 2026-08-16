@@ -51,7 +51,7 @@ FROM postgres:18.3-trixie
 # postgres
 
 # prometheuscommunity/postgres-exporter
-FROM prometheuscommunity/postgres-exporter:v0.19.1
+FROM prometheuscommunity/postgres-exporter:v0.20.1
 # prometheuscommunity/postgres-exporter
 
 # quay.io/minio/minio
