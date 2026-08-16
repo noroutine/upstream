@@ -159,7 +159,7 @@ FROM mccutchen/go-httpbin:2.22.1
 # mccutchen/go-httpbin
 
 # quay.io/oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.15.2-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.15.3-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
@@ -387,7 +387,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.1
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2026.2.0
+FROM cloudflare/cloudflared:2026.3.0
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
@@ -859,7 +859,7 @@ FROM poweradmin/poweradmin:4.2.1
 # poweradmin/poweradmin
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.9.1
+FROM cupcakearmy/cryptgeon:2.9.3
 # cupcakearmy/cryptgeon
 
 # cr.noroutine.me/catalyst/tls-leech

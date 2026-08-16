@@ -1,5 +1,5 @@
 {
-  "version": "b89da9df",
+  "version": "450e8b5e",
   "upstream": {
     "images": [
       "debian:trixie-20260406-slim",
@@ -42,7 +42,7 @@
       "percona/mongodb_exporter:0.49.0",
       "dpage/pgadmin4:9.14",
       "mccutchen/go-httpbin:2.22.1",
-      "quay.io/oauth2-proxy/oauth2-proxy:v7.15.2-alpine",
+      "quay.io/oauth2-proxy/oauth2-proxy:v7.15.3-alpine",
       "gitlab/gitlab-ce:18.10.3-ce.0",
       "gitlab/gitlab-runner:alpine-v18.10.1",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.10.1",
@@ -99,7 +99,7 @@
       "homeassistant/home-assistant:2026.4",
       "koenkk/zigbee2mqtt:2.9.2",
       "registry.k8s.io/sig-storage/nfsplugin:v4.13.1",
-      "cloudflare/cloudflared:2026.2.0",
+      "cloudflare/cloudflared:2026.3.0",
       "registry.k8s.io/git-sync/git-sync:v4.6.0",
       "apache/airflow:3.2.0-python3.13",
       "sj26/mailcatcher:v0.10.0",
@@ -217,7 +217,7 @@
       "influxdb:3.8.3-core",
       "timescale/timescaledb-ha:pg17-ts2.23",
       "poweradmin/poweradmin:4.2.1",
-      "cupcakearmy/cryptgeon:2.9.1",
+      "cupcakearmy/cryptgeon:2.9.3",
       "cr.noroutine.me/catalyst/tls-leech:v0.1.2"
     ]
   }
