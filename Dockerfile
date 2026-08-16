@@ -799,7 +799,7 @@ FROM scylladb/scylla-operator:1.20.2
 # scylladb/scylla-operator
 
 # clickhouse
-FROM clickhouse:26.3
+FROM clickhouse:26.7
 # clickhouse
 
 # altinity/clickhouse-operator
