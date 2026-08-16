@@ -1,5 +1,5 @@
 {
-  "version": "f4c1c529",
+  "version": "411a682a",
   "upstream": {
     "images": [
       "debian:trixie-20260803-slim",
@@ -209,7 +209,7 @@
       "prefecthq/prefect:3.8.3-python3.14",
       "prefecthq/prometheus-prefect-exporter:4.0.0",
       "codeberg.org/forgejo/forgejo:16.0.2",
-      "code.forgejo.org/forgejo/runner:12.13.2",
+      "code.forgejo.org/forgejo/runner:13.0.0",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
       "influxdb:1.12.2",
