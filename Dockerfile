@@ -267,7 +267,7 @@ FROM quay.io/argoproj/argocd:v3.3.6
 # quay.io/argoproj/argocd
 
 # valkey/valkey
-FROM valkey/valkey:9.0.3
+FROM valkey/valkey:9.1.1
 # valkey/valkey
 
 # redis
