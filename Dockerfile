@@ -859,7 +859,7 @@ FROM poweradmin/poweradmin:4.2.1
 # poweradmin/poweradmin
 
 # cupcakearmy/cryptgeon
-FROM cupcakearmy/cryptgeon:2.9.1
+FROM cupcakearmy/cryptgeon:2.9.3
 # cupcakearmy/cryptgeon
 
 # cr.noroutine.me/catalyst/tls-leech
