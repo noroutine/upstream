@@ -107,7 +107,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.93.1
 # quay.io/prometheus-operator/prometheus-config-reloader
 
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
-FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0
+FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
 
 # registry.k8s.io/metrics-server/metrics-server
