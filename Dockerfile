@@ -291,7 +291,7 @@ FROM nats:2.12.7-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
-FROM natsio/prometheus-nats-exporter:0.19.2
+FROM natsio/prometheus-nats-exporter:0.20.1
 # natsio/prometheus-nats-exporter
 
 # natsio/nats-server-config-reloader
