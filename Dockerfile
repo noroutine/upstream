@@ -227,7 +227,7 @@ FROM haproxytech/haproxy-alpine:3.4.2
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.2.6
+FROM haproxytech/kubernetes-ingress:3.2.13
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -387,7 +387,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.4
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2026.8.0
+FROM cloudflare/cloudflared:2026.8.2
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
