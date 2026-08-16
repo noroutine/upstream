@@ -423,7 +423,7 @@ FROM ghcr.io/corentinth/it-tools:2024.10.22-7ca5933
 # ghcr.io/corentinth/it-tools
 
 # quay.io/openbgpd/openbgpd
-FROM quay.io/openbgpd/openbgpd:9.0
+FROM quay.io/openbgpd/openbgpd:9.2
 # quay.io/openbgpd/openbgpd
 
 # quay.io/jetstack/cert-manager-controller
