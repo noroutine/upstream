@@ -103,7 +103,7 @@ FROM quay.io/prometheus-operator/prometheus-operator:v0.90.1
 # quay.io/prometheus-operator/prometheus-operator
 
 # quay.io/prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.90.1
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.93.1
 # quay.io/prometheus-operator/prometheus-config-reloader
 
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
