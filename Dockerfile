@@ -603,7 +603,7 @@ FROM quay.io/tigera/operator:v1.40.7
 # quay.io/tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.31.5
+FROM calico/typha:v3.32.1
 # calico/typha
 
 # calico/ctl
