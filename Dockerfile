@@ -803,7 +803,7 @@ FROM clickhouse:26.3
 # clickhouse
 
 # altinity/clickhouse-operator
-FROM altinity/clickhouse-operator:0.27.0
+FROM altinity/clickhouse-operator:0.28.0
 # altinity/clickhouse-operator
 
 # rabbitmq
