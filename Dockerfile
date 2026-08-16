@@ -23,7 +23,7 @@ FROM python:3.14.7-trixie
 # python
 
 # golang
-FROM golang:1.26.2-trixie
+FROM golang:1.26.6-trixie
 # golang
 
 # traefik
@@ -107,7 +107,7 @@ FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.93.1
 # quay.io/prometheus-operator/prometheus-config-reloader
 
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
-FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0
+FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
 
 # registry.k8s.io/metrics-server/metrics-server
@@ -467,6 +467,22 @@ FROM registry.k8s.io/coredns/coredns:v1.14.6
 # registry.k8s.io/coredns/coredns
 
 # registry.k8s.io/kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.36.3
+# registry.k8s.io/kube-apiserver
+
+# registry.k8s.io/kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.36.3
+# registry.k8s.io/kube-proxy
+
+# registry.k8s.io/kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.36.3
+# registry.k8s.io/kube-scheduler
+
+# registry.k8s.io/kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.36.3
+# registry.k8s.io/kube-controller-manager
+
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.36.2
 # registry.k8s.io/kube-apiserver
 
@@ -480,22 +496,6 @@ FROM registry.k8s.io/kube-scheduler:v1.36.2
 
 # registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.36.2
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.36.1
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.36.1
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.36.1
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.36.1
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -815,7 +815,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.6.21-python3.13
+FROM prefecthq/prefect:3.8.3-python3.14
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
