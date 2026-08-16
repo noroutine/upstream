@@ -363,7 +363,7 @@ FROM coturn/coturn:4.9.0
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.5.7
+FROM netboxcommunity/netbox:v4.6.8
 # netboxcommunity/netbox
 
 # postgrest/postgrest
