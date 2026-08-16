@@ -83,7 +83,7 @@ FROM quay.io/prometheus/alertmanager:v0.32.0
 # quay.io/prometheus/alertmanager
 
 # quay.io/prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.11.1
+FROM quay.io/prometheus/node-exporter:v1.12.1
 # quay.io/prometheus/node-exporter
 
 # quay.io/prometheus/blackbox-exporter
