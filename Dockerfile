@@ -131,7 +131,7 @@ FROM docker.elastic.co/logstash/logstash:9.5.1
 # docker.elastic.co/logstash/logstash
 
 # docker.elastic.co/kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.3.3
+FROM docker.elastic.co/kibana/kibana:9.5.1
 # docker.elastic.co/kibana/kibana
 
 # docker.elastic.co/apm/apm-server
