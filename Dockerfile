@@ -11,7 +11,7 @@ FROM alpine:3.24.1
 # alpine
 
 # busybox
-FROM busybox:1.37.0
+FROM busybox:1.38.0
 # busybox
 
 # node
