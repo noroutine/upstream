@@ -783,7 +783,7 @@ FROM obsidiandynamics/kafdrop:4.2.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.27.0
+FROM tchiotludo/akhq:0.28.0
 # tchiotludo/akhq
 
 # scylladb/scylla
