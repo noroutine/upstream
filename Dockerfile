@@ -735,7 +735,7 @@ FROM apache/kafka:4.3.1
 # apache/kafka
 
 # quay.io/strimzi/operator
-FROM quay.io/strimzi/operator:0.51.0
+FROM quay.io/strimzi/operator:1.1.0
 # quay.io/strimzi/operator
 
 # quay.io/strimzi/kafka
