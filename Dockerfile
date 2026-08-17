@@ -791,7 +791,7 @@ FROM scylladb/scylla:2026.2.4
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.10.0
+FROM scylladb/scylla-manager:3.11.2
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
