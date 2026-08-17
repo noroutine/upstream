@@ -199,7 +199,7 @@ FROM docker:29.4.0-dind
 # docker
 
 # registry
-FROM registry:3.0.0
+FROM registry:3.1.1
 # registry
 
 # registry.k8s.io/ingress-nginx/controller
@@ -255,7 +255,7 @@ FROM jimmidyson/configmap-reload:v0.9.0
 # jimmidyson/configmap-reload
 
 # registry
-FROM registry:3.1.0
+FROM registry:3.1.1
 # registry
 
 # ghcr.io/dexidp/dex
