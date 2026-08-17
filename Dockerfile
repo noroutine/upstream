@@ -703,7 +703,7 @@ FROM nvcr.io/nvidia/cuda:13.2.0-base-ubi9
 # nvcr.io/nvidia/cuda
 
 # nvcr.io/nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.10.0
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.11.0
 # nvcr.io/nvidia/cloud-native/k8s-driver-manager
 
 # nvcr.io/nvidia/k8s/container-toolkit
