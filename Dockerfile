@@ -455,7 +455,7 @@ FROM hashicorp/vault-k8s:1.7.4
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.7.2
+FROM hashicorp/vault-csi-provider:1.7.4
 # hashicorp/vault-csi-provider
 
 # registry.k8s.io/pause
