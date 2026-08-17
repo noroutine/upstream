@@ -355,7 +355,7 @@ FROM curlimages/curl:8.21.0
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.18.1
+FROM restic/restic:0.19.1
 # restic/restic
 
 # coturn/coturn
