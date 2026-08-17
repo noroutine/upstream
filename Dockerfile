@@ -367,7 +367,7 @@ FROM netboxcommunity/netbox:v4.6.8
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v14.9
+FROM postgrest/postgrest:v16.1
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
