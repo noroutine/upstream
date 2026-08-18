@@ -815,7 +815,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.8.3-python3.14
+FROM prefecthq/prefect:3.8.4.dev1-python3.14
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
