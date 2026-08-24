@@ -463,7 +463,7 @@ FROM registry.k8s.io/pause:3.10
 # registry.k8s.io/pause
 
 # registry.k8s.io/coredns/coredns
-FROM registry.k8s.io/coredns/coredns:v1.14.6
+FROM registry.k8s.io/coredns/coredns:v1.14.7
 # registry.k8s.io/coredns/coredns
 
 # registry.k8s.io/kube-apiserver
