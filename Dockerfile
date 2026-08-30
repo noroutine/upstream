@@ -451,11 +451,11 @@ FROM hashicorp/vault:2.0.4
 # hashicorp/vault
 
 # hashicorp/vault-k8s
-FROM hashicorp/vault-k8s:1.7.4
+FROM hashicorp/vault-k8s:1.7.6
 # hashicorp/vault-k8s
 
 # hashicorp/vault-csi-provider
-FROM hashicorp/vault-csi-provider:1.7.2
+FROM hashicorp/vault-csi-provider:1.7.4
 # hashicorp/vault-csi-provider
 
 # registry.k8s.io/pause
@@ -631,7 +631,7 @@ FROM rancher/kubectl:v1.36.2
 # rancher/kubectl
 
 # quay.io/tigera/operator
-FROM quay.io/tigera/operator:v1.43.0
+FROM quay.io/tigera/operator:v1.42.5
 # quay.io/tigera/operator
 
 # calico/typha

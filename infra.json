@@ -1,5 +1,5 @@
 {
-  "version": "7166a453",
+  "version": "947c64fc",
   "upstream": {
     "images": [
       "debian:trixie-20260824-slim",
@@ -115,8 +115,8 @@
       "quay.io/jetstack/cert-manager-csi-driver:v0.16.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.3",
       "hashicorp/vault:2.0.4",
-      "hashicorp/vault-k8s:1.7.4",
-      "hashicorp/vault-csi-provider:1.7.2",
+      "hashicorp/vault-k8s:1.7.6",
+      "hashicorp/vault-csi-provider:1.7.4",
       "registry.k8s.io/pause:3.10",
       "registry.k8s.io/coredns/coredns:v1.14.7",
       "registry.k8s.io/kube-apiserver:v1.37.0",
@@ -160,7 +160,7 @@
       "registry.k8s.io/kube-scheduler:v1.33.12",
       "registry.k8s.io/kube-controller-manager:v1.33.12",
       "rancher/kubectl:v1.36.2",
-      "quay.io/tigera/operator:v1.43.0",
+      "quay.io/tigera/operator:v1.42.5",
       "calico/typha:v3.32.1",
       "calico/ctl:v3.32.1",
       "calico/node:v3.32.1",
