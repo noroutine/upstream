@@ -219,7 +219,7 @@ FROM quay.io/metallb/speaker:v0.16.1
 # quay.io/metallb/speaker
 
 # quay.io/frrouting/frr
-FROM quay.io/frrouting/frr:10.7.0
+FROM quay.io/frrouting/frr:10.7.1
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
