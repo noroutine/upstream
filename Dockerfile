@@ -15,7 +15,7 @@ FROM busybox:1.38.0
 # busybox
 
 # node
-FROM node:26.6.0-trixie
+FROM node:26.8.1-trixie
 # node
 
 # python
@@ -27,11 +27,11 @@ FROM golang:1.27.0-trixie
 # golang
 
 # traefik
-FROM traefik:v3.7.0
+FROM traefik:v3.7.12
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.95.2
+FROM sonatype/nexus3:3.95.3
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.10-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.7.2-1
+FROM quay.io/keycloak/keycloak:26.7.2-2
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -163,7 +163,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.15.4-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:19.3.0-ce.0
+FROM gitlab/gitlab-ce:19.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -191,7 +191,7 @@ FROM klutchell/unbound:v1.26.0
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:34.0.2-apache
+FROM nextcloud:34.0.3-apache
 # nextcloud
 
 # docker
@@ -219,11 +219,11 @@ FROM quay.io/metallb/speaker:v0.16.1
 # quay.io/metallb/speaker
 
 # quay.io/frrouting/frr
-FROM quay.io/frrouting/frr:10.7.0
+FROM quay.io/frrouting/frr:10.7.1
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.4.3
+FROM haproxytech/haproxy-alpine:3.4.4
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -275,7 +275,7 @@ FROM redis:8.10.1
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.89.0
+FROM oliver006/redis_exporter:v1.90.0
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -287,7 +287,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.14.5-alpine
+FROM nats:2.14.6-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
