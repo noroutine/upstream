@@ -679,7 +679,7 @@ FROM istio/pilot:1.30.3
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.30.3
+FROM istio/proxyv2:1.30.4
 # istio/proxyv2
 
 # istio/ztunnel
