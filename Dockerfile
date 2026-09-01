@@ -811,7 +811,7 @@ FROM confluentinc/cp-server-connect:8.3.1
 # confluentinc/cp-server-connect
 
 # obsidiandynamics/kafdrop
-FROM obsidiandynamics/kafdrop:4.2.0
+FROM obsidiandynamics/kafdrop:4.3.0
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
