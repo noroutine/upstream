@@ -827,7 +827,7 @@ FROM scylladb/scylla-manager:3.12.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
-FROM scylladb/scylla-operator:1.21.1
+FROM scylladb/scylla-operator:1.22.0
 # scylladb/scylla-operator
 
 # clickhouse
