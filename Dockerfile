@@ -399,7 +399,7 @@ FROM apache/airflow:3.3.1-python3.13
 # apache/airflow
 
 # sj26/mailcatcher
-FROM sj26/mailcatcher:v0.10.0
+FROM sj26/mailcatcher:v0.11.0
 # sj26/mailcatcher
 
 # fatedier/frps
