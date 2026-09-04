@@ -379,7 +379,7 @@ FROM homeassistant/home-assistant:2026.8.3
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.13.0
+FROM koenkk/zigbee2mqtt:2.14.1
 # koenkk/zigbee2mqtt
 
 # registry.k8s.io/sig-storage/nfsplugin
