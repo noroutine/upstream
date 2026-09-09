@@ -359,7 +359,7 @@ FROM restic/restic:0.19.1
 # restic/restic
 
 # coturn/coturn
-FROM coturn/coturn:4.17.2
+FROM coturn/coturn:4.18.0
 # coturn/coturn
 
 # netboxcommunity/netbox
