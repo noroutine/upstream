@@ -99,7 +99,7 @@ FROM quay.io/prometheus/pushgateway:v1.11.3
 # quay.io/prometheus/pushgateway
 
 # quay.io/prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.93.1
+FROM quay.io/prometheus-operator/prometheus-operator:v0.94.0
 # quay.io/prometheus-operator/prometheus-operator
 
 # quay.io/prometheus-operator/prometheus-config-reloader
