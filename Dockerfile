@@ -691,7 +691,7 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.19.0
 # registry.k8s.io/nfd/node-feature-discovery
 
 # registry.k8s.io/sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.19.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.20.0
 # registry.k8s.io/sig-storage/livenessprobe
 
 # registry.k8s.io/sig-storage/csi-node-driver-registrar
