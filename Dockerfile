@@ -375,7 +375,7 @@ FROM quay.io/cephcsi/cephcsi:v3.17.1
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2026.8.3
+FROM homeassistant/home-assistant:2026.9.2
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
