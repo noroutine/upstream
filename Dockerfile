@@ -823,7 +823,7 @@ FROM scylladb/scylla:2026.2.5
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.12.0
+FROM scylladb/scylla-manager:3.12.1
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
