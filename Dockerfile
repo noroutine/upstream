@@ -167,7 +167,7 @@ FROM gitlab/gitlab-ce:19.3.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v19.3.1
+FROM gitlab/gitlab-runner:alpine-v19.3.3
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
