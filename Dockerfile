@@ -803,7 +803,7 @@ FROM confluentinc/cp-schema-registry:8.3.1
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:8.3.1
+FROM confluentinc/cp-server:8.3.2
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
