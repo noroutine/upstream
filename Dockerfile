@@ -787,7 +787,7 @@ FROM confluentinc/cp-enterprise-control-center-next-gen:2.6.0
 # confluentinc/cp-enterprise-control-center-next-gen
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:8.3.1
+FROM confluentinc/cp-enterprise-replicator:8.3.2
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
