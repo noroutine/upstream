@@ -1,5 +1,5 @@
 {
-  "version": "0282e4fb",
+  "version": "69d80940",
   "upstream": {
     "images": [
       "debian:trixie-20260824-slim",
@@ -10,7 +10,7 @@
       "python:3.14.7-trixie",
       "golang:1.27.1-trixie",
       "traefik:v3.7.13",
-      "sonatype/nexus3:3.96.1",
+      "sonatype/nexus3:3.96.2",
       "squidfunk/mkdocs-material:9.7.7",
       "freeradius/freeradius-server:3.2.10-alpine",
       "quay.io/keycloak/keycloak:26.7.4-0",
@@ -49,7 +49,7 @@
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v19.4.0",
       "quay.io/brancz/kube-rbac-proxy:v0.22.1",
       "pihole/pihole:2026.07.2",
-      "klutchell/unbound:v1.26.0",
+      "klutchell/unbound:1.26.1",
       "nextcloud:35.0.0-apache",
       "docker:29.8.1-dind",
       "registry:3.0.0",
@@ -96,7 +96,7 @@
       "netboxcommunity/netbox:v4.7.1",
       "postgrest/postgrest:v16.3",
       "quay.io/cephcsi/cephcsi:v3.17.1",
-      "homeassistant/home-assistant:2026.9.2",
+      "homeassistant/home-assistant:2026.9.3",
       "koenkk/zigbee2mqtt:2.14.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.13.4",
       "cloudflare/cloudflared:2026.9.1",
@@ -216,7 +216,7 @@
       "altinity/clickhouse-operator:0.28.0",
       "rabbitmq:4.3.6",
       "kbudde/rabbitmq-exporter:1.0.0",
-      "prefecthq/prefect:3.8.3-python3.14",
+      "prefecthq/prefect:3.8.6-python3.14",
       "prefecthq/prometheus-prefect-exporter:4.1.0",
       "codeberg.org/forgejo/forgejo:16.0.5",
       "code.forgejo.org/forgejo/runner:13.2.0",

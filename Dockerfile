@@ -31,7 +31,7 @@ FROM traefik:v3.7.13
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.96.1
+FROM sonatype/nexus3:3.96.2
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -187,7 +187,7 @@ FROM pihole/pihole:2026.07.2
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:v1.26.0
+FROM klutchell/unbound:1.26.1
 # klutchell/unbound
 
 # nextcloud
@@ -375,7 +375,7 @@ FROM quay.io/cephcsi/cephcsi:v3.17.1
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2026.9.2
+FROM homeassistant/home-assistant:2026.9.3
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -855,7 +855,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.8.3-python3.14
+FROM prefecthq/prefect:3.8.6-python3.14
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
