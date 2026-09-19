@@ -1,5 +1,5 @@
 {
-  "version": "f3235e8b",
+  "version": "0282e4fb",
   "upstream": {
     "images": [
       "debian:trixie-20260824-slim",
@@ -61,7 +61,7 @@
       "haproxytech/haproxy-alpine:3.4.4",
       "haproxytech/kubernetes-ingress:3.2.15",
       "aquasec/trivy:0.74.0",
-      "ghcr.io/external-secrets/external-secrets:v2.10.0",
+      "ghcr.io/external-secrets/external-secrets:v2.11.0",
       "registry.k8s.io/csi-secrets-store/driver:v1.6.1",
       "registry.k8s.io/csi-secrets-store/driver-crds:v1.6.1",
       "stakater/reloader:v1.4.22",
@@ -219,7 +219,7 @@
       "prefecthq/prefect:3.8.3-python3.14",
       "prefecthq/prometheus-prefect-exporter:4.1.0",
       "codeberg.org/forgejo/forgejo:16.0.5",
-      "code.forgejo.org/forgejo/runner:13.1.0",
+      "code.forgejo.org/forgejo/runner:13.2.0",
       "ghcr.io/catthehacker/ubuntu:act-24.04",
       "ghcr.io/catthehacker/ubuntu:runner-24.04",
       "influxdb:1.12.4",

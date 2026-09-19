@@ -235,7 +235,7 @@ FROM aquasec/trivy:0.74.0
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v2.10.0
+FROM ghcr.io/external-secrets/external-secrets:v2.11.0
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
@@ -867,7 +867,7 @@ FROM codeberg.org/forgejo/forgejo:16.0.5
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:13.1.0
+FROM code.forgejo.org/forgejo/runner:13.2.0
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
