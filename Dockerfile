@@ -443,7 +443,7 @@ FROM quay.io/jetstack/cert-manager-csi-driver:v0.16.0
 # quay.io/jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
-FROM zachomedia/cert-manager-webhook-pdns:v2.5.3
+FROM zachomedia/cert-manager-webhook-pdns:v2.5.5
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
