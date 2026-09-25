@@ -179,7 +179,7 @@ FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v19.
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # quay.io/brancz/kube-rbac-proxy
-FROM quay.io/brancz/kube-rbac-proxy:v0.22.1
+FROM quay.io/brancz/kube-rbac-proxy:v0.23.0
 # quay.io/brancz/kube-rbac-proxy
 
 # pihole/pihole
