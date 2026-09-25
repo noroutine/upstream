@@ -171,7 +171,7 @@ FROM gitlab/gitlab-runner:alpine-v19.4.0
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
-FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v19.4.0
+FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v19.4.1
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
