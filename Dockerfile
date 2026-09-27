@@ -207,7 +207,7 @@ FROM klutchell/unbound:1.26.1
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:35.0.0-apache
+FROM nextcloud:35.0.1-apache
 # nextcloud
 
 # docker
@@ -415,7 +415,7 @@ FROM quay.io/cephcsi/cephcsi:v3.18.0
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2026.9.3
+FROM homeassistant/home-assistant:2026.9.4
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt

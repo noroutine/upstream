@@ -1,5 +1,5 @@
 {
-  "version": "9524b103",
+  "version": "32e25862",
   "upstream": {
     "images": [
       "debian:trixie-20260918-slim",
@@ -54,7 +54,7 @@
       "quay.io/brancz/kube-rbac-proxy:v0.23.0",
       "pihole/pihole:2026.09.0",
       "klutchell/unbound:1.26.1",
-      "nextcloud:35.0.0-apache",
+      "nextcloud:35.0.1-apache",
       "docker:29.8.1-dind",
       "registry:3.0.0",
       "registry.k8s.io/ingress-nginx/controller:v1.15.1",
@@ -106,7 +106,7 @@
       "netboxcommunity/netbox:v4.7.1",
       "postgrest/postgrest:v16.3",
       "quay.io/cephcsi/cephcsi:v3.18.0",
-      "homeassistant/home-assistant:2026.9.3",
+      "homeassistant/home-assistant:2026.9.4",
       "koenkk/zigbee2mqtt:2.14.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.13.4",
       "cloudflare/cloudflared:2026.9.3",
