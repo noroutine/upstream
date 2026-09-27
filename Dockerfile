@@ -66,6 +66,18 @@ FROM noroutine/mc:RELEASE.2025-08-13T08-35-41Z
 FROM pgsty/silo:RELEASE.2026-09-16T00-00-00Z
 # pgsty/silo
 
+# ghcr.io/berriai/litellm
+FROM ghcr.io/berriai/litellm:v1.102.1
+# ghcr.io/berriai/litellm
+
+# vllm/vllm-openai
+FROM vllm/vllm-openai:v0.30.0
+# vllm/vllm-openai
+
+# nvcr.io/nvidia/vllm
+FROM nvcr.io/nvidia/vllm:26.08-py3
+# nvcr.io/nvidia/vllm
+
 # quay.io/coreos/etcd
 FROM quay.io/coreos/etcd:v3.5.34
 # quay.io/coreos/etcd
@@ -227,7 +239,7 @@ FROM quay.io/frrouting/frr:10.7.1
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.4.4
+FROM haproxytech/haproxy-alpine:3.4.5
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
@@ -815,7 +827,7 @@ FROM confluentinc/confluent-init-container:3.3.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.1718.10
+FROM confluentinc/confluent-operator:0.1718.99
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center-next-gen
