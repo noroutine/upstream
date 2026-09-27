@@ -1,5 +1,5 @@
 {
-  "version": "e5391cd3",
+  "version": "e4a8486f",
   "upstream": {
     "images": [
       "debian:trixie-20260918-slim",
@@ -44,7 +44,7 @@
       "dpage/pgadmin4:9.18",
       "mccutchen/go-httpbin:2.25.0",
       "quay.io/oauth2-proxy/oauth2-proxy:v7.15.4-alpine",
-      "gitlab/gitlab-ce:19.4.0-ce.0",
+      "gitlab/gitlab-ce:19.4.1-ce.0",
       "gitlab/gitlab-runner:alpine-v19.4.0",
       "registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v19.4.1",
       "registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v19.4.1",
@@ -106,7 +106,7 @@
       "homeassistant/home-assistant:2026.9.3",
       "koenkk/zigbee2mqtt:2.14.1",
       "registry.k8s.io/sig-storage/nfsplugin:v4.13.4",
-      "cloudflare/cloudflared:2026.9.1",
+      "cloudflare/cloudflared:2026.9.3",
       "registry.k8s.io/git-sync/git-sync:v4.7.1",
       "apache/airflow:3.3.2-python3.13",
       "sj26/mailcatcher:v0.11.0",
@@ -205,7 +205,7 @@
       "apache/kafka:4.3.1",
       "quay.io/strimzi/operator:1.2.0",
       "quay.io/strimzi/kafka:1.2.0-kafka-4.3.1",
-      "confluentinc/confluent-init-container:3.3.0",
+      "confluentinc/confluent-init-container:3.3.1",
       "confluentinc/confluent-operator:0.1718.10",
       "confluentinc/cp-enterprise-control-center-next-gen:2.6.0",
       "confluentinc/cp-enterprise-replicator:8.3.2",

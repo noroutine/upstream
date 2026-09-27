@@ -167,7 +167,7 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.15.4-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:19.4.0-ce.0
+FROM gitlab/gitlab-ce:19.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
@@ -415,7 +415,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.4
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2026.9.1
+FROM cloudflare/cloudflared:2026.9.3
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
@@ -811,7 +811,7 @@ FROM quay.io/strimzi/kafka:1.2.0-kafka-4.3.1
 # quay.io/strimzi/kafka
 
 # confluentinc/confluent-init-container
-FROM confluentinc/confluent-init-container:3.3.0
+FROM confluentinc/confluent-init-container:3.3.1
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
