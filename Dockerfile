@@ -927,7 +927,7 @@ FROM rclone/rclone:1.75.1
 # rclone/rclone
 
 # apache/hive
-FROM apache/hive:4.0.1
+FROM apache/hive:4.2.1
 # apache/hive
 
 # apache/spark
