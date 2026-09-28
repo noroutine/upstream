@@ -499,7 +499,7 @@ FROM hashicorp/vault-csi-provider:1.7.4
 # hashicorp/vault-csi-provider
 
 # openbao/openbao
-FROM openbao/openbao:2.6.2
+FROM openbao/openbao:2.7.0
 # openbao/openbao
 
 # openbao/openbao-csi-provider
