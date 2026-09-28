@@ -183,7 +183,7 @@ FROM gitlab/gitlab-ce:19.4.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v19.4.0
+FROM gitlab/gitlab-runner:alpine-v19.4.1
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
