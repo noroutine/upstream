@@ -831,7 +831,7 @@ FROM confluentinc/confluent-operator:0.1718.99
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center-next-gen
-FROM confluentinc/cp-enterprise-control-center-next-gen:2.6.0
+FROM confluentinc/cp-enterprise-control-center-next-gen:2.6.1
 # confluentinc/cp-enterprise-control-center-next-gen
 
 # confluentinc/cp-enterprise-replicator
