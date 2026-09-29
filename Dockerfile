@@ -75,7 +75,7 @@ FROM vllm/vllm-openai:v0.30.0
 # vllm/vllm-openai
 
 # nvcr.io/nvidia/vllm
-FROM nvcr.io/nvidia/vllm:26.08-py3
+FROM nvcr.io/nvidia/vllm:26.09-py3
 # nvcr.io/nvidia/vllm
 
 # quay.io/coreos/etcd
