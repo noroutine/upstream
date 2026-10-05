@@ -299,7 +299,7 @@ FROM ghcr.io/runatlantis/atlantis:v0.48.0
 # ghcr.io/runatlantis/atlantis
 
 # ghcr.io/akuity/kargo
-FROM ghcr.io/akuity/kargo:v1.11.4
+FROM ghcr.io/akuity/kargo:v1.12.1
 # ghcr.io/akuity/kargo
 
 # temporalio/server
