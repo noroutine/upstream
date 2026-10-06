@@ -159,7 +159,7 @@ FROM docker.elastic.co/beats/elastic-agent:8.19.22
 # docker.elastic.co/beats/elastic-agent
 
 # mongo
-FROM mongo:8.3.11-noble
+FROM mongo:9.0.2-noble
 # mongo
 
 # percona/mongodb_exporter
