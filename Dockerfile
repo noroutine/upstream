@@ -295,7 +295,7 @@ FROM crossplane/crossplane:v2.4.2
 # crossplane/crossplane
 
 # ghcr.io/runatlantis/atlantis
-FROM ghcr.io/runatlantis/atlantis:v0.48.0
+FROM ghcr.io/runatlantis/atlantis:v0.48.1
 # ghcr.io/runatlantis/atlantis
 
 # ghcr.io/akuity/kargo
