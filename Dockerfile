@@ -427,7 +427,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.4
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2026.9.3
+FROM cloudflare/cloudflared:2026.10.0
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
