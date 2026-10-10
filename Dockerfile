@@ -215,7 +215,7 @@ FROM docker:29.9.0-dind
 # docker
 
 # registry
-FROM registry:3.0.0
+FROM registry:3.1.2
 # registry
 
 # registry.k8s.io/ingress-nginx/controller
