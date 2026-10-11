@@ -19,7 +19,7 @@ FROM node:26.10.0-trixie
 # node
 
 # python
-FROM python:3.14.7-trixie
+FROM python:3.14.8-trixie
 # python
 
 # golang
@@ -243,7 +243,7 @@ FROM haproxytech/haproxy-alpine:3.4.6
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.2.15
+FROM haproxytech/kubernetes-ingress:3.2.16
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -487,7 +487,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.5
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:2.1.1
+FROM hashicorp/vault:2.1.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s

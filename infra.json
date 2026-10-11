@@ -1,5 +1,5 @@
 {
-  "version": "09d3486a-30m",
+  "version": "1ff4452b-30m",
   "upstream": {
     "images": [
       "debian:trixie-20261005-slim",
@@ -7,7 +7,7 @@
       "alpine:3.24.2",
       "busybox:1.38.0",
       "node:26.10.0-trixie",
-      "python:3.14.7-trixie",
+      "python:3.14.8-trixie",
       "golang:1.27.2-trixie",
       "traefik:v3.7.13",
       "sonatype/nexus3:3.96.4",
@@ -63,7 +63,7 @@
       "quay.io/metallb/speaker:v0.16.1",
       "quay.io/frrouting/frr:10.7.1",
       "haproxytech/haproxy-alpine:3.4.6",
-      "haproxytech/kubernetes-ingress:3.2.15",
+      "haproxytech/kubernetes-ingress:3.2.16",
       "aquasec/trivy:0.75.0",
       "ghcr.io/external-secrets/external-secrets:v2.12.0",
       "registry.k8s.io/csi-secrets-store/driver:v1.6.1",
@@ -124,7 +124,7 @@
       "quay.io/jetstack/cert-manager-webhook:v1.21.2",
       "quay.io/jetstack/cert-manager-csi-driver:v0.16.0",
       "zachomedia/cert-manager-webhook-pdns:v2.5.5",
-      "hashicorp/vault:2.1.1",
+      "hashicorp/vault:2.1.2",
       "hashicorp/vault-k8s:1.7.6",
       "hashicorp/vault-csi-provider:1.7.4",
       "openbao/openbao:2.7.1",
