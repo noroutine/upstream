@@ -1,5 +1,5 @@
 {
-  "version": "1ff4452b-30m",
+  "version": "e2207a12-30m",
   "upstream": {
     "images": [
       "debian:trixie-20261005-slim",
@@ -233,7 +233,7 @@
       "starrocks/allin1-ubuntu:4.1.6",
       "starrocks/fe-ubuntu:4.1.6",
       "starrocks/be-ubuntu:4.1.6",
-      "rclone/rclone:1.75.1",
+      "rclone/rclone:1.75.2",
       "apache/hive:4.2.1",
       "apache/spark:4.2.0",
       "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1",
