@@ -283,11 +283,11 @@ FROM quay.io/argoproj/argocd:v3.5.4
 # quay.io/argoproj/argocd
 
 # quay.io/argoproj/workflow-controller
-FROM quay.io/argoproj/workflow-controller:v4.1.4
+FROM quay.io/argoproj/workflow-controller:v4.1.5
 # quay.io/argoproj/workflow-controller
 
 # quay.io/argoproj/argoexec
-FROM quay.io/argoproj/argoexec:v4.1.4
+FROM quay.io/argoproj/argoexec:v4.1.5
 # quay.io/argoproj/argoexec
 
 # crossplane/crossplane
