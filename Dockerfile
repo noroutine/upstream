@@ -487,7 +487,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.5
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:2.1.1
+FROM hashicorp/vault:2.1.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
