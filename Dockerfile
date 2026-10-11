@@ -23,7 +23,7 @@ FROM python:3.14.7-trixie
 # python
 
 # golang
-FROM golang:1.27.1-trixie
+FROM golang:1.27.2-trixie
 # golang
 
 # traefik
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.10-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.8.0-0
+FROM quay.io/keycloak/keycloak:26.8.0-1
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -351,7 +351,7 @@ FROM sapcc/mosquitto-exporter:0.8.0
 # sapcc/mosquitto-exporter
 
 # caddy
-FROM caddy:2.11.6-alpine
+FROM caddy:2.11.7-alpine
 # caddy
 
 # azul/zulu-openjdk-debian
@@ -383,11 +383,11 @@ FROM jellyfin/jellyfin:12.2.20261005-225228
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.94.02
+FROM haveagitgat/tdarr:2.94.03
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:2.94.02
+FROM haveagitgat/tdarr_node:2.94.03
 # haveagitgat/tdarr_node
 
 # curlimages/curl
