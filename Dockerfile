@@ -763,7 +763,7 @@ FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.6.0
 # registry.k8s.io/sig-storage/csi-snapshotter
 
 # registry.k8s.io/sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v8.6.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.7.0
 # registry.k8s.io/sig-storage/snapshot-controller
 
 # registry.k8s.io/sig-storage/snapshot-validation-webhook
