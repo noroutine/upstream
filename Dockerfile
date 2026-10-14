@@ -895,7 +895,7 @@ FROM kbudde/rabbitmq-exporter:1.0.0
 # kbudde/rabbitmq-exporter
 
 # ghcr.io/rabbitmq/cluster-operator
-FROM ghcr.io/rabbitmq/cluster-operator:2.23.0
+FROM ghcr.io/rabbitmq/cluster-operator:2.23.1
 # ghcr.io/rabbitmq/cluster-operator
 
 # ghcr.io/rabbitmq/messaging-topology-operator
