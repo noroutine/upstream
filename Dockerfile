@@ -279,7 +279,7 @@ FROM ghcr.io/dexidp/dex:v2.46.0
 # ghcr.io/dexidp/dex
 
 # quay.io/argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.5.4
+FROM quay.io/argoproj/argocd:v3.5.5
 # quay.io/argoproj/argocd
 
 # quay.io/argoproj/workflow-controller
