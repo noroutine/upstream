@@ -759,7 +759,7 @@ FROM registry.k8s.io/sig-storage/csi-provisioner:v6.3.0
 # registry.k8s.io/sig-storage/csi-provisioner
 
 # registry.k8s.io/sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.6.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.7.0
 # registry.k8s.io/sig-storage/csi-snapshotter
 
 # registry.k8s.io/sig-storage/snapshot-controller
