@@ -899,7 +899,7 @@ FROM ghcr.io/rabbitmq/cluster-operator:2.23.0
 # ghcr.io/rabbitmq/cluster-operator
 
 # ghcr.io/rabbitmq/messaging-topology-operator
-FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.3
+FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.4
 # ghcr.io/rabbitmq/messaging-topology-operator
 
 # prefecthq/prefect
