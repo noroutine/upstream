@@ -383,7 +383,7 @@ FROM jellyfin/jellyfin:12.2.20261005-225228
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:2.94.03
+FROM haveagitgat/tdarr:3.00.00
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
