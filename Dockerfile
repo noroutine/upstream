@@ -939,7 +939,7 @@ FROM ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1
 # ghcr.io/cloudnative-pg/cloudnative-pg
 
 # codeberg.org/forgejo/forgejo
-FROM codeberg.org/forgejo/forgejo:16.0.5
+FROM codeberg.org/forgejo/forgejo:17.0.0
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
