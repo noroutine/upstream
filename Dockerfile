@@ -443,7 +443,7 @@ FROM sj26/mailcatcher:v0.11.0
 # sj26/mailcatcher
 
 # fatedier/frps
-FROM fatedier/frps:v0.71.0
+FROM fatedier/frps:v0.71.1
 # fatedier/frps
 
 # fatedier/frpc
