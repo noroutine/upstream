@@ -275,7 +275,7 @@ FROM registry:3.1.2
 # registry
 
 # ghcr.io/dexidp/dex
-FROM ghcr.io/dexidp/dex:v2.46.0
+FROM ghcr.io/dexidp/dex:v2.46.1
 # ghcr.io/dexidp/dex
 
 # quay.io/argoproj/argocd
