@@ -191,7 +191,7 @@ FROM registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v1
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
 
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
-FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v19.4.1
+FROM registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v19.5.1
 # registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk
 
 # quay.io/brancz/kube-rbac-proxy
