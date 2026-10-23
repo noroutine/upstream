@@ -79,15 +79,15 @@ FROM nvcr.io/nvidia/vllm:26.09-py3
 # nvcr.io/nvidia/vllm
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.34
+FROM quay.io/coreos/etcd:v3.7.3
 # quay.io/coreos/etcd
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.15
+FROM quay.io/coreos/etcd:v3.7.3
 # quay.io/coreos/etcd
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.7.2
+FROM quay.io/coreos/etcd:v3.7.3
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
