@@ -887,7 +887,7 @@ FROM altinity/clickhouse-operator:0.28.0
 # altinity/clickhouse-operator
 
 # rabbitmq
-FROM rabbitmq:4.3.6
+FROM rabbitmq:4.4.0
 # rabbitmq
 
 # kbudde/rabbitmq-exporter
