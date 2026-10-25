@@ -67,7 +67,7 @@ FROM pgsty/silo:RELEASE.2026-09-16T00-00-00Z
 # pgsty/silo
 
 # ghcr.io/berriai/litellm
-FROM ghcr.io/berriai/litellm:v1.106.2
+FROM ghcr.io/berriai/litellm:v1.106.4
 # ghcr.io/berriai/litellm
 
 # vllm/vllm-openai
