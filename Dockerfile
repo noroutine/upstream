@@ -723,7 +723,7 @@ FROM calico/csi:v3.32.2
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.31.2
+FROM istio/pilot:1.31.3
 # istio/pilot
 
 # istio/proxyv2
