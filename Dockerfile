@@ -243,7 +243,7 @@ FROM haproxytech/haproxy-alpine:3.4.7
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.2.17
+FROM haproxytech/kubernetes-ingress:3.2.18
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
