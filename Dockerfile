@@ -971,7 +971,7 @@ FROM timescale/timescaledb-ha:pg17-ts2.23
 # timescale/timescaledb-ha
 
 # poweradmin/poweradmin
-FROM poweradmin/poweradmin:4.5.0
+FROM poweradmin/poweradmin:4.5.1
 # poweradmin/poweradmin
 
 # cupcakearmy/cryptgeon
