@@ -7,7 +7,7 @@ FROM ubuntu:noble-20260917
 # ubuntu
 
 # alpine
-FROM alpine:3.24.2
+FROM alpine:3.24.3
 # alpine
 
 # busybox
@@ -15,7 +15,7 @@ FROM busybox:1.38.0
 # busybox
 
 # node
-FROM node:26.12.0-trixie
+FROM node:26.12.1-trixie
 # node
 
 # python
@@ -31,7 +31,7 @@ FROM traefik:v3.7.15
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.97.0
+FROM sonatype/nexus3:3.97.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.10-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.8.1-0
+FROM quay.io/keycloak/keycloak:26.8.1-1
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -67,7 +67,7 @@ FROM pgsty/silo:RELEASE.2026-09-16T00-00-00Z
 # pgsty/silo
 
 # ghcr.io/berriai/litellm
-FROM ghcr.io/berriai/litellm:v1.106.2
+FROM ghcr.io/berriai/litellm:v1.106.4
 # ghcr.io/berriai/litellm
 
 # vllm/vllm-openai
@@ -211,7 +211,7 @@ FROM nextcloud:35.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:29.9.1-dind
+FROM docker:29.9.2-dind
 # docker
 
 # registry
@@ -243,15 +243,15 @@ FROM haproxytech/haproxy-alpine:3.4.7
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.2.17
+FROM haproxytech/kubernetes-ingress:3.2.18
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.76.0
+FROM aquasec/trivy:0.76.1
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v2.13.0
+FROM ghcr.io/external-secrets/external-secrets:v2.14.0
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
@@ -295,7 +295,7 @@ FROM crossplane/crossplane:v2.4.2
 # crossplane/crossplane
 
 # ghcr.io/runatlantis/atlantis
-FROM ghcr.io/runatlantis/atlantis:v0.48.2
+FROM ghcr.io/runatlantis/atlantis:v0.49.0
 # ghcr.io/runatlantis/atlantis
 
 # ghcr.io/akuity/kargo
@@ -315,7 +315,7 @@ FROM redis:8.10.2
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.94.0
+FROM oliver006/redis_exporter:v1.95.0
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -723,19 +723,19 @@ FROM calico/csi:v3.32.2
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.31.2
+FROM istio/pilot:1.31.3
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.31.2
+FROM istio/proxyv2:1.31.3
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.31.2
+FROM istio/ztunnel:1.31.3
 # istio/ztunnel
 
 # registry.k8s.io/nfd/node-feature-discovery
-FROM registry.k8s.io/nfd/node-feature-discovery:v0.20.0
+FROM registry.k8s.io/nfd/node-feature-discovery:v0.20.1
 # registry.k8s.io/nfd/node-feature-discovery
 
 # registry.k8s.io/sig-storage/livenessprobe
@@ -939,7 +939,7 @@ FROM ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1
 # ghcr.io/cloudnative-pg/cloudnative-pg
 
 # codeberg.org/forgejo/forgejo
-FROM codeberg.org/forgejo/forgejo:16.0.6
+FROM codeberg.org/forgejo/forgejo:17.0.0
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
@@ -971,7 +971,7 @@ FROM timescale/timescaledb-ha:pg17-ts2.23
 # timescale/timescaledb-ha
 
 # poweradmin/poweradmin
-FROM poweradmin/poweradmin:4.5.0
+FROM poweradmin/poweradmin:4.5.1
 # poweradmin/poweradmin
 
 # cupcakearmy/cryptgeon
