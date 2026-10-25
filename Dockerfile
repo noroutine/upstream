@@ -679,6 +679,18 @@ FROM rancher/kubectl:v1.36.2
 # rancher/kubectl
 
 # quay.io/tigera/operator
+FROM quay.io/tigera/operator:v1.44.0
+# quay.io/tigera/operator
+
+# calico/calico
+FROM calico/calico:v3.33.0
+# calico/calico
+
+# calico/node
+FROM calico/node:v3.33.0
+# calico/node
+
+# quay.io/tigera/operator
 FROM quay.io/tigera/operator:v1.42.6
 # quay.io/tigera/operator
 
@@ -689,10 +701,6 @@ FROM calico/typha:v3.32.2
 # calico/ctl
 FROM calico/ctl:v3.32.2
 # calico/ctl
-
-# calico/node
-FROM calico/node:v3.32.2
-# calico/node
 
 # calico/cni
 FROM calico/cni:v3.32.2
