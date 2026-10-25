@@ -7,7 +7,7 @@ FROM ubuntu:noble-20260917
 # ubuntu
 
 # alpine
-FROM alpine:3.24.2
+FROM alpine:3.24.3
 # alpine
 
 # busybox
