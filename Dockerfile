@@ -291,7 +291,7 @@ FROM quay.io/argoproj/argoexec:v4.1.6
 # quay.io/argoproj/argoexec
 
 # crossplane/crossplane
-FROM crossplane/crossplane:v2.4.2
+FROM crossplane/crossplane:v2.4.3
 # crossplane/crossplane
 
 # ghcr.io/runatlantis/atlantis
