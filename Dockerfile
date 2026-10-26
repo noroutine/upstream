@@ -163,7 +163,7 @@ FROM mongo:9.0.2-noble
 # mongo
 
 # percona/mongodb_exporter
-FROM percona/mongodb_exporter:0.53.0
+FROM percona/mongodb_exporter:0.54.0
 # percona/mongodb_exporter
 
 # dpage/pgadmin4
