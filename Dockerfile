@@ -203,7 +203,7 @@ FROM pihole/pihole:2026.10.0
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:1.26.1
+FROM klutchell/unbound:v1.26.2
 # klutchell/unbound
 
 # nextcloud
