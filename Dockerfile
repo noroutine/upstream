@@ -907,7 +907,7 @@ FROM ghcr.io/rabbitmq/cluster-operator:2.23.1
 # ghcr.io/rabbitmq/cluster-operator
 
 # ghcr.io/rabbitmq/messaging-topology-operator
-FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.4
+FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.5
 # ghcr.io/rabbitmq/messaging-topology-operator
 
 # prefecthq/prefect
