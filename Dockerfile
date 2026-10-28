@@ -523,7 +523,7 @@ FROM registry.k8s.io/kube-proxy:v1.37.1
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.37.1
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -539,7 +539,7 @@ FROM registry.k8s.io/kube-proxy:v1.37.0
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.37.0
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -555,7 +555,7 @@ FROM registry.k8s.io/kube-proxy:v1.36.5
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.36.5
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -571,7 +571,7 @@ FROM registry.k8s.io/kube-proxy:v1.36.4
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.36.4
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -587,7 +587,7 @@ FROM registry.k8s.io/kube-proxy:v1.35.9
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.35.9
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -603,7 +603,7 @@ FROM registry.k8s.io/kube-proxy:v1.35.8
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.35.8
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -619,7 +619,7 @@ FROM registry.k8s.io/kube-proxy:v1.34.12
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.34.12
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -635,7 +635,7 @@ FROM registry.k8s.io/kube-proxy:v1.34.11
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.34.11
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -651,7 +651,7 @@ FROM registry.k8s.io/kube-proxy:v1.33.13
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.33.13
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
@@ -667,7 +667,7 @@ FROM registry.k8s.io/kube-proxy:v1.33.12
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.33.12
+FROM registry.k8s.io/kube-scheduler:v1.37.2
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
