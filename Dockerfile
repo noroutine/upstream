@@ -859,7 +859,7 @@ FROM confluentinc/cp-schema-registry:8.3.2
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:8.3.2
+FROM confluentinc/cp-server:8.4.0
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
