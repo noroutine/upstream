@@ -855,7 +855,7 @@ FROM confluentinc/cp-ksqldb-server:8.3.2
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:8.3.2
+FROM confluentinc/cp-schema-registry:8.4.0
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
