@@ -927,7 +927,7 @@ FROM starrocks/fe-ubuntu:4.1.6
 # starrocks/fe-ubuntu
 
 # starrocks/be-ubuntu
-FROM starrocks/be-ubuntu:4.1.6
+FROM starrocks/be-ubuntu:4.1.7
 # starrocks/be-ubuntu
 
 # rclone/rclone
