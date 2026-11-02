@@ -131,7 +131,7 @@ FROM registry.k8s.io/metrics-server/metrics-server:v0.9.0
 # registry.k8s.io/metrics-server/metrics-server
 
 # grafana/grafana
-FROM grafana/grafana:13.2
+FROM grafana/grafana:13.3
 # grafana/grafana
 
 # ghcr.io/prymitive/karma
