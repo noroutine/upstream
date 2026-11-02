@@ -703,7 +703,7 @@ FROM calico/ctl:v3.32.2
 # calico/ctl
 
 # calico/cni
-FROM calico/cni:v3.32.2
+FROM calico/cni:v3.32.3
 # calico/cni
 
 # calico/apiserver
