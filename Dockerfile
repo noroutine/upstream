@@ -259,7 +259,7 @@ FROM registry.k8s.io/csi-secrets-store/driver:v1.6.1
 # registry.k8s.io/csi-secrets-store/driver
 
 # registry.k8s.io/csi-secrets-store/driver-crds
-FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.6.1
+FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.6.2
 # registry.k8s.io/csi-secrets-store/driver-crds
 
 # stakater/reloader
