@@ -227,7 +227,7 @@ FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.9
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen
 
 # quay.io/metallb/controller
-FROM quay.io/metallb/controller:v0.16.1
+FROM quay.io/metallb/controller:v0.16.2
 # quay.io/metallb/controller
 
 # quay.io/metallb/speaker
