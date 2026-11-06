@@ -307,7 +307,7 @@ FROM ghcr.io/akuity/kargo:v1.12.5
 # ghcr.io/akuity/kargo
 
 # temporalio/server
-FROM temporalio/server:1.32.1
+FROM temporalio/server:1.32.2
 # temporalio/server
 
 # valkey/valkey
