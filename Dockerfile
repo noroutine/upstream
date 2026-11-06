@@ -323,7 +323,7 @@ FROM oliver006/redis_exporter:v1.96.0
 # oliver006/redis_exporter
 
 # boky/postfix
-FROM boky/postfix:v5.2.0
+FROM boky/postfix:v5.2.1
 # boky/postfix
 
 # connecteverything/nats-operator
