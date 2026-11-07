@@ -67,7 +67,7 @@ FROM pgsty/silo:RELEASE.2026-09-16T00-00-00Z
 # pgsty/silo
 
 # ghcr.io/berriai/litellm
-FROM ghcr.io/berriai/litellm:v1.108.0
+FROM ghcr.io/berriai/litellm:v1.108.2
 # ghcr.io/berriai/litellm
 
 # vllm/vllm-openai
@@ -211,7 +211,7 @@ FROM nextcloud:35.0.2-apache
 # nextcloud
 
 # docker
-FROM docker:29.9.2-dind
+FROM docker:29.9.3-dind
 # docker
 
 # registry
