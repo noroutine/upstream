@@ -446,6 +446,10 @@ FROM apache/airflow:3.3.2-python3.13
 FROM sj26/mailcatcher:v0.11.0
 # sj26/mailcatcher
 
+# axllent/mailpit
+FROM axllent/mailpit:v1.33.0
+# axllent/mailpit
+
 # fatedier/frps
 FROM fatedier/frps:v0.71.1
 # fatedier/frps
@@ -991,5 +995,9 @@ FROM cupcakearmy/cryptgeon:2.9.3
 # cupcakearmy/cryptgeon
 
 # cr.noroutine.me/catalyst/tls-leech
-FROM cr.noroutine.me/catalyst/tls-leech:v0.1.2
+FROM cr.noroutine.me/catalyst/tls-leech:v0.1.4
 # cr.noroutine.me/catalyst/tls-leech
+
+# ghcr.io/noroutine/kpr
+FROM ghcr.io/noroutine/kpr:v0.0.15
+# ghcr.io/noroutine/kpr

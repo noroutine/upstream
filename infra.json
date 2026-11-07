@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.432",
+  "version": "a9a2147e-30m",
   "upstream": {
     "images": [
       "debian:trixie-20261027-slim",
@@ -114,6 +114,7 @@
       "registry.k8s.io/git-sync/git-sync:v4.8.0",
       "apache/airflow:3.3.2-python3.13",
       "sj26/mailcatcher:v0.11.0",
+      "axllent/mailpit:v1.33.0",
       "fatedier/frps:v0.71.1",
       "fatedier/frpc:v0.71.1",
       "n8nio/n8n:stable",
@@ -250,7 +251,8 @@
       "timescale/timescaledb-ha:pg17-ts2.23",
       "poweradmin/poweradmin:4.5.1",
       "cupcakearmy/cryptgeon:2.9.3",
-      "cr.noroutine.me/catalyst/tls-leech:v0.1.2"
+      "cr.noroutine.me/catalyst/tls-leech:v0.1.4",
+      "ghcr.io/noroutine/kpr:v0.0.15"
     ]
   }
 }
