@@ -7,7 +7,7 @@ FROM ubuntu:noble-20260917
 # ubuntu
 
 # alpine
-FROM alpine:3.24.3
+FROM alpine:3.24.4
 # alpine
 
 # busybox
@@ -31,7 +31,7 @@ FROM traefik:v3.7.17
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.97.3
+FROM sonatype/nexus3:3.98.0
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.10-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.8.1-2
+FROM quay.io/keycloak/keycloak:26.8.2-0
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -107,7 +107,7 @@ FROM quay.io/prometheus/blackbox-exporter:v0.29.1
 # quay.io/prometheus/blackbox-exporter
 
 # quay.io/prometheus/snmp-exporter
-FROM quay.io/prometheus/snmp-exporter:v0.30.1
+FROM quay.io/prometheus/snmp-exporter:v0.31.0
 # quay.io/prometheus/snmp-exporter
 
 # quay.io/prometheus/pushgateway
@@ -203,7 +203,7 @@ FROM pihole/pihole:2026.10.1
 # pihole/pihole
 
 # klutchell/unbound
-FROM klutchell/unbound:1.26.1
+FROM klutchell/unbound:v1.26.2
 # klutchell/unbound
 
 # nextcloud
@@ -247,7 +247,7 @@ FROM haproxytech/kubernetes-ingress:3.2.19
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
-FROM aquasec/trivy:0.76.1
+FROM aquasec/trivy:0.76.2
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
@@ -307,7 +307,7 @@ FROM ghcr.io/akuity/kargo:v1.12.5
 # ghcr.io/akuity/kargo
 
 # temporalio/server
-FROM temporalio/server:1.32.1
+FROM temporalio/server:1.32.2
 # temporalio/server
 
 # valkey/valkey
@@ -323,7 +323,7 @@ FROM oliver006/redis_exporter:v1.96.0
 # oliver006/redis_exporter
 
 # boky/postfix
-FROM boky/postfix:v5.2.0
+FROM boky/postfix:v5.2.1
 # boky/postfix
 
 # connecteverything/nats-operator
@@ -387,11 +387,11 @@ FROM jellyfin/jellyfin:12.4.20261026-211555
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:3.04.00
+FROM haveagitgat/tdarr:3.06.00
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:3.04.00
+FROM haveagitgat/tdarr_node:3.06.00
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -411,7 +411,7 @@ FROM netboxcommunity/netbox:v4.7.4
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v16.4
+FROM postgrest/postgrest:v16.5
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
@@ -483,7 +483,7 @@ FROM quay.io/jetstack/cert-manager-webhook:v1.21.3
 # quay.io/jetstack/cert-manager-webhook
 
 # quay.io/jetstack/cert-manager-csi-driver
-FROM quay.io/jetstack/cert-manager-csi-driver:v0.16.0
+FROM quay.io/jetstack/cert-manager-csi-driver:v0.16.1
 # quay.io/jetstack/cert-manager-csi-driver
 
 # zachomedia/cert-manager-webhook-pdns
@@ -831,7 +831,7 @@ FROM quay.io/strimzi/operator:1.3.1
 # quay.io/strimzi/operator
 
 # quay.io/strimzi/kafka
-FROM quay.io/strimzi/kafka:1.3.1-kafka-4.3.1
+FROM quay.io/strimzi/kafka:1.3.1-kafka-4.3.2
 # quay.io/strimzi/kafka
 
 # confluentinc/confluent-init-container
@@ -883,7 +883,7 @@ FROM scylladb/scylla:2026.3.4
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.12.1
+FROM scylladb/scylla-manager:3.13.0
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
