@@ -1,5 +1,5 @@
 {
-  "version": "70b3914e-30m",
+  "version": "0a4ff075-30m",
   "upstream": {
     "images": [
       "debian:trixie-20261027-slim",
@@ -19,7 +19,7 @@
       "noroutine/minio:RELEASE.2025-04-22T22-12-26Z",
       "noroutine/mc:RELEASE.2025-08-13T08-35-41Z",
       "pgsty/silo:RELEASE.2026-09-16T00-00-00Z",
-      "ghcr.io/berriai/litellm:v1.108.2",
+      "ghcr.io/berriai/litellm:v1.108.3",
       "vllm/vllm-openai:v0.33.0",
       "nvcr.io/nvidia/vllm:26.10-py3",
       "quay.io/coreos/etcd:v3.5.35",
@@ -114,7 +114,7 @@
       "registry.k8s.io/git-sync/git-sync:v4.8.0",
       "apache/airflow:3.3.2-python3.13",
       "sj26/mailcatcher:v0.11.0",
-      "axllent/mailpit:v1.33.0",
+      "axllent/mailpit:v1.33.1",
       "fatedier/frps:v0.71.1",
       "fatedier/frpc:v0.71.1",
       "n8nio/n8n:stable",
@@ -187,9 +187,9 @@
       "calico/pod2daemon-flexvol:v3.32.3",
       "calico/node-driver-registrar:v3.32.3",
       "calico/csi:v3.32.3",
-      "istio/pilot:1.31.3",
-      "istio/proxyv2:1.31.3",
-      "istio/ztunnel:1.31.3",
+      "istio/pilot:1.31.4",
+      "istio/proxyv2:1.31.4",
+      "istio/ztunnel:1.31.4",
       "registry.k8s.io/nfd/node-feature-discovery:v0.20.1",
       "registry.k8s.io/sig-storage/livenessprobe:v2.20.0",
       "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.18.0",

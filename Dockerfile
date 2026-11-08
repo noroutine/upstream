@@ -67,7 +67,7 @@ FROM pgsty/silo:RELEASE.2026-09-16T00-00-00Z
 # pgsty/silo
 
 # ghcr.io/berriai/litellm
-FROM ghcr.io/berriai/litellm:v1.108.2
+FROM ghcr.io/berriai/litellm:v1.108.3
 # ghcr.io/berriai/litellm
 
 # vllm/vllm-openai
@@ -447,7 +447,7 @@ FROM sj26/mailcatcher:v0.11.0
 # sj26/mailcatcher
 
 # axllent/mailpit
-FROM axllent/mailpit:v1.33.0
+FROM axllent/mailpit:v1.33.1
 # axllent/mailpit
 
 # fatedier/frps
@@ -739,15 +739,15 @@ FROM calico/csi:v3.32.3
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.31.3
+FROM istio/pilot:1.31.4
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.31.3
+FROM istio/proxyv2:1.31.4
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.31.3
+FROM istio/ztunnel:1.31.4
 # istio/ztunnel
 
 # registry.k8s.io/nfd/node-feature-discovery
