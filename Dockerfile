@@ -447,7 +447,7 @@ FROM sj26/mailcatcher:v0.11.0
 # sj26/mailcatcher
 
 # axllent/mailpit
-FROM axllent/mailpit:v1.33.0
+FROM axllent/mailpit:v1.33.1
 # axllent/mailpit
 
 # fatedier/frps
