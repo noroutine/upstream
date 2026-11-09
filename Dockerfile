@@ -947,7 +947,7 @@ FROM apache/hive:4.2.1
 # apache/hive
 
 # apache/spark
-FROM apache/spark:4.2.1
+FROM apache/spark:4.3.0
 # apache/spark
 
 # ghcr.io/cloudnative-pg/cloudnative-pg
