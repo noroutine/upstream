@@ -923,7 +923,7 @@ FROM prefecthq/prefect:3.8.8-python3.14
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
-FROM prefecthq/prometheus-prefect-exporter:4.1.0
+FROM prefecthq/prometheus-prefect-exporter:4.2.0
 # prefecthq/prometheus-prefect-exporter
 
 # starrocks/allin1-ubuntu
