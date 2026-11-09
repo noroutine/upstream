@@ -455,7 +455,7 @@ FROM fatedier/frps:v0.71.1
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.71.1
+FROM fatedier/frpc:v0.72.0
 # fatedier/frpc
 
 # n8nio/n8n
