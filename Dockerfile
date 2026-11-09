@@ -1,5 +1,5 @@
 # debian
-FROM debian:trixie-20261027-slim
+FROM debian:trixie-20261104-slim
 # debian
 
 # ubuntu
