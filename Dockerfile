@@ -939,7 +939,7 @@ FROM starrocks/be-ubuntu:4.1.7
 # starrocks/be-ubuntu
 
 # rclone/rclone
-FROM rclone/rclone:1.75.2
+FROM rclone/rclone:1.76.0
 # rclone/rclone
 
 # apache/hive
