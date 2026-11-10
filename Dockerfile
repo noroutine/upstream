@@ -439,7 +439,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.8.0
 # registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
-FROM apache/airflow:3.3.2-python3.13
+FROM apache/airflow:3.4.0-python3.13
 # apache/airflow
 
 # sj26/mailcatcher
