@@ -715,7 +715,7 @@ FROM calico/cni:v3.32.3
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.32.3
+FROM calico/apiserver:v3.32.4
 # calico/apiserver
 
 # calico/kube-controllers
