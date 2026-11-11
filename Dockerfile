@@ -719,7 +719,7 @@ FROM calico/apiserver:v3.32.3
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.32.3
+FROM calico/kube-controllers:v3.32.4
 # calico/kube-controllers
 
 # calico/dikastes
