@@ -707,7 +707,7 @@ FROM calico/typha:v3.32.3
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.32.3
+FROM calico/ctl:v3.32.4
 # calico/ctl
 
 # calico/cni
