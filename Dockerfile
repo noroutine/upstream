@@ -703,7 +703,7 @@ FROM quay.io/tigera/operator:v1.42.7
 # quay.io/tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.32.3
+FROM calico/typha:v3.32.4
 # calico/typha
 
 # calico/ctl
