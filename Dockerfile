@@ -711,7 +711,7 @@ FROM calico/ctl:v3.32.3
 # calico/ctl
 
 # calico/cni
-FROM calico/cni:v3.32.3
+FROM calico/cni:v3.32.4
 # calico/cni
 
 # calico/apiserver
