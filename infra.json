@@ -1,5 +1,5 @@
 {
-  "version": "0ae40c73-30m",
+  "version": "9e18276a-30m",
   "upstream": {
     "images": [
       "debian:trixie-20261104-slim",
@@ -231,7 +231,7 @@
       "altinity/clickhouse-operator:0.28.0",
       "rabbitmq:4.4.0",
       "kbudde/rabbitmq-exporter:1.0.0",
-      "ghcr.io/rabbitmq/cluster-operator:2.23.2",
+      "ghcr.io/rabbitmq/cluster-operator:2.23.3",
       "ghcr.io/rabbitmq/messaging-topology-operator:1.20.5",
       "prefecthq/prefect:3.9.2-python3.14",
       "prefecthq/prometheus-prefect-exporter:4.2.0",
