@@ -6,6 +6,10 @@ FROM debian:trixie-20261104-slim
 FROM ubuntu:noble-20260917
 # ubuntu
 
+# ubuntu
+FROM ubuntu:resolute-20261024.1
+# ubuntu
+
 # alpine
 FROM alpine:3.24.4
 # alpine

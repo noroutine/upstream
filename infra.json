@@ -1,9 +1,10 @@
 {
-  "version": "8d45d066-30m",
+  "version": "0ae40c73-30m",
   "upstream": {
     "images": [
       "debian:trixie-20261104-slim",
       "ubuntu:noble-20260917",
+      "ubuntu:resolute-20261024.1",
       "alpine:3.24.4",
       "busybox:1.38.0",
       "node:26.13.0-trixie",
