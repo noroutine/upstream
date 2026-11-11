@@ -1,5 +1,5 @@
 # debian
-FROM debian:trixie-20261027-slim
+FROM debian:trixie-20261104-slim
 # debian
 
 # ubuntu
@@ -19,7 +19,7 @@ FROM node:26.13.0-trixie
 # node
 
 # python
-FROM python:3.15.0-trixie
+FROM python:3.15.2-trixie
 # python
 
 # golang
@@ -31,11 +31,11 @@ FROM traefik:v3.7.17
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.98.0
+FROM sonatype/nexus3:3.98.1
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.8.0
+FROM squidfunk/mkdocs-material:9.8.1
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -43,7 +43,7 @@ FROM freeradius/freeradius-server:3.2.10-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.8.2-0
+FROM quay.io/keycloak/keycloak:26.8.2-1
 # quay.io/keycloak/keycloak
 
 # postgres
@@ -67,7 +67,7 @@ FROM pgsty/silo:RELEASE.2026-09-16T00-00-00Z
 # pgsty/silo
 
 # ghcr.io/berriai/litellm
-FROM ghcr.io/berriai/litellm:v1.108.3
+FROM ghcr.io/berriai/litellm:v1.109.0
 # ghcr.io/berriai/litellm
 
 # vllm/vllm-openai
@@ -91,11 +91,11 @@ FROM quay.io/coreos/etcd:v3.7.3
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
-FROM quay.io/prometheus/prometheus:v3.15.1
+FROM quay.io/prometheus/prometheus:v3.16.0
 # quay.io/prometheus/prometheus
 
 # quay.io/prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.34.2
+FROM quay.io/prometheus/alertmanager:v0.35.0
 # quay.io/prometheus/alertmanager
 
 # quay.io/prometheus/node-exporter
@@ -115,11 +115,11 @@ FROM quay.io/prometheus/pushgateway:v1.11.5
 # quay.io/prometheus/pushgateway
 
 # quay.io/prometheus-operator/prometheus-operator
-FROM quay.io/prometheus-operator/prometheus-operator:v0.94.2
+FROM quay.io/prometheus-operator/prometheus-operator:v0.95.2
 # quay.io/prometheus-operator/prometheus-operator
 
 # quay.io/prometheus-operator/prometheus-config-reloader
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.94.2
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.95.2
 # quay.io/prometheus-operator/prometheus-config-reloader
 
 # registry.k8s.io/kube-state-metrics/kube-state-metrics
@@ -155,7 +155,7 @@ FROM docker.elastic.co/apm/apm-server:9.5.6
 # docker.elastic.co/apm/apm-server
 
 # docker.elastic.co/beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.24
+FROM docker.elastic.co/beats/elastic-agent:8.19.25
 # docker.elastic.co/beats/elastic-agent
 
 # mongo
@@ -175,7 +175,7 @@ FROM mccutchen/go-httpbin:2.26.0
 # mccutchen/go-httpbin
 
 # quay.io/oauth2-proxy/oauth2-proxy
-FROM quay.io/oauth2-proxy/oauth2-proxy:v7.15.5-alpine
+FROM quay.io/oauth2-proxy/oauth2-proxy:v7.15.6-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
@@ -183,7 +183,7 @@ FROM gitlab/gitlab-ce:19.5.3-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v19.5.2
+FROM gitlab/gitlab-runner:alpine-v19.5.3
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -251,7 +251,7 @@ FROM aquasec/trivy:0.76.2
 # aquasec/trivy
 
 # ghcr.io/external-secrets/external-secrets
-FROM ghcr.io/external-secrets/external-secrets:v2.14.0
+FROM ghcr.io/external-secrets/external-secrets:v2.15.0
 # ghcr.io/external-secrets/external-secrets
 
 # registry.k8s.io/csi-secrets-store/driver
@@ -319,7 +319,7 @@ FROM redis:8.10.3
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.96.0
+FROM oliver006/redis_exporter:v1.97.0
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -359,7 +359,7 @@ FROM caddy:2.11.9-alpine
 # caddy
 
 # azul/zulu-openjdk-debian
-FROM azul/zulu-openjdk-debian:26.0.2.1-26.32
+FROM azul/zulu-openjdk-debian:27.0.1.0.3-27.30
 # azul/zulu-openjdk-debian
 
 # eclipse-temurin
@@ -419,11 +419,11 @@ FROM quay.io/cephcsi/cephcsi:v3.18.2
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2026.10.4
+FROM homeassistant/home-assistant:2026.11.0
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
-FROM koenkk/zigbee2mqtt:2.14.2
+FROM koenkk/zigbee2mqtt:2.14.3
 # koenkk/zigbee2mqtt
 
 # registry.k8s.io/sig-storage/nfsplugin
@@ -439,7 +439,7 @@ FROM registry.k8s.io/git-sync/git-sync:v4.8.0
 # registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
-FROM apache/airflow:3.3.2-python3.13
+FROM apache/airflow:3.4.0-python3.13
 # apache/airflow
 
 # sj26/mailcatcher
@@ -451,11 +451,11 @@ FROM axllent/mailpit:v1.33.1
 # axllent/mailpit
 
 # fatedier/frps
-FROM fatedier/frps:v0.71.1
+FROM fatedier/frps:v0.72.0
 # fatedier/frps
 
 # fatedier/frpc
-FROM fatedier/frpc:v0.71.1
+FROM fatedier/frpc:v0.72.0
 # fatedier/frpc
 
 # n8nio/n8n
@@ -795,7 +795,7 @@ FROM nvcr.io/nvidia/cloud-native/gpu-operator-validator:v25.3.4
 # nvcr.io/nvidia/cloud-native/gpu-operator-validator
 
 # nvcr.io/nvidia/cuda
-FROM nvcr.io/nvidia/cuda:13.4.3-base-ubi9
+FROM nvcr.io/nvidia/cuda:13.5.0-base-ubi9
 # nvcr.io/nvidia/cuda
 
 # nvcr.io/nvidia/cloud-native/k8s-driver-manager
@@ -851,27 +851,27 @@ FROM confluentinc/cp-enterprise-control-center-next-gen:2.7.0
 # confluentinc/cp-enterprise-control-center-next-gen
 
 # confluentinc/cp-enterprise-replicator
-FROM confluentinc/cp-enterprise-replicator:8.4.0
+FROM confluentinc/cp-enterprise-replicator:8.4.1
 # confluentinc/cp-enterprise-replicator
 
 # confluentinc/cp-kafka-rest
-FROM confluentinc/cp-kafka-rest:8.4.0
+FROM confluentinc/cp-kafka-rest:8.4.1
 # confluentinc/cp-kafka-rest
 
 # confluentinc/cp-ksqldb-server
-FROM confluentinc/cp-ksqldb-server:8.4.0
+FROM confluentinc/cp-ksqldb-server:8.4.1
 # confluentinc/cp-ksqldb-server
 
 # confluentinc/cp-schema-registry
-FROM confluentinc/cp-schema-registry:8.4.0
+FROM confluentinc/cp-schema-registry:8.4.1
 # confluentinc/cp-schema-registry
 
 # confluentinc/cp-server
-FROM confluentinc/cp-server:8.4.0
+FROM confluentinc/cp-server:8.4.1
 # confluentinc/cp-server
 
 # confluentinc/cp-server-connect
-FROM confluentinc/cp-server-connect:8.4.0
+FROM confluentinc/cp-server-connect:8.4.1
 # confluentinc/cp-server-connect
 
 # obsidiandynamics/kafdrop
@@ -919,11 +919,11 @@ FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.5
 # ghcr.io/rabbitmq/messaging-topology-operator
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.8.8-python3.14
+FROM prefecthq/prefect:3.9.2-python3.14
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
-FROM prefecthq/prometheus-prefect-exporter:4.1.0
+FROM prefecthq/prometheus-prefect-exporter:4.2.0
 # prefecthq/prometheus-prefect-exporter
 
 # starrocks/allin1-ubuntu
@@ -939,7 +939,7 @@ FROM starrocks/be-ubuntu:4.1.7
 # starrocks/be-ubuntu
 
 # rclone/rclone
-FROM rclone/rclone:1.75.2
+FROM rclone/rclone:1.76.0
 # rclone/rclone
 
 # apache/hive
@@ -947,7 +947,7 @@ FROM apache/hive:4.2.1
 # apache/hive
 
 # apache/spark
-FROM apache/spark:4.2.1
+FROM apache/spark:4.3.0
 # apache/spark
 
 # ghcr.io/cloudnative-pg/cloudnative-pg
