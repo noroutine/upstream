@@ -967,11 +967,11 @@ FROM code.forgejo.org/forgejo/runner:13.2.1
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
-FROM ghcr.io/catthehacker/ubuntu:act-24.04
+FROM ghcr.io/catthehacker/ubuntu:act-26.04
 # ghcr.io/catthehacker/ubuntu
 
 # ghcr.io/catthehacker/ubuntu
-FROM ghcr.io/catthehacker/ubuntu:runner-24.04
+FROM ghcr.io/catthehacker/ubuntu:runner-26.04
 # ghcr.io/catthehacker/ubuntu
 
 # influxdb
