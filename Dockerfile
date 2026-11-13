@@ -887,7 +887,7 @@ FROM tchiotludo/akhq:0.28.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2026.3.4
+FROM scylladb/scylla:2026.3.5
 # scylladb/scylla
 
 # scylladb/scylla-manager
