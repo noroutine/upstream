@@ -695,7 +695,7 @@ FROM quay.io/tigera/operator:v1.44.0
 # quay.io/tigera/operator
 
 # calico/calico
-FROM calico/calico:v3.33.0
+FROM calico/calico:v3.33.1
 # calico/calico
 
 # calico/node
