@@ -283,7 +283,7 @@ FROM ghcr.io/dexidp/dex:v2.46.1
 # ghcr.io/dexidp/dex
 
 # ghcr.io/pocket-id/pocket-id
-FROM ghcr.io/pocket-id/pocket-id:v2.19.2
+FROM ghcr.io/pocket-id/pocket-id:v2.19.3
 # ghcr.io/pocket-id/pocket-id
 
 # quay.io/argoproj/argocd
