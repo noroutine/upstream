@@ -31,7 +31,7 @@ FROM golang:1.27.3-trixie
 # golang
 
 # traefik
-FROM traefik:v3.7.17
+FROM traefik:v3.7.18
 # traefik
 
 # sonatype/nexus3
