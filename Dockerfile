@@ -27,7 +27,7 @@ FROM python:3.15.2-trixie
 # python
 
 # golang
-FROM golang:1.27.3-trixie
+FROM golang:1.27.4-trixie
 # golang
 
 # traefik
