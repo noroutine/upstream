@@ -1003,5 +1003,5 @@ FROM cr.noroutine.me/catalyst/tls-leech:v0.1.4
 # cr.noroutine.me/catalyst/tls-leech
 
 # ghcr.io/noroutine/kpr
-FROM ghcr.io/noroutine/kpr:v0.0.15
+FROM ghcr.io/noroutine/kpr:v0.0.16
 # ghcr.io/noroutine/kpr
