@@ -955,7 +955,7 @@ FROM apache/spark:4.3.0
 # apache/spark
 
 # ghcr.io/cloudnative-pg/cloudnative-pg
-FROM ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1
+FROM ghcr.io/cloudnative-pg/cloudnative-pg:1.30.2
 # ghcr.io/cloudnative-pg/cloudnative-pg
 
 # codeberg.org/forgejo/forgejo
