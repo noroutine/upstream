@@ -3,11 +3,11 @@ FROM debian:trixie-20261104-slim
 # debian
 
 # ubuntu
-FROM ubuntu:noble-20260917
+FROM ubuntu:noble-20261110
 # ubuntu
 
 # ubuntu
-FROM ubuntu:resolute-20261024.1
+FROM ubuntu:resolute-20261105.1
 # ubuntu
 
 # alpine
