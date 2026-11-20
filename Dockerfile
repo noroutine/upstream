@@ -75,7 +75,7 @@ FROM ghcr.io/berriai/litellm:v1.109.0
 # ghcr.io/berriai/litellm
 
 # vllm/vllm-openai
-FROM vllm/vllm-openai:v0.33.0
+FROM vllm/vllm-openai:v0.34.0
 # vllm/vllm-openai
 
 # nvcr.io/nvidia/vllm
