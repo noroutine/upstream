@@ -935,7 +935,7 @@ FROM starrocks/allin1-ubuntu:4.1.7
 # starrocks/allin1-ubuntu
 
 # starrocks/fe-ubuntu
-FROM starrocks/fe-ubuntu:4.1.7
+FROM starrocks/fe-ubuntu:4.1.8
 # starrocks/fe-ubuntu
 
 # starrocks/be-ubuntu
