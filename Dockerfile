@@ -931,7 +931,7 @@ FROM prefecthq/prometheus-prefect-exporter:4.2.0
 # prefecthq/prometheus-prefect-exporter
 
 # starrocks/allin1-ubuntu
-FROM starrocks/allin1-ubuntu:4.1.7
+FROM starrocks/allin1-ubuntu:4.1.8
 # starrocks/allin1-ubuntu
 
 # starrocks/fe-ubuntu
