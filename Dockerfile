@@ -315,7 +315,7 @@ FROM temporalio/server:1.32.2
 # temporalio/server
 
 # valkey/valkey
-FROM valkey/valkey:9.1.3
+FROM valkey/valkey:9.2.0
 # valkey/valkey
 
 # redis
