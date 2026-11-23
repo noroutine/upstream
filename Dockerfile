@@ -451,7 +451,7 @@ FROM sj26/mailcatcher:v0.11.0
 # sj26/mailcatcher
 
 # axllent/mailpit
-FROM axllent/mailpit:v1.33.1
+FROM axllent/mailpit:v1.34.0
 # axllent/mailpit
 
 # fatedier/frps
