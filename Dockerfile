@@ -403,7 +403,7 @@ FROM curlimages/curl:8.23.0
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.19.1
+FROM restic/restic:0.20.0
 # restic/restic
 
 # coturn/coturn
