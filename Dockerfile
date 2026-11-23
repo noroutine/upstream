@@ -55,7 +55,7 @@ FROM postgres:18.6-trixie
 # postgres
 
 # prometheuscommunity/postgres-exporter
-FROM prometheuscommunity/postgres-exporter:v0.20.1
+FROM prometheuscommunity/postgres-exporter:v0.21.1
 # prometheuscommunity/postgres-exporter
 
 # noroutine/minio
