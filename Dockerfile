@@ -143,7 +143,7 @@ FROM ghcr.io/prymitive/karma:v0.134
 # ghcr.io/prymitive/karma
 
 # docker.elastic.co/elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.5.6
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.5.7
 # docker.elastic.co/elasticsearch/elasticsearch
 
 # docker.elastic.co/logstash/logstash
