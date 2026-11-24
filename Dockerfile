@@ -763,7 +763,7 @@ FROM registry.k8s.io/sig-storage/livenessprobe:v2.20.0
 # registry.k8s.io/sig-storage/livenessprobe
 
 # registry.k8s.io/sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.18.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.18.1
 # registry.k8s.io/sig-storage/csi-node-driver-registrar
 
 # registry.k8s.io/sig-storage/csi-attacher
