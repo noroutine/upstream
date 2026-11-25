@@ -923,7 +923,7 @@ FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.6
 # ghcr.io/rabbitmq/messaging-topology-operator
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.9.2-python3.14
+FROM prefecthq/prefect:3.9.5-python3.14
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
