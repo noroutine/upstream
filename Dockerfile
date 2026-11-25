@@ -287,7 +287,7 @@ FROM ghcr.io/pocket-id/pocket-id:v2.19.2
 # ghcr.io/pocket-id/pocket-id
 
 # quay.io/argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.6.1
+FROM quay.io/argoproj/argocd:v3.6.3
 # quay.io/argoproj/argocd
 
 # quay.io/argoproj/workflow-controller
