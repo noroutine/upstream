@@ -847,7 +847,7 @@ FROM confluentinc/confluent-init-container:3.4.0
 # confluentinc/confluent-init-container
 
 # confluentinc/confluent-operator
-FROM confluentinc/confluent-operator:0.2038.1
+FROM confluentinc/confluent-operator:0.2038.24
 # confluentinc/confluent-operator
 
 # confluentinc/cp-enterprise-control-center-next-gen
