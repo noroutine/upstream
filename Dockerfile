@@ -975,15 +975,15 @@ FROM ghcr.io/catthehacker/ubuntu:runner-24.04
 # ghcr.io/catthehacker/ubuntu
 
 # influxdb
-FROM influxdb:1.12.4
+FROM influxdb:2.10.1
 # influxdb
 
 # influxdb
-FROM influxdb:2.9.1
+FROM influxdb:2.10.1
 # influxdb
 
 # influxdb
-FROM influxdb:3.10.5-core
+FROM influxdb:3.12.1-core
 # influxdb
 
 # timescale/timescaledb-ha
