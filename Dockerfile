@@ -963,7 +963,7 @@ FROM codeberg.org/forgejo/forgejo:17.0.2
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:13.2.1
+FROM code.forgejo.org/forgejo/runner:13.2.2
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
