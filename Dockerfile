@@ -7,7 +7,7 @@ FROM ubuntu:noble-20260917
 # ubuntu
 
 # ubuntu
-FROM ubuntu:resolute-20261024.1
+FROM ubuntu:noble-20261110
 # ubuntu
 
 # alpine
@@ -19,7 +19,7 @@ FROM busybox:1.38.0
 # busybox
 
 # node
-FROM node:26.13.0-trixie
+FROM node:26.13.1-trixie
 # node
 
 # python
@@ -27,19 +27,19 @@ FROM python:3.15.2-trixie
 # python
 
 # golang
-FROM golang:1.27.3-trixie
+FROM golang:1.27.4-trixie
 # golang
 
 # traefik
-FROM traefik:v3.7.17
+FROM traefik:v3.7.19
 # traefik
 
 # sonatype/nexus3
-FROM sonatype/nexus3:3.98.1
+FROM sonatype/nexus3:3.98.3
 # sonatype/nexus3
 
 # squidfunk/mkdocs-material
-FROM squidfunk/mkdocs-material:9.8.1
+FROM squidfunk/mkdocs-material:9.8.2
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
@@ -47,15 +47,15 @@ FROM freeradius/freeradius-server:3.2.10-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
-FROM quay.io/keycloak/keycloak:26.8.2-1
+FROM quay.io/keycloak/keycloak:26.8.2-3
 # quay.io/keycloak/keycloak
 
 # postgres
-FROM postgres:18.6-trixie
+FROM postgres:18.7-trixie
 # postgres
 
 # prometheuscommunity/postgres-exporter
-FROM prometheuscommunity/postgres-exporter:v0.20.1
+FROM prometheuscommunity/postgres-exporter:v0.21.1
 # prometheuscommunity/postgres-exporter
 
 # noroutine/minio
@@ -71,15 +71,15 @@ FROM pgsty/silo:RELEASE.2026-09-16T00-00-00Z
 # pgsty/silo
 
 # ghcr.io/berriai/litellm
-FROM ghcr.io/berriai/litellm:v1.109.0
+FROM ghcr.io/berriai/litellm:1.111.0
 # ghcr.io/berriai/litellm
 
 # vllm/vllm-openai
-FROM vllm/vllm-openai:v0.33.0
+FROM vllm/vllm-openai:v0.34.0
 # vllm/vllm-openai
 
 # nvcr.io/nvidia/vllm
-FROM nvcr.io/nvidia/vllm:26.10-py3
+FROM nvcr.io/nvidia/vllm:26.11-py3
 # nvcr.io/nvidia/vllm
 
 # quay.io/coreos/etcd
@@ -99,11 +99,11 @@ FROM quay.io/prometheus/prometheus:v3.16.0
 # quay.io/prometheus/prometheus
 
 # quay.io/prometheus/alertmanager
-FROM quay.io/prometheus/alertmanager:v0.35.0
+FROM quay.io/prometheus/alertmanager:v0.35.1
 # quay.io/prometheus/alertmanager
 
 # quay.io/prometheus/node-exporter
-FROM quay.io/prometheus/node-exporter:v1.12.1
+FROM quay.io/prometheus/node-exporter:v1.13.1
 # quay.io/prometheus/node-exporter
 
 # quay.io/prometheus/blackbox-exporter
@@ -143,23 +143,23 @@ FROM ghcr.io/prymitive/karma:v0.134
 # ghcr.io/prymitive/karma
 
 # docker.elastic.co/elasticsearch/elasticsearch
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.5.6
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.5.7
 # docker.elastic.co/elasticsearch/elasticsearch
 
 # docker.elastic.co/logstash/logstash
-FROM docker.elastic.co/logstash/logstash:9.5.6
+FROM docker.elastic.co/logstash/logstash:9.5.7
 # docker.elastic.co/logstash/logstash
 
 # docker.elastic.co/kibana/kibana
-FROM docker.elastic.co/kibana/kibana:9.5.6
+FROM docker.elastic.co/kibana/kibana:9.5.7
 # docker.elastic.co/kibana/kibana
 
 # docker.elastic.co/apm/apm-server
-FROM docker.elastic.co/apm/apm-server:9.5.6
+FROM docker.elastic.co/apm/apm-server:9.5.7
 # docker.elastic.co/apm/apm-server
 
 # docker.elastic.co/beats/elastic-agent
-FROM docker.elastic.co/beats/elastic-agent:8.19.25
+FROM docker.elastic.co/beats/elastic-agent:8.19.26
 # docker.elastic.co/beats/elastic-agent
 
 # mongo
@@ -183,11 +183,11 @@ FROM quay.io/oauth2-proxy/oauth2-proxy:v7.15.6-alpine
 # quay.io/oauth2-proxy/oauth2-proxy
 
 # gitlab/gitlab-ce
-FROM gitlab/gitlab-ce:19.5.3-ce.0
+FROM gitlab/gitlab-ce:19.6.1-ce.0
 # gitlab/gitlab-ce
 
 # gitlab/gitlab-runner
-FROM gitlab/gitlab-runner:alpine-v19.5.3
+FROM gitlab/gitlab-runner:alpine-v19.6.0
 # gitlab/gitlab-runner
 
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper
@@ -203,7 +203,7 @@ FROM quay.io/brancz/kube-rbac-proxy:v0.23.1
 # quay.io/brancz/kube-rbac-proxy
 
 # pihole/pihole
-FROM pihole/pihole:2026.10.1
+FROM pihole/pihole:2026.11.0
 # pihole/pihole
 
 # klutchell/unbound
@@ -211,11 +211,11 @@ FROM klutchell/unbound:v1.26.2
 # klutchell/unbound
 
 # nextcloud
-FROM nextcloud:35.0.2-apache
+FROM nextcloud:35.0.3-apache
 # nextcloud
 
 # docker
-FROM docker:29.9.3-dind
+FROM docker:29.10.0-dind
 # docker
 
 # registry
@@ -243,11 +243,11 @@ FROM quay.io/frrouting/frr:10.7.1
 # quay.io/frrouting/frr
 
 # haproxytech/haproxy-alpine
-FROM haproxytech/haproxy-alpine:3.4.7
+FROM haproxytech/haproxy-alpine:3.4.8
 # haproxytech/haproxy-alpine
 
 # haproxytech/kubernetes-ingress
-FROM haproxytech/kubernetes-ingress:3.2.19
+FROM haproxytech/kubernetes-ingress:3.4.1
 # haproxytech/kubernetes-ingress
 
 # aquasec/trivy
@@ -267,7 +267,7 @@ FROM registry.k8s.io/csi-secrets-store/driver-crds:v1.6.2
 # registry.k8s.io/csi-secrets-store/driver-crds
 
 # stakater/reloader
-FROM stakater/reloader:v1.4.23
+FROM stakater/reloader:v1.4.25
 # stakater/reloader
 
 # jimmidyson/configmap-reload
@@ -283,11 +283,11 @@ FROM ghcr.io/dexidp/dex:v2.46.1
 # ghcr.io/dexidp/dex
 
 # ghcr.io/pocket-id/pocket-id
-FROM ghcr.io/pocket-id/pocket-id:v2.19.2
+FROM ghcr.io/pocket-id/pocket-id:v2.19.3
 # ghcr.io/pocket-id/pocket-id
 
 # quay.io/argoproj/argocd
-FROM quay.io/argoproj/argocd:v3.6.1
+FROM quay.io/argoproj/argocd:v3.6.3
 # quay.io/argoproj/argocd
 
 # quay.io/argoproj/workflow-controller
@@ -303,11 +303,11 @@ FROM crossplane/crossplane:v2.4.3
 # crossplane/crossplane
 
 # ghcr.io/runatlantis/atlantis
-FROM ghcr.io/runatlantis/atlantis:v0.49.0
+FROM ghcr.io/runatlantis/atlantis:v0.50.0
 # ghcr.io/runatlantis/atlantis
 
 # ghcr.io/akuity/kargo
-FROM ghcr.io/akuity/kargo:v1.12.5
+FROM ghcr.io/akuity/kargo:v1.12.7
 # ghcr.io/akuity/kargo
 
 # temporalio/server
@@ -315,7 +315,7 @@ FROM temporalio/server:1.32.2
 # temporalio/server
 
 # valkey/valkey
-FROM valkey/valkey:9.1.3
+FROM valkey/valkey:9.2.0
 # valkey/valkey
 
 # redis
@@ -323,7 +323,7 @@ FROM redis:8.10.3
 # redis
 
 # oliver006/redis_exporter
-FROM oliver006/redis_exporter:v1.97.0
+FROM oliver006/redis_exporter:v1.98.0
 # oliver006/redis_exporter
 
 # boky/postfix
@@ -335,7 +335,7 @@ FROM connecteverything/nats-operator:0.8.0
 # connecteverything/nats-operator
 
 # nats
-FROM nats:2.15.2-alpine
+FROM nats:2.15.3-alpine
 # nats
 
 # natsio/prometheus-nats-exporter
@@ -351,7 +351,7 @@ FROM masipcat/wireguard-go:0.0.20230223
 # masipcat/wireguard-go
 
 # eclipse-mosquitto
-FROM eclipse-mosquitto:2.0.22-openssl
+FROM eclipse-mosquitto:2.0.23-openssl
 # eclipse-mosquitto
 
 # sapcc/mosquitto-exporter
@@ -391,11 +391,11 @@ FROM jellyfin/jellyfin:12.4.20261026-211555
 # jellyfin/jellyfin
 
 # haveagitgat/tdarr
-FROM haveagitgat/tdarr:3.06.00
+FROM haveagitgat/tdarr:3.08.00
 # haveagitgat/tdarr
 
 # haveagitgat/tdarr_node
-FROM haveagitgat/tdarr_node:3.06.00
+FROM haveagitgat/tdarr_node:3.08.00
 # haveagitgat/tdarr_node
 
 # curlimages/curl
@@ -403,19 +403,19 @@ FROM curlimages/curl:8.23.0
 # curlimages/curl
 
 # restic/restic
-FROM restic/restic:0.19.1
+FROM restic/restic:0.20.0
 # restic/restic
 
 # coturn/coturn
-FROM coturn/coturn:4.18.0
+FROM coturn/coturn:4.19.2
 # coturn/coturn
 
 # netboxcommunity/netbox
-FROM netboxcommunity/netbox:v4.7.4
+FROM netboxcommunity/netbox:v4.7.5
 # netboxcommunity/netbox
 
 # postgrest/postgrest
-FROM postgrest/postgrest:v16.5
+FROM postgrest/postgrest:v16.6
 # postgrest/postgrest
 
 # quay.io/cephcsi/cephcsi
@@ -423,7 +423,7 @@ FROM quay.io/cephcsi/cephcsi:v3.18.2
 # quay.io/cephcsi/cephcsi
 
 # homeassistant/home-assistant
-FROM homeassistant/home-assistant:2026.11.0
+FROM homeassistant/home-assistant:2026.11.3
 # homeassistant/home-assistant
 
 # koenkk/zigbee2mqtt
@@ -435,7 +435,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.6
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2026.10.7
+FROM cloudflare/cloudflared:2026.11.1
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
@@ -451,7 +451,7 @@ FROM sj26/mailcatcher:v0.11.0
 # sj26/mailcatcher
 
 # axllent/mailpit
-FROM axllent/mailpit:v1.33.1
+FROM axllent/mailpit:v1.34.0
 # axllent/mailpit
 
 # fatedier/frps
@@ -499,7 +499,7 @@ FROM zachomedia/cert-manager-webhook-pdns:v2.5.6
 # zachomedia/cert-manager-webhook-pdns
 
 # hashicorp/vault
-FROM hashicorp/vault:2.2.1
+FROM hashicorp/vault:2.2.2
 # hashicorp/vault
 
 # hashicorp/vault-k8s
@@ -511,7 +511,7 @@ FROM hashicorp/vault-csi-provider:1.7.4
 # hashicorp/vault-csi-provider
 
 # openbao/openbao
-FROM openbao/openbao:2.7.2
+FROM openbao/openbao:2.7.3
 # openbao/openbao
 
 # openbao/openbao-csi-provider
@@ -743,15 +743,15 @@ FROM calico/csi:v3.32.3
 # calico/csi
 
 # istio/pilot
-FROM istio/pilot:1.31.4
+FROM istio/pilot:1.32.0
 # istio/pilot
 
 # istio/proxyv2
-FROM istio/proxyv2:1.31.4
+FROM istio/proxyv2:1.32.0
 # istio/proxyv2
 
 # istio/ztunnel
-FROM istio/ztunnel:1.31.4
+FROM istio/ztunnel:1.32.0
 # istio/ztunnel
 
 # registry.k8s.io/nfd/node-feature-discovery
@@ -759,31 +759,31 @@ FROM registry.k8s.io/nfd/node-feature-discovery:v0.20.1
 # registry.k8s.io/nfd/node-feature-discovery
 
 # registry.k8s.io/sig-storage/livenessprobe
-FROM registry.k8s.io/sig-storage/livenessprobe:v2.20.0
+FROM registry.k8s.io/sig-storage/livenessprobe:v2.20.1
 # registry.k8s.io/sig-storage/livenessprobe
 
 # registry.k8s.io/sig-storage/csi-node-driver-registrar
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.18.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.18.1
 # registry.k8s.io/sig-storage/csi-node-driver-registrar
 
 # registry.k8s.io/sig-storage/csi-attacher
-FROM registry.k8s.io/sig-storage/csi-attacher:v4.13.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.13.1
 # registry.k8s.io/sig-storage/csi-attacher
 
 # registry.k8s.io/sig-storage/csi-resizer
-FROM registry.k8s.io/sig-storage/csi-resizer:v2.3.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v2.3.1
 # registry.k8s.io/sig-storage/csi-resizer
 
 # registry.k8s.io/sig-storage/csi-provisioner
-FROM registry.k8s.io/sig-storage/csi-provisioner:v6.4.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v6.4.1
 # registry.k8s.io/sig-storage/csi-provisioner
 
 # registry.k8s.io/sig-storage/csi-snapshotter
-FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.7.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.7.1
 # registry.k8s.io/sig-storage/csi-snapshotter
 
 # registry.k8s.io/sig-storage/snapshot-controller
-FROM registry.k8s.io/sig-storage/snapshot-controller:v8.7.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.7.1
 # registry.k8s.io/sig-storage/snapshot-controller
 
 # registry.k8s.io/sig-storage/snapshot-validation-webhook
@@ -791,7 +791,7 @@ FROM registry.k8s.io/sig-storage/snapshot-validation-webhook:v8.1.1
 # registry.k8s.io/sig-storage/snapshot-validation-webhook
 
 # nvcr.io/nvidia/gpu-operator
-FROM nvcr.io/nvidia/gpu-operator:v26.7.2
+FROM nvcr.io/nvidia/gpu-operator:v26.7.3
 # nvcr.io/nvidia/gpu-operator
 
 # nvcr.io/nvidia/cloud-native/gpu-operator-validator
@@ -803,7 +803,7 @@ FROM nvcr.io/nvidia/cuda:13.5.0-base-ubi9
 # nvcr.io/nvidia/cuda
 
 # nvcr.io/nvidia/cloud-native/k8s-driver-manager
-FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.12.1
+FROM nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.13.0
 # nvcr.io/nvidia/cloud-native/k8s-driver-manager
 
 # nvcr.io/nvidia/k8s/container-toolkit
@@ -883,15 +883,15 @@ FROM obsidiandynamics/kafdrop:4.3.1
 # obsidiandynamics/kafdrop
 
 # tchiotludo/akhq
-FROM tchiotludo/akhq:0.28.0
+FROM tchiotludo/akhq:0.29.0
 # tchiotludo/akhq
 
 # scylladb/scylla
-FROM scylladb/scylla:2026.3.4
+FROM scylladb/scylla:2026.3.6
 # scylladb/scylla
 
 # scylladb/scylla-manager
-FROM scylladb/scylla-manager:3.13.0
+FROM scylladb/scylla-manager:3.13.1
 # scylladb/scylla-manager
 
 # scylladb/scylla-operator
@@ -907,7 +907,7 @@ FROM altinity/clickhouse-operator:0.28.0
 # altinity/clickhouse-operator
 
 # rabbitmq
-FROM rabbitmq:4.4.0
+FROM rabbitmq:4.4.1
 # rabbitmq
 
 # kbudde/rabbitmq-exporter
@@ -919,7 +919,7 @@ FROM ghcr.io/rabbitmq/cluster-operator:2.23.3
 # ghcr.io/rabbitmq/cluster-operator
 
 # ghcr.io/rabbitmq/messaging-topology-operator
-FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.5
+FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.6
 # ghcr.io/rabbitmq/messaging-topology-operator
 
 # prefecthq/prefect
@@ -927,19 +927,19 @@ FROM prefecthq/prefect:3.9.2-python3.14
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
-FROM prefecthq/prometheus-prefect-exporter:4.2.0
+FROM prefecthq/prometheus-prefect-exporter:5.0.0
 # prefecthq/prometheus-prefect-exporter
 
 # starrocks/allin1-ubuntu
-FROM starrocks/allin1-ubuntu:4.1.7
+FROM starrocks/allin1-ubuntu:4.1.8
 # starrocks/allin1-ubuntu
 
 # starrocks/fe-ubuntu
-FROM starrocks/fe-ubuntu:4.1.7
+FROM starrocks/fe-ubuntu:4.1.8
 # starrocks/fe-ubuntu
 
 # starrocks/be-ubuntu
-FROM starrocks/be-ubuntu:4.1.7
+FROM starrocks/be-ubuntu:4.1.8
 # starrocks/be-ubuntu
 
 # rclone/rclone
@@ -955,11 +955,11 @@ FROM apache/spark:4.3.0
 # apache/spark
 
 # ghcr.io/cloudnative-pg/cloudnative-pg
-FROM ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1
+FROM ghcr.io/cloudnative-pg/cloudnative-pg:1.30.2
 # ghcr.io/cloudnative-pg/cloudnative-pg
 
 # codeberg.org/forgejo/forgejo
-FROM codeberg.org/forgejo/forgejo:17.0.1
+FROM codeberg.org/forgejo/forgejo:17.0.2
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
@@ -1003,5 +1003,5 @@ FROM cr.noroutine.me/catalyst/tls-leech:v0.1.4
 # cr.noroutine.me/catalyst/tls-leech
 
 # ghcr.io/noroutine/kpr
-FROM ghcr.io/noroutine/kpr:v0.0.15
+FROM ghcr.io/noroutine/kpr:v0.0.17
 # ghcr.io/noroutine/kpr
