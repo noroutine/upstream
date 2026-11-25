@@ -83,15 +83,15 @@ FROM nvcr.io/nvidia/vllm:26.11-py3
 # nvcr.io/nvidia/vllm
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.5.35
+FROM quay.io/coreos/etcd:v3.5.36
 # quay.io/coreos/etcd
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.6.16
+FROM quay.io/coreos/etcd:v3.6.17
 # quay.io/coreos/etcd
 
 # quay.io/coreos/etcd
-FROM quay.io/coreos/etcd:v3.7.3
+FROM quay.io/coreos/etcd:v3.7.4
 # quay.io/coreos/etcd
 
 # quay.io/prometheus/prometheus
@@ -215,7 +215,7 @@ FROM nextcloud:35.0.3-apache
 # nextcloud
 
 # docker
-FROM docker:29.10.0-dind
+FROM docker:29.10.1-dind
 # docker
 
 # registry
@@ -435,7 +435,7 @@ FROM registry.k8s.io/sig-storage/nfsplugin:v4.13.6
 # registry.k8s.io/sig-storage/nfsplugin
 
 # cloudflare/cloudflared
-FROM cloudflare/cloudflared:2026.11.1
+FROM cloudflare/cloudflared:2026.11.2
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
@@ -527,6 +527,22 @@ FROM registry.k8s.io/coredns/coredns:v1.15.0
 # registry.k8s.io/coredns/coredns
 
 # registry.k8s.io/kube-apiserver
+FROM registry.k8s.io/kube-apiserver:v1.37.3
+# registry.k8s.io/kube-apiserver
+
+# registry.k8s.io/kube-proxy
+FROM registry.k8s.io/kube-proxy:v1.37.3
+# registry.k8s.io/kube-proxy
+
+# registry.k8s.io/kube-scheduler
+FROM registry.k8s.io/kube-scheduler:v1.37.3
+# registry.k8s.io/kube-scheduler
+
+# registry.k8s.io/kube-controller-manager
+FROM registry.k8s.io/kube-controller-manager:v1.37.3
+# registry.k8s.io/kube-controller-manager
+
+# registry.k8s.io/kube-apiserver
 FROM registry.k8s.io/kube-apiserver:v1.37.2
 # registry.k8s.io/kube-apiserver
 
@@ -543,19 +559,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.37.2
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.37.1
+FROM registry.k8s.io/kube-apiserver:v1.36.7
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.37.1
+FROM registry.k8s.io/kube-proxy:v1.36.7
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.37.1
+FROM registry.k8s.io/kube-scheduler:v1.36.7
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.37.1
+FROM registry.k8s.io/kube-controller-manager:v1.36.7
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -575,19 +591,19 @@ FROM registry.k8s.io/kube-controller-manager:v1.36.6
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.36.5
+FROM registry.k8s.io/kube-apiserver:v1.35.11
 # registry.k8s.io/kube-apiserver
 
 # registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.36.5
+FROM registry.k8s.io/kube-proxy:v1.35.11
 # registry.k8s.io/kube-proxy
 
 # registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.36.5
+FROM registry.k8s.io/kube-scheduler:v1.35.11
 # registry.k8s.io/kube-scheduler
 
 # registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.36.5
+FROM registry.k8s.io/kube-controller-manager:v1.35.11
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -604,22 +620,6 @@ FROM registry.k8s.io/kube-scheduler:v1.35.10
 
 # registry.k8s.io/kube-controller-manager
 FROM registry.k8s.io/kube-controller-manager:v1.35.10
-# registry.k8s.io/kube-controller-manager
-
-# registry.k8s.io/kube-apiserver
-FROM registry.k8s.io/kube-apiserver:v1.35.9
-# registry.k8s.io/kube-apiserver
-
-# registry.k8s.io/kube-proxy
-FROM registry.k8s.io/kube-proxy:v1.35.9
-# registry.k8s.io/kube-proxy
-
-# registry.k8s.io/kube-scheduler
-FROM registry.k8s.io/kube-scheduler:v1.35.9
-# registry.k8s.io/kube-scheduler
-
-# registry.k8s.io/kube-controller-manager
-FROM registry.k8s.io/kube-controller-manager:v1.35.9
 # registry.k8s.io/kube-controller-manager
 
 # registry.k8s.io/kube-apiserver
@@ -691,55 +691,55 @@ FROM rancher/kubectl:v1.36.2
 # rancher/kubectl
 
 # quay.io/tigera/operator
-FROM quay.io/tigera/operator:v1.44.0
+FROM quay.io/tigera/operator:v1.44.1
 # quay.io/tigera/operator
 
 # calico/calico
-FROM calico/calico:v3.33.0
+FROM calico/calico:v3.33.1
 # calico/calico
 
 # calico/node
-FROM calico/node:v3.33.0
+FROM calico/node:v3.33.1
 # calico/node
 
 # quay.io/tigera/operator
-FROM quay.io/tigera/operator:v1.42.7
+FROM quay.io/tigera/operator:v1.42.8
 # quay.io/tigera/operator
 
 # calico/typha
-FROM calico/typha:v3.32.3
+FROM calico/typha:v3.32.4
 # calico/typha
 
 # calico/ctl
-FROM calico/ctl:v3.32.3
+FROM calico/ctl:v3.32.4
 # calico/ctl
 
 # calico/cni
-FROM calico/cni:v3.32.3
+FROM calico/cni:v3.32.4
 # calico/cni
 
 # calico/apiserver
-FROM calico/apiserver:v3.32.3
+FROM calico/apiserver:v3.32.4
 # calico/apiserver
 
 # calico/kube-controllers
-FROM calico/kube-controllers:v3.32.3
+FROM calico/kube-controllers:v3.32.4
 # calico/kube-controllers
 
 # calico/dikastes
-FROM calico/dikastes:v3.32.3
+FROM calico/dikastes:v3.32.4
 # calico/dikastes
 
 # calico/pod2daemon-flexvol
-FROM calico/pod2daemon-flexvol:v3.32.3
+FROM calico/pod2daemon-flexvol:v3.32.4
 # calico/pod2daemon-flexvol
 
 # calico/node-driver-registrar
-FROM calico/node-driver-registrar:v3.32.3
+FROM calico/node-driver-registrar:v3.32.4
 # calico/node-driver-registrar
 
 # calico/csi
-FROM calico/csi:v3.32.3
+FROM calico/csi:v3.32.4
 # calico/csi
 
 # istio/pilot
@@ -923,7 +923,7 @@ FROM ghcr.io/rabbitmq/messaging-topology-operator:1.20.6
 # ghcr.io/rabbitmq/messaging-topology-operator
 
 # prefecthq/prefect
-FROM prefecthq/prefect:3.9.2-python3.14
+FROM prefecthq/prefect:3.9.5-python3.14
 # prefecthq/prefect
 
 # prefecthq/prometheus-prefect-exporter
@@ -963,7 +963,7 @@ FROM codeberg.org/forgejo/forgejo:17.0.2
 # codeberg.org/forgejo/forgejo
 
 # code.forgejo.org/forgejo/runner
-FROM code.forgejo.org/forgejo/runner:13.2.1
+FROM code.forgejo.org/forgejo/runner:13.2.2
 # code.forgejo.org/forgejo/runner
 
 # ghcr.io/catthehacker/ubuntu
