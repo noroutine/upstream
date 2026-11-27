@@ -43,7 +43,7 @@ FROM squidfunk/mkdocs-material:9.8.2
 # squidfunk/mkdocs-material
 
 # freeradius/freeradius-server
-FROM freeradius/freeradius-server:3.2.10-alpine
+FROM freeradius/freeradius-server:3.2.11-alpine
 # freeradius/freeradius-server
 
 # quay.io/keycloak/keycloak
