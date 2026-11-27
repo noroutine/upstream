@@ -439,7 +439,7 @@ FROM cloudflare/cloudflared:2026.11.2
 # cloudflare/cloudflared
 
 # registry.k8s.io/git-sync/git-sync
-FROM registry.k8s.io/git-sync/git-sync:v4.8.0
+FROM registry.k8s.io/git-sync/git-sync:v4.8.1
 # registry.k8s.io/git-sync/git-sync
 
 # apache/airflow
